@@ -73,6 +73,10 @@ module.exports = {
       world.error = err;
       world.data = data;
 
+      // log err and data
+      console.log("err: ", err);
+      console.log("data: ", data);
+
       try {
         if (typeof next.condition === "function") {
           var condition = next.condition.call(world, world);
