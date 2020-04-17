@@ -1,58 +1,58 @@
 import {
   CreateBudgetCommandInput,
-  CreateBudgetCommandOutput
+  CreateBudgetCommandOutput,
 } from "../commands/CreateBudgetCommand";
 import {
   CreateNotificationCommandInput,
-  CreateNotificationCommandOutput
+  CreateNotificationCommandOutput,
 } from "../commands/CreateNotificationCommand";
 import {
   CreateSubscriberCommandInput,
-  CreateSubscriberCommandOutput
+  CreateSubscriberCommandOutput,
 } from "../commands/CreateSubscriberCommand";
 import {
   DeleteBudgetCommandInput,
-  DeleteBudgetCommandOutput
+  DeleteBudgetCommandOutput,
 } from "../commands/DeleteBudgetCommand";
 import {
   DeleteNotificationCommandInput,
-  DeleteNotificationCommandOutput
+  DeleteNotificationCommandOutput,
 } from "../commands/DeleteNotificationCommand";
 import {
   DeleteSubscriberCommandInput,
-  DeleteSubscriberCommandOutput
+  DeleteSubscriberCommandOutput,
 } from "../commands/DeleteSubscriberCommand";
 import {
   DescribeBudgetCommandInput,
-  DescribeBudgetCommandOutput
+  DescribeBudgetCommandOutput,
 } from "../commands/DescribeBudgetCommand";
 import {
   DescribeBudgetPerformanceHistoryCommandInput,
-  DescribeBudgetPerformanceHistoryCommandOutput
+  DescribeBudgetPerformanceHistoryCommandOutput,
 } from "../commands/DescribeBudgetPerformanceHistoryCommand";
 import {
   DescribeBudgetsCommandInput,
-  DescribeBudgetsCommandOutput
+  DescribeBudgetsCommandOutput,
 } from "../commands/DescribeBudgetsCommand";
 import {
   DescribeNotificationsForBudgetCommandInput,
-  DescribeNotificationsForBudgetCommandOutput
+  DescribeNotificationsForBudgetCommandOutput,
 } from "../commands/DescribeNotificationsForBudgetCommand";
 import {
   DescribeSubscribersForNotificationCommandInput,
-  DescribeSubscribersForNotificationCommandOutput
+  DescribeSubscribersForNotificationCommandOutput,
 } from "../commands/DescribeSubscribersForNotificationCommand";
 import {
   UpdateBudgetCommandInput,
-  UpdateBudgetCommandOutput
+  UpdateBudgetCommandOutput,
 } from "../commands/UpdateBudgetCommand";
 import {
   UpdateNotificationCommandInput,
-  UpdateNotificationCommandOutput
+  UpdateNotificationCommandOutput,
 } from "../commands/UpdateNotificationCommand";
 import {
   UpdateSubscriberCommandInput,
-  UpdateSubscriberCommandOutput
+  UpdateSubscriberCommandOutput,
 } from "../commands/UpdateSubscriberCommand";
 import {
   AccessDeniedException,
@@ -100,11 +100,11 @@ import {
   UpdateNotificationRequest,
   UpdateNotificationResponse,
   UpdateSubscriberRequest,
-  UpdateSubscriberResponse
+  UpdateSubscriberResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -112,7 +112,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateBudgetCommand(
@@ -330,7 +330,7 @@ export async function deserializeAws_json1_1CreateBudgetCommand(
   const response: CreateBudgetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateBudgetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -341,7 +341,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
 ): Promise<CreateBudgetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -357,7 +357,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CreationLimitExceededException":
@@ -368,7 +368,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateRecordException":
@@ -379,7 +379,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -390,7 +390,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -401,7 +401,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -412,7 +412,7 @@ async function deserializeAws_json1_1CreateBudgetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -437,7 +437,7 @@ export async function deserializeAws_json1_1CreateNotificationCommand(
   const response: CreateNotificationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateNotificationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -448,7 +448,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
 ): Promise<CreateNotificationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -464,7 +464,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CreationLimitExceededException":
@@ -475,7 +475,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateRecordException":
@@ -486,7 +486,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -497,7 +497,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -508,7 +508,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -519,7 +519,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -530,7 +530,7 @@ async function deserializeAws_json1_1CreateNotificationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -552,7 +552,7 @@ export async function deserializeAws_json1_1CreateSubscriberCommand(
   const response: CreateSubscriberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSubscriberResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -563,7 +563,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
 ): Promise<CreateSubscriberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -579,7 +579,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CreationLimitExceededException":
@@ -590,7 +590,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateRecordException":
@@ -601,7 +601,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -612,7 +612,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -623,7 +623,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -634,7 +634,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -645,7 +645,7 @@ async function deserializeAws_json1_1CreateSubscriberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -667,7 +667,7 @@ export async function deserializeAws_json1_1DeleteBudgetCommand(
   const response: DeleteBudgetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteBudgetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -678,7 +678,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
 ): Promise<DeleteBudgetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -694,7 +694,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -705,7 +705,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -716,7 +716,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -727,7 +727,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -738,7 +738,7 @@ async function deserializeAws_json1_1DeleteBudgetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -763,7 +763,7 @@ export async function deserializeAws_json1_1DeleteNotificationCommand(
   const response: DeleteNotificationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteNotificationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -774,7 +774,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
 ): Promise<DeleteNotificationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -790,7 +790,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -801,7 +801,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -812,7 +812,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -823,7 +823,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -834,7 +834,7 @@ async function deserializeAws_json1_1DeleteNotificationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -856,7 +856,7 @@ export async function deserializeAws_json1_1DeleteSubscriberCommand(
   const response: DeleteSubscriberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteSubscriberResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -867,7 +867,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
 ): Promise<DeleteSubscriberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -883,7 +883,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -894,7 +894,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -905,7 +905,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -916,7 +916,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -927,7 +927,7 @@ async function deserializeAws_json1_1DeleteSubscriberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -949,7 +949,7 @@ export async function deserializeAws_json1_1DescribeBudgetCommand(
   const response: DescribeBudgetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBudgetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -960,7 +960,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
 ): Promise<DescribeBudgetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -976,7 +976,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -987,7 +987,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -998,7 +998,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1009,7 +1009,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1020,7 +1020,7 @@ async function deserializeAws_json1_1DescribeBudgetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1048,7 +1048,7 @@ export async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryComm
   const response: DescribeBudgetPerformanceHistoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBudgetPerformanceHistoryResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1059,7 +1059,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
 ): Promise<DescribeBudgetPerformanceHistoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1075,7 +1075,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExpiredNextTokenException":
@@ -1086,7 +1086,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1097,7 +1097,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1108,7 +1108,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1119,7 +1119,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1130,7 +1130,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1141,7 +1141,7 @@ async function deserializeAws_json1_1DescribeBudgetPerformanceHistoryCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1163,7 +1163,7 @@ export async function deserializeAws_json1_1DescribeBudgetsCommand(
   const response: DescribeBudgetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBudgetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1174,7 +1174,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
 ): Promise<DescribeBudgetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1190,7 +1190,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExpiredNextTokenException":
@@ -1201,7 +1201,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1212,7 +1212,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1223,7 +1223,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1234,7 +1234,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1245,7 +1245,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1256,7 +1256,7 @@ async function deserializeAws_json1_1DescribeBudgetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1284,7 +1284,7 @@ export async function deserializeAws_json1_1DescribeNotificationsForBudgetComman
   const response: DescribeNotificationsForBudgetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeNotificationsForBudgetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1295,7 +1295,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
 ): Promise<DescribeNotificationsForBudgetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1311,7 +1311,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExpiredNextTokenException":
@@ -1322,7 +1322,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1333,7 +1333,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1344,7 +1344,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1355,7 +1355,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1366,7 +1366,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1377,7 +1377,7 @@ async function deserializeAws_json1_1DescribeNotificationsForBudgetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1405,7 +1405,7 @@ export async function deserializeAws_json1_1DescribeSubscribersForNotificationCo
   const response: DescribeSubscribersForNotificationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSubscribersForNotificationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1416,7 +1416,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
 ): Promise<DescribeSubscribersForNotificationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1432,7 +1432,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExpiredNextTokenException":
@@ -1443,7 +1443,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1454,7 +1454,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1465,7 +1465,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1476,7 +1476,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1487,7 +1487,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1498,7 +1498,7 @@ async function deserializeAws_json1_1DescribeSubscribersForNotificationCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1520,7 +1520,7 @@ export async function deserializeAws_json1_1UpdateBudgetCommand(
   const response: UpdateBudgetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateBudgetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1531,7 +1531,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
 ): Promise<UpdateBudgetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1547,7 +1547,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1558,7 +1558,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1569,7 +1569,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1580,7 +1580,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1591,7 +1591,7 @@ async function deserializeAws_json1_1UpdateBudgetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1616,7 +1616,7 @@ export async function deserializeAws_json1_1UpdateNotificationCommand(
   const response: UpdateNotificationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateNotificationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1627,7 +1627,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
 ): Promise<UpdateNotificationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1643,7 +1643,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateRecordException":
@@ -1654,7 +1654,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1665,7 +1665,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1676,7 +1676,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1687,7 +1687,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1698,7 +1698,7 @@ async function deserializeAws_json1_1UpdateNotificationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1720,7 +1720,7 @@ export async function deserializeAws_json1_1UpdateSubscriberCommand(
   const response: UpdateSubscriberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateSubscriberResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1731,7 +1731,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
 ): Promise<UpdateSubscriberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1747,7 +1747,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateRecordException":
@@ -1758,7 +1758,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1769,7 +1769,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1780,7 +1780,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1791,7 +1791,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1802,7 +1802,7 @@ async function deserializeAws_json1_1UpdateSubscriberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1824,7 +1824,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1842,7 +1842,7 @@ const deserializeAws_json1_1CreationLimitExceededExceptionResponse = async (
     name: "CreationLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1860,7 +1860,7 @@ const deserializeAws_json1_1DuplicateRecordExceptionResponse = async (
     name: "DuplicateRecordException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1878,7 +1878,7 @@ const deserializeAws_json1_1ExpiredNextTokenExceptionResponse = async (
     name: "ExpiredNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1896,7 +1896,7 @@ const deserializeAws_json1_1InternalErrorExceptionResponse = async (
     name: "InternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1914,7 +1914,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1932,7 +1932,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1950,7 +1950,7 @@ const deserializeAws_json1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2038,7 +2038,7 @@ const serializeAws_json1_1CostFilters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1DimensionValues(input[key], context);
   });
   return mapParams;
@@ -2394,7 +2394,7 @@ const serializeAws_json1_1PlannedBudgetLimits = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1Spend(input[key], context);
   });
   return mapParams;
@@ -2534,7 +2534,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2557,7 +2557,7 @@ const deserializeAws_json1_1Budget = (
     LastUpdatedTime: undefined,
     PlannedBudgetLimits: undefined,
     TimePeriod: undefined,
-    TimeUnit: undefined
+    TimeUnit: undefined,
   };
   if (output.BudgetLimit !== undefined && output.BudgetLimit !== null) {
     contents.BudgetLimit = deserializeAws_json1_1Spend(
@@ -2626,7 +2626,7 @@ const deserializeAws_json1_1BudgetPerformanceHistory = (
     BudgetedAndActualAmountsList: undefined,
     CostFilters: undefined,
     CostTypes: undefined,
-    TimeUnit: undefined
+    TimeUnit: undefined,
   };
   if (output.BudgetName !== undefined && output.BudgetName !== null) {
     contents.BudgetName = output.BudgetName;
@@ -2669,7 +2669,7 @@ const deserializeAws_json1_1BudgetedAndActualAmounts = (
     __type: "BudgetedAndActualAmounts",
     ActualAmount: undefined,
     BudgetedAmount: undefined,
-    TimePeriod: undefined
+    TimePeriod: undefined,
   };
   if (output.ActualAmount !== undefined && output.ActualAmount !== null) {
     contents.ActualAmount = deserializeAws_json1_1Spend(
@@ -2717,7 +2717,7 @@ const deserializeAws_json1_1CalculatedSpend = (
   let contents: any = {
     __type: "CalculatedSpend",
     ActualSpend: undefined,
-    ForecastedSpend: undefined
+    ForecastedSpend: undefined,
   };
   if (output.ActualSpend !== undefined && output.ActualSpend !== null) {
     contents.ActualSpend = deserializeAws_json1_1Spend(
@@ -2739,7 +2739,7 @@ const deserializeAws_json1_1CostFilters = (
   context: __SerdeContext
 ): { [key: string]: Array<string> } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1DimensionValues(
       output[key],
       context
@@ -2764,7 +2764,7 @@ const deserializeAws_json1_1CostTypes = (
     IncludeTax: undefined,
     IncludeUpfront: undefined,
     UseAmortized: undefined,
-    UseBlended: undefined
+    UseBlended: undefined,
   };
   if (output.IncludeCredit !== undefined && output.IncludeCredit !== null) {
     contents.IncludeCredit = output.IncludeCredit;
@@ -2816,7 +2816,7 @@ const deserializeAws_json1_1CreateBudgetResponse = (
   context: __SerdeContext
 ): CreateBudgetResponse => {
   let contents: any = {
-    __type: "CreateBudgetResponse"
+    __type: "CreateBudgetResponse",
   };
   return contents;
 };
@@ -2826,7 +2826,7 @@ const deserializeAws_json1_1CreateNotificationResponse = (
   context: __SerdeContext
 ): CreateNotificationResponse => {
   let contents: any = {
-    __type: "CreateNotificationResponse"
+    __type: "CreateNotificationResponse",
   };
   return contents;
 };
@@ -2836,7 +2836,7 @@ const deserializeAws_json1_1CreateSubscriberResponse = (
   context: __SerdeContext
 ): CreateSubscriberResponse => {
   let contents: any = {
-    __type: "CreateSubscriberResponse"
+    __type: "CreateSubscriberResponse",
   };
   return contents;
 };
@@ -2847,7 +2847,7 @@ const deserializeAws_json1_1CreationLimitExceededException = (
 ): CreationLimitExceededException => {
   let contents: any = {
     __type: "CreationLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2860,7 +2860,7 @@ const deserializeAws_json1_1DeleteBudgetResponse = (
   context: __SerdeContext
 ): DeleteBudgetResponse => {
   let contents: any = {
-    __type: "DeleteBudgetResponse"
+    __type: "DeleteBudgetResponse",
   };
   return contents;
 };
@@ -2870,7 +2870,7 @@ const deserializeAws_json1_1DeleteNotificationResponse = (
   context: __SerdeContext
 ): DeleteNotificationResponse => {
   let contents: any = {
-    __type: "DeleteNotificationResponse"
+    __type: "DeleteNotificationResponse",
   };
   return contents;
 };
@@ -2880,7 +2880,7 @@ const deserializeAws_json1_1DeleteSubscriberResponse = (
   context: __SerdeContext
 ): DeleteSubscriberResponse => {
   let contents: any = {
-    __type: "DeleteSubscriberResponse"
+    __type: "DeleteSubscriberResponse",
   };
   return contents;
 };
@@ -2892,7 +2892,7 @@ const deserializeAws_json1_1DescribeBudgetPerformanceHistoryResponse = (
   let contents: any = {
     __type: "DescribeBudgetPerformanceHistoryResponse",
     BudgetPerformanceHistory: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.BudgetPerformanceHistory !== undefined &&
@@ -2915,7 +2915,7 @@ const deserializeAws_json1_1DescribeBudgetResponse = (
 ): DescribeBudgetResponse => {
   let contents: any = {
     __type: "DescribeBudgetResponse",
-    Budget: undefined
+    Budget: undefined,
   };
   if (output.Budget !== undefined && output.Budget !== null) {
     contents.Budget = deserializeAws_json1_1Budget(output.Budget, context);
@@ -2930,7 +2930,7 @@ const deserializeAws_json1_1DescribeBudgetsResponse = (
   let contents: any = {
     __type: "DescribeBudgetsResponse",
     Budgets: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Budgets !== undefined && output.Budgets !== null) {
     contents.Budgets = deserializeAws_json1_1Budgets(output.Budgets, context);
@@ -2948,7 +2948,7 @@ const deserializeAws_json1_1DescribeNotificationsForBudgetResponse = (
   let contents: any = {
     __type: "DescribeNotificationsForBudgetResponse",
     NextToken: undefined,
-    Notifications: undefined
+    Notifications: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2969,7 +2969,7 @@ const deserializeAws_json1_1DescribeSubscribersForNotificationResponse = (
   let contents: any = {
     __type: "DescribeSubscribersForNotificationResponse",
     NextToken: undefined,
-    Subscribers: undefined
+    Subscribers: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2996,7 +2996,7 @@ const deserializeAws_json1_1DuplicateRecordException = (
 ): DuplicateRecordException => {
   let contents: any = {
     __type: "DuplicateRecordException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3010,7 +3010,7 @@ const deserializeAws_json1_1ExpiredNextTokenException = (
 ): ExpiredNextTokenException => {
   let contents: any = {
     __type: "ExpiredNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3024,7 +3024,7 @@ const deserializeAws_json1_1InternalErrorException = (
 ): InternalErrorException => {
   let contents: any = {
     __type: "InternalErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3038,7 +3038,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3052,7 +3052,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3066,7 +3066,7 @@ const deserializeAws_json1_1NotFoundException = (
 ): NotFoundException => {
   let contents: any = {
     __type: "NotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3084,7 +3084,7 @@ const deserializeAws_json1_1Notification = (
     NotificationState: undefined,
     NotificationType: undefined,
     Threshold: undefined,
-    ThresholdType: undefined
+    ThresholdType: undefined,
   };
   if (
     output.ComparisonOperator !== undefined &&
@@ -3127,7 +3127,7 @@ const deserializeAws_json1_1PlannedBudgetLimits = (
   context: __SerdeContext
 ): { [key: string]: Spend } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1Spend(output[key], context);
   });
   return mapParams;
@@ -3140,7 +3140,7 @@ const deserializeAws_json1_1Spend = (
   let contents: any = {
     __type: "Spend",
     Amount: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output.Amount !== undefined && output.Amount !== null) {
     contents.Amount = output.Amount;
@@ -3158,7 +3158,7 @@ const deserializeAws_json1_1Subscriber = (
   let contents: any = {
     __type: "Subscriber",
     Address: undefined,
-    SubscriptionType: undefined
+    SubscriptionType: undefined,
   };
   if (output.Address !== undefined && output.Address !== null) {
     contents.Address = output.Address;
@@ -3188,7 +3188,7 @@ const deserializeAws_json1_1TimePeriod = (
   let contents: any = {
     __type: "TimePeriod",
     End: undefined,
-    Start: undefined
+    Start: undefined,
   };
   if (output.End !== undefined && output.End !== null) {
     contents.End = new Date(Math.round(output.End * 1000));
@@ -3204,7 +3204,7 @@ const deserializeAws_json1_1UpdateBudgetResponse = (
   context: __SerdeContext
 ): UpdateBudgetResponse => {
   let contents: any = {
-    __type: "UpdateBudgetResponse"
+    __type: "UpdateBudgetResponse",
   };
   return contents;
 };
@@ -3214,7 +3214,7 @@ const deserializeAws_json1_1UpdateNotificationResponse = (
   context: __SerdeContext
 ): UpdateNotificationResponse => {
   let contents: any = {
-    __type: "UpdateNotificationResponse"
+    __type: "UpdateNotificationResponse",
   };
   return contents;
 };
@@ -3224,7 +3224,7 @@ const deserializeAws_json1_1UpdateSubscriberResponse = (
   context: __SerdeContext
 ): UpdateSubscriberResponse => {
   let contents: any = {
-    __type: "UpdateSubscriberResponse"
+    __type: "UpdateSubscriberResponse",
   };
   return contents;
 };
@@ -3232,7 +3232,7 @@ const deserializeAws_json1_1UpdateSubscriberResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3253,7 +3253,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3266,11 +3266,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3282,7 +3282,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

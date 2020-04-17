@@ -1,70 +1,70 @@
 import {
   CreateAcceleratorCommandInput,
-  CreateAcceleratorCommandOutput
+  CreateAcceleratorCommandOutput,
 } from "../commands/CreateAcceleratorCommand";
 import {
   CreateEndpointGroupCommandInput,
-  CreateEndpointGroupCommandOutput
+  CreateEndpointGroupCommandOutput,
 } from "../commands/CreateEndpointGroupCommand";
 import {
   CreateListenerCommandInput,
-  CreateListenerCommandOutput
+  CreateListenerCommandOutput,
 } from "../commands/CreateListenerCommand";
 import {
   DeleteAcceleratorCommandInput,
-  DeleteAcceleratorCommandOutput
+  DeleteAcceleratorCommandOutput,
 } from "../commands/DeleteAcceleratorCommand";
 import {
   DeleteEndpointGroupCommandInput,
-  DeleteEndpointGroupCommandOutput
+  DeleteEndpointGroupCommandOutput,
 } from "../commands/DeleteEndpointGroupCommand";
 import {
   DeleteListenerCommandInput,
-  DeleteListenerCommandOutput
+  DeleteListenerCommandOutput,
 } from "../commands/DeleteListenerCommand";
 import {
   DescribeAcceleratorAttributesCommandInput,
-  DescribeAcceleratorAttributesCommandOutput
+  DescribeAcceleratorAttributesCommandOutput,
 } from "../commands/DescribeAcceleratorAttributesCommand";
 import {
   DescribeAcceleratorCommandInput,
-  DescribeAcceleratorCommandOutput
+  DescribeAcceleratorCommandOutput,
 } from "../commands/DescribeAcceleratorCommand";
 import {
   DescribeEndpointGroupCommandInput,
-  DescribeEndpointGroupCommandOutput
+  DescribeEndpointGroupCommandOutput,
 } from "../commands/DescribeEndpointGroupCommand";
 import {
   DescribeListenerCommandInput,
-  DescribeListenerCommandOutput
+  DescribeListenerCommandOutput,
 } from "../commands/DescribeListenerCommand";
 import {
   ListAcceleratorsCommandInput,
-  ListAcceleratorsCommandOutput
+  ListAcceleratorsCommandOutput,
 } from "../commands/ListAcceleratorsCommand";
 import {
   ListEndpointGroupsCommandInput,
-  ListEndpointGroupsCommandOutput
+  ListEndpointGroupsCommandOutput,
 } from "../commands/ListEndpointGroupsCommand";
 import {
   ListListenersCommandInput,
-  ListListenersCommandOutput
+  ListListenersCommandOutput,
 } from "../commands/ListListenersCommand";
 import {
   UpdateAcceleratorAttributesCommandInput,
-  UpdateAcceleratorAttributesCommandOutput
+  UpdateAcceleratorAttributesCommandOutput,
 } from "../commands/UpdateAcceleratorAttributesCommand";
 import {
   UpdateAcceleratorCommandInput,
-  UpdateAcceleratorCommandOutput
+  UpdateAcceleratorCommandOutput,
 } from "../commands/UpdateAcceleratorCommand";
 import {
   UpdateEndpointGroupCommandInput,
-  UpdateEndpointGroupCommandOutput
+  UpdateEndpointGroupCommandOutput,
 } from "../commands/UpdateEndpointGroupCommand";
 import {
   UpdateListenerCommandInput,
-  UpdateListenerCommandOutput
+  UpdateListenerCommandOutput,
 } from "../commands/UpdateListenerCommand";
 import {
   Accelerator,
@@ -118,11 +118,11 @@ import {
   UpdateEndpointGroupRequest,
   UpdateEndpointGroupResponse,
   UpdateListenerRequest,
-  UpdateListenerResponse
+  UpdateListenerResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -130,7 +130,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateAcceleratorCommand(
@@ -386,7 +386,7 @@ export async function deserializeAws_json1_1CreateAcceleratorCommand(
   const response: CreateAcceleratorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateAcceleratorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -397,7 +397,7 @@ async function deserializeAws_json1_1CreateAcceleratorCommandError(
 ): Promise<CreateAcceleratorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -413,7 +413,7 @@ async function deserializeAws_json1_1CreateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -424,7 +424,7 @@ async function deserializeAws_json1_1CreateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -435,7 +435,7 @@ async function deserializeAws_json1_1CreateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -446,7 +446,7 @@ async function deserializeAws_json1_1CreateAcceleratorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -471,7 +471,7 @@ export async function deserializeAws_json1_1CreateEndpointGroupCommand(
   const response: CreateEndpointGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateEndpointGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -482,7 +482,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
 ): Promise<CreateEndpointGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -498,7 +498,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -509,7 +509,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EndpointGroupAlreadyExistsException":
@@ -520,7 +520,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -531,7 +531,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -542,7 +542,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -553,7 +553,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ListenerNotFoundException":
@@ -564,7 +564,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -575,7 +575,7 @@ async function deserializeAws_json1_1CreateEndpointGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -597,7 +597,7 @@ export async function deserializeAws_json1_1CreateListenerCommand(
   const response: CreateListenerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateListenerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -608,7 +608,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
 ): Promise<CreateListenerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -624,7 +624,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -635,7 +635,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -646,7 +646,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPortRangeException":
@@ -657,7 +657,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -668,7 +668,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -679,7 +679,7 @@ async function deserializeAws_json1_1CreateListenerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -697,7 +697,7 @@ export async function deserializeAws_json1_1DeleteAcceleratorCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteAcceleratorCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -708,7 +708,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
 ): Promise<DeleteAcceleratorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -724,7 +724,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AcceleratorNotFoundException":
@@ -735,7 +735,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AssociatedListenerFoundException":
@@ -746,7 +746,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -757,7 +757,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -768,7 +768,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -779,7 +779,7 @@ async function deserializeAws_json1_1DeleteAcceleratorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -800,7 +800,7 @@ export async function deserializeAws_json1_1DeleteEndpointGroupCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteEndpointGroupCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -811,7 +811,7 @@ async function deserializeAws_json1_1DeleteEndpointGroupCommandError(
 ): Promise<DeleteEndpointGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -827,7 +827,7 @@ async function deserializeAws_json1_1DeleteEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -838,7 +838,7 @@ async function deserializeAws_json1_1DeleteEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -849,7 +849,7 @@ async function deserializeAws_json1_1DeleteEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -860,7 +860,7 @@ async function deserializeAws_json1_1DeleteEndpointGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -878,7 +878,7 @@ export async function deserializeAws_json1_1DeleteListenerCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteListenerCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -889,7 +889,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
 ): Promise<DeleteListenerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -905,7 +905,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -916,7 +916,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -927,7 +927,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ListenerNotFoundException":
@@ -938,7 +938,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -949,7 +949,7 @@ async function deserializeAws_json1_1DeleteListenerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -974,7 +974,7 @@ export async function deserializeAws_json1_1DescribeAcceleratorCommand(
   const response: DescribeAcceleratorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAcceleratorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -985,7 +985,7 @@ async function deserializeAws_json1_1DescribeAcceleratorCommandError(
 ): Promise<DescribeAcceleratorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1001,7 +1001,7 @@ async function deserializeAws_json1_1DescribeAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1012,7 +1012,7 @@ async function deserializeAws_json1_1DescribeAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1023,7 +1023,7 @@ async function deserializeAws_json1_1DescribeAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1034,7 +1034,7 @@ async function deserializeAws_json1_1DescribeAcceleratorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1062,7 +1062,7 @@ export async function deserializeAws_json1_1DescribeAcceleratorAttributesCommand
   const response: DescribeAcceleratorAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAcceleratorAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1073,7 +1073,7 @@ async function deserializeAws_json1_1DescribeAcceleratorAttributesCommandError(
 ): Promise<DescribeAcceleratorAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1089,7 +1089,7 @@ async function deserializeAws_json1_1DescribeAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1100,7 +1100,7 @@ async function deserializeAws_json1_1DescribeAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1111,7 +1111,7 @@ async function deserializeAws_json1_1DescribeAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1122,7 +1122,7 @@ async function deserializeAws_json1_1DescribeAcceleratorAttributesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1147,7 +1147,7 @@ export async function deserializeAws_json1_1DescribeEndpointGroupCommand(
   const response: DescribeEndpointGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeEndpointGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1158,7 +1158,7 @@ async function deserializeAws_json1_1DescribeEndpointGroupCommandError(
 ): Promise<DescribeEndpointGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1174,7 +1174,7 @@ async function deserializeAws_json1_1DescribeEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1185,7 +1185,7 @@ async function deserializeAws_json1_1DescribeEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1196,7 +1196,7 @@ async function deserializeAws_json1_1DescribeEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1207,7 +1207,7 @@ async function deserializeAws_json1_1DescribeEndpointGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1229,7 +1229,7 @@ export async function deserializeAws_json1_1DescribeListenerCommand(
   const response: DescribeListenerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeListenerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1240,7 +1240,7 @@ async function deserializeAws_json1_1DescribeListenerCommandError(
 ): Promise<DescribeListenerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1256,7 +1256,7 @@ async function deserializeAws_json1_1DescribeListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1267,7 +1267,7 @@ async function deserializeAws_json1_1DescribeListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ListenerNotFoundException":
@@ -1278,7 +1278,7 @@ async function deserializeAws_json1_1DescribeListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1289,7 +1289,7 @@ async function deserializeAws_json1_1DescribeListenerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1311,7 +1311,7 @@ export async function deserializeAws_json1_1ListAcceleratorsCommand(
   const response: ListAcceleratorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAcceleratorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1322,7 +1322,7 @@ async function deserializeAws_json1_1ListAcceleratorsCommandError(
 ): Promise<ListAcceleratorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1338,7 +1338,7 @@ async function deserializeAws_json1_1ListAcceleratorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1349,7 +1349,7 @@ async function deserializeAws_json1_1ListAcceleratorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1360,7 +1360,7 @@ async function deserializeAws_json1_1ListAcceleratorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1371,7 +1371,7 @@ async function deserializeAws_json1_1ListAcceleratorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1396,7 +1396,7 @@ export async function deserializeAws_json1_1ListEndpointGroupsCommand(
   const response: ListEndpointGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListEndpointGroupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1407,7 +1407,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
 ): Promise<ListEndpointGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1423,7 +1423,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1434,7 +1434,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1445,7 +1445,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ListenerNotFoundException":
@@ -1456,7 +1456,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1467,7 +1467,7 @@ async function deserializeAws_json1_1ListEndpointGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1489,7 +1489,7 @@ export async function deserializeAws_json1_1ListListenersCommand(
   const response: ListListenersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListListenersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1500,7 +1500,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
 ): Promise<ListListenersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1516,7 +1516,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1527,7 +1527,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1538,7 +1538,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1549,7 +1549,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1560,7 +1560,7 @@ async function deserializeAws_json1_1ListListenersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1582,7 +1582,7 @@ export async function deserializeAws_json1_1UpdateAcceleratorCommand(
   const response: UpdateAcceleratorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateAcceleratorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1593,7 +1593,7 @@ async function deserializeAws_json1_1UpdateAcceleratorCommandError(
 ): Promise<UpdateAcceleratorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1609,7 +1609,7 @@ async function deserializeAws_json1_1UpdateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1620,7 +1620,7 @@ async function deserializeAws_json1_1UpdateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1631,7 +1631,7 @@ async function deserializeAws_json1_1UpdateAcceleratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1642,7 +1642,7 @@ async function deserializeAws_json1_1UpdateAcceleratorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1670,7 +1670,7 @@ export async function deserializeAws_json1_1UpdateAcceleratorAttributesCommand(
   const response: UpdateAcceleratorAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateAcceleratorAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1681,7 +1681,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
 ): Promise<UpdateAcceleratorAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1697,7 +1697,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1708,7 +1708,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1719,7 +1719,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1730,7 +1730,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1741,7 +1741,7 @@ async function deserializeAws_json1_1UpdateAcceleratorAttributesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1766,7 +1766,7 @@ export async function deserializeAws_json1_1UpdateEndpointGroupCommand(
   const response: UpdateEndpointGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateEndpointGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1777,7 +1777,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
 ): Promise<UpdateEndpointGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1793,7 +1793,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EndpointGroupNotFoundException":
@@ -1804,7 +1804,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1815,7 +1815,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1826,7 +1826,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1837,7 +1837,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1848,7 +1848,7 @@ async function deserializeAws_json1_1UpdateEndpointGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1870,7 +1870,7 @@ export async function deserializeAws_json1_1UpdateListenerCommand(
   const response: UpdateListenerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateListenerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1881,7 +1881,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
 ): Promise<UpdateListenerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1897,7 +1897,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgumentException":
@@ -1908,7 +1908,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPortRangeException":
@@ -1919,7 +1919,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1930,7 +1930,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ListenerNotFoundException":
@@ -1941,7 +1941,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1952,7 +1952,7 @@ async function deserializeAws_json1_1UpdateListenerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1974,7 +1974,7 @@ const deserializeAws_json1_1AcceleratorNotDisabledExceptionResponse = async (
     name: "AcceleratorNotDisabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1992,7 +1992,7 @@ const deserializeAws_json1_1AcceleratorNotFoundExceptionResponse = async (
     name: "AcceleratorNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2010,7 +2010,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2028,7 +2028,7 @@ const deserializeAws_json1_1AssociatedEndpointGroupFoundExceptionResponse = asyn
     name: "AssociatedEndpointGroupFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2046,7 +2046,7 @@ const deserializeAws_json1_1AssociatedListenerFoundExceptionResponse = async (
     name: "AssociatedListenerFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2064,7 +2064,7 @@ const deserializeAws_json1_1EndpointGroupAlreadyExistsExceptionResponse = async 
     name: "EndpointGroupAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2082,7 +2082,7 @@ const deserializeAws_json1_1EndpointGroupNotFoundExceptionResponse = async (
     name: "EndpointGroupNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2100,7 +2100,7 @@ const deserializeAws_json1_1InternalServiceErrorExceptionResponse = async (
     name: "InternalServiceErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2118,7 +2118,7 @@ const deserializeAws_json1_1InvalidArgumentExceptionResponse = async (
     name: "InvalidArgumentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2136,7 +2136,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2154,7 +2154,7 @@ const deserializeAws_json1_1InvalidPortRangeExceptionResponse = async (
     name: "InvalidPortRangeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2172,7 +2172,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2190,7 +2190,7 @@ const deserializeAws_json1_1ListenerNotFoundExceptionResponse = async (
     name: "ListenerNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2577,7 +2577,7 @@ const deserializeAws_json1_1Accelerator = (
     IpSets: undefined,
     LastModifiedTime: undefined,
     Name: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.AcceleratorArn !== undefined && output.AcceleratorArn !== null) {
     contents.AcceleratorArn = output.AcceleratorArn;
@@ -2622,7 +2622,7 @@ const deserializeAws_json1_1AcceleratorAttributes = (
     __type: "AcceleratorAttributes",
     FlowLogsEnabled: undefined,
     FlowLogsS3Bucket: undefined,
-    FlowLogsS3Prefix: undefined
+    FlowLogsS3Prefix: undefined,
   };
   if (output.FlowLogsEnabled !== undefined && output.FlowLogsEnabled !== null) {
     contents.FlowLogsEnabled = output.FlowLogsEnabled;
@@ -2648,7 +2648,7 @@ const deserializeAws_json1_1AcceleratorNotDisabledException = (
 ): AcceleratorNotDisabledException => {
   let contents: any = {
     __type: "AcceleratorNotDisabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2662,7 +2662,7 @@ const deserializeAws_json1_1AcceleratorNotFoundException = (
 ): AcceleratorNotFoundException => {
   let contents: any = {
     __type: "AcceleratorNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2685,7 +2685,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2699,7 +2699,7 @@ const deserializeAws_json1_1AssociatedEndpointGroupFoundException = (
 ): AssociatedEndpointGroupFoundException => {
   let contents: any = {
     __type: "AssociatedEndpointGroupFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2713,7 +2713,7 @@ const deserializeAws_json1_1AssociatedListenerFoundException = (
 ): AssociatedListenerFoundException => {
   let contents: any = {
     __type: "AssociatedListenerFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2727,7 +2727,7 @@ const deserializeAws_json1_1CreateAcceleratorResponse = (
 ): CreateAcceleratorResponse => {
   let contents: any = {
     __type: "CreateAcceleratorResponse",
-    Accelerator: undefined
+    Accelerator: undefined,
   };
   if (output.Accelerator !== undefined && output.Accelerator !== null) {
     contents.Accelerator = deserializeAws_json1_1Accelerator(
@@ -2744,7 +2744,7 @@ const deserializeAws_json1_1CreateEndpointGroupResponse = (
 ): CreateEndpointGroupResponse => {
   let contents: any = {
     __type: "CreateEndpointGroupResponse",
-    EndpointGroup: undefined
+    EndpointGroup: undefined,
   };
   if (output.EndpointGroup !== undefined && output.EndpointGroup !== null) {
     contents.EndpointGroup = deserializeAws_json1_1EndpointGroup(
@@ -2761,7 +2761,7 @@ const deserializeAws_json1_1CreateListenerResponse = (
 ): CreateListenerResponse => {
   let contents: any = {
     __type: "CreateListenerResponse",
-    Listener: undefined
+    Listener: undefined,
   };
   if (output.Listener !== undefined && output.Listener !== null) {
     contents.Listener = deserializeAws_json1_1Listener(
@@ -2778,7 +2778,7 @@ const deserializeAws_json1_1DescribeAcceleratorAttributesResponse = (
 ): DescribeAcceleratorAttributesResponse => {
   let contents: any = {
     __type: "DescribeAcceleratorAttributesResponse",
-    AcceleratorAttributes: undefined
+    AcceleratorAttributes: undefined,
   };
   if (
     output.AcceleratorAttributes !== undefined &&
@@ -2798,7 +2798,7 @@ const deserializeAws_json1_1DescribeAcceleratorResponse = (
 ): DescribeAcceleratorResponse => {
   let contents: any = {
     __type: "DescribeAcceleratorResponse",
-    Accelerator: undefined
+    Accelerator: undefined,
   };
   if (output.Accelerator !== undefined && output.Accelerator !== null) {
     contents.Accelerator = deserializeAws_json1_1Accelerator(
@@ -2815,7 +2815,7 @@ const deserializeAws_json1_1DescribeEndpointGroupResponse = (
 ): DescribeEndpointGroupResponse => {
   let contents: any = {
     __type: "DescribeEndpointGroupResponse",
-    EndpointGroup: undefined
+    EndpointGroup: undefined,
   };
   if (output.EndpointGroup !== undefined && output.EndpointGroup !== null) {
     contents.EndpointGroup = deserializeAws_json1_1EndpointGroup(
@@ -2832,7 +2832,7 @@ const deserializeAws_json1_1DescribeListenerResponse = (
 ): DescribeListenerResponse => {
   let contents: any = {
     __type: "DescribeListenerResponse",
-    Listener: undefined
+    Listener: undefined,
   };
   if (output.Listener !== undefined && output.Listener !== null) {
     contents.Listener = deserializeAws_json1_1Listener(
@@ -2853,7 +2853,7 @@ const deserializeAws_json1_1EndpointDescription = (
     EndpointId: undefined,
     HealthReason: undefined,
     HealthState: undefined,
-    Weight: undefined
+    Weight: undefined,
   };
   if (
     output.ClientIPPreservationEnabled !== undefined &&
@@ -2899,7 +2899,7 @@ const deserializeAws_json1_1EndpointGroup = (
     HealthCheckPort: undefined,
     HealthCheckProtocol: undefined,
     ThresholdCount: undefined,
-    TrafficDialPercentage: undefined
+    TrafficDialPercentage: undefined,
   };
   if (
     output.EndpointDescriptions !== undefined &&
@@ -2958,7 +2958,7 @@ const deserializeAws_json1_1EndpointGroupAlreadyExistsException = (
 ): EndpointGroupAlreadyExistsException => {
   let contents: any = {
     __type: "EndpointGroupAlreadyExistsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2972,7 +2972,7 @@ const deserializeAws_json1_1EndpointGroupNotFoundException = (
 ): EndpointGroupNotFoundException => {
   let contents: any = {
     __type: "EndpointGroupNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2995,7 +2995,7 @@ const deserializeAws_json1_1InternalServiceErrorException = (
 ): InternalServiceErrorException => {
   let contents: any = {
     __type: "InternalServiceErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3009,7 +3009,7 @@ const deserializeAws_json1_1InvalidArgumentException = (
 ): InvalidArgumentException => {
   let contents: any = {
     __type: "InvalidArgumentException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3023,7 +3023,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3037,7 +3037,7 @@ const deserializeAws_json1_1InvalidPortRangeException = (
 ): InvalidPortRangeException => {
   let contents: any = {
     __type: "InvalidPortRangeException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3059,7 +3059,7 @@ const deserializeAws_json1_1IpSet = (
   let contents: any = {
     __type: "IpSet",
     IpAddresses: undefined,
-    IpFamily: undefined
+    IpFamily: undefined,
   };
   if (output.IpAddresses !== undefined && output.IpAddresses !== null) {
     contents.IpAddresses = deserializeAws_json1_1IpAddresses(
@@ -3088,7 +3088,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3103,7 +3103,7 @@ const deserializeAws_json1_1ListAcceleratorsResponse = (
   let contents: any = {
     __type: "ListAcceleratorsResponse",
     Accelerators: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Accelerators !== undefined && output.Accelerators !== null) {
     contents.Accelerators = deserializeAws_json1_1Accelerators(
@@ -3124,7 +3124,7 @@ const deserializeAws_json1_1ListEndpointGroupsResponse = (
   let contents: any = {
     __type: "ListEndpointGroupsResponse",
     EndpointGroups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.EndpointGroups !== undefined && output.EndpointGroups !== null) {
     contents.EndpointGroups = deserializeAws_json1_1EndpointGroups(
@@ -3145,7 +3145,7 @@ const deserializeAws_json1_1ListListenersResponse = (
   let contents: any = {
     __type: "ListListenersResponse",
     Listeners: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Listeners !== undefined && output.Listeners !== null) {
     contents.Listeners = deserializeAws_json1_1Listeners(
@@ -3168,7 +3168,7 @@ const deserializeAws_json1_1Listener = (
     ClientAffinity: undefined,
     ListenerArn: undefined,
     PortRanges: undefined,
-    Protocol: undefined
+    Protocol: undefined,
   };
   if (output.ClientAffinity !== undefined && output.ClientAffinity !== null) {
     contents.ClientAffinity = output.ClientAffinity;
@@ -3194,7 +3194,7 @@ const deserializeAws_json1_1ListenerNotFoundException = (
 ): ListenerNotFoundException => {
   let contents: any = {
     __type: "ListenerNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3218,7 +3218,7 @@ const deserializeAws_json1_1PortRange = (
   let contents: any = {
     __type: "PortRange",
     FromPort: undefined,
-    ToPort: undefined
+    ToPort: undefined,
   };
   if (output.FromPort !== undefined && output.FromPort !== null) {
     contents.FromPort = output.FromPort;
@@ -3244,7 +3244,7 @@ const deserializeAws_json1_1UpdateAcceleratorAttributesResponse = (
 ): UpdateAcceleratorAttributesResponse => {
   let contents: any = {
     __type: "UpdateAcceleratorAttributesResponse",
-    AcceleratorAttributes: undefined
+    AcceleratorAttributes: undefined,
   };
   if (
     output.AcceleratorAttributes !== undefined &&
@@ -3264,7 +3264,7 @@ const deserializeAws_json1_1UpdateAcceleratorResponse = (
 ): UpdateAcceleratorResponse => {
   let contents: any = {
     __type: "UpdateAcceleratorResponse",
-    Accelerator: undefined
+    Accelerator: undefined,
   };
   if (output.Accelerator !== undefined && output.Accelerator !== null) {
     contents.Accelerator = deserializeAws_json1_1Accelerator(
@@ -3281,7 +3281,7 @@ const deserializeAws_json1_1UpdateEndpointGroupResponse = (
 ): UpdateEndpointGroupResponse => {
   let contents: any = {
     __type: "UpdateEndpointGroupResponse",
-    EndpointGroup: undefined
+    EndpointGroup: undefined,
   };
   if (output.EndpointGroup !== undefined && output.EndpointGroup !== null) {
     contents.EndpointGroup = deserializeAws_json1_1EndpointGroup(
@@ -3298,7 +3298,7 @@ const deserializeAws_json1_1UpdateListenerResponse = (
 ): UpdateListenerResponse => {
   let contents: any = {
     __type: "UpdateListenerResponse",
-    Listener: undefined
+    Listener: undefined,
   };
   if (output.Listener !== undefined && output.Listener !== null) {
     contents.Listener = deserializeAws_json1_1Listener(
@@ -3312,7 +3312,7 @@ const deserializeAws_json1_1UpdateListenerResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3333,7 +3333,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3346,11 +3346,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3362,7 +3362,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

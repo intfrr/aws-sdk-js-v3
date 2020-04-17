@@ -1,86 +1,86 @@
 import {
   CreateIdentityPoolCommandInput,
-  CreateIdentityPoolCommandOutput
+  CreateIdentityPoolCommandOutput,
 } from "../commands/CreateIdentityPoolCommand";
 import {
   DeleteIdentitiesCommandInput,
-  DeleteIdentitiesCommandOutput
+  DeleteIdentitiesCommandOutput,
 } from "../commands/DeleteIdentitiesCommand";
 import {
   DeleteIdentityPoolCommandInput,
-  DeleteIdentityPoolCommandOutput
+  DeleteIdentityPoolCommandOutput,
 } from "../commands/DeleteIdentityPoolCommand";
 import {
   DescribeIdentityCommandInput,
-  DescribeIdentityCommandOutput
+  DescribeIdentityCommandOutput,
 } from "../commands/DescribeIdentityCommand";
 import {
   DescribeIdentityPoolCommandInput,
-  DescribeIdentityPoolCommandOutput
+  DescribeIdentityPoolCommandOutput,
 } from "../commands/DescribeIdentityPoolCommand";
 import {
   GetCredentialsForIdentityCommandInput,
-  GetCredentialsForIdentityCommandOutput
+  GetCredentialsForIdentityCommandOutput,
 } from "../commands/GetCredentialsForIdentityCommand";
 import {
   GetIdCommandInput,
-  GetIdCommandOutput
+  GetIdCommandOutput,
 } from "../commands/GetIdCommand";
 import {
   GetIdentityPoolRolesCommandInput,
-  GetIdentityPoolRolesCommandOutput
+  GetIdentityPoolRolesCommandOutput,
 } from "../commands/GetIdentityPoolRolesCommand";
 import {
   GetOpenIdTokenCommandInput,
-  GetOpenIdTokenCommandOutput
+  GetOpenIdTokenCommandOutput,
 } from "../commands/GetOpenIdTokenCommand";
 import {
   GetOpenIdTokenForDeveloperIdentityCommandInput,
-  GetOpenIdTokenForDeveloperIdentityCommandOutput
+  GetOpenIdTokenForDeveloperIdentityCommandOutput,
 } from "../commands/GetOpenIdTokenForDeveloperIdentityCommand";
 import {
   ListIdentitiesCommandInput,
-  ListIdentitiesCommandOutput
+  ListIdentitiesCommandOutput,
 } from "../commands/ListIdentitiesCommand";
 import {
   ListIdentityPoolsCommandInput,
-  ListIdentityPoolsCommandOutput
+  ListIdentityPoolsCommandOutput,
 } from "../commands/ListIdentityPoolsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   LookupDeveloperIdentityCommandInput,
-  LookupDeveloperIdentityCommandOutput
+  LookupDeveloperIdentityCommandOutput,
 } from "../commands/LookupDeveloperIdentityCommand";
 import {
   MergeDeveloperIdentitiesCommandInput,
-  MergeDeveloperIdentitiesCommandOutput
+  MergeDeveloperIdentitiesCommandOutput,
 } from "../commands/MergeDeveloperIdentitiesCommand";
 import {
   SetIdentityPoolRolesCommandInput,
-  SetIdentityPoolRolesCommandOutput
+  SetIdentityPoolRolesCommandOutput,
 } from "../commands/SetIdentityPoolRolesCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UnlinkDeveloperIdentityCommandInput,
-  UnlinkDeveloperIdentityCommandOutput
+  UnlinkDeveloperIdentityCommandOutput,
 } from "../commands/UnlinkDeveloperIdentityCommand";
 import {
   UnlinkIdentityCommandInput,
-  UnlinkIdentityCommandOutput
+  UnlinkIdentityCommandOutput,
 } from "../commands/UnlinkIdentityCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateIdentityPoolCommandInput,
-  UpdateIdentityPoolCommandOutput
+  UpdateIdentityPoolCommandOutput,
 } from "../commands/UpdateIdentityPoolCommand";
 import {
   CognitoIdentityProvider,
@@ -135,11 +135,11 @@ import {
   UnlinkIdentityInput,
   UnprocessedIdentityId,
   UntagResourceInput,
-  UntagResourceResponse
+  UntagResourceResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -147,7 +147,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateIdentityPoolCommand(
@@ -455,7 +455,7 @@ export async function deserializeAws_json1_1CreateIdentityPoolCommand(
   const response: CreateIdentityPoolCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IdentityPool",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -466,7 +466,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
 ): Promise<CreateIdentityPoolCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -482,7 +482,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -493,7 +493,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -504,7 +504,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -515,7 +515,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -526,7 +526,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -537,7 +537,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -548,7 +548,7 @@ async function deserializeAws_json1_1CreateIdentityPoolCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -570,7 +570,7 @@ export async function deserializeAws_json1_1DeleteIdentitiesCommand(
   const response: DeleteIdentitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteIdentitiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -581,7 +581,7 @@ async function deserializeAws_json1_1DeleteIdentitiesCommandError(
 ): Promise<DeleteIdentitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -597,7 +597,7 @@ async function deserializeAws_json1_1DeleteIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -608,7 +608,7 @@ async function deserializeAws_json1_1DeleteIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -619,7 +619,7 @@ async function deserializeAws_json1_1DeleteIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -630,7 +630,7 @@ async function deserializeAws_json1_1DeleteIdentitiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -651,7 +651,7 @@ export async function deserializeAws_json1_1DeleteIdentityPoolCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteIdentityPoolCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -662,7 +662,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
 ): Promise<DeleteIdentityPoolCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -678,7 +678,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -689,7 +689,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -700,7 +700,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -711,7 +711,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -722,7 +722,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -733,7 +733,7 @@ async function deserializeAws_json1_1DeleteIdentityPoolCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -755,7 +755,7 @@ export async function deserializeAws_json1_1DescribeIdentityCommand(
   const response: DescribeIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IdentityDescription",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -766,7 +766,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
 ): Promise<DescribeIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -782,7 +782,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -793,7 +793,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -804,7 +804,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -815,7 +815,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -826,7 +826,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -837,7 +837,7 @@ async function deserializeAws_json1_1DescribeIdentityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -862,7 +862,7 @@ export async function deserializeAws_json1_1DescribeIdentityPoolCommand(
   const response: DescribeIdentityPoolCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IdentityPool",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -873,7 +873,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
 ): Promise<DescribeIdentityPoolCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -889,7 +889,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -900,7 +900,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -911,7 +911,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -922,7 +922,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -933,7 +933,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -944,7 +944,7 @@ async function deserializeAws_json1_1DescribeIdentityPoolCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -972,7 +972,7 @@ export async function deserializeAws_json1_1GetCredentialsForIdentityCommand(
   const response: GetCredentialsForIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCredentialsForIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -983,7 +983,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
 ): Promise<GetCredentialsForIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -999,7 +999,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1010,7 +1010,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIdentityPoolConfigurationException":
@@ -1021,7 +1021,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1032,7 +1032,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1043,7 +1043,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1054,7 +1054,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1065,7 +1065,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1076,7 +1076,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1087,7 +1087,7 @@ async function deserializeAws_json1_1GetCredentialsForIdentityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1109,7 +1109,7 @@ export async function deserializeAws_json1_1GetIdCommand(
   const response: GetIdCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1120,7 +1120,7 @@ async function deserializeAws_json1_1GetIdCommandError(
 ): Promise<GetIdCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1136,7 +1136,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1147,7 +1147,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1158,7 +1158,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1169,7 +1169,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1180,7 +1180,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1191,7 +1191,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1202,7 +1202,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1213,7 +1213,7 @@ async function deserializeAws_json1_1GetIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1224,7 +1224,7 @@ async function deserializeAws_json1_1GetIdCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1249,7 +1249,7 @@ export async function deserializeAws_json1_1GetIdentityPoolRolesCommand(
   const response: GetIdentityPoolRolesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityPoolRolesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1260,7 +1260,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
 ): Promise<GetIdentityPoolRolesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1276,7 +1276,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1287,7 +1287,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1298,7 +1298,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1309,7 +1309,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1320,7 +1320,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1331,7 +1331,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1342,7 +1342,7 @@ async function deserializeAws_json1_1GetIdentityPoolRolesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1364,7 +1364,7 @@ export async function deserializeAws_json1_1GetOpenIdTokenCommand(
   const response: GetOpenIdTokenCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOpenIdTokenResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1375,7 +1375,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
 ): Promise<GetOpenIdTokenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1391,7 +1391,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1402,7 +1402,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1413,7 +1413,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1424,7 +1424,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1435,7 +1435,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1446,7 +1446,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1457,7 +1457,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1468,7 +1468,7 @@ async function deserializeAws_json1_1GetOpenIdTokenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1496,7 +1496,7 @@ export async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCo
   const response: GetOpenIdTokenForDeveloperIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOpenIdTokenForDeveloperIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1507,7 +1507,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
 ): Promise<GetOpenIdTokenForDeveloperIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1523,7 +1523,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1534,7 +1534,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1545,7 +1545,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1556,7 +1556,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1567,7 +1567,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1578,7 +1578,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1589,7 +1589,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1600,7 +1600,7 @@ async function deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1622,7 +1622,7 @@ export async function deserializeAws_json1_1ListIdentitiesCommand(
   const response: ListIdentitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListIdentitiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1633,7 +1633,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
 ): Promise<ListIdentitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1649,7 +1649,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1660,7 +1660,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1671,7 +1671,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1682,7 +1682,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1693,7 +1693,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1704,7 +1704,7 @@ async function deserializeAws_json1_1ListIdentitiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1726,7 +1726,7 @@ export async function deserializeAws_json1_1ListIdentityPoolsCommand(
   const response: ListIdentityPoolsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListIdentityPoolsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1737,7 +1737,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
 ): Promise<ListIdentityPoolsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1753,7 +1753,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1764,7 +1764,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1775,7 +1775,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1786,7 +1786,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1797,7 +1797,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1808,7 +1808,7 @@ async function deserializeAws_json1_1ListIdentityPoolsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1833,7 +1833,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1844,7 +1844,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1860,7 +1860,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1871,7 +1871,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1882,7 +1882,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1893,7 +1893,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1904,7 +1904,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1915,7 +1915,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1943,7 +1943,7 @@ export async function deserializeAws_json1_1LookupDeveloperIdentityCommand(
   const response: LookupDeveloperIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LookupDeveloperIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1954,7 +1954,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
 ): Promise<LookupDeveloperIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1970,7 +1970,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1981,7 +1981,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -1992,7 +1992,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2003,7 +2003,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2014,7 +2014,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2025,7 +2025,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2036,7 +2036,7 @@ async function deserializeAws_json1_1LookupDeveloperIdentityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2064,7 +2064,7 @@ export async function deserializeAws_json1_1MergeDeveloperIdentitiesCommand(
   const response: MergeDeveloperIdentitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "MergeDeveloperIdentitiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2075,7 +2075,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
 ): Promise<MergeDeveloperIdentitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2091,7 +2091,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2102,7 +2102,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2113,7 +2113,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2124,7 +2124,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2135,7 +2135,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2146,7 +2146,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2157,7 +2157,7 @@ async function deserializeAws_json1_1MergeDeveloperIdentitiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2178,7 +2178,7 @@ export async function deserializeAws_json1_1SetIdentityPoolRolesCommand(
   }
   await collectBody(output.body, context);
   const response: SetIdentityPoolRolesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2189,7 +2189,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
 ): Promise<SetIdentityPoolRolesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2205,7 +2205,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2216,7 +2216,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2227,7 +2227,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2238,7 +2238,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2249,7 +2249,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2260,7 +2260,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2271,7 +2271,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2282,7 +2282,7 @@ async function deserializeAws_json1_1SetIdentityPoolRolesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2304,7 +2304,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2315,7 +2315,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2331,7 +2331,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2342,7 +2342,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2353,7 +2353,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2364,7 +2364,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2375,7 +2375,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2386,7 +2386,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2407,7 +2407,7 @@ export async function deserializeAws_json1_1UnlinkDeveloperIdentityCommand(
   }
   await collectBody(output.body, context);
   const response: UnlinkDeveloperIdentityCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2418,7 +2418,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
 ): Promise<UnlinkDeveloperIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2434,7 +2434,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2445,7 +2445,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2456,7 +2456,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2467,7 +2467,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2478,7 +2478,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2489,7 +2489,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2500,7 +2500,7 @@ async function deserializeAws_json1_1UnlinkDeveloperIdentityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2518,7 +2518,7 @@ export async function deserializeAws_json1_1UnlinkIdentityCommand(
   }
   await collectBody(output.body, context);
   const response: UnlinkIdentityCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2529,7 +2529,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
 ): Promise<UnlinkIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2545,7 +2545,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2556,7 +2556,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2567,7 +2567,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2578,7 +2578,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2589,7 +2589,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2600,7 +2600,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2611,7 +2611,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2622,7 +2622,7 @@ async function deserializeAws_json1_1UnlinkIdentityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2644,7 +2644,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2655,7 +2655,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2671,7 +2671,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2682,7 +2682,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2693,7 +2693,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2704,7 +2704,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2715,7 +2715,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2726,7 +2726,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2751,7 +2751,7 @@ export async function deserializeAws_json1_1UpdateIdentityPoolCommand(
   const response: UpdateIdentityPoolCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IdentityPool",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2762,7 +2762,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
 ): Promise<UpdateIdentityPoolCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2778,7 +2778,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2789,7 +2789,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2800,7 +2800,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2811,7 +2811,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotAuthorizedException":
@@ -2822,7 +2822,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -2833,7 +2833,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2844,7 +2844,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2855,7 +2855,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2866,7 +2866,7 @@ async function deserializeAws_json1_1UpdateIdentityPoolCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2888,7 +2888,7 @@ const deserializeAws_json1_1ConcurrentModificationExceptionResponse = async (
     name: "ConcurrentModificationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2906,7 +2906,7 @@ const deserializeAws_json1_1DeveloperUserAlreadyRegisteredExceptionResponse = as
     name: "DeveloperUserAlreadyRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2924,7 +2924,7 @@ const deserializeAws_json1_1ExternalServiceExceptionResponse = async (
     name: "ExternalServiceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2942,7 +2942,7 @@ const deserializeAws_json1_1InternalErrorExceptionResponse = async (
     name: "InternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2960,7 +2960,7 @@ const deserializeAws_json1_1InvalidIdentityPoolConfigurationExceptionResponse = 
     name: "InvalidIdentityPoolConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2978,7 +2978,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2996,7 +2996,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3014,7 +3014,7 @@ const deserializeAws_json1_1NotAuthorizedExceptionResponse = async (
     name: "NotAuthorizedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3032,7 +3032,7 @@ const deserializeAws_json1_1ResourceConflictExceptionResponse = async (
     name: "ResourceConflictException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3050,7 +3050,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3068,7 +3068,7 @@ const deserializeAws_json1_1TooManyRequestsExceptionResponse = async (
     name: "TooManyRequestsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3371,7 +3371,7 @@ const serializeAws_json1_1IdentityPoolTagsType = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3382,7 +3382,7 @@ const serializeAws_json1_1IdentityProviders = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3449,7 +3449,7 @@ const serializeAws_json1_1LoginsMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3567,7 +3567,7 @@ const serializeAws_json1_1RoleMappingMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1RoleMapping(input[key], context);
   });
   return mapParams;
@@ -3578,7 +3578,7 @@ const serializeAws_json1_1RolesMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3711,7 +3711,7 @@ const deserializeAws_json1_1CognitoIdentityProvider = (
     __type: "CognitoIdentityProvider",
     ClientId: undefined,
     ProviderName: undefined,
-    ServerSideTokenCheck: undefined
+    ServerSideTokenCheck: undefined,
   };
   if (output.ClientId !== undefined && output.ClientId !== null) {
     contents.ClientId = output.ClientId;
@@ -3743,7 +3743,7 @@ const deserializeAws_json1_1ConcurrentModificationException = (
 ): ConcurrentModificationException => {
   let contents: any = {
     __type: "ConcurrentModificationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3760,7 +3760,7 @@ const deserializeAws_json1_1Credentials = (
     AccessKeyId: undefined,
     Expiration: undefined,
     SecretKey: undefined,
-    SessionToken: undefined
+    SessionToken: undefined,
   };
   if (output.AccessKeyId !== undefined && output.AccessKeyId !== null) {
     contents.AccessKeyId = output.AccessKeyId;
@@ -3783,7 +3783,7 @@ const deserializeAws_json1_1DeleteIdentitiesResponse = (
 ): DeleteIdentitiesResponse => {
   let contents: any = {
     __type: "DeleteIdentitiesResponse",
-    UnprocessedIdentityIds: undefined
+    UnprocessedIdentityIds: undefined,
   };
   if (
     output.UnprocessedIdentityIds !== undefined &&
@@ -3803,7 +3803,7 @@ const deserializeAws_json1_1DeveloperUserAlreadyRegisteredException = (
 ): DeveloperUserAlreadyRegisteredException => {
   let contents: any = {
     __type: "DeveloperUserAlreadyRegisteredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3824,7 +3824,7 @@ const deserializeAws_json1_1ExternalServiceException = (
 ): ExternalServiceException => {
   let contents: any = {
     __type: "ExternalServiceException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3839,7 +3839,7 @@ const deserializeAws_json1_1GetCredentialsForIdentityResponse = (
   let contents: any = {
     __type: "GetCredentialsForIdentityResponse",
     Credentials: undefined,
-    IdentityId: undefined
+    IdentityId: undefined,
   };
   if (output.Credentials !== undefined && output.Credentials !== null) {
     contents.Credentials = deserializeAws_json1_1Credentials(
@@ -3859,7 +3859,7 @@ const deserializeAws_json1_1GetIdResponse = (
 ): GetIdResponse => {
   let contents: any = {
     __type: "GetIdResponse",
-    IdentityId: undefined
+    IdentityId: undefined,
   };
   if (output.IdentityId !== undefined && output.IdentityId !== null) {
     contents.IdentityId = output.IdentityId;
@@ -3875,7 +3875,7 @@ const deserializeAws_json1_1GetIdentityPoolRolesResponse = (
     __type: "GetIdentityPoolRolesResponse",
     IdentityPoolId: undefined,
     RoleMappings: undefined,
-    Roles: undefined
+    Roles: undefined,
   };
   if (output.IdentityPoolId !== undefined && output.IdentityPoolId !== null) {
     contents.IdentityPoolId = output.IdentityPoolId;
@@ -3899,7 +3899,7 @@ const deserializeAws_json1_1GetOpenIdTokenForDeveloperIdentityResponse = (
   let contents: any = {
     __type: "GetOpenIdTokenForDeveloperIdentityResponse",
     IdentityId: undefined,
-    Token: undefined
+    Token: undefined,
   };
   if (output.IdentityId !== undefined && output.IdentityId !== null) {
     contents.IdentityId = output.IdentityId;
@@ -3917,7 +3917,7 @@ const deserializeAws_json1_1GetOpenIdTokenResponse = (
   let contents: any = {
     __type: "GetOpenIdTokenResponse",
     IdentityId: undefined,
-    Token: undefined
+    Token: undefined,
   };
   if (output.IdentityId !== undefined && output.IdentityId !== null) {
     contents.IdentityId = output.IdentityId;
@@ -3946,7 +3946,7 @@ const deserializeAws_json1_1IdentityDescription = (
     CreationDate: undefined,
     IdentityId: undefined,
     LastModifiedDate: undefined,
-    Logins: undefined
+    Logins: undefined,
   };
   if (output.CreationDate !== undefined && output.CreationDate !== null) {
     contents.CreationDate = new Date(Math.round(output.CreationDate * 1000));
@@ -3983,7 +3983,7 @@ const deserializeAws_json1_1IdentityPool = (
     IdentityPoolTags: undefined,
     OpenIdConnectProviderARNs: undefined,
     SamlProviderARNs: undefined,
-    SupportedLoginProviders: undefined
+    SupportedLoginProviders: undefined,
   };
   if (
     output.AllowClassicFlow !== undefined &&
@@ -4068,7 +4068,7 @@ const deserializeAws_json1_1IdentityPoolShortDescription = (
   let contents: any = {
     __type: "IdentityPoolShortDescription",
     IdentityPoolId: undefined,
-    IdentityPoolName: undefined
+    IdentityPoolName: undefined,
   };
   if (output.IdentityPoolId !== undefined && output.IdentityPoolId !== null) {
     contents.IdentityPoolId = output.IdentityPoolId;
@@ -4087,7 +4087,7 @@ const deserializeAws_json1_1IdentityPoolTagsType = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4107,7 +4107,7 @@ const deserializeAws_json1_1IdentityProviders = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4119,7 +4119,7 @@ const deserializeAws_json1_1InternalErrorException = (
 ): InternalErrorException => {
   let contents: any = {
     __type: "InternalErrorException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4133,7 +4133,7 @@ const deserializeAws_json1_1InvalidIdentityPoolConfigurationException = (
 ): InvalidIdentityPoolConfigurationException => {
   let contents: any = {
     __type: "InvalidIdentityPoolConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4147,7 +4147,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4161,7 +4161,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4177,7 +4177,7 @@ const deserializeAws_json1_1ListIdentitiesResponse = (
     __type: "ListIdentitiesResponse",
     Identities: undefined,
     IdentityPoolId: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Identities !== undefined && output.Identities !== null) {
     contents.Identities = deserializeAws_json1_1IdentitiesList(
@@ -4201,7 +4201,7 @@ const deserializeAws_json1_1ListIdentityPoolsResponse = (
   let contents: any = {
     __type: "ListIdentityPoolsResponse",
     IdentityPools: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.IdentityPools !== undefined && output.IdentityPools !== null) {
     contents.IdentityPools = deserializeAws_json1_1IdentityPoolsList(
@@ -4221,7 +4221,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags !== undefined && output.Tags !== null) {
     contents.Tags = deserializeAws_json1_1IdentityPoolTagsType(
@@ -4247,7 +4247,7 @@ const deserializeAws_json1_1LookupDeveloperIdentityResponse = (
     __type: "LookupDeveloperIdentityResponse",
     DeveloperUserIdentifierList: undefined,
     IdentityId: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.DeveloperUserIdentifierList !== undefined &&
@@ -4276,7 +4276,7 @@ const deserializeAws_json1_1MappingRule = (
     Claim: undefined,
     MatchType: undefined,
     RoleARN: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Claim !== undefined && output.Claim !== null) {
     contents.Claim = output.Claim;
@@ -4308,7 +4308,7 @@ const deserializeAws_json1_1MergeDeveloperIdentitiesResponse = (
 ): MergeDeveloperIdentitiesResponse => {
   let contents: any = {
     __type: "MergeDeveloperIdentitiesResponse",
-    IdentityId: undefined
+    IdentityId: undefined,
   };
   if (output.IdentityId !== undefined && output.IdentityId !== null) {
     contents.IdentityId = output.IdentityId;
@@ -4322,7 +4322,7 @@ const deserializeAws_json1_1NotAuthorizedException = (
 ): NotAuthorizedException => {
   let contents: any = {
     __type: "NotAuthorizedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4343,7 +4343,7 @@ const deserializeAws_json1_1ResourceConflictException = (
 ): ResourceConflictException => {
   let contents: any = {
     __type: "ResourceConflictException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4357,7 +4357,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4373,7 +4373,7 @@ const deserializeAws_json1_1RoleMapping = (
     __type: "RoleMapping",
     AmbiguousRoleResolution: undefined,
     RulesConfiguration: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (
     output.AmbiguousRoleResolution !== undefined &&
@@ -4401,7 +4401,7 @@ const deserializeAws_json1_1RoleMappingMap = (
   context: __SerdeContext
 ): { [key: string]: RoleMapping } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1RoleMapping(output[key], context);
   });
   return mapParams;
@@ -4412,7 +4412,7 @@ const deserializeAws_json1_1RolesMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4424,7 +4424,7 @@ const deserializeAws_json1_1RulesConfigurationType = (
 ): RulesConfigurationType => {
   let contents: any = {
     __type: "RulesConfigurationType",
-    Rules: undefined
+    Rules: undefined,
   };
   if (output.Rules !== undefined && output.Rules !== null) {
     contents.Rules = deserializeAws_json1_1MappingRulesList(
@@ -4447,7 +4447,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -4458,7 +4458,7 @@ const deserializeAws_json1_1TooManyRequestsException = (
 ): TooManyRequestsException => {
   let contents: any = {
     __type: "TooManyRequestsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4473,7 +4473,7 @@ const deserializeAws_json1_1UnprocessedIdentityId = (
   let contents: any = {
     __type: "UnprocessedIdentityId",
     ErrorCode: undefined,
-    IdentityId: undefined
+    IdentityId: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -4498,7 +4498,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -4506,7 +4506,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4527,7 +4527,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -4540,11 +4540,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -4556,7 +4556,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

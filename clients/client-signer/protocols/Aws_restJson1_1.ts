@@ -1,50 +1,50 @@
 import {
   CancelSigningProfileCommandInput,
-  CancelSigningProfileCommandOutput
+  CancelSigningProfileCommandOutput,
 } from "../commands/CancelSigningProfileCommand";
 import {
   DescribeSigningJobCommandInput,
-  DescribeSigningJobCommandOutput
+  DescribeSigningJobCommandOutput,
 } from "../commands/DescribeSigningJobCommand";
 import {
   GetSigningPlatformCommandInput,
-  GetSigningPlatformCommandOutput
+  GetSigningPlatformCommandOutput,
 } from "../commands/GetSigningPlatformCommand";
 import {
   GetSigningProfileCommandInput,
-  GetSigningProfileCommandOutput
+  GetSigningProfileCommandOutput,
 } from "../commands/GetSigningProfileCommand";
 import {
   ListSigningJobsCommandInput,
-  ListSigningJobsCommandOutput
+  ListSigningJobsCommandOutput,
 } from "../commands/ListSigningJobsCommand";
 import {
   ListSigningPlatformsCommandInput,
-  ListSigningPlatformsCommandOutput
+  ListSigningPlatformsCommandOutput,
 } from "../commands/ListSigningPlatformsCommand";
 import {
   ListSigningProfilesCommandInput,
-  ListSigningProfilesCommandOutput
+  ListSigningProfilesCommandOutput,
 } from "../commands/ListSigningProfilesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutSigningProfileCommandInput,
-  PutSigningProfileCommandOutput
+  PutSigningProfileCommandOutput,
 } from "../commands/PutSigningProfileCommand";
 import {
   StartSigningJobCommandInput,
-  StartSigningJobCommandOutput
+  StartSigningJobCommandOutput,
 } from "../commands/StartSigningJobCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   AccessDeniedException,
@@ -72,21 +72,21 @@ import {
   SigningProfile,
   Source,
   ThrottlingException,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -113,12 +113,12 @@ export async function serializeAws_restJson1_1CancelSigningProfileCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -143,12 +143,12 @@ export async function serializeAws_restJson1_1DescribeSigningJobCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -173,12 +173,12 @@ export async function serializeAws_restJson1_1GetSigningPlatformCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -205,12 +205,12 @@ export async function serializeAws_restJson1_1GetSigningProfileCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -239,13 +239,13 @@ export async function serializeAws_restJson1_1ListSigningJobsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -274,13 +274,13 @@ export async function serializeAws_restJson1_1ListSigningPlatformsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -303,13 +303,13 @@ export async function serializeAws_restJson1_1ListSigningProfilesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -336,12 +336,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -394,12 +394,12 @@ export async function serializeAws_restJson1_1PutSigningProfileCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -435,12 +435,12 @@ export async function serializeAws_restJson1_1StartSigningJobCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -472,12 +472,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -504,17 +504,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.tagKeys !== undefined) {
-    query["tagKeys"] = (input.tagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.tagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -529,7 +529,7 @@ export async function deserializeAws_restJson1_1CancelSigningProfileCommand(
     );
   }
   const contents: CancelSigningProfileCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -541,7 +541,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
 ): Promise<CancelSigningProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -555,7 +555,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -566,7 +566,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -577,7 +577,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -588,7 +588,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -599,7 +599,7 @@ async function deserializeAws_restJson1_1CancelSigningProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -633,7 +633,7 @@ export async function deserializeAws_restJson1_1DescribeSigningJobCommand(
     signingParameters: undefined,
     source: undefined,
     status: undefined,
-    statusReason: undefined
+    statusReason: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.completedAt !== undefined && data.completedAt !== null) {
@@ -696,7 +696,7 @@ async function deserializeAws_restJson1_1DescribeSigningJobCommandError(
 ): Promise<DescribeSigningJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -710,7 +710,7 @@ async function deserializeAws_restJson1_1DescribeSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -721,7 +721,7 @@ async function deserializeAws_restJson1_1DescribeSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -732,7 +732,7 @@ async function deserializeAws_restJson1_1DescribeSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -743,7 +743,7 @@ async function deserializeAws_restJson1_1DescribeSigningJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -772,7 +772,7 @@ export async function deserializeAws_restJson1_1GetSigningPlatformCommand(
     platformId: undefined,
     signingConfiguration: undefined,
     signingImageFormat: undefined,
-    target: undefined
+    target: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.category !== undefined && data.category !== null) {
@@ -820,7 +820,7 @@ async function deserializeAws_restJson1_1GetSigningPlatformCommandError(
 ): Promise<GetSigningPlatformCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -834,7 +834,7 @@ async function deserializeAws_restJson1_1GetSigningPlatformCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -845,7 +845,7 @@ async function deserializeAws_restJson1_1GetSigningPlatformCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -856,7 +856,7 @@ async function deserializeAws_restJson1_1GetSigningPlatformCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -867,7 +867,7 @@ async function deserializeAws_restJson1_1GetSigningPlatformCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -896,7 +896,7 @@ export async function deserializeAws_restJson1_1GetSigningProfileCommand(
     signingMaterial: undefined,
     signingParameters: undefined,
     status: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.arn !== undefined && data.arn !== null) {
@@ -941,7 +941,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
 ): Promise<GetSigningProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -955,7 +955,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -966,7 +966,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -977,7 +977,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -988,7 +988,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -999,7 +999,7 @@ async function deserializeAws_restJson1_1GetSigningProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1022,7 +1022,7 @@ export async function deserializeAws_restJson1_1ListSigningJobsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListSigningJobsResponse",
     jobs: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobs !== undefined && data.jobs !== null) {
@@ -1040,7 +1040,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
 ): Promise<ListSigningJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1054,7 +1054,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1065,7 +1065,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1076,7 +1076,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1087,7 +1087,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1098,7 +1098,7 @@ async function deserializeAws_restJson1_1ListSigningJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1121,7 +1121,7 @@ export async function deserializeAws_restJson1_1ListSigningPlatformsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListSigningPlatformsResponse",
     nextToken: undefined,
-    platforms: undefined
+    platforms: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -1142,7 +1142,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
 ): Promise<ListSigningPlatformsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1156,7 +1156,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1167,7 +1167,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1178,7 +1178,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1189,7 +1189,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1200,7 +1200,7 @@ async function deserializeAws_restJson1_1ListSigningPlatformsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1223,7 +1223,7 @@ export async function deserializeAws_restJson1_1ListSigningProfilesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListSigningProfilesResponse",
     nextToken: undefined,
-    profiles: undefined
+    profiles: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -1244,7 +1244,7 @@ async function deserializeAws_restJson1_1ListSigningProfilesCommandError(
 ): Promise<ListSigningProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1258,7 +1258,7 @@ async function deserializeAws_restJson1_1ListSigningProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1269,7 +1269,7 @@ async function deserializeAws_restJson1_1ListSigningProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1280,7 +1280,7 @@ async function deserializeAws_restJson1_1ListSigningProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1291,7 +1291,7 @@ async function deserializeAws_restJson1_1ListSigningProfilesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1313,7 +1313,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -1328,7 +1328,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1342,7 +1342,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1353,7 +1353,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1364,7 +1364,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1375,7 +1375,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1397,7 +1397,7 @@ export async function deserializeAws_restJson1_1PutSigningProfileCommand(
   const contents: PutSigningProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutSigningProfileResponse",
-    arn: undefined
+    arn: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.arn !== undefined && data.arn !== null) {
@@ -1412,7 +1412,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
 ): Promise<PutSigningProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1426,7 +1426,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1437,7 +1437,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1448,7 +1448,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1459,7 +1459,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1470,7 +1470,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1481,7 +1481,7 @@ async function deserializeAws_restJson1_1PutSigningProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1503,7 +1503,7 @@ export async function deserializeAws_restJson1_1StartSigningJobCommand(
   const contents: StartSigningJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartSigningJobResponse",
-    jobId: undefined
+    jobId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobId !== undefined && data.jobId !== null) {
@@ -1518,7 +1518,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
 ): Promise<StartSigningJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1532,7 +1532,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1543,7 +1543,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1554,7 +1554,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1565,7 +1565,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1576,7 +1576,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1587,7 +1587,7 @@ async function deserializeAws_restJson1_1StartSigningJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1605,7 +1605,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
   }
   const contents: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1617,7 +1617,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1631,7 +1631,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1642,7 +1642,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1653,7 +1653,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1664,7 +1664,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1682,7 +1682,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
   }
   const contents: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1694,7 +1694,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1708,7 +1708,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceErrorException":
@@ -1719,7 +1719,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1730,7 +1730,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1741,7 +1741,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1758,7 +1758,7 @@ const deserializeAws_restJson1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1775,7 +1775,7 @@ const deserializeAws_restJson1_1BadRequestExceptionResponse = async (
     name: "BadRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1792,7 +1792,7 @@ const deserializeAws_restJson1_1InternalServiceErrorExceptionResponse = async (
     name: "InternalServiceErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1809,7 +1809,7 @@ const deserializeAws_restJson1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1826,7 +1826,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1843,7 +1843,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1860,7 +1860,7 @@ const deserializeAws_restJson1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1941,7 +1941,7 @@ const serializeAws_restJson1_1SigningParameters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -1979,7 +1979,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -1992,7 +1992,7 @@ const deserializeAws_restJson1_1EncryptionAlgorithmOptions = (
   let contents: any = {
     __type: "EncryptionAlgorithmOptions",
     allowedValues: undefined,
-    defaultValue: undefined
+    defaultValue: undefined,
   };
   if (output.allowedValues !== undefined && output.allowedValues !== null) {
     contents.allowedValues = deserializeAws_restJson1_1EncryptionAlgorithms(
@@ -2020,7 +2020,7 @@ const deserializeAws_restJson1_1HashAlgorithmOptions = (
   let contents: any = {
     __type: "HashAlgorithmOptions",
     allowedValues: undefined,
-    defaultValue: undefined
+    defaultValue: undefined,
   };
   if (output.allowedValues !== undefined && output.allowedValues !== null) {
     contents.allowedValues = deserializeAws_restJson1_1HashAlgorithms(
@@ -2055,7 +2055,7 @@ const deserializeAws_restJson1_1S3SignedObject = (
   let contents: any = {
     __type: "S3SignedObject",
     bucketName: undefined,
-    key: undefined
+    key: undefined,
   };
   if (output.bucketName !== undefined && output.bucketName !== null) {
     contents.bucketName = output.bucketName;
@@ -2074,7 +2074,7 @@ const deserializeAws_restJson1_1S3Source = (
     __type: "S3Source",
     bucketName: undefined,
     key: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.bucketName !== undefined && output.bucketName !== null) {
     contents.bucketName = output.bucketName;
@@ -2094,7 +2094,7 @@ const deserializeAws_restJson1_1SignedObject = (
 ): SignedObject => {
   let contents: any = {
     __type: "SignedObject",
-    s3: undefined
+    s3: undefined,
   };
   if (output.s3 !== undefined && output.s3 !== null) {
     contents.s3 = deserializeAws_restJson1_1S3SignedObject(output.s3, context);
@@ -2109,7 +2109,7 @@ const deserializeAws_restJson1_1SigningConfiguration = (
   let contents: any = {
     __type: "SigningConfiguration",
     encryptionAlgorithmOptions: undefined,
-    hashAlgorithmOptions: undefined
+    hashAlgorithmOptions: undefined,
   };
   if (
     output.encryptionAlgorithmOptions !== undefined &&
@@ -2139,7 +2139,7 @@ const deserializeAws_restJson1_1SigningConfigurationOverrides = (
   let contents: any = {
     __type: "SigningConfigurationOverrides",
     encryptionAlgorithm: undefined,
-    hashAlgorithm: undefined
+    hashAlgorithm: undefined,
   };
   if (
     output.encryptionAlgorithm !== undefined &&
@@ -2160,7 +2160,7 @@ const deserializeAws_restJson1_1SigningImageFormat = (
   let contents: any = {
     __type: "SigningImageFormat",
     defaultFormat: undefined,
-    supportedFormats: undefined
+    supportedFormats: undefined,
   };
   if (output.defaultFormat !== undefined && output.defaultFormat !== null) {
     contents.defaultFormat = output.defaultFormat;
@@ -2188,7 +2188,7 @@ const deserializeAws_restJson1_1SigningJob = (
     signedObject: undefined,
     signingMaterial: undefined,
     source: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -2232,7 +2232,7 @@ const deserializeAws_restJson1_1SigningMaterial = (
 ): SigningMaterial => {
   let contents: any = {
     __type: "SigningMaterial",
-    certificateArn: undefined
+    certificateArn: undefined,
   };
   if (output.certificateArn !== undefined && output.certificateArn !== null) {
     contents.certificateArn = output.certificateArn;
@@ -2245,7 +2245,7 @@ const deserializeAws_restJson1_1SigningParameters = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2264,7 +2264,7 @@ const deserializeAws_restJson1_1SigningPlatform = (
     platformId: undefined,
     signingConfiguration: undefined,
     signingImageFormat: undefined,
-    target: undefined
+    target: undefined,
   };
   if (output.category !== undefined && output.category !== null) {
     contents.category = output.category;
@@ -2311,7 +2311,7 @@ const deserializeAws_restJson1_1SigningPlatformOverrides = (
 ): SigningPlatformOverrides => {
   let contents: any = {
     __type: "SigningPlatformOverrides",
-    signingConfiguration: undefined
+    signingConfiguration: undefined,
   };
   if (
     output.signingConfiguration !== undefined &&
@@ -2346,7 +2346,7 @@ const deserializeAws_restJson1_1SigningProfile = (
     signingMaterial: undefined,
     signingParameters: undefined,
     status: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -2396,7 +2396,7 @@ const deserializeAws_restJson1_1Source = (
 ): Source => {
   let contents: any = {
     __type: "Source",
-    s3: undefined
+    s3: undefined,
   };
   if (output.s3 !== undefined && output.s3 !== null) {
     contents.s3 = deserializeAws_restJson1_1S3Source(output.s3, context);
@@ -2409,7 +2409,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2418,7 +2418,7 @@ const deserializeAws_restJson1_1TagMap = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2439,13 +2439,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -2458,7 +2458,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

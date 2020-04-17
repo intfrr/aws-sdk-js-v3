@@ -1,186 +1,186 @@
 import {
   AddTagsToOnPremisesInstancesCommandInput,
-  AddTagsToOnPremisesInstancesCommandOutput
+  AddTagsToOnPremisesInstancesCommandOutput,
 } from "../commands/AddTagsToOnPremisesInstancesCommand";
 import {
   BatchGetApplicationRevisionsCommandInput,
-  BatchGetApplicationRevisionsCommandOutput
+  BatchGetApplicationRevisionsCommandOutput,
 } from "../commands/BatchGetApplicationRevisionsCommand";
 import {
   BatchGetApplicationsCommandInput,
-  BatchGetApplicationsCommandOutput
+  BatchGetApplicationsCommandOutput,
 } from "../commands/BatchGetApplicationsCommand";
 import {
   BatchGetDeploymentGroupsCommandInput,
-  BatchGetDeploymentGroupsCommandOutput
+  BatchGetDeploymentGroupsCommandOutput,
 } from "../commands/BatchGetDeploymentGroupsCommand";
 import {
   BatchGetDeploymentInstancesCommandInput,
-  BatchGetDeploymentInstancesCommandOutput
+  BatchGetDeploymentInstancesCommandOutput,
 } from "../commands/BatchGetDeploymentInstancesCommand";
 import {
   BatchGetDeploymentTargetsCommandInput,
-  BatchGetDeploymentTargetsCommandOutput
+  BatchGetDeploymentTargetsCommandOutput,
 } from "../commands/BatchGetDeploymentTargetsCommand";
 import {
   BatchGetDeploymentsCommandInput,
-  BatchGetDeploymentsCommandOutput
+  BatchGetDeploymentsCommandOutput,
 } from "../commands/BatchGetDeploymentsCommand";
 import {
   BatchGetOnPremisesInstancesCommandInput,
-  BatchGetOnPremisesInstancesCommandOutput
+  BatchGetOnPremisesInstancesCommandOutput,
 } from "../commands/BatchGetOnPremisesInstancesCommand";
 import {
   ContinueDeploymentCommandInput,
-  ContinueDeploymentCommandOutput
+  ContinueDeploymentCommandOutput,
 } from "../commands/ContinueDeploymentCommand";
 import {
   CreateApplicationCommandInput,
-  CreateApplicationCommandOutput
+  CreateApplicationCommandOutput,
 } from "../commands/CreateApplicationCommand";
 import {
   CreateDeploymentCommandInput,
-  CreateDeploymentCommandOutput
+  CreateDeploymentCommandOutput,
 } from "../commands/CreateDeploymentCommand";
 import {
   CreateDeploymentConfigCommandInput,
-  CreateDeploymentConfigCommandOutput
+  CreateDeploymentConfigCommandOutput,
 } from "../commands/CreateDeploymentConfigCommand";
 import {
   CreateDeploymentGroupCommandInput,
-  CreateDeploymentGroupCommandOutput
+  CreateDeploymentGroupCommandOutput,
 } from "../commands/CreateDeploymentGroupCommand";
 import {
   DeleteApplicationCommandInput,
-  DeleteApplicationCommandOutput
+  DeleteApplicationCommandOutput,
 } from "../commands/DeleteApplicationCommand";
 import {
   DeleteDeploymentConfigCommandInput,
-  DeleteDeploymentConfigCommandOutput
+  DeleteDeploymentConfigCommandOutput,
 } from "../commands/DeleteDeploymentConfigCommand";
 import {
   DeleteDeploymentGroupCommandInput,
-  DeleteDeploymentGroupCommandOutput
+  DeleteDeploymentGroupCommandOutput,
 } from "../commands/DeleteDeploymentGroupCommand";
 import {
   DeleteGitHubAccountTokenCommandInput,
-  DeleteGitHubAccountTokenCommandOutput
+  DeleteGitHubAccountTokenCommandOutput,
 } from "../commands/DeleteGitHubAccountTokenCommand";
 import {
   DeregisterOnPremisesInstanceCommandInput,
-  DeregisterOnPremisesInstanceCommandOutput
+  DeregisterOnPremisesInstanceCommandOutput,
 } from "../commands/DeregisterOnPremisesInstanceCommand";
 import {
   GetApplicationCommandInput,
-  GetApplicationCommandOutput
+  GetApplicationCommandOutput,
 } from "../commands/GetApplicationCommand";
 import {
   GetApplicationRevisionCommandInput,
-  GetApplicationRevisionCommandOutput
+  GetApplicationRevisionCommandOutput,
 } from "../commands/GetApplicationRevisionCommand";
 import {
   GetDeploymentCommandInput,
-  GetDeploymentCommandOutput
+  GetDeploymentCommandOutput,
 } from "../commands/GetDeploymentCommand";
 import {
   GetDeploymentConfigCommandInput,
-  GetDeploymentConfigCommandOutput
+  GetDeploymentConfigCommandOutput,
 } from "../commands/GetDeploymentConfigCommand";
 import {
   GetDeploymentGroupCommandInput,
-  GetDeploymentGroupCommandOutput
+  GetDeploymentGroupCommandOutput,
 } from "../commands/GetDeploymentGroupCommand";
 import {
   GetDeploymentInstanceCommandInput,
-  GetDeploymentInstanceCommandOutput
+  GetDeploymentInstanceCommandOutput,
 } from "../commands/GetDeploymentInstanceCommand";
 import {
   GetDeploymentTargetCommandInput,
-  GetDeploymentTargetCommandOutput
+  GetDeploymentTargetCommandOutput,
 } from "../commands/GetDeploymentTargetCommand";
 import {
   GetOnPremisesInstanceCommandInput,
-  GetOnPremisesInstanceCommandOutput
+  GetOnPremisesInstanceCommandOutput,
 } from "../commands/GetOnPremisesInstanceCommand";
 import {
   ListApplicationRevisionsCommandInput,
-  ListApplicationRevisionsCommandOutput
+  ListApplicationRevisionsCommandOutput,
 } from "../commands/ListApplicationRevisionsCommand";
 import {
   ListApplicationsCommandInput,
-  ListApplicationsCommandOutput
+  ListApplicationsCommandOutput,
 } from "../commands/ListApplicationsCommand";
 import {
   ListDeploymentConfigsCommandInput,
-  ListDeploymentConfigsCommandOutput
+  ListDeploymentConfigsCommandOutput,
 } from "../commands/ListDeploymentConfigsCommand";
 import {
   ListDeploymentGroupsCommandInput,
-  ListDeploymentGroupsCommandOutput
+  ListDeploymentGroupsCommandOutput,
 } from "../commands/ListDeploymentGroupsCommand";
 import {
   ListDeploymentInstancesCommandInput,
-  ListDeploymentInstancesCommandOutput
+  ListDeploymentInstancesCommandOutput,
 } from "../commands/ListDeploymentInstancesCommand";
 import {
   ListDeploymentTargetsCommandInput,
-  ListDeploymentTargetsCommandOutput
+  ListDeploymentTargetsCommandOutput,
 } from "../commands/ListDeploymentTargetsCommand";
 import {
   ListDeploymentsCommandInput,
-  ListDeploymentsCommandOutput
+  ListDeploymentsCommandOutput,
 } from "../commands/ListDeploymentsCommand";
 import {
   ListGitHubAccountTokenNamesCommandInput,
-  ListGitHubAccountTokenNamesCommandOutput
+  ListGitHubAccountTokenNamesCommandOutput,
 } from "../commands/ListGitHubAccountTokenNamesCommand";
 import {
   ListOnPremisesInstancesCommandInput,
-  ListOnPremisesInstancesCommandOutput
+  ListOnPremisesInstancesCommandOutput,
 } from "../commands/ListOnPremisesInstancesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutLifecycleEventHookExecutionStatusCommandInput,
-  PutLifecycleEventHookExecutionStatusCommandOutput
+  PutLifecycleEventHookExecutionStatusCommandOutput,
 } from "../commands/PutLifecycleEventHookExecutionStatusCommand";
 import {
   RegisterApplicationRevisionCommandInput,
-  RegisterApplicationRevisionCommandOutput
+  RegisterApplicationRevisionCommandOutput,
 } from "../commands/RegisterApplicationRevisionCommand";
 import {
   RegisterOnPremisesInstanceCommandInput,
-  RegisterOnPremisesInstanceCommandOutput
+  RegisterOnPremisesInstanceCommandOutput,
 } from "../commands/RegisterOnPremisesInstanceCommand";
 import {
   RemoveTagsFromOnPremisesInstancesCommandInput,
-  RemoveTagsFromOnPremisesInstancesCommandOutput
+  RemoveTagsFromOnPremisesInstancesCommandOutput,
 } from "../commands/RemoveTagsFromOnPremisesInstancesCommand";
 import {
   SkipWaitTimeForInstanceTerminationCommandInput,
-  SkipWaitTimeForInstanceTerminationCommandOutput
+  SkipWaitTimeForInstanceTerminationCommandOutput,
 } from "../commands/SkipWaitTimeForInstanceTerminationCommand";
 import {
   StopDeploymentCommandInput,
-  StopDeploymentCommandOutput
+  StopDeploymentCommandOutput,
 } from "../commands/StopDeploymentCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateApplicationCommandInput,
-  UpdateApplicationCommandOutput
+  UpdateApplicationCommandOutput,
 } from "../commands/UpdateApplicationCommand";
 import {
   UpdateDeploymentGroupCommandInput,
-  UpdateDeploymentGroupCommandOutput
+  UpdateDeploymentGroupCommandOutput,
 } from "../commands/UpdateDeploymentGroupCommand";
 import {
   AddTagsToOnPremisesInstancesInput,
@@ -429,11 +429,11 @@ import {
   UpdateApplicationInput,
   UpdateDeploymentGroupInput,
   UpdateDeploymentGroupOutput,
-  _InstanceType
+  _InstanceType,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -441,7 +441,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AddTagsToOnPremisesInstancesCommand(
@@ -1100,7 +1100,7 @@ export async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommand(
   }
   await collectBody(output.body, context);
   const response: AddTagsToOnPremisesInstancesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1111,7 +1111,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
 ): Promise<AddTagsToOnPremisesInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1127,7 +1127,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNameRequiredException":
@@ -1138,7 +1138,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNotRegisteredException":
@@ -1149,7 +1149,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -1160,7 +1160,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -1171,7 +1171,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -1182,7 +1182,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagRequiredException":
@@ -1193,7 +1193,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1204,7 +1204,7 @@ async function deserializeAws_json1_1AddTagsToOnPremisesInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1232,7 +1232,7 @@ export async function deserializeAws_json1_1BatchGetApplicationRevisionsCommand(
   const response: BatchGetApplicationRevisionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetApplicationRevisionsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1243,7 +1243,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
 ): Promise<BatchGetApplicationRevisionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1259,7 +1259,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -1270,7 +1270,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BatchLimitExceededException":
@@ -1281,7 +1281,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -1292,7 +1292,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRevisionException":
@@ -1303,7 +1303,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionRequiredException":
@@ -1314,7 +1314,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1325,7 +1325,7 @@ async function deserializeAws_json1_1BatchGetApplicationRevisionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1350,7 +1350,7 @@ export async function deserializeAws_json1_1BatchGetApplicationsCommand(
   const response: BatchGetApplicationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetApplicationsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1361,7 +1361,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
 ): Promise<BatchGetApplicationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1377,7 +1377,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -1388,7 +1388,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BatchLimitExceededException":
@@ -1399,7 +1399,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -1410,7 +1410,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1421,7 +1421,7 @@ async function deserializeAws_json1_1BatchGetApplicationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1449,7 +1449,7 @@ export async function deserializeAws_json1_1BatchGetDeploymentGroupsCommand(
   const response: BatchGetDeploymentGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetDeploymentGroupsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1460,7 +1460,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
 ): Promise<BatchGetDeploymentGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1476,7 +1476,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -1487,7 +1487,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BatchLimitExceededException":
@@ -1498,7 +1498,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -1509,7 +1509,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -1520,7 +1520,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -1531,7 +1531,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -1542,7 +1542,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1553,7 +1553,7 @@ async function deserializeAws_json1_1BatchGetDeploymentGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1581,7 +1581,7 @@ export async function deserializeAws_json1_1BatchGetDeploymentInstancesCommand(
   const response: BatchGetDeploymentInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetDeploymentInstancesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1592,7 +1592,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
 ): Promise<BatchGetDeploymentInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1608,7 +1608,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentDoesNotExistException":
@@ -1619,7 +1619,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -1630,7 +1630,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceIdRequiredException":
@@ -1641,7 +1641,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -1652,7 +1652,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -1663,7 +1663,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -1674,7 +1674,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1685,7 +1685,7 @@ async function deserializeAws_json1_1BatchGetDeploymentInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1713,7 +1713,7 @@ export async function deserializeAws_json1_1BatchGetDeploymentTargetsCommand(
   const response: BatchGetDeploymentTargetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetDeploymentTargetsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1724,7 +1724,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
 ): Promise<BatchGetDeploymentTargetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1740,7 +1740,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -1751,7 +1751,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentNotStartedException":
@@ -1762,7 +1762,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentTargetDoesNotExistException":
@@ -1773,7 +1773,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentTargetIdRequiredException":
@@ -1784,7 +1784,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentTargetListSizeExceededException":
@@ -1795,7 +1795,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -1806,7 +1806,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentTargetIdException":
@@ -1817,7 +1817,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1828,7 +1828,7 @@ async function deserializeAws_json1_1BatchGetDeploymentTargetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1853,7 +1853,7 @@ export async function deserializeAws_json1_1BatchGetDeploymentsCommand(
   const response: BatchGetDeploymentsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetDeploymentsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1864,7 +1864,7 @@ async function deserializeAws_json1_1BatchGetDeploymentsCommandError(
 ): Promise<BatchGetDeploymentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1880,7 +1880,7 @@ async function deserializeAws_json1_1BatchGetDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -1891,7 +1891,7 @@ async function deserializeAws_json1_1BatchGetDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -1902,7 +1902,7 @@ async function deserializeAws_json1_1BatchGetDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1913,7 +1913,7 @@ async function deserializeAws_json1_1BatchGetDeploymentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1941,7 +1941,7 @@ export async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommand(
   const response: BatchGetOnPremisesInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetOnPremisesInstancesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1952,7 +1952,7 @@ async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommandError(
 ): Promise<BatchGetOnPremisesInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1968,7 +1968,7 @@ async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNameRequiredException":
@@ -1979,7 +1979,7 @@ async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -1990,7 +1990,7 @@ async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2001,7 +2001,7 @@ async function deserializeAws_json1_1BatchGetOnPremisesInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2022,7 +2022,7 @@ export async function deserializeAws_json1_1ContinueDeploymentCommand(
   }
   await collectBody(output.body, context);
   const response: ContinueDeploymentCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2033,7 +2033,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
 ): Promise<ContinueDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2049,7 +2049,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentDoesNotExistException":
@@ -2060,7 +2060,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -2071,7 +2071,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIsNotInReadyStateException":
@@ -2082,7 +2082,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -2093,7 +2093,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentStatusException":
@@ -2104,7 +2104,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentWaitTypeException":
@@ -2115,7 +2115,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedActionForDeploymentTypeException":
@@ -2126,7 +2126,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2137,7 +2137,7 @@ async function deserializeAws_json1_1ContinueDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2159,7 +2159,7 @@ export async function deserializeAws_json1_1CreateApplicationCommand(
   const response: CreateApplicationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateApplicationOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2170,7 +2170,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
 ): Promise<CreateApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2186,7 +2186,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationLimitExceededException":
@@ -2197,7 +2197,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -2208,7 +2208,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -2219,7 +2219,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -2230,7 +2230,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagsToAddException":
@@ -2241,7 +2241,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2252,7 +2252,7 @@ async function deserializeAws_json1_1CreateApplicationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2274,7 +2274,7 @@ export async function deserializeAws_json1_1CreateDeploymentCommand(
   const response: CreateDeploymentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDeploymentOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2285,7 +2285,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
 ): Promise<CreateDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2301,7 +2301,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -2312,7 +2312,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -2323,7 +2323,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -2334,7 +2334,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -2345,7 +2345,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentLimitExceededException":
@@ -2356,7 +2356,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DescriptionTooLongException":
@@ -2367,7 +2367,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -2378,7 +2378,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoRollbackConfigException":
@@ -2389,7 +2389,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoScalingGroupException":
@@ -2400,7 +2400,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -2411,7 +2411,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -2422,7 +2422,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidFileExistsBehaviorException":
@@ -2433,7 +2433,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGitHubAccountTokenException":
@@ -2444,7 +2444,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIgnoreApplicationStopFailuresValueException":
@@ -2455,7 +2455,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLoadBalancerInfoException":
@@ -2466,7 +2466,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRevisionException":
@@ -2477,7 +2477,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -2488,7 +2488,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTargetInstancesException":
@@ -2499,7 +2499,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidUpdateOutdatedInstancesOnlyValueException":
@@ -2510,7 +2510,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionDoesNotExistException":
@@ -2521,7 +2521,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionRequiredException":
@@ -2532,7 +2532,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2543,7 +2543,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2554,7 +2554,7 @@ async function deserializeAws_json1_1CreateDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2579,7 +2579,7 @@ export async function deserializeAws_json1_1CreateDeploymentConfigCommand(
   const response: CreateDeploymentConfigCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDeploymentConfigOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2590,7 +2590,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
 ): Promise<CreateDeploymentConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2606,7 +2606,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigLimitExceededException":
@@ -2617,7 +2617,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigNameRequiredException":
@@ -2628,7 +2628,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -2639,7 +2639,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -2650,7 +2650,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidMinimumHealthyHostValueException":
@@ -2661,7 +2661,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrafficRoutingConfigurationException":
@@ -2672,7 +2672,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2683,7 +2683,7 @@ async function deserializeAws_json1_1CreateDeploymentConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2708,7 +2708,7 @@ export async function deserializeAws_json1_1CreateDeploymentGroupCommand(
   const response: CreateDeploymentGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDeploymentGroupOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2719,7 +2719,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
 ): Promise<CreateDeploymentGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2735,7 +2735,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationDoesNotExistException":
@@ -2746,7 +2746,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -2757,7 +2757,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -2768,7 +2768,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupAlreadyExistsException":
@@ -2779,7 +2779,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupLimitExceededException":
@@ -2790,7 +2790,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -2801,7 +2801,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ECSServiceMappingLimitExceededException":
@@ -2812,7 +2812,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAlarmConfigException":
@@ -2823,7 +2823,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -2834,7 +2834,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoRollbackConfigException":
@@ -2845,7 +2845,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoScalingGroupException":
@@ -2856,7 +2856,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidBlueGreenDeploymentConfigurationException":
@@ -2867,7 +2867,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -2878,7 +2878,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -2889,7 +2889,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentStyleException":
@@ -2900,7 +2900,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEC2TagCombinationException":
@@ -2911,7 +2911,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEC2TagException":
@@ -2922,7 +2922,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidECSServiceException":
@@ -2933,7 +2933,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2944,7 +2944,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLoadBalancerInfoException":
@@ -2955,7 +2955,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOnPremisesTagCombinationException":
@@ -2966,7 +2966,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -2977,7 +2977,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -2988,7 +2988,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagsToAddException":
@@ -2999,7 +2999,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTargetGroupPairException":
@@ -3010,7 +3010,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTriggerConfigException":
@@ -3021,7 +3021,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecycleHookLimitExceededException":
@@ -3032,7 +3032,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RoleRequiredException":
@@ -3043,7 +3043,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagSetListLimitExceededException":
@@ -3054,7 +3054,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3065,7 +3065,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TriggerTargetsLimitExceededException":
@@ -3076,7 +3076,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3087,7 +3087,7 @@ async function deserializeAws_json1_1CreateDeploymentGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3105,7 +3105,7 @@ export async function deserializeAws_json1_1DeleteApplicationCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteApplicationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3116,7 +3116,7 @@ async function deserializeAws_json1_1DeleteApplicationCommandError(
 ): Promise<DeleteApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3132,7 +3132,7 @@ async function deserializeAws_json1_1DeleteApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -3143,7 +3143,7 @@ async function deserializeAws_json1_1DeleteApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -3154,7 +3154,7 @@ async function deserializeAws_json1_1DeleteApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3165,7 +3165,7 @@ async function deserializeAws_json1_1DeleteApplicationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3186,7 +3186,7 @@ export async function deserializeAws_json1_1DeleteDeploymentConfigCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteDeploymentConfigCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3197,7 +3197,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
 ): Promise<DeleteDeploymentConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3213,7 +3213,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigNameRequiredException":
@@ -3224,7 +3224,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -3235,7 +3235,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOperationException":
@@ -3246,7 +3246,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3257,7 +3257,7 @@ async function deserializeAws_json1_1DeleteDeploymentConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3282,7 +3282,7 @@ export async function deserializeAws_json1_1DeleteDeploymentGroupCommand(
   const response: DeleteDeploymentGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDeploymentGroupOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3293,7 +3293,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
 ): Promise<DeleteDeploymentGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3309,7 +3309,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -3320,7 +3320,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -3331,7 +3331,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -3342,7 +3342,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -3353,7 +3353,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3364,7 +3364,7 @@ async function deserializeAws_json1_1DeleteDeploymentGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3392,7 +3392,7 @@ export async function deserializeAws_json1_1DeleteGitHubAccountTokenCommand(
   const response: DeleteGitHubAccountTokenCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteGitHubAccountTokenOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3403,7 +3403,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
 ): Promise<DeleteGitHubAccountTokenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3419,7 +3419,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "GitHubAccountTokenNameRequiredException":
@@ -3430,7 +3430,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGitHubAccountTokenNameException":
@@ -3441,7 +3441,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -3452,7 +3452,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceValidationException":
@@ -3463,7 +3463,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3474,7 +3474,7 @@ async function deserializeAws_json1_1DeleteGitHubAccountTokenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3495,7 +3495,7 @@ export async function deserializeAws_json1_1DeregisterOnPremisesInstanceCommand(
   }
   await collectBody(output.body, context);
   const response: DeregisterOnPremisesInstanceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3506,7 +3506,7 @@ async function deserializeAws_json1_1DeregisterOnPremisesInstanceCommandError(
 ): Promise<DeregisterOnPremisesInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3522,7 +3522,7 @@ async function deserializeAws_json1_1DeregisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -3533,7 +3533,7 @@ async function deserializeAws_json1_1DeregisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3544,7 +3544,7 @@ async function deserializeAws_json1_1DeregisterOnPremisesInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3566,7 +3566,7 @@ export async function deserializeAws_json1_1GetApplicationCommand(
   const response: GetApplicationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetApplicationOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3577,7 +3577,7 @@ async function deserializeAws_json1_1GetApplicationCommandError(
 ): Promise<GetApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3593,7 +3593,7 @@ async function deserializeAws_json1_1GetApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -3604,7 +3604,7 @@ async function deserializeAws_json1_1GetApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -3615,7 +3615,7 @@ async function deserializeAws_json1_1GetApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3626,7 +3626,7 @@ async function deserializeAws_json1_1GetApplicationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3651,7 +3651,7 @@ export async function deserializeAws_json1_1GetApplicationRevisionCommand(
   const response: GetApplicationRevisionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetApplicationRevisionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3662,7 +3662,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
 ): Promise<GetApplicationRevisionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3678,7 +3678,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -3689,7 +3689,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -3700,7 +3700,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRevisionException":
@@ -3711,7 +3711,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionDoesNotExistException":
@@ -3722,7 +3722,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionRequiredException":
@@ -3733,7 +3733,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3744,7 +3744,7 @@ async function deserializeAws_json1_1GetApplicationRevisionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3766,7 +3766,7 @@ export async function deserializeAws_json1_1GetDeploymentCommand(
   const response: GetDeploymentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeploymentOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3777,7 +3777,7 @@ async function deserializeAws_json1_1GetDeploymentCommandError(
 ): Promise<GetDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3793,7 +3793,7 @@ async function deserializeAws_json1_1GetDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -3804,7 +3804,7 @@ async function deserializeAws_json1_1GetDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -3815,7 +3815,7 @@ async function deserializeAws_json1_1GetDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3826,7 +3826,7 @@ async function deserializeAws_json1_1GetDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3851,7 +3851,7 @@ export async function deserializeAws_json1_1GetDeploymentConfigCommand(
   const response: GetDeploymentConfigCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeploymentConfigOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3862,7 +3862,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
 ): Promise<GetDeploymentConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3878,7 +3878,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigNameRequiredException":
@@ -3889,7 +3889,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -3900,7 +3900,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -3911,7 +3911,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3922,7 +3922,7 @@ async function deserializeAws_json1_1GetDeploymentConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3947,7 +3947,7 @@ export async function deserializeAws_json1_1GetDeploymentGroupCommand(
   const response: GetDeploymentGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeploymentGroupOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3958,7 +3958,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
 ): Promise<GetDeploymentGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3974,7 +3974,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -3985,7 +3985,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -3996,7 +3996,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -4007,7 +4007,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -4018,7 +4018,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -4029,7 +4029,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -4040,7 +4040,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4051,7 +4051,7 @@ async function deserializeAws_json1_1GetDeploymentGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4076,7 +4076,7 @@ export async function deserializeAws_json1_1GetDeploymentInstanceCommand(
   const response: GetDeploymentInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeploymentInstanceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4087,7 +4087,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
 ): Promise<GetDeploymentInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4103,7 +4103,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -4114,7 +4114,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceDoesNotExistException":
@@ -4125,7 +4125,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceIdRequiredException":
@@ -4136,7 +4136,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -4147,7 +4147,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -4158,7 +4158,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -4169,7 +4169,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4180,7 +4180,7 @@ async function deserializeAws_json1_1GetDeploymentInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4205,7 +4205,7 @@ export async function deserializeAws_json1_1GetDeploymentTargetCommand(
   const response: GetDeploymentTargetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeploymentTargetOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4216,7 +4216,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
 ): Promise<GetDeploymentTargetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4232,7 +4232,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -4243,7 +4243,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentNotStartedException":
@@ -4254,7 +4254,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentTargetDoesNotExistException":
@@ -4265,7 +4265,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentTargetIdRequiredException":
@@ -4276,7 +4276,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -4287,7 +4287,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentTargetIdException":
@@ -4298,7 +4298,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -4309,7 +4309,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4320,7 +4320,7 @@ async function deserializeAws_json1_1GetDeploymentTargetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4345,7 +4345,7 @@ export async function deserializeAws_json1_1GetOnPremisesInstanceCommand(
   const response: GetOnPremisesInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOnPremisesInstanceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4356,7 +4356,7 @@ async function deserializeAws_json1_1GetOnPremisesInstanceCommandError(
 ): Promise<GetOnPremisesInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4372,7 +4372,7 @@ async function deserializeAws_json1_1GetOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNotRegisteredException":
@@ -4383,7 +4383,7 @@ async function deserializeAws_json1_1GetOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -4394,7 +4394,7 @@ async function deserializeAws_json1_1GetOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4405,7 +4405,7 @@ async function deserializeAws_json1_1GetOnPremisesInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4433,7 +4433,7 @@ export async function deserializeAws_json1_1ListApplicationRevisionsCommand(
   const response: ListApplicationRevisionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListApplicationRevisionsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4444,7 +4444,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
 ): Promise<ListApplicationRevisionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4460,7 +4460,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -4471,7 +4471,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BucketNameFilterRequiredException":
@@ -4482,7 +4482,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -4493,7 +4493,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidBucketNameFilterException":
@@ -4504,7 +4504,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeployedStateFilterException":
@@ -4515,7 +4515,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidKeyPrefixFilterException":
@@ -4526,7 +4526,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -4537,7 +4537,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSortByException":
@@ -4548,7 +4548,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSortOrderException":
@@ -4559,7 +4559,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4570,7 +4570,7 @@ async function deserializeAws_json1_1ListApplicationRevisionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4592,7 +4592,7 @@ export async function deserializeAws_json1_1ListApplicationsCommand(
   const response: ListApplicationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListApplicationsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4603,7 +4603,7 @@ async function deserializeAws_json1_1ListApplicationsCommandError(
 ): Promise<ListApplicationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4619,7 +4619,7 @@ async function deserializeAws_json1_1ListApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4630,7 +4630,7 @@ async function deserializeAws_json1_1ListApplicationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4655,7 +4655,7 @@ export async function deserializeAws_json1_1ListDeploymentConfigsCommand(
   const response: ListDeploymentConfigsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentConfigsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4666,7 +4666,7 @@ async function deserializeAws_json1_1ListDeploymentConfigsCommandError(
 ): Promise<ListDeploymentConfigsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4682,7 +4682,7 @@ async function deserializeAws_json1_1ListDeploymentConfigsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4693,7 +4693,7 @@ async function deserializeAws_json1_1ListDeploymentConfigsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4718,7 +4718,7 @@ export async function deserializeAws_json1_1ListDeploymentGroupsCommand(
   const response: ListDeploymentGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentGroupsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4729,7 +4729,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
 ): Promise<ListDeploymentGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4745,7 +4745,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -4756,7 +4756,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -4767,7 +4767,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -4778,7 +4778,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4789,7 +4789,7 @@ async function deserializeAws_json1_1ListDeploymentGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4814,7 +4814,7 @@ export async function deserializeAws_json1_1ListDeploymentInstancesCommand(
   const response: ListDeploymentInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentInstancesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4825,7 +4825,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
 ): Promise<ListDeploymentInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4841,7 +4841,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -4852,7 +4852,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentNotStartedException":
@@ -4863,7 +4863,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidComputePlatformException":
@@ -4874,7 +4874,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -4885,7 +4885,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentInstanceTypeException":
@@ -4896,7 +4896,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceStatusException":
@@ -4907,7 +4907,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceTypeException":
@@ -4918,7 +4918,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -4929,7 +4929,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTargetFilterNameException":
@@ -4940,7 +4940,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4951,7 +4951,7 @@ async function deserializeAws_json1_1ListDeploymentInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4976,7 +4976,7 @@ export async function deserializeAws_json1_1ListDeploymentTargetsCommand(
   const response: ListDeploymentTargetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentTargetsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4987,7 +4987,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
 ): Promise<ListDeploymentTargetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5003,7 +5003,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -5014,7 +5014,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentNotStartedException":
@@ -5025,7 +5025,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -5036,7 +5036,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentInstanceTypeException":
@@ -5047,7 +5047,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceStatusException":
@@ -5058,7 +5058,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceTypeException":
@@ -5069,7 +5069,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -5080,7 +5080,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5091,7 +5091,7 @@ async function deserializeAws_json1_1ListDeploymentTargetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5113,7 +5113,7 @@ export async function deserializeAws_json1_1ListDeploymentsCommand(
   const response: ListDeploymentsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5124,7 +5124,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
 ): Promise<ListDeploymentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5140,7 +5140,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -5151,7 +5151,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -5162,7 +5162,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -5173,7 +5173,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -5184,7 +5184,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -5195,7 +5195,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentStatusException":
@@ -5206,7 +5206,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -5217,7 +5217,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTimeRangeException":
@@ -5228,7 +5228,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5239,7 +5239,7 @@ async function deserializeAws_json1_1ListDeploymentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5267,7 +5267,7 @@ export async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommand(
   const response: ListGitHubAccountTokenNamesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListGitHubAccountTokenNamesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5278,7 +5278,7 @@ async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommandError(
 ): Promise<ListGitHubAccountTokenNamesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5294,7 +5294,7 @@ async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -5305,7 +5305,7 @@ async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceValidationException":
@@ -5316,7 +5316,7 @@ async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5327,7 +5327,7 @@ async function deserializeAws_json1_1ListGitHubAccountTokenNamesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5352,7 +5352,7 @@ export async function deserializeAws_json1_1ListOnPremisesInstancesCommand(
   const response: ListOnPremisesInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListOnPremisesInstancesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5363,7 +5363,7 @@ async function deserializeAws_json1_1ListOnPremisesInstancesCommandError(
 ): Promise<ListOnPremisesInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5379,7 +5379,7 @@ async function deserializeAws_json1_1ListOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRegistrationStatusException":
@@ -5390,7 +5390,7 @@ async function deserializeAws_json1_1ListOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFilterException":
@@ -5401,7 +5401,7 @@ async function deserializeAws_json1_1ListOnPremisesInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5412,7 +5412,7 @@ async function deserializeAws_json1_1ListOnPremisesInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5437,7 +5437,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5448,7 +5448,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5464,7 +5464,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArnException":
@@ -5475,7 +5475,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceArnRequiredException":
@@ -5486,7 +5486,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5497,7 +5497,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5525,7 +5525,7 @@ export async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatus
   const response: PutLifecycleEventHookExecutionStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutLifecycleEventHookExecutionStatusOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5536,7 +5536,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
 ): Promise<PutLifecycleEventHookExecutionStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5552,7 +5552,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -5563,7 +5563,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -5574,7 +5574,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLifecycleEventHookExecutionIdException":
@@ -5585,7 +5585,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLifecycleEventHookExecutionStatusException":
@@ -5596,7 +5596,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecycleEventAlreadyCompletedException":
@@ -5607,7 +5607,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedActionForDeploymentTypeException":
@@ -5618,7 +5618,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5629,7 +5629,7 @@ async function deserializeAws_json1_1PutLifecycleEventHookExecutionStatusCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5650,7 +5650,7 @@ export async function deserializeAws_json1_1RegisterApplicationRevisionCommand(
   }
   await collectBody(output.body, context);
   const response: RegisterApplicationRevisionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5661,7 +5661,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
 ): Promise<RegisterApplicationRevisionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5677,7 +5677,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -5688,7 +5688,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DescriptionTooLongException":
@@ -5699,7 +5699,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -5710,7 +5710,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRevisionException":
@@ -5721,7 +5721,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RevisionRequiredException":
@@ -5732,7 +5732,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5743,7 +5743,7 @@ async function deserializeAws_json1_1RegisterApplicationRevisionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5764,7 +5764,7 @@ export async function deserializeAws_json1_1RegisterOnPremisesInstanceCommand(
   }
   await collectBody(output.body, context);
   const response: RegisterOnPremisesInstanceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5775,7 +5775,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
 ): Promise<RegisterOnPremisesInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5791,7 +5791,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IamSessionArnAlreadyRegisteredException":
@@ -5802,7 +5802,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IamUserArnAlreadyRegisteredException":
@@ -5813,7 +5813,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IamUserArnRequiredException":
@@ -5824,7 +5824,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNameAlreadyRegisteredException":
@@ -5835,7 +5835,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNameRequiredException":
@@ -5846,7 +5846,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIamSessionArnException":
@@ -5857,7 +5857,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIamUserArnException":
@@ -5868,7 +5868,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -5879,7 +5879,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MultipleIamArnsProvidedException":
@@ -5890,7 +5890,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5901,7 +5901,7 @@ async function deserializeAws_json1_1RegisterOnPremisesInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5922,7 +5922,7 @@ export async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCom
   }
   await collectBody(output.body, context);
   const response: RemoveTagsFromOnPremisesInstancesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5933,7 +5933,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
 ): Promise<RemoveTagsFromOnPremisesInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5949,7 +5949,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNameRequiredException":
@@ -5960,7 +5960,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InstanceNotRegisteredException":
@@ -5971,7 +5971,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInstanceNameException":
@@ -5982,7 +5982,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -5993,7 +5993,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -6004,7 +6004,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagRequiredException":
@@ -6015,7 +6015,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6026,7 +6026,7 @@ async function deserializeAws_json1_1RemoveTagsFromOnPremisesInstancesCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6047,7 +6047,7 @@ export async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCo
   }
   await collectBody(output.body, context);
   const response: SkipWaitTimeForInstanceTerminationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6058,7 +6058,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
 ): Promise<SkipWaitTimeForInstanceTerminationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6074,7 +6074,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentDoesNotExistException":
@@ -6085,7 +6085,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -6096,7 +6096,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentNotStartedException":
@@ -6107,7 +6107,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -6118,7 +6118,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedActionForDeploymentTypeException":
@@ -6129,7 +6129,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6140,7 +6140,7 @@ async function deserializeAws_json1_1SkipWaitTimeForInstanceTerminationCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6162,7 +6162,7 @@ export async function deserializeAws_json1_1StopDeploymentCommand(
   const response: StopDeploymentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopDeploymentOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6173,7 +6173,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
 ): Promise<StopDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6189,7 +6189,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentDoesNotExistException":
@@ -6200,7 +6200,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -6211,7 +6211,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentIdRequiredException":
@@ -6222,7 +6222,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentIdException":
@@ -6233,7 +6233,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6244,7 +6244,7 @@ async function deserializeAws_json1_1StopDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6266,7 +6266,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6277,7 +6277,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6293,7 +6293,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ArnNotSupportedException":
@@ -6304,7 +6304,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -6315,7 +6315,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -6326,7 +6326,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArnException":
@@ -6337,7 +6337,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagsToAddException":
@@ -6348,7 +6348,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceArnRequiredException":
@@ -6359,7 +6359,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagRequiredException":
@@ -6370,7 +6370,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6381,7 +6381,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6403,7 +6403,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6414,7 +6414,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6430,7 +6430,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ArnNotSupportedException":
@@ -6441,7 +6441,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -6452,7 +6452,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -6463,7 +6463,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArnException":
@@ -6474,7 +6474,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagsToAddException":
@@ -6485,7 +6485,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceArnRequiredException":
@@ -6496,7 +6496,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagRequiredException":
@@ -6507,7 +6507,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6518,7 +6518,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6536,7 +6536,7 @@ export async function deserializeAws_json1_1UpdateApplicationCommand(
   }
   await collectBody(output.body, context);
   const response: UpdateApplicationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6547,7 +6547,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
 ): Promise<UpdateApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6563,7 +6563,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationDoesNotExistException":
@@ -6574,7 +6574,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -6585,7 +6585,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -6596,7 +6596,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6607,7 +6607,7 @@ async function deserializeAws_json1_1UpdateApplicationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6632,7 +6632,7 @@ export async function deserializeAws_json1_1UpdateDeploymentGroupCommand(
   const response: UpdateDeploymentGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateDeploymentGroupOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6643,7 +6643,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
 ): Promise<UpdateDeploymentGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6659,7 +6659,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationDoesNotExistException":
@@ -6670,7 +6670,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ApplicationNameRequiredException":
@@ -6681,7 +6681,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentConfigDoesNotExistException":
@@ -6692,7 +6692,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupAlreadyExistsException":
@@ -6703,7 +6703,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupDoesNotExistException":
@@ -6714,7 +6714,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DeploymentGroupNameRequiredException":
@@ -6725,7 +6725,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ECSServiceMappingLimitExceededException":
@@ -6736,7 +6736,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAlarmConfigException":
@@ -6747,7 +6747,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidApplicationNameException":
@@ -6758,7 +6758,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoRollbackConfigException":
@@ -6769,7 +6769,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAutoScalingGroupException":
@@ -6780,7 +6780,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidBlueGreenDeploymentConfigurationException":
@@ -6791,7 +6791,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentConfigNameException":
@@ -6802,7 +6802,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentGroupNameException":
@@ -6813,7 +6813,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeploymentStyleException":
@@ -6824,7 +6824,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEC2TagCombinationException":
@@ -6835,7 +6835,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEC2TagException":
@@ -6846,7 +6846,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidECSServiceException":
@@ -6857,7 +6857,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6868,7 +6868,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLoadBalancerInfoException":
@@ -6879,7 +6879,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOnPremisesTagCombinationException":
@@ -6890,7 +6890,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -6901,7 +6901,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -6912,7 +6912,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTargetGroupPairException":
@@ -6923,7 +6923,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTriggerConfigException":
@@ -6934,7 +6934,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecycleHookLimitExceededException":
@@ -6945,7 +6945,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagSetListLimitExceededException":
@@ -6956,7 +6956,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -6967,7 +6967,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TriggerTargetsLimitExceededException":
@@ -6978,7 +6978,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6989,7 +6989,7 @@ async function deserializeAws_json1_1UpdateDeploymentGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7011,7 +7011,7 @@ const deserializeAws_json1_1AlarmsLimitExceededExceptionResponse = async (
     name: "AlarmsLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7029,7 +7029,7 @@ const deserializeAws_json1_1ApplicationAlreadyExistsExceptionResponse = async (
     name: "ApplicationAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7047,7 +7047,7 @@ const deserializeAws_json1_1ApplicationDoesNotExistExceptionResponse = async (
     name: "ApplicationDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7065,7 +7065,7 @@ const deserializeAws_json1_1ApplicationLimitExceededExceptionResponse = async (
     name: "ApplicationLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7083,7 +7083,7 @@ const deserializeAws_json1_1ApplicationNameRequiredExceptionResponse = async (
     name: "ApplicationNameRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7101,7 +7101,7 @@ const deserializeAws_json1_1ArnNotSupportedExceptionResponse = async (
     name: "ArnNotSupportedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7119,7 +7119,7 @@ const deserializeAws_json1_1BatchLimitExceededExceptionResponse = async (
     name: "BatchLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7137,7 +7137,7 @@ const deserializeAws_json1_1BucketNameFilterRequiredExceptionResponse = async (
     name: "BucketNameFilterRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7155,7 +7155,7 @@ const deserializeAws_json1_1DeploymentAlreadyCompletedExceptionResponse = async 
     name: "DeploymentAlreadyCompletedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7173,7 +7173,7 @@ const deserializeAws_json1_1DeploymentConfigAlreadyExistsExceptionResponse = asy
     name: "DeploymentConfigAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7191,7 +7191,7 @@ const deserializeAws_json1_1DeploymentConfigDoesNotExistExceptionResponse = asyn
     name: "DeploymentConfigDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7209,7 +7209,7 @@ const deserializeAws_json1_1DeploymentConfigInUseExceptionResponse = async (
     name: "DeploymentConfigInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7227,7 +7227,7 @@ const deserializeAws_json1_1DeploymentConfigLimitExceededExceptionResponse = asy
     name: "DeploymentConfigLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7245,7 +7245,7 @@ const deserializeAws_json1_1DeploymentConfigNameRequiredExceptionResponse = asyn
     name: "DeploymentConfigNameRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7263,7 +7263,7 @@ const deserializeAws_json1_1DeploymentDoesNotExistExceptionResponse = async (
     name: "DeploymentDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7281,7 +7281,7 @@ const deserializeAws_json1_1DeploymentGroupAlreadyExistsExceptionResponse = asyn
     name: "DeploymentGroupAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7299,7 +7299,7 @@ const deserializeAws_json1_1DeploymentGroupDoesNotExistExceptionResponse = async
     name: "DeploymentGroupDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7317,7 +7317,7 @@ const deserializeAws_json1_1DeploymentGroupLimitExceededExceptionResponse = asyn
     name: "DeploymentGroupLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7335,7 +7335,7 @@ const deserializeAws_json1_1DeploymentGroupNameRequiredExceptionResponse = async
     name: "DeploymentGroupNameRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7353,7 +7353,7 @@ const deserializeAws_json1_1DeploymentIdRequiredExceptionResponse = async (
     name: "DeploymentIdRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7371,7 +7371,7 @@ const deserializeAws_json1_1DeploymentIsNotInReadyStateExceptionResponse = async
     name: "DeploymentIsNotInReadyStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7389,7 +7389,7 @@ const deserializeAws_json1_1DeploymentLimitExceededExceptionResponse = async (
     name: "DeploymentLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7407,7 +7407,7 @@ const deserializeAws_json1_1DeploymentNotStartedExceptionResponse = async (
     name: "DeploymentNotStartedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7425,7 +7425,7 @@ const deserializeAws_json1_1DeploymentTargetDoesNotExistExceptionResponse = asyn
     name: "DeploymentTargetDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7443,7 +7443,7 @@ const deserializeAws_json1_1DeploymentTargetIdRequiredExceptionResponse = async 
     name: "DeploymentTargetIdRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7461,7 +7461,7 @@ const deserializeAws_json1_1DeploymentTargetListSizeExceededExceptionResponse = 
     name: "DeploymentTargetListSizeExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7479,7 +7479,7 @@ const deserializeAws_json1_1DescriptionTooLongExceptionResponse = async (
     name: "DescriptionTooLongException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7497,7 +7497,7 @@ const deserializeAws_json1_1ECSServiceMappingLimitExceededExceptionResponse = as
     name: "ECSServiceMappingLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7515,7 +7515,7 @@ const deserializeAws_json1_1GitHubAccountTokenDoesNotExistExceptionResponse = as
     name: "GitHubAccountTokenDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7533,7 +7533,7 @@ const deserializeAws_json1_1GitHubAccountTokenNameRequiredExceptionResponse = as
     name: "GitHubAccountTokenNameRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7551,7 +7551,7 @@ const deserializeAws_json1_1IamArnRequiredExceptionResponse = async (
     name: "IamArnRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7569,7 +7569,7 @@ const deserializeAws_json1_1IamSessionArnAlreadyRegisteredExceptionResponse = as
     name: "IamSessionArnAlreadyRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7587,7 +7587,7 @@ const deserializeAws_json1_1IamUserArnAlreadyRegisteredExceptionResponse = async
     name: "IamUserArnAlreadyRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7605,7 +7605,7 @@ const deserializeAws_json1_1IamUserArnRequiredExceptionResponse = async (
     name: "IamUserArnRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7623,7 +7623,7 @@ const deserializeAws_json1_1InstanceDoesNotExistExceptionResponse = async (
     name: "InstanceDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7641,7 +7641,7 @@ const deserializeAws_json1_1InstanceIdRequiredExceptionResponse = async (
     name: "InstanceIdRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7659,7 +7659,7 @@ const deserializeAws_json1_1InstanceLimitExceededExceptionResponse = async (
     name: "InstanceLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7677,7 +7677,7 @@ const deserializeAws_json1_1InstanceNameAlreadyRegisteredExceptionResponse = asy
     name: "InstanceNameAlreadyRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7695,7 +7695,7 @@ const deserializeAws_json1_1InstanceNameRequiredExceptionResponse = async (
     name: "InstanceNameRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7713,7 +7713,7 @@ const deserializeAws_json1_1InstanceNotRegisteredExceptionResponse = async (
     name: "InstanceNotRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7731,7 +7731,7 @@ const deserializeAws_json1_1InvalidAlarmConfigExceptionResponse = async (
     name: "InvalidAlarmConfigException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7749,7 +7749,7 @@ const deserializeAws_json1_1InvalidApplicationNameExceptionResponse = async (
     name: "InvalidApplicationNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7767,7 +7767,7 @@ const deserializeAws_json1_1InvalidArnExceptionResponse = async (
     name: "InvalidArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7785,7 +7785,7 @@ const deserializeAws_json1_1InvalidAutoRollbackConfigExceptionResponse = async (
     name: "InvalidAutoRollbackConfigException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7803,7 +7803,7 @@ const deserializeAws_json1_1InvalidAutoScalingGroupExceptionResponse = async (
     name: "InvalidAutoScalingGroupException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7821,7 +7821,7 @@ const deserializeAws_json1_1InvalidBlueGreenDeploymentConfigurationExceptionResp
     name: "InvalidBlueGreenDeploymentConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7839,7 +7839,7 @@ const deserializeAws_json1_1InvalidBucketNameFilterExceptionResponse = async (
     name: "InvalidBucketNameFilterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7857,7 +7857,7 @@ const deserializeAws_json1_1InvalidComputePlatformExceptionResponse = async (
     name: "InvalidComputePlatformException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7875,7 +7875,7 @@ const deserializeAws_json1_1InvalidDeployedStateFilterExceptionResponse = async 
     name: "InvalidDeployedStateFilterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7893,7 +7893,7 @@ const deserializeAws_json1_1InvalidDeploymentConfigNameExceptionResponse = async
     name: "InvalidDeploymentConfigNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7911,7 +7911,7 @@ const deserializeAws_json1_1InvalidDeploymentGroupNameExceptionResponse = async 
     name: "InvalidDeploymentGroupNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7929,7 +7929,7 @@ const deserializeAws_json1_1InvalidDeploymentIdExceptionResponse = async (
     name: "InvalidDeploymentIdException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7947,7 +7947,7 @@ const deserializeAws_json1_1InvalidDeploymentInstanceTypeExceptionResponse = asy
     name: "InvalidDeploymentInstanceTypeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7965,7 +7965,7 @@ const deserializeAws_json1_1InvalidDeploymentStatusExceptionResponse = async (
     name: "InvalidDeploymentStatusException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7983,7 +7983,7 @@ const deserializeAws_json1_1InvalidDeploymentStyleExceptionResponse = async (
     name: "InvalidDeploymentStyleException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8001,7 +8001,7 @@ const deserializeAws_json1_1InvalidDeploymentTargetIdExceptionResponse = async (
     name: "InvalidDeploymentTargetIdException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8019,7 +8019,7 @@ const deserializeAws_json1_1InvalidDeploymentWaitTypeExceptionResponse = async (
     name: "InvalidDeploymentWaitTypeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8037,7 +8037,7 @@ const deserializeAws_json1_1InvalidEC2TagCombinationExceptionResponse = async (
     name: "InvalidEC2TagCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8055,7 +8055,7 @@ const deserializeAws_json1_1InvalidEC2TagExceptionResponse = async (
     name: "InvalidEC2TagException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8073,7 +8073,7 @@ const deserializeAws_json1_1InvalidECSServiceExceptionResponse = async (
     name: "InvalidECSServiceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8091,7 +8091,7 @@ const deserializeAws_json1_1InvalidFileExistsBehaviorExceptionResponse = async (
     name: "InvalidFileExistsBehaviorException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8109,7 +8109,7 @@ const deserializeAws_json1_1InvalidGitHubAccountTokenExceptionResponse = async (
     name: "InvalidGitHubAccountTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8127,7 +8127,7 @@ const deserializeAws_json1_1InvalidGitHubAccountTokenNameExceptionResponse = asy
     name: "InvalidGitHubAccountTokenNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8145,7 +8145,7 @@ const deserializeAws_json1_1InvalidIamSessionArnExceptionResponse = async (
     name: "InvalidIamSessionArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8163,7 +8163,7 @@ const deserializeAws_json1_1InvalidIamUserArnExceptionResponse = async (
     name: "InvalidIamUserArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8181,7 +8181,7 @@ const deserializeAws_json1_1InvalidIgnoreApplicationStopFailuresValueExceptionRe
     name: "InvalidIgnoreApplicationStopFailuresValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8199,7 +8199,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8217,7 +8217,7 @@ const deserializeAws_json1_1InvalidInstanceNameExceptionResponse = async (
     name: "InvalidInstanceNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8235,7 +8235,7 @@ const deserializeAws_json1_1InvalidInstanceStatusExceptionResponse = async (
     name: "InvalidInstanceStatusException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8253,7 +8253,7 @@ const deserializeAws_json1_1InvalidInstanceTypeExceptionResponse = async (
     name: "InvalidInstanceTypeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8271,7 +8271,7 @@ const deserializeAws_json1_1InvalidKeyPrefixFilterExceptionResponse = async (
     name: "InvalidKeyPrefixFilterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8289,7 +8289,7 @@ const deserializeAws_json1_1InvalidLifecycleEventHookExecutionIdExceptionRespons
     name: "InvalidLifecycleEventHookExecutionIdException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8307,7 +8307,7 @@ const deserializeAws_json1_1InvalidLifecycleEventHookExecutionStatusExceptionRes
     name: "InvalidLifecycleEventHookExecutionStatusException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8325,7 +8325,7 @@ const deserializeAws_json1_1InvalidLoadBalancerInfoExceptionResponse = async (
     name: "InvalidLoadBalancerInfoException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8343,7 +8343,7 @@ const deserializeAws_json1_1InvalidMinimumHealthyHostValueExceptionResponse = as
     name: "InvalidMinimumHealthyHostValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8361,7 +8361,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8379,7 +8379,7 @@ const deserializeAws_json1_1InvalidOnPremisesTagCombinationExceptionResponse = a
     name: "InvalidOnPremisesTagCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8397,7 +8397,7 @@ const deserializeAws_json1_1InvalidOperationExceptionResponse = async (
     name: "InvalidOperationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8415,7 +8415,7 @@ const deserializeAws_json1_1InvalidRegistrationStatusExceptionResponse = async (
     name: "InvalidRegistrationStatusException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8433,7 +8433,7 @@ const deserializeAws_json1_1InvalidRevisionExceptionResponse = async (
     name: "InvalidRevisionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8451,7 +8451,7 @@ const deserializeAws_json1_1InvalidRoleExceptionResponse = async (
     name: "InvalidRoleException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8469,7 +8469,7 @@ const deserializeAws_json1_1InvalidSortByExceptionResponse = async (
     name: "InvalidSortByException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8487,7 +8487,7 @@ const deserializeAws_json1_1InvalidSortOrderExceptionResponse = async (
     name: "InvalidSortOrderException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8505,7 +8505,7 @@ const deserializeAws_json1_1InvalidTagExceptionResponse = async (
     name: "InvalidTagException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8523,7 +8523,7 @@ const deserializeAws_json1_1InvalidTagFilterExceptionResponse = async (
     name: "InvalidTagFilterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8541,7 +8541,7 @@ const deserializeAws_json1_1InvalidTagsToAddExceptionResponse = async (
     name: "InvalidTagsToAddException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8559,7 +8559,7 @@ const deserializeAws_json1_1InvalidTargetFilterNameExceptionResponse = async (
     name: "InvalidTargetFilterNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8577,7 +8577,7 @@ const deserializeAws_json1_1InvalidTargetGroupPairExceptionResponse = async (
     name: "InvalidTargetGroupPairException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8595,7 +8595,7 @@ const deserializeAws_json1_1InvalidTargetInstancesExceptionResponse = async (
     name: "InvalidTargetInstancesException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8613,7 +8613,7 @@ const deserializeAws_json1_1InvalidTimeRangeExceptionResponse = async (
     name: "InvalidTimeRangeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8631,7 +8631,7 @@ const deserializeAws_json1_1InvalidTrafficRoutingConfigurationExceptionResponse 
     name: "InvalidTrafficRoutingConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8649,7 +8649,7 @@ const deserializeAws_json1_1InvalidTriggerConfigExceptionResponse = async (
     name: "InvalidTriggerConfigException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8667,7 +8667,7 @@ const deserializeAws_json1_1InvalidUpdateOutdatedInstancesOnlyValueExceptionResp
     name: "InvalidUpdateOutdatedInstancesOnlyValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8685,7 +8685,7 @@ const deserializeAws_json1_1LifecycleEventAlreadyCompletedExceptionResponse = as
     name: "LifecycleEventAlreadyCompletedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8703,7 +8703,7 @@ const deserializeAws_json1_1LifecycleHookLimitExceededExceptionResponse = async 
     name: "LifecycleHookLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8721,7 +8721,7 @@ const deserializeAws_json1_1MultipleIamArnsProvidedExceptionResponse = async (
     name: "MultipleIamArnsProvidedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8739,7 +8739,7 @@ const deserializeAws_json1_1OperationNotSupportedExceptionResponse = async (
     name: "OperationNotSupportedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8757,7 +8757,7 @@ const deserializeAws_json1_1ResourceArnRequiredExceptionResponse = async (
     name: "ResourceArnRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8775,7 +8775,7 @@ const deserializeAws_json1_1ResourceValidationExceptionResponse = async (
     name: "ResourceValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8793,7 +8793,7 @@ const deserializeAws_json1_1RevisionDoesNotExistExceptionResponse = async (
     name: "RevisionDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8811,7 +8811,7 @@ const deserializeAws_json1_1RevisionRequiredExceptionResponse = async (
     name: "RevisionRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8829,7 +8829,7 @@ const deserializeAws_json1_1RoleRequiredExceptionResponse = async (
     name: "RoleRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8847,7 +8847,7 @@ const deserializeAws_json1_1TagLimitExceededExceptionResponse = async (
     name: "TagLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8865,7 +8865,7 @@ const deserializeAws_json1_1TagRequiredExceptionResponse = async (
     name: "TagRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8883,7 +8883,7 @@ const deserializeAws_json1_1TagSetListLimitExceededExceptionResponse = async (
     name: "TagSetListLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8901,7 +8901,7 @@ const deserializeAws_json1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8919,7 +8919,7 @@ const deserializeAws_json1_1TriggerTargetsLimitExceededExceptionResponse = async
     name: "TriggerTargetsLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8937,7 +8937,7 @@ const deserializeAws_json1_1UnsupportedActionForDeploymentTypeExceptionResponse 
     name: "UnsupportedActionForDeploymentTypeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10360,7 +10360,7 @@ const serializeAws_json1_1TargetFilters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1FilterValueList(input[key], context);
   });
   return mapParams;
@@ -10725,7 +10725,7 @@ const deserializeAws_json1_1Alarm = (
 ): Alarm => {
   let contents: any = {
     __type: "Alarm",
-    name: undefined
+    name: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -10741,7 +10741,7 @@ const deserializeAws_json1_1AlarmConfiguration = (
     __type: "AlarmConfiguration",
     alarms: undefined,
     enabled: undefined,
-    ignorePollAlarmFailure: undefined
+    ignorePollAlarmFailure: undefined,
   };
   if (output.alarms !== undefined && output.alarms !== null) {
     contents.alarms = deserializeAws_json1_1AlarmList(output.alarms, context);
@@ -10773,7 +10773,7 @@ const deserializeAws_json1_1AlarmsLimitExceededException = (
 ): AlarmsLimitExceededException => {
   let contents: any = {
     __type: "AlarmsLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10788,7 +10788,7 @@ const deserializeAws_json1_1AppSpecContent = (
   let contents: any = {
     __type: "AppSpecContent",
     content: undefined,
-    sha256: undefined
+    sha256: undefined,
   };
   if (output.content !== undefined && output.content !== null) {
     contents.content = output.content;
@@ -10805,7 +10805,7 @@ const deserializeAws_json1_1ApplicationAlreadyExistsException = (
 ): ApplicationAlreadyExistsException => {
   let contents: any = {
     __type: "ApplicationAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10819,7 +10819,7 @@ const deserializeAws_json1_1ApplicationDoesNotExistException = (
 ): ApplicationDoesNotExistException => {
   let contents: any = {
     __type: "ApplicationDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10838,7 +10838,7 @@ const deserializeAws_json1_1ApplicationInfo = (
     computePlatform: undefined,
     createTime: undefined,
     gitHubAccountName: undefined,
-    linkedToGitHub: undefined
+    linkedToGitHub: undefined,
   };
   if (output.applicationId !== undefined && output.applicationId !== null) {
     contents.applicationId = output.applicationId;
@@ -10870,7 +10870,7 @@ const deserializeAws_json1_1ApplicationLimitExceededException = (
 ): ApplicationLimitExceededException => {
   let contents: any = {
     __type: "ApplicationLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10884,7 +10884,7 @@ const deserializeAws_json1_1ApplicationNameRequiredException = (
 ): ApplicationNameRequiredException => {
   let contents: any = {
     __type: "ApplicationNameRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10914,7 +10914,7 @@ const deserializeAws_json1_1ArnNotSupportedException = (
 ): ArnNotSupportedException => {
   let contents: any = {
     __type: "ArnNotSupportedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -10929,7 +10929,7 @@ const deserializeAws_json1_1AutoRollbackConfiguration = (
   let contents: any = {
     __type: "AutoRollbackConfiguration",
     enabled: undefined,
-    events: undefined
+    events: undefined,
   };
   if (output.enabled !== undefined && output.enabled !== null) {
     contents.enabled = output.enabled;
@@ -10957,7 +10957,7 @@ const deserializeAws_json1_1AutoScalingGroup = (
   let contents: any = {
     __type: "AutoScalingGroup",
     hook: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.hook !== undefined && output.hook !== null) {
     contents.hook = output.hook;
@@ -10992,7 +10992,7 @@ const deserializeAws_json1_1BatchGetApplicationRevisionsOutput = (
     __type: "BatchGetApplicationRevisionsOutput",
     applicationName: undefined,
     errorMessage: undefined,
-    revisions: undefined
+    revisions: undefined,
   };
   if (output.applicationName !== undefined && output.applicationName !== null) {
     contents.applicationName = output.applicationName;
@@ -11015,7 +11015,7 @@ const deserializeAws_json1_1BatchGetApplicationsOutput = (
 ): BatchGetApplicationsOutput => {
   let contents: any = {
     __type: "BatchGetApplicationsOutput",
-    applicationsInfo: undefined
+    applicationsInfo: undefined,
   };
   if (
     output.applicationsInfo !== undefined &&
@@ -11036,7 +11036,7 @@ const deserializeAws_json1_1BatchGetDeploymentGroupsOutput = (
   let contents: any = {
     __type: "BatchGetDeploymentGroupsOutput",
     deploymentGroupsInfo: undefined,
-    errorMessage: undefined
+    errorMessage: undefined,
   };
   if (
     output.deploymentGroupsInfo !== undefined &&
@@ -11060,7 +11060,7 @@ const deserializeAws_json1_1BatchGetDeploymentInstancesOutput = (
   let contents: any = {
     __type: "BatchGetDeploymentInstancesOutput",
     errorMessage: undefined,
-    instancesSummary: undefined
+    instancesSummary: undefined,
   };
   if (output.errorMessage !== undefined && output.errorMessage !== null) {
     contents.errorMessage = output.errorMessage;
@@ -11083,7 +11083,7 @@ const deserializeAws_json1_1BatchGetDeploymentTargetsOutput = (
 ): BatchGetDeploymentTargetsOutput => {
   let contents: any = {
     __type: "BatchGetDeploymentTargetsOutput",
-    deploymentTargets: undefined
+    deploymentTargets: undefined,
   };
   if (
     output.deploymentTargets !== undefined &&
@@ -11103,7 +11103,7 @@ const deserializeAws_json1_1BatchGetDeploymentsOutput = (
 ): BatchGetDeploymentsOutput => {
   let contents: any = {
     __type: "BatchGetDeploymentsOutput",
-    deploymentsInfo: undefined
+    deploymentsInfo: undefined,
   };
   if (output.deploymentsInfo !== undefined && output.deploymentsInfo !== null) {
     contents.deploymentsInfo = deserializeAws_json1_1DeploymentsInfoList(
@@ -11120,7 +11120,7 @@ const deserializeAws_json1_1BatchGetOnPremisesInstancesOutput = (
 ): BatchGetOnPremisesInstancesOutput => {
   let contents: any = {
     __type: "BatchGetOnPremisesInstancesOutput",
-    instanceInfos: undefined
+    instanceInfos: undefined,
   };
   if (output.instanceInfos !== undefined && output.instanceInfos !== null) {
     contents.instanceInfos = deserializeAws_json1_1InstanceInfoList(
@@ -11137,7 +11137,7 @@ const deserializeAws_json1_1BatchLimitExceededException = (
 ): BatchLimitExceededException => {
   let contents: any = {
     __type: "BatchLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11153,7 +11153,7 @@ const deserializeAws_json1_1BlueGreenDeploymentConfiguration = (
     __type: "BlueGreenDeploymentConfiguration",
     deploymentReadyOption: undefined,
     greenFleetProvisioningOption: undefined,
-    terminateBlueInstancesOnDeploymentSuccess: undefined
+    terminateBlueInstancesOnDeploymentSuccess: undefined,
   };
   if (
     output.deploymentReadyOption !== undefined &&
@@ -11192,7 +11192,7 @@ const deserializeAws_json1_1BlueInstanceTerminationOption = (
   let contents: any = {
     __type: "BlueInstanceTerminationOption",
     action: undefined,
-    terminationWaitTimeInMinutes: undefined
+    terminationWaitTimeInMinutes: undefined,
   };
   if (output.action !== undefined && output.action !== null) {
     contents.action = output.action;
@@ -11212,7 +11212,7 @@ const deserializeAws_json1_1BucketNameFilterRequiredException = (
 ): BucketNameFilterRequiredException => {
   let contents: any = {
     __type: "BucketNameFilterRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11226,7 +11226,7 @@ const deserializeAws_json1_1CreateApplicationOutput = (
 ): CreateApplicationOutput => {
   let contents: any = {
     __type: "CreateApplicationOutput",
-    applicationId: undefined
+    applicationId: undefined,
   };
   if (output.applicationId !== undefined && output.applicationId !== null) {
     contents.applicationId = output.applicationId;
@@ -11240,7 +11240,7 @@ const deserializeAws_json1_1CreateDeploymentConfigOutput = (
 ): CreateDeploymentConfigOutput => {
   let contents: any = {
     __type: "CreateDeploymentConfigOutput",
-    deploymentConfigId: undefined
+    deploymentConfigId: undefined,
   };
   if (
     output.deploymentConfigId !== undefined &&
@@ -11257,7 +11257,7 @@ const deserializeAws_json1_1CreateDeploymentGroupOutput = (
 ): CreateDeploymentGroupOutput => {
   let contents: any = {
     __type: "CreateDeploymentGroupOutput",
-    deploymentGroupId: undefined
+    deploymentGroupId: undefined,
   };
   if (
     output.deploymentGroupId !== undefined &&
@@ -11274,7 +11274,7 @@ const deserializeAws_json1_1CreateDeploymentOutput = (
 ): CreateDeploymentOutput => {
   let contents: any = {
     __type: "CreateDeploymentOutput",
-    deploymentId: undefined
+    deploymentId: undefined,
   };
   if (output.deploymentId !== undefined && output.deploymentId !== null) {
     contents.deploymentId = output.deploymentId;
@@ -11288,7 +11288,7 @@ const deserializeAws_json1_1DeleteDeploymentGroupOutput = (
 ): DeleteDeploymentGroupOutput => {
   let contents: any = {
     __type: "DeleteDeploymentGroupOutput",
-    hooksNotCleanedUp: undefined
+    hooksNotCleanedUp: undefined,
   };
   if (
     output.hooksNotCleanedUp !== undefined &&
@@ -11308,7 +11308,7 @@ const deserializeAws_json1_1DeleteGitHubAccountTokenOutput = (
 ): DeleteGitHubAccountTokenOutput => {
   let contents: any = {
     __type: "DeleteGitHubAccountTokenOutput",
-    tokenName: undefined
+    tokenName: undefined,
   };
   if (output.tokenName !== undefined && output.tokenName !== null) {
     contents.tokenName = output.tokenName;
@@ -11322,7 +11322,7 @@ const deserializeAws_json1_1DeploymentAlreadyCompletedException = (
 ): DeploymentAlreadyCompletedException => {
   let contents: any = {
     __type: "DeploymentAlreadyCompletedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11336,7 +11336,7 @@ const deserializeAws_json1_1DeploymentConfigAlreadyExistsException = (
 ): DeploymentConfigAlreadyExistsException => {
   let contents: any = {
     __type: "DeploymentConfigAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11350,7 +11350,7 @@ const deserializeAws_json1_1DeploymentConfigDoesNotExistException = (
 ): DeploymentConfigDoesNotExistException => {
   let contents: any = {
     __type: "DeploymentConfigDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11364,7 +11364,7 @@ const deserializeAws_json1_1DeploymentConfigInUseException = (
 ): DeploymentConfigInUseException => {
   let contents: any = {
     __type: "DeploymentConfigInUseException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11383,7 +11383,7 @@ const deserializeAws_json1_1DeploymentConfigInfo = (
     deploymentConfigId: undefined,
     deploymentConfigName: undefined,
     minimumHealthyHosts: undefined,
-    trafficRoutingConfig: undefined
+    trafficRoutingConfig: undefined,
   };
   if (output.computePlatform !== undefined && output.computePlatform !== null) {
     contents.computePlatform = output.computePlatform;
@@ -11430,7 +11430,7 @@ const deserializeAws_json1_1DeploymentConfigLimitExceededException = (
 ): DeploymentConfigLimitExceededException => {
   let contents: any = {
     __type: "DeploymentConfigLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11444,7 +11444,7 @@ const deserializeAws_json1_1DeploymentConfigNameRequiredException = (
 ): DeploymentConfigNameRequiredException => {
   let contents: any = {
     __type: "DeploymentConfigNameRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11465,7 +11465,7 @@ const deserializeAws_json1_1DeploymentDoesNotExistException = (
 ): DeploymentDoesNotExistException => {
   let contents: any = {
     __type: "DeploymentDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11479,7 +11479,7 @@ const deserializeAws_json1_1DeploymentGroupAlreadyExistsException = (
 ): DeploymentGroupAlreadyExistsException => {
   let contents: any = {
     __type: "DeploymentGroupAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11493,7 +11493,7 @@ const deserializeAws_json1_1DeploymentGroupDoesNotExistException = (
 ): DeploymentGroupDoesNotExistException => {
   let contents: any = {
     __type: "DeploymentGroupDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11527,7 +11527,7 @@ const deserializeAws_json1_1DeploymentGroupInfo = (
     onPremisesTagSet: undefined,
     serviceRoleArn: undefined,
     targetRevision: undefined,
-    triggerConfigurations: undefined
+    triggerConfigurations: undefined,
   };
   if (
     output.alarmConfiguration !== undefined &&
@@ -11694,7 +11694,7 @@ const deserializeAws_json1_1DeploymentGroupLimitExceededException = (
 ): DeploymentGroupLimitExceededException => {
   let contents: any = {
     __type: "DeploymentGroupLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11708,7 +11708,7 @@ const deserializeAws_json1_1DeploymentGroupNameRequiredException = (
 ): DeploymentGroupNameRequiredException => {
   let contents: any = {
     __type: "DeploymentGroupNameRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11729,7 +11729,7 @@ const deserializeAws_json1_1DeploymentIdRequiredException = (
 ): DeploymentIdRequiredException => {
   let contents: any = {
     __type: "DeploymentIdRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11769,7 +11769,7 @@ const deserializeAws_json1_1DeploymentInfo = (
     startTime: undefined,
     status: undefined,
     targetInstances: undefined,
-    updateOutdatedInstancesOnly: undefined
+    updateOutdatedInstancesOnly: undefined,
   };
   if (
     output.additionalDeploymentStatusInfo !== undefined &&
@@ -11939,7 +11939,7 @@ const deserializeAws_json1_1DeploymentIsNotInReadyStateException = (
 ): DeploymentIsNotInReadyStateException => {
   let contents: any = {
     __type: "DeploymentIsNotInReadyStateException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11953,7 +11953,7 @@ const deserializeAws_json1_1DeploymentLimitExceededException = (
 ): DeploymentLimitExceededException => {
   let contents: any = {
     __type: "DeploymentLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11967,7 +11967,7 @@ const deserializeAws_json1_1DeploymentNotStartedException = (
 ): DeploymentNotStartedException => {
   let contents: any = {
     __type: "DeploymentNotStartedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -11986,7 +11986,7 @@ const deserializeAws_json1_1DeploymentOverview = (
     Pending: undefined,
     Ready: undefined,
     Skipped: undefined,
-    Succeeded: undefined
+    Succeeded: undefined,
   };
   if (output.Failed !== undefined && output.Failed !== null) {
     contents.Failed = output.Failed;
@@ -12016,7 +12016,7 @@ const deserializeAws_json1_1DeploymentReadyOption = (
   let contents: any = {
     __type: "DeploymentReadyOption",
     actionOnTimeout: undefined,
-    waitTimeInMinutes: undefined
+    waitTimeInMinutes: undefined,
   };
   if (output.actionOnTimeout !== undefined && output.actionOnTimeout !== null) {
     contents.actionOnTimeout = output.actionOnTimeout;
@@ -12044,7 +12044,7 @@ const deserializeAws_json1_1DeploymentStyle = (
   let contents: any = {
     __type: "DeploymentStyle",
     deploymentOption: undefined,
-    deploymentType: undefined
+    deploymentType: undefined,
   };
   if (
     output.deploymentOption !== undefined &&
@@ -12067,7 +12067,7 @@ const deserializeAws_json1_1DeploymentTarget = (
     deploymentTargetType: undefined,
     ecsTarget: undefined,
     instanceTarget: undefined,
-    lambdaTarget: undefined
+    lambdaTarget: undefined,
   };
   if (
     output.deploymentTargetType !== undefined &&
@@ -12102,7 +12102,7 @@ const deserializeAws_json1_1DeploymentTargetDoesNotExistException = (
 ): DeploymentTargetDoesNotExistException => {
   let contents: any = {
     __type: "DeploymentTargetDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12116,7 +12116,7 @@ const deserializeAws_json1_1DeploymentTargetIdRequiredException = (
 ): DeploymentTargetIdRequiredException => {
   let contents: any = {
     __type: "DeploymentTargetIdRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12139,7 +12139,7 @@ const deserializeAws_json1_1DeploymentTargetListSizeExceededException = (
 ): DeploymentTargetListSizeExceededException => {
   let contents: any = {
     __type: "DeploymentTargetListSizeExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12169,7 +12169,7 @@ const deserializeAws_json1_1DescriptionTooLongException = (
 ): DescriptionTooLongException => {
   let contents: any = {
     __type: "DescriptionTooLongException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12186,7 +12186,7 @@ const deserializeAws_json1_1Diagnostics = (
     errorCode: undefined,
     logTail: undefined,
     message: undefined,
-    scriptName: undefined
+    scriptName: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -12211,7 +12211,7 @@ const deserializeAws_json1_1EC2TagFilter = (
     __type: "EC2TagFilter",
     Key: undefined,
     Type: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -12240,7 +12240,7 @@ const deserializeAws_json1_1EC2TagSet = (
 ): EC2TagSet => {
   let contents: any = {
     __type: "EC2TagSet",
-    ec2TagSetList: undefined
+    ec2TagSetList: undefined,
   };
   if (output.ec2TagSetList !== undefined && output.ec2TagSetList !== null) {
     contents.ec2TagSetList = deserializeAws_json1_1EC2TagSetList(
@@ -12267,7 +12267,7 @@ const deserializeAws_json1_1ECSService = (
   let contents: any = {
     __type: "ECSService",
     clusterName: undefined,
-    serviceName: undefined
+    serviceName: undefined,
   };
   if (output.clusterName !== undefined && output.clusterName !== null) {
     contents.clusterName = output.clusterName;
@@ -12293,7 +12293,7 @@ const deserializeAws_json1_1ECSServiceMappingLimitExceededException = (
 ): ECSServiceMappingLimitExceededException => {
   let contents: any = {
     __type: "ECSServiceMappingLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12313,7 +12313,7 @@ const deserializeAws_json1_1ECSTarget = (
     status: undefined,
     targetArn: undefined,
     targetId: undefined,
-    taskSetsInfo: undefined
+    taskSetsInfo: undefined,
   };
   if (output.deploymentId !== undefined && output.deploymentId !== null) {
     contents.deploymentId = output.deploymentId;
@@ -12358,7 +12358,7 @@ const deserializeAws_json1_1ECSTaskSet = (
     status: undefined,
     targetGroup: undefined,
     taskSetLabel: undefined,
-    trafficWeight: undefined
+    trafficWeight: undefined,
   };
   if (output.desiredCount !== undefined && output.desiredCount !== null) {
     contents.desiredCount = output.desiredCount;
@@ -12405,7 +12405,7 @@ const deserializeAws_json1_1ELBInfo = (
 ): ELBInfo => {
   let contents: any = {
     __type: "ELBInfo",
-    name: undefined
+    name: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -12429,7 +12429,7 @@ const deserializeAws_json1_1ErrorInformation = (
   let contents: any = {
     __type: "ErrorInformation",
     code: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -12450,7 +12450,7 @@ const deserializeAws_json1_1GenericRevisionInfo = (
     description: undefined,
     firstUsedTime: undefined,
     lastUsedTime: undefined,
-    registerTime: undefined
+    registerTime: undefined,
   };
   if (
     output.deploymentGroups !== undefined &&
@@ -12482,7 +12482,7 @@ const deserializeAws_json1_1GetApplicationOutput = (
 ): GetApplicationOutput => {
   let contents: any = {
     __type: "GetApplicationOutput",
-    application: undefined
+    application: undefined,
   };
   if (output.application !== undefined && output.application !== null) {
     contents.application = deserializeAws_json1_1ApplicationInfo(
@@ -12501,7 +12501,7 @@ const deserializeAws_json1_1GetApplicationRevisionOutput = (
     __type: "GetApplicationRevisionOutput",
     applicationName: undefined,
     revision: undefined,
-    revisionInfo: undefined
+    revisionInfo: undefined,
   };
   if (output.applicationName !== undefined && output.applicationName !== null) {
     contents.applicationName = output.applicationName;
@@ -12527,7 +12527,7 @@ const deserializeAws_json1_1GetDeploymentConfigOutput = (
 ): GetDeploymentConfigOutput => {
   let contents: any = {
     __type: "GetDeploymentConfigOutput",
-    deploymentConfigInfo: undefined
+    deploymentConfigInfo: undefined,
   };
   if (
     output.deploymentConfigInfo !== undefined &&
@@ -12547,7 +12547,7 @@ const deserializeAws_json1_1GetDeploymentGroupOutput = (
 ): GetDeploymentGroupOutput => {
   let contents: any = {
     __type: "GetDeploymentGroupOutput",
-    deploymentGroupInfo: undefined
+    deploymentGroupInfo: undefined,
   };
   if (
     output.deploymentGroupInfo !== undefined &&
@@ -12567,7 +12567,7 @@ const deserializeAws_json1_1GetDeploymentInstanceOutput = (
 ): GetDeploymentInstanceOutput => {
   let contents: any = {
     __type: "GetDeploymentInstanceOutput",
-    instanceSummary: undefined
+    instanceSummary: undefined,
   };
   if (output.instanceSummary !== undefined && output.instanceSummary !== null) {
     contents.instanceSummary = deserializeAws_json1_1InstanceSummary(
@@ -12584,7 +12584,7 @@ const deserializeAws_json1_1GetDeploymentOutput = (
 ): GetDeploymentOutput => {
   let contents: any = {
     __type: "GetDeploymentOutput",
-    deploymentInfo: undefined
+    deploymentInfo: undefined,
   };
   if (output.deploymentInfo !== undefined && output.deploymentInfo !== null) {
     contents.deploymentInfo = deserializeAws_json1_1DeploymentInfo(
@@ -12601,7 +12601,7 @@ const deserializeAws_json1_1GetDeploymentTargetOutput = (
 ): GetDeploymentTargetOutput => {
   let contents: any = {
     __type: "GetDeploymentTargetOutput",
-    deploymentTarget: undefined
+    deploymentTarget: undefined,
   };
   if (
     output.deploymentTarget !== undefined &&
@@ -12621,7 +12621,7 @@ const deserializeAws_json1_1GetOnPremisesInstanceOutput = (
 ): GetOnPremisesInstanceOutput => {
   let contents: any = {
     __type: "GetOnPremisesInstanceOutput",
-    instanceInfo: undefined
+    instanceInfo: undefined,
   };
   if (output.instanceInfo !== undefined && output.instanceInfo !== null) {
     contents.instanceInfo = deserializeAws_json1_1InstanceInfo(
@@ -12638,7 +12638,7 @@ const deserializeAws_json1_1GitHubAccountTokenDoesNotExistException = (
 ): GitHubAccountTokenDoesNotExistException => {
   let contents: any = {
     __type: "GitHubAccountTokenDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12659,7 +12659,7 @@ const deserializeAws_json1_1GitHubAccountTokenNameRequiredException = (
 ): GitHubAccountTokenNameRequiredException => {
   let contents: any = {
     __type: "GitHubAccountTokenNameRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12674,7 +12674,7 @@ const deserializeAws_json1_1GitHubLocation = (
   let contents: any = {
     __type: "GitHubLocation",
     commitId: undefined,
-    repository: undefined
+    repository: undefined,
   };
   if (output.commitId !== undefined && output.commitId !== null) {
     contents.commitId = output.commitId;
@@ -12691,7 +12691,7 @@ const deserializeAws_json1_1GreenFleetProvisioningOption = (
 ): GreenFleetProvisioningOption => {
   let contents: any = {
     __type: "GreenFleetProvisioningOption",
-    action: undefined
+    action: undefined,
   };
   if (output.action !== undefined && output.action !== null) {
     contents.action = output.action;
@@ -12705,7 +12705,7 @@ const deserializeAws_json1_1IamArnRequiredException = (
 ): IamArnRequiredException => {
   let contents: any = {
     __type: "IamArnRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12719,7 +12719,7 @@ const deserializeAws_json1_1IamSessionArnAlreadyRegisteredException = (
 ): IamSessionArnAlreadyRegisteredException => {
   let contents: any = {
     __type: "IamSessionArnAlreadyRegisteredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12733,7 +12733,7 @@ const deserializeAws_json1_1IamUserArnAlreadyRegisteredException = (
 ): IamUserArnAlreadyRegisteredException => {
   let contents: any = {
     __type: "IamUserArnAlreadyRegisteredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12747,7 +12747,7 @@ const deserializeAws_json1_1IamUserArnRequiredException = (
 ): IamUserArnRequiredException => {
   let contents: any = {
     __type: "IamUserArnRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12761,7 +12761,7 @@ const deserializeAws_json1_1InstanceDoesNotExistException = (
 ): InstanceDoesNotExistException => {
   let contents: any = {
     __type: "InstanceDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12775,7 +12775,7 @@ const deserializeAws_json1_1InstanceIdRequiredException = (
 ): InstanceIdRequiredException => {
   let contents: any = {
     __type: "InstanceIdRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12795,7 +12795,7 @@ const deserializeAws_json1_1InstanceInfo = (
     instanceArn: undefined,
     instanceName: undefined,
     registerTime: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.deregisterTime !== undefined && output.deregisterTime !== null) {
     contents.deregisterTime = new Date(
@@ -12838,7 +12838,7 @@ const deserializeAws_json1_1InstanceLimitExceededException = (
 ): InstanceLimitExceededException => {
   let contents: any = {
     __type: "InstanceLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12852,7 +12852,7 @@ const deserializeAws_json1_1InstanceNameAlreadyRegisteredException = (
 ): InstanceNameAlreadyRegisteredException => {
   let contents: any = {
     __type: "InstanceNameAlreadyRegisteredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12873,7 +12873,7 @@ const deserializeAws_json1_1InstanceNameRequiredException = (
 ): InstanceNameRequiredException => {
   let contents: any = {
     __type: "InstanceNameRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12887,7 +12887,7 @@ const deserializeAws_json1_1InstanceNotRegisteredException = (
 ): InstanceNotRegisteredException => {
   let contents: any = {
     __type: "InstanceNotRegisteredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -12906,7 +12906,7 @@ const deserializeAws_json1_1InstanceSummary = (
     instanceType: undefined,
     lastUpdatedAt: undefined,
     lifecycleEvents: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.deploymentId !== undefined && output.deploymentId !== null) {
     contents.deploymentId = output.deploymentId;
@@ -12953,7 +12953,7 @@ const deserializeAws_json1_1InstanceTarget = (
     lifecycleEvents: undefined,
     status: undefined,
     targetArn: undefined,
-    targetId: undefined
+    targetId: undefined,
   };
   if (output.deploymentId !== undefined && output.deploymentId !== null) {
     contents.deploymentId = output.deploymentId;
@@ -12995,7 +12995,7 @@ const deserializeAws_json1_1InvalidAlarmConfigException = (
 ): InvalidAlarmConfigException => {
   let contents: any = {
     __type: "InvalidAlarmConfigException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13009,7 +13009,7 @@ const deserializeAws_json1_1InvalidApplicationNameException = (
 ): InvalidApplicationNameException => {
   let contents: any = {
     __type: "InvalidApplicationNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13023,7 +13023,7 @@ const deserializeAws_json1_1InvalidArnException = (
 ): InvalidArnException => {
   let contents: any = {
     __type: "InvalidArnException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13037,7 +13037,7 @@ const deserializeAws_json1_1InvalidAutoRollbackConfigException = (
 ): InvalidAutoRollbackConfigException => {
   let contents: any = {
     __type: "InvalidAutoRollbackConfigException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13051,7 +13051,7 @@ const deserializeAws_json1_1InvalidAutoScalingGroupException = (
 ): InvalidAutoScalingGroupException => {
   let contents: any = {
     __type: "InvalidAutoScalingGroupException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13065,7 +13065,7 @@ const deserializeAws_json1_1InvalidBlueGreenDeploymentConfigurationException = (
 ): InvalidBlueGreenDeploymentConfigurationException => {
   let contents: any = {
     __type: "InvalidBlueGreenDeploymentConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13079,7 +13079,7 @@ const deserializeAws_json1_1InvalidBucketNameFilterException = (
 ): InvalidBucketNameFilterException => {
   let contents: any = {
     __type: "InvalidBucketNameFilterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13093,7 +13093,7 @@ const deserializeAws_json1_1InvalidComputePlatformException = (
 ): InvalidComputePlatformException => {
   let contents: any = {
     __type: "InvalidComputePlatformException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13107,7 +13107,7 @@ const deserializeAws_json1_1InvalidDeployedStateFilterException = (
 ): InvalidDeployedStateFilterException => {
   let contents: any = {
     __type: "InvalidDeployedStateFilterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13121,7 +13121,7 @@ const deserializeAws_json1_1InvalidDeploymentConfigNameException = (
 ): InvalidDeploymentConfigNameException => {
   let contents: any = {
     __type: "InvalidDeploymentConfigNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13135,7 +13135,7 @@ const deserializeAws_json1_1InvalidDeploymentGroupNameException = (
 ): InvalidDeploymentGroupNameException => {
   let contents: any = {
     __type: "InvalidDeploymentGroupNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13149,7 +13149,7 @@ const deserializeAws_json1_1InvalidDeploymentIdException = (
 ): InvalidDeploymentIdException => {
   let contents: any = {
     __type: "InvalidDeploymentIdException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13163,7 +13163,7 @@ const deserializeAws_json1_1InvalidDeploymentInstanceTypeException = (
 ): InvalidDeploymentInstanceTypeException => {
   let contents: any = {
     __type: "InvalidDeploymentInstanceTypeException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13177,7 +13177,7 @@ const deserializeAws_json1_1InvalidDeploymentStatusException = (
 ): InvalidDeploymentStatusException => {
   let contents: any = {
     __type: "InvalidDeploymentStatusException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13191,7 +13191,7 @@ const deserializeAws_json1_1InvalidDeploymentStyleException = (
 ): InvalidDeploymentStyleException => {
   let contents: any = {
     __type: "InvalidDeploymentStyleException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13205,7 +13205,7 @@ const deserializeAws_json1_1InvalidDeploymentTargetIdException = (
 ): InvalidDeploymentTargetIdException => {
   let contents: any = {
     __type: "InvalidDeploymentTargetIdException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13219,7 +13219,7 @@ const deserializeAws_json1_1InvalidDeploymentWaitTypeException = (
 ): InvalidDeploymentWaitTypeException => {
   let contents: any = {
     __type: "InvalidDeploymentWaitTypeException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13233,7 +13233,7 @@ const deserializeAws_json1_1InvalidEC2TagCombinationException = (
 ): InvalidEC2TagCombinationException => {
   let contents: any = {
     __type: "InvalidEC2TagCombinationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13247,7 +13247,7 @@ const deserializeAws_json1_1InvalidEC2TagException = (
 ): InvalidEC2TagException => {
   let contents: any = {
     __type: "InvalidEC2TagException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13261,7 +13261,7 @@ const deserializeAws_json1_1InvalidECSServiceException = (
 ): InvalidECSServiceException => {
   let contents: any = {
     __type: "InvalidECSServiceException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13275,7 +13275,7 @@ const deserializeAws_json1_1InvalidFileExistsBehaviorException = (
 ): InvalidFileExistsBehaviorException => {
   let contents: any = {
     __type: "InvalidFileExistsBehaviorException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13289,7 +13289,7 @@ const deserializeAws_json1_1InvalidGitHubAccountTokenException = (
 ): InvalidGitHubAccountTokenException => {
   let contents: any = {
     __type: "InvalidGitHubAccountTokenException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13303,7 +13303,7 @@ const deserializeAws_json1_1InvalidGitHubAccountTokenNameException = (
 ): InvalidGitHubAccountTokenNameException => {
   let contents: any = {
     __type: "InvalidGitHubAccountTokenNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13317,7 +13317,7 @@ const deserializeAws_json1_1InvalidIamSessionArnException = (
 ): InvalidIamSessionArnException => {
   let contents: any = {
     __type: "InvalidIamSessionArnException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13331,7 +13331,7 @@ const deserializeAws_json1_1InvalidIamUserArnException = (
 ): InvalidIamUserArnException => {
   let contents: any = {
     __type: "InvalidIamUserArnException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13345,7 +13345,7 @@ const deserializeAws_json1_1InvalidIgnoreApplicationStopFailuresValueException =
 ): InvalidIgnoreApplicationStopFailuresValueException => {
   let contents: any = {
     __type: "InvalidIgnoreApplicationStopFailuresValueException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13359,7 +13359,7 @@ const deserializeAws_json1_1InvalidInputException = (
 ): InvalidInputException => {
   let contents: any = {
     __type: "InvalidInputException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13373,7 +13373,7 @@ const deserializeAws_json1_1InvalidInstanceNameException = (
 ): InvalidInstanceNameException => {
   let contents: any = {
     __type: "InvalidInstanceNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13387,7 +13387,7 @@ const deserializeAws_json1_1InvalidInstanceStatusException = (
 ): InvalidInstanceStatusException => {
   let contents: any = {
     __type: "InvalidInstanceStatusException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13401,7 +13401,7 @@ const deserializeAws_json1_1InvalidInstanceTypeException = (
 ): InvalidInstanceTypeException => {
   let contents: any = {
     __type: "InvalidInstanceTypeException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13415,7 +13415,7 @@ const deserializeAws_json1_1InvalidKeyPrefixFilterException = (
 ): InvalidKeyPrefixFilterException => {
   let contents: any = {
     __type: "InvalidKeyPrefixFilterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13429,7 +13429,7 @@ const deserializeAws_json1_1InvalidLifecycleEventHookExecutionIdException = (
 ): InvalidLifecycleEventHookExecutionIdException => {
   let contents: any = {
     __type: "InvalidLifecycleEventHookExecutionIdException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13443,7 +13443,7 @@ const deserializeAws_json1_1InvalidLifecycleEventHookExecutionStatusException = 
 ): InvalidLifecycleEventHookExecutionStatusException => {
   let contents: any = {
     __type: "InvalidLifecycleEventHookExecutionStatusException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13457,7 +13457,7 @@ const deserializeAws_json1_1InvalidLoadBalancerInfoException = (
 ): InvalidLoadBalancerInfoException => {
   let contents: any = {
     __type: "InvalidLoadBalancerInfoException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13471,7 +13471,7 @@ const deserializeAws_json1_1InvalidMinimumHealthyHostValueException = (
 ): InvalidMinimumHealthyHostValueException => {
   let contents: any = {
     __type: "InvalidMinimumHealthyHostValueException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13485,7 +13485,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13499,7 +13499,7 @@ const deserializeAws_json1_1InvalidOnPremisesTagCombinationException = (
 ): InvalidOnPremisesTagCombinationException => {
   let contents: any = {
     __type: "InvalidOnPremisesTagCombinationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13513,7 +13513,7 @@ const deserializeAws_json1_1InvalidOperationException = (
 ): InvalidOperationException => {
   let contents: any = {
     __type: "InvalidOperationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13527,7 +13527,7 @@ const deserializeAws_json1_1InvalidRegistrationStatusException = (
 ): InvalidRegistrationStatusException => {
   let contents: any = {
     __type: "InvalidRegistrationStatusException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13541,7 +13541,7 @@ const deserializeAws_json1_1InvalidRevisionException = (
 ): InvalidRevisionException => {
   let contents: any = {
     __type: "InvalidRevisionException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13555,7 +13555,7 @@ const deserializeAws_json1_1InvalidRoleException = (
 ): InvalidRoleException => {
   let contents: any = {
     __type: "InvalidRoleException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13569,7 +13569,7 @@ const deserializeAws_json1_1InvalidSortByException = (
 ): InvalidSortByException => {
   let contents: any = {
     __type: "InvalidSortByException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13583,7 +13583,7 @@ const deserializeAws_json1_1InvalidSortOrderException = (
 ): InvalidSortOrderException => {
   let contents: any = {
     __type: "InvalidSortOrderException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13597,7 +13597,7 @@ const deserializeAws_json1_1InvalidTagException = (
 ): InvalidTagException => {
   let contents: any = {
     __type: "InvalidTagException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13611,7 +13611,7 @@ const deserializeAws_json1_1InvalidTagFilterException = (
 ): InvalidTagFilterException => {
   let contents: any = {
     __type: "InvalidTagFilterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13625,7 +13625,7 @@ const deserializeAws_json1_1InvalidTagsToAddException = (
 ): InvalidTagsToAddException => {
   let contents: any = {
     __type: "InvalidTagsToAddException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13639,7 +13639,7 @@ const deserializeAws_json1_1InvalidTargetFilterNameException = (
 ): InvalidTargetFilterNameException => {
   let contents: any = {
     __type: "InvalidTargetFilterNameException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13653,7 +13653,7 @@ const deserializeAws_json1_1InvalidTargetGroupPairException = (
 ): InvalidTargetGroupPairException => {
   let contents: any = {
     __type: "InvalidTargetGroupPairException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13667,7 +13667,7 @@ const deserializeAws_json1_1InvalidTargetInstancesException = (
 ): InvalidTargetInstancesException => {
   let contents: any = {
     __type: "InvalidTargetInstancesException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13681,7 +13681,7 @@ const deserializeAws_json1_1InvalidTimeRangeException = (
 ): InvalidTimeRangeException => {
   let contents: any = {
     __type: "InvalidTimeRangeException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13695,7 +13695,7 @@ const deserializeAws_json1_1InvalidTrafficRoutingConfigurationException = (
 ): InvalidTrafficRoutingConfigurationException => {
   let contents: any = {
     __type: "InvalidTrafficRoutingConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13709,7 +13709,7 @@ const deserializeAws_json1_1InvalidTriggerConfigException = (
 ): InvalidTriggerConfigException => {
   let contents: any = {
     __type: "InvalidTriggerConfigException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13723,7 +13723,7 @@ const deserializeAws_json1_1InvalidUpdateOutdatedInstancesOnlyValueException = (
 ): InvalidUpdateOutdatedInstancesOnlyValueException => {
   let contents: any = {
     __type: "InvalidUpdateOutdatedInstancesOnlyValueException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13741,7 +13741,7 @@ const deserializeAws_json1_1LambdaFunctionInfo = (
     functionAlias: undefined,
     functionName: undefined,
     targetVersion: undefined,
-    targetVersionWeight: undefined
+    targetVersionWeight: undefined,
   };
   if (output.currentVersion !== undefined && output.currentVersion !== null) {
     contents.currentVersion = output.currentVersion;
@@ -13776,7 +13776,7 @@ const deserializeAws_json1_1LambdaTarget = (
     lifecycleEvents: undefined,
     status: undefined,
     targetArn: undefined,
-    targetId: undefined
+    targetId: undefined,
   };
   if (output.deploymentId !== undefined && output.deploymentId !== null) {
     contents.deploymentId = output.deploymentId;
@@ -13820,7 +13820,7 @@ const deserializeAws_json1_1LastDeploymentInfo = (
     createTime: undefined,
     deploymentId: undefined,
     endTime: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.createTime !== undefined && output.createTime !== null) {
     contents.createTime = new Date(Math.round(output.createTime * 1000));
@@ -13847,7 +13847,7 @@ const deserializeAws_json1_1LifecycleEvent = (
     endTime: undefined,
     lifecycleEventName: undefined,
     startTime: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.diagnostics !== undefined && output.diagnostics !== null) {
     contents.diagnostics = deserializeAws_json1_1Diagnostics(
@@ -13879,7 +13879,7 @@ const deserializeAws_json1_1LifecycleEventAlreadyCompletedException = (
 ): LifecycleEventAlreadyCompletedException => {
   let contents: any = {
     __type: "LifecycleEventAlreadyCompletedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13902,7 +13902,7 @@ const deserializeAws_json1_1LifecycleHookLimitExceededException = (
 ): LifecycleHookLimitExceededException => {
   let contents: any = {
     __type: "LifecycleHookLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -13917,7 +13917,7 @@ const deserializeAws_json1_1ListApplicationRevisionsOutput = (
   let contents: any = {
     __type: "ListApplicationRevisionsOutput",
     nextToken: undefined,
-    revisions: undefined
+    revisions: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -13938,7 +13938,7 @@ const deserializeAws_json1_1ListApplicationsOutput = (
   let contents: any = {
     __type: "ListApplicationsOutput",
     applications: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.applications !== undefined && output.applications !== null) {
     contents.applications = deserializeAws_json1_1ApplicationsList(
@@ -13959,7 +13959,7 @@ const deserializeAws_json1_1ListDeploymentConfigsOutput = (
   let contents: any = {
     __type: "ListDeploymentConfigsOutput",
     deploymentConfigsList: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.deploymentConfigsList !== undefined &&
@@ -13984,7 +13984,7 @@ const deserializeAws_json1_1ListDeploymentGroupsOutput = (
     __type: "ListDeploymentGroupsOutput",
     applicationName: undefined,
     deploymentGroups: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.applicationName !== undefined && output.applicationName !== null) {
     contents.applicationName = output.applicationName;
@@ -14011,7 +14011,7 @@ const deserializeAws_json1_1ListDeploymentInstancesOutput = (
   let contents: any = {
     __type: "ListDeploymentInstancesOutput",
     instancesList: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.instancesList !== undefined && output.instancesList !== null) {
     contents.instancesList = deserializeAws_json1_1InstancesList(
@@ -14032,7 +14032,7 @@ const deserializeAws_json1_1ListDeploymentTargetsOutput = (
   let contents: any = {
     __type: "ListDeploymentTargetsOutput",
     nextToken: undefined,
-    targetIds: undefined
+    targetIds: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -14053,7 +14053,7 @@ const deserializeAws_json1_1ListDeploymentsOutput = (
   let contents: any = {
     __type: "ListDeploymentsOutput",
     deployments: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.deployments !== undefined && output.deployments !== null) {
     contents.deployments = deserializeAws_json1_1DeploymentsList(
@@ -14074,7 +14074,7 @@ const deserializeAws_json1_1ListGitHubAccountTokenNamesOutput = (
   let contents: any = {
     __type: "ListGitHubAccountTokenNamesOutput",
     nextToken: undefined,
-    tokenNameList: undefined
+    tokenNameList: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -14095,7 +14095,7 @@ const deserializeAws_json1_1ListOnPremisesInstancesOutput = (
   let contents: any = {
     __type: "ListOnPremisesInstancesOutput",
     instanceNames: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.instanceNames !== undefined && output.instanceNames !== null) {
     contents.instanceNames = deserializeAws_json1_1InstanceNameList(
@@ -14116,7 +14116,7 @@ const deserializeAws_json1_1ListTagsForResourceOutput = (
   let contents: any = {
     __type: "ListTagsForResourceOutput",
     NextToken: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -14142,7 +14142,7 @@ const deserializeAws_json1_1LoadBalancerInfo = (
     __type: "LoadBalancerInfo",
     elbInfoList: undefined,
     targetGroupInfoList: undefined,
-    targetGroupPairInfoList: undefined
+    targetGroupPairInfoList: undefined,
   };
   if (output.elbInfoList !== undefined && output.elbInfoList !== null) {
     contents.elbInfoList = deserializeAws_json1_1ELBInfoList(
@@ -14178,7 +14178,7 @@ const deserializeAws_json1_1MinimumHealthyHosts = (
   let contents: any = {
     __type: "MinimumHealthyHosts",
     type: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.type !== undefined && output.type !== null) {
     contents.type = output.type;
@@ -14195,7 +14195,7 @@ const deserializeAws_json1_1MultipleIamArnsProvidedException = (
 ): MultipleIamArnsProvidedException => {
   let contents: any = {
     __type: "MultipleIamArnsProvidedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14209,7 +14209,7 @@ const deserializeAws_json1_1OnPremisesTagSet = (
 ): OnPremisesTagSet => {
   let contents: any = {
     __type: "OnPremisesTagSet",
-    onPremisesTagSetList: undefined
+    onPremisesTagSetList: undefined,
   };
   if (
     output.onPremisesTagSetList !== undefined &&
@@ -14238,7 +14238,7 @@ const deserializeAws_json1_1OperationNotSupportedException = (
 ): OperationNotSupportedException => {
   let contents: any = {
     __type: "OperationNotSupportedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14252,7 +14252,7 @@ const deserializeAws_json1_1PutLifecycleEventHookExecutionStatusOutput = (
 ): PutLifecycleEventHookExecutionStatusOutput => {
   let contents: any = {
     __type: "PutLifecycleEventHookExecutionStatusOutput",
-    lifecycleEventHookExecutionId: undefined
+    lifecycleEventHookExecutionId: undefined,
   };
   if (
     output.lifecycleEventHookExecutionId !== undefined &&
@@ -14271,7 +14271,7 @@ const deserializeAws_json1_1RawString = (
   let contents: any = {
     __type: "RawString",
     content: undefined,
-    sha256: undefined
+    sha256: undefined,
   };
   if (output.content !== undefined && output.content !== null) {
     contents.content = output.content;
@@ -14288,7 +14288,7 @@ const deserializeAws_json1_1ResourceArnRequiredException = (
 ): ResourceArnRequiredException => {
   let contents: any = {
     __type: "ResourceArnRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14302,7 +14302,7 @@ const deserializeAws_json1_1ResourceValidationException = (
 ): ResourceValidationException => {
   let contents: any = {
     __type: "ResourceValidationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14316,7 +14316,7 @@ const deserializeAws_json1_1RevisionDoesNotExistException = (
 ): RevisionDoesNotExistException => {
   let contents: any = {
     __type: "RevisionDoesNotExistException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14331,7 +14331,7 @@ const deserializeAws_json1_1RevisionInfo = (
   let contents: any = {
     __type: "RevisionInfo",
     genericRevisionInfo: undefined,
-    revisionLocation: undefined
+    revisionLocation: undefined,
   };
   if (
     output.genericRevisionInfo !== undefined &&
@@ -14373,7 +14373,7 @@ const deserializeAws_json1_1RevisionLocation = (
     gitHubLocation: undefined,
     revisionType: undefined,
     s3Location: undefined,
-    string: undefined
+    string: undefined,
   };
   if (output.appSpecContent !== undefined && output.appSpecContent !== null) {
     contents.appSpecContent = deserializeAws_json1_1AppSpecContent(
@@ -14417,7 +14417,7 @@ const deserializeAws_json1_1RevisionRequiredException = (
 ): RevisionRequiredException => {
   let contents: any = {
     __type: "RevisionRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14431,7 +14431,7 @@ const deserializeAws_json1_1RoleRequiredException = (
 ): RoleRequiredException => {
   let contents: any = {
     __type: "RoleRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14447,7 +14447,7 @@ const deserializeAws_json1_1RollbackInfo = (
     __type: "RollbackInfo",
     rollbackDeploymentId: undefined,
     rollbackMessage: undefined,
-    rollbackTriggeringDeploymentId: undefined
+    rollbackTriggeringDeploymentId: undefined,
   };
   if (
     output.rollbackDeploymentId !== undefined &&
@@ -14478,7 +14478,7 @@ const deserializeAws_json1_1S3Location = (
     bundleType: undefined,
     eTag: undefined,
     key: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.bucket !== undefined && output.bucket !== null) {
     contents.bucket = output.bucket;
@@ -14505,7 +14505,7 @@ const deserializeAws_json1_1StopDeploymentOutput = (
   let contents: any = {
     __type: "StopDeploymentOutput",
     status: undefined,
-    statusMessage: undefined
+    statusMessage: undefined,
   };
   if (output.status !== undefined && output.status !== null) {
     contents.status = output.status;
@@ -14523,7 +14523,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -14542,7 +14542,7 @@ const deserializeAws_json1_1TagFilter = (
     __type: "TagFilter",
     Key: undefined,
     Type: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -14571,7 +14571,7 @@ const deserializeAws_json1_1TagLimitExceededException = (
 ): TagLimitExceededException => {
   let contents: any = {
     __type: "TagLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14594,7 +14594,7 @@ const deserializeAws_json1_1TagRequiredException = (
 ): TagRequiredException => {
   let contents: any = {
     __type: "TagRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14607,7 +14607,7 @@ const deserializeAws_json1_1TagResourceOutput = (
   context: __SerdeContext
 ): TagResourceOutput => {
   let contents: any = {
-    __type: "TagResourceOutput"
+    __type: "TagResourceOutput",
   };
   return contents;
 };
@@ -14618,7 +14618,7 @@ const deserializeAws_json1_1TagSetListLimitExceededException = (
 ): TagSetListLimitExceededException => {
   let contents: any = {
     __type: "TagSetListLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14632,7 +14632,7 @@ const deserializeAws_json1_1TargetGroupInfo = (
 ): TargetGroupInfo => {
   let contents: any = {
     __type: "TargetGroupInfo",
-    name: undefined
+    name: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -14657,7 +14657,7 @@ const deserializeAws_json1_1TargetGroupPairInfo = (
     __type: "TargetGroupPairInfo",
     prodTrafficRoute: undefined,
     targetGroups: undefined,
-    testTrafficRoute: undefined
+    testTrafficRoute: undefined,
   };
   if (
     output.prodTrafficRoute !== undefined &&
@@ -14710,7 +14710,7 @@ const deserializeAws_json1_1TargetInstances = (
     __type: "TargetInstances",
     autoScalingGroups: undefined,
     ec2TagSet: undefined,
-    tagFilters: undefined
+    tagFilters: undefined,
   };
   if (
     output.autoScalingGroups !== undefined &&
@@ -14742,7 +14742,7 @@ const deserializeAws_json1_1ThrottlingException = (
 ): ThrottlingException => {
   let contents: any = {
     __type: "ThrottlingException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14757,7 +14757,7 @@ const deserializeAws_json1_1TimeBasedCanary = (
   let contents: any = {
     __type: "TimeBasedCanary",
     canaryInterval: undefined,
-    canaryPercentage: undefined
+    canaryPercentage: undefined,
   };
   if (output.canaryInterval !== undefined && output.canaryInterval !== null) {
     contents.canaryInterval = output.canaryInterval;
@@ -14778,7 +14778,7 @@ const deserializeAws_json1_1TimeBasedLinear = (
   let contents: any = {
     __type: "TimeBasedLinear",
     linearInterval: undefined,
-    linearPercentage: undefined
+    linearPercentage: undefined,
   };
   if (output.linearInterval !== undefined && output.linearInterval !== null) {
     contents.linearInterval = output.linearInterval;
@@ -14798,7 +14798,7 @@ const deserializeAws_json1_1TrafficRoute = (
 ): TrafficRoute => {
   let contents: any = {
     __type: "TrafficRoute",
-    listenerArns: undefined
+    listenerArns: undefined,
   };
   if (output.listenerArns !== undefined && output.listenerArns !== null) {
     contents.listenerArns = deserializeAws_json1_1ListenerArnList(
@@ -14817,7 +14817,7 @@ const deserializeAws_json1_1TrafficRoutingConfig = (
     __type: "TrafficRoutingConfig",
     timeBasedCanary: undefined,
     timeBasedLinear: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.timeBasedCanary !== undefined && output.timeBasedCanary !== null) {
     contents.timeBasedCanary = deserializeAws_json1_1TimeBasedCanary(
@@ -14845,7 +14845,7 @@ const deserializeAws_json1_1TriggerConfig = (
     __type: "TriggerConfig",
     triggerEvents: undefined,
     triggerName: undefined,
-    triggerTargetArn: undefined
+    triggerTargetArn: undefined,
   };
   if (output.triggerEvents !== undefined && output.triggerEvents !== null) {
     contents.triggerEvents = deserializeAws_json1_1TriggerEventTypeList(
@@ -14887,7 +14887,7 @@ const deserializeAws_json1_1TriggerTargetsLimitExceededException = (
 ): TriggerTargetsLimitExceededException => {
   let contents: any = {
     __type: "TriggerTargetsLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14901,7 +14901,7 @@ const deserializeAws_json1_1UnsupportedActionForDeploymentTypeException = (
 ): UnsupportedActionForDeploymentTypeException => {
   let contents: any = {
     __type: "UnsupportedActionForDeploymentTypeException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -14914,7 +14914,7 @@ const deserializeAws_json1_1UntagResourceOutput = (
   context: __SerdeContext
 ): UntagResourceOutput => {
   let contents: any = {
-    __type: "UntagResourceOutput"
+    __type: "UntagResourceOutput",
   };
   return contents;
 };
@@ -14925,7 +14925,7 @@ const deserializeAws_json1_1UpdateDeploymentGroupOutput = (
 ): UpdateDeploymentGroupOutput => {
   let contents: any = {
     __type: "UpdateDeploymentGroupOutput",
-    hooksNotCleanedUp: undefined
+    hooksNotCleanedUp: undefined,
   };
   if (
     output.hooksNotCleanedUp !== undefined &&
@@ -14942,7 +14942,7 @@ const deserializeAws_json1_1UpdateDeploymentGroupOutput = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -14963,7 +14963,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -14976,11 +14976,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -14992,7 +14992,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

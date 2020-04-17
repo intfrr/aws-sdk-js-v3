@@ -1,54 +1,54 @@
 import {
   ClaimDevicesByClaimCodeCommandInput,
-  ClaimDevicesByClaimCodeCommandOutput
+  ClaimDevicesByClaimCodeCommandOutput,
 } from "../commands/ClaimDevicesByClaimCodeCommand";
 import {
   DescribeDeviceCommandInput,
-  DescribeDeviceCommandOutput
+  DescribeDeviceCommandOutput,
 } from "../commands/DescribeDeviceCommand";
 import {
   FinalizeDeviceClaimCommandInput,
-  FinalizeDeviceClaimCommandOutput
+  FinalizeDeviceClaimCommandOutput,
 } from "../commands/FinalizeDeviceClaimCommand";
 import {
   GetDeviceMethodsCommandInput,
-  GetDeviceMethodsCommandOutput
+  GetDeviceMethodsCommandOutput,
 } from "../commands/GetDeviceMethodsCommand";
 import {
   InitiateDeviceClaimCommandInput,
-  InitiateDeviceClaimCommandOutput
+  InitiateDeviceClaimCommandOutput,
 } from "../commands/InitiateDeviceClaimCommand";
 import {
   InvokeDeviceMethodCommandInput,
-  InvokeDeviceMethodCommandOutput
+  InvokeDeviceMethodCommandOutput,
 } from "../commands/InvokeDeviceMethodCommand";
 import {
   ListDeviceEventsCommandInput,
-  ListDeviceEventsCommandOutput
+  ListDeviceEventsCommandOutput,
 } from "../commands/ListDeviceEventsCommand";
 import {
   ListDevicesCommandInput,
-  ListDevicesCommandOutput
+  ListDevicesCommandOutput,
 } from "../commands/ListDevicesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UnclaimDeviceCommandInput,
-  UnclaimDeviceCommandOutput
+  UnclaimDeviceCommandOutput,
 } from "../commands/UnclaimDeviceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateDeviceStateCommandInput,
-  UpdateDeviceStateCommandOutput
+  UpdateDeviceStateCommandOutput,
 } from "../commands/UpdateDeviceStateCommand";
 import {
   Attributes,
@@ -62,21 +62,21 @@ import {
   PreconditionFailedException,
   RangeNotSatisfiableException,
   ResourceConflictException,
-  ResourceNotFoundException
+  ResourceNotFoundException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1ClaimDevicesByClaimCodeCommand(
@@ -100,12 +100,12 @@ export async function serializeAws_restJson1_1ClaimDevicesByClaimCodeCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -130,12 +130,12 @@ export async function serializeAws_restJson1_1DescribeDeviceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -168,12 +168,12 @@ export async function serializeAws_restJson1_1FinalizeDeviceClaimCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -198,12 +198,12 @@ export async function serializeAws_restJson1_1GetDeviceMethodsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -228,12 +228,12 @@ export async function serializeAws_restJson1_1InitiateDeviceClaimCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -269,12 +269,12 @@ export async function serializeAws_restJson1_1InvokeDeviceMethodCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -316,13 +316,13 @@ export async function serializeAws_restJson1_1ListDeviceEventsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -345,13 +345,13 @@ export async function serializeAws_restJson1_1ListDevicesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -378,12 +378,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -418,12 +418,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -448,12 +448,12 @@ export async function serializeAws_restJson1_1UnclaimDeviceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -480,17 +480,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.TagKeys !== undefined) {
-    query["tagKeys"] = (input.TagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.TagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -520,12 +520,12 @@ export async function serializeAws_restJson1_1UpdateDeviceStateCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -543,7 +543,7 @@ export async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommand(
     $metadata: deserializeMetadata(output),
     __type: "ClaimDevicesByClaimCodeResponse",
     ClaimCode: undefined,
-    Total: undefined
+    Total: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.claimCode !== undefined && data.claimCode !== null) {
@@ -561,7 +561,7 @@ async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommandError(
 ): Promise<ClaimDevicesByClaimCodeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -575,7 +575,7 @@ async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -586,7 +586,7 @@ async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -597,7 +597,7 @@ async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -608,7 +608,7 @@ async function deserializeAws_restJson1_1ClaimDevicesByClaimCodeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -630,7 +630,7 @@ export async function deserializeAws_restJson1_1DescribeDeviceCommand(
   const contents: DescribeDeviceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDeviceResponse",
-    DeviceDescription: undefined
+    DeviceDescription: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.deviceDescription !== undefined && data.deviceDescription !== null) {
@@ -648,7 +648,7 @@ async function deserializeAws_restJson1_1DescribeDeviceCommandError(
 ): Promise<DescribeDeviceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -662,7 +662,7 @@ async function deserializeAws_restJson1_1DescribeDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -673,7 +673,7 @@ async function deserializeAws_restJson1_1DescribeDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -684,7 +684,7 @@ async function deserializeAws_restJson1_1DescribeDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -695,7 +695,7 @@ async function deserializeAws_restJson1_1DescribeDeviceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -717,7 +717,7 @@ export async function deserializeAws_restJson1_1FinalizeDeviceClaimCommand(
   const contents: FinalizeDeviceClaimCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "FinalizeDeviceClaimResponse",
-    State: undefined
+    State: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.state !== undefined && data.state !== null) {
@@ -732,7 +732,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
 ): Promise<FinalizeDeviceClaimCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -746,7 +746,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -757,7 +757,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailedException":
@@ -768,7 +768,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -779,7 +779,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -790,7 +790,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -801,7 +801,7 @@ async function deserializeAws_restJson1_1FinalizeDeviceClaimCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -823,7 +823,7 @@ export async function deserializeAws_restJson1_1GetDeviceMethodsCommand(
   const contents: GetDeviceMethodsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDeviceMethodsResponse",
-    DeviceMethods: undefined
+    DeviceMethods: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.deviceMethods !== undefined && data.deviceMethods !== null) {
@@ -841,7 +841,7 @@ async function deserializeAws_restJson1_1GetDeviceMethodsCommandError(
 ): Promise<GetDeviceMethodsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -855,7 +855,7 @@ async function deserializeAws_restJson1_1GetDeviceMethodsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -866,7 +866,7 @@ async function deserializeAws_restJson1_1GetDeviceMethodsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -877,7 +877,7 @@ async function deserializeAws_restJson1_1GetDeviceMethodsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -888,7 +888,7 @@ async function deserializeAws_restJson1_1GetDeviceMethodsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -910,7 +910,7 @@ export async function deserializeAws_restJson1_1InitiateDeviceClaimCommand(
   const contents: InitiateDeviceClaimCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InitiateDeviceClaimResponse",
-    State: undefined
+    State: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.state !== undefined && data.state !== null) {
@@ -925,7 +925,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
 ): Promise<InitiateDeviceClaimCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -939,7 +939,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -950,7 +950,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -961,7 +961,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -972,7 +972,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -983,7 +983,7 @@ async function deserializeAws_restJson1_1InitiateDeviceClaimCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1005,7 +1005,7 @@ export async function deserializeAws_restJson1_1InvokeDeviceMethodCommand(
   const contents: InvokeDeviceMethodCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InvokeDeviceMethodResponse",
-    DeviceMethodResponse: undefined
+    DeviceMethodResponse: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -1023,7 +1023,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
 ): Promise<InvokeDeviceMethodCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1037,7 +1037,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1048,7 +1048,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailedException":
@@ -1059,7 +1059,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RangeNotSatisfiableException":
@@ -1070,7 +1070,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceConflictException":
@@ -1081,7 +1081,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1092,7 +1092,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1103,7 +1103,7 @@ async function deserializeAws_restJson1_1InvokeDeviceMethodCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1126,7 +1126,7 @@ export async function deserializeAws_restJson1_1ListDeviceEventsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListDeviceEventsResponse",
     Events: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.events !== undefined && data.events !== null) {
@@ -1147,7 +1147,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
 ): Promise<ListDeviceEventsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1161,7 +1161,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1172,7 +1172,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RangeNotSatisfiableException":
@@ -1183,7 +1183,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1194,7 +1194,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1205,7 +1205,7 @@ async function deserializeAws_restJson1_1ListDeviceEventsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1225,7 +1225,7 @@ export async function deserializeAws_restJson1_1ListDevicesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListDevicesResponse",
     Devices: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.devices !== undefined && data.devices !== null) {
@@ -1246,7 +1246,7 @@ async function deserializeAws_restJson1_1ListDevicesCommandError(
 ): Promise<ListDevicesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1260,7 +1260,7 @@ async function deserializeAws_restJson1_1ListDevicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1271,7 +1271,7 @@ async function deserializeAws_restJson1_1ListDevicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RangeNotSatisfiableException":
@@ -1282,7 +1282,7 @@ async function deserializeAws_restJson1_1ListDevicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1293,7 +1293,7 @@ async function deserializeAws_restJson1_1ListDevicesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1315,7 +1315,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -1333,7 +1333,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1347,7 +1347,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1358,7 +1358,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1369,7 +1369,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1386,7 +1386,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
     return deserializeAws_restJson1_1TagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1398,7 +1398,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1412,7 +1412,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1423,7 +1423,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1434,7 +1434,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1445,7 +1445,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1464,7 +1464,7 @@ export async function deserializeAws_restJson1_1UnclaimDeviceCommand(
   const contents: UnclaimDeviceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UnclaimDeviceResponse",
-    State: undefined
+    State: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.state !== undefined && data.state !== null) {
@@ -1479,7 +1479,7 @@ async function deserializeAws_restJson1_1UnclaimDeviceCommandError(
 ): Promise<UnclaimDeviceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1493,7 +1493,7 @@ async function deserializeAws_restJson1_1UnclaimDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1504,7 +1504,7 @@ async function deserializeAws_restJson1_1UnclaimDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1515,7 +1515,7 @@ async function deserializeAws_restJson1_1UnclaimDeviceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1526,7 +1526,7 @@ async function deserializeAws_restJson1_1UnclaimDeviceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1543,7 +1543,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
     return deserializeAws_restJson1_1UntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1555,7 +1555,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1569,7 +1569,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1580,7 +1580,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1591,7 +1591,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1602,7 +1602,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1623,7 +1623,7 @@ export async function deserializeAws_restJson1_1UpdateDeviceStateCommand(
   }
   const contents: UpdateDeviceStateCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateDeviceStateResponse"
+    __type: "UpdateDeviceStateResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1635,7 +1635,7 @@ async function deserializeAws_restJson1_1UpdateDeviceStateCommandError(
 ): Promise<UpdateDeviceStateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1649,7 +1649,7 @@ async function deserializeAws_restJson1_1UpdateDeviceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1660,7 +1660,7 @@ async function deserializeAws_restJson1_1UpdateDeviceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1671,7 +1671,7 @@ async function deserializeAws_restJson1_1UpdateDeviceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1682,7 +1682,7 @@ async function deserializeAws_restJson1_1UpdateDeviceStateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1700,7 +1700,7 @@ const deserializeAws_restJson1_1ForbiddenExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1721,7 +1721,7 @@ const deserializeAws_restJson1_1InternalFailureExceptionResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1742,7 +1742,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1763,7 +1763,7 @@ const deserializeAws_restJson1_1PreconditionFailedExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1784,7 +1784,7 @@ const deserializeAws_restJson1_1RangeNotSatisfiableExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1805,7 +1805,7 @@ const deserializeAws_restJson1_1ResourceConflictExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1826,7 +1826,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -1857,7 +1857,7 @@ const serializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -1868,7 +1868,7 @@ const deserializeAws_restJson1_1Attributes = (
   context: __SerdeContext
 ): Attributes => {
   let contents: any = {
-    __type: "Attributes"
+    __type: "Attributes",
   };
   return contents;
 };
@@ -1881,7 +1881,7 @@ const deserializeAws_restJson1_1Device = (
     __type: "Device",
     Attributes: undefined,
     DeviceId: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.attributes !== undefined && output.attributes !== null) {
     contents.Attributes = deserializeAws_restJson1_1Attributes(
@@ -1903,7 +1903,7 @@ const deserializeAws_restJson1_1DeviceAttributes = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -1921,7 +1921,7 @@ const deserializeAws_restJson1_1DeviceDescription = (
     Enabled: undefined,
     RemainingLife: undefined,
     Tags: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.Arn = output.arn;
@@ -1960,7 +1960,7 @@ const deserializeAws_restJson1_1DeviceEvent = (
   let contents: any = {
     __type: "DeviceEvent",
     Device: undefined,
-    StdEvent: undefined
+    StdEvent: undefined,
   };
   if (output.device !== undefined && output.device !== null) {
     contents.Device = deserializeAws_restJson1_1Device(output.device, context);
@@ -1978,7 +1978,7 @@ const deserializeAws_restJson1_1DeviceMethod = (
   let contents: any = {
     __type: "DeviceMethod",
     DeviceType: undefined,
-    MethodName: undefined
+    MethodName: undefined,
   };
   if (output.deviceType !== undefined && output.deviceType !== null) {
     contents.DeviceType = output.deviceType;
@@ -2021,7 +2021,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2030,7 +2030,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2051,13 +2051,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -2070,7 +2070,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

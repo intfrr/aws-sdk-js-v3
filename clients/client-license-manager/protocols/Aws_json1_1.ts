@@ -1,66 +1,66 @@
 import {
   CreateLicenseConfigurationCommandInput,
-  CreateLicenseConfigurationCommandOutput
+  CreateLicenseConfigurationCommandOutput,
 } from "../commands/CreateLicenseConfigurationCommand";
 import {
   DeleteLicenseConfigurationCommandInput,
-  DeleteLicenseConfigurationCommandOutput
+  DeleteLicenseConfigurationCommandOutput,
 } from "../commands/DeleteLicenseConfigurationCommand";
 import {
   GetLicenseConfigurationCommandInput,
-  GetLicenseConfigurationCommandOutput
+  GetLicenseConfigurationCommandOutput,
 } from "../commands/GetLicenseConfigurationCommand";
 import {
   GetServiceSettingsCommandInput,
-  GetServiceSettingsCommandOutput
+  GetServiceSettingsCommandOutput,
 } from "../commands/GetServiceSettingsCommand";
 import {
   ListAssociationsForLicenseConfigurationCommandInput,
-  ListAssociationsForLicenseConfigurationCommandOutput
+  ListAssociationsForLicenseConfigurationCommandOutput,
 } from "../commands/ListAssociationsForLicenseConfigurationCommand";
 import {
   ListFailuresForLicenseConfigurationOperationsCommandInput,
-  ListFailuresForLicenseConfigurationOperationsCommandOutput
+  ListFailuresForLicenseConfigurationOperationsCommandOutput,
 } from "../commands/ListFailuresForLicenseConfigurationOperationsCommand";
 import {
   ListLicenseConfigurationsCommandInput,
-  ListLicenseConfigurationsCommandOutput
+  ListLicenseConfigurationsCommandOutput,
 } from "../commands/ListLicenseConfigurationsCommand";
 import {
   ListLicenseSpecificationsForResourceCommandInput,
-  ListLicenseSpecificationsForResourceCommandOutput
+  ListLicenseSpecificationsForResourceCommandOutput,
 } from "../commands/ListLicenseSpecificationsForResourceCommand";
 import {
   ListResourceInventoryCommandInput,
-  ListResourceInventoryCommandOutput
+  ListResourceInventoryCommandOutput,
 } from "../commands/ListResourceInventoryCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListUsageForLicenseConfigurationCommandInput,
-  ListUsageForLicenseConfigurationCommandOutput
+  ListUsageForLicenseConfigurationCommandOutput,
 } from "../commands/ListUsageForLicenseConfigurationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateLicenseConfigurationCommandInput,
-  UpdateLicenseConfigurationCommandOutput
+  UpdateLicenseConfigurationCommandOutput,
 } from "../commands/UpdateLicenseConfigurationCommand";
 import {
   UpdateLicenseSpecificationsForResourceCommandInput,
-  UpdateLicenseSpecificationsForResourceCommandOutput
+  UpdateLicenseSpecificationsForResourceCommandOutput,
 } from "../commands/UpdateLicenseSpecificationsForResourceCommand";
 import {
   UpdateServiceSettingsCommandInput,
-  UpdateServiceSettingsCommandOutput
+  UpdateServiceSettingsCommandOutput,
 } from "../commands/UpdateServiceSettingsCommand";
 import {
   AccessDeniedException,
@@ -120,11 +120,11 @@ import {
   UpdateLicenseSpecificationsForResourceRequest,
   UpdateLicenseSpecificationsForResourceResponse,
   UpdateServiceSettingsRequest,
-  UpdateServiceSettingsResponse
+  UpdateServiceSettingsResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -132,7 +132,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateLicenseConfigurationCommand(
@@ -393,7 +393,7 @@ export async function deserializeAws_json1_1CreateLicenseConfigurationCommand(
   const response: CreateLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -404,7 +404,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
 ): Promise<CreateLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -420,7 +420,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -431,7 +431,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -442,7 +442,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -453,7 +453,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -464,7 +464,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -475,7 +475,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -486,7 +486,7 @@ async function deserializeAws_json1_1CreateLicenseConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -514,7 +514,7 @@ export async function deserializeAws_json1_1DeleteLicenseConfigurationCommand(
   const response: DeleteLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -525,7 +525,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
 ): Promise<DeleteLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -541,7 +541,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -552,7 +552,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -563,7 +563,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -574,7 +574,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -585,7 +585,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -596,7 +596,7 @@ async function deserializeAws_json1_1DeleteLicenseConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -624,7 +624,7 @@ export async function deserializeAws_json1_1GetLicenseConfigurationCommand(
   const response: GetLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -635,7 +635,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
 ): Promise<GetLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -651,7 +651,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -662,7 +662,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -673,7 +673,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -684,7 +684,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -695,7 +695,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -706,7 +706,7 @@ async function deserializeAws_json1_1GetLicenseConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -731,7 +731,7 @@ export async function deserializeAws_json1_1GetServiceSettingsCommand(
   const response: GetServiceSettingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetServiceSettingsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -742,7 +742,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
 ): Promise<GetServiceSettingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -758,7 +758,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -769,7 +769,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -780,7 +780,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -791,7 +791,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -802,7 +802,7 @@ async function deserializeAws_json1_1GetServiceSettingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -830,7 +830,7 @@ export async function deserializeAws_json1_1ListAssociationsForLicenseConfigurat
   const response: ListAssociationsForLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAssociationsForLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -841,7 +841,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
 ): Promise<ListAssociationsForLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -857,7 +857,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -868,7 +868,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterLimitExceededException":
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -890,7 +890,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -901,7 +901,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -912,7 +912,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -923,7 +923,7 @@ async function deserializeAws_json1_1ListAssociationsForLicenseConfigurationComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -951,7 +951,7 @@ export async function deserializeAws_json1_1ListFailuresForLicenseConfigurationO
   const response: ListFailuresForLicenseConfigurationOperationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListFailuresForLicenseConfigurationOperationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -962,7 +962,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
 ): Promise<ListFailuresForLicenseConfigurationOperationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -978,7 +978,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -989,7 +989,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1000,7 +1000,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1011,7 +1011,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1022,7 +1022,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1033,7 +1033,7 @@ async function deserializeAws_json1_1ListFailuresForLicenseConfigurationOperatio
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1061,7 +1061,7 @@ export async function deserializeAws_json1_1ListLicenseConfigurationsCommand(
   const response: ListLicenseConfigurationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListLicenseConfigurationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1072,7 +1072,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
 ): Promise<ListLicenseConfigurationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1088,7 +1088,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1099,7 +1099,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterLimitExceededException":
@@ -1110,7 +1110,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1121,7 +1121,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1132,7 +1132,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1143,7 +1143,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1154,7 +1154,7 @@ async function deserializeAws_json1_1ListLicenseConfigurationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1182,7 +1182,7 @@ export async function deserializeAws_json1_1ListLicenseSpecificationsForResource
   const response: ListLicenseSpecificationsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListLicenseSpecificationsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1193,7 +1193,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
 ): Promise<ListLicenseSpecificationsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1209,7 +1209,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1220,7 +1220,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1231,7 +1231,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1242,7 +1242,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1253,7 +1253,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1264,7 +1264,7 @@ async function deserializeAws_json1_1ListLicenseSpecificationsForResourceCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1289,7 +1289,7 @@ export async function deserializeAws_json1_1ListResourceInventoryCommand(
   const response: ListResourceInventoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListResourceInventoryResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1300,7 +1300,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
 ): Promise<ListResourceInventoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1316,7 +1316,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1327,7 +1327,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FailedDependencyException":
@@ -1338,7 +1338,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterLimitExceededException":
@@ -1349,7 +1349,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1360,7 +1360,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1371,7 +1371,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1382,7 +1382,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1393,7 +1393,7 @@ async function deserializeAws_json1_1ListResourceInventoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1418,7 +1418,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1429,7 +1429,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1445,7 +1445,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1456,7 +1456,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1467,7 +1467,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1478,7 +1478,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1489,7 +1489,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1500,7 +1500,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1528,7 +1528,7 @@ export async function deserializeAws_json1_1ListUsageForLicenseConfigurationComm
   const response: ListUsageForLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListUsageForLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1539,7 +1539,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
 ): Promise<ListUsageForLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1555,7 +1555,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1566,7 +1566,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterLimitExceededException":
@@ -1577,7 +1577,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1588,7 +1588,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1599,7 +1599,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1610,7 +1610,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1621,7 +1621,7 @@ async function deserializeAws_json1_1ListUsageForLicenseConfigurationCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1643,7 +1643,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1654,7 +1654,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1670,7 +1670,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1681,7 +1681,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1692,7 +1692,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1703,7 +1703,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1714,7 +1714,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1725,7 +1725,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1747,7 +1747,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1758,7 +1758,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1774,7 +1774,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1785,7 +1785,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1796,7 +1796,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1807,7 +1807,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1818,7 +1818,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1829,7 +1829,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1857,7 +1857,7 @@ export async function deserializeAws_json1_1UpdateLicenseConfigurationCommand(
   const response: UpdateLicenseConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateLicenseConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1868,7 +1868,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
 ): Promise<UpdateLicenseConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1884,7 +1884,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -1895,7 +1895,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1906,7 +1906,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -1917,7 +1917,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1928,7 +1928,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1939,7 +1939,7 @@ async function deserializeAws_json1_1UpdateLicenseConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1967,7 +1967,7 @@ export async function deserializeAws_json1_1UpdateLicenseSpecificationsForResour
   const response: UpdateLicenseSpecificationsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateLicenseSpecificationsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1978,7 +1978,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
 ): Promise<UpdateLicenseSpecificationsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1994,7 +1994,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -2005,7 +2005,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -2016,7 +2016,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -2027,7 +2027,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LicenseUsageException":
@@ -2038,7 +2038,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -2049,7 +2049,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2060,7 +2060,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2071,7 +2071,7 @@ async function deserializeAws_json1_1UpdateLicenseSpecificationsForResourceComma
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2096,7 +2096,7 @@ export async function deserializeAws_json1_1UpdateServiceSettingsCommand(
   const response: UpdateServiceSettingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateServiceSettingsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2107,7 +2107,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
 ): Promise<UpdateServiceSettingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2123,7 +2123,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationException":
@@ -2134,7 +2134,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -2145,7 +2145,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RateLimitExceededException":
@@ -2156,7 +2156,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2167,7 +2167,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2178,7 +2178,7 @@ async function deserializeAws_json1_1UpdateServiceSettingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2200,7 +2200,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2218,7 +2218,7 @@ const deserializeAws_json1_1AuthorizationExceptionResponse = async (
     name: "AuthorizationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2236,7 +2236,7 @@ const deserializeAws_json1_1FailedDependencyExceptionResponse = async (
     name: "FailedDependencyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2254,7 +2254,7 @@ const deserializeAws_json1_1FilterLimitExceededExceptionResponse = async (
     name: "FilterLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2272,7 +2272,7 @@ const deserializeAws_json1_1InvalidParameterValueExceptionResponse = async (
     name: "InvalidParameterValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2290,7 +2290,7 @@ const deserializeAws_json1_1InvalidResourceStateExceptionResponse = async (
     name: "InvalidResourceStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2308,7 +2308,7 @@ const deserializeAws_json1_1LicenseUsageExceptionResponse = async (
     name: "LicenseUsageException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2326,7 +2326,7 @@ const deserializeAws_json1_1RateLimitExceededExceptionResponse = async (
     name: "RateLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2344,7 +2344,7 @@ const deserializeAws_json1_1ResourceLimitExceededExceptionResponse = async (
     name: "ResourceLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2362,7 +2362,7 @@ const deserializeAws_json1_1ServerInternalExceptionResponse = async (
     name: "ServerInternalException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2901,7 +2901,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2915,7 +2915,7 @@ const deserializeAws_json1_1AuthorizationException = (
 ): AuthorizationException => {
   let contents: any = {
     __type: "AuthorizationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2929,7 +2929,7 @@ const deserializeAws_json1_1AutomatedDiscoveryInformation = (
 ): AutomatedDiscoveryInformation => {
   let contents: any = {
     __type: "AutomatedDiscoveryInformation",
-    LastRunTime: undefined
+    LastRunTime: undefined,
   };
   if (output.LastRunTime !== undefined && output.LastRunTime !== null) {
     contents.LastRunTime = new Date(Math.round(output.LastRunTime * 1000));
@@ -2944,7 +2944,7 @@ const deserializeAws_json1_1ConsumedLicenseSummary = (
   let contents: any = {
     __type: "ConsumedLicenseSummary",
     ConsumedLicenses: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (
     output.ConsumedLicenses !== undefined &&
@@ -2973,7 +2973,7 @@ const deserializeAws_json1_1CreateLicenseConfigurationResponse = (
 ): CreateLicenseConfigurationResponse => {
   let contents: any = {
     __type: "CreateLicenseConfigurationResponse",
-    LicenseConfigurationArn: undefined
+    LicenseConfigurationArn: undefined,
   };
   if (
     output.LicenseConfigurationArn !== undefined &&
@@ -2989,7 +2989,7 @@ const deserializeAws_json1_1DeleteLicenseConfigurationResponse = (
   context: __SerdeContext
 ): DeleteLicenseConfigurationResponse => {
   let contents: any = {
-    __type: "DeleteLicenseConfigurationResponse"
+    __type: "DeleteLicenseConfigurationResponse",
   };
   return contents;
 };
@@ -3000,7 +3000,7 @@ const deserializeAws_json1_1FailedDependencyException = (
 ): FailedDependencyException => {
   let contents: any = {
     __type: "FailedDependencyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3014,7 +3014,7 @@ const deserializeAws_json1_1FilterLimitExceededException = (
 ): FilterLimitExceededException => {
   let contents: any = {
     __type: "FilterLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3043,7 +3043,7 @@ const deserializeAws_json1_1GetLicenseConfigurationResponse = (
     OwnerAccountId: undefined,
     ProductInformationList: undefined,
     Status: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (
     output.AutomatedDiscoveryInformation !== undefined &&
@@ -3148,7 +3148,7 @@ const deserializeAws_json1_1GetServiceSettingsResponse = (
     LicenseManagerResourceShareArn: undefined,
     OrganizationConfiguration: undefined,
     S3BucketArn: undefined,
-    SnsTopicArn: undefined
+    SnsTopicArn: undefined,
   };
   if (
     output.EnableCrossAccountsDiscovery !== undefined &&
@@ -3187,7 +3187,7 @@ const deserializeAws_json1_1InvalidParameterValueException = (
 ): InvalidParameterValueException => {
   let contents: any = {
     __type: "InvalidParameterValueException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3201,7 +3201,7 @@ const deserializeAws_json1_1InvalidResourceStateException = (
 ): InvalidResourceStateException => {
   let contents: any = {
     __type: "InvalidResourceStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3229,7 +3229,7 @@ const deserializeAws_json1_1LicenseConfiguration = (
     Name: undefined,
     OwnerAccountId: undefined,
     ProductInformationList: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (
     output.AutomatedDiscoveryInformation !== undefined &&
@@ -3330,7 +3330,7 @@ const deserializeAws_json1_1LicenseConfigurationAssociation = (
     AssociationTime: undefined,
     ResourceArn: undefined,
     ResourceOwnerId: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.AssociationTime !== undefined && output.AssociationTime !== null) {
     contents.AssociationTime = new Date(
@@ -3369,7 +3369,7 @@ const deserializeAws_json1_1LicenseConfigurationUsage = (
     ResourceArn: undefined,
     ResourceOwnerId: undefined,
     ResourceStatus: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.AssociationTime !== undefined && output.AssociationTime !== null) {
     contents.AssociationTime = new Date(
@@ -3428,7 +3428,7 @@ const deserializeAws_json1_1LicenseOperationFailure = (
     OperationRequestedBy: undefined,
     ResourceArn: undefined,
     ResourceOwnerId: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.ErrorMessage !== undefined && output.ErrorMessage !== null) {
     contents.ErrorMessage = output.ErrorMessage;
@@ -3478,7 +3478,7 @@ const deserializeAws_json1_1LicenseSpecification = (
 ): LicenseSpecification => {
   let contents: any = {
     __type: "LicenseSpecification",
-    LicenseConfigurationArn: undefined
+    LicenseConfigurationArn: undefined,
   };
   if (
     output.LicenseConfigurationArn !== undefined &&
@@ -3504,7 +3504,7 @@ const deserializeAws_json1_1LicenseUsageException = (
 ): LicenseUsageException => {
   let contents: any = {
     __type: "LicenseUsageException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3519,7 +3519,7 @@ const deserializeAws_json1_1ListAssociationsForLicenseConfigurationResponse = (
   let contents: any = {
     __type: "ListAssociationsForLicenseConfigurationResponse",
     LicenseConfigurationAssociations: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.LicenseConfigurationAssociations !== undefined &&
@@ -3543,7 +3543,7 @@ const deserializeAws_json1_1ListFailuresForLicenseConfigurationOperationsRespons
   let contents: any = {
     __type: "ListFailuresForLicenseConfigurationOperationsResponse",
     LicenseOperationFailureList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.LicenseOperationFailureList !== undefined &&
@@ -3567,7 +3567,7 @@ const deserializeAws_json1_1ListLicenseConfigurationsResponse = (
   let contents: any = {
     __type: "ListLicenseConfigurationsResponse",
     LicenseConfigurations: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.LicenseConfigurations !== undefined &&
@@ -3591,7 +3591,7 @@ const deserializeAws_json1_1ListLicenseSpecificationsForResourceResponse = (
   let contents: any = {
     __type: "ListLicenseSpecificationsForResourceResponse",
     LicenseSpecifications: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.LicenseSpecifications !== undefined &&
@@ -3615,7 +3615,7 @@ const deserializeAws_json1_1ListResourceInventoryResponse = (
   let contents: any = {
     __type: "ListResourceInventoryResponse",
     NextToken: undefined,
-    ResourceInventoryList: undefined
+    ResourceInventoryList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -3638,7 +3638,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags !== undefined && output.Tags !== null) {
     contents.Tags = deserializeAws_json1_1TagList(output.Tags, context);
@@ -3653,7 +3653,7 @@ const deserializeAws_json1_1ListUsageForLicenseConfigurationResponse = (
   let contents: any = {
     __type: "ListUsageForLicenseConfigurationResponse",
     LicenseConfigurationUsageList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.LicenseConfigurationUsageList !== undefined &&
@@ -3677,7 +3677,7 @@ const deserializeAws_json1_1ManagedResourceSummary = (
   let contents: any = {
     __type: "ManagedResourceSummary",
     AssociationCount: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (
     output.AssociationCount !== undefined &&
@@ -3707,7 +3707,7 @@ const deserializeAws_json1_1Metadata = (
   let contents: any = {
     __type: "Metadata",
     Name: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -3733,7 +3733,7 @@ const deserializeAws_json1_1OrganizationConfiguration = (
 ): OrganizationConfiguration => {
   let contents: any = {
     __type: "OrganizationConfiguration",
-    EnableIntegration: undefined
+    EnableIntegration: undefined,
   };
   if (
     output.EnableIntegration !== undefined &&
@@ -3751,7 +3751,7 @@ const deserializeAws_json1_1ProductInformation = (
   let contents: any = {
     __type: "ProductInformation",
     ProductInformationFilterList: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (
     output.ProductInformationFilterList !== undefined &&
@@ -3776,7 +3776,7 @@ const deserializeAws_json1_1ProductInformationFilter = (
     __type: "ProductInformationFilter",
     ProductInformationFilterComparator: undefined,
     ProductInformationFilterName: undefined,
-    ProductInformationFilterValue: undefined
+    ProductInformationFilterValue: undefined,
   };
   if (
     output.ProductInformationFilterComparator !== undefined &&
@@ -3827,7 +3827,7 @@ const deserializeAws_json1_1RateLimitExceededException = (
 ): RateLimitExceededException => {
   let contents: any = {
     __type: "RateLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3846,7 +3846,7 @@ const deserializeAws_json1_1ResourceInventory = (
     ResourceArn: undefined,
     ResourceId: undefined,
     ResourceOwningAccountId: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.Platform !== undefined && output.Platform !== null) {
     contents.Platform = output.Platform;
@@ -3887,7 +3887,7 @@ const deserializeAws_json1_1ResourceLimitExceededException = (
 ): ResourceLimitExceededException => {
   let contents: any = {
     __type: "ResourceLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3901,7 +3901,7 @@ const deserializeAws_json1_1ServerInternalException = (
 ): ServerInternalException => {
   let contents: any = {
     __type: "ServerInternalException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3923,7 +3923,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -3948,7 +3948,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -3958,7 +3958,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -3968,7 +3968,7 @@ const deserializeAws_json1_1UpdateLicenseConfigurationResponse = (
   context: __SerdeContext
 ): UpdateLicenseConfigurationResponse => {
   let contents: any = {
-    __type: "UpdateLicenseConfigurationResponse"
+    __type: "UpdateLicenseConfigurationResponse",
   };
   return contents;
 };
@@ -3978,7 +3978,7 @@ const deserializeAws_json1_1UpdateLicenseSpecificationsForResourceResponse = (
   context: __SerdeContext
 ): UpdateLicenseSpecificationsForResourceResponse => {
   let contents: any = {
-    __type: "UpdateLicenseSpecificationsForResourceResponse"
+    __type: "UpdateLicenseSpecificationsForResourceResponse",
   };
   return contents;
 };
@@ -3988,7 +3988,7 @@ const deserializeAws_json1_1UpdateServiceSettingsResponse = (
   context: __SerdeContext
 ): UpdateServiceSettingsResponse => {
   let contents: any = {
-    __type: "UpdateServiceSettingsResponse"
+    __type: "UpdateServiceSettingsResponse",
   };
   return contents;
 };
@@ -3996,7 +3996,7 @@ const deserializeAws_json1_1UpdateServiceSettingsResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4017,7 +4017,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -4030,11 +4030,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -4046,7 +4046,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

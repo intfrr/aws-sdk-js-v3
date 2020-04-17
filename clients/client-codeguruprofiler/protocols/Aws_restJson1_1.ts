@@ -1,38 +1,38 @@
 import {
   ConfigureAgentCommandInput,
-  ConfigureAgentCommandOutput
+  ConfigureAgentCommandOutput,
 } from "../commands/ConfigureAgentCommand";
 import {
   CreateProfilingGroupCommandInput,
-  CreateProfilingGroupCommandOutput
+  CreateProfilingGroupCommandOutput,
 } from "../commands/CreateProfilingGroupCommand";
 import {
   DeleteProfilingGroupCommandInput,
-  DeleteProfilingGroupCommandOutput
+  DeleteProfilingGroupCommandOutput,
 } from "../commands/DeleteProfilingGroupCommand";
 import {
   DescribeProfilingGroupCommandInput,
-  DescribeProfilingGroupCommandOutput
+  DescribeProfilingGroupCommandOutput,
 } from "../commands/DescribeProfilingGroupCommand";
 import {
   GetProfileCommandInput,
-  GetProfileCommandOutput
+  GetProfileCommandOutput,
 } from "../commands/GetProfileCommand";
 import {
   ListProfileTimesCommandInput,
-  ListProfileTimesCommandOutput
+  ListProfileTimesCommandOutput,
 } from "../commands/ListProfileTimesCommand";
 import {
   ListProfilingGroupsCommandInput,
-  ListProfilingGroupsCommandOutput
+  ListProfilingGroupsCommandOutput,
 } from "../commands/ListProfilingGroupsCommand";
 import {
   PostAgentProfileCommandInput,
-  PostAgentProfileCommandOutput
+  PostAgentProfileCommandOutput,
 } from "../commands/PostAgentProfileCommand";
 import {
   UpdateProfilingGroupCommandInput,
-  UpdateProfilingGroupCommandOutput
+  UpdateProfilingGroupCommandOutput,
 } from "../commands/UpdateProfilingGroupCommand";
 import {
   AgentConfiguration,
@@ -46,21 +46,21 @@ import {
   ResourceNotFoundException,
   ServiceQuotaExceededException,
   ThrottlingException,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -94,12 +94,12 @@ export async function serializeAws_restJson1_1ConfigureAgentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -129,13 +129,13 @@ export async function serializeAws_restJson1_1CreateProfilingGroupCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -164,12 +164,12 @@ export async function serializeAws_restJson1_1DeleteProfilingGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -198,12 +198,12 @@ export async function serializeAws_restJson1_1DescribeProfilingGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -226,13 +226,13 @@ export async function serializeAws_restJson1_1ListProfilingGroupsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -271,12 +271,12 @@ export async function serializeAws_restJson1_1UpdateProfilingGroupCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -325,13 +325,13 @@ export async function serializeAws_restJson1_1GetProfileCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -383,13 +383,13 @@ export async function serializeAws_restJson1_1ListProfileTimesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -428,13 +428,13 @@ export async function serializeAws_restJson1_1PostAgentProfileCommand(
     body = input.agentProfile;
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -451,7 +451,7 @@ export async function deserializeAws_restJson1_1ConfigureAgentCommand(
   const contents: ConfigureAgentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfigureAgentResponse",
-    configuration: undefined
+    configuration: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.configuration = deserializeAws_restJson1_1AgentConfiguration(
@@ -467,7 +467,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
 ): Promise<ConfigureAgentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -481,7 +481,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -492,7 +492,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -503,7 +503,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -514,7 +514,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -525,7 +525,7 @@ async function deserializeAws_restJson1_1ConfigureAgentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -547,7 +547,7 @@ export async function deserializeAws_restJson1_1CreateProfilingGroupCommand(
   const contents: CreateProfilingGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateProfilingGroupResponse",
-    profilingGroup: undefined
+    profilingGroup: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.profilingGroup = deserializeAws_restJson1_1ProfilingGroupDescription(
@@ -563,7 +563,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
 ): Promise<CreateProfilingGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -577,7 +577,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -588,7 +588,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -599,7 +599,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -610,7 +610,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -621,7 +621,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -632,7 +632,7 @@ async function deserializeAws_restJson1_1CreateProfilingGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -653,7 +653,7 @@ export async function deserializeAws_restJson1_1DeleteProfilingGroupCommand(
   }
   const contents: DeleteProfilingGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteProfilingGroupResponse"
+    __type: "DeleteProfilingGroupResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -665,7 +665,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
 ): Promise<DeleteProfilingGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -679,7 +679,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -690,7 +690,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -701,7 +701,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -712,7 +712,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -723,7 +723,7 @@ async function deserializeAws_restJson1_1DeleteProfilingGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -745,7 +745,7 @@ export async function deserializeAws_restJson1_1DescribeProfilingGroupCommand(
   const contents: DescribeProfilingGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeProfilingGroupResponse",
-    profilingGroup: undefined
+    profilingGroup: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.profilingGroup = deserializeAws_restJson1_1ProfilingGroupDescription(
@@ -761,7 +761,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
 ): Promise<DescribeProfilingGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -775,7 +775,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -786,7 +786,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -797,7 +797,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -808,7 +808,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -819,7 +819,7 @@ async function deserializeAws_restJson1_1DescribeProfilingGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -843,7 +843,7 @@ export async function deserializeAws_restJson1_1ListProfilingGroupsCommand(
     __type: "ListProfilingGroupsResponse",
     nextToken: undefined,
     profilingGroupNames: undefined,
-    profilingGroups: undefined
+    profilingGroups: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -873,7 +873,7 @@ async function deserializeAws_restJson1_1ListProfilingGroupsCommandError(
 ): Promise<ListProfilingGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -887,7 +887,7 @@ async function deserializeAws_restJson1_1ListProfilingGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -898,7 +898,7 @@ async function deserializeAws_restJson1_1ListProfilingGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -909,7 +909,7 @@ async function deserializeAws_restJson1_1ListProfilingGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -931,7 +931,7 @@ export async function deserializeAws_restJson1_1UpdateProfilingGroupCommand(
   const contents: UpdateProfilingGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateProfilingGroupResponse",
-    profilingGroup: undefined
+    profilingGroup: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.profilingGroup = deserializeAws_restJson1_1ProfilingGroupDescription(
@@ -947,7 +947,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
 ): Promise<UpdateProfilingGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -961,7 +961,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -972,7 +972,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -983,7 +983,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -994,7 +994,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1005,7 +1005,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1016,7 +1016,7 @@ async function deserializeAws_restJson1_1UpdateProfilingGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1037,7 +1037,7 @@ export async function deserializeAws_restJson1_1GetProfileCommand(
     __type: "GetProfileResponse",
     contentEncoding: undefined,
     contentType: undefined,
-    profile: undefined
+    profile: undefined,
   };
   if (output.headers["content-encoding"] !== undefined) {
     contents.contentEncoding = output.headers["content-encoding"];
@@ -1056,7 +1056,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
 ): Promise<GetProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1070,7 +1070,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1081,7 +1081,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1092,7 +1092,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1103,7 +1103,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1114,7 +1114,7 @@ async function deserializeAws_restJson1_1GetProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1137,7 +1137,7 @@ export async function deserializeAws_restJson1_1ListProfileTimesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListProfileTimesResponse",
     nextToken: undefined,
-    profileTimes: undefined
+    profileTimes: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -1158,7 +1158,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
 ): Promise<ListProfileTimesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1172,7 +1172,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1183,7 +1183,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1194,7 +1194,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1205,7 +1205,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1216,7 +1216,7 @@ async function deserializeAws_restJson1_1ListProfileTimesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1237,7 +1237,7 @@ export async function deserializeAws_restJson1_1PostAgentProfileCommand(
   }
   const contents: PostAgentProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "PostAgentProfileResponse"
+    __type: "PostAgentProfileResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1249,7 +1249,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
 ): Promise<PostAgentProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1263,7 +1263,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1274,7 +1274,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1285,7 +1285,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1296,7 +1296,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1307,7 +1307,7 @@ async function deserializeAws_restJson1_1PostAgentProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1324,7 +1324,7 @@ const deserializeAws_restJson1_1ConflictExceptionResponse = async (
     name: "ConflictException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1341,7 +1341,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1358,7 +1358,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1375,7 +1375,7 @@ const deserializeAws_restJson1_1ServiceQuotaExceededExceptionResponse = async (
     name: "ServiceQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1392,7 +1392,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1409,7 +1409,7 @@ const deserializeAws_restJson1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1436,7 +1436,7 @@ const deserializeAws_restJson1_1AggregatedProfileTime = (
   let contents: any = {
     __type: "AggregatedProfileTime",
     period: undefined,
-    start: undefined
+    start: undefined,
   };
   if (output.period !== undefined && output.period !== null) {
     contents.period = output.period;
@@ -1454,7 +1454,7 @@ const deserializeAws_restJson1_1AgentConfiguration = (
   let contents: any = {
     __type: "AgentConfiguration",
     periodInSeconds: undefined,
-    shouldProfile: undefined
+    shouldProfile: undefined,
   };
   if (output.periodInSeconds !== undefined && output.periodInSeconds !== null) {
     contents.periodInSeconds = output.periodInSeconds;
@@ -1471,7 +1471,7 @@ const deserializeAws_restJson1_1AgentOrchestrationConfig = (
 ): AgentOrchestrationConfig => {
   let contents: any = {
     __type: "AgentOrchestrationConfig",
-    profilingEnabled: undefined
+    profilingEnabled: undefined,
   };
   if (
     output.profilingEnabled !== undefined &&
@@ -1493,7 +1493,7 @@ const deserializeAws_restJson1_1ProfilingGroupDescription = (
     createdAt: undefined,
     name: undefined,
     profilingStatus: undefined,
-    updatedAt: undefined
+    updatedAt: undefined,
   };
   if (
     output.agentOrchestrationConfig !== undefined &&
@@ -1549,7 +1549,7 @@ const deserializeAws_restJson1_1ProfilingStatus = (
     __type: "ProfilingStatus",
     latestAgentOrchestratedAt: undefined,
     latestAgentProfileReportedAt: undefined,
-    latestAggregatedProfile: undefined
+    latestAggregatedProfile: undefined,
   };
   if (
     output.latestAgentOrchestratedAt !== undefined &&
@@ -1585,7 +1585,7 @@ const deserializeAws_restJson1_1ProfileTime = (
 ): ProfileTime => {
   let contents: any = {
     __type: "ProfileTime",
-    start: undefined
+    start: undefined,
   };
   if (output.start !== undefined && output.start !== null) {
     contents.start = new Date(output.start);
@@ -1605,7 +1605,7 @@ const deserializeAws_restJson1_1ProfileTimes = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1626,13 +1626,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1645,7 +1645,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

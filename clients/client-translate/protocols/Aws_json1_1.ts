@@ -1,38 +1,38 @@
 import {
   DeleteTerminologyCommandInput,
-  DeleteTerminologyCommandOutput
+  DeleteTerminologyCommandOutput,
 } from "../commands/DeleteTerminologyCommand";
 import {
   DescribeTextTranslationJobCommandInput,
-  DescribeTextTranslationJobCommandOutput
+  DescribeTextTranslationJobCommandOutput,
 } from "../commands/DescribeTextTranslationJobCommand";
 import {
   GetTerminologyCommandInput,
-  GetTerminologyCommandOutput
+  GetTerminologyCommandOutput,
 } from "../commands/GetTerminologyCommand";
 import {
   ImportTerminologyCommandInput,
-  ImportTerminologyCommandOutput
+  ImportTerminologyCommandOutput,
 } from "../commands/ImportTerminologyCommand";
 import {
   ListTerminologiesCommandInput,
-  ListTerminologiesCommandOutput
+  ListTerminologiesCommandOutput,
 } from "../commands/ListTerminologiesCommand";
 import {
   ListTextTranslationJobsCommandInput,
-  ListTextTranslationJobsCommandOutput
+  ListTextTranslationJobsCommandOutput,
 } from "../commands/ListTextTranslationJobsCommand";
 import {
   StartTextTranslationJobCommandInput,
-  StartTextTranslationJobCommandOutput
+  StartTextTranslationJobCommandOutput,
 } from "../commands/StartTextTranslationJobCommand";
 import {
   StopTextTranslationJobCommandInput,
-  StopTextTranslationJobCommandOutput
+  StopTextTranslationJobCommandOutput,
 } from "../commands/StopTextTranslationJobCommand";
 import {
   TranslateTextCommandInput,
-  TranslateTextCommandOutput
+  TranslateTextCommandOutput,
 } from "../commands/TranslateTextCommand";
 import {
   AppliedTerminology,
@@ -73,11 +73,11 @@ import {
   TooManyRequestsException,
   TranslateTextRequest,
   TranslateTextResponse,
-  UnsupportedLanguagePairException
+  UnsupportedLanguagePairException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -85,7 +85,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -231,7 +231,7 @@ export async function deserializeAws_json1_1DeleteTerminologyCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteTerminologyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -242,7 +242,7 @@ async function deserializeAws_json1_1DeleteTerminologyCommandError(
 ): Promise<DeleteTerminologyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -258,7 +258,7 @@ async function deserializeAws_json1_1DeleteTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -269,7 +269,7 @@ async function deserializeAws_json1_1DeleteTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -280,7 +280,7 @@ async function deserializeAws_json1_1DeleteTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -291,7 +291,7 @@ async function deserializeAws_json1_1DeleteTerminologyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -319,7 +319,7 @@ export async function deserializeAws_json1_1DescribeTextTranslationJobCommand(
   const response: DescribeTextTranslationJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTextTranslationJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -330,7 +330,7 @@ async function deserializeAws_json1_1DescribeTextTranslationJobCommandError(
 ): Promise<DescribeTextTranslationJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -346,7 +346,7 @@ async function deserializeAws_json1_1DescribeTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -357,7 +357,7 @@ async function deserializeAws_json1_1DescribeTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -368,7 +368,7 @@ async function deserializeAws_json1_1DescribeTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -379,7 +379,7 @@ async function deserializeAws_json1_1DescribeTextTranslationJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -401,7 +401,7 @@ export async function deserializeAws_json1_1GetTerminologyCommand(
   const response: GetTerminologyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTerminologyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -412,7 +412,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
 ): Promise<GetTerminologyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -428,7 +428,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -439,7 +439,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -450,7 +450,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -461,7 +461,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -472,7 +472,7 @@ async function deserializeAws_json1_1GetTerminologyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -494,7 +494,7 @@ export async function deserializeAws_json1_1ImportTerminologyCommand(
   const response: ImportTerminologyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ImportTerminologyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -505,7 +505,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
 ): Promise<ImportTerminologyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -521,7 +521,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -532,7 +532,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -543,7 +543,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -554,7 +554,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -565,7 +565,7 @@ async function deserializeAws_json1_1ImportTerminologyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -587,7 +587,7 @@ export async function deserializeAws_json1_1ListTerminologiesCommand(
   const response: ListTerminologiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTerminologiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -598,7 +598,7 @@ async function deserializeAws_json1_1ListTerminologiesCommandError(
 ): Promise<ListTerminologiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -614,7 +614,7 @@ async function deserializeAws_json1_1ListTerminologiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -625,7 +625,7 @@ async function deserializeAws_json1_1ListTerminologiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -636,7 +636,7 @@ async function deserializeAws_json1_1ListTerminologiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -647,7 +647,7 @@ async function deserializeAws_json1_1ListTerminologiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -675,7 +675,7 @@ export async function deserializeAws_json1_1ListTextTranslationJobsCommand(
   const response: ListTextTranslationJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTextTranslationJobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -686,7 +686,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
 ): Promise<ListTextTranslationJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -702,7 +702,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidFilterException":
@@ -713,7 +713,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -724,7 +724,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -735,7 +735,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -746,7 +746,7 @@ async function deserializeAws_json1_1ListTextTranslationJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -774,7 +774,7 @@ export async function deserializeAws_json1_1StartTextTranslationJobCommand(
   const response: StartTextTranslationJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartTextTranslationJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -785,7 +785,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
 ): Promise<StartTextTranslationJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -801,7 +801,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -812,7 +812,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -823,7 +823,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -834,7 +834,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedLanguagePairException":
@@ -845,7 +845,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -856,7 +856,7 @@ async function deserializeAws_json1_1StartTextTranslationJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -884,7 +884,7 @@ export async function deserializeAws_json1_1StopTextTranslationJobCommand(
   const response: StopTextTranslationJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopTextTranslationJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -895,7 +895,7 @@ async function deserializeAws_json1_1StopTextTranslationJobCommandError(
 ): Promise<StopTextTranslationJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -911,7 +911,7 @@ async function deserializeAws_json1_1StopTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -922,7 +922,7 @@ async function deserializeAws_json1_1StopTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -933,7 +933,7 @@ async function deserializeAws_json1_1StopTextTranslationJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -944,7 +944,7 @@ async function deserializeAws_json1_1StopTextTranslationJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -966,7 +966,7 @@ export async function deserializeAws_json1_1TranslateTextCommand(
   const response: TranslateTextCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TranslateTextResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -977,7 +977,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
 ): Promise<TranslateTextCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -993,7 +993,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -1004,7 +1004,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1015,7 +1015,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1026,7 +1026,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1037,7 +1037,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -1048,7 +1048,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1059,7 +1059,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedLanguagePairException":
@@ -1070,7 +1070,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1081,7 +1081,7 @@ async function deserializeAws_json1_1TranslateTextCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1103,7 +1103,7 @@ const deserializeAws_json1_1DetectedLanguageLowConfidenceExceptionResponse = asy
     name: "DetectedLanguageLowConfidenceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1121,7 +1121,7 @@ const deserializeAws_json1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1139,7 +1139,7 @@ const deserializeAws_json1_1InvalidFilterExceptionResponse = async (
     name: "InvalidFilterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1157,7 +1157,7 @@ const deserializeAws_json1_1InvalidParameterValueExceptionResponse = async (
     name: "InvalidParameterValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1175,7 +1175,7 @@ const deserializeAws_json1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1193,7 +1193,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1211,7 +1211,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1229,7 +1229,7 @@ const deserializeAws_json1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1247,7 +1247,7 @@ const deserializeAws_json1_1TextSizeLimitExceededExceptionResponse = async (
     name: "TextSizeLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1265,7 +1265,7 @@ const deserializeAws_json1_1TooManyRequestsExceptionResponse = async (
     name: "TooManyRequestsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1283,7 +1283,7 @@ const deserializeAws_json1_1UnsupportedLanguagePairExceptionResponse = async (
     name: "UnsupportedLanguagePairException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1576,7 +1576,7 @@ const deserializeAws_json1_1AppliedTerminology = (
   let contents: any = {
     __type: "AppliedTerminology",
     Name: undefined,
-    Terms: undefined
+    Terms: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -1602,7 +1602,7 @@ const deserializeAws_json1_1DescribeTextTranslationJobResponse = (
 ): DescribeTextTranslationJobResponse => {
   let contents: any = {
     __type: "DescribeTextTranslationJobResponse",
-    TextTranslationJobProperties: undefined
+    TextTranslationJobProperties: undefined,
   };
   if (
     output.TextTranslationJobProperties !== undefined &&
@@ -1623,7 +1623,7 @@ const deserializeAws_json1_1DetectedLanguageLowConfidenceException = (
   let contents: any = {
     __type: "DetectedLanguageLowConfidenceException",
     DetectedLanguageCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (
     output.DetectedLanguageCode !== undefined &&
@@ -1644,7 +1644,7 @@ const deserializeAws_json1_1EncryptionKey = (
   let contents: any = {
     __type: "EncryptionKey",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -1662,7 +1662,7 @@ const deserializeAws_json1_1GetTerminologyResponse = (
   let contents: any = {
     __type: "GetTerminologyResponse",
     TerminologyDataLocation: undefined,
-    TerminologyProperties: undefined
+    TerminologyProperties: undefined,
   };
   if (
     output.TerminologyDataLocation !== undefined &&
@@ -1691,7 +1691,7 @@ const deserializeAws_json1_1ImportTerminologyResponse = (
 ): ImportTerminologyResponse => {
   let contents: any = {
     __type: "ImportTerminologyResponse",
-    TerminologyProperties: undefined
+    TerminologyProperties: undefined,
   };
   if (
     output.TerminologyProperties !== undefined &&
@@ -1712,7 +1712,7 @@ const deserializeAws_json1_1InputDataConfig = (
   let contents: any = {
     __type: "InputDataConfig",
     ContentType: undefined,
-    S3Uri: undefined
+    S3Uri: undefined,
   };
   if (output.ContentType !== undefined && output.ContentType !== null) {
     contents.ContentType = output.ContentType;
@@ -1729,7 +1729,7 @@ const deserializeAws_json1_1InternalServerException = (
 ): InternalServerException => {
   let contents: any = {
     __type: "InternalServerException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1743,7 +1743,7 @@ const deserializeAws_json1_1InvalidFilterException = (
 ): InvalidFilterException => {
   let contents: any = {
     __type: "InvalidFilterException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1757,7 +1757,7 @@ const deserializeAws_json1_1InvalidParameterValueException = (
 ): InvalidParameterValueException => {
   let contents: any = {
     __type: "InvalidParameterValueException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1771,7 +1771,7 @@ const deserializeAws_json1_1InvalidRequestException = (
 ): InvalidRequestException => {
   let contents: any = {
     __type: "InvalidRequestException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1787,7 +1787,7 @@ const deserializeAws_json1_1JobDetails = (
     __type: "JobDetails",
     DocumentsWithErrorsCount: undefined,
     InputDocumentsCount: undefined,
-    TranslatedDocumentsCount: undefined
+    TranslatedDocumentsCount: undefined,
   };
   if (
     output.DocumentsWithErrorsCount !== undefined &&
@@ -1823,7 +1823,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1838,7 +1838,7 @@ const deserializeAws_json1_1ListTerminologiesResponse = (
   let contents: any = {
     __type: "ListTerminologiesResponse",
     NextToken: undefined,
-    TerminologyPropertiesList: undefined
+    TerminologyPropertiesList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -1862,7 +1862,7 @@ const deserializeAws_json1_1ListTextTranslationJobsResponse = (
   let contents: any = {
     __type: "ListTextTranslationJobsResponse",
     NextToken: undefined,
-    TextTranslationJobPropertiesList: undefined
+    TextTranslationJobPropertiesList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -1885,7 +1885,7 @@ const deserializeAws_json1_1OutputDataConfig = (
 ): OutputDataConfig => {
   let contents: any = {
     __type: "OutputDataConfig",
-    S3Uri: undefined
+    S3Uri: undefined,
   };
   if (output.S3Uri !== undefined && output.S3Uri !== null) {
     contents.S3Uri = output.S3Uri;
@@ -1906,7 +1906,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1920,7 +1920,7 @@ const deserializeAws_json1_1ServiceUnavailableException = (
 ): ServiceUnavailableException => {
   let contents: any = {
     __type: "ServiceUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -1935,7 +1935,7 @@ const deserializeAws_json1_1StartTextTranslationJobResponse = (
   let contents: any = {
     __type: "StartTextTranslationJobResponse",
     JobId: undefined,
-    JobStatus: undefined
+    JobStatus: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -1953,7 +1953,7 @@ const deserializeAws_json1_1StopTextTranslationJobResponse = (
   let contents: any = {
     __type: "StopTextTranslationJobResponse",
     JobId: undefined,
-    JobStatus: undefined
+    JobStatus: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -1978,7 +1978,7 @@ const deserializeAws_json1_1Term = (
   let contents: any = {
     __type: "Term",
     SourceText: undefined,
-    TargetText: undefined
+    TargetText: undefined,
   };
   if (output.SourceText !== undefined && output.SourceText !== null) {
     contents.SourceText = output.SourceText;
@@ -2005,7 +2005,7 @@ const deserializeAws_json1_1TerminologyDataLocation = (
   let contents: any = {
     __type: "TerminologyDataLocation",
     Location: undefined,
-    RepositoryType: undefined
+    RepositoryType: undefined,
   };
   if (output.Location !== undefined && output.Location !== null) {
     contents.Location = output.Location;
@@ -2031,7 +2031,7 @@ const deserializeAws_json1_1TerminologyProperties = (
     SizeBytes: undefined,
     SourceLanguageCode: undefined,
     TargetLanguageCodes: undefined,
-    TermCount: undefined
+    TermCount: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -2093,7 +2093,7 @@ const deserializeAws_json1_1TextSizeLimitExceededException = (
 ): TextSizeLimitExceededException => {
   let contents: any = {
     __type: "TextSizeLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2119,7 +2119,7 @@ const deserializeAws_json1_1TextTranslationJobProperties = (
     SourceLanguageCode: undefined,
     SubmittedTime: undefined,
     TargetLanguageCodes: undefined,
-    TerminologyNames: undefined
+    TerminologyNames: undefined,
   };
   if (
     output.DataAccessRoleArn !== undefined &&
@@ -2208,7 +2208,7 @@ const deserializeAws_json1_1TooManyRequestsException = (
 ): TooManyRequestsException => {
   let contents: any = {
     __type: "TooManyRequestsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2225,7 +2225,7 @@ const deserializeAws_json1_1TranslateTextResponse = (
     AppliedTerminologies: undefined,
     SourceLanguageCode: undefined,
     TargetLanguageCode: undefined,
-    TranslatedText: undefined
+    TranslatedText: undefined,
   };
   if (
     output.AppliedTerminologies !== undefined &&
@@ -2262,7 +2262,7 @@ const deserializeAws_json1_1UnsupportedLanguagePairException = (
     __type: "UnsupportedLanguagePairException",
     Message: undefined,
     SourceLanguageCode: undefined,
-    TargetLanguageCode: undefined
+    TargetLanguageCode: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2285,7 +2285,7 @@ const deserializeAws_json1_1UnsupportedLanguagePairException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2306,7 +2306,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2319,11 +2319,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2335,7 +2335,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

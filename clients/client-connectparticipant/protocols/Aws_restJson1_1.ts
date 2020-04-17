@@ -1,22 +1,22 @@
 import {
   CreateParticipantConnectionCommandInput,
-  CreateParticipantConnectionCommandOutput
+  CreateParticipantConnectionCommandOutput,
 } from "../commands/CreateParticipantConnectionCommand";
 import {
   DisconnectParticipantCommandInput,
-  DisconnectParticipantCommandOutput
+  DisconnectParticipantCommandOutput,
 } from "../commands/DisconnectParticipantCommand";
 import {
   GetTranscriptCommandInput,
-  GetTranscriptCommandOutput
+  GetTranscriptCommandOutput,
 } from "../commands/GetTranscriptCommand";
 import {
   SendEventCommandInput,
-  SendEventCommandOutput
+  SendEventCommandOutput,
 } from "../commands/SendEventCommand";
 import {
   SendMessageCommandInput,
-  SendMessageCommandOutput
+  SendMessageCommandOutput,
 } from "../commands/SendMessageCommand";
 import {
   AccessDeniedException,
@@ -27,18 +27,18 @@ import {
   StartPosition,
   ThrottlingException,
   ValidationException,
-  Websocket
+  Websocket,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -62,12 +62,12 @@ export async function serializeAws_restJson1_1CreateParticipantConnectionCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -91,12 +91,12 @@ export async function serializeAws_restJson1_1DisconnectParticipantCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -135,12 +135,12 @@ export async function serializeAws_restJson1_1GetTranscriptCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -170,12 +170,12 @@ export async function serializeAws_restJson1_1SendEventCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -205,12 +205,12 @@ export async function serializeAws_restJson1_1SendMessageCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -228,7 +228,7 @@ export async function deserializeAws_restJson1_1CreateParticipantConnectionComma
     $metadata: deserializeMetadata(output),
     __type: "CreateParticipantConnectionResponse",
     ConnectionCredentials: undefined,
-    Websocket: undefined
+    Websocket: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -255,7 +255,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
 ): Promise<CreateParticipantConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -269,7 +269,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -280,7 +280,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -291,7 +291,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -302,7 +302,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -313,7 +313,7 @@ async function deserializeAws_restJson1_1CreateParticipantConnectionCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -334,7 +334,7 @@ export async function deserializeAws_restJson1_1DisconnectParticipantCommand(
   }
   const contents: DisconnectParticipantCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DisconnectParticipantResponse"
+    __type: "DisconnectParticipantResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -346,7 +346,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
 ): Promise<DisconnectParticipantCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -360,7 +360,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -371,7 +371,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -382,7 +382,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -393,7 +393,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -404,7 +404,7 @@ async function deserializeAws_restJson1_1DisconnectParticipantCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -425,7 +425,7 @@ export async function deserializeAws_restJson1_1GetTranscriptCommand(
     __type: "GetTranscriptResponse",
     InitialContactId: undefined,
     NextToken: undefined,
-    Transcript: undefined
+    Transcript: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.InitialContactId !== undefined && data.InitialContactId !== null) {
@@ -449,7 +449,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
 ): Promise<GetTranscriptCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -463,7 +463,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -474,7 +474,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -485,7 +485,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -496,7 +496,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -507,7 +507,7 @@ async function deserializeAws_restJson1_1GetTranscriptCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -527,7 +527,7 @@ export async function deserializeAws_restJson1_1SendEventCommand(
     $metadata: deserializeMetadata(output),
     __type: "SendEventResponse",
     AbsoluteTime: undefined,
-    Id: undefined
+    Id: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AbsoluteTime !== undefined && data.AbsoluteTime !== null) {
@@ -545,7 +545,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
 ): Promise<SendEventCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -559,7 +559,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -570,7 +570,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -581,7 +581,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -592,7 +592,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -603,7 +603,7 @@ async function deserializeAws_restJson1_1SendEventCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -623,7 +623,7 @@ export async function deserializeAws_restJson1_1SendMessageCommand(
     $metadata: deserializeMetadata(output),
     __type: "SendMessageResponse",
     AbsoluteTime: undefined,
-    Id: undefined
+    Id: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AbsoluteTime !== undefined && data.AbsoluteTime !== null) {
@@ -641,7 +641,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
 ): Promise<SendMessageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -655,7 +655,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -666,7 +666,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -677,7 +677,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -688,7 +688,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -699,7 +699,7 @@ async function deserializeAws_restJson1_1SendMessageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -716,7 +716,7 @@ const deserializeAws_restJson1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -733,7 +733,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -750,7 +750,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -767,7 +767,7 @@ const deserializeAws_restJson1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -817,7 +817,7 @@ const deserializeAws_restJson1_1Item = (
     Id: undefined,
     ParticipantId: undefined,
     ParticipantRole: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.AbsoluteTime !== undefined && output.AbsoluteTime !== null) {
     contents.AbsoluteTime = output.AbsoluteTime;
@@ -862,7 +862,7 @@ const deserializeAws_restJson1_1ConnectionCredentials = (
   let contents: any = {
     __type: "ConnectionCredentials",
     ConnectionToken: undefined,
-    Expiry: undefined
+    Expiry: undefined,
   };
   if (output.ConnectionToken !== undefined && output.ConnectionToken !== null) {
     contents.ConnectionToken = output.ConnectionToken;
@@ -880,7 +880,7 @@ const deserializeAws_restJson1_1Websocket = (
   let contents: any = {
     __type: "Websocket",
     ConnectionExpiry: undefined,
-    Url: undefined
+    Url: undefined,
   };
   if (
     output.ConnectionExpiry !== undefined &&
@@ -897,7 +897,7 @@ const deserializeAws_restJson1_1Websocket = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -918,13 +918,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -937,7 +937,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

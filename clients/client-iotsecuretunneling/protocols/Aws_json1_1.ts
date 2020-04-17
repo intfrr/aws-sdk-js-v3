@@ -1,30 +1,30 @@
 import {
   CloseTunnelCommandInput,
-  CloseTunnelCommandOutput
+  CloseTunnelCommandOutput,
 } from "../commands/CloseTunnelCommand";
 import {
   DescribeTunnelCommandInput,
-  DescribeTunnelCommandOutput
+  DescribeTunnelCommandOutput,
 } from "../commands/DescribeTunnelCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListTunnelsCommandInput,
-  ListTunnelsCommandOutput
+  ListTunnelsCommandOutput,
 } from "../commands/ListTunnelsCommand";
 import {
   OpenTunnelCommandInput,
-  OpenTunnelCommandOutput
+  OpenTunnelCommandOutput,
 } from "../commands/OpenTunnelCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   CloseTunnelRequest,
@@ -48,11 +48,11 @@ import {
   Tunnel,
   TunnelSummary,
   UntagResourceRequest,
-  UntagResourceResponse
+  UntagResourceResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -60,7 +60,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CloseTunnelCommand(
@@ -166,7 +166,7 @@ export async function deserializeAws_json1_1CloseTunnelCommand(
   const response: CloseTunnelCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CloseTunnelResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -177,7 +177,7 @@ async function deserializeAws_json1_1CloseTunnelCommandError(
 ): Promise<CloseTunnelCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -193,7 +193,7 @@ async function deserializeAws_json1_1CloseTunnelCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -204,7 +204,7 @@ async function deserializeAws_json1_1CloseTunnelCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -226,7 +226,7 @@ export async function deserializeAws_json1_1DescribeTunnelCommand(
   const response: DescribeTunnelCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTunnelResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -237,7 +237,7 @@ async function deserializeAws_json1_1DescribeTunnelCommandError(
 ): Promise<DescribeTunnelCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -253,7 +253,7 @@ async function deserializeAws_json1_1DescribeTunnelCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -264,7 +264,7 @@ async function deserializeAws_json1_1DescribeTunnelCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -289,7 +289,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -300,7 +300,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -316,7 +316,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -327,7 +327,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -349,7 +349,7 @@ export async function deserializeAws_json1_1ListTunnelsCommand(
   const response: ListTunnelsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTunnelsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -360,7 +360,7 @@ async function deserializeAws_json1_1ListTunnelsCommandError(
 ): Promise<ListTunnelsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -376,7 +376,7 @@ async function deserializeAws_json1_1ListTunnelsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -398,7 +398,7 @@ export async function deserializeAws_json1_1OpenTunnelCommand(
   const response: OpenTunnelCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "OpenTunnelResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -409,7 +409,7 @@ async function deserializeAws_json1_1OpenTunnelCommandError(
 ): Promise<OpenTunnelCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -425,7 +425,7 @@ async function deserializeAws_json1_1OpenTunnelCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -436,7 +436,7 @@ async function deserializeAws_json1_1OpenTunnelCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -458,7 +458,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -469,7 +469,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -485,7 +485,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -496,7 +496,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -518,7 +518,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -529,7 +529,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -545,7 +545,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -556,7 +556,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -578,7 +578,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -596,7 +596,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -788,7 +788,7 @@ const deserializeAws_json1_1CloseTunnelResponse = (
   context: __SerdeContext
 ): CloseTunnelResponse => {
   let contents: any = {
-    __type: "CloseTunnelResponse"
+    __type: "CloseTunnelResponse",
   };
   return contents;
 };
@@ -800,7 +800,7 @@ const deserializeAws_json1_1ConnectionState = (
   let contents: any = {
     __type: "ConnectionState",
     lastUpdatedAt: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.lastUpdatedAt !== undefined && output.lastUpdatedAt !== null) {
     contents.lastUpdatedAt = new Date(Math.round(output.lastUpdatedAt * 1000));
@@ -817,7 +817,7 @@ const deserializeAws_json1_1DescribeTunnelResponse = (
 ): DescribeTunnelResponse => {
   let contents: any = {
     __type: "DescribeTunnelResponse",
-    tunnel: undefined
+    tunnel: undefined,
   };
   if (output.tunnel !== undefined && output.tunnel !== null) {
     contents.tunnel = deserializeAws_json1_1Tunnel(output.tunnel, context);
@@ -832,7 +832,7 @@ const deserializeAws_json1_1DestinationConfig = (
   let contents: any = {
     __type: "DestinationConfig",
     services: undefined,
-    thingName: undefined
+    thingName: undefined,
   };
   if (output.services !== undefined && output.services !== null) {
     contents.services = deserializeAws_json1_1ServiceList(
@@ -852,7 +852,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -866,7 +866,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   if (output.tags !== undefined && output.tags !== null) {
     contents.tags = deserializeAws_json1_1TagList(output.tags, context);
@@ -881,7 +881,7 @@ const deserializeAws_json1_1ListTunnelsResponse = (
   let contents: any = {
     __type: "ListTunnelsResponse",
     nextToken: undefined,
-    tunnelSummaries: undefined
+    tunnelSummaries: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -904,7 +904,7 @@ const deserializeAws_json1_1OpenTunnelResponse = (
     destinationAccessToken: undefined,
     sourceAccessToken: undefined,
     tunnelArn: undefined,
-    tunnelId: undefined
+    tunnelId: undefined,
   };
   if (
     output.destinationAccessToken !== undefined &&
@@ -933,7 +933,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -955,7 +955,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -980,7 +980,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -991,7 +991,7 @@ const deserializeAws_json1_1TimeoutConfig = (
 ): TimeoutConfig => {
   let contents: any = {
     __type: "TimeoutConfig",
-    maxLifetimeTimeoutMinutes: undefined
+    maxLifetimeTimeoutMinutes: undefined,
   };
   if (
     output.maxLifetimeTimeoutMinutes !== undefined &&
@@ -1018,7 +1018,7 @@ const deserializeAws_json1_1Tunnel = (
     tags: undefined,
     timeoutConfig: undefined,
     tunnelArn: undefined,
-    tunnelId: undefined
+    tunnelId: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -1088,7 +1088,7 @@ const deserializeAws_json1_1TunnelSummary = (
     lastUpdatedAt: undefined,
     status: undefined,
     tunnelArn: undefined,
-    tunnelId: undefined
+    tunnelId: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -1125,7 +1125,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -1133,7 +1133,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1154,7 +1154,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -1167,11 +1167,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -1183,7 +1183,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

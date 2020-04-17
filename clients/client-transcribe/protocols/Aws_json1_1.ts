@@ -1,58 +1,58 @@
 import {
   CreateVocabularyCommandInput,
-  CreateVocabularyCommandOutput
+  CreateVocabularyCommandOutput,
 } from "../commands/CreateVocabularyCommand";
 import {
   CreateVocabularyFilterCommandInput,
-  CreateVocabularyFilterCommandOutput
+  CreateVocabularyFilterCommandOutput,
 } from "../commands/CreateVocabularyFilterCommand";
 import {
   DeleteTranscriptionJobCommandInput,
-  DeleteTranscriptionJobCommandOutput
+  DeleteTranscriptionJobCommandOutput,
 } from "../commands/DeleteTranscriptionJobCommand";
 import {
   DeleteVocabularyCommandInput,
-  DeleteVocabularyCommandOutput
+  DeleteVocabularyCommandOutput,
 } from "../commands/DeleteVocabularyCommand";
 import {
   DeleteVocabularyFilterCommandInput,
-  DeleteVocabularyFilterCommandOutput
+  DeleteVocabularyFilterCommandOutput,
 } from "../commands/DeleteVocabularyFilterCommand";
 import {
   GetTranscriptionJobCommandInput,
-  GetTranscriptionJobCommandOutput
+  GetTranscriptionJobCommandOutput,
 } from "../commands/GetTranscriptionJobCommand";
 import {
   GetVocabularyCommandInput,
-  GetVocabularyCommandOutput
+  GetVocabularyCommandOutput,
 } from "../commands/GetVocabularyCommand";
 import {
   GetVocabularyFilterCommandInput,
-  GetVocabularyFilterCommandOutput
+  GetVocabularyFilterCommandOutput,
 } from "../commands/GetVocabularyFilterCommand";
 import {
   ListTranscriptionJobsCommandInput,
-  ListTranscriptionJobsCommandOutput
+  ListTranscriptionJobsCommandOutput,
 } from "../commands/ListTranscriptionJobsCommand";
 import {
   ListVocabulariesCommandInput,
-  ListVocabulariesCommandOutput
+  ListVocabulariesCommandOutput,
 } from "../commands/ListVocabulariesCommand";
 import {
   ListVocabularyFiltersCommandInput,
-  ListVocabularyFiltersCommandOutput
+  ListVocabularyFiltersCommandOutput,
 } from "../commands/ListVocabularyFiltersCommand";
 import {
   StartTranscriptionJobCommandInput,
-  StartTranscriptionJobCommandOutput
+  StartTranscriptionJobCommandOutput,
 } from "../commands/StartTranscriptionJobCommand";
 import {
   UpdateVocabularyCommandInput,
-  UpdateVocabularyCommandOutput
+  UpdateVocabularyCommandOutput,
 } from "../commands/UpdateVocabularyCommand";
 import {
   UpdateVocabularyFilterCommandInput,
-  UpdateVocabularyFilterCommandOutput
+  UpdateVocabularyFilterCommandOutput,
 } from "../commands/UpdateVocabularyFilterCommand";
 import {
   BadRequestException,
@@ -92,11 +92,11 @@ import {
   UpdateVocabularyRequest,
   UpdateVocabularyResponse,
   VocabularyFilterInfo,
-  VocabularyInfo
+  VocabularyInfo,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -104,7 +104,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateVocabularyCommand(
@@ -316,7 +316,7 @@ export async function deserializeAws_json1_1CreateVocabularyCommand(
   const response: CreateVocabularyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateVocabularyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -327,7 +327,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
 ): Promise<CreateVocabularyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -343,7 +343,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConflictException":
@@ -354,7 +354,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -365,7 +365,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -376,7 +376,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -387,7 +387,7 @@ async function deserializeAws_json1_1CreateVocabularyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -415,7 +415,7 @@ export async function deserializeAws_json1_1CreateVocabularyFilterCommand(
   const response: CreateVocabularyFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateVocabularyFilterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -426,7 +426,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
 ): Promise<CreateVocabularyFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -442,7 +442,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConflictException":
@@ -453,7 +453,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -464,7 +464,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -475,7 +475,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -486,7 +486,7 @@ async function deserializeAws_json1_1CreateVocabularyFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -507,7 +507,7 @@ export async function deserializeAws_json1_1DeleteTranscriptionJobCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteTranscriptionJobCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -518,7 +518,7 @@ async function deserializeAws_json1_1DeleteTranscriptionJobCommandError(
 ): Promise<DeleteTranscriptionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -534,7 +534,7 @@ async function deserializeAws_json1_1DeleteTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -545,7 +545,7 @@ async function deserializeAws_json1_1DeleteTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -556,7 +556,7 @@ async function deserializeAws_json1_1DeleteTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -567,7 +567,7 @@ async function deserializeAws_json1_1DeleteTranscriptionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -585,7 +585,7 @@ export async function deserializeAws_json1_1DeleteVocabularyCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteVocabularyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -596,7 +596,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
 ): Promise<DeleteVocabularyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -612,7 +612,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -623,7 +623,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -634,7 +634,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -645,7 +645,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -656,7 +656,7 @@ async function deserializeAws_json1_1DeleteVocabularyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -677,7 +677,7 @@ export async function deserializeAws_json1_1DeleteVocabularyFilterCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteVocabularyFilterCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -688,7 +688,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
 ): Promise<DeleteVocabularyFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -704,7 +704,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -715,7 +715,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -726,7 +726,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -737,7 +737,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -748,7 +748,7 @@ async function deserializeAws_json1_1DeleteVocabularyFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -773,7 +773,7 @@ export async function deserializeAws_json1_1GetTranscriptionJobCommand(
   const response: GetTranscriptionJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTranscriptionJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -784,7 +784,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
 ): Promise<GetTranscriptionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -800,7 +800,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -811,7 +811,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -822,7 +822,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -833,7 +833,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -844,7 +844,7 @@ async function deserializeAws_json1_1GetTranscriptionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -866,7 +866,7 @@ export async function deserializeAws_json1_1GetVocabularyCommand(
   const response: GetVocabularyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetVocabularyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -877,7 +877,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
 ): Promise<GetVocabularyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -893,7 +893,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -904,7 +904,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -915,7 +915,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -926,7 +926,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -937,7 +937,7 @@ async function deserializeAws_json1_1GetVocabularyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -962,7 +962,7 @@ export async function deserializeAws_json1_1GetVocabularyFilterCommand(
   const response: GetVocabularyFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetVocabularyFilterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -973,7 +973,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
 ): Promise<GetVocabularyFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -989,7 +989,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1000,7 +1000,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1011,7 +1011,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1022,7 +1022,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1033,7 +1033,7 @@ async function deserializeAws_json1_1GetVocabularyFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1058,7 +1058,7 @@ export async function deserializeAws_json1_1ListTranscriptionJobsCommand(
   const response: ListTranscriptionJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTranscriptionJobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1069,7 +1069,7 @@ async function deserializeAws_json1_1ListTranscriptionJobsCommandError(
 ): Promise<ListTranscriptionJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1085,7 +1085,7 @@ async function deserializeAws_json1_1ListTranscriptionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1096,7 +1096,7 @@ async function deserializeAws_json1_1ListTranscriptionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1107,7 +1107,7 @@ async function deserializeAws_json1_1ListTranscriptionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1118,7 +1118,7 @@ async function deserializeAws_json1_1ListTranscriptionJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1140,7 +1140,7 @@ export async function deserializeAws_json1_1ListVocabulariesCommand(
   const response: ListVocabulariesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVocabulariesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1151,7 +1151,7 @@ async function deserializeAws_json1_1ListVocabulariesCommandError(
 ): Promise<ListVocabulariesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1167,7 +1167,7 @@ async function deserializeAws_json1_1ListVocabulariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1178,7 +1178,7 @@ async function deserializeAws_json1_1ListVocabulariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1189,7 +1189,7 @@ async function deserializeAws_json1_1ListVocabulariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1200,7 +1200,7 @@ async function deserializeAws_json1_1ListVocabulariesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1225,7 +1225,7 @@ export async function deserializeAws_json1_1ListVocabularyFiltersCommand(
   const response: ListVocabularyFiltersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVocabularyFiltersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1236,7 +1236,7 @@ async function deserializeAws_json1_1ListVocabularyFiltersCommandError(
 ): Promise<ListVocabularyFiltersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1252,7 +1252,7 @@ async function deserializeAws_json1_1ListVocabularyFiltersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1263,7 +1263,7 @@ async function deserializeAws_json1_1ListVocabularyFiltersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1274,7 +1274,7 @@ async function deserializeAws_json1_1ListVocabularyFiltersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1285,7 +1285,7 @@ async function deserializeAws_json1_1ListVocabularyFiltersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1310,7 +1310,7 @@ export async function deserializeAws_json1_1StartTranscriptionJobCommand(
   const response: StartTranscriptionJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartTranscriptionJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1321,7 +1321,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
 ): Promise<StartTranscriptionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1337,7 +1337,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConflictException":
@@ -1348,7 +1348,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1359,7 +1359,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1370,7 +1370,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1381,7 +1381,7 @@ async function deserializeAws_json1_1StartTranscriptionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1403,7 +1403,7 @@ export async function deserializeAws_json1_1UpdateVocabularyCommand(
   const response: UpdateVocabularyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateVocabularyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1414,7 +1414,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
 ): Promise<UpdateVocabularyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1430,7 +1430,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConflictException":
@@ -1441,7 +1441,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1452,7 +1452,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1463,7 +1463,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1474,7 +1474,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1485,7 +1485,7 @@ async function deserializeAws_json1_1UpdateVocabularyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1513,7 +1513,7 @@ export async function deserializeAws_json1_1UpdateVocabularyFilterCommand(
   const response: UpdateVocabularyFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateVocabularyFilterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1524,7 +1524,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
 ): Promise<UpdateVocabularyFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1540,7 +1540,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalFailureException":
@@ -1551,7 +1551,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1562,7 +1562,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1573,7 +1573,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1584,7 +1584,7 @@ async function deserializeAws_json1_1UpdateVocabularyFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1606,7 +1606,7 @@ const deserializeAws_json1_1BadRequestExceptionResponse = async (
     name: "BadRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1624,7 +1624,7 @@ const deserializeAws_json1_1ConflictExceptionResponse = async (
     name: "ConflictException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1642,7 +1642,7 @@ const deserializeAws_json1_1InternalFailureExceptionResponse = async (
     name: "InternalFailureException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1660,7 +1660,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1678,7 +1678,7 @@ const deserializeAws_json1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2011,7 +2011,7 @@ const deserializeAws_json1_1BadRequestException = (
 ): BadRequestException => {
   let contents: any = {
     __type: "BadRequestException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2025,7 +2025,7 @@ const deserializeAws_json1_1ConflictException = (
 ): ConflictException => {
   let contents: any = {
     __type: "ConflictException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2041,7 +2041,7 @@ const deserializeAws_json1_1CreateVocabularyFilterResponse = (
     __type: "CreateVocabularyFilterResponse",
     LanguageCode: undefined,
     LastModifiedTime: undefined,
-    VocabularyFilterName: undefined
+    VocabularyFilterName: undefined,
   };
   if (output.LanguageCode !== undefined && output.LanguageCode !== null) {
     contents.LanguageCode = output.LanguageCode;
@@ -2073,7 +2073,7 @@ const deserializeAws_json1_1CreateVocabularyResponse = (
     LanguageCode: undefined,
     LastModifiedTime: undefined,
     VocabularyName: undefined,
-    VocabularyState: undefined
+    VocabularyState: undefined,
   };
   if (output.FailureReason !== undefined && output.FailureReason !== null) {
     contents.FailureReason = output.FailureReason;
@@ -2104,7 +2104,7 @@ const deserializeAws_json1_1GetTranscriptionJobResponse = (
 ): GetTranscriptionJobResponse => {
   let contents: any = {
     __type: "GetTranscriptionJobResponse",
-    TranscriptionJob: undefined
+    TranscriptionJob: undefined,
   };
   if (
     output.TranscriptionJob !== undefined &&
@@ -2127,7 +2127,7 @@ const deserializeAws_json1_1GetVocabularyFilterResponse = (
     DownloadUri: undefined,
     LanguageCode: undefined,
     LastModifiedTime: undefined,
-    VocabularyFilterName: undefined
+    VocabularyFilterName: undefined,
   };
   if (output.DownloadUri !== undefined && output.DownloadUri !== null) {
     contents.DownloadUri = output.DownloadUri;
@@ -2163,7 +2163,7 @@ const deserializeAws_json1_1GetVocabularyResponse = (
     LanguageCode: undefined,
     LastModifiedTime: undefined,
     VocabularyName: undefined,
-    VocabularyState: undefined
+    VocabularyState: undefined,
   };
   if (output.DownloadUri !== undefined && output.DownloadUri !== null) {
     contents.DownloadUri = output.DownloadUri;
@@ -2197,7 +2197,7 @@ const deserializeAws_json1_1InternalFailureException = (
 ): InternalFailureException => {
   let contents: any = {
     __type: "InternalFailureException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2212,7 +2212,7 @@ const deserializeAws_json1_1JobExecutionSettings = (
   let contents: any = {
     __type: "JobExecutionSettings",
     AllowDeferredExecution: undefined,
-    DataAccessRoleArn: undefined
+    DataAccessRoleArn: undefined,
   };
   if (
     output.AllowDeferredExecution !== undefined &&
@@ -2235,7 +2235,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2251,7 +2251,7 @@ const deserializeAws_json1_1ListTranscriptionJobsResponse = (
     __type: "ListTranscriptionJobsResponse",
     NextToken: undefined,
     Status: undefined,
-    TranscriptionJobSummaries: undefined
+    TranscriptionJobSummaries: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2279,7 +2279,7 @@ const deserializeAws_json1_1ListVocabulariesResponse = (
     __type: "ListVocabulariesResponse",
     NextToken: undefined,
     Status: undefined,
-    Vocabularies: undefined
+    Vocabularies: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2303,7 +2303,7 @@ const deserializeAws_json1_1ListVocabularyFiltersResponse = (
   let contents: any = {
     __type: "ListVocabularyFiltersResponse",
     NextToken: undefined,
-    VocabularyFilters: undefined
+    VocabularyFilters: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2326,7 +2326,7 @@ const deserializeAws_json1_1Media = (
 ): Media => {
   let contents: any = {
     __type: "Media",
-    MediaFileUri: undefined
+    MediaFileUri: undefined,
   };
   if (output.MediaFileUri !== undefined && output.MediaFileUri !== null) {
     contents.MediaFileUri = output.MediaFileUri;
@@ -2340,7 +2340,7 @@ const deserializeAws_json1_1NotFoundException = (
 ): NotFoundException => {
   let contents: any = {
     __type: "NotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2361,7 +2361,7 @@ const deserializeAws_json1_1Settings = (
     ShowSpeakerLabels: undefined,
     VocabularyFilterMethod: undefined,
     VocabularyFilterName: undefined,
-    VocabularyName: undefined
+    VocabularyName: undefined,
   };
   if (
     output.ChannelIdentification !== undefined &&
@@ -2414,7 +2414,7 @@ const deserializeAws_json1_1StartTranscriptionJobResponse = (
 ): StartTranscriptionJobResponse => {
   let contents: any = {
     __type: "StartTranscriptionJobResponse",
-    TranscriptionJob: undefined
+    TranscriptionJob: undefined,
   };
   if (
     output.TranscriptionJob !== undefined &&
@@ -2434,7 +2434,7 @@ const deserializeAws_json1_1Transcript = (
 ): Transcript => {
   let contents: any = {
     __type: "Transcript",
-    TranscriptFileUri: undefined
+    TranscriptFileUri: undefined,
   };
   if (
     output.TranscriptFileUri !== undefined &&
@@ -2463,7 +2463,7 @@ const deserializeAws_json1_1TranscriptionJob = (
     StartTime: undefined,
     Transcript: undefined,
     TranscriptionJobName: undefined,
-    TranscriptionJobStatus: undefined
+    TranscriptionJobStatus: undefined,
   };
   if (output.CompletionTime !== undefined && output.CompletionTime !== null) {
     contents.CompletionTime = new Date(
@@ -2552,7 +2552,7 @@ const deserializeAws_json1_1TranscriptionJobSummary = (
     OutputLocationType: undefined,
     StartTime: undefined,
     TranscriptionJobName: undefined,
-    TranscriptionJobStatus: undefined
+    TranscriptionJobStatus: undefined,
   };
   if (output.CompletionTime !== undefined && output.CompletionTime !== null) {
     contents.CompletionTime = new Date(
@@ -2600,7 +2600,7 @@ const deserializeAws_json1_1UpdateVocabularyFilterResponse = (
     __type: "UpdateVocabularyFilterResponse",
     LanguageCode: undefined,
     LastModifiedTime: undefined,
-    VocabularyFilterName: undefined
+    VocabularyFilterName: undefined,
   };
   if (output.LanguageCode !== undefined && output.LanguageCode !== null) {
     contents.LanguageCode = output.LanguageCode;
@@ -2631,7 +2631,7 @@ const deserializeAws_json1_1UpdateVocabularyResponse = (
     LanguageCode: undefined,
     LastModifiedTime: undefined,
     VocabularyName: undefined,
-    VocabularyState: undefined
+    VocabularyState: undefined,
   };
   if (output.LanguageCode !== undefined && output.LanguageCode !== null) {
     contents.LanguageCode = output.LanguageCode;
@@ -2670,7 +2670,7 @@ const deserializeAws_json1_1VocabularyFilterInfo = (
     __type: "VocabularyFilterInfo",
     LanguageCode: undefined,
     LastModifiedTime: undefined,
-    VocabularyFilterName: undefined
+    VocabularyFilterName: undefined,
   };
   if (output.LanguageCode !== undefined && output.LanguageCode !== null) {
     contents.LanguageCode = output.LanguageCode;
@@ -2710,7 +2710,7 @@ const deserializeAws_json1_1VocabularyInfo = (
     LanguageCode: undefined,
     LastModifiedTime: undefined,
     VocabularyName: undefined,
-    VocabularyState: undefined
+    VocabularyState: undefined,
   };
   if (output.LanguageCode !== undefined && output.LanguageCode !== null) {
     contents.LanguageCode = output.LanguageCode;
@@ -2735,7 +2735,7 @@ const deserializeAws_json1_1VocabularyInfo = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2756,7 +2756,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2769,11 +2769,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2785,7 +2785,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

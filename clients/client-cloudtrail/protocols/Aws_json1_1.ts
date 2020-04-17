@@ -1,74 +1,74 @@
 import {
   AddTagsCommandInput,
-  AddTagsCommandOutput
+  AddTagsCommandOutput,
 } from "../commands/AddTagsCommand";
 import {
   CreateTrailCommandInput,
-  CreateTrailCommandOutput
+  CreateTrailCommandOutput,
 } from "../commands/CreateTrailCommand";
 import {
   DeleteTrailCommandInput,
-  DeleteTrailCommandOutput
+  DeleteTrailCommandOutput,
 } from "../commands/DeleteTrailCommand";
 import {
   DescribeTrailsCommandInput,
-  DescribeTrailsCommandOutput
+  DescribeTrailsCommandOutput,
 } from "../commands/DescribeTrailsCommand";
 import {
   GetEventSelectorsCommandInput,
-  GetEventSelectorsCommandOutput
+  GetEventSelectorsCommandOutput,
 } from "../commands/GetEventSelectorsCommand";
 import {
   GetInsightSelectorsCommandInput,
-  GetInsightSelectorsCommandOutput
+  GetInsightSelectorsCommandOutput,
 } from "../commands/GetInsightSelectorsCommand";
 import {
   GetTrailCommandInput,
-  GetTrailCommandOutput
+  GetTrailCommandOutput,
 } from "../commands/GetTrailCommand";
 import {
   GetTrailStatusCommandInput,
-  GetTrailStatusCommandOutput
+  GetTrailStatusCommandOutput,
 } from "../commands/GetTrailStatusCommand";
 import {
   ListPublicKeysCommandInput,
-  ListPublicKeysCommandOutput
+  ListPublicKeysCommandOutput,
 } from "../commands/ListPublicKeysCommand";
 import {
   ListTagsCommandInput,
-  ListTagsCommandOutput
+  ListTagsCommandOutput,
 } from "../commands/ListTagsCommand";
 import {
   ListTrailsCommandInput,
-  ListTrailsCommandOutput
+  ListTrailsCommandOutput,
 } from "../commands/ListTrailsCommand";
 import {
   LookupEventsCommandInput,
-  LookupEventsCommandOutput
+  LookupEventsCommandOutput,
 } from "../commands/LookupEventsCommand";
 import {
   PutEventSelectorsCommandInput,
-  PutEventSelectorsCommandOutput
+  PutEventSelectorsCommandOutput,
 } from "../commands/PutEventSelectorsCommand";
 import {
   PutInsightSelectorsCommandInput,
-  PutInsightSelectorsCommandOutput
+  PutInsightSelectorsCommandOutput,
 } from "../commands/PutInsightSelectorsCommand";
 import {
   RemoveTagsCommandInput,
-  RemoveTagsCommandOutput
+  RemoveTagsCommandOutput,
 } from "../commands/RemoveTagsCommand";
 import {
   StartLoggingCommandInput,
-  StartLoggingCommandOutput
+  StartLoggingCommandOutput,
 } from "../commands/StartLoggingCommand";
 import {
   StopLoggingCommandInput,
-  StopLoggingCommandOutput
+  StopLoggingCommandOutput,
 } from "../commands/StopLoggingCommand";
 import {
   UpdateTrailCommandInput,
-  UpdateTrailCommandOutput
+  UpdateTrailCommandOutput,
 } from "../commands/UpdateTrailCommand";
 import {
   AddTagsRequest,
@@ -159,11 +159,11 @@ import {
   TrailNotProvidedException,
   UnsupportedOperationException,
   UpdateTrailRequest,
-  UpdateTrailResponse
+  UpdateTrailResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -171,7 +171,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AddTagsCommand(
@@ -421,7 +421,7 @@ export async function deserializeAws_json1_1AddTagsCommand(
   const response: AddTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -432,7 +432,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
 ): Promise<AddTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -448,7 +448,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -459,7 +459,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -470,7 +470,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -481,7 +481,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -492,7 +492,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -503,7 +503,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceTypeNotSupportedException":
@@ -514,7 +514,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagsLimitExceededException":
@@ -525,7 +525,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -536,7 +536,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -547,7 +547,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -569,7 +569,7 @@ export async function deserializeAws_json1_1CreateTrailCommand(
   const response: CreateTrailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTrailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -580,7 +580,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
 ): Promise<CreateTrailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -596,7 +596,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudWatchLogsDeliveryUnavailableException":
@@ -607,7 +607,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientDependencyServiceAccessPermissionException":
@@ -618,7 +618,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientEncryptionPolicyException":
@@ -629,7 +629,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientS3BucketPolicyException":
@@ -640,7 +640,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientSnsTopicPolicyException":
@@ -651,7 +651,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchLogsLogGroupArnException":
@@ -662,7 +662,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchLogsRoleArnException":
@@ -673,7 +673,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidKmsKeyIdException":
@@ -684,7 +684,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -695,7 +695,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3BucketNameException":
@@ -706,7 +706,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3PrefixException":
@@ -717,7 +717,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSnsTopicNameException":
@@ -728,7 +728,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -739,7 +739,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -750,7 +750,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsException":
@@ -761,7 +761,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsKeyDisabledException":
@@ -772,7 +772,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsKeyNotFoundException":
@@ -783,7 +783,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MaximumNumberOfTrailsExceededException":
@@ -794,7 +794,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -805,7 +805,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -816,7 +816,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotInAllFeaturesModeException":
@@ -827,7 +827,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationsNotInUseException":
@@ -838,7 +838,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "S3BucketDoesNotExistException":
@@ -849,7 +849,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailAlreadyExistsException":
@@ -860,7 +860,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotProvidedException":
@@ -871,7 +871,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -882,7 +882,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -893,7 +893,7 @@ async function deserializeAws_json1_1CreateTrailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -915,7 +915,7 @@ export async function deserializeAws_json1_1DeleteTrailCommand(
   const response: DeleteTrailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTrailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -926,7 +926,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
 ): Promise<DeleteTrailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -942,7 +942,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -953,7 +953,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -964,7 +964,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -975,7 +975,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -986,7 +986,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -997,7 +997,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1008,7 +1008,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1019,7 +1019,7 @@ async function deserializeAws_json1_1DeleteTrailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1041,7 +1041,7 @@ export async function deserializeAws_json1_1DescribeTrailsCommand(
   const response: DescribeTrailsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTrailsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1052,7 +1052,7 @@ async function deserializeAws_json1_1DescribeTrailsCommandError(
 ): Promise<DescribeTrailsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1068,7 +1068,7 @@ async function deserializeAws_json1_1DescribeTrailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1079,7 +1079,7 @@ async function deserializeAws_json1_1DescribeTrailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1090,7 +1090,7 @@ async function deserializeAws_json1_1DescribeTrailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1101,7 +1101,7 @@ async function deserializeAws_json1_1DescribeTrailsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1123,7 +1123,7 @@ export async function deserializeAws_json1_1GetEventSelectorsCommand(
   const response: GetEventSelectorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetEventSelectorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1134,7 +1134,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
 ): Promise<GetEventSelectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1150,7 +1150,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1161,7 +1161,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -1172,7 +1172,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1183,7 +1183,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1194,7 +1194,7 @@ async function deserializeAws_json1_1GetEventSelectorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1219,7 +1219,7 @@ export async function deserializeAws_json1_1GetInsightSelectorsCommand(
   const response: GetInsightSelectorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInsightSelectorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1230,7 +1230,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
 ): Promise<GetInsightSelectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1246,7 +1246,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -1257,7 +1257,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1268,7 +1268,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -1279,7 +1279,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1290,7 +1290,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1301,7 +1301,7 @@ async function deserializeAws_json1_1GetInsightSelectorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1323,7 +1323,7 @@ export async function deserializeAws_json1_1GetTrailCommand(
   const response: GetTrailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTrailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1334,7 +1334,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
 ): Promise<GetTrailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1350,7 +1350,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1361,7 +1361,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -1372,7 +1372,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1383,7 +1383,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1394,7 +1394,7 @@ async function deserializeAws_json1_1GetTrailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1416,7 +1416,7 @@ export async function deserializeAws_json1_1GetTrailStatusCommand(
   const response: GetTrailStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTrailStatusResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1427,7 +1427,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
 ): Promise<GetTrailStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1443,7 +1443,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1454,7 +1454,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -1465,7 +1465,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1476,7 +1476,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1487,7 +1487,7 @@ async function deserializeAws_json1_1GetTrailStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1509,7 +1509,7 @@ export async function deserializeAws_json1_1ListPublicKeysCommand(
   const response: ListPublicKeysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPublicKeysResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1520,7 +1520,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
 ): Promise<ListPublicKeysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1536,7 +1536,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTokenException":
@@ -1547,7 +1547,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1558,7 +1558,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1569,7 +1569,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1580,7 +1580,7 @@ async function deserializeAws_json1_1ListPublicKeysCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1602,7 +1602,7 @@ export async function deserializeAws_json1_1ListTagsCommand(
   const response: ListTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1613,7 +1613,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
 ): Promise<ListTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1629,7 +1629,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTokenException":
@@ -1640,7 +1640,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -1651,7 +1651,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1662,7 +1662,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1673,7 +1673,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceTypeNotSupportedException":
@@ -1684,7 +1684,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1695,7 +1695,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1706,7 +1706,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1728,7 +1728,7 @@ export async function deserializeAws_json1_1ListTrailsCommand(
   const response: ListTrailsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTrailsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1739,7 +1739,7 @@ async function deserializeAws_json1_1ListTrailsCommandError(
 ): Promise<ListTrailsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1755,7 +1755,7 @@ async function deserializeAws_json1_1ListTrailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1766,7 +1766,7 @@ async function deserializeAws_json1_1ListTrailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1777,7 +1777,7 @@ async function deserializeAws_json1_1ListTrailsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1799,7 +1799,7 @@ export async function deserializeAws_json1_1LookupEventsCommand(
   const response: LookupEventsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LookupEventsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1810,7 +1810,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
 ): Promise<LookupEventsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1826,7 +1826,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLookupAttributesException":
@@ -1837,7 +1837,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidMaxResultsException":
@@ -1848,7 +1848,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1859,7 +1859,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTimeRangeException":
@@ -1870,7 +1870,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1881,7 +1881,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1892,7 +1892,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1903,7 +1903,7 @@ async function deserializeAws_json1_1LookupEventsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1925,7 +1925,7 @@ export async function deserializeAws_json1_1PutEventSelectorsCommand(
   const response: PutEventSelectorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutEventSelectorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1936,7 +1936,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
 ): Promise<PutEventSelectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1952,7 +1952,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEventSelectorsException":
@@ -1963,7 +1963,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -1974,7 +1974,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -1985,7 +1985,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -1996,7 +1996,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2007,7 +2007,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -2018,7 +2018,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2029,7 +2029,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2040,7 +2040,7 @@ async function deserializeAws_json1_1PutEventSelectorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2065,7 +2065,7 @@ export async function deserializeAws_json1_1PutInsightSelectorsCommand(
   const response: PutInsightSelectorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutInsightSelectorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2076,7 +2076,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
 ): Promise<PutInsightSelectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2092,7 +2092,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientS3BucketPolicyException":
@@ -2103,7 +2103,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -2114,7 +2114,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInsightSelectorsException":
@@ -2125,7 +2125,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -2136,7 +2136,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -2147,7 +2147,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2158,7 +2158,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -2169,7 +2169,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2180,7 +2180,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2191,7 +2191,7 @@ async function deserializeAws_json1_1PutInsightSelectorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2213,7 +2213,7 @@ export async function deserializeAws_json1_1RemoveTagsCommand(
   const response: RemoveTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RemoveTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2224,7 +2224,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
 ): Promise<RemoveTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2240,7 +2240,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -2251,7 +2251,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -2262,7 +2262,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -2273,7 +2273,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2284,7 +2284,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2295,7 +2295,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceTypeNotSupportedException":
@@ -2306,7 +2306,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2317,7 +2317,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2328,7 +2328,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2350,7 +2350,7 @@ export async function deserializeAws_json1_1StartLoggingCommand(
   const response: StartLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartLoggingResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2361,7 +2361,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
 ): Promise<StartLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2377,7 +2377,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -2388,7 +2388,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -2399,7 +2399,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -2410,7 +2410,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2421,7 +2421,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -2432,7 +2432,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2443,7 +2443,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2454,7 +2454,7 @@ async function deserializeAws_json1_1StartLoggingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2476,7 +2476,7 @@ export async function deserializeAws_json1_1StopLoggingCommand(
   const response: StopLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopLoggingResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2487,7 +2487,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
 ): Promise<StopLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2503,7 +2503,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -2514,7 +2514,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -2525,7 +2525,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -2536,7 +2536,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2547,7 +2547,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -2558,7 +2558,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2569,7 +2569,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2580,7 +2580,7 @@ async function deserializeAws_json1_1StopLoggingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2602,7 +2602,7 @@ export async function deserializeAws_json1_1UpdateTrailCommand(
   const response: UpdateTrailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateTrailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2613,7 +2613,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
 ): Promise<UpdateTrailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2629,7 +2629,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudWatchLogsDeliveryUnavailableException":
@@ -2640,7 +2640,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientDependencyServiceAccessPermissionException":
@@ -2651,7 +2651,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientEncryptionPolicyException":
@@ -2662,7 +2662,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientS3BucketPolicyException":
@@ -2673,7 +2673,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientSnsTopicPolicyException":
@@ -2684,7 +2684,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchLogsLogGroupArnException":
@@ -2695,7 +2695,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchLogsRoleArnException":
@@ -2706,7 +2706,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEventSelectorsException":
@@ -2717,7 +2717,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHomeRegionException":
@@ -2728,7 +2728,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidKmsKeyIdException":
@@ -2739,7 +2739,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -2750,7 +2750,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3BucketNameException":
@@ -2761,7 +2761,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3PrefixException":
@@ -2772,7 +2772,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSnsTopicNameException":
@@ -2783,7 +2783,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrailNameException":
@@ -2794,7 +2794,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsException":
@@ -2805,7 +2805,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsKeyDisabledException":
@@ -2816,7 +2816,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KmsKeyNotFoundException":
@@ -2827,7 +2827,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotOrganizationMasterAccountException":
@@ -2838,7 +2838,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2849,7 +2849,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotInAllFeaturesModeException":
@@ -2860,7 +2860,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationsNotInUseException":
@@ -2871,7 +2871,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "S3BucketDoesNotExistException":
@@ -2882,7 +2882,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotFoundException":
@@ -2893,7 +2893,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrailNotProvidedException":
@@ -2904,7 +2904,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2915,7 +2915,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2926,7 +2926,7 @@ async function deserializeAws_json1_1UpdateTrailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2948,7 +2948,7 @@ const deserializeAws_json1_1CloudTrailARNInvalidExceptionResponse = async (
     name: "CloudTrailARNInvalidException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2966,7 +2966,7 @@ const deserializeAws_json1_1CloudTrailAccessNotEnabledExceptionResponse = async 
     name: "CloudTrailAccessNotEnabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2984,7 +2984,7 @@ const deserializeAws_json1_1CloudWatchLogsDeliveryUnavailableExceptionResponse =
     name: "CloudWatchLogsDeliveryUnavailableException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3002,7 +3002,7 @@ const deserializeAws_json1_1InsightNotEnabledExceptionResponse = async (
     name: "InsightNotEnabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3020,7 +3020,7 @@ const deserializeAws_json1_1InsufficientDependencyServiceAccessPermissionExcepti
     name: "InsufficientDependencyServiceAccessPermissionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3038,7 +3038,7 @@ const deserializeAws_json1_1InsufficientEncryptionPolicyExceptionResponse = asyn
     name: "InsufficientEncryptionPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3056,7 +3056,7 @@ const deserializeAws_json1_1InsufficientS3BucketPolicyExceptionResponse = async 
     name: "InsufficientS3BucketPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3074,7 +3074,7 @@ const deserializeAws_json1_1InsufficientSnsTopicPolicyExceptionResponse = async 
     name: "InsufficientSnsTopicPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3092,7 +3092,7 @@ const deserializeAws_json1_1InvalidCloudWatchLogsLogGroupArnExceptionResponse = 
     name: "InvalidCloudWatchLogsLogGroupArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3110,7 +3110,7 @@ const deserializeAws_json1_1InvalidCloudWatchLogsRoleArnExceptionResponse = asyn
     name: "InvalidCloudWatchLogsRoleArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3128,7 +3128,7 @@ const deserializeAws_json1_1InvalidEventCategoryExceptionResponse = async (
     name: "InvalidEventCategoryException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3146,7 +3146,7 @@ const deserializeAws_json1_1InvalidEventSelectorsExceptionResponse = async (
     name: "InvalidEventSelectorsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3164,7 +3164,7 @@ const deserializeAws_json1_1InvalidHomeRegionExceptionResponse = async (
     name: "InvalidHomeRegionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3182,7 +3182,7 @@ const deserializeAws_json1_1InvalidInsightSelectorsExceptionResponse = async (
     name: "InvalidInsightSelectorsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3200,7 +3200,7 @@ const deserializeAws_json1_1InvalidKmsKeyIdExceptionResponse = async (
     name: "InvalidKmsKeyIdException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3218,7 +3218,7 @@ const deserializeAws_json1_1InvalidLookupAttributesExceptionResponse = async (
     name: "InvalidLookupAttributesException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3236,7 +3236,7 @@ const deserializeAws_json1_1InvalidMaxResultsExceptionResponse = async (
     name: "InvalidMaxResultsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3254,7 +3254,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3272,7 +3272,7 @@ const deserializeAws_json1_1InvalidParameterCombinationExceptionResponse = async
     name: "InvalidParameterCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3290,7 +3290,7 @@ const deserializeAws_json1_1InvalidS3BucketNameExceptionResponse = async (
     name: "InvalidS3BucketNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3308,7 +3308,7 @@ const deserializeAws_json1_1InvalidS3PrefixExceptionResponse = async (
     name: "InvalidS3PrefixException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3326,7 +3326,7 @@ const deserializeAws_json1_1InvalidSnsTopicNameExceptionResponse = async (
     name: "InvalidSnsTopicNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3344,7 +3344,7 @@ const deserializeAws_json1_1InvalidTagParameterExceptionResponse = async (
     name: "InvalidTagParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3362,7 +3362,7 @@ const deserializeAws_json1_1InvalidTimeRangeExceptionResponse = async (
     name: "InvalidTimeRangeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3380,7 +3380,7 @@ const deserializeAws_json1_1InvalidTokenExceptionResponse = async (
     name: "InvalidTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3398,7 +3398,7 @@ const deserializeAws_json1_1InvalidTrailNameExceptionResponse = async (
     name: "InvalidTrailNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3413,7 +3413,7 @@ const deserializeAws_json1_1KmsExceptionResponse = async (
     name: "KmsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3431,7 +3431,7 @@ const deserializeAws_json1_1KmsKeyDisabledExceptionResponse = async (
     name: "KmsKeyDisabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3449,7 +3449,7 @@ const deserializeAws_json1_1KmsKeyNotFoundExceptionResponse = async (
     name: "KmsKeyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3467,7 +3467,7 @@ const deserializeAws_json1_1MaximumNumberOfTrailsExceededExceptionResponse = asy
     name: "MaximumNumberOfTrailsExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3485,7 +3485,7 @@ const deserializeAws_json1_1NotOrganizationMasterAccountExceptionResponse = asyn
     name: "NotOrganizationMasterAccountException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3503,7 +3503,7 @@ const deserializeAws_json1_1OperationNotPermittedExceptionResponse = async (
     name: "OperationNotPermittedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3521,7 +3521,7 @@ const deserializeAws_json1_1OrganizationNotInAllFeaturesModeExceptionResponse = 
     name: "OrganizationNotInAllFeaturesModeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3539,7 +3539,7 @@ const deserializeAws_json1_1OrganizationsNotInUseExceptionResponse = async (
     name: "OrganizationsNotInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3557,7 +3557,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3575,7 +3575,7 @@ const deserializeAws_json1_1ResourceTypeNotSupportedExceptionResponse = async (
     name: "ResourceTypeNotSupportedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3593,7 +3593,7 @@ const deserializeAws_json1_1S3BucketDoesNotExistExceptionResponse = async (
     name: "S3BucketDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3611,7 +3611,7 @@ const deserializeAws_json1_1TagsLimitExceededExceptionResponse = async (
     name: "TagsLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3629,7 +3629,7 @@ const deserializeAws_json1_1TrailAlreadyExistsExceptionResponse = async (
     name: "TrailAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3647,7 +3647,7 @@ const deserializeAws_json1_1TrailNotFoundExceptionResponse = async (
     name: "TrailNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3665,7 +3665,7 @@ const deserializeAws_json1_1TrailNotProvidedExceptionResponse = async (
     name: "TrailNotProvidedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3683,7 +3683,7 @@ const deserializeAws_json1_1UnsupportedOperationExceptionResponse = async (
     name: "UnsupportedOperationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4197,7 +4197,7 @@ const deserializeAws_json1_1AddTagsResponse = (
   context: __SerdeContext
 ): AddTagsResponse => {
   let contents: any = {
-    __type: "AddTagsResponse"
+    __type: "AddTagsResponse",
   };
   return contents;
 };
@@ -4208,7 +4208,7 @@ const deserializeAws_json1_1CloudTrailARNInvalidException = (
 ): CloudTrailARNInvalidException => {
   let contents: any = {
     __type: "CloudTrailARNInvalidException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4222,7 +4222,7 @@ const deserializeAws_json1_1CloudTrailAccessNotEnabledException = (
 ): CloudTrailAccessNotEnabledException => {
   let contents: any = {
     __type: "CloudTrailAccessNotEnabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4236,7 +4236,7 @@ const deserializeAws_json1_1CloudWatchLogsDeliveryUnavailableException = (
 ): CloudWatchLogsDeliveryUnavailableException => {
   let contents: any = {
     __type: "CloudWatchLogsDeliveryUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4262,7 +4262,7 @@ const deserializeAws_json1_1CreateTrailResponse = (
     S3KeyPrefix: undefined,
     SnsTopicARN: undefined,
     SnsTopicName: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (
     output.CloudWatchLogsLogGroupArn !== undefined &&
@@ -4331,7 +4331,7 @@ const deserializeAws_json1_1DataResource = (
   let contents: any = {
     __type: "DataResource",
     Type: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output.Type !== undefined && output.Type !== null) {
     contents.Type = output.Type;
@@ -4366,7 +4366,7 @@ const deserializeAws_json1_1DeleteTrailResponse = (
   context: __SerdeContext
 ): DeleteTrailResponse => {
   let contents: any = {
-    __type: "DeleteTrailResponse"
+    __type: "DeleteTrailResponse",
   };
   return contents;
 };
@@ -4377,7 +4377,7 @@ const deserializeAws_json1_1DescribeTrailsResponse = (
 ): DescribeTrailsResponse => {
   let contents: any = {
     __type: "DescribeTrailsResponse",
-    trailList: undefined
+    trailList: undefined,
   };
   if (output.trailList !== undefined && output.trailList !== null) {
     contents.trailList = deserializeAws_json1_1TrailList(
@@ -4402,7 +4402,7 @@ const deserializeAws_json1_1Event = (
     EventTime: undefined,
     ReadOnly: undefined,
     Resources: undefined,
-    Username: undefined
+    Username: undefined,
   };
   if (output.AccessKeyId !== undefined && output.AccessKeyId !== null) {
     contents.AccessKeyId = output.AccessKeyId;
@@ -4446,7 +4446,7 @@ const deserializeAws_json1_1EventSelector = (
     DataResources: undefined,
     ExcludeManagementEventSources: undefined,
     IncludeManagementEvents: undefined,
-    ReadWriteType: undefined
+    ReadWriteType: undefined,
   };
   if (output.DataResources !== undefined && output.DataResources !== null) {
     contents.DataResources = deserializeAws_json1_1DataResources(
@@ -4507,7 +4507,7 @@ const deserializeAws_json1_1GetEventSelectorsResponse = (
   let contents: any = {
     __type: "GetEventSelectorsResponse",
     EventSelectors: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (output.EventSelectors !== undefined && output.EventSelectors !== null) {
     contents.EventSelectors = deserializeAws_json1_1EventSelectors(
@@ -4528,7 +4528,7 @@ const deserializeAws_json1_1GetInsightSelectorsResponse = (
   let contents: any = {
     __type: "GetInsightSelectorsResponse",
     InsightSelectors: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (
     output.InsightSelectors !== undefined &&
@@ -4551,7 +4551,7 @@ const deserializeAws_json1_1GetTrailResponse = (
 ): GetTrailResponse => {
   let contents: any = {
     __type: "GetTrailResponse",
-    Trail: undefined
+    Trail: undefined,
   };
   if (output.Trail !== undefined && output.Trail !== null) {
     contents.Trail = deserializeAws_json1_1Trail(output.Trail, context);
@@ -4581,7 +4581,7 @@ const deserializeAws_json1_1GetTrailStatusResponse = (
     StartLoggingTime: undefined,
     StopLoggingTime: undefined,
     TimeLoggingStarted: undefined,
-    TimeLoggingStopped: undefined
+    TimeLoggingStopped: undefined,
   };
   if (output.IsLogging !== undefined && output.IsLogging !== null) {
     contents.IsLogging = output.IsLogging;
@@ -4704,7 +4704,7 @@ const deserializeAws_json1_1InsightNotEnabledException = (
 ): InsightNotEnabledException => {
   let contents: any = {
     __type: "InsightNotEnabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4718,7 +4718,7 @@ const deserializeAws_json1_1InsightSelector = (
 ): InsightSelector => {
   let contents: any = {
     __type: "InsightSelector",
-    InsightType: undefined
+    InsightType: undefined,
   };
   if (output.InsightType !== undefined && output.InsightType !== null) {
     contents.InsightType = output.InsightType;
@@ -4741,7 +4741,7 @@ const deserializeAws_json1_1InsufficientDependencyServiceAccessPermissionExcepti
 ): InsufficientDependencyServiceAccessPermissionException => {
   let contents: any = {
     __type: "InsufficientDependencyServiceAccessPermissionException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4755,7 +4755,7 @@ const deserializeAws_json1_1InsufficientEncryptionPolicyException = (
 ): InsufficientEncryptionPolicyException => {
   let contents: any = {
     __type: "InsufficientEncryptionPolicyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4769,7 +4769,7 @@ const deserializeAws_json1_1InsufficientS3BucketPolicyException = (
 ): InsufficientS3BucketPolicyException => {
   let contents: any = {
     __type: "InsufficientS3BucketPolicyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4783,7 +4783,7 @@ const deserializeAws_json1_1InsufficientSnsTopicPolicyException = (
 ): InsufficientSnsTopicPolicyException => {
   let contents: any = {
     __type: "InsufficientSnsTopicPolicyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4797,7 +4797,7 @@ const deserializeAws_json1_1InvalidCloudWatchLogsLogGroupArnException = (
 ): InvalidCloudWatchLogsLogGroupArnException => {
   let contents: any = {
     __type: "InvalidCloudWatchLogsLogGroupArnException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4811,7 +4811,7 @@ const deserializeAws_json1_1InvalidCloudWatchLogsRoleArnException = (
 ): InvalidCloudWatchLogsRoleArnException => {
   let contents: any = {
     __type: "InvalidCloudWatchLogsRoleArnException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4825,7 +4825,7 @@ const deserializeAws_json1_1InvalidEventCategoryException = (
 ): InvalidEventCategoryException => {
   let contents: any = {
     __type: "InvalidEventCategoryException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4839,7 +4839,7 @@ const deserializeAws_json1_1InvalidEventSelectorsException = (
 ): InvalidEventSelectorsException => {
   let contents: any = {
     __type: "InvalidEventSelectorsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4853,7 +4853,7 @@ const deserializeAws_json1_1InvalidHomeRegionException = (
 ): InvalidHomeRegionException => {
   let contents: any = {
     __type: "InvalidHomeRegionException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4867,7 +4867,7 @@ const deserializeAws_json1_1InvalidInsightSelectorsException = (
 ): InvalidInsightSelectorsException => {
   let contents: any = {
     __type: "InvalidInsightSelectorsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4881,7 +4881,7 @@ const deserializeAws_json1_1InvalidKmsKeyIdException = (
 ): InvalidKmsKeyIdException => {
   let contents: any = {
     __type: "InvalidKmsKeyIdException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4895,7 +4895,7 @@ const deserializeAws_json1_1InvalidLookupAttributesException = (
 ): InvalidLookupAttributesException => {
   let contents: any = {
     __type: "InvalidLookupAttributesException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4909,7 +4909,7 @@ const deserializeAws_json1_1InvalidMaxResultsException = (
 ): InvalidMaxResultsException => {
   let contents: any = {
     __type: "InvalidMaxResultsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4923,7 +4923,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4937,7 +4937,7 @@ const deserializeAws_json1_1InvalidParameterCombinationException = (
 ): InvalidParameterCombinationException => {
   let contents: any = {
     __type: "InvalidParameterCombinationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4951,7 +4951,7 @@ const deserializeAws_json1_1InvalidS3BucketNameException = (
 ): InvalidS3BucketNameException => {
   let contents: any = {
     __type: "InvalidS3BucketNameException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4965,7 +4965,7 @@ const deserializeAws_json1_1InvalidS3PrefixException = (
 ): InvalidS3PrefixException => {
   let contents: any = {
     __type: "InvalidS3PrefixException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4979,7 +4979,7 @@ const deserializeAws_json1_1InvalidSnsTopicNameException = (
 ): InvalidSnsTopicNameException => {
   let contents: any = {
     __type: "InvalidSnsTopicNameException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4993,7 +4993,7 @@ const deserializeAws_json1_1InvalidTagParameterException = (
 ): InvalidTagParameterException => {
   let contents: any = {
     __type: "InvalidTagParameterException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5007,7 +5007,7 @@ const deserializeAws_json1_1InvalidTimeRangeException = (
 ): InvalidTimeRangeException => {
   let contents: any = {
     __type: "InvalidTimeRangeException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5021,7 +5021,7 @@ const deserializeAws_json1_1InvalidTokenException = (
 ): InvalidTokenException => {
   let contents: any = {
     __type: "InvalidTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5035,7 +5035,7 @@ const deserializeAws_json1_1InvalidTrailNameException = (
 ): InvalidTrailNameException => {
   let contents: any = {
     __type: "InvalidTrailNameException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5049,7 +5049,7 @@ const deserializeAws_json1_1KmsException = (
 ): KmsException => {
   let contents: any = {
     __type: "KmsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5063,7 +5063,7 @@ const deserializeAws_json1_1KmsKeyDisabledException = (
 ): KmsKeyDisabledException => {
   let contents: any = {
     __type: "KmsKeyDisabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5077,7 +5077,7 @@ const deserializeAws_json1_1KmsKeyNotFoundException = (
 ): KmsKeyNotFoundException => {
   let contents: any = {
     __type: "KmsKeyNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5092,7 +5092,7 @@ const deserializeAws_json1_1ListPublicKeysResponse = (
   let contents: any = {
     __type: "ListPublicKeysResponse",
     NextToken: undefined,
-    PublicKeyList: undefined
+    PublicKeyList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5113,7 +5113,7 @@ const deserializeAws_json1_1ListTagsResponse = (
   let contents: any = {
     __type: "ListTagsResponse",
     NextToken: undefined,
-    ResourceTagList: undefined
+    ResourceTagList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5134,7 +5134,7 @@ const deserializeAws_json1_1ListTrailsResponse = (
   let contents: any = {
     __type: "ListTrailsResponse",
     NextToken: undefined,
-    Trails: undefined
+    Trails: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5152,7 +5152,7 @@ const deserializeAws_json1_1LookupEventsResponse = (
   let contents: any = {
     __type: "LookupEventsResponse",
     Events: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Events !== undefined && output.Events !== null) {
     contents.Events = deserializeAws_json1_1EventsList(output.Events, context);
@@ -5169,7 +5169,7 @@ const deserializeAws_json1_1MaximumNumberOfTrailsExceededException = (
 ): MaximumNumberOfTrailsExceededException => {
   let contents: any = {
     __type: "MaximumNumberOfTrailsExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5183,7 +5183,7 @@ const deserializeAws_json1_1NotOrganizationMasterAccountException = (
 ): NotOrganizationMasterAccountException => {
   let contents: any = {
     __type: "NotOrganizationMasterAccountException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5197,7 +5197,7 @@ const deserializeAws_json1_1OperationNotPermittedException = (
 ): OperationNotPermittedException => {
   let contents: any = {
     __type: "OperationNotPermittedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5211,7 +5211,7 @@ const deserializeAws_json1_1OrganizationNotInAllFeaturesModeException = (
 ): OrganizationNotInAllFeaturesModeException => {
   let contents: any = {
     __type: "OrganizationNotInAllFeaturesModeException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5225,7 +5225,7 @@ const deserializeAws_json1_1OrganizationsNotInUseException = (
 ): OrganizationsNotInUseException => {
   let contents: any = {
     __type: "OrganizationsNotInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5242,7 +5242,7 @@ const deserializeAws_json1_1PublicKey = (
     Fingerprint: undefined,
     ValidityEndTime: undefined,
     ValidityStartTime: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Fingerprint !== undefined && output.Fingerprint !== null) {
     contents.Fingerprint = output.Fingerprint;
@@ -5282,7 +5282,7 @@ const deserializeAws_json1_1PutEventSelectorsResponse = (
   let contents: any = {
     __type: "PutEventSelectorsResponse",
     EventSelectors: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (output.EventSelectors !== undefined && output.EventSelectors !== null) {
     contents.EventSelectors = deserializeAws_json1_1EventSelectors(
@@ -5303,7 +5303,7 @@ const deserializeAws_json1_1PutInsightSelectorsResponse = (
   let contents: any = {
     __type: "PutInsightSelectorsResponse",
     InsightSelectors: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (
     output.InsightSelectors !== undefined &&
@@ -5325,7 +5325,7 @@ const deserializeAws_json1_1RemoveTagsResponse = (
   context: __SerdeContext
 ): RemoveTagsResponse => {
   let contents: any = {
-    __type: "RemoveTagsResponse"
+    __type: "RemoveTagsResponse",
   };
   return contents;
 };
@@ -5337,7 +5337,7 @@ const deserializeAws_json1_1Resource = (
   let contents: any = {
     __type: "Resource",
     ResourceName: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.ResourceName !== undefined && output.ResourceName !== null) {
     contents.ResourceName = output.ResourceName;
@@ -5363,7 +5363,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5378,7 +5378,7 @@ const deserializeAws_json1_1ResourceTag = (
   let contents: any = {
     __type: "ResourceTag",
     ResourceId: undefined,
-    TagsList: undefined
+    TagsList: undefined,
   };
   if (output.ResourceId !== undefined && output.ResourceId !== null) {
     contents.ResourceId = output.ResourceId;
@@ -5407,7 +5407,7 @@ const deserializeAws_json1_1ResourceTypeNotSupportedException = (
 ): ResourceTypeNotSupportedException => {
   let contents: any = {
     __type: "ResourceTypeNotSupportedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5421,7 +5421,7 @@ const deserializeAws_json1_1S3BucketDoesNotExistException = (
 ): S3BucketDoesNotExistException => {
   let contents: any = {
     __type: "S3BucketDoesNotExistException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5434,7 +5434,7 @@ const deserializeAws_json1_1StartLoggingResponse = (
   context: __SerdeContext
 ): StartLoggingResponse => {
   let contents: any = {
-    __type: "StartLoggingResponse"
+    __type: "StartLoggingResponse",
   };
   return contents;
 };
@@ -5444,7 +5444,7 @@ const deserializeAws_json1_1StopLoggingResponse = (
   context: __SerdeContext
 ): StopLoggingResponse => {
   let contents: any = {
-    __type: "StopLoggingResponse"
+    __type: "StopLoggingResponse",
   };
   return contents;
 };
@@ -5456,7 +5456,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -5473,7 +5473,7 @@ const deserializeAws_json1_1TagsLimitExceededException = (
 ): TagsLimitExceededException => {
   let contents: any = {
     __type: "TagsLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5511,7 +5511,7 @@ const deserializeAws_json1_1Trail = (
     S3KeyPrefix: undefined,
     SnsTopicARN: undefined,
     SnsTopicName: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (
     output.CloudWatchLogsLogGroupArn !== undefined &&
@@ -5594,7 +5594,7 @@ const deserializeAws_json1_1TrailAlreadyExistsException = (
 ): TrailAlreadyExistsException => {
   let contents: any = {
     __type: "TrailAlreadyExistsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5610,7 +5610,7 @@ const deserializeAws_json1_1TrailInfo = (
     __type: "TrailInfo",
     HomeRegion: undefined,
     Name: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (output.HomeRegion !== undefined && output.HomeRegion !== null) {
     contents.HomeRegion = output.HomeRegion;
@@ -5639,7 +5639,7 @@ const deserializeAws_json1_1TrailNotFoundException = (
 ): TrailNotFoundException => {
   let contents: any = {
     __type: "TrailNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5653,7 +5653,7 @@ const deserializeAws_json1_1TrailNotProvidedException = (
 ): TrailNotProvidedException => {
   let contents: any = {
     __type: "TrailNotProvidedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5676,7 +5676,7 @@ const deserializeAws_json1_1UnsupportedOperationException = (
 ): UnsupportedOperationException => {
   let contents: any = {
     __type: "UnsupportedOperationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5702,7 +5702,7 @@ const deserializeAws_json1_1UpdateTrailResponse = (
     S3KeyPrefix: undefined,
     SnsTopicARN: undefined,
     SnsTopicName: undefined,
-    TrailARN: undefined
+    TrailARN: undefined,
   };
   if (
     output.CloudWatchLogsLogGroupArn !== undefined &&
@@ -5767,7 +5767,7 @@ const deserializeAws_json1_1UpdateTrailResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -5788,7 +5788,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -5801,11 +5801,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -5817,7 +5817,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

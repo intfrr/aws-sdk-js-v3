@@ -1,18 +1,18 @@
 import {
   DeleteThingShadowCommandInput,
-  DeleteThingShadowCommandOutput
+  DeleteThingShadowCommandOutput,
 } from "../commands/DeleteThingShadowCommand";
 import {
   GetThingShadowCommandInput,
-  GetThingShadowCommandOutput
+  GetThingShadowCommandOutput,
 } from "../commands/GetThingShadowCommand";
 import {
   PublishCommandInput,
-  PublishCommandOutput
+  PublishCommandOutput,
 } from "../commands/PublishCommand";
 import {
   UpdateThingShadowCommandInput,
-  UpdateThingShadowCommandOutput
+  UpdateThingShadowCommandOutput,
 } from "../commands/UpdateThingShadowCommand";
 import {
   ConflictException,
@@ -24,21 +24,21 @@ import {
   ServiceUnavailableException,
   ThrottlingException,
   UnauthorizedException,
-  UnsupportedDocumentEncodingException
+  UnsupportedDocumentEncodingException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1DeleteThingShadowCommand(
@@ -62,12 +62,12 @@ export async function serializeAws_restJson1_1DeleteThingShadowCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -92,12 +92,12 @@ export async function serializeAws_restJson1_1GetThingShadowCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -129,13 +129,13 @@ export async function serializeAws_restJson1_1PublishCommand(
     body = input.payload;
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -163,12 +163,12 @@ export async function serializeAws_restJson1_1UpdateThingShadowCommand(
     body = input.payload;
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -185,7 +185,7 @@ export async function deserializeAws_restJson1_1DeleteThingShadowCommand(
   const contents: DeleteThingShadowCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteThingShadowResponse",
-    payload: undefined
+    payload: undefined,
   };
   const data: any = await collectBody(output.body, context);
   contents.payload = data;
@@ -198,7 +198,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
 ): Promise<DeleteThingShadowCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -212,7 +212,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -223,7 +223,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -234,7 +234,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -245,7 +245,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -256,7 +256,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -267,7 +267,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentEncodingException":
@@ -278,7 +278,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MethodNotAllowedException":
@@ -289,7 +289,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -300,7 +300,7 @@ async function deserializeAws_restJson1_1DeleteThingShadowCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -322,7 +322,7 @@ export async function deserializeAws_restJson1_1GetThingShadowCommand(
   const contents: GetThingShadowCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetThingShadowResponse",
-    payload: undefined
+    payload: undefined,
   };
   const data: any = await collectBody(output.body, context);
   contents.payload = data;
@@ -335,7 +335,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
 ): Promise<GetThingShadowCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -349,7 +349,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -360,7 +360,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -371,7 +371,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -382,7 +382,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -393,7 +393,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -404,7 +404,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentEncodingException":
@@ -415,7 +415,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MethodNotAllowedException":
@@ -426,7 +426,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -437,7 +437,7 @@ async function deserializeAws_restJson1_1GetThingShadowCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -454,7 +454,7 @@ export async function deserializeAws_restJson1_1PublishCommand(
     return deserializeAws_restJson1_1PublishCommandError(output, context);
   }
   const contents: PublishCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -466,7 +466,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
 ): Promise<PublishCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -480,7 +480,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -491,7 +491,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -502,7 +502,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MethodNotAllowedException":
@@ -513,7 +513,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -524,7 +524,7 @@ async function deserializeAws_restJson1_1PublishCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -546,7 +546,7 @@ export async function deserializeAws_restJson1_1UpdateThingShadowCommand(
   const contents: UpdateThingShadowCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateThingShadowResponse",
-    payload: undefined
+    payload: undefined,
   };
   const data: any = await collectBody(output.body, context);
   contents.payload = data;
@@ -559,7 +559,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
 ): Promise<UpdateThingShadowCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -573,7 +573,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -584,7 +584,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -595,7 +595,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -606,7 +606,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -617,7 +617,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentEncodingException":
@@ -628,7 +628,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConflictException":
@@ -639,7 +639,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MethodNotAllowedException":
@@ -650,7 +650,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestEntityTooLargeException":
@@ -661,7 +661,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -672,7 +672,7 @@ async function deserializeAws_restJson1_1UpdateThingShadowCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -689,7 +689,7 @@ const deserializeAws_restJson1_1InternalFailureExceptionResponse = async (
     name: "InternalFailureException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -706,7 +706,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -723,7 +723,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -740,7 +740,7 @@ const deserializeAws_restJson1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -757,7 +757,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -774,7 +774,7 @@ const deserializeAws_restJson1_1UnauthorizedExceptionResponse = async (
     name: "UnauthorizedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -791,7 +791,7 @@ const deserializeAws_restJson1_1UnsupportedDocumentEncodingExceptionResponse = a
     name: "UnsupportedDocumentEncodingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -808,7 +808,7 @@ const deserializeAws_restJson1_1ConflictExceptionResponse = async (
     name: "ConflictException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -825,7 +825,7 @@ const deserializeAws_restJson1_1MethodNotAllowedExceptionResponse = async (
     name: "MethodNotAllowedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -842,7 +842,7 @@ const deserializeAws_restJson1_1RequestEntityTooLargeExceptionResponse = async (
     name: "RequestEntityTooLargeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -854,7 +854,7 @@ const deserializeAws_restJson1_1RequestEntityTooLargeExceptionResponse = async (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -875,13 +875,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -894,7 +894,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

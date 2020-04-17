@@ -1,362 +1,362 @@
 import {
   AssociateRoleToGroupCommandInput,
-  AssociateRoleToGroupCommandOutput
+  AssociateRoleToGroupCommandOutput,
 } from "../commands/AssociateRoleToGroupCommand";
 import {
   AssociateServiceRoleToAccountCommandInput,
-  AssociateServiceRoleToAccountCommandOutput
+  AssociateServiceRoleToAccountCommandOutput,
 } from "../commands/AssociateServiceRoleToAccountCommand";
 import {
   CreateConnectorDefinitionCommandInput,
-  CreateConnectorDefinitionCommandOutput
+  CreateConnectorDefinitionCommandOutput,
 } from "../commands/CreateConnectorDefinitionCommand";
 import {
   CreateConnectorDefinitionVersionCommandInput,
-  CreateConnectorDefinitionVersionCommandOutput
+  CreateConnectorDefinitionVersionCommandOutput,
 } from "../commands/CreateConnectorDefinitionVersionCommand";
 import {
   CreateCoreDefinitionCommandInput,
-  CreateCoreDefinitionCommandOutput
+  CreateCoreDefinitionCommandOutput,
 } from "../commands/CreateCoreDefinitionCommand";
 import {
   CreateCoreDefinitionVersionCommandInput,
-  CreateCoreDefinitionVersionCommandOutput
+  CreateCoreDefinitionVersionCommandOutput,
 } from "../commands/CreateCoreDefinitionVersionCommand";
 import {
   CreateDeploymentCommandInput,
-  CreateDeploymentCommandOutput
+  CreateDeploymentCommandOutput,
 } from "../commands/CreateDeploymentCommand";
 import {
   CreateDeviceDefinitionCommandInput,
-  CreateDeviceDefinitionCommandOutput
+  CreateDeviceDefinitionCommandOutput,
 } from "../commands/CreateDeviceDefinitionCommand";
 import {
   CreateDeviceDefinitionVersionCommandInput,
-  CreateDeviceDefinitionVersionCommandOutput
+  CreateDeviceDefinitionVersionCommandOutput,
 } from "../commands/CreateDeviceDefinitionVersionCommand";
 import {
   CreateFunctionDefinitionCommandInput,
-  CreateFunctionDefinitionCommandOutput
+  CreateFunctionDefinitionCommandOutput,
 } from "../commands/CreateFunctionDefinitionCommand";
 import {
   CreateFunctionDefinitionVersionCommandInput,
-  CreateFunctionDefinitionVersionCommandOutput
+  CreateFunctionDefinitionVersionCommandOutput,
 } from "../commands/CreateFunctionDefinitionVersionCommand";
 import {
   CreateGroupCertificateAuthorityCommandInput,
-  CreateGroupCertificateAuthorityCommandOutput
+  CreateGroupCertificateAuthorityCommandOutput,
 } from "../commands/CreateGroupCertificateAuthorityCommand";
 import {
   CreateGroupCommandInput,
-  CreateGroupCommandOutput
+  CreateGroupCommandOutput,
 } from "../commands/CreateGroupCommand";
 import {
   CreateGroupVersionCommandInput,
-  CreateGroupVersionCommandOutput
+  CreateGroupVersionCommandOutput,
 } from "../commands/CreateGroupVersionCommand";
 import {
   CreateLoggerDefinitionCommandInput,
-  CreateLoggerDefinitionCommandOutput
+  CreateLoggerDefinitionCommandOutput,
 } from "../commands/CreateLoggerDefinitionCommand";
 import {
   CreateLoggerDefinitionVersionCommandInput,
-  CreateLoggerDefinitionVersionCommandOutput
+  CreateLoggerDefinitionVersionCommandOutput,
 } from "../commands/CreateLoggerDefinitionVersionCommand";
 import {
   CreateResourceDefinitionCommandInput,
-  CreateResourceDefinitionCommandOutput
+  CreateResourceDefinitionCommandOutput,
 } from "../commands/CreateResourceDefinitionCommand";
 import {
   CreateResourceDefinitionVersionCommandInput,
-  CreateResourceDefinitionVersionCommandOutput
+  CreateResourceDefinitionVersionCommandOutput,
 } from "../commands/CreateResourceDefinitionVersionCommand";
 import {
   CreateSoftwareUpdateJobCommandInput,
-  CreateSoftwareUpdateJobCommandOutput
+  CreateSoftwareUpdateJobCommandOutput,
 } from "../commands/CreateSoftwareUpdateJobCommand";
 import {
   CreateSubscriptionDefinitionCommandInput,
-  CreateSubscriptionDefinitionCommandOutput
+  CreateSubscriptionDefinitionCommandOutput,
 } from "../commands/CreateSubscriptionDefinitionCommand";
 import {
   CreateSubscriptionDefinitionVersionCommandInput,
-  CreateSubscriptionDefinitionVersionCommandOutput
+  CreateSubscriptionDefinitionVersionCommandOutput,
 } from "../commands/CreateSubscriptionDefinitionVersionCommand";
 import {
   DeleteConnectorDefinitionCommandInput,
-  DeleteConnectorDefinitionCommandOutput
+  DeleteConnectorDefinitionCommandOutput,
 } from "../commands/DeleteConnectorDefinitionCommand";
 import {
   DeleteCoreDefinitionCommandInput,
-  DeleteCoreDefinitionCommandOutput
+  DeleteCoreDefinitionCommandOutput,
 } from "../commands/DeleteCoreDefinitionCommand";
 import {
   DeleteDeviceDefinitionCommandInput,
-  DeleteDeviceDefinitionCommandOutput
+  DeleteDeviceDefinitionCommandOutput,
 } from "../commands/DeleteDeviceDefinitionCommand";
 import {
   DeleteFunctionDefinitionCommandInput,
-  DeleteFunctionDefinitionCommandOutput
+  DeleteFunctionDefinitionCommandOutput,
 } from "../commands/DeleteFunctionDefinitionCommand";
 import {
   DeleteGroupCommandInput,
-  DeleteGroupCommandOutput
+  DeleteGroupCommandOutput,
 } from "../commands/DeleteGroupCommand";
 import {
   DeleteLoggerDefinitionCommandInput,
-  DeleteLoggerDefinitionCommandOutput
+  DeleteLoggerDefinitionCommandOutput,
 } from "../commands/DeleteLoggerDefinitionCommand";
 import {
   DeleteResourceDefinitionCommandInput,
-  DeleteResourceDefinitionCommandOutput
+  DeleteResourceDefinitionCommandOutput,
 } from "../commands/DeleteResourceDefinitionCommand";
 import {
   DeleteSubscriptionDefinitionCommandInput,
-  DeleteSubscriptionDefinitionCommandOutput
+  DeleteSubscriptionDefinitionCommandOutput,
 } from "../commands/DeleteSubscriptionDefinitionCommand";
 import {
   DisassociateRoleFromGroupCommandInput,
-  DisassociateRoleFromGroupCommandOutput
+  DisassociateRoleFromGroupCommandOutput,
 } from "../commands/DisassociateRoleFromGroupCommand";
 import {
   DisassociateServiceRoleFromAccountCommandInput,
-  DisassociateServiceRoleFromAccountCommandOutput
+  DisassociateServiceRoleFromAccountCommandOutput,
 } from "../commands/DisassociateServiceRoleFromAccountCommand";
 import {
   GetAssociatedRoleCommandInput,
-  GetAssociatedRoleCommandOutput
+  GetAssociatedRoleCommandOutput,
 } from "../commands/GetAssociatedRoleCommand";
 import {
   GetBulkDeploymentStatusCommandInput,
-  GetBulkDeploymentStatusCommandOutput
+  GetBulkDeploymentStatusCommandOutput,
 } from "../commands/GetBulkDeploymentStatusCommand";
 import {
   GetConnectivityInfoCommandInput,
-  GetConnectivityInfoCommandOutput
+  GetConnectivityInfoCommandOutput,
 } from "../commands/GetConnectivityInfoCommand";
 import {
   GetConnectorDefinitionCommandInput,
-  GetConnectorDefinitionCommandOutput
+  GetConnectorDefinitionCommandOutput,
 } from "../commands/GetConnectorDefinitionCommand";
 import {
   GetConnectorDefinitionVersionCommandInput,
-  GetConnectorDefinitionVersionCommandOutput
+  GetConnectorDefinitionVersionCommandOutput,
 } from "../commands/GetConnectorDefinitionVersionCommand";
 import {
   GetCoreDefinitionCommandInput,
-  GetCoreDefinitionCommandOutput
+  GetCoreDefinitionCommandOutput,
 } from "../commands/GetCoreDefinitionCommand";
 import {
   GetCoreDefinitionVersionCommandInput,
-  GetCoreDefinitionVersionCommandOutput
+  GetCoreDefinitionVersionCommandOutput,
 } from "../commands/GetCoreDefinitionVersionCommand";
 import {
   GetDeploymentStatusCommandInput,
-  GetDeploymentStatusCommandOutput
+  GetDeploymentStatusCommandOutput,
 } from "../commands/GetDeploymentStatusCommand";
 import {
   GetDeviceDefinitionCommandInput,
-  GetDeviceDefinitionCommandOutput
+  GetDeviceDefinitionCommandOutput,
 } from "../commands/GetDeviceDefinitionCommand";
 import {
   GetDeviceDefinitionVersionCommandInput,
-  GetDeviceDefinitionVersionCommandOutput
+  GetDeviceDefinitionVersionCommandOutput,
 } from "../commands/GetDeviceDefinitionVersionCommand";
 import {
   GetFunctionDefinitionCommandInput,
-  GetFunctionDefinitionCommandOutput
+  GetFunctionDefinitionCommandOutput,
 } from "../commands/GetFunctionDefinitionCommand";
 import {
   GetFunctionDefinitionVersionCommandInput,
-  GetFunctionDefinitionVersionCommandOutput
+  GetFunctionDefinitionVersionCommandOutput,
 } from "../commands/GetFunctionDefinitionVersionCommand";
 import {
   GetGroupCertificateAuthorityCommandInput,
-  GetGroupCertificateAuthorityCommandOutput
+  GetGroupCertificateAuthorityCommandOutput,
 } from "../commands/GetGroupCertificateAuthorityCommand";
 import {
   GetGroupCertificateConfigurationCommandInput,
-  GetGroupCertificateConfigurationCommandOutput
+  GetGroupCertificateConfigurationCommandOutput,
 } from "../commands/GetGroupCertificateConfigurationCommand";
 import {
   GetGroupCommandInput,
-  GetGroupCommandOutput
+  GetGroupCommandOutput,
 } from "../commands/GetGroupCommand";
 import {
   GetGroupVersionCommandInput,
-  GetGroupVersionCommandOutput
+  GetGroupVersionCommandOutput,
 } from "../commands/GetGroupVersionCommand";
 import {
   GetLoggerDefinitionCommandInput,
-  GetLoggerDefinitionCommandOutput
+  GetLoggerDefinitionCommandOutput,
 } from "../commands/GetLoggerDefinitionCommand";
 import {
   GetLoggerDefinitionVersionCommandInput,
-  GetLoggerDefinitionVersionCommandOutput
+  GetLoggerDefinitionVersionCommandOutput,
 } from "../commands/GetLoggerDefinitionVersionCommand";
 import {
   GetResourceDefinitionCommandInput,
-  GetResourceDefinitionCommandOutput
+  GetResourceDefinitionCommandOutput,
 } from "../commands/GetResourceDefinitionCommand";
 import {
   GetResourceDefinitionVersionCommandInput,
-  GetResourceDefinitionVersionCommandOutput
+  GetResourceDefinitionVersionCommandOutput,
 } from "../commands/GetResourceDefinitionVersionCommand";
 import {
   GetServiceRoleForAccountCommandInput,
-  GetServiceRoleForAccountCommandOutput
+  GetServiceRoleForAccountCommandOutput,
 } from "../commands/GetServiceRoleForAccountCommand";
 import {
   GetSubscriptionDefinitionCommandInput,
-  GetSubscriptionDefinitionCommandOutput
+  GetSubscriptionDefinitionCommandOutput,
 } from "../commands/GetSubscriptionDefinitionCommand";
 import {
   GetSubscriptionDefinitionVersionCommandInput,
-  GetSubscriptionDefinitionVersionCommandOutput
+  GetSubscriptionDefinitionVersionCommandOutput,
 } from "../commands/GetSubscriptionDefinitionVersionCommand";
 import {
   ListBulkDeploymentDetailedReportsCommandInput,
-  ListBulkDeploymentDetailedReportsCommandOutput
+  ListBulkDeploymentDetailedReportsCommandOutput,
 } from "../commands/ListBulkDeploymentDetailedReportsCommand";
 import {
   ListBulkDeploymentsCommandInput,
-  ListBulkDeploymentsCommandOutput
+  ListBulkDeploymentsCommandOutput,
 } from "../commands/ListBulkDeploymentsCommand";
 import {
   ListConnectorDefinitionVersionsCommandInput,
-  ListConnectorDefinitionVersionsCommandOutput
+  ListConnectorDefinitionVersionsCommandOutput,
 } from "../commands/ListConnectorDefinitionVersionsCommand";
 import {
   ListConnectorDefinitionsCommandInput,
-  ListConnectorDefinitionsCommandOutput
+  ListConnectorDefinitionsCommandOutput,
 } from "../commands/ListConnectorDefinitionsCommand";
 import {
   ListCoreDefinitionVersionsCommandInput,
-  ListCoreDefinitionVersionsCommandOutput
+  ListCoreDefinitionVersionsCommandOutput,
 } from "../commands/ListCoreDefinitionVersionsCommand";
 import {
   ListCoreDefinitionsCommandInput,
-  ListCoreDefinitionsCommandOutput
+  ListCoreDefinitionsCommandOutput,
 } from "../commands/ListCoreDefinitionsCommand";
 import {
   ListDeploymentsCommandInput,
-  ListDeploymentsCommandOutput
+  ListDeploymentsCommandOutput,
 } from "../commands/ListDeploymentsCommand";
 import {
   ListDeviceDefinitionVersionsCommandInput,
-  ListDeviceDefinitionVersionsCommandOutput
+  ListDeviceDefinitionVersionsCommandOutput,
 } from "../commands/ListDeviceDefinitionVersionsCommand";
 import {
   ListDeviceDefinitionsCommandInput,
-  ListDeviceDefinitionsCommandOutput
+  ListDeviceDefinitionsCommandOutput,
 } from "../commands/ListDeviceDefinitionsCommand";
 import {
   ListFunctionDefinitionVersionsCommandInput,
-  ListFunctionDefinitionVersionsCommandOutput
+  ListFunctionDefinitionVersionsCommandOutput,
 } from "../commands/ListFunctionDefinitionVersionsCommand";
 import {
   ListFunctionDefinitionsCommandInput,
-  ListFunctionDefinitionsCommandOutput
+  ListFunctionDefinitionsCommandOutput,
 } from "../commands/ListFunctionDefinitionsCommand";
 import {
   ListGroupCertificateAuthoritiesCommandInput,
-  ListGroupCertificateAuthoritiesCommandOutput
+  ListGroupCertificateAuthoritiesCommandOutput,
 } from "../commands/ListGroupCertificateAuthoritiesCommand";
 import {
   ListGroupVersionsCommandInput,
-  ListGroupVersionsCommandOutput
+  ListGroupVersionsCommandOutput,
 } from "../commands/ListGroupVersionsCommand";
 import {
   ListGroupsCommandInput,
-  ListGroupsCommandOutput
+  ListGroupsCommandOutput,
 } from "../commands/ListGroupsCommand";
 import {
   ListLoggerDefinitionVersionsCommandInput,
-  ListLoggerDefinitionVersionsCommandOutput
+  ListLoggerDefinitionVersionsCommandOutput,
 } from "../commands/ListLoggerDefinitionVersionsCommand";
 import {
   ListLoggerDefinitionsCommandInput,
-  ListLoggerDefinitionsCommandOutput
+  ListLoggerDefinitionsCommandOutput,
 } from "../commands/ListLoggerDefinitionsCommand";
 import {
   ListResourceDefinitionVersionsCommandInput,
-  ListResourceDefinitionVersionsCommandOutput
+  ListResourceDefinitionVersionsCommandOutput,
 } from "../commands/ListResourceDefinitionVersionsCommand";
 import {
   ListResourceDefinitionsCommandInput,
-  ListResourceDefinitionsCommandOutput
+  ListResourceDefinitionsCommandOutput,
 } from "../commands/ListResourceDefinitionsCommand";
 import {
   ListSubscriptionDefinitionVersionsCommandInput,
-  ListSubscriptionDefinitionVersionsCommandOutput
+  ListSubscriptionDefinitionVersionsCommandOutput,
 } from "../commands/ListSubscriptionDefinitionVersionsCommand";
 import {
   ListSubscriptionDefinitionsCommandInput,
-  ListSubscriptionDefinitionsCommandOutput
+  ListSubscriptionDefinitionsCommandOutput,
 } from "../commands/ListSubscriptionDefinitionsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ResetDeploymentsCommandInput,
-  ResetDeploymentsCommandOutput
+  ResetDeploymentsCommandOutput,
 } from "../commands/ResetDeploymentsCommand";
 import {
   StartBulkDeploymentCommandInput,
-  StartBulkDeploymentCommandOutput
+  StartBulkDeploymentCommandOutput,
 } from "../commands/StartBulkDeploymentCommand";
 import {
   StopBulkDeploymentCommandInput,
-  StopBulkDeploymentCommandOutput
+  StopBulkDeploymentCommandOutput,
 } from "../commands/StopBulkDeploymentCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateConnectivityInfoCommandInput,
-  UpdateConnectivityInfoCommandOutput
+  UpdateConnectivityInfoCommandOutput,
 } from "../commands/UpdateConnectivityInfoCommand";
 import {
   UpdateConnectorDefinitionCommandInput,
-  UpdateConnectorDefinitionCommandOutput
+  UpdateConnectorDefinitionCommandOutput,
 } from "../commands/UpdateConnectorDefinitionCommand";
 import {
   UpdateCoreDefinitionCommandInput,
-  UpdateCoreDefinitionCommandOutput
+  UpdateCoreDefinitionCommandOutput,
 } from "../commands/UpdateCoreDefinitionCommand";
 import {
   UpdateDeviceDefinitionCommandInput,
-  UpdateDeviceDefinitionCommandOutput
+  UpdateDeviceDefinitionCommandOutput,
 } from "../commands/UpdateDeviceDefinitionCommand";
 import {
   UpdateFunctionDefinitionCommandInput,
-  UpdateFunctionDefinitionCommandOutput
+  UpdateFunctionDefinitionCommandOutput,
 } from "../commands/UpdateFunctionDefinitionCommand";
 import {
   UpdateGroupCertificateConfigurationCommandInput,
-  UpdateGroupCertificateConfigurationCommandOutput
+  UpdateGroupCertificateConfigurationCommandOutput,
 } from "../commands/UpdateGroupCertificateConfigurationCommand";
 import {
   UpdateGroupCommandInput,
-  UpdateGroupCommandOutput
+  UpdateGroupCommandOutput,
 } from "../commands/UpdateGroupCommand";
 import {
   UpdateLoggerDefinitionCommandInput,
-  UpdateLoggerDefinitionCommandOutput
+  UpdateLoggerDefinitionCommandOutput,
 } from "../commands/UpdateLoggerDefinitionCommand";
 import {
   UpdateResourceDefinitionCommandInput,
-  UpdateResourceDefinitionCommandOutput
+  UpdateResourceDefinitionCommandOutput,
 } from "../commands/UpdateResourceDefinitionCommand";
 import {
   UpdateSubscriptionDefinitionCommandInput,
-  UpdateSubscriptionDefinitionCommandOutput
+  UpdateSubscriptionDefinitionCommandOutput,
 } from "../commands/UpdateSubscriptionDefinitionCommand";
 import {
   BadRequestException,
@@ -400,21 +400,21 @@ import {
   SecretsManagerSecretResourceData,
   Subscription,
   SubscriptionDefinitionVersion,
-  VersionInformation
+  VersionInformation,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1AssociateRoleToGroupCommand(
@@ -443,12 +443,12 @@ export async function serializeAws_restJson1_1AssociateRoleToGroupCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -466,12 +466,12 @@ export async function serializeAws_restJson1_1AssociateServiceRoleToAccountComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -503,12 +503,12 @@ export async function serializeAws_restJson1_1CreateConnectorDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -549,12 +549,12 @@ export async function serializeAws_restJson1_1CreateConnectorDefinitionVersionCo
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -586,12 +586,12 @@ export async function serializeAws_restJson1_1CreateCoreDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -631,12 +631,12 @@ export async function serializeAws_restJson1_1CreateCoreDefinitionVersionCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -675,12 +675,12 @@ export async function serializeAws_restJson1_1CreateDeploymentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -712,12 +712,12 @@ export async function serializeAws_restJson1_1CreateDeviceDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -758,12 +758,12 @@ export async function serializeAws_restJson1_1CreateDeviceDefinitionVersionComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -795,12 +795,12 @@ export async function serializeAws_restJson1_1CreateFunctionDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -847,12 +847,12 @@ export async function serializeAws_restJson1_1CreateFunctionDefinitionVersionCom
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -882,12 +882,12 @@ export async function serializeAws_restJson1_1CreateGroupCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -915,12 +915,12 @@ export async function serializeAws_restJson1_1CreateGroupCertificateAuthorityCom
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -975,12 +975,12 @@ export async function serializeAws_restJson1_1CreateGroupVersionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1012,12 +1012,12 @@ export async function serializeAws_restJson1_1CreateLoggerDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1058,12 +1058,12 @@ export async function serializeAws_restJson1_1CreateLoggerDefinitionVersionComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1095,12 +1095,12 @@ export async function serializeAws_restJson1_1CreateResourceDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1141,12 +1141,12 @@ export async function serializeAws_restJson1_1CreateResourceDefinitionVersionCom
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1186,12 +1186,12 @@ export async function serializeAws_restJson1_1CreateSoftwareUpdateJobCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1223,12 +1223,12 @@ export async function serializeAws_restJson1_1CreateSubscriptionDefinitionComman
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1269,12 +1269,12 @@ export async function serializeAws_restJson1_1CreateSubscriptionDefinitionVersio
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1304,12 +1304,12 @@ export async function serializeAws_restJson1_1DeleteConnectorDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1338,12 +1338,12 @@ export async function serializeAws_restJson1_1DeleteCoreDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1372,12 +1372,12 @@ export async function serializeAws_restJson1_1DeleteDeviceDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1406,12 +1406,12 @@ export async function serializeAws_restJson1_1DeleteFunctionDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1436,12 +1436,12 @@ export async function serializeAws_restJson1_1DeleteGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1470,12 +1470,12 @@ export async function serializeAws_restJson1_1DeleteLoggerDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1504,12 +1504,12 @@ export async function serializeAws_restJson1_1DeleteResourceDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1539,12 +1539,12 @@ export async function serializeAws_restJson1_1DeleteSubscriptionDefinitionComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1569,12 +1569,12 @@ export async function serializeAws_restJson1_1DisassociateRoleFromGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1588,12 +1588,12 @@ export async function serializeAws_restJson1_1DisassociateServiceRoleFromAccount
   let body: any;
   body = "{}";
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1618,12 +1618,12 @@ export async function serializeAws_restJson1_1GetAssociatedRoleCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1652,12 +1652,12 @@ export async function serializeAws_restJson1_1GetBulkDeploymentStatusCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1682,12 +1682,12 @@ export async function serializeAws_restJson1_1GetConnectivityInfoCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1717,12 +1717,12 @@ export async function serializeAws_restJson1_1GetConnectorDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1772,13 +1772,13 @@ export async function serializeAws_restJson1_1GetConnectorDefinitionVersionComma
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1807,12 +1807,12 @@ export async function serializeAws_restJson1_1GetCoreDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1858,12 +1858,12 @@ export async function serializeAws_restJson1_1GetCoreDefinitionVersionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1903,12 +1903,12 @@ export async function serializeAws_restJson1_1GetDeploymentStatusCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1937,12 +1937,12 @@ export async function serializeAws_restJson1_1GetDeviceDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1992,13 +1992,13 @@ export async function serializeAws_restJson1_1GetDeviceDefinitionVersionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2027,12 +2027,12 @@ export async function serializeAws_restJson1_1GetFunctionDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2082,13 +2082,13 @@ export async function serializeAws_restJson1_1GetFunctionDefinitionVersionComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2113,12 +2113,12 @@ export async function serializeAws_restJson1_1GetGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2160,12 +2160,12 @@ export async function serializeAws_restJson1_1GetGroupCertificateAuthorityComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2191,12 +2191,12 @@ export async function serializeAws_restJson1_1GetGroupCertificateConfigurationCo
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2235,12 +2235,12 @@ export async function serializeAws_restJson1_1GetGroupVersionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2269,12 +2269,12 @@ export async function serializeAws_restJson1_1GetLoggerDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2324,13 +2324,13 @@ export async function serializeAws_restJson1_1GetLoggerDefinitionVersionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2359,12 +2359,12 @@ export async function serializeAws_restJson1_1GetResourceDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2410,12 +2410,12 @@ export async function serializeAws_restJson1_1GetResourceDefinitionVersionComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2429,12 +2429,12 @@ export async function serializeAws_restJson1_1GetServiceRoleForAccountCommand(
   let body: any;
   body = "{}";
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2464,12 +2464,12 @@ export async function serializeAws_restJson1_1GetSubscriptionDefinitionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2519,13 +2519,13 @@ export async function serializeAws_restJson1_1GetSubscriptionDefinitionVersionCo
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2562,13 +2562,13 @@ export async function serializeAws_restJson1_1ListBulkDeploymentDetailedReportsC
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2588,13 +2588,13 @@ export async function serializeAws_restJson1_1ListBulkDeploymentsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2631,13 +2631,13 @@ export async function serializeAws_restJson1_1ListConnectorDefinitionVersionsCom
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2657,13 +2657,13 @@ export async function serializeAws_restJson1_1ListConnectorDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2699,13 +2699,13 @@ export async function serializeAws_restJson1_1ListCoreDefinitionVersionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2725,13 +2725,13 @@ export async function serializeAws_restJson1_1ListCoreDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2763,13 +2763,13 @@ export async function serializeAws_restJson1_1ListDeploymentsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2806,13 +2806,13 @@ export async function serializeAws_restJson1_1ListDeviceDefinitionVersionsComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2832,13 +2832,13 @@ export async function serializeAws_restJson1_1ListDeviceDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2875,13 +2875,13 @@ export async function serializeAws_restJson1_1ListFunctionDefinitionVersionsComm
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2901,13 +2901,13 @@ export async function serializeAws_restJson1_1ListFunctionDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2932,12 +2932,12 @@ export async function serializeAws_restJson1_1ListGroupCertificateAuthoritiesCom
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2969,13 +2969,13 @@ export async function serializeAws_restJson1_1ListGroupVersionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2995,13 +2995,13 @@ export async function serializeAws_restJson1_1ListGroupsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3038,13 +3038,13 @@ export async function serializeAws_restJson1_1ListLoggerDefinitionVersionsComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3064,13 +3064,13 @@ export async function serializeAws_restJson1_1ListLoggerDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3107,13 +3107,13 @@ export async function serializeAws_restJson1_1ListResourceDefinitionVersionsComm
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3133,13 +3133,13 @@ export async function serializeAws_restJson1_1ListResourceDefinitionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3176,13 +3176,13 @@ export async function serializeAws_restJson1_1ListSubscriptionDefinitionVersions
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3202,13 +3202,13 @@ export async function serializeAws_restJson1_1ListSubscriptionDefinitionsCommand
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3235,12 +3235,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3273,12 +3273,12 @@ export async function serializeAws_restJson1_1ResetDeploymentsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3305,12 +3305,12 @@ export async function serializeAws_restJson1_1StartBulkDeploymentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3339,12 +3339,12 @@ export async function serializeAws_restJson1_1StopBulkDeploymentCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3376,12 +3376,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3408,17 +3408,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.TagKeys !== undefined) {
-    query["tagKeys"] = (input.TagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.TagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3453,12 +3453,12 @@ export async function serializeAws_restJson1_1UpdateConnectivityInfoCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3493,12 +3493,12 @@ export async function serializeAws_restJson1_1UpdateConnectorDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3532,12 +3532,12 @@ export async function serializeAws_restJson1_1UpdateCoreDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3571,12 +3571,12 @@ export async function serializeAws_restJson1_1UpdateDeviceDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3610,12 +3610,12 @@ export async function serializeAws_restJson1_1UpdateFunctionDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3645,12 +3645,12 @@ export async function serializeAws_restJson1_1UpdateGroupCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3682,12 +3682,12 @@ export async function serializeAws_restJson1_1UpdateGroupCertificateConfiguratio
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3721,12 +3721,12 @@ export async function serializeAws_restJson1_1UpdateLoggerDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3760,12 +3760,12 @@ export async function serializeAws_restJson1_1UpdateResourceDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3800,12 +3800,12 @@ export async function serializeAws_restJson1_1UpdateSubscriptionDefinitionComman
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -3822,7 +3822,7 @@ export async function deserializeAws_restJson1_1AssociateRoleToGroupCommand(
   const contents: AssociateRoleToGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateRoleToGroupResponse",
-    AssociatedAt: undefined
+    AssociatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AssociatedAt !== undefined && data.AssociatedAt !== null) {
@@ -3837,7 +3837,7 @@ async function deserializeAws_restJson1_1AssociateRoleToGroupCommandError(
 ): Promise<AssociateRoleToGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3851,7 +3851,7 @@ async function deserializeAws_restJson1_1AssociateRoleToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3862,7 +3862,7 @@ async function deserializeAws_restJson1_1AssociateRoleToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3873,7 +3873,7 @@ async function deserializeAws_restJson1_1AssociateRoleToGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3895,7 +3895,7 @@ export async function deserializeAws_restJson1_1AssociateServiceRoleToAccountCom
   const contents: AssociateServiceRoleToAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateServiceRoleToAccountResponse",
-    AssociatedAt: undefined
+    AssociatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AssociatedAt !== undefined && data.AssociatedAt !== null) {
@@ -3910,7 +3910,7 @@ async function deserializeAws_restJson1_1AssociateServiceRoleToAccountCommandErr
 ): Promise<AssociateServiceRoleToAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3924,7 +3924,7 @@ async function deserializeAws_restJson1_1AssociateServiceRoleToAccountCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3935,7 +3935,7 @@ async function deserializeAws_restJson1_1AssociateServiceRoleToAccountCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3946,7 +3946,7 @@ async function deserializeAws_restJson1_1AssociateServiceRoleToAccountCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3974,7 +3974,7 @@ export async function deserializeAws_restJson1_1CreateConnectorDefinitionCommand
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4010,7 +4010,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionCommandError(
 ): Promise<CreateConnectorDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4024,7 +4024,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4035,7 +4035,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4060,7 +4060,7 @@ export async function deserializeAws_restJson1_1CreateConnectorDefinitionVersion
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4084,7 +4084,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionVersionCommand
 ): Promise<CreateConnectorDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4098,7 +4098,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionVersionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4109,7 +4109,7 @@ async function deserializeAws_restJson1_1CreateConnectorDefinitionVersionCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4137,7 +4137,7 @@ export async function deserializeAws_restJson1_1CreateCoreDefinitionCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4173,7 +4173,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionCommandError(
 ): Promise<CreateCoreDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4187,7 +4187,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4198,7 +4198,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4223,7 +4223,7 @@ export async function deserializeAws_restJson1_1CreateCoreDefinitionVersionComma
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4247,7 +4247,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionVersionCommandError
 ): Promise<CreateCoreDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4261,7 +4261,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionVersionCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4272,7 +4272,7 @@ async function deserializeAws_restJson1_1CreateCoreDefinitionVersionCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4295,7 +4295,7 @@ export async function deserializeAws_restJson1_1CreateDeploymentCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateDeploymentResponse",
     DeploymentArn: undefined,
-    DeploymentId: undefined
+    DeploymentId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DeploymentArn !== undefined && data.DeploymentArn !== null) {
@@ -4313,7 +4313,7 @@ async function deserializeAws_restJson1_1CreateDeploymentCommandError(
 ): Promise<CreateDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4327,7 +4327,7 @@ async function deserializeAws_restJson1_1CreateDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4338,7 +4338,7 @@ async function deserializeAws_restJson1_1CreateDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4366,7 +4366,7 @@ export async function deserializeAws_restJson1_1CreateDeviceDefinitionCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4402,7 +4402,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionCommandError(
 ): Promise<CreateDeviceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4416,7 +4416,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4427,7 +4427,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4452,7 +4452,7 @@ export async function deserializeAws_restJson1_1CreateDeviceDefinitionVersionCom
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4476,7 +4476,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionVersionCommandErr
 ): Promise<CreateDeviceDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4490,7 +4490,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionVersionCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4501,7 +4501,7 @@ async function deserializeAws_restJson1_1CreateDeviceDefinitionVersionCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4529,7 +4529,7 @@ export async function deserializeAws_restJson1_1CreateFunctionDefinitionCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4565,7 +4565,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionCommandError(
 ): Promise<CreateFunctionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4579,7 +4579,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4590,7 +4590,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4615,7 +4615,7 @@ export async function deserializeAws_restJson1_1CreateFunctionDefinitionVersionC
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4639,7 +4639,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionVersionCommandE
 ): Promise<CreateFunctionDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4653,7 +4653,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionVersionCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4664,7 +4664,7 @@ async function deserializeAws_restJson1_1CreateFunctionDefinitionVersionCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4689,7 +4689,7 @@ export async function deserializeAws_restJson1_1CreateGroupCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4725,7 +4725,7 @@ async function deserializeAws_restJson1_1CreateGroupCommandError(
 ): Promise<CreateGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4739,7 +4739,7 @@ async function deserializeAws_restJson1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4750,7 +4750,7 @@ async function deserializeAws_restJson1_1CreateGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4772,7 +4772,7 @@ export async function deserializeAws_restJson1_1CreateGroupCertificateAuthorityC
   const contents: CreateGroupCertificateAuthorityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateGroupCertificateAuthorityResponse",
-    GroupCertificateAuthorityArn: undefined
+    GroupCertificateAuthorityArn: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -4790,7 +4790,7 @@ async function deserializeAws_restJson1_1CreateGroupCertificateAuthorityCommandE
 ): Promise<CreateGroupCertificateAuthorityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4804,7 +4804,7 @@ async function deserializeAws_restJson1_1CreateGroupCertificateAuthorityCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4815,7 +4815,7 @@ async function deserializeAws_restJson1_1CreateGroupCertificateAuthorityCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4826,7 +4826,7 @@ async function deserializeAws_restJson1_1CreateGroupCertificateAuthorityCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4851,7 +4851,7 @@ export async function deserializeAws_restJson1_1CreateGroupVersionCommand(
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4875,7 +4875,7 @@ async function deserializeAws_restJson1_1CreateGroupVersionCommandError(
 ): Promise<CreateGroupVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4889,7 +4889,7 @@ async function deserializeAws_restJson1_1CreateGroupVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4900,7 +4900,7 @@ async function deserializeAws_restJson1_1CreateGroupVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4928,7 +4928,7 @@ export async function deserializeAws_restJson1_1CreateLoggerDefinitionCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -4964,7 +4964,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionCommandError(
 ): Promise<CreateLoggerDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4978,7 +4978,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4989,7 +4989,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5014,7 +5014,7 @@ export async function deserializeAws_restJson1_1CreateLoggerDefinitionVersionCom
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -5038,7 +5038,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionVersionCommandErr
 ): Promise<CreateLoggerDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5052,7 +5052,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionVersionCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5063,7 +5063,7 @@ async function deserializeAws_restJson1_1CreateLoggerDefinitionVersionCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5091,7 +5091,7 @@ export async function deserializeAws_restJson1_1CreateResourceDefinitionCommand(
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -5127,7 +5127,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionCommandError(
 ): Promise<CreateResourceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5141,7 +5141,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5152,7 +5152,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5177,7 +5177,7 @@ export async function deserializeAws_restJson1_1CreateResourceDefinitionVersionC
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -5201,7 +5201,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionVersionCommandE
 ): Promise<CreateResourceDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5215,7 +5215,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionVersionCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5226,7 +5226,7 @@ async function deserializeAws_restJson1_1CreateResourceDefinitionVersionCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5250,7 +5250,7 @@ export async function deserializeAws_restJson1_1CreateSoftwareUpdateJobCommand(
     __type: "CreateSoftwareUpdateJobResponse",
     IotJobArn: undefined,
     IotJobId: undefined,
-    PlatformSoftwareVersion: undefined
+    PlatformSoftwareVersion: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.IotJobArn !== undefined && data.IotJobArn !== null) {
@@ -5274,7 +5274,7 @@ async function deserializeAws_restJson1_1CreateSoftwareUpdateJobCommandError(
 ): Promise<CreateSoftwareUpdateJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5288,7 +5288,7 @@ async function deserializeAws_restJson1_1CreateSoftwareUpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5299,7 +5299,7 @@ async function deserializeAws_restJson1_1CreateSoftwareUpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5310,7 +5310,7 @@ async function deserializeAws_restJson1_1CreateSoftwareUpdateJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5338,7 +5338,7 @@ export async function deserializeAws_restJson1_1CreateSubscriptionDefinitionComm
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -5374,7 +5374,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionCommandErro
 ): Promise<CreateSubscriptionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5388,7 +5388,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5399,7 +5399,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5424,7 +5424,7 @@ export async function deserializeAws_restJson1_1CreateSubscriptionDefinitionVers
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -5448,7 +5448,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionVersionComm
 ): Promise<CreateSubscriptionDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5462,7 +5462,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionVersionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5473,7 +5473,7 @@ async function deserializeAws_restJson1_1CreateSubscriptionDefinitionVersionComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5494,7 +5494,7 @@ export async function deserializeAws_restJson1_1DeleteConnectorDefinitionCommand
   }
   const contents: DeleteConnectorDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteConnectorDefinitionResponse"
+    __type: "DeleteConnectorDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5506,7 +5506,7 @@ async function deserializeAws_restJson1_1DeleteConnectorDefinitionCommandError(
 ): Promise<DeleteConnectorDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5520,7 +5520,7 @@ async function deserializeAws_restJson1_1DeleteConnectorDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5531,7 +5531,7 @@ async function deserializeAws_restJson1_1DeleteConnectorDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5552,7 +5552,7 @@ export async function deserializeAws_restJson1_1DeleteCoreDefinitionCommand(
   }
   const contents: DeleteCoreDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteCoreDefinitionResponse"
+    __type: "DeleteCoreDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5564,7 +5564,7 @@ async function deserializeAws_restJson1_1DeleteCoreDefinitionCommandError(
 ): Promise<DeleteCoreDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5578,7 +5578,7 @@ async function deserializeAws_restJson1_1DeleteCoreDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5589,7 +5589,7 @@ async function deserializeAws_restJson1_1DeleteCoreDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5610,7 +5610,7 @@ export async function deserializeAws_restJson1_1DeleteDeviceDefinitionCommand(
   }
   const contents: DeleteDeviceDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteDeviceDefinitionResponse"
+    __type: "DeleteDeviceDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5622,7 +5622,7 @@ async function deserializeAws_restJson1_1DeleteDeviceDefinitionCommandError(
 ): Promise<DeleteDeviceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5636,7 +5636,7 @@ async function deserializeAws_restJson1_1DeleteDeviceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5647,7 +5647,7 @@ async function deserializeAws_restJson1_1DeleteDeviceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5668,7 +5668,7 @@ export async function deserializeAws_restJson1_1DeleteFunctionDefinitionCommand(
   }
   const contents: DeleteFunctionDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteFunctionDefinitionResponse"
+    __type: "DeleteFunctionDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5680,7 +5680,7 @@ async function deserializeAws_restJson1_1DeleteFunctionDefinitionCommandError(
 ): Promise<DeleteFunctionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5694,7 +5694,7 @@ async function deserializeAws_restJson1_1DeleteFunctionDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5705,7 +5705,7 @@ async function deserializeAws_restJson1_1DeleteFunctionDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5723,7 +5723,7 @@ export async function deserializeAws_restJson1_1DeleteGroupCommand(
   }
   const contents: DeleteGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteGroupResponse"
+    __type: "DeleteGroupResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5735,7 +5735,7 @@ async function deserializeAws_restJson1_1DeleteGroupCommandError(
 ): Promise<DeleteGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5749,7 +5749,7 @@ async function deserializeAws_restJson1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5760,7 +5760,7 @@ async function deserializeAws_restJson1_1DeleteGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5781,7 +5781,7 @@ export async function deserializeAws_restJson1_1DeleteLoggerDefinitionCommand(
   }
   const contents: DeleteLoggerDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteLoggerDefinitionResponse"
+    __type: "DeleteLoggerDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5793,7 +5793,7 @@ async function deserializeAws_restJson1_1DeleteLoggerDefinitionCommandError(
 ): Promise<DeleteLoggerDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5807,7 +5807,7 @@ async function deserializeAws_restJson1_1DeleteLoggerDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5818,7 +5818,7 @@ async function deserializeAws_restJson1_1DeleteLoggerDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5839,7 +5839,7 @@ export async function deserializeAws_restJson1_1DeleteResourceDefinitionCommand(
   }
   const contents: DeleteResourceDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteResourceDefinitionResponse"
+    __type: "DeleteResourceDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5851,7 +5851,7 @@ async function deserializeAws_restJson1_1DeleteResourceDefinitionCommandError(
 ): Promise<DeleteResourceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5865,7 +5865,7 @@ async function deserializeAws_restJson1_1DeleteResourceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5876,7 +5876,7 @@ async function deserializeAws_restJson1_1DeleteResourceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5897,7 +5897,7 @@ export async function deserializeAws_restJson1_1DeleteSubscriptionDefinitionComm
   }
   const contents: DeleteSubscriptionDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteSubscriptionDefinitionResponse"
+    __type: "DeleteSubscriptionDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5909,7 +5909,7 @@ async function deserializeAws_restJson1_1DeleteSubscriptionDefinitionCommandErro
 ): Promise<DeleteSubscriptionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5923,7 +5923,7 @@ async function deserializeAws_restJson1_1DeleteSubscriptionDefinitionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5934,7 +5934,7 @@ async function deserializeAws_restJson1_1DeleteSubscriptionDefinitionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5956,7 +5956,7 @@ export async function deserializeAws_restJson1_1DisassociateRoleFromGroupCommand
   const contents: DisassociateRoleFromGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateRoleFromGroupResponse",
-    DisassociatedAt: undefined
+    DisassociatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DisassociatedAt !== undefined && data.DisassociatedAt !== null) {
@@ -5971,7 +5971,7 @@ async function deserializeAws_restJson1_1DisassociateRoleFromGroupCommandError(
 ): Promise<DisassociateRoleFromGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5985,7 +5985,7 @@ async function deserializeAws_restJson1_1DisassociateRoleFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5996,7 +5996,7 @@ async function deserializeAws_restJson1_1DisassociateRoleFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6007,7 +6007,7 @@ async function deserializeAws_restJson1_1DisassociateRoleFromGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6029,7 +6029,7 @@ export async function deserializeAws_restJson1_1DisassociateServiceRoleFromAccou
   const contents: DisassociateServiceRoleFromAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateServiceRoleFromAccountResponse",
-    DisassociatedAt: undefined
+    DisassociatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DisassociatedAt !== undefined && data.DisassociatedAt !== null) {
@@ -6044,7 +6044,7 @@ async function deserializeAws_restJson1_1DisassociateServiceRoleFromAccountComma
 ): Promise<DisassociateServiceRoleFromAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6058,7 +6058,7 @@ async function deserializeAws_restJson1_1DisassociateServiceRoleFromAccountComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6069,7 +6069,7 @@ async function deserializeAws_restJson1_1DisassociateServiceRoleFromAccountComma
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6092,7 +6092,7 @@ export async function deserializeAws_restJson1_1GetAssociatedRoleCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetAssociatedRoleResponse",
     AssociatedAt: undefined,
-    RoleArn: undefined
+    RoleArn: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AssociatedAt !== undefined && data.AssociatedAt !== null) {
@@ -6110,7 +6110,7 @@ async function deserializeAws_restJson1_1GetAssociatedRoleCommandError(
 ): Promise<GetAssociatedRoleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6124,7 +6124,7 @@ async function deserializeAws_restJson1_1GetAssociatedRoleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -6135,7 +6135,7 @@ async function deserializeAws_restJson1_1GetAssociatedRoleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6146,7 +6146,7 @@ async function deserializeAws_restJson1_1GetAssociatedRoleCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6173,7 +6173,7 @@ export async function deserializeAws_restJson1_1GetBulkDeploymentStatusCommand(
     CreatedAt: undefined,
     ErrorDetails: undefined,
     ErrorMessage: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -6215,7 +6215,7 @@ async function deserializeAws_restJson1_1GetBulkDeploymentStatusCommandError(
 ): Promise<GetBulkDeploymentStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6229,7 +6229,7 @@ async function deserializeAws_restJson1_1GetBulkDeploymentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6240,7 +6240,7 @@ async function deserializeAws_restJson1_1GetBulkDeploymentStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6263,7 +6263,7 @@ export async function deserializeAws_restJson1_1GetConnectivityInfoCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetConnectivityInfoResponse",
     ConnectivityInfo: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.ConnectivityInfo !== undefined && data.ConnectivityInfo !== null) {
@@ -6284,7 +6284,7 @@ async function deserializeAws_restJson1_1GetConnectivityInfoCommandError(
 ): Promise<GetConnectivityInfoCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6298,7 +6298,7 @@ async function deserializeAws_restJson1_1GetConnectivityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -6309,7 +6309,7 @@ async function deserializeAws_restJson1_1GetConnectivityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6320,7 +6320,7 @@ async function deserializeAws_restJson1_1GetConnectivityInfoCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6349,7 +6349,7 @@ export async function deserializeAws_restJson1_1GetConnectorDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6388,7 +6388,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionCommandError(
 ): Promise<GetConnectorDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6402,7 +6402,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6413,7 +6413,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6440,7 +6440,7 @@ export async function deserializeAws_restJson1_1GetConnectorDefinitionVersionCom
     Definition: undefined,
     Id: undefined,
     NextToken: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6473,7 +6473,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionVersionCommandErr
 ): Promise<GetConnectorDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6487,7 +6487,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionVersionCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6498,7 +6498,7 @@ async function deserializeAws_restJson1_1GetConnectorDefinitionVersionCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6527,7 +6527,7 @@ export async function deserializeAws_restJson1_1GetCoreDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6566,7 +6566,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionCommandError(
 ): Promise<GetCoreDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6580,7 +6580,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6591,7 +6591,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6618,7 +6618,7 @@ export async function deserializeAws_restJson1_1GetCoreDefinitionVersionCommand(
     Definition: undefined,
     Id: undefined,
     NextToken: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6651,7 +6651,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionVersionCommandError(
 ): Promise<GetCoreDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6665,7 +6665,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6676,7 +6676,7 @@ async function deserializeAws_restJson1_1GetCoreDefinitionVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6702,7 +6702,7 @@ export async function deserializeAws_restJson1_1GetDeploymentStatusCommand(
     DeploymentType: undefined,
     ErrorDetails: undefined,
     ErrorMessage: undefined,
-    UpdatedAt: undefined
+    UpdatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DeploymentStatus !== undefined && data.DeploymentStatus !== null) {
@@ -6732,7 +6732,7 @@ async function deserializeAws_restJson1_1GetDeploymentStatusCommandError(
 ): Promise<GetDeploymentStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6746,7 +6746,7 @@ async function deserializeAws_restJson1_1GetDeploymentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6757,7 +6757,7 @@ async function deserializeAws_restJson1_1GetDeploymentStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6786,7 +6786,7 @@ export async function deserializeAws_restJson1_1GetDeviceDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6825,7 +6825,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionCommandError(
 ): Promise<GetDeviceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6839,7 +6839,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6850,7 +6850,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6877,7 +6877,7 @@ export async function deserializeAws_restJson1_1GetDeviceDefinitionVersionComman
     Definition: undefined,
     Id: undefined,
     NextToken: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -6910,7 +6910,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionVersionCommandError(
 ): Promise<GetDeviceDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6924,7 +6924,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6935,7 +6935,7 @@ async function deserializeAws_restJson1_1GetDeviceDefinitionVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6964,7 +6964,7 @@ export async function deserializeAws_restJson1_1GetFunctionDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7003,7 +7003,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionCommandError(
 ): Promise<GetFunctionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7017,7 +7017,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7028,7 +7028,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7055,7 +7055,7 @@ export async function deserializeAws_restJson1_1GetFunctionDefinitionVersionComm
     Definition: undefined,
     Id: undefined,
     NextToken: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7088,7 +7088,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionVersionCommandErro
 ): Promise<GetFunctionDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7102,7 +7102,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionVersionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7113,7 +7113,7 @@ async function deserializeAws_restJson1_1GetFunctionDefinitionVersionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7139,7 +7139,7 @@ export async function deserializeAws_restJson1_1GetGroupCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7178,7 +7178,7 @@ async function deserializeAws_restJson1_1GetGroupCommandError(
 ): Promise<GetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7192,7 +7192,7 @@ async function deserializeAws_restJson1_1GetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7203,7 +7203,7 @@ async function deserializeAws_restJson1_1GetGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7227,7 +7227,7 @@ export async function deserializeAws_restJson1_1GetGroupCertificateAuthorityComm
     __type: "GetGroupCertificateAuthorityResponse",
     GroupCertificateAuthorityArn: undefined,
     GroupCertificateAuthorityId: undefined,
-    PemEncodedCertificate: undefined
+    PemEncodedCertificate: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -7257,7 +7257,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateAuthorityCommandErro
 ): Promise<GetGroupCertificateAuthorityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7271,7 +7271,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateAuthorityCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -7282,7 +7282,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateAuthorityCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7293,7 +7293,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateAuthorityCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7317,7 +7317,7 @@ export async function deserializeAws_restJson1_1GetGroupCertificateConfiguration
     __type: "GetGroupCertificateConfigurationResponse",
     CertificateAuthorityExpiryInMilliseconds: undefined,
     CertificateExpiryInMilliseconds: undefined,
-    GroupId: undefined
+    GroupId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -7346,7 +7346,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateConfigurationCommand
 ): Promise<GetGroupCertificateConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7360,7 +7360,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateConfigurationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -7371,7 +7371,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateConfigurationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7382,7 +7382,7 @@ async function deserializeAws_restJson1_1GetGroupCertificateConfigurationCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7408,7 +7408,7 @@ export async function deserializeAws_restJson1_1GetGroupVersionCommand(
     CreationTimestamp: undefined,
     Definition: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7438,7 +7438,7 @@ async function deserializeAws_restJson1_1GetGroupVersionCommandError(
 ): Promise<GetGroupVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7452,7 +7452,7 @@ async function deserializeAws_restJson1_1GetGroupVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7463,7 +7463,7 @@ async function deserializeAws_restJson1_1GetGroupVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7492,7 +7492,7 @@ export async function deserializeAws_restJson1_1GetLoggerDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7531,7 +7531,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionCommandError(
 ): Promise<GetLoggerDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7545,7 +7545,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7556,7 +7556,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7582,7 +7582,7 @@ export async function deserializeAws_restJson1_1GetLoggerDefinitionVersionComman
     CreationTimestamp: undefined,
     Definition: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7612,7 +7612,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionVersionCommandError(
 ): Promise<GetLoggerDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7626,7 +7626,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7637,7 +7637,7 @@ async function deserializeAws_restJson1_1GetLoggerDefinitionVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7666,7 +7666,7 @@ export async function deserializeAws_restJson1_1GetResourceDefinitionCommand(
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7705,7 +7705,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionCommandError(
 ): Promise<GetResourceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7719,7 +7719,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7730,7 +7730,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7756,7 +7756,7 @@ export async function deserializeAws_restJson1_1GetResourceDefinitionVersionComm
     CreationTimestamp: undefined,
     Definition: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7786,7 +7786,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionVersionCommandErro
 ): Promise<GetResourceDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7800,7 +7800,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionVersionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7811,7 +7811,7 @@ async function deserializeAws_restJson1_1GetResourceDefinitionVersionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7834,7 +7834,7 @@ export async function deserializeAws_restJson1_1GetServiceRoleForAccountCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetServiceRoleForAccountResponse",
     AssociatedAt: undefined,
-    RoleArn: undefined
+    RoleArn: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AssociatedAt !== undefined && data.AssociatedAt !== null) {
@@ -7852,7 +7852,7 @@ async function deserializeAws_restJson1_1GetServiceRoleForAccountCommandError(
 ): Promise<GetServiceRoleForAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7866,7 +7866,7 @@ async function deserializeAws_restJson1_1GetServiceRoleForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7877,7 +7877,7 @@ async function deserializeAws_restJson1_1GetServiceRoleForAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7906,7 +7906,7 @@ export async function deserializeAws_restJson1_1GetSubscriptionDefinitionCommand
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -7945,7 +7945,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionCommandError(
 ): Promise<GetSubscriptionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7959,7 +7959,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7970,7 +7970,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7997,7 +7997,7 @@ export async function deserializeAws_restJson1_1GetSubscriptionDefinitionVersion
     Definition: undefined,
     Id: undefined,
     NextToken: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Arn !== undefined && data.Arn !== null) {
@@ -8030,7 +8030,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionVersionCommand
 ): Promise<GetSubscriptionDefinitionVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8044,7 +8044,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionVersionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8055,7 +8055,7 @@ async function deserializeAws_restJson1_1GetSubscriptionDefinitionVersionCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8078,7 +8078,7 @@ export async function deserializeAws_restJson1_1ListBulkDeploymentDetailedReport
     $metadata: deserializeMetadata(output),
     __type: "ListBulkDeploymentDetailedReportsResponse",
     Deployments: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Deployments !== undefined && data.Deployments !== null) {
@@ -8099,7 +8099,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentDetailedReportsComman
 ): Promise<ListBulkDeploymentDetailedReportsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8113,7 +8113,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentDetailedReportsComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8124,7 +8124,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentDetailedReportsComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8147,7 +8147,7 @@ export async function deserializeAws_restJson1_1ListBulkDeploymentsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListBulkDeploymentsResponse",
     BulkDeployments: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.BulkDeployments !== undefined && data.BulkDeployments !== null) {
@@ -8168,7 +8168,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentsCommandError(
 ): Promise<ListBulkDeploymentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8182,7 +8182,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8193,7 +8193,7 @@ async function deserializeAws_restJson1_1ListBulkDeploymentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8216,7 +8216,7 @@ export async function deserializeAws_restJson1_1ListConnectorDefinitionVersionsC
     $metadata: deserializeMetadata(output),
     __type: "ListConnectorDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -8237,7 +8237,7 @@ async function deserializeAws_restJson1_1ListConnectorDefinitionVersionsCommandE
 ): Promise<ListConnectorDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8251,7 +8251,7 @@ async function deserializeAws_restJson1_1ListConnectorDefinitionVersionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8262,7 +8262,7 @@ async function deserializeAws_restJson1_1ListConnectorDefinitionVersionsCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8285,7 +8285,7 @@ export async function deserializeAws_restJson1_1ListConnectorDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListConnectorDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -8306,7 +8306,7 @@ async function deserializeAws_restJson1_1ListConnectorDefinitionsCommandError(
 ): Promise<ListConnectorDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8320,7 +8320,7 @@ async function deserializeAws_restJson1_1ListConnectorDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8343,7 +8343,7 @@ export async function deserializeAws_restJson1_1ListCoreDefinitionVersionsComman
     $metadata: deserializeMetadata(output),
     __type: "ListCoreDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -8364,7 +8364,7 @@ async function deserializeAws_restJson1_1ListCoreDefinitionVersionsCommandError(
 ): Promise<ListCoreDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8378,7 +8378,7 @@ async function deserializeAws_restJson1_1ListCoreDefinitionVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8389,7 +8389,7 @@ async function deserializeAws_restJson1_1ListCoreDefinitionVersionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8412,7 +8412,7 @@ export async function deserializeAws_restJson1_1ListCoreDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListCoreDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -8433,7 +8433,7 @@ async function deserializeAws_restJson1_1ListCoreDefinitionsCommandError(
 ): Promise<ListCoreDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8447,7 +8447,7 @@ async function deserializeAws_restJson1_1ListCoreDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8470,7 +8470,7 @@ export async function deserializeAws_restJson1_1ListDeploymentsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListDeploymentsResponse",
     Deployments: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Deployments !== undefined && data.Deployments !== null) {
@@ -8491,7 +8491,7 @@ async function deserializeAws_restJson1_1ListDeploymentsCommandError(
 ): Promise<ListDeploymentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8505,7 +8505,7 @@ async function deserializeAws_restJson1_1ListDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8516,7 +8516,7 @@ async function deserializeAws_restJson1_1ListDeploymentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8539,7 +8539,7 @@ export async function deserializeAws_restJson1_1ListDeviceDefinitionVersionsComm
     $metadata: deserializeMetadata(output),
     __type: "ListDeviceDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -8560,7 +8560,7 @@ async function deserializeAws_restJson1_1ListDeviceDefinitionVersionsCommandErro
 ): Promise<ListDeviceDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8574,7 +8574,7 @@ async function deserializeAws_restJson1_1ListDeviceDefinitionVersionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8585,7 +8585,7 @@ async function deserializeAws_restJson1_1ListDeviceDefinitionVersionsCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8608,7 +8608,7 @@ export async function deserializeAws_restJson1_1ListDeviceDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListDeviceDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -8629,7 +8629,7 @@ async function deserializeAws_restJson1_1ListDeviceDefinitionsCommandError(
 ): Promise<ListDeviceDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8643,7 +8643,7 @@ async function deserializeAws_restJson1_1ListDeviceDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8666,7 +8666,7 @@ export async function deserializeAws_restJson1_1ListFunctionDefinitionVersionsCo
     $metadata: deserializeMetadata(output),
     __type: "ListFunctionDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -8687,7 +8687,7 @@ async function deserializeAws_restJson1_1ListFunctionDefinitionVersionsCommandEr
 ): Promise<ListFunctionDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8701,7 +8701,7 @@ async function deserializeAws_restJson1_1ListFunctionDefinitionVersionsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8712,7 +8712,7 @@ async function deserializeAws_restJson1_1ListFunctionDefinitionVersionsCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8735,7 +8735,7 @@ export async function deserializeAws_restJson1_1ListFunctionDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListFunctionDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -8756,7 +8756,7 @@ async function deserializeAws_restJson1_1ListFunctionDefinitionsCommandError(
 ): Promise<ListFunctionDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8770,7 +8770,7 @@ async function deserializeAws_restJson1_1ListFunctionDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8792,7 +8792,7 @@ export async function deserializeAws_restJson1_1ListGroupCertificateAuthoritiesC
   const contents: ListGroupCertificateAuthoritiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListGroupCertificateAuthoritiesResponse",
-    GroupCertificateAuthorities: undefined
+    GroupCertificateAuthorities: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -8813,7 +8813,7 @@ async function deserializeAws_restJson1_1ListGroupCertificateAuthoritiesCommandE
 ): Promise<ListGroupCertificateAuthoritiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8827,7 +8827,7 @@ async function deserializeAws_restJson1_1ListGroupCertificateAuthoritiesCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -8838,7 +8838,7 @@ async function deserializeAws_restJson1_1ListGroupCertificateAuthoritiesCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8849,7 +8849,7 @@ async function deserializeAws_restJson1_1ListGroupCertificateAuthoritiesCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8872,7 +8872,7 @@ export async function deserializeAws_restJson1_1ListGroupVersionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListGroupVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -8893,7 +8893,7 @@ async function deserializeAws_restJson1_1ListGroupVersionsCommandError(
 ): Promise<ListGroupVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8907,7 +8907,7 @@ async function deserializeAws_restJson1_1ListGroupVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8918,7 +8918,7 @@ async function deserializeAws_restJson1_1ListGroupVersionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8938,7 +8938,7 @@ export async function deserializeAws_restJson1_1ListGroupsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListGroupsResponse",
     Groups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Groups !== undefined && data.Groups !== null) {
@@ -8959,7 +8959,7 @@ async function deserializeAws_restJson1_1ListGroupsCommandError(
 ): Promise<ListGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8973,7 +8973,7 @@ async function deserializeAws_restJson1_1ListGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8996,7 +8996,7 @@ export async function deserializeAws_restJson1_1ListLoggerDefinitionVersionsComm
     $metadata: deserializeMetadata(output),
     __type: "ListLoggerDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -9017,7 +9017,7 @@ async function deserializeAws_restJson1_1ListLoggerDefinitionVersionsCommandErro
 ): Promise<ListLoggerDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9031,7 +9031,7 @@ async function deserializeAws_restJson1_1ListLoggerDefinitionVersionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9042,7 +9042,7 @@ async function deserializeAws_restJson1_1ListLoggerDefinitionVersionsCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9065,7 +9065,7 @@ export async function deserializeAws_restJson1_1ListLoggerDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListLoggerDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -9086,7 +9086,7 @@ async function deserializeAws_restJson1_1ListLoggerDefinitionsCommandError(
 ): Promise<ListLoggerDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9100,7 +9100,7 @@ async function deserializeAws_restJson1_1ListLoggerDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9123,7 +9123,7 @@ export async function deserializeAws_restJson1_1ListResourceDefinitionVersionsCo
     $metadata: deserializeMetadata(output),
     __type: "ListResourceDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -9144,7 +9144,7 @@ async function deserializeAws_restJson1_1ListResourceDefinitionVersionsCommandEr
 ): Promise<ListResourceDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9158,7 +9158,7 @@ async function deserializeAws_restJson1_1ListResourceDefinitionVersionsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9169,7 +9169,7 @@ async function deserializeAws_restJson1_1ListResourceDefinitionVersionsCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9192,7 +9192,7 @@ export async function deserializeAws_restJson1_1ListResourceDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListResourceDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -9213,7 +9213,7 @@ async function deserializeAws_restJson1_1ListResourceDefinitionsCommandError(
 ): Promise<ListResourceDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9227,7 +9227,7 @@ async function deserializeAws_restJson1_1ListResourceDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9250,7 +9250,7 @@ export async function deserializeAws_restJson1_1ListSubscriptionDefinitionVersio
     $metadata: deserializeMetadata(output),
     __type: "ListSubscriptionDefinitionVersionsResponse",
     NextToken: undefined,
-    Versions: undefined
+    Versions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -9271,7 +9271,7 @@ async function deserializeAws_restJson1_1ListSubscriptionDefinitionVersionsComma
 ): Promise<ListSubscriptionDefinitionVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9285,7 +9285,7 @@ async function deserializeAws_restJson1_1ListSubscriptionDefinitionVersionsComma
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9296,7 +9296,7 @@ async function deserializeAws_restJson1_1ListSubscriptionDefinitionVersionsComma
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9319,7 +9319,7 @@ export async function deserializeAws_restJson1_1ListSubscriptionDefinitionsComma
     $metadata: deserializeMetadata(output),
     __type: "ListSubscriptionDefinitionsResponse",
     Definitions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Definitions !== undefined && data.Definitions !== null) {
@@ -9340,7 +9340,7 @@ async function deserializeAws_restJson1_1ListSubscriptionDefinitionsCommandError
 ): Promise<ListSubscriptionDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9354,7 +9354,7 @@ async function deserializeAws_restJson1_1ListSubscriptionDefinitionsCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9376,7 +9376,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -9391,7 +9391,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9405,7 +9405,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9416,7 +9416,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9439,7 +9439,7 @@ export async function deserializeAws_restJson1_1ResetDeploymentsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ResetDeploymentsResponse",
     DeploymentArn: undefined,
-    DeploymentId: undefined
+    DeploymentId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DeploymentArn !== undefined && data.DeploymentArn !== null) {
@@ -9457,7 +9457,7 @@ async function deserializeAws_restJson1_1ResetDeploymentsCommandError(
 ): Promise<ResetDeploymentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9471,7 +9471,7 @@ async function deserializeAws_restJson1_1ResetDeploymentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9482,7 +9482,7 @@ async function deserializeAws_restJson1_1ResetDeploymentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9505,7 +9505,7 @@ export async function deserializeAws_restJson1_1StartBulkDeploymentCommand(
     $metadata: deserializeMetadata(output),
     __type: "StartBulkDeploymentResponse",
     BulkDeploymentArn: undefined,
-    BulkDeploymentId: undefined
+    BulkDeploymentId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.BulkDeploymentArn !== undefined && data.BulkDeploymentArn !== null) {
@@ -9523,7 +9523,7 @@ async function deserializeAws_restJson1_1StartBulkDeploymentCommandError(
 ): Promise<StartBulkDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9537,7 +9537,7 @@ async function deserializeAws_restJson1_1StartBulkDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9548,7 +9548,7 @@ async function deserializeAws_restJson1_1StartBulkDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9569,7 +9569,7 @@ export async function deserializeAws_restJson1_1StopBulkDeploymentCommand(
   }
   const contents: StopBulkDeploymentCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "StopBulkDeploymentResponse"
+    __type: "StopBulkDeploymentResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9581,7 +9581,7 @@ async function deserializeAws_restJson1_1StopBulkDeploymentCommandError(
 ): Promise<StopBulkDeploymentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9595,7 +9595,7 @@ async function deserializeAws_restJson1_1StopBulkDeploymentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9606,7 +9606,7 @@ async function deserializeAws_restJson1_1StopBulkDeploymentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9623,7 +9623,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
     return deserializeAws_restJson1_1TagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9635,7 +9635,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9649,7 +9649,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9660,7 +9660,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9677,7 +9677,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
     return deserializeAws_restJson1_1UntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9689,7 +9689,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9703,7 +9703,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9714,7 +9714,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9737,7 +9737,7 @@ export async function deserializeAws_restJson1_1UpdateConnectivityInfoCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateConnectivityInfoResponse",
     Message: undefined,
-    Version: undefined
+    Version: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.message !== undefined && data.message !== null) {
@@ -9755,7 +9755,7 @@ async function deserializeAws_restJson1_1UpdateConnectivityInfoCommandError(
 ): Promise<UpdateConnectivityInfoCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9769,7 +9769,7 @@ async function deserializeAws_restJson1_1UpdateConnectivityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -9780,7 +9780,7 @@ async function deserializeAws_restJson1_1UpdateConnectivityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9791,7 +9791,7 @@ async function deserializeAws_restJson1_1UpdateConnectivityInfoCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9812,7 +9812,7 @@ export async function deserializeAws_restJson1_1UpdateConnectorDefinitionCommand
   }
   const contents: UpdateConnectorDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateConnectorDefinitionResponse"
+    __type: "UpdateConnectorDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9824,7 +9824,7 @@ async function deserializeAws_restJson1_1UpdateConnectorDefinitionCommandError(
 ): Promise<UpdateConnectorDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9838,7 +9838,7 @@ async function deserializeAws_restJson1_1UpdateConnectorDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9849,7 +9849,7 @@ async function deserializeAws_restJson1_1UpdateConnectorDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9870,7 +9870,7 @@ export async function deserializeAws_restJson1_1UpdateCoreDefinitionCommand(
   }
   const contents: UpdateCoreDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateCoreDefinitionResponse"
+    __type: "UpdateCoreDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9882,7 +9882,7 @@ async function deserializeAws_restJson1_1UpdateCoreDefinitionCommandError(
 ): Promise<UpdateCoreDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9896,7 +9896,7 @@ async function deserializeAws_restJson1_1UpdateCoreDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9907,7 +9907,7 @@ async function deserializeAws_restJson1_1UpdateCoreDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9928,7 +9928,7 @@ export async function deserializeAws_restJson1_1UpdateDeviceDefinitionCommand(
   }
   const contents: UpdateDeviceDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateDeviceDefinitionResponse"
+    __type: "UpdateDeviceDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9940,7 +9940,7 @@ async function deserializeAws_restJson1_1UpdateDeviceDefinitionCommandError(
 ): Promise<UpdateDeviceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9954,7 +9954,7 @@ async function deserializeAws_restJson1_1UpdateDeviceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9965,7 +9965,7 @@ async function deserializeAws_restJson1_1UpdateDeviceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9986,7 +9986,7 @@ export async function deserializeAws_restJson1_1UpdateFunctionDefinitionCommand(
   }
   const contents: UpdateFunctionDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateFunctionDefinitionResponse"
+    __type: "UpdateFunctionDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -9998,7 +9998,7 @@ async function deserializeAws_restJson1_1UpdateFunctionDefinitionCommandError(
 ): Promise<UpdateFunctionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10012,7 +10012,7 @@ async function deserializeAws_restJson1_1UpdateFunctionDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10023,7 +10023,7 @@ async function deserializeAws_restJson1_1UpdateFunctionDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10041,7 +10041,7 @@ export async function deserializeAws_restJson1_1UpdateGroupCommand(
   }
   const contents: UpdateGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateGroupResponse"
+    __type: "UpdateGroupResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -10053,7 +10053,7 @@ async function deserializeAws_restJson1_1UpdateGroupCommandError(
 ): Promise<UpdateGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10067,7 +10067,7 @@ async function deserializeAws_restJson1_1UpdateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10078,7 +10078,7 @@ async function deserializeAws_restJson1_1UpdateGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10102,7 +10102,7 @@ export async function deserializeAws_restJson1_1UpdateGroupCertificateConfigurat
     __type: "UpdateGroupCertificateConfigurationResponse",
     CertificateAuthorityExpiryInMilliseconds: undefined,
     CertificateExpiryInMilliseconds: undefined,
-    GroupId: undefined
+    GroupId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -10131,7 +10131,7 @@ async function deserializeAws_restJson1_1UpdateGroupCertificateConfigurationComm
 ): Promise<UpdateGroupCertificateConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10145,7 +10145,7 @@ async function deserializeAws_restJson1_1UpdateGroupCertificateConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -10156,7 +10156,7 @@ async function deserializeAws_restJson1_1UpdateGroupCertificateConfigurationComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10167,7 +10167,7 @@ async function deserializeAws_restJson1_1UpdateGroupCertificateConfigurationComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10188,7 +10188,7 @@ export async function deserializeAws_restJson1_1UpdateLoggerDefinitionCommand(
   }
   const contents: UpdateLoggerDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateLoggerDefinitionResponse"
+    __type: "UpdateLoggerDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -10200,7 +10200,7 @@ async function deserializeAws_restJson1_1UpdateLoggerDefinitionCommandError(
 ): Promise<UpdateLoggerDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10214,7 +10214,7 @@ async function deserializeAws_restJson1_1UpdateLoggerDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10225,7 +10225,7 @@ async function deserializeAws_restJson1_1UpdateLoggerDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10246,7 +10246,7 @@ export async function deserializeAws_restJson1_1UpdateResourceDefinitionCommand(
   }
   const contents: UpdateResourceDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateResourceDefinitionResponse"
+    __type: "UpdateResourceDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -10258,7 +10258,7 @@ async function deserializeAws_restJson1_1UpdateResourceDefinitionCommandError(
 ): Promise<UpdateResourceDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10272,7 +10272,7 @@ async function deserializeAws_restJson1_1UpdateResourceDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10283,7 +10283,7 @@ async function deserializeAws_restJson1_1UpdateResourceDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10304,7 +10304,7 @@ export async function deserializeAws_restJson1_1UpdateSubscriptionDefinitionComm
   }
   const contents: UpdateSubscriptionDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateSubscriptionDefinitionResponse"
+    __type: "UpdateSubscriptionDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -10316,7 +10316,7 @@ async function deserializeAws_restJson1_1UpdateSubscriptionDefinitionCommandErro
 ): Promise<UpdateSubscriptionDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10330,7 +10330,7 @@ async function deserializeAws_restJson1_1UpdateSubscriptionDefinitionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10341,7 +10341,7 @@ async function deserializeAws_restJson1_1UpdateSubscriptionDefinitionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10359,7 +10359,7 @@ const deserializeAws_restJson1_1BadRequestExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorDetails: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorDetails !== undefined && data.ErrorDetails !== null) {
@@ -10383,7 +10383,7 @@ const deserializeAws_restJson1_1InternalServerErrorExceptionResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorDetails: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorDetails !== undefined && data.ErrorDetails !== null) {
@@ -11026,7 +11026,7 @@ const serializeAws_restJson1_1Tags = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -11158,7 +11158,7 @@ const serializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -11172,7 +11172,7 @@ const deserializeAws_restJson1_1BulkDeployment = (
     __type: "BulkDeployment",
     BulkDeploymentArn: undefined,
     BulkDeploymentId: undefined,
-    CreatedAt: undefined
+    CreatedAt: undefined,
   };
   if (
     output.BulkDeploymentArn !== undefined &&
@@ -11200,7 +11200,7 @@ const deserializeAws_restJson1_1BulkDeploymentMetrics = (
     __type: "BulkDeploymentMetrics",
     InvalidInputRecords: undefined,
     RecordsProcessed: undefined,
-    RetryAttempts: undefined
+    RetryAttempts: undefined,
   };
   if (
     output.InvalidInputRecords !== undefined &&
@@ -11233,7 +11233,7 @@ const deserializeAws_restJson1_1BulkDeploymentResult = (
     DeploymentType: undefined,
     ErrorDetails: undefined,
     ErrorMessage: undefined,
-    GroupArn: undefined
+    GroupArn: undefined,
   };
   if (output.CreatedAt !== undefined && output.CreatedAt !== null) {
     contents.CreatedAt = output.CreatedAt;
@@ -11295,7 +11295,7 @@ const deserializeAws_restJson1_1ConnectivityInfo = (
     HostAddress: undefined,
     Id: undefined,
     Metadata: undefined,
-    PortNumber: undefined
+    PortNumber: undefined,
   };
   if (output.HostAddress !== undefined && output.HostAddress !== null) {
     contents.HostAddress = output.HostAddress;
@@ -11320,7 +11320,7 @@ const deserializeAws_restJson1_1Connector = (
     __type: "Connector",
     ConnectorArn: undefined,
     Id: undefined,
-    Parameters: undefined
+    Parameters: undefined,
   };
   if (output.ConnectorArn !== undefined && output.ConnectorArn !== null) {
     contents.ConnectorArn = output.ConnectorArn;
@@ -11343,7 +11343,7 @@ const deserializeAws_restJson1_1ConnectorDefinitionVersion = (
 ): ConnectorDefinitionVersion => {
   let contents: any = {
     __type: "ConnectorDefinitionVersion",
-    Connectors: undefined
+    Connectors: undefined,
   };
   if (output.Connectors !== undefined && output.Connectors !== null) {
     contents.Connectors = deserializeAws_restJson1_1__listOfConnector(
@@ -11363,7 +11363,7 @@ const deserializeAws_restJson1_1Core = (
     CertificateArn: undefined,
     Id: undefined,
     SyncShadow: undefined,
-    ThingArn: undefined
+    ThingArn: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -11386,7 +11386,7 @@ const deserializeAws_restJson1_1CoreDefinitionVersion = (
 ): CoreDefinitionVersion => {
   let contents: any = {
     __type: "CoreDefinitionVersion",
-    Cores: undefined
+    Cores: undefined,
   };
   if (output.Cores !== undefined && output.Cores !== null) {
     contents.Cores = deserializeAws_restJson1_1__listOfCore(
@@ -11410,7 +11410,7 @@ const deserializeAws_restJson1_1DefinitionInformation = (
     LatestVersion: undefined,
     LatestVersionArn: undefined,
     Name: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -11458,7 +11458,7 @@ const deserializeAws_restJson1_1Deployment = (
     DeploymentArn: undefined,
     DeploymentId: undefined,
     DeploymentType: undefined,
-    GroupArn: undefined
+    GroupArn: undefined,
   };
   if (output.CreatedAt !== undefined && output.CreatedAt !== null) {
     contents.CreatedAt = output.CreatedAt;
@@ -11496,7 +11496,7 @@ const deserializeAws_restJson1_1Device = (
     CertificateArn: undefined,
     Id: undefined,
     SyncShadow: undefined,
-    ThingArn: undefined
+    ThingArn: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -11519,7 +11519,7 @@ const deserializeAws_restJson1_1DeviceDefinitionVersion = (
 ): DeviceDefinitionVersion => {
   let contents: any = {
     __type: "DeviceDefinitionVersion",
-    Devices: undefined
+    Devices: undefined,
   };
   if (output.Devices !== undefined && output.Devices !== null) {
     contents.Devices = deserializeAws_restJson1_1__listOfDevice(
@@ -11537,7 +11537,7 @@ const deserializeAws_restJson1_1ErrorDetail = (
   let contents: any = {
     __type: "ErrorDetail",
     DetailedErrorCode: undefined,
-    DetailedErrorMessage: undefined
+    DetailedErrorMessage: undefined,
   };
   if (
     output.DetailedErrorCode !== undefined &&
@@ -11571,7 +11571,7 @@ const deserializeAws_restJson1_1Function = (
     __type: "Function",
     FunctionArn: undefined,
     FunctionConfiguration: undefined,
-    Id: undefined
+    Id: undefined,
   };
   if (output.FunctionArn !== undefined && output.FunctionArn !== null) {
     contents.FunctionArn = output.FunctionArn;
@@ -11603,7 +11603,7 @@ const deserializeAws_restJson1_1FunctionConfiguration = (
     Executable: undefined,
     MemorySize: undefined,
     Pinned: undefined,
-    Timeout: undefined
+    Timeout: undefined,
   };
   if (output.EncodingType !== undefined && output.EncodingType !== null) {
     contents.EncodingType = output.EncodingType;
@@ -11641,7 +11641,7 @@ const deserializeAws_restJson1_1FunctionConfigurationEnvironment = (
     AccessSysfs: undefined,
     Execution: undefined,
     ResourceAccessPolicies: undefined,
-    Variables: undefined
+    Variables: undefined,
   };
   if (output.AccessSysfs !== undefined && output.AccessSysfs !== null) {
     contents.AccessSysfs = output.AccessSysfs;
@@ -11676,7 +11676,7 @@ const deserializeAws_restJson1_1FunctionDefaultConfig = (
 ): FunctionDefaultConfig => {
   let contents: any = {
     __type: "FunctionDefaultConfig",
-    Execution: undefined
+    Execution: undefined,
   };
   if (output.Execution !== undefined && output.Execution !== null) {
     contents.Execution = deserializeAws_restJson1_1FunctionDefaultExecutionConfig(
@@ -11694,7 +11694,7 @@ const deserializeAws_restJson1_1FunctionDefaultExecutionConfig = (
   let contents: any = {
     __type: "FunctionDefaultExecutionConfig",
     IsolationMode: undefined,
-    RunAs: undefined
+    RunAs: undefined,
   };
   if (output.IsolationMode !== undefined && output.IsolationMode !== null) {
     contents.IsolationMode = output.IsolationMode;
@@ -11715,7 +11715,7 @@ const deserializeAws_restJson1_1FunctionDefinitionVersion = (
   let contents: any = {
     __type: "FunctionDefinitionVersion",
     DefaultConfig: undefined,
-    Functions: undefined
+    Functions: undefined,
   };
   if (output.DefaultConfig !== undefined && output.DefaultConfig !== null) {
     contents.DefaultConfig = deserializeAws_restJson1_1FunctionDefaultConfig(
@@ -11739,7 +11739,7 @@ const deserializeAws_restJson1_1FunctionExecutionConfig = (
   let contents: any = {
     __type: "FunctionExecutionConfig",
     IsolationMode: undefined,
-    RunAs: undefined
+    RunAs: undefined,
   };
   if (output.IsolationMode !== undefined && output.IsolationMode !== null) {
     contents.IsolationMode = output.IsolationMode;
@@ -11760,7 +11760,7 @@ const deserializeAws_restJson1_1FunctionRunAsConfig = (
   let contents: any = {
     __type: "FunctionRunAsConfig",
     Gid: undefined,
-    Uid: undefined
+    Uid: undefined,
   };
   if (output.Gid !== undefined && output.Gid !== null) {
     contents.Gid = output.Gid;
@@ -11778,7 +11778,7 @@ const deserializeAws_restJson1_1GroupCertificateAuthorityProperties = (
   let contents: any = {
     __type: "GroupCertificateAuthorityProperties",
     GroupCertificateAuthorityArn: undefined,
-    GroupCertificateAuthorityId: undefined
+    GroupCertificateAuthorityId: undefined,
   };
   if (
     output.GroupCertificateAuthorityArn !== undefined &&
@@ -11807,7 +11807,7 @@ const deserializeAws_restJson1_1GroupInformation = (
     LastUpdatedTimestamp: undefined,
     LatestVersion: undefined,
     LatestVersionArn: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -11849,7 +11849,7 @@ const deserializeAws_restJson1_1GroupOwnerSetting = (
   let contents: any = {
     __type: "GroupOwnerSetting",
     AutoAddGroupOwner: undefined,
-    GroupOwner: undefined
+    GroupOwner: undefined,
   };
   if (
     output.AutoAddGroupOwner !== undefined &&
@@ -11875,7 +11875,7 @@ const deserializeAws_restJson1_1GroupVersion = (
     FunctionDefinitionVersionArn: undefined,
     LoggerDefinitionVersionArn: undefined,
     ResourceDefinitionVersionArn: undefined,
-    SubscriptionDefinitionVersionArn: undefined
+    SubscriptionDefinitionVersionArn: undefined,
   };
   if (
     output.ConnectorDefinitionVersionArn !== undefined &&
@@ -11931,7 +11931,7 @@ const deserializeAws_restJson1_1LocalDeviceResourceData = (
   let contents: any = {
     __type: "LocalDeviceResourceData",
     GroupOwnerSetting: undefined,
-    SourcePath: undefined
+    SourcePath: undefined,
   };
   if (
     output.GroupOwnerSetting !== undefined &&
@@ -11956,7 +11956,7 @@ const deserializeAws_restJson1_1LocalVolumeResourceData = (
     __type: "LocalVolumeResourceData",
     DestinationPath: undefined,
     GroupOwnerSetting: undefined,
-    SourcePath: undefined
+    SourcePath: undefined,
   };
   if (output.DestinationPath !== undefined && output.DestinationPath !== null) {
     contents.DestinationPath = output.DestinationPath;
@@ -11986,7 +11986,7 @@ const deserializeAws_restJson1_1Logger = (
     Id: undefined,
     Level: undefined,
     Space: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Component !== undefined && output.Component !== null) {
     contents.Component = output.Component;
@@ -12012,7 +12012,7 @@ const deserializeAws_restJson1_1LoggerDefinitionVersion = (
 ): LoggerDefinitionVersion => {
   let contents: any = {
     __type: "LoggerDefinitionVersion",
-    Loggers: undefined
+    Loggers: undefined,
   };
   if (output.Loggers !== undefined && output.Loggers !== null) {
     contents.Loggers = deserializeAws_restJson1_1__listOfLogger(
@@ -12031,7 +12031,7 @@ const deserializeAws_restJson1_1Resource = (
     __type: "Resource",
     Id: undefined,
     Name: undefined,
-    ResourceDataContainer: undefined
+    ResourceDataContainer: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -12058,7 +12058,7 @@ const deserializeAws_restJson1_1ResourceAccessPolicy = (
   let contents: any = {
     __type: "ResourceAccessPolicy",
     Permission: undefined,
-    ResourceId: undefined
+    ResourceId: undefined,
   };
   if (output.Permission !== undefined && output.Permission !== null) {
     contents.Permission = output.Permission;
@@ -12079,7 +12079,7 @@ const deserializeAws_restJson1_1ResourceDataContainer = (
     LocalVolumeResourceData: undefined,
     S3MachineLearningModelResourceData: undefined,
     SageMakerMachineLearningModelResourceData: undefined,
-    SecretsManagerSecretResourceData: undefined
+    SecretsManagerSecretResourceData: undefined,
   };
   if (
     output.LocalDeviceResourceData !== undefined &&
@@ -12135,7 +12135,7 @@ const deserializeAws_restJson1_1ResourceDefinitionVersion = (
 ): ResourceDefinitionVersion => {
   let contents: any = {
     __type: "ResourceDefinitionVersion",
-    Resources: undefined
+    Resources: undefined,
   };
   if (output.Resources !== undefined && output.Resources !== null) {
     contents.Resources = deserializeAws_restJson1_1__listOfResource(
@@ -12153,7 +12153,7 @@ const deserializeAws_restJson1_1ResourceDownloadOwnerSetting = (
   let contents: any = {
     __type: "ResourceDownloadOwnerSetting",
     GroupOwner: undefined,
-    GroupPermission: undefined
+    GroupPermission: undefined,
   };
   if (output.GroupOwner !== undefined && output.GroupOwner !== null) {
     contents.GroupOwner = output.GroupOwner;
@@ -12172,7 +12172,7 @@ const deserializeAws_restJson1_1S3MachineLearningModelResourceData = (
     __type: "S3MachineLearningModelResourceData",
     DestinationPath: undefined,
     OwnerSetting: undefined,
-    S3Uri: undefined
+    S3Uri: undefined,
   };
   if (output.DestinationPath !== undefined && output.DestinationPath !== null) {
     contents.DestinationPath = output.DestinationPath;
@@ -12197,7 +12197,7 @@ const deserializeAws_restJson1_1SageMakerMachineLearningModelResourceData = (
     __type: "SageMakerMachineLearningModelResourceData",
     DestinationPath: undefined,
     OwnerSetting: undefined,
-    SageMakerJobArn: undefined
+    SageMakerJobArn: undefined,
   };
   if (output.DestinationPath !== undefined && output.DestinationPath !== null) {
     contents.DestinationPath = output.DestinationPath;
@@ -12221,7 +12221,7 @@ const deserializeAws_restJson1_1SecretsManagerSecretResourceData = (
   let contents: any = {
     __type: "SecretsManagerSecretResourceData",
     ARN: undefined,
-    AdditionalStagingLabelsToDownload: undefined
+    AdditionalStagingLabelsToDownload: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -12247,7 +12247,7 @@ const deserializeAws_restJson1_1Subscription = (
     Id: undefined,
     Source: undefined,
     Subject: undefined,
-    Target: undefined
+    Target: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -12270,7 +12270,7 @@ const deserializeAws_restJson1_1SubscriptionDefinitionVersion = (
 ): SubscriptionDefinitionVersion => {
   let contents: any = {
     __type: "SubscriptionDefinitionVersion",
-    Subscriptions: undefined
+    Subscriptions: undefined,
   };
   if (output.Subscriptions !== undefined && output.Subscriptions !== null) {
     contents.Subscriptions = deserializeAws_restJson1_1__listOfSubscription(
@@ -12286,7 +12286,7 @@ const deserializeAws_restJson1_1Tags = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -12301,7 +12301,7 @@ const deserializeAws_restJson1_1VersionInformation = (
     Arn: undefined,
     CreationTimestamp: undefined,
     Id: undefined,
-    Version: undefined
+    Version: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -12453,7 +12453,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -12462,7 +12462,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -12483,13 +12483,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -12502,7 +12502,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

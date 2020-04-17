@@ -1,118 +1,118 @@
 import {
   DeleteAlarmsCommandInput,
-  DeleteAlarmsCommandOutput
+  DeleteAlarmsCommandOutput,
 } from "../commands/DeleteAlarmsCommand";
 import {
   DeleteAnomalyDetectorCommandInput,
-  DeleteAnomalyDetectorCommandOutput
+  DeleteAnomalyDetectorCommandOutput,
 } from "../commands/DeleteAnomalyDetectorCommand";
 import {
   DeleteDashboardsCommandInput,
-  DeleteDashboardsCommandOutput
+  DeleteDashboardsCommandOutput,
 } from "../commands/DeleteDashboardsCommand";
 import {
   DeleteInsightRulesCommandInput,
-  DeleteInsightRulesCommandOutput
+  DeleteInsightRulesCommandOutput,
 } from "../commands/DeleteInsightRulesCommand";
 import {
   DescribeAlarmHistoryCommandInput,
-  DescribeAlarmHistoryCommandOutput
+  DescribeAlarmHistoryCommandOutput,
 } from "../commands/DescribeAlarmHistoryCommand";
 import {
   DescribeAlarmsCommandInput,
-  DescribeAlarmsCommandOutput
+  DescribeAlarmsCommandOutput,
 } from "../commands/DescribeAlarmsCommand";
 import {
   DescribeAlarmsForMetricCommandInput,
-  DescribeAlarmsForMetricCommandOutput
+  DescribeAlarmsForMetricCommandOutput,
 } from "../commands/DescribeAlarmsForMetricCommand";
 import {
   DescribeAnomalyDetectorsCommandInput,
-  DescribeAnomalyDetectorsCommandOutput
+  DescribeAnomalyDetectorsCommandOutput,
 } from "../commands/DescribeAnomalyDetectorsCommand";
 import {
   DescribeInsightRulesCommandInput,
-  DescribeInsightRulesCommandOutput
+  DescribeInsightRulesCommandOutput,
 } from "../commands/DescribeInsightRulesCommand";
 import {
   DisableAlarmActionsCommandInput,
-  DisableAlarmActionsCommandOutput
+  DisableAlarmActionsCommandOutput,
 } from "../commands/DisableAlarmActionsCommand";
 import {
   DisableInsightRulesCommandInput,
-  DisableInsightRulesCommandOutput
+  DisableInsightRulesCommandOutput,
 } from "../commands/DisableInsightRulesCommand";
 import {
   EnableAlarmActionsCommandInput,
-  EnableAlarmActionsCommandOutput
+  EnableAlarmActionsCommandOutput,
 } from "../commands/EnableAlarmActionsCommand";
 import {
   EnableInsightRulesCommandInput,
-  EnableInsightRulesCommandOutput
+  EnableInsightRulesCommandOutput,
 } from "../commands/EnableInsightRulesCommand";
 import {
   GetDashboardCommandInput,
-  GetDashboardCommandOutput
+  GetDashboardCommandOutput,
 } from "../commands/GetDashboardCommand";
 import {
   GetInsightRuleReportCommandInput,
-  GetInsightRuleReportCommandOutput
+  GetInsightRuleReportCommandOutput,
 } from "../commands/GetInsightRuleReportCommand";
 import {
   GetMetricDataCommandInput,
-  GetMetricDataCommandOutput
+  GetMetricDataCommandOutput,
 } from "../commands/GetMetricDataCommand";
 import {
   GetMetricStatisticsCommandInput,
-  GetMetricStatisticsCommandOutput
+  GetMetricStatisticsCommandOutput,
 } from "../commands/GetMetricStatisticsCommand";
 import {
   GetMetricWidgetImageCommandInput,
-  GetMetricWidgetImageCommandOutput
+  GetMetricWidgetImageCommandOutput,
 } from "../commands/GetMetricWidgetImageCommand";
 import {
   ListDashboardsCommandInput,
-  ListDashboardsCommandOutput
+  ListDashboardsCommandOutput,
 } from "../commands/ListDashboardsCommand";
 import {
   ListMetricsCommandInput,
-  ListMetricsCommandOutput
+  ListMetricsCommandOutput,
 } from "../commands/ListMetricsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutAnomalyDetectorCommandInput,
-  PutAnomalyDetectorCommandOutput
+  PutAnomalyDetectorCommandOutput,
 } from "../commands/PutAnomalyDetectorCommand";
 import {
   PutDashboardCommandInput,
-  PutDashboardCommandOutput
+  PutDashboardCommandOutput,
 } from "../commands/PutDashboardCommand";
 import {
   PutInsightRuleCommandInput,
-  PutInsightRuleCommandOutput
+  PutInsightRuleCommandOutput,
 } from "../commands/PutInsightRuleCommand";
 import {
   PutMetricAlarmCommandInput,
-  PutMetricAlarmCommandOutput
+  PutMetricAlarmCommandOutput,
 } from "../commands/PutMetricAlarmCommand";
 import {
   PutMetricDataCommandInput,
-  PutMetricDataCommandOutput
+  PutMetricDataCommandOutput,
 } from "../commands/PutMetricDataCommand";
 import {
   SetAlarmStateCommandInput,
-  SetAlarmStateCommandOutput
+  SetAlarmStateCommandOutput,
 } from "../commands/SetAlarmStateCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   AlarmHistoryItem,
@@ -203,22 +203,22 @@ import {
   TagResourceInput,
   TagResourceOutput,
   UntagResourceInput,
-  UntagResourceOutput
+  UntagResourceOutput,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { parse as xmlParse } from "fast-xml-parser";
 
@@ -233,7 +233,7 @@ export async function serializeAws_queryDeleteAlarmsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteAlarms",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -249,7 +249,7 @@ export async function serializeAws_queryDeleteAnomalyDetectorCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteAnomalyDetector",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -265,7 +265,7 @@ export async function serializeAws_queryDeleteDashboardsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteDashboards",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -281,7 +281,7 @@ export async function serializeAws_queryDeleteInsightRulesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteInsightRules",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -297,7 +297,7 @@ export async function serializeAws_queryDescribeAlarmHistoryCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeAlarmHistory",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -313,7 +313,7 @@ export async function serializeAws_queryDescribeAlarmsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeAlarms",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -332,7 +332,7 @@ export async function serializeAws_queryDescribeAlarmsForMetricCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeAlarmsForMetric",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -351,7 +351,7 @@ export async function serializeAws_queryDescribeAnomalyDetectorsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeAnomalyDetectors",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -367,7 +367,7 @@ export async function serializeAws_queryDescribeInsightRulesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeInsightRules",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -383,7 +383,7 @@ export async function serializeAws_queryDisableAlarmActionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DisableAlarmActions",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -399,7 +399,7 @@ export async function serializeAws_queryDisableInsightRulesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DisableInsightRules",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -415,7 +415,7 @@ export async function serializeAws_queryEnableAlarmActionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "EnableAlarmActions",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -431,7 +431,7 @@ export async function serializeAws_queryEnableInsightRulesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "EnableInsightRules",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -447,7 +447,7 @@ export async function serializeAws_queryGetDashboardCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetDashboard",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -463,7 +463,7 @@ export async function serializeAws_queryGetInsightRuleReportCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetInsightRuleReport",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -479,7 +479,7 @@ export async function serializeAws_queryGetMetricDataCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetMetricData",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -495,7 +495,7 @@ export async function serializeAws_queryGetMetricStatisticsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetMetricStatistics",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -511,7 +511,7 @@ export async function serializeAws_queryGetMetricWidgetImageCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetMetricWidgetImage",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -527,7 +527,7 @@ export async function serializeAws_queryListDashboardsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListDashboards",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -543,7 +543,7 @@ export async function serializeAws_queryListMetricsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListMetrics",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -559,7 +559,7 @@ export async function serializeAws_queryListTagsForResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListTagsForResource",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -575,7 +575,7 @@ export async function serializeAws_queryPutAnomalyDetectorCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutAnomalyDetector",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -591,7 +591,7 @@ export async function serializeAws_queryPutDashboardCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutDashboard",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -607,7 +607,7 @@ export async function serializeAws_queryPutInsightRuleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutInsightRule",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -623,7 +623,7 @@ export async function serializeAws_queryPutMetricAlarmCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutMetricAlarm",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -639,7 +639,7 @@ export async function serializeAws_queryPutMetricDataCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutMetricData",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -655,7 +655,7 @@ export async function serializeAws_querySetAlarmStateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetAlarmState",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -671,7 +671,7 @@ export async function serializeAws_queryTagResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "TagResource",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -687,7 +687,7 @@ export async function serializeAws_queryUntagResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UntagResource",
-    Version: "2010-08-01"
+    Version: "2010-08-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -701,7 +701,7 @@ export async function deserializeAws_queryDeleteAlarmsCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteAlarmsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -712,7 +712,7 @@ async function deserializeAws_queryDeleteAlarmsCommandError(
 ): Promise<DeleteAlarmsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -726,7 +726,7 @@ async function deserializeAws_queryDeleteAlarmsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -738,7 +738,7 @@ async function deserializeAws_queryDeleteAlarmsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -766,7 +766,7 @@ export async function deserializeAws_queryDeleteAnomalyDetectorCommand(
   const response: DeleteAnomalyDetectorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteAnomalyDetectorOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -777,7 +777,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
 ): Promise<DeleteAnomalyDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -791,7 +791,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -802,7 +802,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -813,7 +813,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -824,7 +824,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -836,7 +836,7 @@ async function deserializeAws_queryDeleteAnomalyDetectorCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -861,7 +861,7 @@ export async function deserializeAws_queryDeleteDashboardsCommand(
   const response: DeleteDashboardsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDashboardsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -872,7 +872,7 @@ async function deserializeAws_queryDeleteDashboardsCommandError(
 ): Promise<DeleteDashboardsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -886,7 +886,7 @@ async function deserializeAws_queryDeleteDashboardsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DashboardNotFoundError":
@@ -897,7 +897,7 @@ async function deserializeAws_queryDeleteDashboardsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -908,7 +908,7 @@ async function deserializeAws_queryDeleteDashboardsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -920,7 +920,7 @@ async function deserializeAws_queryDeleteDashboardsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -945,7 +945,7 @@ export async function deserializeAws_queryDeleteInsightRulesCommand(
   const response: DeleteInsightRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteInsightRulesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -956,7 +956,7 @@ async function deserializeAws_queryDeleteInsightRulesCommandError(
 ): Promise<DeleteInsightRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -970,7 +970,7 @@ async function deserializeAws_queryDeleteInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -981,7 +981,7 @@ async function deserializeAws_queryDeleteInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -993,7 +993,7 @@ async function deserializeAws_queryDeleteInsightRulesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1021,7 +1021,7 @@ export async function deserializeAws_queryDescribeAlarmHistoryCommand(
   const response: DescribeAlarmHistoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAlarmHistoryOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1032,7 +1032,7 @@ async function deserializeAws_queryDescribeAlarmHistoryCommandError(
 ): Promise<DescribeAlarmHistoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1046,7 +1046,7 @@ async function deserializeAws_queryDescribeAlarmHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1058,7 +1058,7 @@ async function deserializeAws_queryDescribeAlarmHistoryCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1083,7 +1083,7 @@ export async function deserializeAws_queryDescribeAlarmsCommand(
   const response: DescribeAlarmsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAlarmsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1094,7 +1094,7 @@ async function deserializeAws_queryDescribeAlarmsCommandError(
 ): Promise<DescribeAlarmsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1108,7 +1108,7 @@ async function deserializeAws_queryDescribeAlarmsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1120,7 +1120,7 @@ async function deserializeAws_queryDescribeAlarmsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1148,7 +1148,7 @@ export async function deserializeAws_queryDescribeAlarmsForMetricCommand(
   const response: DescribeAlarmsForMetricCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAlarmsForMetricOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1159,7 +1159,7 @@ async function deserializeAws_queryDescribeAlarmsForMetricCommandError(
 ): Promise<DescribeAlarmsForMetricCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1174,7 +1174,7 @@ async function deserializeAws_queryDescribeAlarmsForMetricCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1202,7 +1202,7 @@ export async function deserializeAws_queryDescribeAnomalyDetectorsCommand(
   const response: DescribeAnomalyDetectorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAnomalyDetectorsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1213,7 +1213,7 @@ async function deserializeAws_queryDescribeAnomalyDetectorsCommandError(
 ): Promise<DescribeAnomalyDetectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1227,7 +1227,7 @@ async function deserializeAws_queryDescribeAnomalyDetectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -1238,7 +1238,7 @@ async function deserializeAws_queryDescribeAnomalyDetectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextToken":
@@ -1249,7 +1249,7 @@ async function deserializeAws_queryDescribeAnomalyDetectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1261,7 +1261,7 @@ async function deserializeAws_queryDescribeAnomalyDetectorsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1289,7 +1289,7 @@ export async function deserializeAws_queryDescribeInsightRulesCommand(
   const response: DescribeInsightRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeInsightRulesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1300,7 +1300,7 @@ async function deserializeAws_queryDescribeInsightRulesCommandError(
 ): Promise<DescribeInsightRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1314,7 +1314,7 @@ async function deserializeAws_queryDescribeInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1326,7 +1326,7 @@ async function deserializeAws_queryDescribeInsightRulesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1344,7 +1344,7 @@ export async function deserializeAws_queryDisableAlarmActionsCommand(
   }
   await collectBody(output.body, context);
   const response: DisableAlarmActionsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1355,7 +1355,7 @@ async function deserializeAws_queryDisableAlarmActionsCommandError(
 ): Promise<DisableAlarmActionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1370,7 +1370,7 @@ async function deserializeAws_queryDisableAlarmActionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1395,7 +1395,7 @@ export async function deserializeAws_queryDisableInsightRulesCommand(
   const response: DisableInsightRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisableInsightRulesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1406,7 +1406,7 @@ async function deserializeAws_queryDisableInsightRulesCommandError(
 ): Promise<DisableInsightRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1420,7 +1420,7 @@ async function deserializeAws_queryDisableInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -1431,7 +1431,7 @@ async function deserializeAws_queryDisableInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1443,7 +1443,7 @@ async function deserializeAws_queryDisableInsightRulesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1461,7 +1461,7 @@ export async function deserializeAws_queryEnableAlarmActionsCommand(
   }
   await collectBody(output.body, context);
   const response: EnableAlarmActionsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1472,7 +1472,7 @@ async function deserializeAws_queryEnableAlarmActionsCommandError(
 ): Promise<EnableAlarmActionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1487,7 +1487,7 @@ async function deserializeAws_queryEnableAlarmActionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1512,7 +1512,7 @@ export async function deserializeAws_queryEnableInsightRulesCommand(
   const response: EnableInsightRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableInsightRulesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1523,7 +1523,7 @@ async function deserializeAws_queryEnableInsightRulesCommandError(
 ): Promise<EnableInsightRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1537,7 +1537,7 @@ async function deserializeAws_queryEnableInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -1548,7 +1548,7 @@ async function deserializeAws_queryEnableInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1559,7 +1559,7 @@ async function deserializeAws_queryEnableInsightRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1571,7 +1571,7 @@ async function deserializeAws_queryEnableInsightRulesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1596,7 +1596,7 @@ export async function deserializeAws_queryGetDashboardCommand(
   const response: GetDashboardCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDashboardOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1607,7 +1607,7 @@ async function deserializeAws_queryGetDashboardCommandError(
 ): Promise<GetDashboardCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1621,7 +1621,7 @@ async function deserializeAws_queryGetDashboardCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DashboardNotFoundError":
@@ -1632,7 +1632,7 @@ async function deserializeAws_queryGetDashboardCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -1643,7 +1643,7 @@ async function deserializeAws_queryGetDashboardCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1655,7 +1655,7 @@ async function deserializeAws_queryGetDashboardCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1683,7 +1683,7 @@ export async function deserializeAws_queryGetInsightRuleReportCommand(
   const response: GetInsightRuleReportCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInsightRuleReportOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1694,7 +1694,7 @@ async function deserializeAws_queryGetInsightRuleReportCommandError(
 ): Promise<GetInsightRuleReportCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1708,7 +1708,7 @@ async function deserializeAws_queryGetInsightRuleReportCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -1719,7 +1719,7 @@ async function deserializeAws_queryGetInsightRuleReportCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1730,7 +1730,7 @@ async function deserializeAws_queryGetInsightRuleReportCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1742,7 +1742,7 @@ async function deserializeAws_queryGetInsightRuleReportCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1767,7 +1767,7 @@ export async function deserializeAws_queryGetMetricDataCommand(
   const response: GetMetricDataCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetMetricDataOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1778,7 +1778,7 @@ async function deserializeAws_queryGetMetricDataCommandError(
 ): Promise<GetMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1792,7 +1792,7 @@ async function deserializeAws_queryGetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1804,7 +1804,7 @@ async function deserializeAws_queryGetMetricDataCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1829,7 +1829,7 @@ export async function deserializeAws_queryGetMetricStatisticsCommand(
   const response: GetMetricStatisticsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetMetricStatisticsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1840,7 +1840,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
 ): Promise<GetMetricStatisticsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1854,7 +1854,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -1865,7 +1865,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -1876,7 +1876,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -1887,7 +1887,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1899,7 +1899,7 @@ async function deserializeAws_queryGetMetricStatisticsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1927,7 +1927,7 @@ export async function deserializeAws_queryGetMetricWidgetImageCommand(
   const response: GetMetricWidgetImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetMetricWidgetImageOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1938,7 +1938,7 @@ async function deserializeAws_queryGetMetricWidgetImageCommandError(
 ): Promise<GetMetricWidgetImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1953,7 +1953,7 @@ async function deserializeAws_queryGetMetricWidgetImageCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1978,7 +1978,7 @@ export async function deserializeAws_queryListDashboardsCommand(
   const response: ListDashboardsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDashboardsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1989,7 +1989,7 @@ async function deserializeAws_queryListDashboardsCommandError(
 ): Promise<ListDashboardsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2003,7 +2003,7 @@ async function deserializeAws_queryListDashboardsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2014,7 +2014,7 @@ async function deserializeAws_queryListDashboardsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2026,7 +2026,7 @@ async function deserializeAws_queryListDashboardsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2051,7 +2051,7 @@ export async function deserializeAws_queryListMetricsCommand(
   const response: ListMetricsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListMetricsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2062,7 +2062,7 @@ async function deserializeAws_queryListMetricsCommandError(
 ): Promise<ListMetricsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2076,7 +2076,7 @@ async function deserializeAws_queryListMetricsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2087,7 +2087,7 @@ async function deserializeAws_queryListMetricsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2099,7 +2099,7 @@ async function deserializeAws_queryListMetricsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2124,7 +2124,7 @@ export async function deserializeAws_queryListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2135,7 +2135,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2149,7 +2149,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2160,7 +2160,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2171,7 +2171,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2183,7 +2183,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2208,7 +2208,7 @@ export async function deserializeAws_queryPutAnomalyDetectorCommand(
   const response: PutAnomalyDetectorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutAnomalyDetectorOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2219,7 +2219,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
 ): Promise<PutAnomalyDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2233,7 +2233,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -2244,7 +2244,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2255,7 +2255,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2266,7 +2266,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2278,7 +2278,7 @@ async function deserializeAws_queryPutAnomalyDetectorCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2303,7 +2303,7 @@ export async function deserializeAws_queryPutDashboardCommand(
   const response: PutDashboardCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutDashboardOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2314,7 +2314,7 @@ async function deserializeAws_queryPutDashboardCommandError(
 ): Promise<PutDashboardCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2328,7 +2328,7 @@ async function deserializeAws_queryPutDashboardCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2339,7 +2339,7 @@ async function deserializeAws_queryPutDashboardCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2351,7 +2351,7 @@ async function deserializeAws_queryPutDashboardCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2376,7 +2376,7 @@ export async function deserializeAws_queryPutInsightRuleCommand(
   const response: PutInsightRuleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutInsightRuleOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2387,7 +2387,7 @@ async function deserializeAws_queryPutInsightRuleCommandError(
 ): Promise<PutInsightRuleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2401,7 +2401,7 @@ async function deserializeAws_queryPutInsightRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -2412,7 +2412,7 @@ async function deserializeAws_queryPutInsightRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2423,7 +2423,7 @@ async function deserializeAws_queryPutInsightRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2435,7 +2435,7 @@ async function deserializeAws_queryPutInsightRuleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2453,7 +2453,7 @@ export async function deserializeAws_queryPutMetricAlarmCommand(
   }
   await collectBody(output.body, context);
   const response: PutMetricAlarmCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2464,7 +2464,7 @@ async function deserializeAws_queryPutMetricAlarmCommandError(
 ): Promise<PutMetricAlarmCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2478,7 +2478,7 @@ async function deserializeAws_queryPutMetricAlarmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2490,7 +2490,7 @@ async function deserializeAws_queryPutMetricAlarmCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2508,7 +2508,7 @@ export async function deserializeAws_queryPutMetricDataCommand(
   }
   await collectBody(output.body, context);
   const response: PutMetricDataCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2519,7 +2519,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
 ): Promise<PutMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2533,7 +2533,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -2544,7 +2544,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -2555,7 +2555,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2566,7 +2566,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2578,7 +2578,7 @@ async function deserializeAws_queryPutMetricDataCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2596,7 +2596,7 @@ export async function deserializeAws_querySetAlarmStateCommand(
   }
   await collectBody(output.body, context);
   const response: SetAlarmStateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2607,7 +2607,7 @@ async function deserializeAws_querySetAlarmStateCommandError(
 ): Promise<SetAlarmStateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2621,7 +2621,7 @@ async function deserializeAws_querySetAlarmStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -2632,7 +2632,7 @@ async function deserializeAws_querySetAlarmStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2644,7 +2644,7 @@ async function deserializeAws_querySetAlarmStateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2669,7 +2669,7 @@ export async function deserializeAws_queryTagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2680,7 +2680,7 @@ async function deserializeAws_queryTagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2694,7 +2694,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2705,7 +2705,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2716,7 +2716,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2727,7 +2727,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2739,7 +2739,7 @@ async function deserializeAws_queryTagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2764,7 +2764,7 @@ export async function deserializeAws_queryUntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2775,7 +2775,7 @@ async function deserializeAws_queryUntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2789,7 +2789,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2800,7 +2800,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceFault":
@@ -2811,7 +2811,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2822,7 +2822,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2834,7 +2834,7 @@ async function deserializeAws_queryUntagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2856,7 +2856,7 @@ const deserializeAws_queryInvalidParameterCombinationExceptionResponse = async (
     name: "InvalidParameterCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2874,7 +2874,7 @@ const deserializeAws_queryInvalidParameterValueExceptionResponse = async (
     name: "InvalidParameterValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2892,7 +2892,7 @@ const deserializeAws_queryMissingRequiredParameterExceptionResponse = async (
     name: "MissingRequiredParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2910,7 +2910,7 @@ const deserializeAws_queryConcurrentModificationExceptionResponse = async (
     name: "ConcurrentModificationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2928,7 +2928,7 @@ const deserializeAws_queryDashboardInvalidInputErrorResponse = async (
     name: "DashboardInvalidInputError",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2946,7 +2946,7 @@ const deserializeAws_queryDashboardNotFoundErrorResponse = async (
     name: "DashboardNotFoundError",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2964,7 +2964,7 @@ const deserializeAws_queryInternalServiceFaultResponse = async (
     name: "InternalServiceFault",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2982,7 +2982,7 @@ const deserializeAws_queryInvalidFormatFaultResponse = async (
     name: "InvalidFormatFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3000,7 +3000,7 @@ const deserializeAws_queryInvalidNextTokenResponse = async (
     name: "InvalidNextToken",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3018,7 +3018,7 @@ const deserializeAws_queryLimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3036,7 +3036,7 @@ const deserializeAws_queryLimitExceededFaultResponse = async (
     name: "LimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3054,7 +3054,7 @@ const deserializeAws_queryResourceNotFoundResponse = async (
     name: "ResourceNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3072,7 +3072,7 @@ const deserializeAws_queryResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3100,7 +3100,7 @@ const serializeAws_queryAnomalyDetectorConfiguration = (
       input.ExcludedTimeRanges,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ExcludedTimeRanges.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3119,7 +3119,7 @@ const serializeAws_queryAnomalyDetectorExcludedTimeRanges = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryRange(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -3163,7 +3163,7 @@ const serializeAws_queryDeleteAlarmsInput = (
       input.AlarmNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AlarmNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3181,7 +3181,7 @@ const serializeAws_queryDeleteAnomalyDetectorInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3208,7 +3208,7 @@ const serializeAws_queryDeleteDashboardsInput = (
       input.DashboardNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `DashboardNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3226,7 +3226,7 @@ const serializeAws_queryDeleteInsightRulesInput = (
       input.RuleNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RuleNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3270,7 +3270,7 @@ const serializeAws_queryDescribeAlarmsForMetricInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3312,7 +3312,7 @@ const serializeAws_queryDescribeAlarmsInput = (
       input.AlarmNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AlarmNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3339,7 +3339,7 @@ const serializeAws_queryDescribeAnomalyDetectorsInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3409,7 +3409,7 @@ const serializeAws_queryDimensionFilters = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryDimensionFilter(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -3425,7 +3425,7 @@ const serializeAws_queryDimensions = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryDimension(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -3443,7 +3443,7 @@ const serializeAws_queryDisableAlarmActionsInput = (
       input.AlarmNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AlarmNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3461,7 +3461,7 @@ const serializeAws_queryDisableInsightRulesInput = (
       input.RuleNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RuleNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3479,7 +3479,7 @@ const serializeAws_queryEnableAlarmActionsInput = (
       input.AlarmNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AlarmNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3497,7 +3497,7 @@ const serializeAws_queryEnableInsightRulesInput = (
       input.RuleNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RuleNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3545,7 +3545,7 @@ const serializeAws_queryGetInsightRuleReportInput = (
       input.Metrics,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Metrics.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3581,7 +3581,7 @@ const serializeAws_queryGetMetricDataInput = (
       input.MetricDataQueries,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MetricDataQueries.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3608,7 +3608,7 @@ const serializeAws_queryGetMetricStatisticsInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3621,7 +3621,7 @@ const serializeAws_queryGetMetricStatisticsInput = (
       input.ExtendedStatistics,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ExtendedStatistics.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3643,7 +3643,7 @@ const serializeAws_queryGetMetricStatisticsInput = (
       input.Statistics,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Statistics.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3718,7 +3718,7 @@ const serializeAws_queryListMetricsInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3756,7 +3756,7 @@ const serializeAws_queryMetric = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3778,7 +3778,7 @@ const serializeAws_queryMetricData = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryMetricDatum(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -3794,7 +3794,7 @@ const serializeAws_queryMetricDataQueries = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryMetricDataQuery(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -3821,7 +3821,7 @@ const serializeAws_queryMetricDataQuery = (
       input.MetricStat,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MetricStat.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3842,7 +3842,7 @@ const serializeAws_queryMetricDatum = (
   const entries: any = {};
   if (input.Counts !== undefined) {
     const memberEntries = serializeAws_queryCounts(input.Counts, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Counts.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3852,7 +3852,7 @@ const serializeAws_queryMetricDatum = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3865,7 +3865,7 @@ const serializeAws_queryMetricDatum = (
       input.StatisticValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `StatisticValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3884,7 +3884,7 @@ const serializeAws_queryMetricDatum = (
   }
   if (input.Values !== undefined) {
     const memberEntries = serializeAws_queryValues(input.Values, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Values.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3899,7 +3899,7 @@ const serializeAws_queryMetricStat = (
   const entries: any = {};
   if (input.Metric !== undefined) {
     const memberEntries = serializeAws_queryMetric(input.Metric, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Metric.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3926,7 +3926,7 @@ const serializeAws_queryPutAnomalyDetectorInput = (
       input.Configuration,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Configuration.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3936,7 +3936,7 @@ const serializeAws_queryPutAnomalyDetectorInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -3997,7 +3997,7 @@ const serializeAws_queryPutMetricAlarmInput = (
       input.AlarmActions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AlarmActions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4019,7 +4019,7 @@ const serializeAws_queryPutMetricAlarmInput = (
       input.Dimensions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Dimensions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4039,7 +4039,7 @@ const serializeAws_queryPutMetricAlarmInput = (
       input.InsufficientDataActions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `InsufficientDataActions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4052,7 +4052,7 @@ const serializeAws_queryPutMetricAlarmInput = (
       input.Metrics,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Metrics.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4065,7 +4065,7 @@ const serializeAws_queryPutMetricAlarmInput = (
       input.OKActions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `OKActions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4078,7 +4078,7 @@ const serializeAws_queryPutMetricAlarmInput = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4108,7 +4108,7 @@ const serializeAws_queryPutMetricDataInput = (
       input.MetricData,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MetricData.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4231,7 +4231,7 @@ const serializeAws_queryTagList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryTag(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -4249,7 +4249,7 @@ const serializeAws_queryTagResourceInput = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4267,7 +4267,7 @@ const serializeAws_queryUntagResourceInput = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4294,7 +4294,7 @@ const deserializeAws_queryInvalidParameterCombinationException = (
 ): InvalidParameterCombinationException => {
   let contents: any = {
     __type: "InvalidParameterCombinationException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -4308,7 +4308,7 @@ const deserializeAws_queryInvalidParameterValueException = (
 ): InvalidParameterValueException => {
   let contents: any = {
     __type: "InvalidParameterValueException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -4322,7 +4322,7 @@ const deserializeAws_queryMissingRequiredParameterException = (
 ): MissingRequiredParameterException => {
   let contents: any = {
     __type: "MissingRequiredParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -4340,7 +4340,7 @@ const deserializeAws_queryAlarmHistoryItem = (
     HistoryData: undefined,
     HistoryItemType: undefined,
     HistorySummary: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output["AlarmName"] !== undefined) {
     contents.AlarmName = output["AlarmName"];
@@ -4382,7 +4382,7 @@ const deserializeAws_queryAnomalyDetector = (
     MetricName: undefined,
     Namespace: undefined,
     Stat: undefined,
-    StateValue: undefined
+    StateValue: undefined,
   };
   if (output["Configuration"] !== undefined) {
     contents.Configuration = deserializeAws_queryAnomalyDetectorConfiguration(
@@ -4425,7 +4425,7 @@ const deserializeAws_queryAnomalyDetectorConfiguration = (
   let contents: any = {
     __type: "AnomalyDetectorConfiguration",
     ExcludedTimeRanges: undefined,
-    MetricTimezone: undefined
+    MetricTimezone: undefined,
   };
   if (output.ExcludedTimeRanges === "") {
     contents.ExcludedTimeRanges = [];
@@ -4488,7 +4488,7 @@ const deserializeAws_queryConcurrentModificationException = (
 ): ConcurrentModificationException => {
   let contents: any = {
     __type: "ConcurrentModificationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output["Message"] !== undefined) {
     contents.Message = output["Message"];
@@ -4516,7 +4516,7 @@ const deserializeAws_queryDashboardEntry = (
     DashboardArn: undefined,
     DashboardName: undefined,
     LastModified: undefined,
-    Size: undefined
+    Size: undefined,
   };
   if (output["DashboardArn"] !== undefined) {
     contents.DashboardArn = output["DashboardArn"];
@@ -4540,7 +4540,7 @@ const deserializeAws_queryDashboardInvalidInputError = (
   let contents: any = {
     __type: "DashboardInvalidInputError",
     dashboardValidationMessages: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.dashboardValidationMessages === "") {
     contents.dashboardValidationMessages = [];
@@ -4570,7 +4570,7 @@ const deserializeAws_queryDashboardNotFoundError = (
 ): DashboardNotFoundError => {
   let contents: any = {
     __type: "DashboardNotFoundError",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -4585,7 +4585,7 @@ const deserializeAws_queryDashboardValidationMessage = (
   let contents: any = {
     __type: "DashboardValidationMessage",
     DataPath: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output["DataPath"] !== undefined) {
     contents.DataPath = output["DataPath"];
@@ -4622,7 +4622,7 @@ const deserializeAws_queryDatapoint = (
     SampleCount: undefined,
     Sum: undefined,
     Timestamp: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output["Average"] !== undefined) {
     contents.Average = parseFloat(output["Average"]);
@@ -4702,7 +4702,7 @@ const deserializeAws_queryDeleteAnomalyDetectorOutput = (
   context: __SerdeContext
 ): DeleteAnomalyDetectorOutput => {
   let contents: any = {
-    __type: "DeleteAnomalyDetectorOutput"
+    __type: "DeleteAnomalyDetectorOutput",
   };
   return contents;
 };
@@ -4712,7 +4712,7 @@ const deserializeAws_queryDeleteDashboardsOutput = (
   context: __SerdeContext
 ): DeleteDashboardsOutput => {
   let contents: any = {
-    __type: "DeleteDashboardsOutput"
+    __type: "DeleteDashboardsOutput",
   };
   return contents;
 };
@@ -4723,7 +4723,7 @@ const deserializeAws_queryDeleteInsightRulesOutput = (
 ): DeleteInsightRulesOutput => {
   let contents: any = {
     __type: "DeleteInsightRulesOutput",
-    Failures: undefined
+    Failures: undefined,
   };
   if (output.Failures === "") {
     contents.Failures = [];
@@ -4748,7 +4748,7 @@ const deserializeAws_queryDescribeAlarmHistoryOutput = (
   let contents: any = {
     __type: "DescribeAlarmHistoryOutput",
     AlarmHistoryItems: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.AlarmHistoryItems === "") {
     contents.AlarmHistoryItems = [];
@@ -4778,7 +4778,7 @@ const deserializeAws_queryDescribeAlarmsForMetricOutput = (
 ): DescribeAlarmsForMetricOutput => {
   let contents: any = {
     __type: "DescribeAlarmsForMetricOutput",
-    MetricAlarms: undefined
+    MetricAlarms: undefined,
   };
   if (output.MetricAlarms === "") {
     contents.MetricAlarms = [];
@@ -4806,7 +4806,7 @@ const deserializeAws_queryDescribeAlarmsOutput = (
   let contents: any = {
     __type: "DescribeAlarmsOutput",
     MetricAlarms: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.MetricAlarms === "") {
     contents.MetricAlarms = [];
@@ -4837,7 +4837,7 @@ const deserializeAws_queryDescribeAnomalyDetectorsOutput = (
   let contents: any = {
     __type: "DescribeAnomalyDetectorsOutput",
     AnomalyDetectors: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.AnomalyDetectors === "") {
     contents.AnomalyDetectors = [];
@@ -4868,7 +4868,7 @@ const deserializeAws_queryDescribeInsightRulesOutput = (
   let contents: any = {
     __type: "DescribeInsightRulesOutput",
     InsightRules: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.InsightRules === "") {
     contents.InsightRules = [];
@@ -4899,7 +4899,7 @@ const deserializeAws_queryDimension = (
   let contents: any = {
     __type: "Dimension",
     Name: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -4927,7 +4927,7 @@ const deserializeAws_queryDisableInsightRulesOutput = (
 ): DisableInsightRulesOutput => {
   let contents: any = {
     __type: "DisableInsightRulesOutput",
-    Failures: undefined
+    Failures: undefined,
   };
   if (output.Failures === "") {
     contents.Failures = [];
@@ -4951,7 +4951,7 @@ const deserializeAws_queryEnableInsightRulesOutput = (
 ): EnableInsightRulesOutput => {
   let contents: any = {
     __type: "EnableInsightRulesOutput",
-    Failures: undefined
+    Failures: undefined,
   };
   if (output.Failures === "") {
     contents.Failures = [];
@@ -4977,7 +4977,7 @@ const deserializeAws_queryGetDashboardOutput = (
     __type: "GetDashboardOutput",
     DashboardArn: undefined,
     DashboardBody: undefined,
-    DashboardName: undefined
+    DashboardName: undefined,
   };
   if (output["DashboardArn"] !== undefined) {
     contents.DashboardArn = output["DashboardArn"];
@@ -5002,7 +5002,7 @@ const deserializeAws_queryGetInsightRuleReportOutput = (
     ApproximateUniqueCount: undefined,
     Contributors: undefined,
     KeyLabels: undefined,
-    MetricDatapoints: undefined
+    MetricDatapoints: undefined,
   };
   if (output["AggregateValue"] !== undefined) {
     contents.AggregateValue = parseFloat(output["AggregateValue"]);
@@ -5074,7 +5074,7 @@ const deserializeAws_queryGetMetricDataOutput = (
     __type: "GetMetricDataOutput",
     Messages: undefined,
     MetricDataResults: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Messages === "") {
     contents.Messages = [];
@@ -5121,7 +5121,7 @@ const deserializeAws_queryGetMetricStatisticsOutput = (
   let contents: any = {
     __type: "GetMetricStatisticsOutput",
     Datapoints: undefined,
-    Label: undefined
+    Label: undefined,
   };
   if (output.Datapoints === "") {
     contents.Datapoints = [];
@@ -5148,7 +5148,7 @@ const deserializeAws_queryGetMetricWidgetImageOutput = (
 ): GetMetricWidgetImageOutput => {
   let contents: any = {
     __type: "GetMetricWidgetImageOutput",
-    MetricWidgetImage: undefined
+    MetricWidgetImage: undefined,
   };
   if (output["MetricWidgetImage"] !== undefined) {
     contents.MetricWidgetImage = context.base64Decoder(
@@ -5167,7 +5167,7 @@ const deserializeAws_queryInsightRule = (
     Definition: undefined,
     Name: undefined,
     Schema: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output["Definition"] !== undefined) {
     contents.Definition = output["Definition"];
@@ -5192,7 +5192,7 @@ const deserializeAws_queryInsightRuleContributor = (
     __type: "InsightRuleContributor",
     ApproximateAggregateValue: undefined,
     Datapoints: undefined,
-    Keys: undefined
+    Keys: undefined,
   };
   if (output["ApproximateAggregateValue"] !== undefined) {
     contents.ApproximateAggregateValue = parseFloat(
@@ -5238,7 +5238,7 @@ const deserializeAws_queryInsightRuleContributorDatapoint = (
   let contents: any = {
     __type: "InsightRuleContributorDatapoint",
     ApproximateValue: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output["ApproximateValue"] !== undefined) {
     contents.ApproximateValue = parseFloat(output["ApproximateValue"]);
@@ -5308,7 +5308,7 @@ const deserializeAws_queryInsightRuleMetricDatapoint = (
     SampleCount: undefined,
     Sum: undefined,
     Timestamp: undefined,
-    UniqueContributors: undefined
+    UniqueContributors: undefined,
   };
   if (output["Average"] !== undefined) {
     contents.Average = parseFloat(output["Average"]);
@@ -5367,7 +5367,7 @@ const deserializeAws_queryInternalServiceFault = (
 ): InternalServiceFault => {
   let contents: any = {
     __type: "InternalServiceFault",
-    Message: undefined
+    Message: undefined,
   };
   if (output["Message"] !== undefined) {
     contents.Message = output["Message"];
@@ -5381,7 +5381,7 @@ const deserializeAws_queryInvalidFormatFault = (
 ): InvalidFormatFault => {
   let contents: any = {
     __type: "InvalidFormatFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5395,7 +5395,7 @@ const deserializeAws_queryInvalidNextToken = (
 ): InvalidNextToken => {
   let contents: any = {
     __type: "InvalidNextToken",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5409,7 +5409,7 @@ const deserializeAws_queryLimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output["Message"] !== undefined) {
     contents.Message = output["Message"];
@@ -5423,7 +5423,7 @@ const deserializeAws_queryLimitExceededFault = (
 ): LimitExceededFault => {
   let contents: any = {
     __type: "LimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5438,7 +5438,7 @@ const deserializeAws_queryListDashboardsOutput = (
   let contents: any = {
     __type: "ListDashboardsOutput",
     DashboardEntries: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.DashboardEntries === "") {
     contents.DashboardEntries = [];
@@ -5469,7 +5469,7 @@ const deserializeAws_queryListMetricsOutput = (
   let contents: any = {
     __type: "ListMetricsOutput",
     Metrics: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Metrics === "") {
     contents.Metrics = [];
@@ -5496,7 +5496,7 @@ const deserializeAws_queryListTagsForResourceOutput = (
 ): ListTagsForResourceOutput => {
   let contents: any = {
     __type: "ListTagsForResourceOutput",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags === "") {
     contents.Tags = [];
@@ -5518,7 +5518,7 @@ const deserializeAws_queryMessageData = (
   let contents: any = {
     __type: "MessageData",
     Code: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Code"] !== undefined) {
     contents.Code = output["Code"];
@@ -5537,7 +5537,7 @@ const deserializeAws_queryMetric = (
     __type: "Metric",
     Dimensions: undefined,
     MetricName: undefined,
-    Namespace: undefined
+    Namespace: undefined,
   };
   if (output.Dimensions === "") {
     contents.Dimensions = [];
@@ -5593,7 +5593,7 @@ const deserializeAws_queryMetricAlarm = (
     Threshold: undefined,
     ThresholdMetricId: undefined,
     TreatMissingData: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output["ActionsEnabled"] !== undefined) {
     contents.ActionsEnabled = output["ActionsEnabled"] == "true";
@@ -5774,7 +5774,7 @@ const deserializeAws_queryMetricDataQuery = (
     Label: undefined,
     MetricStat: undefined,
     Period: undefined,
-    ReturnData: undefined
+    ReturnData: undefined,
   };
   if (output["Expression"] !== undefined) {
     contents.Expression = output["Expression"];
@@ -5811,7 +5811,7 @@ const deserializeAws_queryMetricDataResult = (
     Messages: undefined,
     StatusCode: undefined,
     Timestamps: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output["Id"] !== undefined) {
     contents.Id = output["Id"];
@@ -5898,7 +5898,7 @@ const deserializeAws_queryMetricStat = (
     Metric: undefined,
     Period: undefined,
     Stat: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output["Metric"] !== undefined) {
     contents.Metric = deserializeAws_queryMetric(output["Metric"], context);
@@ -5935,7 +5935,7 @@ const deserializeAws_queryPartialFailure = (
     ExceptionType: undefined,
     FailureCode: undefined,
     FailureDescription: undefined,
-    FailureResource: undefined
+    FailureResource: undefined,
   };
   if (output["ExceptionType"] !== undefined) {
     contents.ExceptionType = output["ExceptionType"];
@@ -5957,7 +5957,7 @@ const deserializeAws_queryPutAnomalyDetectorOutput = (
   context: __SerdeContext
 ): PutAnomalyDetectorOutput => {
   let contents: any = {
-    __type: "PutAnomalyDetectorOutput"
+    __type: "PutAnomalyDetectorOutput",
   };
   return contents;
 };
@@ -5968,7 +5968,7 @@ const deserializeAws_queryPutDashboardOutput = (
 ): PutDashboardOutput => {
   let contents: any = {
     __type: "PutDashboardOutput",
-    DashboardValidationMessages: undefined
+    DashboardValidationMessages: undefined,
   };
   if (output.DashboardValidationMessages === "") {
     contents.DashboardValidationMessages = [];
@@ -5994,7 +5994,7 @@ const deserializeAws_queryPutInsightRuleOutput = (
   context: __SerdeContext
 ): PutInsightRuleOutput => {
   let contents: any = {
-    __type: "PutInsightRuleOutput"
+    __type: "PutInsightRuleOutput",
   };
   return contents;
 };
@@ -6006,7 +6006,7 @@ const deserializeAws_queryRange = (
   let contents: any = {
     __type: "Range",
     EndTime: undefined,
-    StartTime: undefined
+    StartTime: undefined,
   };
   if (output["EndTime"] !== undefined) {
     contents.EndTime = new Date(output["EndTime"]);
@@ -6034,7 +6034,7 @@ const deserializeAws_queryResourceNotFound = (
 ): ResourceNotFound => {
   let contents: any = {
     __type: "ResourceNotFound",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6050,7 +6050,7 @@ const deserializeAws_queryResourceNotFoundException = (
     __type: "ResourceNotFoundException",
     Message: undefined,
     ResourceId: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output["Message"] !== undefined) {
     contents.Message = output["Message"];
@@ -6068,7 +6068,7 @@ const deserializeAws_queryTag = (output: any, context: __SerdeContext): Tag => {
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Key"] !== undefined) {
     contents.Key = output["Key"];
@@ -6095,7 +6095,7 @@ const deserializeAws_queryTagResourceOutput = (
   context: __SerdeContext
 ): TagResourceOutput => {
   let contents: any = {
-    __type: "TagResourceOutput"
+    __type: "TagResourceOutput",
   };
   return contents;
 };
@@ -6116,7 +6116,7 @@ const deserializeAws_queryUntagResourceOutput = (
   context: __SerdeContext
 ): UntagResourceOutput => {
   let contents: any = {
-    __type: "UntagResourceOutput"
+    __type: "UntagResourceOutput",
   };
   return contents;
 };
@@ -6124,7 +6124,7 @@ const deserializeAws_queryUntagResourceOutput = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6145,7 +6145,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -6158,11 +6158,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -6183,13 +6183,13 @@ const decodeEscapedXML = (str: string) => {
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       const parsedObj = xmlParse(encoded, {
         attributeNamePrefix: "",
         ignoreAttributes: false,
         parseNodeValue: false,
-        tagValueProcessor: (val, tagName) => decodeEscapedXML(val)
+        tagValueProcessor: (val, tagName) => decodeEscapedXML(val),
       });
       const textNodeName = "#text";
       const key = Object.keys(parsedObj)[0];
@@ -6207,7 +6207,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
 const buildFormUrlencodedString = (entries: any): string => {
   return Object.keys(entries)
     .map(
-      key =>
+      (key) =>
         __extendedEncodeURIComponent(key) +
         "=" +
         __extendedEncodeURIComponent(entries[key])

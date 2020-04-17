@@ -1,18 +1,18 @@
 import {
   DescribeJobExecutionCommandInput,
-  DescribeJobExecutionCommandOutput
+  DescribeJobExecutionCommandOutput,
 } from "../commands/DescribeJobExecutionCommand";
 import {
   GetPendingJobExecutionsCommandInput,
-  GetPendingJobExecutionsCommandOutput
+  GetPendingJobExecutionsCommandOutput,
 } from "../commands/GetPendingJobExecutionsCommand";
 import {
   StartNextPendingJobExecutionCommandInput,
-  StartNextPendingJobExecutionCommandOutput
+  StartNextPendingJobExecutionCommandOutput,
 } from "../commands/StartNextPendingJobExecutionCommand";
 import {
   UpdateJobExecutionCommandInput,
-  UpdateJobExecutionCommandOutput
+  UpdateJobExecutionCommandOutput,
 } from "../commands/UpdateJobExecutionCommand";
 import {
   CertificateValidationException,
@@ -24,21 +24,21 @@ import {
   ResourceNotFoundException,
   ServiceUnavailableException,
   TerminalStateException,
-  ThrottlingException
+  ThrottlingException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1DescribeJobExecutionCommand(
@@ -81,13 +81,13 @@ export async function serializeAws_restJson1_1DescribeJobExecutionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -112,12 +112,12 @@ export async function serializeAws_restJson1_1GetPendingJobExecutionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -153,12 +153,12 @@ export async function serializeAws_restJson1_1StartNextPendingJobExecutionComman
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -221,12 +221,12 @@ export async function serializeAws_restJson1_1UpdateJobExecutionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -243,7 +243,7 @@ export async function deserializeAws_restJson1_1DescribeJobExecutionCommand(
   const contents: DescribeJobExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeJobExecutionResponse",
-    execution: undefined
+    execution: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.execution !== undefined && data.execution !== null) {
@@ -261,7 +261,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
 ): Promise<DescribeJobExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -275,7 +275,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -286,7 +286,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -297,7 +297,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -308,7 +308,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TerminalStateException":
@@ -319,7 +319,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -330,7 +330,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -341,7 +341,7 @@ async function deserializeAws_restJson1_1DescribeJobExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -364,7 +364,7 @@ export async function deserializeAws_restJson1_1GetPendingJobExecutionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetPendingJobExecutionsResponse",
     inProgressJobs: undefined,
-    queuedJobs: undefined
+    queuedJobs: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.inProgressJobs !== undefined && data.inProgressJobs !== null) {
@@ -388,7 +388,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
 ): Promise<GetPendingJobExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -402,7 +402,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -413,7 +413,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -424,7 +424,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -435,7 +435,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -446,7 +446,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -457,7 +457,7 @@ async function deserializeAws_restJson1_1GetPendingJobExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -479,7 +479,7 @@ export async function deserializeAws_restJson1_1StartNextPendingJobExecutionComm
   const contents: StartNextPendingJobExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartNextPendingJobExecutionResponse",
-    execution: undefined
+    execution: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.execution !== undefined && data.execution !== null) {
@@ -497,7 +497,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
 ): Promise<StartNextPendingJobExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -511,7 +511,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -522,7 +522,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -533,7 +533,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -544,7 +544,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -555,7 +555,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -566,7 +566,7 @@ async function deserializeAws_restJson1_1StartNextPendingJobExecutionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -589,7 +589,7 @@ export async function deserializeAws_restJson1_1UpdateJobExecutionCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateJobExecutionResponse",
     executionState: undefined,
-    jobDocument: undefined
+    jobDocument: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.executionState !== undefined && data.executionState !== null) {
@@ -610,7 +610,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
 ): Promise<UpdateJobExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -624,7 +624,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -635,7 +635,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateTransitionException":
@@ -646,7 +646,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -657,7 +657,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -668,7 +668,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -679,7 +679,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -690,7 +690,7 @@ async function deserializeAws_restJson1_1UpdateJobExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -707,7 +707,7 @@ const deserializeAws_restJson1_1CertificateValidationExceptionResponse = async (
     name: "CertificateValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -724,7 +724,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -741,7 +741,7 @@ const deserializeAws_restJson1_1InvalidStateTransitionExceptionResponse = async 
     name: "InvalidStateTransitionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -758,7 +758,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -775,7 +775,7 @@ const deserializeAws_restJson1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -792,7 +792,7 @@ const deserializeAws_restJson1_1TerminalStateExceptionResponse = async (
     name: "TerminalStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -810,7 +810,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     message: undefined,
-    payload: undefined
+    payload: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -827,7 +827,7 @@ const serializeAws_restJson1_1DetailsMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -838,7 +838,7 @@ const deserializeAws_restJson1_1DetailsMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -860,7 +860,7 @@ const deserializeAws_restJson1_1JobExecution = (
     status: undefined,
     statusDetails: undefined,
     thingName: undefined,
-    versionNumber: undefined
+    versionNumber: undefined,
   };
   if (
     output.approximateSecondsBeforeTimedOut !== undefined &&
@@ -913,7 +913,7 @@ const deserializeAws_restJson1_1JobExecutionState = (
     __type: "JobExecutionState",
     status: undefined,
     statusDetails: undefined,
-    versionNumber: undefined
+    versionNumber: undefined,
   };
   if (output.status !== undefined && output.status !== null) {
     contents.status = output.status;
@@ -941,7 +941,7 @@ const deserializeAws_restJson1_1JobExecutionSummary = (
     lastUpdatedAt: undefined,
     queuedAt: undefined,
     startedAt: undefined,
-    versionNumber: undefined
+    versionNumber: undefined,
   };
   if (output.executionNumber !== undefined && output.executionNumber !== null) {
     contents.executionNumber = output.executionNumber;
@@ -976,7 +976,7 @@ const deserializeAws_restJson1_1JobExecutionSummaryList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -997,13 +997,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1016,7 +1016,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

@@ -1,94 +1,94 @@
 import {
   AcceptResourceShareInvitationCommandInput,
-  AcceptResourceShareInvitationCommandOutput
+  AcceptResourceShareInvitationCommandOutput,
 } from "../commands/AcceptResourceShareInvitationCommand";
 import {
   AssociateResourceShareCommandInput,
-  AssociateResourceShareCommandOutput
+  AssociateResourceShareCommandOutput,
 } from "../commands/AssociateResourceShareCommand";
 import {
   AssociateResourceSharePermissionCommandInput,
-  AssociateResourceSharePermissionCommandOutput
+  AssociateResourceSharePermissionCommandOutput,
 } from "../commands/AssociateResourceSharePermissionCommand";
 import {
   CreateResourceShareCommandInput,
-  CreateResourceShareCommandOutput
+  CreateResourceShareCommandOutput,
 } from "../commands/CreateResourceShareCommand";
 import {
   DeleteResourceShareCommandInput,
-  DeleteResourceShareCommandOutput
+  DeleteResourceShareCommandOutput,
 } from "../commands/DeleteResourceShareCommand";
 import {
   DisassociateResourceShareCommandInput,
-  DisassociateResourceShareCommandOutput
+  DisassociateResourceShareCommandOutput,
 } from "../commands/DisassociateResourceShareCommand";
 import {
   DisassociateResourceSharePermissionCommandInput,
-  DisassociateResourceSharePermissionCommandOutput
+  DisassociateResourceSharePermissionCommandOutput,
 } from "../commands/DisassociateResourceSharePermissionCommand";
 import {
   EnableSharingWithAwsOrganizationCommandInput,
-  EnableSharingWithAwsOrganizationCommandOutput
+  EnableSharingWithAwsOrganizationCommandOutput,
 } from "../commands/EnableSharingWithAwsOrganizationCommand";
 import {
   GetPermissionCommandInput,
-  GetPermissionCommandOutput
+  GetPermissionCommandOutput,
 } from "../commands/GetPermissionCommand";
 import {
   GetResourcePoliciesCommandInput,
-  GetResourcePoliciesCommandOutput
+  GetResourcePoliciesCommandOutput,
 } from "../commands/GetResourcePoliciesCommand";
 import {
   GetResourceShareAssociationsCommandInput,
-  GetResourceShareAssociationsCommandOutput
+  GetResourceShareAssociationsCommandOutput,
 } from "../commands/GetResourceShareAssociationsCommand";
 import {
   GetResourceShareInvitationsCommandInput,
-  GetResourceShareInvitationsCommandOutput
+  GetResourceShareInvitationsCommandOutput,
 } from "../commands/GetResourceShareInvitationsCommand";
 import {
   GetResourceSharesCommandInput,
-  GetResourceSharesCommandOutput
+  GetResourceSharesCommandOutput,
 } from "../commands/GetResourceSharesCommand";
 import {
   ListPendingInvitationResourcesCommandInput,
-  ListPendingInvitationResourcesCommandOutput
+  ListPendingInvitationResourcesCommandOutput,
 } from "../commands/ListPendingInvitationResourcesCommand";
 import {
   ListPermissionsCommandInput,
-  ListPermissionsCommandOutput
+  ListPermissionsCommandOutput,
 } from "../commands/ListPermissionsCommand";
 import {
   ListPrincipalsCommandInput,
-  ListPrincipalsCommandOutput
+  ListPrincipalsCommandOutput,
 } from "../commands/ListPrincipalsCommand";
 import {
   ListResourceSharePermissionsCommandInput,
-  ListResourceSharePermissionsCommandOutput
+  ListResourceSharePermissionsCommandOutput,
 } from "../commands/ListResourceSharePermissionsCommand";
 import {
   ListResourcesCommandInput,
-  ListResourcesCommandOutput
+  ListResourcesCommandOutput,
 } from "../commands/ListResourcesCommand";
 import {
   PromoteResourceShareCreatedFromPolicyCommandInput,
-  PromoteResourceShareCreatedFromPolicyCommandOutput
+  PromoteResourceShareCreatedFromPolicyCommandOutput,
 } from "../commands/PromoteResourceShareCreatedFromPolicyCommand";
 import {
   RejectResourceShareInvitationCommandInput,
-  RejectResourceShareInvitationCommandOutput
+  RejectResourceShareInvitationCommandOutput,
 } from "../commands/RejectResourceShareInvitationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateResourceShareCommandInput,
-  UpdateResourceShareCommandOutput
+  UpdateResourceShareCommandOutput,
 } from "../commands/UpdateResourceShareCommand";
 import {
   IdempotentParameterMismatchException,
@@ -120,21 +120,21 @@ import {
   TagFilter,
   TagLimitExceededException,
   TagPolicyViolationException,
-  UnknownResourceException
+  UnknownResourceException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1AcceptResourceShareInvitationCommand(
@@ -154,12 +154,12 @@ export async function serializeAws_restJson1_1AcceptResourceShareInvitationComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -192,12 +192,12 @@ export async function serializeAws_restJson1_1AssociateResourceShareCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -224,12 +224,12 @@ export async function serializeAws_restJson1_1AssociateResourceSharePermissionCo
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -274,12 +274,12 @@ export async function serializeAws_restJson1_1CreateResourceShareCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -299,13 +299,13 @@ export async function serializeAws_restJson1_1DeleteResourceShareCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -338,12 +338,12 @@ export async function serializeAws_restJson1_1DisassociateResourceShareCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -367,12 +367,12 @@ export async function serializeAws_restJson1_1DisassociateResourceSharePermissio
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -386,12 +386,12 @@ export async function serializeAws_restJson1_1EnableSharingWithAwsOrganizationCo
   let body: any;
   body = "{}";
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -412,12 +412,12 @@ export async function serializeAws_restJson1_1GetPermissionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -447,12 +447,12 @@ export async function serializeAws_restJson1_1GetResourcePoliciesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -493,12 +493,12 @@ export async function serializeAws_restJson1_1GetResourceShareAssociationsComman
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -535,12 +535,12 @@ export async function serializeAws_restJson1_1GetResourceShareInvitationsCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -584,12 +584,12 @@ export async function serializeAws_restJson1_1GetResourceSharesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -613,12 +613,12 @@ export async function serializeAws_restJson1_1ListPendingInvitationResourcesComm
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -642,12 +642,12 @@ export async function serializeAws_restJson1_1ListPermissionsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -691,12 +691,12 @@ export async function serializeAws_restJson1_1ListPrincipalsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -720,12 +720,12 @@ export async function serializeAws_restJson1_1ListResourceSharePermissionsComman
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -769,12 +769,12 @@ export async function serializeAws_restJson1_1ListResourcesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -791,13 +791,13 @@ export async function serializeAws_restJson1_1PromoteResourceShareCreatedFromPol
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -818,12 +818,12 @@ export async function serializeAws_restJson1_1RejectResourceShareInvitationComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -844,12 +844,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -873,12 +873,12 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -905,12 +905,12 @@ export async function serializeAws_restJson1_1UpdateResourceShareCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -928,7 +928,7 @@ export async function deserializeAws_restJson1_1AcceptResourceShareInvitationCom
     $metadata: deserializeMetadata(output),
     __type: "AcceptResourceShareInvitationResponse",
     clientToken: undefined,
-    resourceShareInvitation: undefined
+    resourceShareInvitation: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -952,7 +952,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
 ): Promise<AcceptResourceShareInvitationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -966,7 +966,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -977,7 +977,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -988,7 +988,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -999,7 +999,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationAlreadyAcceptedException":
@@ -1010,7 +1010,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationAlreadyRejectedException":
@@ -1021,7 +1021,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationArnNotFoundException":
@@ -1032,7 +1032,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationExpiredException":
@@ -1043,7 +1043,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1054,7 +1054,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1065,7 +1065,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1076,7 +1076,7 @@ async function deserializeAws_restJson1_1AcceptResourceShareInvitationCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1099,7 +1099,7 @@ export async function deserializeAws_restJson1_1AssociateResourceShareCommand(
     $metadata: deserializeMetadata(output),
     __type: "AssociateResourceShareResponse",
     clientToken: undefined,
-    resourceShareAssociations: undefined
+    resourceShareAssociations: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1123,7 +1123,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
 ): Promise<AssociateResourceShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1137,7 +1137,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -1148,7 +1148,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1159,7 +1159,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateTransitionException":
@@ -1170,7 +1170,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1181,7 +1181,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1192,7 +1192,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareLimitExceededException":
@@ -1203,7 +1203,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1214,7 +1214,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1225,7 +1225,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -1236,7 +1236,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1247,7 +1247,7 @@ async function deserializeAws_restJson1_1AssociateResourceShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1270,7 +1270,7 @@ export async function deserializeAws_restJson1_1AssociateResourceSharePermission
     $metadata: deserializeMetadata(output),
     __type: "AssociateResourceSharePermissionResponse",
     clientToken: undefined,
-    returnValue: undefined
+    returnValue: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1288,7 +1288,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
 ): Promise<AssociateResourceSharePermissionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1302,7 +1302,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1313,7 +1313,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1324,7 +1324,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1335,7 +1335,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1346,7 +1346,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1357,7 +1357,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -1368,7 +1368,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1379,7 +1379,7 @@ async function deserializeAws_restJson1_1AssociateResourceSharePermissionCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1402,7 +1402,7 @@ export async function deserializeAws_restJson1_1CreateResourceShareCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateResourceShareResponse",
     clientToken: undefined,
-    resourceShare: undefined
+    resourceShare: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1423,7 +1423,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
 ): Promise<CreateResourceShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1437,7 +1437,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -1448,7 +1448,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1459,7 +1459,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateTransitionException":
@@ -1470,7 +1470,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1481,7 +1481,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1492,7 +1492,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareLimitExceededException":
@@ -1503,7 +1503,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1514,7 +1514,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1525,7 +1525,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyViolationException":
@@ -1536,7 +1536,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -1547,7 +1547,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1558,7 +1558,7 @@ async function deserializeAws_restJson1_1CreateResourceShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1581,7 +1581,7 @@ export async function deserializeAws_restJson1_1DeleteResourceShareCommand(
     $metadata: deserializeMetadata(output),
     __type: "DeleteResourceShareResponse",
     clientToken: undefined,
-    returnValue: undefined
+    returnValue: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1599,7 +1599,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
 ): Promise<DeleteResourceShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1613,7 +1613,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -1624,7 +1624,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1635,7 +1635,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateTransitionException":
@@ -1646,7 +1646,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1657,7 +1657,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1668,7 +1668,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1679,7 +1679,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1690,7 +1690,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -1701,7 +1701,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1712,7 +1712,7 @@ async function deserializeAws_restJson1_1DeleteResourceShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1735,7 +1735,7 @@ export async function deserializeAws_restJson1_1DisassociateResourceShareCommand
     $metadata: deserializeMetadata(output),
     __type: "DisassociateResourceShareResponse",
     clientToken: undefined,
-    resourceShareAssociations: undefined
+    resourceShareAssociations: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1759,7 +1759,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
 ): Promise<DisassociateResourceShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1773,7 +1773,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -1784,7 +1784,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1795,7 +1795,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateTransitionException":
@@ -1806,7 +1806,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1817,7 +1817,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1828,7 +1828,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareLimitExceededException":
@@ -1839,7 +1839,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1850,7 +1850,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1861,7 +1861,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -1872,7 +1872,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1883,7 +1883,7 @@ async function deserializeAws_restJson1_1DisassociateResourceShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1906,7 +1906,7 @@ export async function deserializeAws_restJson1_1DisassociateResourceSharePermiss
     $metadata: deserializeMetadata(output),
     __type: "DisassociateResourceSharePermissionResponse",
     clientToken: undefined,
-    returnValue: undefined
+    returnValue: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -1924,7 +1924,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
 ): Promise<DisassociateResourceSharePermissionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1938,7 +1938,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1949,7 +1949,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -1960,7 +1960,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1971,7 +1971,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -1982,7 +1982,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1993,7 +1993,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -2004,7 +2004,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2015,7 +2015,7 @@ async function deserializeAws_restJson1_1DisassociateResourceSharePermissionComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2037,7 +2037,7 @@ export async function deserializeAws_restJson1_1EnableSharingWithAwsOrganization
   const contents: EnableSharingWithAwsOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableSharingWithAwsOrganizationResponse",
-    returnValue: undefined
+    returnValue: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.returnValue !== undefined && data.returnValue !== null) {
@@ -2052,7 +2052,7 @@ async function deserializeAws_restJson1_1EnableSharingWithAwsOrganizationCommand
 ): Promise<EnableSharingWithAwsOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2066,7 +2066,7 @@ async function deserializeAws_restJson1_1EnableSharingWithAwsOrganizationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2077,7 +2077,7 @@ async function deserializeAws_restJson1_1EnableSharingWithAwsOrganizationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2088,7 +2088,7 @@ async function deserializeAws_restJson1_1EnableSharingWithAwsOrganizationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2099,7 +2099,7 @@ async function deserializeAws_restJson1_1EnableSharingWithAwsOrganizationCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2118,7 +2118,7 @@ export async function deserializeAws_restJson1_1GetPermissionCommand(
   const contents: GetPermissionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetPermissionResponse",
-    permission: undefined
+    permission: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.permission !== undefined && data.permission !== null) {
@@ -2136,7 +2136,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
 ): Promise<GetPermissionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2150,7 +2150,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2161,7 +2161,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2172,7 +2172,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2183,7 +2183,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2194,7 +2194,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -2205,7 +2205,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2216,7 +2216,7 @@ async function deserializeAws_restJson1_1GetPermissionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2239,7 +2239,7 @@ export async function deserializeAws_restJson1_1GetResourcePoliciesCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetResourcePoliciesResponse",
     nextToken: undefined,
-    policies: undefined
+    policies: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2260,7 +2260,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
 ): Promise<GetResourcePoliciesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2274,7 +2274,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2285,7 +2285,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2296,7 +2296,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2307,7 +2307,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2318,7 +2318,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2329,7 +2329,7 @@ async function deserializeAws_restJson1_1GetResourcePoliciesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2352,7 +2352,7 @@ export async function deserializeAws_restJson1_1GetResourceShareAssociationsComm
     $metadata: deserializeMetadata(output),
     __type: "GetResourceShareAssociationsResponse",
     nextToken: undefined,
-    resourceShareAssociations: undefined
+    resourceShareAssociations: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2376,7 +2376,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
 ): Promise<GetResourceShareAssociationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2390,7 +2390,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2401,7 +2401,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2412,7 +2412,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2423,7 +2423,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2434,7 +2434,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2445,7 +2445,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -2456,7 +2456,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2467,7 +2467,7 @@ async function deserializeAws_restJson1_1GetResourceShareAssociationsCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2490,7 +2490,7 @@ export async function deserializeAws_restJson1_1GetResourceShareInvitationsComma
     $metadata: deserializeMetadata(output),
     __type: "GetResourceShareInvitationsResponse",
     nextToken: undefined,
-    resourceShareInvitations: undefined
+    resourceShareInvitations: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2514,7 +2514,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
 ): Promise<GetResourceShareInvitationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2528,7 +2528,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -2539,7 +2539,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2550,7 +2550,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2561,7 +2561,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationArnNotFoundException":
@@ -2572,7 +2572,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2583,7 +2583,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2594,7 +2594,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2605,7 +2605,7 @@ async function deserializeAws_restJson1_1GetResourceShareInvitationsCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2628,7 +2628,7 @@ export async function deserializeAws_restJson1_1GetResourceSharesCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetResourceSharesResponse",
     nextToken: undefined,
-    resourceShares: undefined
+    resourceShares: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2649,7 +2649,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
 ): Promise<GetResourceSharesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2663,7 +2663,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2674,7 +2674,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2685,7 +2685,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2696,7 +2696,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2707,7 +2707,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -2718,7 +2718,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2729,7 +2729,7 @@ async function deserializeAws_restJson1_1GetResourceSharesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2752,7 +2752,7 @@ export async function deserializeAws_restJson1_1ListPendingInvitationResourcesCo
     $metadata: deserializeMetadata(output),
     __type: "ListPendingInvitationResourcesResponse",
     nextToken: undefined,
-    resources: undefined
+    resources: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2773,7 +2773,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
 ): Promise<ListPendingInvitationResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2787,7 +2787,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2798,7 +2798,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -2809,7 +2809,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -2820,7 +2820,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationAlreadyRejectedException":
@@ -2831,7 +2831,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationArnNotFoundException":
@@ -2842,7 +2842,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationExpiredException":
@@ -2853,7 +2853,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2864,7 +2864,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2875,7 +2875,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2886,7 +2886,7 @@ async function deserializeAws_restJson1_1ListPendingInvitationResourcesCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2909,7 +2909,7 @@ export async function deserializeAws_restJson1_1ListPermissionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListPermissionsResponse",
     nextToken: undefined,
-    permissions: undefined
+    permissions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -2930,7 +2930,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
 ): Promise<ListPermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2944,7 +2944,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2955,7 +2955,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2966,7 +2966,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -2977,7 +2977,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2988,7 +2988,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2999,7 +2999,7 @@ async function deserializeAws_restJson1_1ListPermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3022,7 +3022,7 @@ export async function deserializeAws_restJson1_1ListPrincipalsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListPrincipalsResponse",
     nextToken: undefined,
-    principals: undefined
+    principals: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -3043,7 +3043,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
 ): Promise<ListPrincipalsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3057,7 +3057,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3068,7 +3068,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3079,7 +3079,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3090,7 +3090,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3101,7 +3101,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -3112,7 +3112,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3123,7 +3123,7 @@ async function deserializeAws_restJson1_1ListPrincipalsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3146,7 +3146,7 @@ export async function deserializeAws_restJson1_1ListResourceSharePermissionsComm
     $metadata: deserializeMetadata(output),
     __type: "ListResourceSharePermissionsResponse",
     nextToken: undefined,
-    permissions: undefined
+    permissions: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -3167,7 +3167,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
 ): Promise<ListResourceSharePermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3181,7 +3181,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3192,7 +3192,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3203,7 +3203,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -3214,7 +3214,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3225,7 +3225,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3236,7 +3236,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -3247,7 +3247,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3258,7 +3258,7 @@ async function deserializeAws_restJson1_1ListResourceSharePermissionsCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3278,7 +3278,7 @@ export async function deserializeAws_restJson1_1ListResourcesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListResourcesResponse",
     nextToken: undefined,
-    resources: undefined
+    resources: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -3299,7 +3299,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
 ): Promise<ListResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3313,7 +3313,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3324,7 +3324,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceTypeException":
@@ -3335,7 +3335,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3346,7 +3346,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3357,7 +3357,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3368,7 +3368,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -3379,7 +3379,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3390,7 +3390,7 @@ async function deserializeAws_restJson1_1ListResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3412,7 +3412,7 @@ export async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromP
   const contents: PromoteResourceShareCreatedFromPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PromoteResourceShareCreatedFromPolicyResponse",
-    returnValue: undefined
+    returnValue: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.returnValue !== undefined && data.returnValue !== null) {
@@ -3427,7 +3427,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
 ): Promise<PromoteResourceShareCreatedFromPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3441,7 +3441,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3452,7 +3452,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -3463,7 +3463,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -3474,7 +3474,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3485,7 +3485,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3496,7 +3496,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3507,7 +3507,7 @@ async function deserializeAws_restJson1_1PromoteResourceShareCreatedFromPolicyCo
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3530,7 +3530,7 @@ export async function deserializeAws_restJson1_1RejectResourceShareInvitationCom
     $metadata: deserializeMetadata(output),
     __type: "RejectResourceShareInvitationResponse",
     clientToken: undefined,
-    resourceShareInvitation: undefined
+    resourceShareInvitation: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -3554,7 +3554,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
 ): Promise<RejectResourceShareInvitationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3568,7 +3568,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -3579,7 +3579,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3590,7 +3590,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -3601,7 +3601,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationAlreadyAcceptedException":
@@ -3612,7 +3612,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationAlreadyRejectedException":
@@ -3623,7 +3623,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationArnNotFoundException":
@@ -3634,7 +3634,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceShareInvitationExpiredException":
@@ -3645,7 +3645,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3656,7 +3656,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3667,7 +3667,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3678,7 +3678,7 @@ async function deserializeAws_restJson1_1RejectResourceShareInvitationCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3696,7 +3696,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
   }
   const contents: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3708,7 +3708,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3722,7 +3722,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3733,7 +3733,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceArnNotFoundException":
@@ -3744,7 +3744,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3755,7 +3755,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3766,7 +3766,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -3777,7 +3777,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyViolationException":
@@ -3788,7 +3788,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3799,7 +3799,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3817,7 +3817,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
   }
   const contents: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3829,7 +3829,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3843,7 +3843,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -3854,7 +3854,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3865,7 +3865,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3876,7 +3876,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3899,7 +3899,7 @@ export async function deserializeAws_restJson1_1UpdateResourceShareCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateResourceShareResponse",
     clientToken: undefined,
-    resourceShare: undefined
+    resourceShare: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.clientToken !== undefined && data.clientToken !== null) {
@@ -3920,7 +3920,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
 ): Promise<UpdateResourceShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3934,7 +3934,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientTokenException":
@@ -3945,7 +3945,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3956,7 +3956,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedArnException":
@@ -3967,7 +3967,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameterException":
@@ -3978,7 +3978,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -3989,7 +3989,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerInternalException":
@@ -4000,7 +4000,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4011,7 +4011,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceException":
@@ -4022,7 +4022,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4033,7 +4033,7 @@ async function deserializeAws_restJson1_1UpdateResourceShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4050,7 +4050,7 @@ const deserializeAws_restJson1_1IdempotentParameterMismatchExceptionResponse = a
     name: "IdempotentParameterMismatchException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4067,7 +4067,7 @@ const deserializeAws_restJson1_1InvalidClientTokenExceptionResponse = async (
     name: "InvalidClientTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4084,7 +4084,7 @@ const deserializeAws_restJson1_1InvalidMaxResultsExceptionResponse = async (
     name: "InvalidMaxResultsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4101,7 +4101,7 @@ const deserializeAws_restJson1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4118,7 +4118,7 @@ const deserializeAws_restJson1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4135,7 +4135,7 @@ const deserializeAws_restJson1_1InvalidResourceTypeExceptionResponse = async (
     name: "InvalidResourceTypeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4152,7 +4152,7 @@ const deserializeAws_restJson1_1InvalidStateTransitionExceptionResponse = async 
     name: "InvalidStateTransitionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4169,7 +4169,7 @@ const deserializeAws_restJson1_1MalformedArnExceptionResponse = async (
     name: "MalformedArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4186,7 +4186,7 @@ const deserializeAws_restJson1_1MissingRequiredParameterExceptionResponse = asyn
     name: "MissingRequiredParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4203,7 +4203,7 @@ const deserializeAws_restJson1_1OperationNotPermittedExceptionResponse = async (
     name: "OperationNotPermittedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4220,7 +4220,7 @@ const deserializeAws_restJson1_1ResourceArnNotFoundExceptionResponse = async (
     name: "ResourceArnNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4237,7 +4237,7 @@ const deserializeAws_restJson1_1ResourceShareInvitationAlreadyAcceptedExceptionR
     name: "ResourceShareInvitationAlreadyAcceptedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4254,7 +4254,7 @@ const deserializeAws_restJson1_1ResourceShareInvitationAlreadyRejectedExceptionR
     name: "ResourceShareInvitationAlreadyRejectedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4271,7 +4271,7 @@ const deserializeAws_restJson1_1ResourceShareInvitationArnNotFoundExceptionRespo
     name: "ResourceShareInvitationArnNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4288,7 +4288,7 @@ const deserializeAws_restJson1_1ResourceShareInvitationExpiredExceptionResponse 
     name: "ResourceShareInvitationExpiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4305,7 +4305,7 @@ const deserializeAws_restJson1_1ResourceShareLimitExceededExceptionResponse = as
     name: "ResourceShareLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4322,7 +4322,7 @@ const deserializeAws_restJson1_1ServerInternalExceptionResponse = async (
     name: "ServerInternalException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4339,7 +4339,7 @@ const deserializeAws_restJson1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4356,7 +4356,7 @@ const deserializeAws_restJson1_1TagLimitExceededExceptionResponse = async (
     name: "TagLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4373,7 +4373,7 @@ const deserializeAws_restJson1_1TagPolicyViolationExceptionResponse = async (
     name: "TagPolicyViolationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4390,7 +4390,7 @@ const deserializeAws_restJson1_1UnknownResourceExceptionResponse = async (
     name: "UnknownResourceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -4546,7 +4546,7 @@ const deserializeAws_restJson1_1Principal = (
     external: undefined,
     id: undefined,
     lastUpdatedTime: undefined,
-    resourceShareArn: undefined
+    resourceShareArn: undefined,
   };
   if (output.creationTime !== undefined && output.creationTime !== null) {
     contents.creationTime = new Date(Math.round(output.creationTime * 1000));
@@ -4593,7 +4593,7 @@ const deserializeAws_restJson1_1Resource = (
     resourceShareArn: undefined,
     status: undefined,
     statusMessage: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -4654,7 +4654,7 @@ const deserializeAws_restJson1_1ResourceShare = (
     resourceShareArn: undefined,
     status: undefined,
     statusMessage: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (
     output.allowExternalPrincipals !== undefined &&
@@ -4711,7 +4711,7 @@ const deserializeAws_restJson1_1ResourceShareAssociation = (
     resourceShareArn: undefined,
     resourceShareName: undefined,
     status: undefined,
-    statusMessage: undefined
+    statusMessage: undefined,
   };
   if (
     output.associatedEntity !== undefined &&
@@ -4776,7 +4776,7 @@ const deserializeAws_restJson1_1ResourceShareInvitation = (
     resourceShareInvitationArn: undefined,
     resourceShareName: undefined,
     senderAccountId: undefined,
-    status: undefined
+    status: undefined,
   };
   if (
     output.invitationTimestamp !== undefined &&
@@ -4859,7 +4859,7 @@ const deserializeAws_restJson1_1ResourceSharePermissionDetail = (
     name: undefined,
     permission: undefined,
     resourceType: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -4912,7 +4912,7 @@ const deserializeAws_restJson1_1ResourceSharePermissionSummary = (
     name: undefined,
     resourceType: undefined,
     status: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -4950,7 +4950,7 @@ const deserializeAws_restJson1_1Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -4973,7 +4973,7 @@ const deserializeAws_restJson1_1TagList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4994,13 +4994,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -5013,7 +5013,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

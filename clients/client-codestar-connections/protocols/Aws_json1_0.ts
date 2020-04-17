@@ -1,18 +1,18 @@
 import {
   CreateConnectionCommandInput,
-  CreateConnectionCommandOutput
+  CreateConnectionCommandOutput,
 } from "../commands/CreateConnectionCommand";
 import {
   DeleteConnectionCommandInput,
-  DeleteConnectionCommandOutput
+  DeleteConnectionCommandOutput,
 } from "../commands/DeleteConnectionCommand";
 import {
   GetConnectionCommandInput,
-  GetConnectionCommandOutput
+  GetConnectionCommandOutput,
 } from "../commands/GetConnectionCommand";
 import {
   ListConnectionsCommandInput,
-  ListConnectionsCommandOutput
+  ListConnectionsCommandOutput,
 } from "../commands/ListConnectionsCommand";
 import {
   Connection,
@@ -25,11 +25,11 @@ import {
   LimitExceededException,
   ListConnectionsInput,
   ListConnectionsOutput,
-  ResourceNotFoundException
+  ResourceNotFoundException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -37,7 +37,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_0CreateConnectionCommand(
@@ -107,7 +107,7 @@ export async function deserializeAws_json1_0CreateConnectionCommand(
   const response: CreateConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateConnectionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -118,7 +118,7 @@ async function deserializeAws_json1_0CreateConnectionCommandError(
 ): Promise<CreateConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -134,7 +134,7 @@ async function deserializeAws_json1_0CreateConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -145,7 +145,7 @@ async function deserializeAws_json1_0CreateConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -167,7 +167,7 @@ export async function deserializeAws_json1_0DeleteConnectionCommand(
   const response: DeleteConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteConnectionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -178,7 +178,7 @@ async function deserializeAws_json1_0DeleteConnectionCommandError(
 ): Promise<DeleteConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -194,7 +194,7 @@ async function deserializeAws_json1_0DeleteConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -205,7 +205,7 @@ async function deserializeAws_json1_0DeleteConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -227,7 +227,7 @@ export async function deserializeAws_json1_0GetConnectionCommand(
   const response: GetConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetConnectionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -238,7 +238,7 @@ async function deserializeAws_json1_0GetConnectionCommandError(
 ): Promise<GetConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -254,7 +254,7 @@ async function deserializeAws_json1_0GetConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -265,7 +265,7 @@ async function deserializeAws_json1_0GetConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -287,7 +287,7 @@ export async function deserializeAws_json1_0ListConnectionsCommand(
   const response: ListConnectionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListConnectionsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -298,7 +298,7 @@ async function deserializeAws_json1_0ListConnectionsCommandError(
 ): Promise<ListConnectionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -314,7 +314,7 @@ async function deserializeAws_json1_0ListConnectionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -336,7 +336,7 @@ const deserializeAws_json1_0LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -354,7 +354,7 @@ const deserializeAws_json1_0ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -422,7 +422,7 @@ const deserializeAws_json1_0Connection = (
     ConnectionName: undefined,
     ConnectionStatus: undefined,
     OwnerAccountId: undefined,
-    ProviderType: undefined
+    ProviderType: undefined,
   };
   if (output.ConnectionArn !== undefined && output.ConnectionArn !== null) {
     contents.ConnectionArn = output.ConnectionArn;
@@ -460,7 +460,7 @@ const deserializeAws_json1_0CreateConnectionOutput = (
 ): CreateConnectionOutput => {
   let contents: any = {
     __type: "CreateConnectionOutput",
-    ConnectionArn: undefined
+    ConnectionArn: undefined,
   };
   if (output.ConnectionArn !== undefined && output.ConnectionArn !== null) {
     contents.ConnectionArn = output.ConnectionArn;
@@ -473,7 +473,7 @@ const deserializeAws_json1_0DeleteConnectionOutput = (
   context: __SerdeContext
 ): DeleteConnectionOutput => {
   let contents: any = {
-    __type: "DeleteConnectionOutput"
+    __type: "DeleteConnectionOutput",
   };
   return contents;
 };
@@ -484,7 +484,7 @@ const deserializeAws_json1_0GetConnectionOutput = (
 ): GetConnectionOutput => {
   let contents: any = {
     __type: "GetConnectionOutput",
-    Connection: undefined
+    Connection: undefined,
   };
   if (output.Connection !== undefined && output.Connection !== null) {
     contents.Connection = deserializeAws_json1_0Connection(
@@ -501,7 +501,7 @@ const deserializeAws_json1_0LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -516,7 +516,7 @@ const deserializeAws_json1_0ListConnectionsOutput = (
   let contents: any = {
     __type: "ListConnectionsOutput",
     Connections: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Connections !== undefined && output.Connections !== null) {
     contents.Connections = deserializeAws_json1_0ConnectionList(
@@ -536,7 +536,7 @@ const deserializeAws_json1_0ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -547,7 +547,7 @@ const deserializeAws_json1_0ResourceNotFoundException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -568,7 +568,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -581,11 +581,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -597,7 +597,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

@@ -1,26 +1,26 @@
 import {
   AnalyzeDocumentCommandInput,
-  AnalyzeDocumentCommandOutput
+  AnalyzeDocumentCommandOutput,
 } from "../commands/AnalyzeDocumentCommand";
 import {
   DetectDocumentTextCommandInput,
-  DetectDocumentTextCommandOutput
+  DetectDocumentTextCommandOutput,
 } from "../commands/DetectDocumentTextCommand";
 import {
   GetDocumentAnalysisCommandInput,
-  GetDocumentAnalysisCommandOutput
+  GetDocumentAnalysisCommandOutput,
 } from "../commands/GetDocumentAnalysisCommand";
 import {
   GetDocumentTextDetectionCommandInput,
-  GetDocumentTextDetectionCommandOutput
+  GetDocumentTextDetectionCommandOutput,
 } from "../commands/GetDocumentTextDetectionCommand";
 import {
   StartDocumentAnalysisCommandInput,
-  StartDocumentAnalysisCommandOutput
+  StartDocumentAnalysisCommandOutput,
 } from "../commands/StartDocumentAnalysisCommand";
 import {
   StartDocumentTextDetectionCommandInput,
-  StartDocumentTextDetectionCommandOutput
+  StartDocumentTextDetectionCommandOutput,
 } from "../commands/StartDocumentTextDetectionCommand";
 import {
   AccessDeniedException,
@@ -64,22 +64,22 @@ import {
   StartDocumentTextDetectionResponse,
   ThrottlingException,
   UnsupportedDocumentException,
-  Warning
+  Warning,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   LazyJsonString as __LazyJsonString,
-  SmithyException as __SmithyException
+  SmithyException as __SmithyException,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AnalyzeDocumentCommand(
@@ -179,7 +179,7 @@ export async function deserializeAws_json1_1AnalyzeDocumentCommand(
   const response: AnalyzeDocumentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AnalyzeDocumentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -190,7 +190,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
 ): Promise<AnalyzeDocumentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -206,7 +206,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadDocumentException":
@@ -217,7 +217,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DocumentTooLargeException":
@@ -228,7 +228,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HumanLoopQuotaExceededException":
@@ -239,7 +239,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -250,7 +250,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -261,7 +261,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -272,7 +272,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -283,7 +283,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -294,7 +294,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentException":
@@ -305,7 +305,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -316,7 +316,7 @@ async function deserializeAws_json1_1AnalyzeDocumentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -341,7 +341,7 @@ export async function deserializeAws_json1_1DetectDocumentTextCommand(
   const response: DetectDocumentTextCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectDocumentTextResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -352,7 +352,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
 ): Promise<DetectDocumentTextCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -368,7 +368,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadDocumentException":
@@ -379,7 +379,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DocumentTooLargeException":
@@ -390,7 +390,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -401,7 +401,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -412,7 +412,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -423,7 +423,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -434,7 +434,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -445,7 +445,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentException":
@@ -456,7 +456,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -467,7 +467,7 @@ async function deserializeAws_json1_1DetectDocumentTextCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -492,7 +492,7 @@ export async function deserializeAws_json1_1GetDocumentAnalysisCommand(
   const response: GetDocumentAnalysisCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDocumentAnalysisResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -503,7 +503,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
 ): Promise<GetDocumentAnalysisCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -519,7 +519,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -530,7 +530,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidJobIdException":
@@ -541,7 +541,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -552,7 +552,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -563,7 +563,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -574,7 +574,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -585,7 +585,7 @@ async function deserializeAws_json1_1GetDocumentAnalysisCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -613,7 +613,7 @@ export async function deserializeAws_json1_1GetDocumentTextDetectionCommand(
   const response: GetDocumentTextDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDocumentTextDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -624,7 +624,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
 ): Promise<GetDocumentTextDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -640,7 +640,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -651,7 +651,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidJobIdException":
@@ -662,7 +662,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -673,7 +673,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -684,7 +684,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -695,7 +695,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -706,7 +706,7 @@ async function deserializeAws_json1_1GetDocumentTextDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -731,7 +731,7 @@ export async function deserializeAws_json1_1StartDocumentAnalysisCommand(
   const response: StartDocumentAnalysisCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartDocumentAnalysisResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -742,7 +742,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
 ): Promise<StartDocumentAnalysisCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -758,7 +758,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadDocumentException":
@@ -769,7 +769,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DocumentTooLargeException":
@@ -780,7 +780,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -791,7 +791,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -802,7 +802,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -813,7 +813,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -824,7 +824,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -835,7 +835,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -846,7 +846,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -857,7 +857,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentException":
@@ -868,7 +868,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1StartDocumentAnalysisCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -907,7 +907,7 @@ export async function deserializeAws_json1_1StartDocumentTextDetectionCommand(
   const response: StartDocumentTextDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartDocumentTextDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -918,7 +918,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
 ): Promise<StartDocumentTextDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -934,7 +934,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadDocumentException":
@@ -945,7 +945,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DocumentTooLargeException":
@@ -956,7 +956,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -967,7 +967,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -978,7 +978,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -989,7 +989,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -1000,7 +1000,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1011,7 +1011,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1022,7 +1022,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1033,7 +1033,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedDocumentException":
@@ -1044,7 +1044,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1055,7 +1055,7 @@ async function deserializeAws_json1_1StartDocumentTextDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1077,7 +1077,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1095,7 +1095,7 @@ const deserializeAws_json1_1BadDocumentExceptionResponse = async (
     name: "BadDocumentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1113,7 +1113,7 @@ const deserializeAws_json1_1DocumentTooLargeExceptionResponse = async (
     name: "DocumentTooLargeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1131,7 +1131,7 @@ const deserializeAws_json1_1HumanLoopQuotaExceededExceptionResponse = async (
     name: "HumanLoopQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1149,7 +1149,7 @@ const deserializeAws_json1_1IdempotentParameterMismatchExceptionResponse = async
     name: "IdempotentParameterMismatchException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1167,7 +1167,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1185,7 +1185,7 @@ const deserializeAws_json1_1InvalidJobIdExceptionResponse = async (
     name: "InvalidJobIdException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1203,7 +1203,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1221,7 +1221,7 @@ const deserializeAws_json1_1InvalidS3ObjectExceptionResponse = async (
     name: "InvalidS3ObjectException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1239,7 +1239,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1257,7 +1257,7 @@ const deserializeAws_json1_1ProvisionedThroughputExceededExceptionResponse = asy
     name: "ProvisionedThroughputExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1275,7 +1275,7 @@ const deserializeAws_json1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1293,7 +1293,7 @@ const deserializeAws_json1_1UnsupportedDocumentExceptionResponse = async (
     name: "UnsupportedDocumentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1555,7 +1555,7 @@ const deserializeAws_json1_1AccessDeniedException = (
   let contents: any = {
     __type: "AccessDeniedException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -1575,7 +1575,7 @@ const deserializeAws_json1_1AnalyzeDocumentResponse = (
     AnalyzeDocumentModelVersion: undefined,
     Blocks: undefined,
     DocumentMetadata: undefined,
-    HumanLoopActivationOutput: undefined
+    HumanLoopActivationOutput: undefined,
   };
   if (
     output.AnalyzeDocumentModelVersion !== undefined &&
@@ -1614,7 +1614,7 @@ const deserializeAws_json1_1BadDocumentException = (
   let contents: any = {
     __type: "BadDocumentException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -1643,7 +1643,7 @@ const deserializeAws_json1_1Block = (
     RowIndex: undefined,
     RowSpan: undefined,
     SelectionStatus: undefined,
-    Text: undefined
+    Text: undefined,
   };
   if (output.BlockType !== undefined && output.BlockType !== null) {
     contents.BlockType = output.BlockType;
@@ -1714,7 +1714,7 @@ const deserializeAws_json1_1BoundingBox = (
     Height: undefined,
     Left: undefined,
     Top: undefined,
-    Width: undefined
+    Width: undefined,
   };
   if (output.Height !== undefined && output.Height !== null) {
     contents.Height = output.Height;
@@ -1739,7 +1739,7 @@ const deserializeAws_json1_1DetectDocumentTextResponse = (
     __type: "DetectDocumentTextResponse",
     Blocks: undefined,
     DetectDocumentTextModelVersion: undefined,
-    DocumentMetadata: undefined
+    DocumentMetadata: undefined,
   };
   if (output.Blocks !== undefined && output.Blocks !== null) {
     contents.Blocks = deserializeAws_json1_1BlockList(output.Blocks, context);
@@ -1769,7 +1769,7 @@ const deserializeAws_json1_1DocumentMetadata = (
 ): DocumentMetadata => {
   let contents: any = {
     __type: "DocumentMetadata",
-    Pages: undefined
+    Pages: undefined,
   };
   if (output.Pages !== undefined && output.Pages !== null) {
     contents.Pages = output.Pages;
@@ -1784,7 +1784,7 @@ const deserializeAws_json1_1DocumentTooLargeException = (
   let contents: any = {
     __type: "DocumentTooLargeException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -1809,7 +1809,7 @@ const deserializeAws_json1_1Geometry = (
   let contents: any = {
     __type: "Geometry",
     BoundingBox: undefined,
-    Polygon: undefined
+    Polygon: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -1835,7 +1835,7 @@ const deserializeAws_json1_1GetDocumentAnalysisResponse = (
     JobStatus: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    Warnings: undefined
+    Warnings: undefined,
   };
   if (
     output.AnalyzeDocumentModelVersion !== undefined &&
@@ -1885,7 +1885,7 @@ const deserializeAws_json1_1GetDocumentTextDetectionResponse = (
     JobStatus: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    Warnings: undefined
+    Warnings: undefined,
   };
   if (output.Blocks !== undefined && output.Blocks !== null) {
     contents.Blocks = deserializeAws_json1_1BlockList(output.Blocks, context);
@@ -1932,7 +1932,7 @@ const deserializeAws_json1_1HumanLoopActivationOutput = (
     __type: "HumanLoopActivationOutput",
     HumanLoopActivationConditionsEvaluationResults: undefined,
     HumanLoopActivationReasons: undefined,
-    HumanLoopArn: undefined
+    HumanLoopArn: undefined,
   };
   if (
     output.HumanLoopActivationConditionsEvaluationResults !== undefined &&
@@ -1974,7 +1974,7 @@ const deserializeAws_json1_1HumanLoopQuotaExceededException = (
     Message: undefined,
     QuotaCode: undefined,
     ResourceType: undefined,
-    ServiceCode: undefined
+    ServiceCode: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2008,7 +2008,7 @@ const deserializeAws_json1_1IdempotentParameterMismatchException = (
   let contents: any = {
     __type: "IdempotentParameterMismatchException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2026,7 +2026,7 @@ const deserializeAws_json1_1InternalServerError = (
   let contents: any = {
     __type: "InternalServerError",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2044,7 +2044,7 @@ const deserializeAws_json1_1InvalidJobIdException = (
   let contents: any = {
     __type: "InvalidJobIdException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2062,7 +2062,7 @@ const deserializeAws_json1_1InvalidParameterException = (
   let contents: any = {
     __type: "InvalidParameterException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2080,7 +2080,7 @@ const deserializeAws_json1_1InvalidS3ObjectException = (
   let contents: any = {
     __type: "InvalidS3ObjectException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2098,7 +2098,7 @@ const deserializeAws_json1_1LimitExceededException = (
   let contents: any = {
     __type: "LimitExceededException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2123,7 +2123,7 @@ const deserializeAws_json1_1Point = (
   let contents: any = {
     __type: "Point",
     X: undefined,
-    Y: undefined
+    Y: undefined,
   };
   if (output.X !== undefined && output.X !== null) {
     contents.X = output.X;
@@ -2150,7 +2150,7 @@ const deserializeAws_json1_1ProvisionedThroughputExceededException = (
   let contents: any = {
     __type: "ProvisionedThroughputExceededException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2168,7 +2168,7 @@ const deserializeAws_json1_1Relationship = (
   let contents: any = {
     __type: "Relationship",
     Ids: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Ids !== undefined && output.Ids !== null) {
     contents.Ids = deserializeAws_json1_1IdList(output.Ids, context);
@@ -2194,7 +2194,7 @@ const deserializeAws_json1_1StartDocumentAnalysisResponse = (
 ): StartDocumentAnalysisResponse => {
   let contents: any = {
     __type: "StartDocumentAnalysisResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -2208,7 +2208,7 @@ const deserializeAws_json1_1StartDocumentTextDetectionResponse = (
 ): StartDocumentTextDetectionResponse => {
   let contents: any = {
     __type: "StartDocumentTextDetectionResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -2223,7 +2223,7 @@ const deserializeAws_json1_1ThrottlingException = (
   let contents: any = {
     __type: "ThrottlingException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2241,7 +2241,7 @@ const deserializeAws_json1_1UnsupportedDocumentException = (
   let contents: any = {
     __type: "UnsupportedDocumentException",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2259,7 +2259,7 @@ const deserializeAws_json1_1Warning = (
   let contents: any = {
     __type: "Warning",
     ErrorCode: undefined,
-    Pages: undefined
+    Pages: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -2282,7 +2282,7 @@ const deserializeAws_json1_1Warnings = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2303,7 +2303,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2316,11 +2316,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2332,7 +2332,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

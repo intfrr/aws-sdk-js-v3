@@ -1,54 +1,54 @@
 import {
   CopyBackupToRegionCommandInput,
-  CopyBackupToRegionCommandOutput
+  CopyBackupToRegionCommandOutput,
 } from "../commands/CopyBackupToRegionCommand";
 import {
   CreateClusterCommandInput,
-  CreateClusterCommandOutput
+  CreateClusterCommandOutput,
 } from "../commands/CreateClusterCommand";
 import {
   CreateHsmCommandInput,
-  CreateHsmCommandOutput
+  CreateHsmCommandOutput,
 } from "../commands/CreateHsmCommand";
 import {
   DeleteBackupCommandInput,
-  DeleteBackupCommandOutput
+  DeleteBackupCommandOutput,
 } from "../commands/DeleteBackupCommand";
 import {
   DeleteClusterCommandInput,
-  DeleteClusterCommandOutput
+  DeleteClusterCommandOutput,
 } from "../commands/DeleteClusterCommand";
 import {
   DeleteHsmCommandInput,
-  DeleteHsmCommandOutput
+  DeleteHsmCommandOutput,
 } from "../commands/DeleteHsmCommand";
 import {
   DescribeBackupsCommandInput,
-  DescribeBackupsCommandOutput
+  DescribeBackupsCommandOutput,
 } from "../commands/DescribeBackupsCommand";
 import {
   DescribeClustersCommandInput,
-  DescribeClustersCommandOutput
+  DescribeClustersCommandOutput,
 } from "../commands/DescribeClustersCommand";
 import {
   InitializeClusterCommandInput,
-  InitializeClusterCommandOutput
+  InitializeClusterCommandOutput,
 } from "../commands/InitializeClusterCommand";
 import {
   ListTagsCommandInput,
-  ListTagsCommandOutput
+  ListTagsCommandOutput,
 } from "../commands/ListTagsCommand";
 import {
   RestoreBackupCommandInput,
-  RestoreBackupCommandOutput
+  RestoreBackupCommandOutput,
 } from "../commands/RestoreBackupCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   Backup,
@@ -88,11 +88,11 @@ import {
   TagResourceRequest,
   TagResourceResponse,
   UntagResourceRequest,
-  UntagResourceResponse
+  UntagResourceResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -100,7 +100,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CopyBackupToRegionCommand(
@@ -293,7 +293,7 @@ export async function deserializeAws_json1_1CopyBackupToRegionCommand(
   const response: CopyBackupToRegionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CopyBackupToRegionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -304,7 +304,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
 ): Promise<CopyBackupToRegionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -320,7 +320,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -331,7 +331,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -342,7 +342,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -353,7 +353,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -364,7 +364,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -375,7 +375,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -386,7 +386,7 @@ async function deserializeAws_json1_1CopyBackupToRegionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -408,7 +408,7 @@ export async function deserializeAws_json1_1CreateClusterCommand(
   const response: CreateClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -419,7 +419,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
 ): Promise<CreateClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -435,7 +435,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -446,7 +446,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -457,7 +457,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -468,7 +468,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -479,7 +479,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -490,7 +490,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -501,7 +501,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -523,7 +523,7 @@ export async function deserializeAws_json1_1CreateHsmCommand(
   const response: CreateHsmCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateHsmResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -534,7 +534,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
 ): Promise<CreateHsmCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -550,7 +550,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -561,7 +561,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -572,7 +572,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -583,7 +583,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -594,7 +594,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -605,7 +605,7 @@ async function deserializeAws_json1_1CreateHsmCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -627,7 +627,7 @@ export async function deserializeAws_json1_1DeleteBackupCommand(
   const response: DeleteBackupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteBackupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -638,7 +638,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
 ): Promise<DeleteBackupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -654,7 +654,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -665,7 +665,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -676,7 +676,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -687,7 +687,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -698,7 +698,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -709,7 +709,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -731,7 +731,7 @@ export async function deserializeAws_json1_1DeleteClusterCommand(
   const response: DeleteClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteClusterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -742,7 +742,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
 ): Promise<DeleteClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -758,7 +758,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -769,7 +769,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -780,7 +780,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -791,7 +791,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -802,7 +802,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -813,7 +813,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -824,7 +824,7 @@ async function deserializeAws_json1_1DeleteClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -846,7 +846,7 @@ export async function deserializeAws_json1_1DeleteHsmCommand(
   const response: DeleteHsmCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteHsmResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -857,7 +857,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
 ): Promise<DeleteHsmCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -873,7 +873,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -884,7 +884,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -895,7 +895,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -906,7 +906,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -917,7 +917,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -928,7 +928,7 @@ async function deserializeAws_json1_1DeleteHsmCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -950,7 +950,7 @@ export async function deserializeAws_json1_1DescribeBackupsCommand(
   const response: DescribeBackupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBackupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -961,7 +961,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
 ): Promise<DescribeBackupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -977,7 +977,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -988,7 +988,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -999,7 +999,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1010,7 +1010,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1021,7 +1021,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -1032,7 +1032,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1043,7 +1043,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1065,7 +1065,7 @@ export async function deserializeAws_json1_1DescribeClustersCommand(
   const response: DescribeClustersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeClustersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1076,7 +1076,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
 ): Promise<DescribeClustersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1092,7 +1092,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1103,7 +1103,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1114,7 +1114,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1125,7 +1125,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -1136,7 +1136,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1147,7 +1147,7 @@ async function deserializeAws_json1_1DescribeClustersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1169,7 +1169,7 @@ export async function deserializeAws_json1_1InitializeClusterCommand(
   const response: InitializeClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InitializeClusterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1180,7 +1180,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
 ): Promise<InitializeClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1196,7 +1196,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1207,7 +1207,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1218,7 +1218,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1229,7 +1229,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1240,7 +1240,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1251,7 +1251,7 @@ async function deserializeAws_json1_1InitializeClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1273,7 +1273,7 @@ export async function deserializeAws_json1_1ListTagsCommand(
   const response: ListTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1284,7 +1284,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
 ): Promise<ListTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1300,7 +1300,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1311,7 +1311,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1322,7 +1322,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1333,7 +1333,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1344,7 +1344,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -1355,7 +1355,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1366,7 +1366,7 @@ async function deserializeAws_json1_1ListTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1388,7 +1388,7 @@ export async function deserializeAws_json1_1RestoreBackupCommand(
   const response: RestoreBackupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RestoreBackupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1399,7 +1399,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
 ): Promise<RestoreBackupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1415,7 +1415,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1426,7 +1426,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1437,7 +1437,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1448,7 +1448,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1459,7 +1459,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1470,7 +1470,7 @@ async function deserializeAws_json1_1RestoreBackupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1492,7 +1492,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1503,7 +1503,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1519,7 +1519,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1530,7 +1530,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1541,7 +1541,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1552,7 +1552,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1563,7 +1563,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -1574,7 +1574,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1585,7 +1585,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1607,7 +1607,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1618,7 +1618,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1634,7 +1634,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInternalFailureException":
@@ -1645,7 +1645,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmInvalidRequestException":
@@ -1656,7 +1656,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmResourceNotFoundException":
@@ -1667,7 +1667,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmServiceException":
@@ -1678,7 +1678,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudHsmTagException":
@@ -1689,7 +1689,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1700,7 +1700,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1722,7 +1722,7 @@ const deserializeAws_json1_1CloudHsmAccessDeniedExceptionResponse = async (
     name: "CloudHsmAccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1740,7 +1740,7 @@ const deserializeAws_json1_1CloudHsmInternalFailureExceptionResponse = async (
     name: "CloudHsmInternalFailureException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1758,7 +1758,7 @@ const deserializeAws_json1_1CloudHsmInvalidRequestExceptionResponse = async (
     name: "CloudHsmInvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1776,7 +1776,7 @@ const deserializeAws_json1_1CloudHsmResourceNotFoundExceptionResponse = async (
     name: "CloudHsmResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1794,7 +1794,7 @@ const deserializeAws_json1_1CloudHsmServiceExceptionResponse = async (
     name: "CloudHsmServiceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1812,7 +1812,7 @@ const deserializeAws_json1_1CloudHsmTagExceptionResponse = async (
     name: "CloudHsmTagException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1958,7 +1958,7 @@ const serializeAws_json1_1Filters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1Strings(input[key], context);
   });
   return mapParams;
@@ -2110,7 +2110,7 @@ const deserializeAws_json1_1Backup = (
     SourceBackup: undefined,
     SourceCluster: undefined,
     SourceRegion: undefined,
-    TagList: undefined
+    TagList: undefined,
   };
   if (output.BackupId !== undefined && output.BackupId !== null) {
     contents.BackupId = output.BackupId;
@@ -2168,7 +2168,7 @@ const deserializeAws_json1_1Certificates = (
     ClusterCertificate: undefined,
     ClusterCsr: undefined,
     HsmCertificate: undefined,
-    ManufacturerHardwareCertificate: undefined
+    ManufacturerHardwareCertificate: undefined,
   };
   if (
     output.AwsHardwareCertificate !== undefined &&
@@ -2217,7 +2217,7 @@ const deserializeAws_json1_1Cluster = (
     StateMessage: undefined,
     SubnetMapping: undefined,
     TagList: undefined,
-    VpcId: undefined
+    VpcId: undefined,
   };
   if (output.BackupPolicy !== undefined && output.BackupPolicy !== null) {
     contents.BackupPolicy = output.BackupPolicy;
@@ -2287,7 +2287,7 @@ const deserializeAws_json1_1CopyBackupToRegionResponse = (
 ): CopyBackupToRegionResponse => {
   let contents: any = {
     __type: "CopyBackupToRegionResponse",
-    DestinationBackup: undefined
+    DestinationBackup: undefined,
   };
   if (
     output.DestinationBackup !== undefined &&
@@ -2307,7 +2307,7 @@ const deserializeAws_json1_1CreateClusterResponse = (
 ): CreateClusterResponse => {
   let contents: any = {
     __type: "CreateClusterResponse",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output.Cluster !== undefined && output.Cluster !== null) {
     contents.Cluster = deserializeAws_json1_1Cluster(output.Cluster, context);
@@ -2321,7 +2321,7 @@ const deserializeAws_json1_1CreateHsmResponse = (
 ): CreateHsmResponse => {
   let contents: any = {
     __type: "CreateHsmResponse",
-    Hsm: undefined
+    Hsm: undefined,
   };
   if (output.Hsm !== undefined && output.Hsm !== null) {
     contents.Hsm = deserializeAws_json1_1Hsm(output.Hsm, context);
@@ -2335,7 +2335,7 @@ const deserializeAws_json1_1DeleteBackupResponse = (
 ): DeleteBackupResponse => {
   let contents: any = {
     __type: "DeleteBackupResponse",
-    Backup: undefined
+    Backup: undefined,
   };
   if (output.Backup !== undefined && output.Backup !== null) {
     contents.Backup = deserializeAws_json1_1Backup(output.Backup, context);
@@ -2349,7 +2349,7 @@ const deserializeAws_json1_1DeleteClusterResponse = (
 ): DeleteClusterResponse => {
   let contents: any = {
     __type: "DeleteClusterResponse",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output.Cluster !== undefined && output.Cluster !== null) {
     contents.Cluster = deserializeAws_json1_1Cluster(output.Cluster, context);
@@ -2363,7 +2363,7 @@ const deserializeAws_json1_1DeleteHsmResponse = (
 ): DeleteHsmResponse => {
   let contents: any = {
     __type: "DeleteHsmResponse",
-    HsmId: undefined
+    HsmId: undefined,
   };
   if (output.HsmId !== undefined && output.HsmId !== null) {
     contents.HsmId = output.HsmId;
@@ -2378,7 +2378,7 @@ const deserializeAws_json1_1DescribeBackupsResponse = (
   let contents: any = {
     __type: "DescribeBackupsResponse",
     Backups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Backups !== undefined && output.Backups !== null) {
     contents.Backups = deserializeAws_json1_1Backups(output.Backups, context);
@@ -2396,7 +2396,7 @@ const deserializeAws_json1_1DescribeClustersResponse = (
   let contents: any = {
     __type: "DescribeClustersResponse",
     Clusters: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Clusters !== undefined && output.Clusters !== null) {
     contents.Clusters = deserializeAws_json1_1Clusters(
@@ -2419,7 +2419,7 @@ const deserializeAws_json1_1DestinationBackup = (
     CreateTimestamp: undefined,
     SourceBackup: undefined,
     SourceCluster: undefined,
-    SourceRegion: undefined
+    SourceRegion: undefined,
   };
   if (output.CreateTimestamp !== undefined && output.CreateTimestamp !== null) {
     contents.CreateTimestamp = new Date(
@@ -2443,7 +2443,7 @@ const deserializeAws_json1_1ExternalSubnetMapping = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2462,7 +2462,7 @@ const deserializeAws_json1_1Hsm = (
     HsmId: undefined,
     State: undefined,
     StateMessage: undefined,
-    SubnetId: undefined
+    SubnetId: undefined,
   };
   if (
     output.AvailabilityZone !== undefined &&
@@ -2510,7 +2510,7 @@ const deserializeAws_json1_1InitializeClusterResponse = (
   let contents: any = {
     __type: "InitializeClusterResponse",
     State: undefined,
-    StateMessage: undefined
+    StateMessage: undefined,
   };
   if (output.State !== undefined && output.State !== null) {
     contents.State = output.State;
@@ -2528,7 +2528,7 @@ const deserializeAws_json1_1ListTagsResponse = (
   let contents: any = {
     __type: "ListTagsResponse",
     NextToken: undefined,
-    TagList: undefined
+    TagList: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -2545,7 +2545,7 @@ const deserializeAws_json1_1RestoreBackupResponse = (
 ): RestoreBackupResponse => {
   let contents: any = {
     __type: "RestoreBackupResponse",
-    Backup: undefined
+    Backup: undefined,
   };
   if (output.Backup !== undefined && output.Backup !== null) {
     contents.Backup = deserializeAws_json1_1Backup(output.Backup, context);
@@ -2560,7 +2560,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -2585,7 +2585,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -2595,7 +2595,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -2606,7 +2606,7 @@ const deserializeAws_json1_1CloudHsmAccessDeniedException = (
 ): CloudHsmAccessDeniedException => {
   let contents: any = {
     __type: "CloudHsmAccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2620,7 +2620,7 @@ const deserializeAws_json1_1CloudHsmInternalFailureException = (
 ): CloudHsmInternalFailureException => {
   let contents: any = {
     __type: "CloudHsmInternalFailureException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2634,7 +2634,7 @@ const deserializeAws_json1_1CloudHsmInvalidRequestException = (
 ): CloudHsmInvalidRequestException => {
   let contents: any = {
     __type: "CloudHsmInvalidRequestException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2648,7 +2648,7 @@ const deserializeAws_json1_1CloudHsmResourceNotFoundException = (
 ): CloudHsmResourceNotFoundException => {
   let contents: any = {
     __type: "CloudHsmResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2662,7 +2662,7 @@ const deserializeAws_json1_1CloudHsmServiceException = (
 ): CloudHsmServiceException => {
   let contents: any = {
     __type: "CloudHsmServiceException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2676,7 +2676,7 @@ const deserializeAws_json1_1CloudHsmTagException = (
 ): CloudHsmTagException => {
   let contents: any = {
     __type: "CloudHsmTagException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2687,7 +2687,7 @@ const deserializeAws_json1_1CloudHsmTagException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2708,7 +2708,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2721,11 +2721,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2737,7 +2737,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

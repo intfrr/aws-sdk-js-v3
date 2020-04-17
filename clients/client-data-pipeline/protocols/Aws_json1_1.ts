@@ -1,78 +1,78 @@
 import {
   ActivatePipelineCommandInput,
-  ActivatePipelineCommandOutput
+  ActivatePipelineCommandOutput,
 } from "../commands/ActivatePipelineCommand";
 import {
   AddTagsCommandInput,
-  AddTagsCommandOutput
+  AddTagsCommandOutput,
 } from "../commands/AddTagsCommand";
 import {
   CreatePipelineCommandInput,
-  CreatePipelineCommandOutput
+  CreatePipelineCommandOutput,
 } from "../commands/CreatePipelineCommand";
 import {
   DeactivatePipelineCommandInput,
-  DeactivatePipelineCommandOutput
+  DeactivatePipelineCommandOutput,
 } from "../commands/DeactivatePipelineCommand";
 import {
   DeletePipelineCommandInput,
-  DeletePipelineCommandOutput
+  DeletePipelineCommandOutput,
 } from "../commands/DeletePipelineCommand";
 import {
   DescribeObjectsCommandInput,
-  DescribeObjectsCommandOutput
+  DescribeObjectsCommandOutput,
 } from "../commands/DescribeObjectsCommand";
 import {
   DescribePipelinesCommandInput,
-  DescribePipelinesCommandOutput
+  DescribePipelinesCommandOutput,
 } from "../commands/DescribePipelinesCommand";
 import {
   EvaluateExpressionCommandInput,
-  EvaluateExpressionCommandOutput
+  EvaluateExpressionCommandOutput,
 } from "../commands/EvaluateExpressionCommand";
 import {
   GetPipelineDefinitionCommandInput,
-  GetPipelineDefinitionCommandOutput
+  GetPipelineDefinitionCommandOutput,
 } from "../commands/GetPipelineDefinitionCommand";
 import {
   ListPipelinesCommandInput,
-  ListPipelinesCommandOutput
+  ListPipelinesCommandOutput,
 } from "../commands/ListPipelinesCommand";
 import {
   PollForTaskCommandInput,
-  PollForTaskCommandOutput
+  PollForTaskCommandOutput,
 } from "../commands/PollForTaskCommand";
 import {
   PutPipelineDefinitionCommandInput,
-  PutPipelineDefinitionCommandOutput
+  PutPipelineDefinitionCommandOutput,
 } from "../commands/PutPipelineDefinitionCommand";
 import {
   QueryObjectsCommandInput,
-  QueryObjectsCommandOutput
+  QueryObjectsCommandOutput,
 } from "../commands/QueryObjectsCommand";
 import {
   RemoveTagsCommandInput,
-  RemoveTagsCommandOutput
+  RemoveTagsCommandOutput,
 } from "../commands/RemoveTagsCommand";
 import {
   ReportTaskProgressCommandInput,
-  ReportTaskProgressCommandOutput
+  ReportTaskProgressCommandOutput,
 } from "../commands/ReportTaskProgressCommand";
 import {
   ReportTaskRunnerHeartbeatCommandInput,
-  ReportTaskRunnerHeartbeatCommandOutput
+  ReportTaskRunnerHeartbeatCommandOutput,
 } from "../commands/ReportTaskRunnerHeartbeatCommand";
 import {
   SetStatusCommandInput,
-  SetStatusCommandOutput
+  SetStatusCommandOutput,
 } from "../commands/SetStatusCommand";
 import {
   SetTaskStatusCommandInput,
-  SetTaskStatusCommandOutput
+  SetTaskStatusCommandOutput,
 } from "../commands/SetTaskStatusCommand";
 import {
   ValidatePipelineDefinitionCommandInput,
-  ValidatePipelineDefinitionCommandOutput
+  ValidatePipelineDefinitionCommandOutput,
 } from "../commands/ValidatePipelineDefinitionCommand";
 import {
   ActivatePipelineInput,
@@ -130,11 +130,11 @@ import {
   ValidatePipelineDefinitionInput,
   ValidatePipelineDefinitionOutput,
   ValidationError,
-  ValidationWarning
+  ValidationWarning,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -142,7 +142,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1ActivatePipelineCommand(
@@ -410,7 +410,7 @@ export async function deserializeAws_json1_1ActivatePipelineCommand(
   const response: ActivatePipelineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivatePipelineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -421,7 +421,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
 ): Promise<ActivatePipelineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -437,7 +437,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -448,7 +448,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -459,7 +459,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -470,7 +470,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -481,7 +481,7 @@ async function deserializeAws_json1_1ActivatePipelineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -503,7 +503,7 @@ export async function deserializeAws_json1_1AddTagsCommand(
   const response: AddTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddTagsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -514,7 +514,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
 ): Promise<AddTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -530,7 +530,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -541,7 +541,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -552,7 +552,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -563,7 +563,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -574,7 +574,7 @@ async function deserializeAws_json1_1AddTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -596,7 +596,7 @@ export async function deserializeAws_json1_1CreatePipelineCommand(
   const response: CreatePipelineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreatePipelineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -607,7 +607,7 @@ async function deserializeAws_json1_1CreatePipelineCommandError(
 ): Promise<CreatePipelineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -623,7 +623,7 @@ async function deserializeAws_json1_1CreatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -634,7 +634,7 @@ async function deserializeAws_json1_1CreatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -645,7 +645,7 @@ async function deserializeAws_json1_1CreatePipelineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -670,7 +670,7 @@ export async function deserializeAws_json1_1DeactivatePipelineCommand(
   const response: DeactivatePipelineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeactivatePipelineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -681,7 +681,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
 ): Promise<DeactivatePipelineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -697,7 +697,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -708,7 +708,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -719,7 +719,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -730,7 +730,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -741,7 +741,7 @@ async function deserializeAws_json1_1DeactivatePipelineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -759,7 +759,7 @@ export async function deserializeAws_json1_1DeletePipelineCommand(
   }
   await collectBody(output.body, context);
   const response: DeletePipelineCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -770,7 +770,7 @@ async function deserializeAws_json1_1DeletePipelineCommandError(
 ): Promise<DeletePipelineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -786,7 +786,7 @@ async function deserializeAws_json1_1DeletePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -797,7 +797,7 @@ async function deserializeAws_json1_1DeletePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -808,7 +808,7 @@ async function deserializeAws_json1_1DeletePipelineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -819,7 +819,7 @@ async function deserializeAws_json1_1DeletePipelineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -841,7 +841,7 @@ export async function deserializeAws_json1_1DescribeObjectsCommand(
   const response: DescribeObjectsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeObjectsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -852,7 +852,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
 ): Promise<DescribeObjectsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -868,7 +868,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -890,7 +890,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -901,7 +901,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -912,7 +912,7 @@ async function deserializeAws_json1_1DescribeObjectsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -934,7 +934,7 @@ export async function deserializeAws_json1_1DescribePipelinesCommand(
   const response: DescribePipelinesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribePipelinesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -945,7 +945,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
 ): Promise<DescribePipelinesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -961,7 +961,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -972,7 +972,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -983,7 +983,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -994,7 +994,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1005,7 +1005,7 @@ async function deserializeAws_json1_1DescribePipelinesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1030,7 +1030,7 @@ export async function deserializeAws_json1_1EvaluateExpressionCommand(
   const response: EvaluateExpressionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EvaluateExpressionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1041,7 +1041,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
 ): Promise<EvaluateExpressionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1057,7 +1057,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1068,7 +1068,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1079,7 +1079,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1090,7 +1090,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskNotFoundException":
@@ -1101,7 +1101,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1112,7 +1112,7 @@ async function deserializeAws_json1_1EvaluateExpressionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1137,7 +1137,7 @@ export async function deserializeAws_json1_1GetPipelineDefinitionCommand(
   const response: GetPipelineDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetPipelineDefinitionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1148,7 +1148,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
 ): Promise<GetPipelineDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1164,7 +1164,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1175,7 +1175,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1186,7 +1186,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1197,7 +1197,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1208,7 +1208,7 @@ async function deserializeAws_json1_1GetPipelineDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1230,7 +1230,7 @@ export async function deserializeAws_json1_1ListPipelinesCommand(
   const response: ListPipelinesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPipelinesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1241,7 +1241,7 @@ async function deserializeAws_json1_1ListPipelinesCommandError(
 ): Promise<ListPipelinesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1257,7 +1257,7 @@ async function deserializeAws_json1_1ListPipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1268,7 +1268,7 @@ async function deserializeAws_json1_1ListPipelinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1279,7 +1279,7 @@ async function deserializeAws_json1_1ListPipelinesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1301,7 +1301,7 @@ export async function deserializeAws_json1_1PollForTaskCommand(
   const response: PollForTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PollForTaskOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1312,7 +1312,7 @@ async function deserializeAws_json1_1PollForTaskCommandError(
 ): Promise<PollForTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1328,7 +1328,7 @@ async function deserializeAws_json1_1PollForTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1339,7 +1339,7 @@ async function deserializeAws_json1_1PollForTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskNotFoundException":
@@ -1350,7 +1350,7 @@ async function deserializeAws_json1_1PollForTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1361,7 +1361,7 @@ async function deserializeAws_json1_1PollForTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1386,7 +1386,7 @@ export async function deserializeAws_json1_1PutPipelineDefinitionCommand(
   const response: PutPipelineDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutPipelineDefinitionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1397,7 +1397,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
 ): Promise<PutPipelineDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1413,7 +1413,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1424,7 +1424,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1435,7 +1435,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1446,7 +1446,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1457,7 +1457,7 @@ async function deserializeAws_json1_1PutPipelineDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1479,7 +1479,7 @@ export async function deserializeAws_json1_1QueryObjectsCommand(
   const response: QueryObjectsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "QueryObjectsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1490,7 +1490,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
 ): Promise<QueryObjectsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1506,7 +1506,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1517,7 +1517,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1528,7 +1528,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1539,7 +1539,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1550,7 +1550,7 @@ async function deserializeAws_json1_1QueryObjectsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1572,7 +1572,7 @@ export async function deserializeAws_json1_1RemoveTagsCommand(
   const response: RemoveTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RemoveTagsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1583,7 +1583,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
 ): Promise<RemoveTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1599,7 +1599,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1610,7 +1610,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1621,7 +1621,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1632,7 +1632,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1643,7 +1643,7 @@ async function deserializeAws_json1_1RemoveTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1668,7 +1668,7 @@ export async function deserializeAws_json1_1ReportTaskProgressCommand(
   const response: ReportTaskProgressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReportTaskProgressOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1679,7 +1679,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
 ): Promise<ReportTaskProgressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1695,7 +1695,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1706,7 +1706,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1717,7 +1717,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1728,7 +1728,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskNotFoundException":
@@ -1739,7 +1739,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1750,7 +1750,7 @@ async function deserializeAws_json1_1ReportTaskProgressCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1778,7 +1778,7 @@ export async function deserializeAws_json1_1ReportTaskRunnerHeartbeatCommand(
   const response: ReportTaskRunnerHeartbeatCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReportTaskRunnerHeartbeatOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1789,7 +1789,7 @@ async function deserializeAws_json1_1ReportTaskRunnerHeartbeatCommandError(
 ): Promise<ReportTaskRunnerHeartbeatCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1805,7 +1805,7 @@ async function deserializeAws_json1_1ReportTaskRunnerHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1816,7 +1816,7 @@ async function deserializeAws_json1_1ReportTaskRunnerHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1827,7 +1827,7 @@ async function deserializeAws_json1_1ReportTaskRunnerHeartbeatCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1845,7 +1845,7 @@ export async function deserializeAws_json1_1SetStatusCommand(
   }
   await collectBody(output.body, context);
   const response: SetStatusCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1856,7 +1856,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
 ): Promise<SetStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1872,7 +1872,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1883,7 +1883,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1894,7 +1894,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1905,7 +1905,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1916,7 +1916,7 @@ async function deserializeAws_json1_1SetStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1938,7 +1938,7 @@ export async function deserializeAws_json1_1SetTaskStatusCommand(
   const response: SetTaskStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetTaskStatusOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1949,7 +1949,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
 ): Promise<SetTaskStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1965,7 +1965,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1976,7 +1976,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -1987,7 +1987,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -1998,7 +1998,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskNotFoundException":
@@ -2009,7 +2009,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2020,7 +2020,7 @@ async function deserializeAws_json1_1SetTaskStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2048,7 +2048,7 @@ export async function deserializeAws_json1_1ValidatePipelineDefinitionCommand(
   const response: ValidatePipelineDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ValidatePipelineDefinitionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2059,7 +2059,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
 ): Promise<ValidatePipelineDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2075,7 +2075,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2086,7 +2086,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineDeletedException":
@@ -2097,7 +2097,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PipelineNotFoundException":
@@ -2108,7 +2108,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2119,7 +2119,7 @@ async function deserializeAws_json1_1ValidatePipelineDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2141,7 +2141,7 @@ const deserializeAws_json1_1InternalServiceErrorResponse = async (
     name: "InternalServiceError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2159,7 +2159,7 @@ const deserializeAws_json1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2177,7 +2177,7 @@ const deserializeAws_json1_1PipelineDeletedExceptionResponse = async (
     name: "PipelineDeletedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2195,7 +2195,7 @@ const deserializeAws_json1_1PipelineNotFoundExceptionResponse = async (
     name: "PipelineNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2213,7 +2213,7 @@ const deserializeAws_json1_1TaskNotFoundExceptionResponse = async (
     name: "TaskNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2826,7 +2826,7 @@ const deserializeAws_json1_1ActivatePipelineOutput = (
   context: __SerdeContext
 ): ActivatePipelineOutput => {
   let contents: any = {
-    __type: "ActivatePipelineOutput"
+    __type: "ActivatePipelineOutput",
   };
   return contents;
 };
@@ -2836,7 +2836,7 @@ const deserializeAws_json1_1AddTagsOutput = (
   context: __SerdeContext
 ): AddTagsOutput => {
   let contents: any = {
-    __type: "AddTagsOutput"
+    __type: "AddTagsOutput",
   };
   return contents;
 };
@@ -2847,7 +2847,7 @@ const deserializeAws_json1_1CreatePipelineOutput = (
 ): CreatePipelineOutput => {
   let contents: any = {
     __type: "CreatePipelineOutput",
-    pipelineId: undefined
+    pipelineId: undefined,
   };
   if (output.pipelineId !== undefined && output.pipelineId !== null) {
     contents.pipelineId = output.pipelineId;
@@ -2860,7 +2860,7 @@ const deserializeAws_json1_1DeactivatePipelineOutput = (
   context: __SerdeContext
 ): DeactivatePipelineOutput => {
   let contents: any = {
-    __type: "DeactivatePipelineOutput"
+    __type: "DeactivatePipelineOutput",
   };
   return contents;
 };
@@ -2873,7 +2873,7 @@ const deserializeAws_json1_1DescribeObjectsOutput = (
     __type: "DescribeObjectsOutput",
     hasMoreResults: undefined,
     marker: undefined,
-    pipelineObjects: undefined
+    pipelineObjects: undefined,
   };
   if (output.hasMoreResults !== undefined && output.hasMoreResults !== null) {
     contents.hasMoreResults = output.hasMoreResults;
@@ -2896,7 +2896,7 @@ const deserializeAws_json1_1DescribePipelinesOutput = (
 ): DescribePipelinesOutput => {
   let contents: any = {
     __type: "DescribePipelinesOutput",
-    pipelineDescriptionList: undefined
+    pipelineDescriptionList: undefined,
   };
   if (
     output.pipelineDescriptionList !== undefined &&
@@ -2916,7 +2916,7 @@ const deserializeAws_json1_1EvaluateExpressionOutput = (
 ): EvaluateExpressionOutput => {
   let contents: any = {
     __type: "EvaluateExpressionOutput",
-    evaluatedExpression: undefined
+    evaluatedExpression: undefined,
   };
   if (
     output.evaluatedExpression !== undefined &&
@@ -2935,7 +2935,7 @@ const deserializeAws_json1_1Field = (
     __type: "Field",
     key: undefined,
     refValue: undefined,
-    stringValue: undefined
+    stringValue: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -2957,7 +2957,7 @@ const deserializeAws_json1_1GetPipelineDefinitionOutput = (
     __type: "GetPipelineDefinitionOutput",
     parameterObjects: undefined,
     parameterValues: undefined,
-    pipelineObjects: undefined
+    pipelineObjects: undefined,
   };
   if (
     output.parameterObjects !== undefined &&
@@ -2989,7 +2989,7 @@ const deserializeAws_json1_1InternalServiceError = (
 ): InternalServiceError => {
   let contents: any = {
     __type: "InternalServiceError",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3003,7 +3003,7 @@ const deserializeAws_json1_1InvalidRequestException = (
 ): InvalidRequestException => {
   let contents: any = {
     __type: "InvalidRequestException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3019,7 +3019,7 @@ const deserializeAws_json1_1ListPipelinesOutput = (
     __type: "ListPipelinesOutput",
     hasMoreResults: undefined,
     marker: undefined,
-    pipelineIdList: undefined
+    pipelineIdList: undefined,
   };
   if (output.hasMoreResults !== undefined && output.hasMoreResults !== null) {
     contents.hasMoreResults = output.hasMoreResults;
@@ -3043,7 +3043,7 @@ const deserializeAws_json1_1ParameterAttribute = (
   let contents: any = {
     __type: "ParameterAttribute",
     key: undefined,
-    stringValue: undefined
+    stringValue: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -3070,7 +3070,7 @@ const deserializeAws_json1_1ParameterObject = (
   let contents: any = {
     __type: "ParameterObject",
     attributes: undefined,
-    id: undefined
+    id: undefined,
   };
   if (output.attributes !== undefined && output.attributes !== null) {
     contents.attributes = deserializeAws_json1_1ParameterAttributeList(
@@ -3100,7 +3100,7 @@ const deserializeAws_json1_1ParameterValue = (
   let contents: any = {
     __type: "ParameterValue",
     id: undefined,
-    stringValue: undefined
+    stringValue: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -3126,7 +3126,7 @@ const deserializeAws_json1_1PipelineDeletedException = (
 ): PipelineDeletedException => {
   let contents: any = {
     __type: "PipelineDeletedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3144,7 +3144,7 @@ const deserializeAws_json1_1PipelineDescription = (
     fields: undefined,
     name: undefined,
     pipelineId: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.description !== undefined && output.description !== null) {
     contents.description = output.description;
@@ -3180,7 +3180,7 @@ const deserializeAws_json1_1PipelineIdName = (
   let contents: any = {
     __type: "PipelineIdName",
     id: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -3197,7 +3197,7 @@ const deserializeAws_json1_1PipelineNotFoundException = (
 ): PipelineNotFoundException => {
   let contents: any = {
     __type: "PipelineNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3213,7 +3213,7 @@ const deserializeAws_json1_1PipelineObject = (
     __type: "PipelineObject",
     fields: undefined,
     id: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.fields !== undefined && output.fields !== null) {
     contents.fields = deserializeAws_json1_1fieldList(output.fields, context);
@@ -3241,7 +3241,7 @@ const deserializeAws_json1_1PipelineObjectMap = (
   context: __SerdeContext
 ): { [key: string]: PipelineObject } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1PipelineObject(output[key], context);
   });
   return mapParams;
@@ -3253,7 +3253,7 @@ const deserializeAws_json1_1PollForTaskOutput = (
 ): PollForTaskOutput => {
   let contents: any = {
     __type: "PollForTaskOutput",
-    taskObject: undefined
+    taskObject: undefined,
   };
   if (output.taskObject !== undefined && output.taskObject !== null) {
     contents.taskObject = deserializeAws_json1_1TaskObject(
@@ -3272,7 +3272,7 @@ const deserializeAws_json1_1PutPipelineDefinitionOutput = (
     __type: "PutPipelineDefinitionOutput",
     errored: undefined,
     validationErrors: undefined,
-    validationWarnings: undefined
+    validationWarnings: undefined,
   };
   if (output.errored !== undefined && output.errored !== null) {
     contents.errored = output.errored;
@@ -3306,7 +3306,7 @@ const deserializeAws_json1_1QueryObjectsOutput = (
     __type: "QueryObjectsOutput",
     hasMoreResults: undefined,
     ids: undefined,
-    marker: undefined
+    marker: undefined,
   };
   if (output.hasMoreResults !== undefined && output.hasMoreResults !== null) {
     contents.hasMoreResults = output.hasMoreResults;
@@ -3325,7 +3325,7 @@ const deserializeAws_json1_1RemoveTagsOutput = (
   context: __SerdeContext
 ): RemoveTagsOutput => {
   let contents: any = {
-    __type: "RemoveTagsOutput"
+    __type: "RemoveTagsOutput",
   };
   return contents;
 };
@@ -3336,7 +3336,7 @@ const deserializeAws_json1_1ReportTaskProgressOutput = (
 ): ReportTaskProgressOutput => {
   let contents: any = {
     __type: "ReportTaskProgressOutput",
-    canceled: undefined
+    canceled: undefined,
   };
   if (output.canceled !== undefined && output.canceled !== null) {
     contents.canceled = output.canceled;
@@ -3350,7 +3350,7 @@ const deserializeAws_json1_1ReportTaskRunnerHeartbeatOutput = (
 ): ReportTaskRunnerHeartbeatOutput => {
   let contents: any = {
     __type: "ReportTaskRunnerHeartbeatOutput",
-    terminate: undefined
+    terminate: undefined,
   };
   if (output.terminate !== undefined && output.terminate !== null) {
     contents.terminate = output.terminate;
@@ -3363,7 +3363,7 @@ const deserializeAws_json1_1SetTaskStatusOutput = (
   context: __SerdeContext
 ): SetTaskStatusOutput => {
   let contents: any = {
-    __type: "SetTaskStatusOutput"
+    __type: "SetTaskStatusOutput",
   };
   return contents;
 };
@@ -3375,7 +3375,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -3392,7 +3392,7 @@ const deserializeAws_json1_1TaskNotFoundException = (
 ): TaskNotFoundException => {
   let contents: any = {
     __type: "TaskNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3409,7 +3409,7 @@ const deserializeAws_json1_1TaskObject = (
     attemptId: undefined,
     objects: undefined,
     pipelineId: undefined,
-    taskId: undefined
+    taskId: undefined,
   };
   if (output.attemptId !== undefined && output.attemptId !== null) {
     contents.attemptId = output.attemptId;
@@ -3437,7 +3437,7 @@ const deserializeAws_json1_1ValidatePipelineDefinitionOutput = (
     __type: "ValidatePipelineDefinitionOutput",
     errored: undefined,
     validationErrors: undefined,
-    validationWarnings: undefined
+    validationWarnings: undefined,
   };
   if (output.errored !== undefined && output.errored !== null) {
     contents.errored = output.errored;
@@ -3470,7 +3470,7 @@ const deserializeAws_json1_1ValidationError = (
   let contents: any = {
     __type: "ValidationError",
     errors: undefined,
-    id: undefined
+    id: undefined,
   };
   if (output.errors !== undefined && output.errors !== null) {
     contents.errors = deserializeAws_json1_1validationMessages(
@@ -3500,7 +3500,7 @@ const deserializeAws_json1_1ValidationWarning = (
   let contents: any = {
     __type: "ValidationWarning",
     id: undefined,
-    warnings: undefined
+    warnings: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -3567,7 +3567,7 @@ const deserializeAws_json1_1validationMessages = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3588,7 +3588,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3601,11 +3601,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3617,7 +3617,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

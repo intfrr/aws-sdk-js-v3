@@ -1,214 +1,214 @@
 import {
   AcceptDirectConnectGatewayAssociationProposalCommandInput,
-  AcceptDirectConnectGatewayAssociationProposalCommandOutput
+  AcceptDirectConnectGatewayAssociationProposalCommandOutput,
 } from "../commands/AcceptDirectConnectGatewayAssociationProposalCommand";
 import {
   AllocateConnectionOnInterconnectCommandInput,
-  AllocateConnectionOnInterconnectCommandOutput
+  AllocateConnectionOnInterconnectCommandOutput,
 } from "../commands/AllocateConnectionOnInterconnectCommand";
 import {
   AllocateHostedConnectionCommandInput,
-  AllocateHostedConnectionCommandOutput
+  AllocateHostedConnectionCommandOutput,
 } from "../commands/AllocateHostedConnectionCommand";
 import {
   AllocatePrivateVirtualInterfaceCommandInput,
-  AllocatePrivateVirtualInterfaceCommandOutput
+  AllocatePrivateVirtualInterfaceCommandOutput,
 } from "../commands/AllocatePrivateVirtualInterfaceCommand";
 import {
   AllocatePublicVirtualInterfaceCommandInput,
-  AllocatePublicVirtualInterfaceCommandOutput
+  AllocatePublicVirtualInterfaceCommandOutput,
 } from "../commands/AllocatePublicVirtualInterfaceCommand";
 import {
   AllocateTransitVirtualInterfaceCommandInput,
-  AllocateTransitVirtualInterfaceCommandOutput
+  AllocateTransitVirtualInterfaceCommandOutput,
 } from "../commands/AllocateTransitVirtualInterfaceCommand";
 import {
   AssociateConnectionWithLagCommandInput,
-  AssociateConnectionWithLagCommandOutput
+  AssociateConnectionWithLagCommandOutput,
 } from "../commands/AssociateConnectionWithLagCommand";
 import {
   AssociateHostedConnectionCommandInput,
-  AssociateHostedConnectionCommandOutput
+  AssociateHostedConnectionCommandOutput,
 } from "../commands/AssociateHostedConnectionCommand";
 import {
   AssociateVirtualInterfaceCommandInput,
-  AssociateVirtualInterfaceCommandOutput
+  AssociateVirtualInterfaceCommandOutput,
 } from "../commands/AssociateVirtualInterfaceCommand";
 import {
   ConfirmConnectionCommandInput,
-  ConfirmConnectionCommandOutput
+  ConfirmConnectionCommandOutput,
 } from "../commands/ConfirmConnectionCommand";
 import {
   ConfirmPrivateVirtualInterfaceCommandInput,
-  ConfirmPrivateVirtualInterfaceCommandOutput
+  ConfirmPrivateVirtualInterfaceCommandOutput,
 } from "../commands/ConfirmPrivateVirtualInterfaceCommand";
 import {
   ConfirmPublicVirtualInterfaceCommandInput,
-  ConfirmPublicVirtualInterfaceCommandOutput
+  ConfirmPublicVirtualInterfaceCommandOutput,
 } from "../commands/ConfirmPublicVirtualInterfaceCommand";
 import {
   ConfirmTransitVirtualInterfaceCommandInput,
-  ConfirmTransitVirtualInterfaceCommandOutput
+  ConfirmTransitVirtualInterfaceCommandOutput,
 } from "../commands/ConfirmTransitVirtualInterfaceCommand";
 import {
   CreateBGPPeerCommandInput,
-  CreateBGPPeerCommandOutput
+  CreateBGPPeerCommandOutput,
 } from "../commands/CreateBGPPeerCommand";
 import {
   CreateConnectionCommandInput,
-  CreateConnectionCommandOutput
+  CreateConnectionCommandOutput,
 } from "../commands/CreateConnectionCommand";
 import {
   CreateDirectConnectGatewayAssociationCommandInput,
-  CreateDirectConnectGatewayAssociationCommandOutput
+  CreateDirectConnectGatewayAssociationCommandOutput,
 } from "../commands/CreateDirectConnectGatewayAssociationCommand";
 import {
   CreateDirectConnectGatewayAssociationProposalCommandInput,
-  CreateDirectConnectGatewayAssociationProposalCommandOutput
+  CreateDirectConnectGatewayAssociationProposalCommandOutput,
 } from "../commands/CreateDirectConnectGatewayAssociationProposalCommand";
 import {
   CreateDirectConnectGatewayCommandInput,
-  CreateDirectConnectGatewayCommandOutput
+  CreateDirectConnectGatewayCommandOutput,
 } from "../commands/CreateDirectConnectGatewayCommand";
 import {
   CreateInterconnectCommandInput,
-  CreateInterconnectCommandOutput
+  CreateInterconnectCommandOutput,
 } from "../commands/CreateInterconnectCommand";
 import {
   CreateLagCommandInput,
-  CreateLagCommandOutput
+  CreateLagCommandOutput,
 } from "../commands/CreateLagCommand";
 import {
   CreatePrivateVirtualInterfaceCommandInput,
-  CreatePrivateVirtualInterfaceCommandOutput
+  CreatePrivateVirtualInterfaceCommandOutput,
 } from "../commands/CreatePrivateVirtualInterfaceCommand";
 import {
   CreatePublicVirtualInterfaceCommandInput,
-  CreatePublicVirtualInterfaceCommandOutput
+  CreatePublicVirtualInterfaceCommandOutput,
 } from "../commands/CreatePublicVirtualInterfaceCommand";
 import {
   CreateTransitVirtualInterfaceCommandInput,
-  CreateTransitVirtualInterfaceCommandOutput
+  CreateTransitVirtualInterfaceCommandOutput,
 } from "../commands/CreateTransitVirtualInterfaceCommand";
 import {
   DeleteBGPPeerCommandInput,
-  DeleteBGPPeerCommandOutput
+  DeleteBGPPeerCommandOutput,
 } from "../commands/DeleteBGPPeerCommand";
 import {
   DeleteConnectionCommandInput,
-  DeleteConnectionCommandOutput
+  DeleteConnectionCommandOutput,
 } from "../commands/DeleteConnectionCommand";
 import {
   DeleteDirectConnectGatewayAssociationCommandInput,
-  DeleteDirectConnectGatewayAssociationCommandOutput
+  DeleteDirectConnectGatewayAssociationCommandOutput,
 } from "../commands/DeleteDirectConnectGatewayAssociationCommand";
 import {
   DeleteDirectConnectGatewayAssociationProposalCommandInput,
-  DeleteDirectConnectGatewayAssociationProposalCommandOutput
+  DeleteDirectConnectGatewayAssociationProposalCommandOutput,
 } from "../commands/DeleteDirectConnectGatewayAssociationProposalCommand";
 import {
   DeleteDirectConnectGatewayCommandInput,
-  DeleteDirectConnectGatewayCommandOutput
+  DeleteDirectConnectGatewayCommandOutput,
 } from "../commands/DeleteDirectConnectGatewayCommand";
 import {
   DeleteInterconnectCommandInput,
-  DeleteInterconnectCommandOutput
+  DeleteInterconnectCommandOutput,
 } from "../commands/DeleteInterconnectCommand";
 import {
   DeleteLagCommandInput,
-  DeleteLagCommandOutput
+  DeleteLagCommandOutput,
 } from "../commands/DeleteLagCommand";
 import {
   DeleteVirtualInterfaceCommandInput,
-  DeleteVirtualInterfaceCommandOutput
+  DeleteVirtualInterfaceCommandOutput,
 } from "../commands/DeleteVirtualInterfaceCommand";
 import {
   DescribeConnectionLoaCommandInput,
-  DescribeConnectionLoaCommandOutput
+  DescribeConnectionLoaCommandOutput,
 } from "../commands/DescribeConnectionLoaCommand";
 import {
   DescribeConnectionsCommandInput,
-  DescribeConnectionsCommandOutput
+  DescribeConnectionsCommandOutput,
 } from "../commands/DescribeConnectionsCommand";
 import {
   DescribeConnectionsOnInterconnectCommandInput,
-  DescribeConnectionsOnInterconnectCommandOutput
+  DescribeConnectionsOnInterconnectCommandOutput,
 } from "../commands/DescribeConnectionsOnInterconnectCommand";
 import {
   DescribeDirectConnectGatewayAssociationProposalsCommandInput,
-  DescribeDirectConnectGatewayAssociationProposalsCommandOutput
+  DescribeDirectConnectGatewayAssociationProposalsCommandOutput,
 } from "../commands/DescribeDirectConnectGatewayAssociationProposalsCommand";
 import {
   DescribeDirectConnectGatewayAssociationsCommandInput,
-  DescribeDirectConnectGatewayAssociationsCommandOutput
+  DescribeDirectConnectGatewayAssociationsCommandOutput,
 } from "../commands/DescribeDirectConnectGatewayAssociationsCommand";
 import {
   DescribeDirectConnectGatewayAttachmentsCommandInput,
-  DescribeDirectConnectGatewayAttachmentsCommandOutput
+  DescribeDirectConnectGatewayAttachmentsCommandOutput,
 } from "../commands/DescribeDirectConnectGatewayAttachmentsCommand";
 import {
   DescribeDirectConnectGatewaysCommandInput,
-  DescribeDirectConnectGatewaysCommandOutput
+  DescribeDirectConnectGatewaysCommandOutput,
 } from "../commands/DescribeDirectConnectGatewaysCommand";
 import {
   DescribeHostedConnectionsCommandInput,
-  DescribeHostedConnectionsCommandOutput
+  DescribeHostedConnectionsCommandOutput,
 } from "../commands/DescribeHostedConnectionsCommand";
 import {
   DescribeInterconnectLoaCommandInput,
-  DescribeInterconnectLoaCommandOutput
+  DescribeInterconnectLoaCommandOutput,
 } from "../commands/DescribeInterconnectLoaCommand";
 import {
   DescribeInterconnectsCommandInput,
-  DescribeInterconnectsCommandOutput
+  DescribeInterconnectsCommandOutput,
 } from "../commands/DescribeInterconnectsCommand";
 import {
   DescribeLagsCommandInput,
-  DescribeLagsCommandOutput
+  DescribeLagsCommandOutput,
 } from "../commands/DescribeLagsCommand";
 import {
   DescribeLoaCommandInput,
-  DescribeLoaCommandOutput
+  DescribeLoaCommandOutput,
 } from "../commands/DescribeLoaCommand";
 import {
   DescribeLocationsCommandInput,
-  DescribeLocationsCommandOutput
+  DescribeLocationsCommandOutput,
 } from "../commands/DescribeLocationsCommand";
 import {
   DescribeTagsCommandInput,
-  DescribeTagsCommandOutput
+  DescribeTagsCommandOutput,
 } from "../commands/DescribeTagsCommand";
 import {
   DescribeVirtualGatewaysCommandInput,
-  DescribeVirtualGatewaysCommandOutput
+  DescribeVirtualGatewaysCommandOutput,
 } from "../commands/DescribeVirtualGatewaysCommand";
 import {
   DescribeVirtualInterfacesCommandInput,
-  DescribeVirtualInterfacesCommandOutput
+  DescribeVirtualInterfacesCommandOutput,
 } from "../commands/DescribeVirtualInterfacesCommand";
 import {
   DisassociateConnectionFromLagCommandInput,
-  DisassociateConnectionFromLagCommandOutput
+  DisassociateConnectionFromLagCommandOutput,
 } from "../commands/DisassociateConnectionFromLagCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateDirectConnectGatewayAssociationCommandInput,
-  UpdateDirectConnectGatewayAssociationCommandOutput
+  UpdateDirectConnectGatewayAssociationCommandOutput,
 } from "../commands/UpdateDirectConnectGatewayAssociationCommand";
 import {
   UpdateLagCommandInput,
-  UpdateLagCommandOutput
+  UpdateLagCommandOutput,
 } from "../commands/UpdateLagCommand";
 import {
   UpdateVirtualInterfaceAttributesCommandInput,
-  UpdateVirtualInterfaceAttributesCommandOutput
+  UpdateVirtualInterfaceAttributesCommandOutput,
 } from "../commands/UpdateVirtualInterfaceAttributesCommand";
 import {
   AcceptDirectConnectGatewayAssociationProposalRequest,
@@ -321,11 +321,11 @@ import {
   VirtualGateway,
   VirtualGateways,
   VirtualInterface,
-  VirtualInterfaces
+  VirtualInterfaces,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -333,7 +333,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AcceptDirectConnectGatewayAssociationProposalCommand(
@@ -1115,7 +1115,7 @@ export async function deserializeAws_json1_1AcceptDirectConnectGatewayAssociatio
   const response: AcceptDirectConnectGatewayAssociationProposalCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AcceptDirectConnectGatewayAssociationProposalResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1126,7 +1126,7 @@ async function deserializeAws_json1_1AcceptDirectConnectGatewayAssociationPropos
 ): Promise<AcceptDirectConnectGatewayAssociationProposalCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1142,7 +1142,7 @@ async function deserializeAws_json1_1AcceptDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1153,7 +1153,7 @@ async function deserializeAws_json1_1AcceptDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1164,7 +1164,7 @@ async function deserializeAws_json1_1AcceptDirectConnectGatewayAssociationPropos
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1189,7 +1189,7 @@ export async function deserializeAws_json1_1AllocateConnectionOnInterconnectComm
   const response: AllocateConnectionOnInterconnectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1200,7 +1200,7 @@ async function deserializeAws_json1_1AllocateConnectionOnInterconnectCommandErro
 ): Promise<AllocateConnectionOnInterconnectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1216,7 +1216,7 @@ async function deserializeAws_json1_1AllocateConnectionOnInterconnectCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1227,7 +1227,7 @@ async function deserializeAws_json1_1AllocateConnectionOnInterconnectCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1238,7 +1238,7 @@ async function deserializeAws_json1_1AllocateConnectionOnInterconnectCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1263,7 +1263,7 @@ export async function deserializeAws_json1_1AllocateHostedConnectionCommand(
   const response: AllocateHostedConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1274,7 +1274,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
 ): Promise<AllocateHostedConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1290,7 +1290,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1301,7 +1301,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -1312,7 +1312,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1323,7 +1323,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1334,7 +1334,7 @@ async function deserializeAws_json1_1AllocateHostedConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1359,7 +1359,7 @@ export async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceComma
   const response: AllocatePrivateVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1370,7 +1370,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
 ): Promise<AllocatePrivateVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1386,7 +1386,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1397,7 +1397,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -1408,7 +1408,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1419,7 +1419,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1430,7 +1430,7 @@ async function deserializeAws_json1_1AllocatePrivateVirtualInterfaceCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1455,7 +1455,7 @@ export async function deserializeAws_json1_1AllocatePublicVirtualInterfaceComman
   const response: AllocatePublicVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1466,7 +1466,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
 ): Promise<AllocatePublicVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1482,7 +1482,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1493,7 +1493,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -1504,7 +1504,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1515,7 +1515,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1526,7 +1526,7 @@ async function deserializeAws_json1_1AllocatePublicVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1554,7 +1554,7 @@ export async function deserializeAws_json1_1AllocateTransitVirtualInterfaceComma
   const response: AllocateTransitVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AllocateTransitVirtualInterfaceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1565,7 +1565,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
 ): Promise<AllocateTransitVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1581,7 +1581,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1592,7 +1592,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -1603,7 +1603,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1614,7 +1614,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1625,7 +1625,7 @@ async function deserializeAws_json1_1AllocateTransitVirtualInterfaceCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1650,7 +1650,7 @@ export async function deserializeAws_json1_1AssociateConnectionWithLagCommand(
   const response: AssociateConnectionWithLagCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1661,7 +1661,7 @@ async function deserializeAws_json1_1AssociateConnectionWithLagCommandError(
 ): Promise<AssociateConnectionWithLagCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1677,7 +1677,7 @@ async function deserializeAws_json1_1AssociateConnectionWithLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1688,7 +1688,7 @@ async function deserializeAws_json1_1AssociateConnectionWithLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1699,7 +1699,7 @@ async function deserializeAws_json1_1AssociateConnectionWithLagCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1724,7 +1724,7 @@ export async function deserializeAws_json1_1AssociateHostedConnectionCommand(
   const response: AssociateHostedConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1735,7 +1735,7 @@ async function deserializeAws_json1_1AssociateHostedConnectionCommandError(
 ): Promise<AssociateHostedConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1751,7 +1751,7 @@ async function deserializeAws_json1_1AssociateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1762,7 +1762,7 @@ async function deserializeAws_json1_1AssociateHostedConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1773,7 +1773,7 @@ async function deserializeAws_json1_1AssociateHostedConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1798,7 +1798,7 @@ export async function deserializeAws_json1_1AssociateVirtualInterfaceCommand(
   const response: AssociateVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1809,7 +1809,7 @@ async function deserializeAws_json1_1AssociateVirtualInterfaceCommandError(
 ): Promise<AssociateVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1825,7 +1825,7 @@ async function deserializeAws_json1_1AssociateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1836,7 +1836,7 @@ async function deserializeAws_json1_1AssociateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1847,7 +1847,7 @@ async function deserializeAws_json1_1AssociateVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1869,7 +1869,7 @@ export async function deserializeAws_json1_1ConfirmConnectionCommand(
   const response: ConfirmConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfirmConnectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1880,7 +1880,7 @@ async function deserializeAws_json1_1ConfirmConnectionCommandError(
 ): Promise<ConfirmConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1896,7 +1896,7 @@ async function deserializeAws_json1_1ConfirmConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1907,7 +1907,7 @@ async function deserializeAws_json1_1ConfirmConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1918,7 +1918,7 @@ async function deserializeAws_json1_1ConfirmConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1946,7 +1946,7 @@ export async function deserializeAws_json1_1ConfirmPrivateVirtualInterfaceComman
   const response: ConfirmPrivateVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfirmPrivateVirtualInterfaceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1957,7 +1957,7 @@ async function deserializeAws_json1_1ConfirmPrivateVirtualInterfaceCommandError(
 ): Promise<ConfirmPrivateVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1973,7 +1973,7 @@ async function deserializeAws_json1_1ConfirmPrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -1984,7 +1984,7 @@ async function deserializeAws_json1_1ConfirmPrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1995,7 +1995,7 @@ async function deserializeAws_json1_1ConfirmPrivateVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2023,7 +2023,7 @@ export async function deserializeAws_json1_1ConfirmPublicVirtualInterfaceCommand
   const response: ConfirmPublicVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfirmPublicVirtualInterfaceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2034,7 +2034,7 @@ async function deserializeAws_json1_1ConfirmPublicVirtualInterfaceCommandError(
 ): Promise<ConfirmPublicVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2050,7 +2050,7 @@ async function deserializeAws_json1_1ConfirmPublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2061,7 +2061,7 @@ async function deserializeAws_json1_1ConfirmPublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2072,7 +2072,7 @@ async function deserializeAws_json1_1ConfirmPublicVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2100,7 +2100,7 @@ export async function deserializeAws_json1_1ConfirmTransitVirtualInterfaceComman
   const response: ConfirmTransitVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfirmTransitVirtualInterfaceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2111,7 +2111,7 @@ async function deserializeAws_json1_1ConfirmTransitVirtualInterfaceCommandError(
 ): Promise<ConfirmTransitVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2127,7 +2127,7 @@ async function deserializeAws_json1_1ConfirmTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2138,7 +2138,7 @@ async function deserializeAws_json1_1ConfirmTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2149,7 +2149,7 @@ async function deserializeAws_json1_1ConfirmTransitVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2171,7 +2171,7 @@ export async function deserializeAws_json1_1CreateBGPPeerCommand(
   const response: CreateBGPPeerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateBGPPeerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2182,7 +2182,7 @@ async function deserializeAws_json1_1CreateBGPPeerCommandError(
 ): Promise<CreateBGPPeerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2198,7 +2198,7 @@ async function deserializeAws_json1_1CreateBGPPeerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2209,7 +2209,7 @@ async function deserializeAws_json1_1CreateBGPPeerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2220,7 +2220,7 @@ async function deserializeAws_json1_1CreateBGPPeerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2242,7 +2242,7 @@ export async function deserializeAws_json1_1CreateConnectionCommand(
   const response: CreateConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2253,7 +2253,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
 ): Promise<CreateConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2269,7 +2269,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2280,7 +2280,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -2291,7 +2291,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -2302,7 +2302,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2313,7 +2313,7 @@ async function deserializeAws_json1_1CreateConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2341,7 +2341,7 @@ export async function deserializeAws_json1_1CreateDirectConnectGatewayCommand(
   const response: CreateDirectConnectGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDirectConnectGatewayResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2352,7 +2352,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayCommandError(
 ): Promise<CreateDirectConnectGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2368,7 +2368,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2379,7 +2379,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2390,7 +2390,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2418,7 +2418,7 @@ export async function deserializeAws_json1_1CreateDirectConnectGatewayAssociatio
   const response: CreateDirectConnectGatewayAssociationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDirectConnectGatewayAssociationResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2429,7 +2429,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationComman
 ): Promise<CreateDirectConnectGatewayAssociationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2445,7 +2445,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2456,7 +2456,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2467,7 +2467,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2495,7 +2495,7 @@ export async function deserializeAws_json1_1CreateDirectConnectGatewayAssociatio
   const response: CreateDirectConnectGatewayAssociationProposalCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDirectConnectGatewayAssociationProposalResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2506,7 +2506,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationPropos
 ): Promise<CreateDirectConnectGatewayAssociationProposalCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2522,7 +2522,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2533,7 +2533,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2544,7 +2544,7 @@ async function deserializeAws_json1_1CreateDirectConnectGatewayAssociationPropos
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2569,7 +2569,7 @@ export async function deserializeAws_json1_1CreateInterconnectCommand(
   const response: CreateInterconnectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Interconnect",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2580,7 +2580,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
 ): Promise<CreateInterconnectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2596,7 +2596,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2607,7 +2607,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -2618,7 +2618,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -2629,7 +2629,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2640,7 +2640,7 @@ async function deserializeAws_json1_1CreateInterconnectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2662,7 +2662,7 @@ export async function deserializeAws_json1_1CreateLagCommand(
   const response: CreateLagCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Lag",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2673,7 +2673,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
 ): Promise<CreateLagCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2689,7 +2689,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2700,7 +2700,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -2711,7 +2711,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -2722,7 +2722,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2733,7 +2733,7 @@ async function deserializeAws_json1_1CreateLagCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2758,7 +2758,7 @@ export async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommand
   const response: CreatePrivateVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2769,7 +2769,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
 ): Promise<CreatePrivateVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2785,7 +2785,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2796,7 +2796,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -2807,7 +2807,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -2818,7 +2818,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2829,7 +2829,7 @@ async function deserializeAws_json1_1CreatePrivateVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2854,7 +2854,7 @@ export async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommand(
   const response: CreatePublicVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2865,7 +2865,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
 ): Promise<CreatePublicVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2881,7 +2881,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2892,7 +2892,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -2903,7 +2903,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -2914,7 +2914,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2925,7 +2925,7 @@ async function deserializeAws_json1_1CreatePublicVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2953,7 +2953,7 @@ export async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommand
   const response: CreateTransitVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTransitVirtualInterfaceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2964,7 +2964,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
 ): Promise<CreateTransitVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2980,7 +2980,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -2991,7 +2991,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -3002,7 +3002,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -3013,7 +3013,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3024,7 +3024,7 @@ async function deserializeAws_json1_1CreateTransitVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3046,7 +3046,7 @@ export async function deserializeAws_json1_1DeleteBGPPeerCommand(
   const response: DeleteBGPPeerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteBGPPeerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3057,7 +3057,7 @@ async function deserializeAws_json1_1DeleteBGPPeerCommandError(
 ): Promise<DeleteBGPPeerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3073,7 +3073,7 @@ async function deserializeAws_json1_1DeleteBGPPeerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3084,7 +3084,7 @@ async function deserializeAws_json1_1DeleteBGPPeerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3095,7 +3095,7 @@ async function deserializeAws_json1_1DeleteBGPPeerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3117,7 +3117,7 @@ export async function deserializeAws_json1_1DeleteConnectionCommand(
   const response: DeleteConnectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3128,7 +3128,7 @@ async function deserializeAws_json1_1DeleteConnectionCommandError(
 ): Promise<DeleteConnectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3144,7 +3144,7 @@ async function deserializeAws_json1_1DeleteConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3155,7 +3155,7 @@ async function deserializeAws_json1_1DeleteConnectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3166,7 +3166,7 @@ async function deserializeAws_json1_1DeleteConnectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3194,7 +3194,7 @@ export async function deserializeAws_json1_1DeleteDirectConnectGatewayCommand(
   const response: DeleteDirectConnectGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDirectConnectGatewayResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3205,7 +3205,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayCommandError(
 ): Promise<DeleteDirectConnectGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3221,7 +3221,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3232,7 +3232,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3243,7 +3243,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3271,7 +3271,7 @@ export async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociatio
   const response: DeleteDirectConnectGatewayAssociationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDirectConnectGatewayAssociationResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3282,7 +3282,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationComman
 ): Promise<DeleteDirectConnectGatewayAssociationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3298,7 +3298,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3309,7 +3309,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3320,7 +3320,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3348,7 +3348,7 @@ export async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociatio
   const response: DeleteDirectConnectGatewayAssociationProposalCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDirectConnectGatewayAssociationProposalResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3359,7 +3359,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationPropos
 ): Promise<DeleteDirectConnectGatewayAssociationProposalCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3375,7 +3375,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3386,7 +3386,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationPropos
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3397,7 +3397,7 @@ async function deserializeAws_json1_1DeleteDirectConnectGatewayAssociationPropos
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3422,7 +3422,7 @@ export async function deserializeAws_json1_1DeleteInterconnectCommand(
   const response: DeleteInterconnectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteInterconnectResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3433,7 +3433,7 @@ async function deserializeAws_json1_1DeleteInterconnectCommandError(
 ): Promise<DeleteInterconnectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3449,7 +3449,7 @@ async function deserializeAws_json1_1DeleteInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3460,7 +3460,7 @@ async function deserializeAws_json1_1DeleteInterconnectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3471,7 +3471,7 @@ async function deserializeAws_json1_1DeleteInterconnectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3493,7 +3493,7 @@ export async function deserializeAws_json1_1DeleteLagCommand(
   const response: DeleteLagCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Lag",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3504,7 +3504,7 @@ async function deserializeAws_json1_1DeleteLagCommandError(
 ): Promise<DeleteLagCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3520,7 +3520,7 @@ async function deserializeAws_json1_1DeleteLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3531,7 +3531,7 @@ async function deserializeAws_json1_1DeleteLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3542,7 +3542,7 @@ async function deserializeAws_json1_1DeleteLagCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3570,7 +3570,7 @@ export async function deserializeAws_json1_1DeleteVirtualInterfaceCommand(
   const response: DeleteVirtualInterfaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteVirtualInterfaceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3581,7 +3581,7 @@ async function deserializeAws_json1_1DeleteVirtualInterfaceCommandError(
 ): Promise<DeleteVirtualInterfaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3597,7 +3597,7 @@ async function deserializeAws_json1_1DeleteVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3608,7 +3608,7 @@ async function deserializeAws_json1_1DeleteVirtualInterfaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3619,7 +3619,7 @@ async function deserializeAws_json1_1DeleteVirtualInterfaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3644,7 +3644,7 @@ export async function deserializeAws_json1_1DescribeConnectionLoaCommand(
   const response: DescribeConnectionLoaCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeConnectionLoaResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3655,7 +3655,7 @@ async function deserializeAws_json1_1DescribeConnectionLoaCommandError(
 ): Promise<DescribeConnectionLoaCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3671,7 +3671,7 @@ async function deserializeAws_json1_1DescribeConnectionLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3682,7 +3682,7 @@ async function deserializeAws_json1_1DescribeConnectionLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3693,7 +3693,7 @@ async function deserializeAws_json1_1DescribeConnectionLoaCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3718,7 +3718,7 @@ export async function deserializeAws_json1_1DescribeConnectionsCommand(
   const response: DescribeConnectionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connections",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3729,7 +3729,7 @@ async function deserializeAws_json1_1DescribeConnectionsCommandError(
 ): Promise<DescribeConnectionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3745,7 +3745,7 @@ async function deserializeAws_json1_1DescribeConnectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3756,7 +3756,7 @@ async function deserializeAws_json1_1DescribeConnectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3767,7 +3767,7 @@ async function deserializeAws_json1_1DescribeConnectionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3792,7 +3792,7 @@ export async function deserializeAws_json1_1DescribeConnectionsOnInterconnectCom
   const response: DescribeConnectionsOnInterconnectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connections",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3803,7 +3803,7 @@ async function deserializeAws_json1_1DescribeConnectionsOnInterconnectCommandErr
 ): Promise<DescribeConnectionsOnInterconnectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3819,7 +3819,7 @@ async function deserializeAws_json1_1DescribeConnectionsOnInterconnectCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3830,7 +3830,7 @@ async function deserializeAws_json1_1DescribeConnectionsOnInterconnectCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3841,7 +3841,7 @@ async function deserializeAws_json1_1DescribeConnectionsOnInterconnectCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3869,7 +3869,7 @@ export async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociat
   const response: DescribeDirectConnectGatewayAssociationProposalsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDirectConnectGatewayAssociationProposalsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3880,7 +3880,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationProp
 ): Promise<DescribeDirectConnectGatewayAssociationProposalsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3896,7 +3896,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationProp
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3907,7 +3907,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationProp
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3918,7 +3918,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationProp
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3946,7 +3946,7 @@ export async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociat
   const response: DescribeDirectConnectGatewayAssociationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDirectConnectGatewayAssociationsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3957,7 +3957,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationsCom
 ): Promise<DescribeDirectConnectGatewayAssociationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3973,7 +3973,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationsCom
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -3984,7 +3984,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationsCom
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3995,7 +3995,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAssociationsCom
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4023,7 +4023,7 @@ export async function deserializeAws_json1_1DescribeDirectConnectGatewayAttachme
   const response: DescribeDirectConnectGatewayAttachmentsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDirectConnectGatewayAttachmentsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4034,7 +4034,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAttachmentsComm
 ): Promise<DescribeDirectConnectGatewayAttachmentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4050,7 +4050,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAttachmentsComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4061,7 +4061,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAttachmentsComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4072,7 +4072,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewayAttachmentsComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4100,7 +4100,7 @@ export async function deserializeAws_json1_1DescribeDirectConnectGatewaysCommand
   const response: DescribeDirectConnectGatewaysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDirectConnectGatewaysResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4111,7 +4111,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewaysCommandError(
 ): Promise<DescribeDirectConnectGatewaysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4127,7 +4127,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4138,7 +4138,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4149,7 +4149,7 @@ async function deserializeAws_json1_1DescribeDirectConnectGatewaysCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4174,7 +4174,7 @@ export async function deserializeAws_json1_1DescribeHostedConnectionsCommand(
   const response: DescribeHostedConnectionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connections",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4185,7 +4185,7 @@ async function deserializeAws_json1_1DescribeHostedConnectionsCommandError(
 ): Promise<DescribeHostedConnectionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4201,7 +4201,7 @@ async function deserializeAws_json1_1DescribeHostedConnectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4212,7 +4212,7 @@ async function deserializeAws_json1_1DescribeHostedConnectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4223,7 +4223,7 @@ async function deserializeAws_json1_1DescribeHostedConnectionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4251,7 +4251,7 @@ export async function deserializeAws_json1_1DescribeInterconnectLoaCommand(
   const response: DescribeInterconnectLoaCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeInterconnectLoaResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4262,7 +4262,7 @@ async function deserializeAws_json1_1DescribeInterconnectLoaCommandError(
 ): Promise<DescribeInterconnectLoaCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4278,7 +4278,7 @@ async function deserializeAws_json1_1DescribeInterconnectLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4289,7 +4289,7 @@ async function deserializeAws_json1_1DescribeInterconnectLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4300,7 +4300,7 @@ async function deserializeAws_json1_1DescribeInterconnectLoaCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4325,7 +4325,7 @@ export async function deserializeAws_json1_1DescribeInterconnectsCommand(
   const response: DescribeInterconnectsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Interconnects",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4336,7 +4336,7 @@ async function deserializeAws_json1_1DescribeInterconnectsCommandError(
 ): Promise<DescribeInterconnectsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4352,7 +4352,7 @@ async function deserializeAws_json1_1DescribeInterconnectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4363,7 +4363,7 @@ async function deserializeAws_json1_1DescribeInterconnectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4374,7 +4374,7 @@ async function deserializeAws_json1_1DescribeInterconnectsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4396,7 +4396,7 @@ export async function deserializeAws_json1_1DescribeLagsCommand(
   const response: DescribeLagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Lags",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4407,7 +4407,7 @@ async function deserializeAws_json1_1DescribeLagsCommandError(
 ): Promise<DescribeLagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4423,7 +4423,7 @@ async function deserializeAws_json1_1DescribeLagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4434,7 +4434,7 @@ async function deserializeAws_json1_1DescribeLagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4445,7 +4445,7 @@ async function deserializeAws_json1_1DescribeLagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4467,7 +4467,7 @@ export async function deserializeAws_json1_1DescribeLoaCommand(
   const response: DescribeLoaCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Loa",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4478,7 +4478,7 @@ async function deserializeAws_json1_1DescribeLoaCommandError(
 ): Promise<DescribeLoaCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4494,7 +4494,7 @@ async function deserializeAws_json1_1DescribeLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4505,7 +4505,7 @@ async function deserializeAws_json1_1DescribeLoaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4516,7 +4516,7 @@ async function deserializeAws_json1_1DescribeLoaCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4538,7 +4538,7 @@ export async function deserializeAws_json1_1DescribeLocationsCommand(
   const response: DescribeLocationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Locations",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4549,7 +4549,7 @@ async function deserializeAws_json1_1DescribeLocationsCommandError(
 ): Promise<DescribeLocationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4565,7 +4565,7 @@ async function deserializeAws_json1_1DescribeLocationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4576,7 +4576,7 @@ async function deserializeAws_json1_1DescribeLocationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4587,7 +4587,7 @@ async function deserializeAws_json1_1DescribeLocationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4609,7 +4609,7 @@ export async function deserializeAws_json1_1DescribeTagsCommand(
   const response: DescribeTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4620,7 +4620,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
 ): Promise<DescribeTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4636,7 +4636,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4647,7 +4647,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4658,7 +4658,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4683,7 +4683,7 @@ export async function deserializeAws_json1_1DescribeVirtualGatewaysCommand(
   const response: DescribeVirtualGatewaysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualGateways",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4694,7 +4694,7 @@ async function deserializeAws_json1_1DescribeVirtualGatewaysCommandError(
 ): Promise<DescribeVirtualGatewaysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4710,7 +4710,7 @@ async function deserializeAws_json1_1DescribeVirtualGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4721,7 +4721,7 @@ async function deserializeAws_json1_1DescribeVirtualGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4732,7 +4732,7 @@ async function deserializeAws_json1_1DescribeVirtualGatewaysCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4757,7 +4757,7 @@ export async function deserializeAws_json1_1DescribeVirtualInterfacesCommand(
   const response: DescribeVirtualInterfacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterfaces",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4768,7 +4768,7 @@ async function deserializeAws_json1_1DescribeVirtualInterfacesCommandError(
 ): Promise<DescribeVirtualInterfacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4784,7 +4784,7 @@ async function deserializeAws_json1_1DescribeVirtualInterfacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4795,7 +4795,7 @@ async function deserializeAws_json1_1DescribeVirtualInterfacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4806,7 +4806,7 @@ async function deserializeAws_json1_1DescribeVirtualInterfacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4831,7 +4831,7 @@ export async function deserializeAws_json1_1DisassociateConnectionFromLagCommand
   const response: DisassociateConnectionFromLagCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Connection",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4842,7 +4842,7 @@ async function deserializeAws_json1_1DisassociateConnectionFromLagCommandError(
 ): Promise<DisassociateConnectionFromLagCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4858,7 +4858,7 @@ async function deserializeAws_json1_1DisassociateConnectionFromLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4869,7 +4869,7 @@ async function deserializeAws_json1_1DisassociateConnectionFromLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4880,7 +4880,7 @@ async function deserializeAws_json1_1DisassociateConnectionFromLagCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4902,7 +4902,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4913,7 +4913,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4929,7 +4929,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -4940,7 +4940,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateTagKeysException":
@@ -4951,7 +4951,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -4962,7 +4962,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4973,7 +4973,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4995,7 +4995,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5006,7 +5006,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5022,7 +5022,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -5033,7 +5033,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5044,7 +5044,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5072,7 +5072,7 @@ export async function deserializeAws_json1_1UpdateDirectConnectGatewayAssociatio
   const response: UpdateDirectConnectGatewayAssociationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateDirectConnectGatewayAssociationResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5083,7 +5083,7 @@ async function deserializeAws_json1_1UpdateDirectConnectGatewayAssociationComman
 ): Promise<UpdateDirectConnectGatewayAssociationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5099,7 +5099,7 @@ async function deserializeAws_json1_1UpdateDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -5110,7 +5110,7 @@ async function deserializeAws_json1_1UpdateDirectConnectGatewayAssociationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5121,7 +5121,7 @@ async function deserializeAws_json1_1UpdateDirectConnectGatewayAssociationComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5143,7 +5143,7 @@ export async function deserializeAws_json1_1UpdateLagCommand(
   const response: UpdateLagCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Lag",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5154,7 +5154,7 @@ async function deserializeAws_json1_1UpdateLagCommandError(
 ): Promise<UpdateLagCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5170,7 +5170,7 @@ async function deserializeAws_json1_1UpdateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -5181,7 +5181,7 @@ async function deserializeAws_json1_1UpdateLagCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5192,7 +5192,7 @@ async function deserializeAws_json1_1UpdateLagCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5217,7 +5217,7 @@ export async function deserializeAws_json1_1UpdateVirtualInterfaceAttributesComm
   const response: UpdateVirtualInterfaceAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VirtualInterface",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5228,7 +5228,7 @@ async function deserializeAws_json1_1UpdateVirtualInterfaceAttributesCommandErro
 ): Promise<UpdateVirtualInterfaceAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5244,7 +5244,7 @@ async function deserializeAws_json1_1UpdateVirtualInterfaceAttributesCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectConnectServerException":
@@ -5255,7 +5255,7 @@ async function deserializeAws_json1_1UpdateVirtualInterfaceAttributesCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5266,7 +5266,7 @@ async function deserializeAws_json1_1UpdateVirtualInterfaceAttributesCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5288,7 +5288,7 @@ const deserializeAws_json1_1DirectConnectClientExceptionResponse = async (
     name: "DirectConnectClientException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5306,7 +5306,7 @@ const deserializeAws_json1_1DirectConnectServerExceptionResponse = async (
     name: "DirectConnectServerException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5324,7 +5324,7 @@ const deserializeAws_json1_1DuplicateTagKeysExceptionResponse = async (
     name: "DuplicateTagKeysException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5342,7 +5342,7 @@ const deserializeAws_json1_1TooManyTagsExceptionResponse = async (
     name: "TooManyTagsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6567,7 +6567,7 @@ const deserializeAws_json1_1AcceptDirectConnectGatewayAssociationProposalResult 
 ): AcceptDirectConnectGatewayAssociationProposalResult => {
   let contents: any = {
     __type: "AcceptDirectConnectGatewayAssociationProposalResult",
-    directConnectGatewayAssociation: undefined
+    directConnectGatewayAssociation: undefined,
   };
   if (
     output.directConnectGatewayAssociation !== undefined &&
@@ -6587,7 +6587,7 @@ const deserializeAws_json1_1AllocateTransitVirtualInterfaceResult = (
 ): AllocateTransitVirtualInterfaceResult => {
   let contents: any = {
     __type: "AllocateTransitVirtualInterfaceResult",
-    virtualInterface: undefined
+    virtualInterface: undefined,
   };
   if (
     output.virtualInterface !== undefined &&
@@ -6610,7 +6610,7 @@ const deserializeAws_json1_1AssociatedGateway = (
     id: undefined,
     ownerAccount: undefined,
     region: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -6648,7 +6648,7 @@ const deserializeAws_json1_1BGPPeer = (
     bgpPeerId: undefined,
     bgpPeerState: undefined,
     bgpStatus: undefined,
-    customerAddress: undefined
+    customerAddress: undefined,
   };
   if (output.addressFamily !== undefined && output.addressFamily !== null) {
     contents.addressFamily = output.addressFamily;
@@ -6695,7 +6695,7 @@ const deserializeAws_json1_1ConfirmConnectionResponse = (
 ): ConfirmConnectionResponse => {
   let contents: any = {
     __type: "ConfirmConnectionResponse",
-    connectionState: undefined
+    connectionState: undefined,
   };
   if (output.connectionState !== undefined && output.connectionState !== null) {
     contents.connectionState = output.connectionState;
@@ -6709,7 +6709,7 @@ const deserializeAws_json1_1ConfirmPrivateVirtualInterfaceResponse = (
 ): ConfirmPrivateVirtualInterfaceResponse => {
   let contents: any = {
     __type: "ConfirmPrivateVirtualInterfaceResponse",
-    virtualInterfaceState: undefined
+    virtualInterfaceState: undefined,
   };
   if (
     output.virtualInterfaceState !== undefined &&
@@ -6726,7 +6726,7 @@ const deserializeAws_json1_1ConfirmPublicVirtualInterfaceResponse = (
 ): ConfirmPublicVirtualInterfaceResponse => {
   let contents: any = {
     __type: "ConfirmPublicVirtualInterfaceResponse",
-    virtualInterfaceState: undefined
+    virtualInterfaceState: undefined,
   };
   if (
     output.virtualInterfaceState !== undefined &&
@@ -6743,7 +6743,7 @@ const deserializeAws_json1_1ConfirmTransitVirtualInterfaceResponse = (
 ): ConfirmTransitVirtualInterfaceResponse => {
   let contents: any = {
     __type: "ConfirmTransitVirtualInterfaceResponse",
-    virtualInterfaceState: undefined
+    virtualInterfaceState: undefined,
   };
   if (
     output.virtualInterfaceState !== undefined &&
@@ -6776,7 +6776,7 @@ const deserializeAws_json1_1Connection = (
     providerName: undefined,
     region: undefined,
     tags: undefined,
-    vlan: undefined
+    vlan: undefined,
   };
   if (output.awsDevice !== undefined && output.awsDevice !== null) {
     contents.awsDevice = output.awsDevice;
@@ -6853,7 +6853,7 @@ const deserializeAws_json1_1Connections = (
 ): Connections => {
   let contents: any = {
     __type: "Connections",
-    connections: undefined
+    connections: undefined,
   };
   if (output.connections !== undefined && output.connections !== null) {
     contents.connections = deserializeAws_json1_1ConnectionList(
@@ -6870,7 +6870,7 @@ const deserializeAws_json1_1CreateBGPPeerResponse = (
 ): CreateBGPPeerResponse => {
   let contents: any = {
     __type: "CreateBGPPeerResponse",
-    virtualInterface: undefined
+    virtualInterface: undefined,
   };
   if (
     output.virtualInterface !== undefined &&
@@ -6890,7 +6890,7 @@ const deserializeAws_json1_1CreateDirectConnectGatewayAssociationProposalResult 
 ): CreateDirectConnectGatewayAssociationProposalResult => {
   let contents: any = {
     __type: "CreateDirectConnectGatewayAssociationProposalResult",
-    directConnectGatewayAssociationProposal: undefined
+    directConnectGatewayAssociationProposal: undefined,
   };
   if (
     output.directConnectGatewayAssociationProposal !== undefined &&
@@ -6910,7 +6910,7 @@ const deserializeAws_json1_1CreateDirectConnectGatewayAssociationResult = (
 ): CreateDirectConnectGatewayAssociationResult => {
   let contents: any = {
     __type: "CreateDirectConnectGatewayAssociationResult",
-    directConnectGatewayAssociation: undefined
+    directConnectGatewayAssociation: undefined,
   };
   if (
     output.directConnectGatewayAssociation !== undefined &&
@@ -6930,7 +6930,7 @@ const deserializeAws_json1_1CreateDirectConnectGatewayResult = (
 ): CreateDirectConnectGatewayResult => {
   let contents: any = {
     __type: "CreateDirectConnectGatewayResult",
-    directConnectGateway: undefined
+    directConnectGateway: undefined,
   };
   if (
     output.directConnectGateway !== undefined &&
@@ -6950,7 +6950,7 @@ const deserializeAws_json1_1CreateTransitVirtualInterfaceResult = (
 ): CreateTransitVirtualInterfaceResult => {
   let contents: any = {
     __type: "CreateTransitVirtualInterfaceResult",
-    virtualInterface: undefined
+    virtualInterface: undefined,
   };
   if (
     output.virtualInterface !== undefined &&
@@ -6970,7 +6970,7 @@ const deserializeAws_json1_1DeleteBGPPeerResponse = (
 ): DeleteBGPPeerResponse => {
   let contents: any = {
     __type: "DeleteBGPPeerResponse",
-    virtualInterface: undefined
+    virtualInterface: undefined,
   };
   if (
     output.virtualInterface !== undefined &&
@@ -6990,7 +6990,7 @@ const deserializeAws_json1_1DeleteDirectConnectGatewayAssociationProposalResult 
 ): DeleteDirectConnectGatewayAssociationProposalResult => {
   let contents: any = {
     __type: "DeleteDirectConnectGatewayAssociationProposalResult",
-    directConnectGatewayAssociationProposal: undefined
+    directConnectGatewayAssociationProposal: undefined,
   };
   if (
     output.directConnectGatewayAssociationProposal !== undefined &&
@@ -7010,7 +7010,7 @@ const deserializeAws_json1_1DeleteDirectConnectGatewayAssociationResult = (
 ): DeleteDirectConnectGatewayAssociationResult => {
   let contents: any = {
     __type: "DeleteDirectConnectGatewayAssociationResult",
-    directConnectGatewayAssociation: undefined
+    directConnectGatewayAssociation: undefined,
   };
   if (
     output.directConnectGatewayAssociation !== undefined &&
@@ -7030,7 +7030,7 @@ const deserializeAws_json1_1DeleteDirectConnectGatewayResult = (
 ): DeleteDirectConnectGatewayResult => {
   let contents: any = {
     __type: "DeleteDirectConnectGatewayResult",
-    directConnectGateway: undefined
+    directConnectGateway: undefined,
   };
   if (
     output.directConnectGateway !== undefined &&
@@ -7050,7 +7050,7 @@ const deserializeAws_json1_1DeleteInterconnectResponse = (
 ): DeleteInterconnectResponse => {
   let contents: any = {
     __type: "DeleteInterconnectResponse",
-    interconnectState: undefined
+    interconnectState: undefined,
   };
   if (
     output.interconnectState !== undefined &&
@@ -7067,7 +7067,7 @@ const deserializeAws_json1_1DeleteVirtualInterfaceResponse = (
 ): DeleteVirtualInterfaceResponse => {
   let contents: any = {
     __type: "DeleteVirtualInterfaceResponse",
-    virtualInterfaceState: undefined
+    virtualInterfaceState: undefined,
   };
   if (
     output.virtualInterfaceState !== undefined &&
@@ -7084,7 +7084,7 @@ const deserializeAws_json1_1DescribeConnectionLoaResponse = (
 ): DescribeConnectionLoaResponse => {
   let contents: any = {
     __type: "DescribeConnectionLoaResponse",
-    loa: undefined
+    loa: undefined,
   };
   if (output.loa !== undefined && output.loa !== null) {
     contents.loa = deserializeAws_json1_1Loa(output.loa, context);
@@ -7099,7 +7099,7 @@ const deserializeAws_json1_1DescribeDirectConnectGatewayAssociationProposalsResu
   let contents: any = {
     __type: "DescribeDirectConnectGatewayAssociationProposalsResult",
     directConnectGatewayAssociationProposals: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.directConnectGatewayAssociationProposals !== undefined &&
@@ -7123,7 +7123,7 @@ const deserializeAws_json1_1DescribeDirectConnectGatewayAssociationsResult = (
   let contents: any = {
     __type: "DescribeDirectConnectGatewayAssociationsResult",
     directConnectGatewayAssociations: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.directConnectGatewayAssociations !== undefined &&
@@ -7147,7 +7147,7 @@ const deserializeAws_json1_1DescribeDirectConnectGatewayAttachmentsResult = (
   let contents: any = {
     __type: "DescribeDirectConnectGatewayAttachmentsResult",
     directConnectGatewayAttachments: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.directConnectGatewayAttachments !== undefined &&
@@ -7171,7 +7171,7 @@ const deserializeAws_json1_1DescribeDirectConnectGatewaysResult = (
   let contents: any = {
     __type: "DescribeDirectConnectGatewaysResult",
     directConnectGateways: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.directConnectGateways !== undefined &&
@@ -7194,7 +7194,7 @@ const deserializeAws_json1_1DescribeInterconnectLoaResponse = (
 ): DescribeInterconnectLoaResponse => {
   let contents: any = {
     __type: "DescribeInterconnectLoaResponse",
-    loa: undefined
+    loa: undefined,
   };
   if (output.loa !== undefined && output.loa !== null) {
     contents.loa = deserializeAws_json1_1Loa(output.loa, context);
@@ -7208,7 +7208,7 @@ const deserializeAws_json1_1DescribeTagsResponse = (
 ): DescribeTagsResponse => {
   let contents: any = {
     __type: "DescribeTagsResponse",
-    resourceTags: undefined
+    resourceTags: undefined,
   };
   if (output.resourceTags !== undefined && output.resourceTags !== null) {
     contents.resourceTags = deserializeAws_json1_1ResourceTagList(
@@ -7225,7 +7225,7 @@ const deserializeAws_json1_1DirectConnectClientException = (
 ): DirectConnectClientException => {
   let contents: any = {
     __type: "DirectConnectClientException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7244,7 +7244,7 @@ const deserializeAws_json1_1DirectConnectGateway = (
     directConnectGatewayName: undefined,
     directConnectGatewayState: undefined,
     ownerAccount: undefined,
-    stateChangeError: undefined
+    stateChangeError: undefined,
   };
   if (output.amazonSideAsn !== undefined && output.amazonSideAsn !== null) {
     contents.amazonSideAsn = output.amazonSideAsn;
@@ -7294,7 +7294,7 @@ const deserializeAws_json1_1DirectConnectGatewayAssociation = (
     stateChangeError: undefined,
     virtualGatewayId: undefined,
     virtualGatewayOwnerAccount: undefined,
-    virtualGatewayRegion: undefined
+    virtualGatewayRegion: undefined,
   };
   if (
     output.allowedPrefixesToDirectConnectGateway !== undefined &&
@@ -7384,7 +7384,7 @@ const deserializeAws_json1_1DirectConnectGatewayAssociationProposal = (
     existingAllowedPrefixesToDirectConnectGateway: undefined,
     proposalId: undefined,
     proposalState: undefined,
-    requestedAllowedPrefixesToDirectConnectGateway: undefined
+    requestedAllowedPrefixesToDirectConnectGateway: undefined,
   };
   if (
     output.associatedGateway !== undefined &&
@@ -7459,7 +7459,7 @@ const deserializeAws_json1_1DirectConnectGatewayAttachment = (
     stateChangeError: undefined,
     virtualInterfaceId: undefined,
     virtualInterfaceOwnerAccount: undefined,
-    virtualInterfaceRegion: undefined
+    virtualInterfaceRegion: undefined,
   };
   if (output.attachmentState !== undefined && output.attachmentState !== null) {
     contents.attachmentState = output.attachmentState;
@@ -7524,7 +7524,7 @@ const deserializeAws_json1_1DirectConnectServerException = (
 ): DirectConnectServerException => {
   let contents: any = {
     __type: "DirectConnectServerException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7538,7 +7538,7 @@ const deserializeAws_json1_1DuplicateTagKeysException = (
 ): DuplicateTagKeysException => {
   let contents: any = {
     __type: "DuplicateTagKeysException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7565,7 +7565,7 @@ const deserializeAws_json1_1Interconnect = (
     location: undefined,
     providerName: undefined,
     region: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.awsDevice !== undefined && output.awsDevice !== null) {
     contents.awsDevice = output.awsDevice;
@@ -7639,7 +7639,7 @@ const deserializeAws_json1_1Interconnects = (
 ): Interconnects => {
   let contents: any = {
     __type: "Interconnects",
-    interconnects: undefined
+    interconnects: undefined,
   };
   if (output.interconnects !== undefined && output.interconnects !== null) {
     contents.interconnects = deserializeAws_json1_1InterconnectList(
@@ -7672,7 +7672,7 @@ const deserializeAws_json1_1Lag = (
     ownerAccount: undefined,
     providerName: undefined,
     region: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (
     output.allowsHostedConnections !== undefined &&
@@ -7761,7 +7761,7 @@ const deserializeAws_json1_1Lags = (
 ): Lags => {
   let contents: any = {
     __type: "Lags",
-    lags: undefined
+    lags: undefined,
   };
   if (output.lags !== undefined && output.lags !== null) {
     contents.lags = deserializeAws_json1_1LagList(output.lags, context);
@@ -7776,7 +7776,7 @@ const deserializeAws_json1_1Loa = (
   let contents: any = {
     __type: "Loa",
     loaContent: undefined,
-    loaContentType: undefined
+    loaContentType: undefined,
   };
   if (output.loaContent !== undefined && output.loaContent !== null) {
     contents.loaContent = context.base64Decoder(output.loaContent);
@@ -7797,7 +7797,7 @@ const deserializeAws_json1_1Location = (
     availableProviders: undefined,
     locationCode: undefined,
     locationName: undefined,
-    region: undefined
+    region: undefined,
   };
   if (
     output.availablePortSpeeds !== undefined &&
@@ -7844,7 +7844,7 @@ const deserializeAws_json1_1Locations = (
 ): Locations => {
   let contents: any = {
     __type: "Locations",
-    locations: undefined
+    locations: undefined,
   };
   if (output.locations !== undefined && output.locations !== null) {
     contents.locations = deserializeAws_json1_1LocationList(
@@ -7869,7 +7869,7 @@ const deserializeAws_json1_1ResourceTag = (
   let contents: any = {
     __type: "ResourceTag",
     resourceArn: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.resourceArn !== undefined && output.resourceArn !== null) {
     contents.resourceArn = output.resourceArn;
@@ -7895,7 +7895,7 @@ const deserializeAws_json1_1RouteFilterPrefix = (
 ): RouteFilterPrefix => {
   let contents: any = {
     __type: "RouteFilterPrefix",
-    cidr: undefined
+    cidr: undefined,
   };
   if (output.cidr !== undefined && output.cidr !== null) {
     contents.cidr = output.cidr;
@@ -7919,7 +7919,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -7944,7 +7944,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -7955,7 +7955,7 @@ const deserializeAws_json1_1TooManyTagsException = (
 ): TooManyTagsException => {
   let contents: any = {
     __type: "TooManyTagsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7968,7 +7968,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -7979,7 +7979,7 @@ const deserializeAws_json1_1UpdateDirectConnectGatewayAssociationResult = (
 ): UpdateDirectConnectGatewayAssociationResult => {
   let contents: any = {
     __type: "UpdateDirectConnectGatewayAssociationResult",
-    directConnectGatewayAssociation: undefined
+    directConnectGatewayAssociation: undefined,
   };
   if (
     output.directConnectGatewayAssociation !== undefined &&
@@ -8000,7 +8000,7 @@ const deserializeAws_json1_1VirtualGateway = (
   let contents: any = {
     __type: "VirtualGateway",
     virtualGatewayId: undefined,
-    virtualGatewayState: undefined
+    virtualGatewayState: undefined,
   };
   if (
     output.virtualGatewayId !== undefined &&
@@ -8032,7 +8032,7 @@ const deserializeAws_json1_1VirtualGateways = (
 ): VirtualGateways => {
   let contents: any = {
     __type: "VirtualGateways",
-    virtualGateways: undefined
+    virtualGateways: undefined,
   };
   if (output.virtualGateways !== undefined && output.virtualGateways !== null) {
     contents.virtualGateways = deserializeAws_json1_1VirtualGatewayList(
@@ -8072,7 +8072,7 @@ const deserializeAws_json1_1VirtualInterface = (
     virtualInterfaceName: undefined,
     virtualInterfaceState: undefined,
     virtualInterfaceType: undefined,
-    vlan: undefined
+    vlan: undefined,
   };
   if (output.addressFamily !== undefined && output.addressFamily !== null) {
     contents.addressFamily = output.addressFamily;
@@ -8197,7 +8197,7 @@ const deserializeAws_json1_1VirtualInterfaces = (
 ): VirtualInterfaces => {
   let contents: any = {
     __type: "VirtualInterfaces",
-    virtualInterfaces: undefined
+    virtualInterfaces: undefined,
   };
   if (
     output.virtualInterfaces !== undefined &&
@@ -8214,7 +8214,7 @@ const deserializeAws_json1_1VirtualInterfaces = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -8235,7 +8235,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -8248,11 +8248,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -8264,7 +8264,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

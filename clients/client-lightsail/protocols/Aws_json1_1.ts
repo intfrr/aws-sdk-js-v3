@@ -1,422 +1,422 @@
 import {
   AllocateStaticIpCommandInput,
-  AllocateStaticIpCommandOutput
+  AllocateStaticIpCommandOutput,
 } from "../commands/AllocateStaticIpCommand";
 import {
   AttachDiskCommandInput,
-  AttachDiskCommandOutput
+  AttachDiskCommandOutput,
 } from "../commands/AttachDiskCommand";
 import {
   AttachInstancesToLoadBalancerCommandInput,
-  AttachInstancesToLoadBalancerCommandOutput
+  AttachInstancesToLoadBalancerCommandOutput,
 } from "../commands/AttachInstancesToLoadBalancerCommand";
 import {
   AttachLoadBalancerTlsCertificateCommandInput,
-  AttachLoadBalancerTlsCertificateCommandOutput
+  AttachLoadBalancerTlsCertificateCommandOutput,
 } from "../commands/AttachLoadBalancerTlsCertificateCommand";
 import {
   AttachStaticIpCommandInput,
-  AttachStaticIpCommandOutput
+  AttachStaticIpCommandOutput,
 } from "../commands/AttachStaticIpCommand";
 import {
   CloseInstancePublicPortsCommandInput,
-  CloseInstancePublicPortsCommandOutput
+  CloseInstancePublicPortsCommandOutput,
 } from "../commands/CloseInstancePublicPortsCommand";
 import {
   CopySnapshotCommandInput,
-  CopySnapshotCommandOutput
+  CopySnapshotCommandOutput,
 } from "../commands/CopySnapshotCommand";
 import {
   CreateCloudFormationStackCommandInput,
-  CreateCloudFormationStackCommandOutput
+  CreateCloudFormationStackCommandOutput,
 } from "../commands/CreateCloudFormationStackCommand";
 import {
   CreateDiskCommandInput,
-  CreateDiskCommandOutput
+  CreateDiskCommandOutput,
 } from "../commands/CreateDiskCommand";
 import {
   CreateDiskFromSnapshotCommandInput,
-  CreateDiskFromSnapshotCommandOutput
+  CreateDiskFromSnapshotCommandOutput,
 } from "../commands/CreateDiskFromSnapshotCommand";
 import {
   CreateDiskSnapshotCommandInput,
-  CreateDiskSnapshotCommandOutput
+  CreateDiskSnapshotCommandOutput,
 } from "../commands/CreateDiskSnapshotCommand";
 import {
   CreateDomainCommandInput,
-  CreateDomainCommandOutput
+  CreateDomainCommandOutput,
 } from "../commands/CreateDomainCommand";
 import {
   CreateDomainEntryCommandInput,
-  CreateDomainEntryCommandOutput
+  CreateDomainEntryCommandOutput,
 } from "../commands/CreateDomainEntryCommand";
 import {
   CreateInstanceSnapshotCommandInput,
-  CreateInstanceSnapshotCommandOutput
+  CreateInstanceSnapshotCommandOutput,
 } from "../commands/CreateInstanceSnapshotCommand";
 import {
   CreateInstancesCommandInput,
-  CreateInstancesCommandOutput
+  CreateInstancesCommandOutput,
 } from "../commands/CreateInstancesCommand";
 import {
   CreateInstancesFromSnapshotCommandInput,
-  CreateInstancesFromSnapshotCommandOutput
+  CreateInstancesFromSnapshotCommandOutput,
 } from "../commands/CreateInstancesFromSnapshotCommand";
 import {
   CreateKeyPairCommandInput,
-  CreateKeyPairCommandOutput
+  CreateKeyPairCommandOutput,
 } from "../commands/CreateKeyPairCommand";
 import {
   CreateLoadBalancerCommandInput,
-  CreateLoadBalancerCommandOutput
+  CreateLoadBalancerCommandOutput,
 } from "../commands/CreateLoadBalancerCommand";
 import {
   CreateLoadBalancerTlsCertificateCommandInput,
-  CreateLoadBalancerTlsCertificateCommandOutput
+  CreateLoadBalancerTlsCertificateCommandOutput,
 } from "../commands/CreateLoadBalancerTlsCertificateCommand";
 import {
   CreateRelationalDatabaseCommandInput,
-  CreateRelationalDatabaseCommandOutput
+  CreateRelationalDatabaseCommandOutput,
 } from "../commands/CreateRelationalDatabaseCommand";
 import {
   CreateRelationalDatabaseFromSnapshotCommandInput,
-  CreateRelationalDatabaseFromSnapshotCommandOutput
+  CreateRelationalDatabaseFromSnapshotCommandOutput,
 } from "../commands/CreateRelationalDatabaseFromSnapshotCommand";
 import {
   CreateRelationalDatabaseSnapshotCommandInput,
-  CreateRelationalDatabaseSnapshotCommandOutput
+  CreateRelationalDatabaseSnapshotCommandOutput,
 } from "../commands/CreateRelationalDatabaseSnapshotCommand";
 import {
   DeleteAutoSnapshotCommandInput,
-  DeleteAutoSnapshotCommandOutput
+  DeleteAutoSnapshotCommandOutput,
 } from "../commands/DeleteAutoSnapshotCommand";
 import {
   DeleteDiskCommandInput,
-  DeleteDiskCommandOutput
+  DeleteDiskCommandOutput,
 } from "../commands/DeleteDiskCommand";
 import {
   DeleteDiskSnapshotCommandInput,
-  DeleteDiskSnapshotCommandOutput
+  DeleteDiskSnapshotCommandOutput,
 } from "../commands/DeleteDiskSnapshotCommand";
 import {
   DeleteDomainCommandInput,
-  DeleteDomainCommandOutput
+  DeleteDomainCommandOutput,
 } from "../commands/DeleteDomainCommand";
 import {
   DeleteDomainEntryCommandInput,
-  DeleteDomainEntryCommandOutput
+  DeleteDomainEntryCommandOutput,
 } from "../commands/DeleteDomainEntryCommand";
 import {
   DeleteInstanceCommandInput,
-  DeleteInstanceCommandOutput
+  DeleteInstanceCommandOutput,
 } from "../commands/DeleteInstanceCommand";
 import {
   DeleteInstanceSnapshotCommandInput,
-  DeleteInstanceSnapshotCommandOutput
+  DeleteInstanceSnapshotCommandOutput,
 } from "../commands/DeleteInstanceSnapshotCommand";
 import {
   DeleteKeyPairCommandInput,
-  DeleteKeyPairCommandOutput
+  DeleteKeyPairCommandOutput,
 } from "../commands/DeleteKeyPairCommand";
 import {
   DeleteKnownHostKeysCommandInput,
-  DeleteKnownHostKeysCommandOutput
+  DeleteKnownHostKeysCommandOutput,
 } from "../commands/DeleteKnownHostKeysCommand";
 import {
   DeleteLoadBalancerCommandInput,
-  DeleteLoadBalancerCommandOutput
+  DeleteLoadBalancerCommandOutput,
 } from "../commands/DeleteLoadBalancerCommand";
 import {
   DeleteLoadBalancerTlsCertificateCommandInput,
-  DeleteLoadBalancerTlsCertificateCommandOutput
+  DeleteLoadBalancerTlsCertificateCommandOutput,
 } from "../commands/DeleteLoadBalancerTlsCertificateCommand";
 import {
   DeleteRelationalDatabaseCommandInput,
-  DeleteRelationalDatabaseCommandOutput
+  DeleteRelationalDatabaseCommandOutput,
 } from "../commands/DeleteRelationalDatabaseCommand";
 import {
   DeleteRelationalDatabaseSnapshotCommandInput,
-  DeleteRelationalDatabaseSnapshotCommandOutput
+  DeleteRelationalDatabaseSnapshotCommandOutput,
 } from "../commands/DeleteRelationalDatabaseSnapshotCommand";
 import {
   DetachDiskCommandInput,
-  DetachDiskCommandOutput
+  DetachDiskCommandOutput,
 } from "../commands/DetachDiskCommand";
 import {
   DetachInstancesFromLoadBalancerCommandInput,
-  DetachInstancesFromLoadBalancerCommandOutput
+  DetachInstancesFromLoadBalancerCommandOutput,
 } from "../commands/DetachInstancesFromLoadBalancerCommand";
 import {
   DetachStaticIpCommandInput,
-  DetachStaticIpCommandOutput
+  DetachStaticIpCommandOutput,
 } from "../commands/DetachStaticIpCommand";
 import {
   DisableAddOnCommandInput,
-  DisableAddOnCommandOutput
+  DisableAddOnCommandOutput,
 } from "../commands/DisableAddOnCommand";
 import {
   DownloadDefaultKeyPairCommandInput,
-  DownloadDefaultKeyPairCommandOutput
+  DownloadDefaultKeyPairCommandOutput,
 } from "../commands/DownloadDefaultKeyPairCommand";
 import {
   EnableAddOnCommandInput,
-  EnableAddOnCommandOutput
+  EnableAddOnCommandOutput,
 } from "../commands/EnableAddOnCommand";
 import {
   ExportSnapshotCommandInput,
-  ExportSnapshotCommandOutput
+  ExportSnapshotCommandOutput,
 } from "../commands/ExportSnapshotCommand";
 import {
   GetActiveNamesCommandInput,
-  GetActiveNamesCommandOutput
+  GetActiveNamesCommandOutput,
 } from "../commands/GetActiveNamesCommand";
 import {
   GetAutoSnapshotsCommandInput,
-  GetAutoSnapshotsCommandOutput
+  GetAutoSnapshotsCommandOutput,
 } from "../commands/GetAutoSnapshotsCommand";
 import {
   GetBlueprintsCommandInput,
-  GetBlueprintsCommandOutput
+  GetBlueprintsCommandOutput,
 } from "../commands/GetBlueprintsCommand";
 import {
   GetBundlesCommandInput,
-  GetBundlesCommandOutput
+  GetBundlesCommandOutput,
 } from "../commands/GetBundlesCommand";
 import {
   GetCloudFormationStackRecordsCommandInput,
-  GetCloudFormationStackRecordsCommandOutput
+  GetCloudFormationStackRecordsCommandOutput,
 } from "../commands/GetCloudFormationStackRecordsCommand";
 import {
   GetDiskCommandInput,
-  GetDiskCommandOutput
+  GetDiskCommandOutput,
 } from "../commands/GetDiskCommand";
 import {
   GetDiskSnapshotCommandInput,
-  GetDiskSnapshotCommandOutput
+  GetDiskSnapshotCommandOutput,
 } from "../commands/GetDiskSnapshotCommand";
 import {
   GetDiskSnapshotsCommandInput,
-  GetDiskSnapshotsCommandOutput
+  GetDiskSnapshotsCommandOutput,
 } from "../commands/GetDiskSnapshotsCommand";
 import {
   GetDisksCommandInput,
-  GetDisksCommandOutput
+  GetDisksCommandOutput,
 } from "../commands/GetDisksCommand";
 import {
   GetDomainCommandInput,
-  GetDomainCommandOutput
+  GetDomainCommandOutput,
 } from "../commands/GetDomainCommand";
 import {
   GetDomainsCommandInput,
-  GetDomainsCommandOutput
+  GetDomainsCommandOutput,
 } from "../commands/GetDomainsCommand";
 import {
   GetExportSnapshotRecordsCommandInput,
-  GetExportSnapshotRecordsCommandOutput
+  GetExportSnapshotRecordsCommandOutput,
 } from "../commands/GetExportSnapshotRecordsCommand";
 import {
   GetInstanceAccessDetailsCommandInput,
-  GetInstanceAccessDetailsCommandOutput
+  GetInstanceAccessDetailsCommandOutput,
 } from "../commands/GetInstanceAccessDetailsCommand";
 import {
   GetInstanceCommandInput,
-  GetInstanceCommandOutput
+  GetInstanceCommandOutput,
 } from "../commands/GetInstanceCommand";
 import {
   GetInstanceMetricDataCommandInput,
-  GetInstanceMetricDataCommandOutput
+  GetInstanceMetricDataCommandOutput,
 } from "../commands/GetInstanceMetricDataCommand";
 import {
   GetInstancePortStatesCommandInput,
-  GetInstancePortStatesCommandOutput
+  GetInstancePortStatesCommandOutput,
 } from "../commands/GetInstancePortStatesCommand";
 import {
   GetInstanceSnapshotCommandInput,
-  GetInstanceSnapshotCommandOutput
+  GetInstanceSnapshotCommandOutput,
 } from "../commands/GetInstanceSnapshotCommand";
 import {
   GetInstanceSnapshotsCommandInput,
-  GetInstanceSnapshotsCommandOutput
+  GetInstanceSnapshotsCommandOutput,
 } from "../commands/GetInstanceSnapshotsCommand";
 import {
   GetInstanceStateCommandInput,
-  GetInstanceStateCommandOutput
+  GetInstanceStateCommandOutput,
 } from "../commands/GetInstanceStateCommand";
 import {
   GetInstancesCommandInput,
-  GetInstancesCommandOutput
+  GetInstancesCommandOutput,
 } from "../commands/GetInstancesCommand";
 import {
   GetKeyPairCommandInput,
-  GetKeyPairCommandOutput
+  GetKeyPairCommandOutput,
 } from "../commands/GetKeyPairCommand";
 import {
   GetKeyPairsCommandInput,
-  GetKeyPairsCommandOutput
+  GetKeyPairsCommandOutput,
 } from "../commands/GetKeyPairsCommand";
 import {
   GetLoadBalancerCommandInput,
-  GetLoadBalancerCommandOutput
+  GetLoadBalancerCommandOutput,
 } from "../commands/GetLoadBalancerCommand";
 import {
   GetLoadBalancerMetricDataCommandInput,
-  GetLoadBalancerMetricDataCommandOutput
+  GetLoadBalancerMetricDataCommandOutput,
 } from "../commands/GetLoadBalancerMetricDataCommand";
 import {
   GetLoadBalancerTlsCertificatesCommandInput,
-  GetLoadBalancerTlsCertificatesCommandOutput
+  GetLoadBalancerTlsCertificatesCommandOutput,
 } from "../commands/GetLoadBalancerTlsCertificatesCommand";
 import {
   GetLoadBalancersCommandInput,
-  GetLoadBalancersCommandOutput
+  GetLoadBalancersCommandOutput,
 } from "../commands/GetLoadBalancersCommand";
 import {
   GetOperationCommandInput,
-  GetOperationCommandOutput
+  GetOperationCommandOutput,
 } from "../commands/GetOperationCommand";
 import {
   GetOperationsCommandInput,
-  GetOperationsCommandOutput
+  GetOperationsCommandOutput,
 } from "../commands/GetOperationsCommand";
 import {
   GetOperationsForResourceCommandInput,
-  GetOperationsForResourceCommandOutput
+  GetOperationsForResourceCommandOutput,
 } from "../commands/GetOperationsForResourceCommand";
 import {
   GetRegionsCommandInput,
-  GetRegionsCommandOutput
+  GetRegionsCommandOutput,
 } from "../commands/GetRegionsCommand";
 import {
   GetRelationalDatabaseBlueprintsCommandInput,
-  GetRelationalDatabaseBlueprintsCommandOutput
+  GetRelationalDatabaseBlueprintsCommandOutput,
 } from "../commands/GetRelationalDatabaseBlueprintsCommand";
 import {
   GetRelationalDatabaseBundlesCommandInput,
-  GetRelationalDatabaseBundlesCommandOutput
+  GetRelationalDatabaseBundlesCommandOutput,
 } from "../commands/GetRelationalDatabaseBundlesCommand";
 import {
   GetRelationalDatabaseCommandInput,
-  GetRelationalDatabaseCommandOutput
+  GetRelationalDatabaseCommandOutput,
 } from "../commands/GetRelationalDatabaseCommand";
 import {
   GetRelationalDatabaseEventsCommandInput,
-  GetRelationalDatabaseEventsCommandOutput
+  GetRelationalDatabaseEventsCommandOutput,
 } from "../commands/GetRelationalDatabaseEventsCommand";
 import {
   GetRelationalDatabaseLogEventsCommandInput,
-  GetRelationalDatabaseLogEventsCommandOutput
+  GetRelationalDatabaseLogEventsCommandOutput,
 } from "../commands/GetRelationalDatabaseLogEventsCommand";
 import {
   GetRelationalDatabaseLogStreamsCommandInput,
-  GetRelationalDatabaseLogStreamsCommandOutput
+  GetRelationalDatabaseLogStreamsCommandOutput,
 } from "../commands/GetRelationalDatabaseLogStreamsCommand";
 import {
   GetRelationalDatabaseMasterUserPasswordCommandInput,
-  GetRelationalDatabaseMasterUserPasswordCommandOutput
+  GetRelationalDatabaseMasterUserPasswordCommandOutput,
 } from "../commands/GetRelationalDatabaseMasterUserPasswordCommand";
 import {
   GetRelationalDatabaseMetricDataCommandInput,
-  GetRelationalDatabaseMetricDataCommandOutput
+  GetRelationalDatabaseMetricDataCommandOutput,
 } from "../commands/GetRelationalDatabaseMetricDataCommand";
 import {
   GetRelationalDatabaseParametersCommandInput,
-  GetRelationalDatabaseParametersCommandOutput
+  GetRelationalDatabaseParametersCommandOutput,
 } from "../commands/GetRelationalDatabaseParametersCommand";
 import {
   GetRelationalDatabaseSnapshotCommandInput,
-  GetRelationalDatabaseSnapshotCommandOutput
+  GetRelationalDatabaseSnapshotCommandOutput,
 } from "../commands/GetRelationalDatabaseSnapshotCommand";
 import {
   GetRelationalDatabaseSnapshotsCommandInput,
-  GetRelationalDatabaseSnapshotsCommandOutput
+  GetRelationalDatabaseSnapshotsCommandOutput,
 } from "../commands/GetRelationalDatabaseSnapshotsCommand";
 import {
   GetRelationalDatabasesCommandInput,
-  GetRelationalDatabasesCommandOutput
+  GetRelationalDatabasesCommandOutput,
 } from "../commands/GetRelationalDatabasesCommand";
 import {
   GetStaticIpCommandInput,
-  GetStaticIpCommandOutput
+  GetStaticIpCommandOutput,
 } from "../commands/GetStaticIpCommand";
 import {
   GetStaticIpsCommandInput,
-  GetStaticIpsCommandOutput
+  GetStaticIpsCommandOutput,
 } from "../commands/GetStaticIpsCommand";
 import {
   ImportKeyPairCommandInput,
-  ImportKeyPairCommandOutput
+  ImportKeyPairCommandOutput,
 } from "../commands/ImportKeyPairCommand";
 import {
   IsVpcPeeredCommandInput,
-  IsVpcPeeredCommandOutput
+  IsVpcPeeredCommandOutput,
 } from "../commands/IsVpcPeeredCommand";
 import {
   OpenInstancePublicPortsCommandInput,
-  OpenInstancePublicPortsCommandOutput
+  OpenInstancePublicPortsCommandOutput,
 } from "../commands/OpenInstancePublicPortsCommand";
 import {
   PeerVpcCommandInput,
-  PeerVpcCommandOutput
+  PeerVpcCommandOutput,
 } from "../commands/PeerVpcCommand";
 import {
   PutInstancePublicPortsCommandInput,
-  PutInstancePublicPortsCommandOutput
+  PutInstancePublicPortsCommandOutput,
 } from "../commands/PutInstancePublicPortsCommand";
 import {
   RebootInstanceCommandInput,
-  RebootInstanceCommandOutput
+  RebootInstanceCommandOutput,
 } from "../commands/RebootInstanceCommand";
 import {
   RebootRelationalDatabaseCommandInput,
-  RebootRelationalDatabaseCommandOutput
+  RebootRelationalDatabaseCommandOutput,
 } from "../commands/RebootRelationalDatabaseCommand";
 import {
   ReleaseStaticIpCommandInput,
-  ReleaseStaticIpCommandOutput
+  ReleaseStaticIpCommandOutput,
 } from "../commands/ReleaseStaticIpCommand";
 import {
   StartInstanceCommandInput,
-  StartInstanceCommandOutput
+  StartInstanceCommandOutput,
 } from "../commands/StartInstanceCommand";
 import {
   StartRelationalDatabaseCommandInput,
-  StartRelationalDatabaseCommandOutput
+  StartRelationalDatabaseCommandOutput,
 } from "../commands/StartRelationalDatabaseCommand";
 import {
   StopInstanceCommandInput,
-  StopInstanceCommandOutput
+  StopInstanceCommandOutput,
 } from "../commands/StopInstanceCommand";
 import {
   StopRelationalDatabaseCommandInput,
-  StopRelationalDatabaseCommandOutput
+  StopRelationalDatabaseCommandOutput,
 } from "../commands/StopRelationalDatabaseCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UnpeerVpcCommandInput,
-  UnpeerVpcCommandOutput
+  UnpeerVpcCommandOutput,
 } from "../commands/UnpeerVpcCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateDomainEntryCommandInput,
-  UpdateDomainEntryCommandOutput
+  UpdateDomainEntryCommandOutput,
 } from "../commands/UpdateDomainEntryCommand";
 import {
   UpdateLoadBalancerAttributeCommandInput,
-  UpdateLoadBalancerAttributeCommandOutput
+  UpdateLoadBalancerAttributeCommandOutput,
 } from "../commands/UpdateLoadBalancerAttributeCommand";
 import {
   UpdateRelationalDatabaseCommandInput,
-  UpdateRelationalDatabaseCommandOutput
+  UpdateRelationalDatabaseCommandOutput,
 } from "../commands/UpdateRelationalDatabaseCommand";
 import {
   UpdateRelationalDatabaseParametersCommandInput,
-  UpdateRelationalDatabaseParametersCommandOutput
+  UpdateRelationalDatabaseParametersCommandOutput,
 } from "../commands/UpdateRelationalDatabaseParametersCommand";
 import {
   AccessDeniedException,
@@ -696,11 +696,11 @@ import {
   UpdateRelationalDatabaseParametersRequest,
   UpdateRelationalDatabaseParametersResult,
   UpdateRelationalDatabaseRequest,
-  UpdateRelationalDatabaseResult
+  UpdateRelationalDatabaseResult,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -708,7 +708,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AllocateStaticIpCommand(
@@ -2178,7 +2178,7 @@ export async function deserializeAws_json1_1AllocateStaticIpCommand(
   const response: AllocateStaticIpCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AllocateStaticIpResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2189,7 +2189,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
 ): Promise<AllocateStaticIpCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2205,7 +2205,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2216,7 +2216,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2227,7 +2227,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2238,7 +2238,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2249,7 +2249,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2260,7 +2260,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2271,7 +2271,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2282,7 +2282,7 @@ async function deserializeAws_json1_1AllocateStaticIpCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2304,7 +2304,7 @@ export async function deserializeAws_json1_1AttachDiskCommand(
   const response: AttachDiskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AttachDiskResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2315,7 +2315,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
 ): Promise<AttachDiskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2331,7 +2331,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2342,7 +2342,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2353,7 +2353,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2364,7 +2364,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2375,7 +2375,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2386,7 +2386,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2397,7 +2397,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2408,7 +2408,7 @@ async function deserializeAws_json1_1AttachDiskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2436,7 +2436,7 @@ export async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommand
   const response: AttachInstancesToLoadBalancerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AttachInstancesToLoadBalancerResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2447,7 +2447,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
 ): Promise<AttachInstancesToLoadBalancerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2463,7 +2463,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2474,7 +2474,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2485,7 +2485,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2496,7 +2496,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2507,7 +2507,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2518,7 +2518,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2529,7 +2529,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2540,7 +2540,7 @@ async function deserializeAws_json1_1AttachInstancesToLoadBalancerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2568,7 +2568,7 @@ export async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateComm
   const response: AttachLoadBalancerTlsCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AttachLoadBalancerTlsCertificateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2579,7 +2579,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
 ): Promise<AttachLoadBalancerTlsCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2595,7 +2595,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2606,7 +2606,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2617,7 +2617,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2628,7 +2628,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2639,7 +2639,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2650,7 +2650,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2661,7 +2661,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2672,7 +2672,7 @@ async function deserializeAws_json1_1AttachLoadBalancerTlsCertificateCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2694,7 +2694,7 @@ export async function deserializeAws_json1_1AttachStaticIpCommand(
   const response: AttachStaticIpCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AttachStaticIpResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2705,7 +2705,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
 ): Promise<AttachStaticIpCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2721,7 +2721,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2732,7 +2732,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2743,7 +2743,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2754,7 +2754,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2765,7 +2765,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2776,7 +2776,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2787,7 +2787,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2798,7 +2798,7 @@ async function deserializeAws_json1_1AttachStaticIpCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2826,7 +2826,7 @@ export async function deserializeAws_json1_1CloseInstancePublicPortsCommand(
   const response: CloseInstancePublicPortsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CloseInstancePublicPortsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2837,7 +2837,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
 ): Promise<CloseInstancePublicPortsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2853,7 +2853,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2864,7 +2864,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2875,7 +2875,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2886,7 +2886,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -2897,7 +2897,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2908,7 +2908,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -2919,7 +2919,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2930,7 +2930,7 @@ async function deserializeAws_json1_1CloseInstancePublicPortsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2952,7 +2952,7 @@ export async function deserializeAws_json1_1CopySnapshotCommand(
   const response: CopySnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CopySnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2963,7 +2963,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
 ): Promise<CopySnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2979,7 +2979,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -2990,7 +2990,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3001,7 +3001,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3012,7 +3012,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3023,7 +3023,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3034,7 +3034,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3045,7 +3045,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3056,7 +3056,7 @@ async function deserializeAws_json1_1CopySnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3084,7 +3084,7 @@ export async function deserializeAws_json1_1CreateCloudFormationStackCommand(
   const response: CreateCloudFormationStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateCloudFormationStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3095,7 +3095,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
 ): Promise<CreateCloudFormationStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3111,7 +3111,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3122,7 +3122,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3133,7 +3133,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3144,7 +3144,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3155,7 +3155,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3166,7 +3166,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3177,7 +3177,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3188,7 +3188,7 @@ async function deserializeAws_json1_1CreateCloudFormationStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3210,7 +3210,7 @@ export async function deserializeAws_json1_1CreateDiskCommand(
   const response: CreateDiskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDiskResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3221,7 +3221,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
 ): Promise<CreateDiskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3237,7 +3237,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3248,7 +3248,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3259,7 +3259,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3270,7 +3270,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3281,7 +3281,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3292,7 +3292,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3303,7 +3303,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3314,7 +3314,7 @@ async function deserializeAws_json1_1CreateDiskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3339,7 +3339,7 @@ export async function deserializeAws_json1_1CreateDiskFromSnapshotCommand(
   const response: CreateDiskFromSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDiskFromSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3350,7 +3350,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
 ): Promise<CreateDiskFromSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3366,7 +3366,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3377,7 +3377,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3388,7 +3388,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3399,7 +3399,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3410,7 +3410,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3421,7 +3421,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3432,7 +3432,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3443,7 +3443,7 @@ async function deserializeAws_json1_1CreateDiskFromSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3468,7 +3468,7 @@ export async function deserializeAws_json1_1CreateDiskSnapshotCommand(
   const response: CreateDiskSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDiskSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3479,7 +3479,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
 ): Promise<CreateDiskSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3495,7 +3495,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3506,7 +3506,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3517,7 +3517,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3528,7 +3528,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3539,7 +3539,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3550,7 +3550,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3561,7 +3561,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3572,7 +3572,7 @@ async function deserializeAws_json1_1CreateDiskSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3594,7 +3594,7 @@ export async function deserializeAws_json1_1CreateDomainCommand(
   const response: CreateDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDomainResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3605,7 +3605,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
 ): Promise<CreateDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3621,7 +3621,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3632,7 +3632,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3643,7 +3643,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3654,7 +3654,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3665,7 +3665,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3676,7 +3676,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3687,7 +3687,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3698,7 +3698,7 @@ async function deserializeAws_json1_1CreateDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3720,7 +3720,7 @@ export async function deserializeAws_json1_1CreateDomainEntryCommand(
   const response: CreateDomainEntryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDomainEntryResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3731,7 +3731,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
 ): Promise<CreateDomainEntryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3747,7 +3747,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3758,7 +3758,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3769,7 +3769,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3780,7 +3780,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3791,7 +3791,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3802,7 +3802,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3813,7 +3813,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3824,7 +3824,7 @@ async function deserializeAws_json1_1CreateDomainEntryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3849,7 +3849,7 @@ export async function deserializeAws_json1_1CreateInstanceSnapshotCommand(
   const response: CreateInstanceSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateInstanceSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3860,7 +3860,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
 ): Promise<CreateInstanceSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3876,7 +3876,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -3887,7 +3887,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3898,7 +3898,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3909,7 +3909,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -3920,7 +3920,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3931,7 +3931,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -3942,7 +3942,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3953,7 +3953,7 @@ async function deserializeAws_json1_1CreateInstanceSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3975,7 +3975,7 @@ export async function deserializeAws_json1_1CreateInstancesCommand(
   const response: CreateInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateInstancesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3986,7 +3986,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
 ): Promise<CreateInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4002,7 +4002,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4013,7 +4013,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4024,7 +4024,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4035,7 +4035,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4046,7 +4046,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4057,7 +4057,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4068,7 +4068,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4079,7 +4079,7 @@ async function deserializeAws_json1_1CreateInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4107,7 +4107,7 @@ export async function deserializeAws_json1_1CreateInstancesFromSnapshotCommand(
   const response: CreateInstancesFromSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateInstancesFromSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4118,7 +4118,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
 ): Promise<CreateInstancesFromSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4134,7 +4134,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4145,7 +4145,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4156,7 +4156,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4167,7 +4167,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4178,7 +4178,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4189,7 +4189,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4200,7 +4200,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4211,7 +4211,7 @@ async function deserializeAws_json1_1CreateInstancesFromSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4233,7 +4233,7 @@ export async function deserializeAws_json1_1CreateKeyPairCommand(
   const response: CreateKeyPairCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateKeyPairResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4244,7 +4244,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
 ): Promise<CreateKeyPairCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4260,7 +4260,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4271,7 +4271,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4282,7 +4282,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4293,7 +4293,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4304,7 +4304,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4315,7 +4315,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4326,7 +4326,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4337,7 +4337,7 @@ async function deserializeAws_json1_1CreateKeyPairCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4362,7 +4362,7 @@ export async function deserializeAws_json1_1CreateLoadBalancerCommand(
   const response: CreateLoadBalancerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLoadBalancerResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4373,7 +4373,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
 ): Promise<CreateLoadBalancerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4389,7 +4389,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4400,7 +4400,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4411,7 +4411,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4422,7 +4422,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4433,7 +4433,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4444,7 +4444,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4455,7 +4455,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4466,7 +4466,7 @@ async function deserializeAws_json1_1CreateLoadBalancerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4494,7 +4494,7 @@ export async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateComm
   const response: CreateLoadBalancerTlsCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLoadBalancerTlsCertificateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4505,7 +4505,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
 ): Promise<CreateLoadBalancerTlsCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4521,7 +4521,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4532,7 +4532,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4543,7 +4543,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4554,7 +4554,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4565,7 +4565,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4576,7 +4576,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4587,7 +4587,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4598,7 +4598,7 @@ async function deserializeAws_json1_1CreateLoadBalancerTlsCertificateCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4626,7 +4626,7 @@ export async function deserializeAws_json1_1CreateRelationalDatabaseCommand(
   const response: CreateRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4637,7 +4637,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
 ): Promise<CreateRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4653,7 +4653,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4664,7 +4664,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4675,7 +4675,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4686,7 +4686,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4697,7 +4697,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4708,7 +4708,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4719,7 +4719,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4730,7 +4730,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4758,7 +4758,7 @@ export async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshot
   const response: CreateRelationalDatabaseFromSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRelationalDatabaseFromSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4769,7 +4769,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
 ): Promise<CreateRelationalDatabaseFromSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4785,7 +4785,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4796,7 +4796,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4807,7 +4807,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4818,7 +4818,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4829,7 +4829,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4840,7 +4840,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4851,7 +4851,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4862,7 +4862,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4890,7 +4890,7 @@ export async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotComm
   const response: CreateRelationalDatabaseSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRelationalDatabaseSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4901,7 +4901,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
 ): Promise<CreateRelationalDatabaseSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4917,7 +4917,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -4928,7 +4928,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4939,7 +4939,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4950,7 +4950,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -4961,7 +4961,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4972,7 +4972,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -4983,7 +4983,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4994,7 +4994,7 @@ async function deserializeAws_json1_1CreateRelationalDatabaseSnapshotCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5019,7 +5019,7 @@ export async function deserializeAws_json1_1DeleteAutoSnapshotCommand(
   const response: DeleteAutoSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteAutoSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5030,7 +5030,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
 ): Promise<DeleteAutoSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5046,7 +5046,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5057,7 +5057,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5068,7 +5068,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5079,7 +5079,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5090,7 +5090,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5101,7 +5101,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5112,7 +5112,7 @@ async function deserializeAws_json1_1DeleteAutoSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5134,7 +5134,7 @@ export async function deserializeAws_json1_1DeleteDiskCommand(
   const response: DeleteDiskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDiskResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5145,7 +5145,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
 ): Promise<DeleteDiskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5161,7 +5161,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5172,7 +5172,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5183,7 +5183,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5194,7 +5194,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5205,7 +5205,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5216,7 +5216,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5227,7 +5227,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5238,7 +5238,7 @@ async function deserializeAws_json1_1DeleteDiskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5263,7 +5263,7 @@ export async function deserializeAws_json1_1DeleteDiskSnapshotCommand(
   const response: DeleteDiskSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDiskSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5274,7 +5274,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
 ): Promise<DeleteDiskSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5290,7 +5290,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5301,7 +5301,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5312,7 +5312,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5323,7 +5323,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5334,7 +5334,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5345,7 +5345,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5356,7 +5356,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5367,7 +5367,7 @@ async function deserializeAws_json1_1DeleteDiskSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5389,7 +5389,7 @@ export async function deserializeAws_json1_1DeleteDomainCommand(
   const response: DeleteDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDomainResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5400,7 +5400,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
 ): Promise<DeleteDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5416,7 +5416,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5427,7 +5427,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5438,7 +5438,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5449,7 +5449,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5460,7 +5460,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5471,7 +5471,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5482,7 +5482,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5493,7 +5493,7 @@ async function deserializeAws_json1_1DeleteDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5515,7 +5515,7 @@ export async function deserializeAws_json1_1DeleteDomainEntryCommand(
   const response: DeleteDomainEntryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDomainEntryResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5526,7 +5526,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
 ): Promise<DeleteDomainEntryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5542,7 +5542,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5553,7 +5553,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5564,7 +5564,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5575,7 +5575,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5586,7 +5586,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5597,7 +5597,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5608,7 +5608,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5619,7 +5619,7 @@ async function deserializeAws_json1_1DeleteDomainEntryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5641,7 +5641,7 @@ export async function deserializeAws_json1_1DeleteInstanceCommand(
   const response: DeleteInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteInstanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5652,7 +5652,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
 ): Promise<DeleteInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5668,7 +5668,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5679,7 +5679,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5690,7 +5690,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5701,7 +5701,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5712,7 +5712,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5723,7 +5723,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5734,7 +5734,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5745,7 +5745,7 @@ async function deserializeAws_json1_1DeleteInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5770,7 +5770,7 @@ export async function deserializeAws_json1_1DeleteInstanceSnapshotCommand(
   const response: DeleteInstanceSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteInstanceSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5781,7 +5781,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
 ): Promise<DeleteInstanceSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5797,7 +5797,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5808,7 +5808,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5819,7 +5819,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5830,7 +5830,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5841,7 +5841,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5852,7 +5852,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5863,7 +5863,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5874,7 +5874,7 @@ async function deserializeAws_json1_1DeleteInstanceSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5896,7 +5896,7 @@ export async function deserializeAws_json1_1DeleteKeyPairCommand(
   const response: DeleteKeyPairCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteKeyPairResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5907,7 +5907,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
 ): Promise<DeleteKeyPairCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5923,7 +5923,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -5934,7 +5934,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5945,7 +5945,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -5956,7 +5956,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -5967,7 +5967,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5978,7 +5978,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -5989,7 +5989,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6000,7 +6000,7 @@ async function deserializeAws_json1_1DeleteKeyPairCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6025,7 +6025,7 @@ export async function deserializeAws_json1_1DeleteKnownHostKeysCommand(
   const response: DeleteKnownHostKeysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteKnownHostKeysResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6036,7 +6036,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
 ): Promise<DeleteKnownHostKeysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6052,7 +6052,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6063,7 +6063,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6074,7 +6074,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6085,7 +6085,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6096,7 +6096,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6107,7 +6107,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6118,7 +6118,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6129,7 +6129,7 @@ async function deserializeAws_json1_1DeleteKnownHostKeysCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6154,7 +6154,7 @@ export async function deserializeAws_json1_1DeleteLoadBalancerCommand(
   const response: DeleteLoadBalancerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLoadBalancerResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6165,7 +6165,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
 ): Promise<DeleteLoadBalancerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6181,7 +6181,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6192,7 +6192,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6203,7 +6203,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6214,7 +6214,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6225,7 +6225,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6236,7 +6236,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6247,7 +6247,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6258,7 +6258,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6286,7 +6286,7 @@ export async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateComm
   const response: DeleteLoadBalancerTlsCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLoadBalancerTlsCertificateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6297,7 +6297,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
 ): Promise<DeleteLoadBalancerTlsCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6313,7 +6313,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6324,7 +6324,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6335,7 +6335,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6346,7 +6346,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6357,7 +6357,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6368,7 +6368,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6379,7 +6379,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6390,7 +6390,7 @@ async function deserializeAws_json1_1DeleteLoadBalancerTlsCertificateCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6418,7 +6418,7 @@ export async function deserializeAws_json1_1DeleteRelationalDatabaseCommand(
   const response: DeleteRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6429,7 +6429,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
 ): Promise<DeleteRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6445,7 +6445,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6456,7 +6456,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6467,7 +6467,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6478,7 +6478,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6489,7 +6489,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6500,7 +6500,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6511,7 +6511,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6522,7 +6522,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6550,7 +6550,7 @@ export async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotComm
   const response: DeleteRelationalDatabaseSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRelationalDatabaseSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6561,7 +6561,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
 ): Promise<DeleteRelationalDatabaseSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6577,7 +6577,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6588,7 +6588,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6599,7 +6599,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6610,7 +6610,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6621,7 +6621,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6632,7 +6632,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6643,7 +6643,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6654,7 +6654,7 @@ async function deserializeAws_json1_1DeleteRelationalDatabaseSnapshotCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6676,7 +6676,7 @@ export async function deserializeAws_json1_1DetachDiskCommand(
   const response: DetachDiskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetachDiskResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6687,7 +6687,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
 ): Promise<DetachDiskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6703,7 +6703,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6714,7 +6714,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6725,7 +6725,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6736,7 +6736,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6747,7 +6747,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6758,7 +6758,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6769,7 +6769,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6780,7 +6780,7 @@ async function deserializeAws_json1_1DetachDiskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6808,7 +6808,7 @@ export async function deserializeAws_json1_1DetachInstancesFromLoadBalancerComma
   const response: DetachInstancesFromLoadBalancerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetachInstancesFromLoadBalancerResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6819,7 +6819,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
 ): Promise<DetachInstancesFromLoadBalancerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6835,7 +6835,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6846,7 +6846,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6857,7 +6857,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6868,7 +6868,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -6879,7 +6879,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6890,7 +6890,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -6901,7 +6901,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6912,7 +6912,7 @@ async function deserializeAws_json1_1DetachInstancesFromLoadBalancerCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6934,7 +6934,7 @@ export async function deserializeAws_json1_1DetachStaticIpCommand(
   const response: DetachStaticIpCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetachStaticIpResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6945,7 +6945,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
 ): Promise<DetachStaticIpCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6961,7 +6961,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -6972,7 +6972,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6983,7 +6983,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -6994,7 +6994,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7005,7 +7005,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7016,7 +7016,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7027,7 +7027,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7038,7 +7038,7 @@ async function deserializeAws_json1_1DetachStaticIpCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7060,7 +7060,7 @@ export async function deserializeAws_json1_1DisableAddOnCommand(
   const response: DisableAddOnCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisableAddOnResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7071,7 +7071,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
 ): Promise<DisableAddOnCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7087,7 +7087,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7098,7 +7098,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7109,7 +7109,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7120,7 +7120,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7131,7 +7131,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7142,7 +7142,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7153,7 +7153,7 @@ async function deserializeAws_json1_1DisableAddOnCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7178,7 +7178,7 @@ export async function deserializeAws_json1_1DownloadDefaultKeyPairCommand(
   const response: DownloadDefaultKeyPairCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DownloadDefaultKeyPairResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7189,7 +7189,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
 ): Promise<DownloadDefaultKeyPairCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7205,7 +7205,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -7216,7 +7216,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7227,7 +7227,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7238,7 +7238,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7249,7 +7249,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7260,7 +7260,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7271,7 +7271,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7282,7 +7282,7 @@ async function deserializeAws_json1_1DownloadDefaultKeyPairCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7304,7 +7304,7 @@ export async function deserializeAws_json1_1EnableAddOnCommand(
   const response: EnableAddOnCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableAddOnResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7315,7 +7315,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
 ): Promise<EnableAddOnCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7331,7 +7331,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7342,7 +7342,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7353,7 +7353,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7364,7 +7364,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7375,7 +7375,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7386,7 +7386,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7397,7 +7397,7 @@ async function deserializeAws_json1_1EnableAddOnCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7419,7 +7419,7 @@ export async function deserializeAws_json1_1ExportSnapshotCommand(
   const response: ExportSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ExportSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7430,7 +7430,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
 ): Promise<ExportSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7446,7 +7446,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -7457,7 +7457,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7468,7 +7468,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7479,7 +7479,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7490,7 +7490,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7501,7 +7501,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7512,7 +7512,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7523,7 +7523,7 @@ async function deserializeAws_json1_1ExportSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7545,7 +7545,7 @@ export async function deserializeAws_json1_1GetActiveNamesCommand(
   const response: GetActiveNamesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetActiveNamesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7556,7 +7556,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
 ): Promise<GetActiveNamesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7572,7 +7572,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -7583,7 +7583,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7594,7 +7594,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7605,7 +7605,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7616,7 +7616,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7627,7 +7627,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7638,7 +7638,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7649,7 +7649,7 @@ async function deserializeAws_json1_1GetActiveNamesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7671,7 +7671,7 @@ export async function deserializeAws_json1_1GetAutoSnapshotsCommand(
   const response: GetAutoSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAutoSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7682,7 +7682,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
 ): Promise<GetAutoSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7698,7 +7698,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7709,7 +7709,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7720,7 +7720,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7731,7 +7731,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7742,7 +7742,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7753,7 +7753,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7764,7 +7764,7 @@ async function deserializeAws_json1_1GetAutoSnapshotsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7786,7 +7786,7 @@ export async function deserializeAws_json1_1GetBlueprintsCommand(
   const response: GetBlueprintsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetBlueprintsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7797,7 +7797,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
 ): Promise<GetBlueprintsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7813,7 +7813,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -7824,7 +7824,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7835,7 +7835,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7846,7 +7846,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7857,7 +7857,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7868,7 +7868,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -7879,7 +7879,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7890,7 +7890,7 @@ async function deserializeAws_json1_1GetBlueprintsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7912,7 +7912,7 @@ export async function deserializeAws_json1_1GetBundlesCommand(
   const response: GetBundlesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetBundlesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7923,7 +7923,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
 ): Promise<GetBundlesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7939,7 +7939,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -7950,7 +7950,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7961,7 +7961,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -7972,7 +7972,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -7983,7 +7983,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7994,7 +7994,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8005,7 +8005,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8016,7 +8016,7 @@ async function deserializeAws_json1_1GetBundlesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8044,7 +8044,7 @@ export async function deserializeAws_json1_1GetCloudFormationStackRecordsCommand
   const response: GetCloudFormationStackRecordsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCloudFormationStackRecordsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8055,7 +8055,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
 ): Promise<GetCloudFormationStackRecordsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8071,7 +8071,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8082,7 +8082,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8093,7 +8093,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8104,7 +8104,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8115,7 +8115,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8126,7 +8126,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8137,7 +8137,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8148,7 +8148,7 @@ async function deserializeAws_json1_1GetCloudFormationStackRecordsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8170,7 +8170,7 @@ export async function deserializeAws_json1_1GetDiskCommand(
   const response: GetDiskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDiskResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8181,7 +8181,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
 ): Promise<GetDiskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8197,7 +8197,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8208,7 +8208,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8219,7 +8219,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8230,7 +8230,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8241,7 +8241,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8252,7 +8252,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8263,7 +8263,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8274,7 +8274,7 @@ async function deserializeAws_json1_1GetDiskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8296,7 +8296,7 @@ export async function deserializeAws_json1_1GetDiskSnapshotCommand(
   const response: GetDiskSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDiskSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8307,7 +8307,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
 ): Promise<GetDiskSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8323,7 +8323,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8334,7 +8334,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8345,7 +8345,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8356,7 +8356,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8367,7 +8367,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8378,7 +8378,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8389,7 +8389,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8400,7 +8400,7 @@ async function deserializeAws_json1_1GetDiskSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8422,7 +8422,7 @@ export async function deserializeAws_json1_1GetDiskSnapshotsCommand(
   const response: GetDiskSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDiskSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8433,7 +8433,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
 ): Promise<GetDiskSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8449,7 +8449,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8460,7 +8460,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8471,7 +8471,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8482,7 +8482,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8493,7 +8493,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8504,7 +8504,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8515,7 +8515,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8526,7 +8526,7 @@ async function deserializeAws_json1_1GetDiskSnapshotsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8548,7 +8548,7 @@ export async function deserializeAws_json1_1GetDisksCommand(
   const response: GetDisksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDisksResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8559,7 +8559,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
 ): Promise<GetDisksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8575,7 +8575,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8586,7 +8586,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8597,7 +8597,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8608,7 +8608,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8619,7 +8619,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8630,7 +8630,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8641,7 +8641,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8652,7 +8652,7 @@ async function deserializeAws_json1_1GetDisksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8674,7 +8674,7 @@ export async function deserializeAws_json1_1GetDomainCommand(
   const response: GetDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDomainResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8685,7 +8685,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
 ): Promise<GetDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8701,7 +8701,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8712,7 +8712,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8723,7 +8723,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8734,7 +8734,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8745,7 +8745,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8756,7 +8756,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8767,7 +8767,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8778,7 +8778,7 @@ async function deserializeAws_json1_1GetDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8800,7 +8800,7 @@ export async function deserializeAws_json1_1GetDomainsCommand(
   const response: GetDomainsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDomainsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8811,7 +8811,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
 ): Promise<GetDomainsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8827,7 +8827,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8838,7 +8838,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8849,7 +8849,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8860,7 +8860,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -8871,7 +8871,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -8882,7 +8882,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -8893,7 +8893,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8904,7 +8904,7 @@ async function deserializeAws_json1_1GetDomainsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8932,7 +8932,7 @@ export async function deserializeAws_json1_1GetExportSnapshotRecordsCommand(
   const response: GetExportSnapshotRecordsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetExportSnapshotRecordsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8943,7 +8943,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
 ): Promise<GetExportSnapshotRecordsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8959,7 +8959,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -8970,7 +8970,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -8981,7 +8981,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -8992,7 +8992,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9003,7 +9003,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9014,7 +9014,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9025,7 +9025,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9036,7 +9036,7 @@ async function deserializeAws_json1_1GetExportSnapshotRecordsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9058,7 +9058,7 @@ export async function deserializeAws_json1_1GetInstanceCommand(
   const response: GetInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9069,7 +9069,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
 ): Promise<GetInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9085,7 +9085,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9096,7 +9096,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9107,7 +9107,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9118,7 +9118,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9129,7 +9129,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9140,7 +9140,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9151,7 +9151,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9162,7 +9162,7 @@ async function deserializeAws_json1_1GetInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9190,7 +9190,7 @@ export async function deserializeAws_json1_1GetInstanceAccessDetailsCommand(
   const response: GetInstanceAccessDetailsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceAccessDetailsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9201,7 +9201,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
 ): Promise<GetInstanceAccessDetailsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9217,7 +9217,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9228,7 +9228,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9239,7 +9239,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9250,7 +9250,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9261,7 +9261,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9272,7 +9272,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9283,7 +9283,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9294,7 +9294,7 @@ async function deserializeAws_json1_1GetInstanceAccessDetailsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9319,7 +9319,7 @@ export async function deserializeAws_json1_1GetInstanceMetricDataCommand(
   const response: GetInstanceMetricDataCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceMetricDataResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9330,7 +9330,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
 ): Promise<GetInstanceMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9346,7 +9346,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9357,7 +9357,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9368,7 +9368,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9379,7 +9379,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9390,7 +9390,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9401,7 +9401,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9412,7 +9412,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9423,7 +9423,7 @@ async function deserializeAws_json1_1GetInstanceMetricDataCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9448,7 +9448,7 @@ export async function deserializeAws_json1_1GetInstancePortStatesCommand(
   const response: GetInstancePortStatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstancePortStatesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9459,7 +9459,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
 ): Promise<GetInstancePortStatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9475,7 +9475,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9486,7 +9486,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9497,7 +9497,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9508,7 +9508,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9519,7 +9519,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9530,7 +9530,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9541,7 +9541,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9552,7 +9552,7 @@ async function deserializeAws_json1_1GetInstancePortStatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9577,7 +9577,7 @@ export async function deserializeAws_json1_1GetInstanceSnapshotCommand(
   const response: GetInstanceSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9588,7 +9588,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
 ): Promise<GetInstanceSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9604,7 +9604,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9615,7 +9615,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9626,7 +9626,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9637,7 +9637,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9648,7 +9648,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9659,7 +9659,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9670,7 +9670,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9681,7 +9681,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9706,7 +9706,7 @@ export async function deserializeAws_json1_1GetInstanceSnapshotsCommand(
   const response: GetInstanceSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9717,7 +9717,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
 ): Promise<GetInstanceSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9733,7 +9733,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9744,7 +9744,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9755,7 +9755,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9766,7 +9766,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9777,7 +9777,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9788,7 +9788,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9799,7 +9799,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9810,7 +9810,7 @@ async function deserializeAws_json1_1GetInstanceSnapshotsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9832,7 +9832,7 @@ export async function deserializeAws_json1_1GetInstanceStateCommand(
   const response: GetInstanceStateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstanceStateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9843,7 +9843,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
 ): Promise<GetInstanceStateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9859,7 +9859,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9870,7 +9870,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -9881,7 +9881,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -9892,7 +9892,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -9903,7 +9903,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -9914,7 +9914,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -9925,7 +9925,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9936,7 +9936,7 @@ async function deserializeAws_json1_1GetInstanceStateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9958,7 +9958,7 @@ export async function deserializeAws_json1_1GetInstancesCommand(
   const response: GetInstancesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInstancesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9969,7 +9969,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
 ): Promise<GetInstancesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9985,7 +9985,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -9996,7 +9996,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10007,7 +10007,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10018,7 +10018,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10029,7 +10029,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10040,7 +10040,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10051,7 +10051,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10062,7 +10062,7 @@ async function deserializeAws_json1_1GetInstancesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10084,7 +10084,7 @@ export async function deserializeAws_json1_1GetKeyPairCommand(
   const response: GetKeyPairCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetKeyPairResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10095,7 +10095,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
 ): Promise<GetKeyPairCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10111,7 +10111,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10122,7 +10122,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10133,7 +10133,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10144,7 +10144,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10155,7 +10155,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10166,7 +10166,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10177,7 +10177,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10188,7 +10188,7 @@ async function deserializeAws_json1_1GetKeyPairCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10210,7 +10210,7 @@ export async function deserializeAws_json1_1GetKeyPairsCommand(
   const response: GetKeyPairsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetKeyPairsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10221,7 +10221,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
 ): Promise<GetKeyPairsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10237,7 +10237,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10248,7 +10248,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10259,7 +10259,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10270,7 +10270,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10281,7 +10281,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10292,7 +10292,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10303,7 +10303,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10314,7 +10314,7 @@ async function deserializeAws_json1_1GetKeyPairsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10336,7 +10336,7 @@ export async function deserializeAws_json1_1GetLoadBalancerCommand(
   const response: GetLoadBalancerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLoadBalancerResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10347,7 +10347,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
 ): Promise<GetLoadBalancerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10363,7 +10363,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10374,7 +10374,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10385,7 +10385,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10396,7 +10396,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10407,7 +10407,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10418,7 +10418,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10429,7 +10429,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10440,7 +10440,7 @@ async function deserializeAws_json1_1GetLoadBalancerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10468,7 +10468,7 @@ export async function deserializeAws_json1_1GetLoadBalancerMetricDataCommand(
   const response: GetLoadBalancerMetricDataCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLoadBalancerMetricDataResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10479,7 +10479,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
 ): Promise<GetLoadBalancerMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10495,7 +10495,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10506,7 +10506,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10517,7 +10517,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10528,7 +10528,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10539,7 +10539,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10550,7 +10550,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10561,7 +10561,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10572,7 +10572,7 @@ async function deserializeAws_json1_1GetLoadBalancerMetricDataCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10600,7 +10600,7 @@ export async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesComman
   const response: GetLoadBalancerTlsCertificatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLoadBalancerTlsCertificatesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10611,7 +10611,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
 ): Promise<GetLoadBalancerTlsCertificatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10627,7 +10627,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10638,7 +10638,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10649,7 +10649,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10660,7 +10660,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10671,7 +10671,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10682,7 +10682,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10693,7 +10693,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10704,7 +10704,7 @@ async function deserializeAws_json1_1GetLoadBalancerTlsCertificatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10726,7 +10726,7 @@ export async function deserializeAws_json1_1GetLoadBalancersCommand(
   const response: GetLoadBalancersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLoadBalancersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10737,7 +10737,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
 ): Promise<GetLoadBalancersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10753,7 +10753,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10764,7 +10764,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10775,7 +10775,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10786,7 +10786,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10797,7 +10797,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10808,7 +10808,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10819,7 +10819,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10830,7 +10830,7 @@ async function deserializeAws_json1_1GetLoadBalancersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10852,7 +10852,7 @@ export async function deserializeAws_json1_1GetOperationCommand(
   const response: GetOperationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOperationResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10863,7 +10863,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
 ): Promise<GetOperationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10879,7 +10879,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -10890,7 +10890,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -10901,7 +10901,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -10912,7 +10912,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -10923,7 +10923,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -10934,7 +10934,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -10945,7 +10945,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10956,7 +10956,7 @@ async function deserializeAws_json1_1GetOperationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10978,7 +10978,7 @@ export async function deserializeAws_json1_1GetOperationsCommand(
   const response: GetOperationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOperationsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10989,7 +10989,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
 ): Promise<GetOperationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11005,7 +11005,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11016,7 +11016,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11027,7 +11027,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11038,7 +11038,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11049,7 +11049,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11060,7 +11060,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11071,7 +11071,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11082,7 +11082,7 @@ async function deserializeAws_json1_1GetOperationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11110,7 +11110,7 @@ export async function deserializeAws_json1_1GetOperationsForResourceCommand(
   const response: GetOperationsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetOperationsForResourceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11121,7 +11121,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
 ): Promise<GetOperationsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11137,7 +11137,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11148,7 +11148,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11159,7 +11159,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11170,7 +11170,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11181,7 +11181,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11192,7 +11192,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11203,7 +11203,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11214,7 +11214,7 @@ async function deserializeAws_json1_1GetOperationsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11236,7 +11236,7 @@ export async function deserializeAws_json1_1GetRegionsCommand(
   const response: GetRegionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRegionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11247,7 +11247,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
 ): Promise<GetRegionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11263,7 +11263,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11274,7 +11274,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11285,7 +11285,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11296,7 +11296,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11307,7 +11307,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11318,7 +11318,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11329,7 +11329,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11340,7 +11340,7 @@ async function deserializeAws_json1_1GetRegionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11365,7 +11365,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseCommand(
   const response: GetRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11376,7 +11376,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
 ): Promise<GetRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11392,7 +11392,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11403,7 +11403,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11414,7 +11414,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11425,7 +11425,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11436,7 +11436,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11447,7 +11447,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11458,7 +11458,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11469,7 +11469,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11497,7 +11497,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsComma
   const response: GetRelationalDatabaseBlueprintsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseBlueprintsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11508,7 +11508,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
 ): Promise<GetRelationalDatabaseBlueprintsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11524,7 +11524,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11535,7 +11535,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11546,7 +11546,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11557,7 +11557,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11568,7 +11568,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11579,7 +11579,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11590,7 +11590,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11601,7 +11601,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBlueprintsCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11629,7 +11629,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommand(
   const response: GetRelationalDatabaseBundlesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseBundlesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11640,7 +11640,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
 ): Promise<GetRelationalDatabaseBundlesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11656,7 +11656,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11667,7 +11667,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11678,7 +11678,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11689,7 +11689,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11700,7 +11700,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11711,7 +11711,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11722,7 +11722,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11733,7 +11733,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseBundlesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11761,7 +11761,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseEventsCommand(
   const response: GetRelationalDatabaseEventsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseEventsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11772,7 +11772,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
 ): Promise<GetRelationalDatabaseEventsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11788,7 +11788,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11799,7 +11799,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11810,7 +11810,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11821,7 +11821,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11832,7 +11832,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11843,7 +11843,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11854,7 +11854,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11865,7 +11865,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseEventsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -11893,7 +11893,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseLogEventsComman
   const response: GetRelationalDatabaseLogEventsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseLogEventsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -11904,7 +11904,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
 ): Promise<GetRelationalDatabaseLogEventsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -11920,7 +11920,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -11931,7 +11931,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -11942,7 +11942,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -11953,7 +11953,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -11964,7 +11964,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -11975,7 +11975,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -11986,7 +11986,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -11997,7 +11997,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogEventsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12025,7 +12025,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsComma
   const response: GetRelationalDatabaseLogStreamsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseLogStreamsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12036,7 +12036,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
 ): Promise<GetRelationalDatabaseLogStreamsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12052,7 +12052,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12063,7 +12063,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12074,7 +12074,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12085,7 +12085,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12096,7 +12096,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12107,7 +12107,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12118,7 +12118,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12129,7 +12129,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseLogStreamsCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12157,7 +12157,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPassw
   const response: GetRelationalDatabaseMasterUserPasswordCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseMasterUserPasswordResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12168,7 +12168,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
 ): Promise<GetRelationalDatabaseMasterUserPasswordCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12184,7 +12184,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12195,7 +12195,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12206,7 +12206,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12217,7 +12217,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12228,7 +12228,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12239,7 +12239,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12250,7 +12250,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12261,7 +12261,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordComm
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12289,7 +12289,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseMetricDataComma
   const response: GetRelationalDatabaseMetricDataCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseMetricDataResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12300,7 +12300,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
 ): Promise<GetRelationalDatabaseMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12316,7 +12316,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12327,7 +12327,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12338,7 +12338,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12349,7 +12349,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12360,7 +12360,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12371,7 +12371,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12382,7 +12382,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12393,7 +12393,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseMetricDataCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12421,7 +12421,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseParametersComma
   const response: GetRelationalDatabaseParametersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseParametersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12432,7 +12432,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
 ): Promise<GetRelationalDatabaseParametersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12448,7 +12448,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12459,7 +12459,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12470,7 +12470,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12481,7 +12481,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12492,7 +12492,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12503,7 +12503,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12514,7 +12514,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12525,7 +12525,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseParametersCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12553,7 +12553,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommand
   const response: GetRelationalDatabaseSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12564,7 +12564,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
 ): Promise<GetRelationalDatabaseSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12580,7 +12580,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12591,7 +12591,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12602,7 +12602,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12613,7 +12613,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12624,7 +12624,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12635,7 +12635,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12646,7 +12646,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12657,7 +12657,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12685,7 +12685,7 @@ export async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsComman
   const response: GetRelationalDatabaseSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabaseSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12696,7 +12696,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
 ): Promise<GetRelationalDatabaseSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12712,7 +12712,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12723,7 +12723,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12734,7 +12734,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12745,7 +12745,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12756,7 +12756,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12767,7 +12767,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12778,7 +12778,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12789,7 +12789,7 @@ async function deserializeAws_json1_1GetRelationalDatabaseSnapshotsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12814,7 +12814,7 @@ export async function deserializeAws_json1_1GetRelationalDatabasesCommand(
   const response: GetRelationalDatabasesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRelationalDatabasesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12825,7 +12825,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
 ): Promise<GetRelationalDatabasesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12841,7 +12841,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12852,7 +12852,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12863,7 +12863,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -12874,7 +12874,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -12885,7 +12885,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -12896,7 +12896,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -12907,7 +12907,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -12918,7 +12918,7 @@ async function deserializeAws_json1_1GetRelationalDatabasesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -12940,7 +12940,7 @@ export async function deserializeAws_json1_1GetStaticIpCommand(
   const response: GetStaticIpCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetStaticIpResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -12951,7 +12951,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
 ): Promise<GetStaticIpCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -12967,7 +12967,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -12978,7 +12978,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -12989,7 +12989,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13000,7 +13000,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13011,7 +13011,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13022,7 +13022,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13033,7 +13033,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13044,7 +13044,7 @@ async function deserializeAws_json1_1GetStaticIpCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13066,7 +13066,7 @@ export async function deserializeAws_json1_1GetStaticIpsCommand(
   const response: GetStaticIpsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetStaticIpsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13077,7 +13077,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
 ): Promise<GetStaticIpsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13093,7 +13093,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13104,7 +13104,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13115,7 +13115,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13126,7 +13126,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13137,7 +13137,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13148,7 +13148,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13159,7 +13159,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13170,7 +13170,7 @@ async function deserializeAws_json1_1GetStaticIpsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13192,7 +13192,7 @@ export async function deserializeAws_json1_1ImportKeyPairCommand(
   const response: ImportKeyPairCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ImportKeyPairResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13203,7 +13203,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
 ): Promise<ImportKeyPairCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13219,7 +13219,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13230,7 +13230,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13241,7 +13241,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13252,7 +13252,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13263,7 +13263,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13274,7 +13274,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13285,7 +13285,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13296,7 +13296,7 @@ async function deserializeAws_json1_1ImportKeyPairCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13318,7 +13318,7 @@ export async function deserializeAws_json1_1IsVpcPeeredCommand(
   const response: IsVpcPeeredCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IsVpcPeeredResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13329,7 +13329,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
 ): Promise<IsVpcPeeredCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13345,7 +13345,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13356,7 +13356,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13367,7 +13367,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13378,7 +13378,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13389,7 +13389,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13400,7 +13400,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13411,7 +13411,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13422,7 +13422,7 @@ async function deserializeAws_json1_1IsVpcPeeredCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13447,7 +13447,7 @@ export async function deserializeAws_json1_1OpenInstancePublicPortsCommand(
   const response: OpenInstancePublicPortsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "OpenInstancePublicPortsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13458,7 +13458,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
 ): Promise<OpenInstancePublicPortsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13474,7 +13474,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13485,7 +13485,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13496,7 +13496,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13507,7 +13507,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13518,7 +13518,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13529,7 +13529,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13540,7 +13540,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13551,7 +13551,7 @@ async function deserializeAws_json1_1OpenInstancePublicPortsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13573,7 +13573,7 @@ export async function deserializeAws_json1_1PeerVpcCommand(
   const response: PeerVpcCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PeerVpcResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13584,7 +13584,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
 ): Promise<PeerVpcCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13600,7 +13600,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13611,7 +13611,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13622,7 +13622,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13633,7 +13633,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13644,7 +13644,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13655,7 +13655,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13666,7 +13666,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13677,7 +13677,7 @@ async function deserializeAws_json1_1PeerVpcCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13702,7 +13702,7 @@ export async function deserializeAws_json1_1PutInstancePublicPortsCommand(
   const response: PutInstancePublicPortsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutInstancePublicPortsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13713,7 +13713,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
 ): Promise<PutInstancePublicPortsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13729,7 +13729,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13740,7 +13740,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13751,7 +13751,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13762,7 +13762,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13773,7 +13773,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13784,7 +13784,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13795,7 +13795,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13806,7 +13806,7 @@ async function deserializeAws_json1_1PutInstancePublicPortsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13828,7 +13828,7 @@ export async function deserializeAws_json1_1RebootInstanceCommand(
   const response: RebootInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RebootInstanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13839,7 +13839,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
 ): Promise<RebootInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13855,7 +13855,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13866,7 +13866,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -13877,7 +13877,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -13888,7 +13888,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -13899,7 +13899,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -13910,7 +13910,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -13921,7 +13921,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -13932,7 +13932,7 @@ async function deserializeAws_json1_1RebootInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -13960,7 +13960,7 @@ export async function deserializeAws_json1_1RebootRelationalDatabaseCommand(
   const response: RebootRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RebootRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -13971,7 +13971,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
 ): Promise<RebootRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -13987,7 +13987,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -13998,7 +13998,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14009,7 +14009,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14020,7 +14020,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14031,7 +14031,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14042,7 +14042,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14053,7 +14053,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14064,7 +14064,7 @@ async function deserializeAws_json1_1RebootRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14086,7 +14086,7 @@ export async function deserializeAws_json1_1ReleaseStaticIpCommand(
   const response: ReleaseStaticIpCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReleaseStaticIpResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14097,7 +14097,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
 ): Promise<ReleaseStaticIpCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14113,7 +14113,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14124,7 +14124,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14135,7 +14135,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14146,7 +14146,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14157,7 +14157,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14168,7 +14168,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14179,7 +14179,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14190,7 +14190,7 @@ async function deserializeAws_json1_1ReleaseStaticIpCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14212,7 +14212,7 @@ export async function deserializeAws_json1_1StartInstanceCommand(
   const response: StartInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartInstanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14223,7 +14223,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
 ): Promise<StartInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14239,7 +14239,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14250,7 +14250,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14261,7 +14261,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14272,7 +14272,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14283,7 +14283,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14294,7 +14294,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14305,7 +14305,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14316,7 +14316,7 @@ async function deserializeAws_json1_1StartInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14341,7 +14341,7 @@ export async function deserializeAws_json1_1StartRelationalDatabaseCommand(
   const response: StartRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14352,7 +14352,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
 ): Promise<StartRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14368,7 +14368,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14379,7 +14379,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14390,7 +14390,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14401,7 +14401,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14412,7 +14412,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14423,7 +14423,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14434,7 +14434,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14445,7 +14445,7 @@ async function deserializeAws_json1_1StartRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14467,7 +14467,7 @@ export async function deserializeAws_json1_1StopInstanceCommand(
   const response: StopInstanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopInstanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14478,7 +14478,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
 ): Promise<StopInstanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14494,7 +14494,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14505,7 +14505,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14516,7 +14516,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14527,7 +14527,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14538,7 +14538,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14549,7 +14549,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14560,7 +14560,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14571,7 +14571,7 @@ async function deserializeAws_json1_1StopInstanceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14596,7 +14596,7 @@ export async function deserializeAws_json1_1StopRelationalDatabaseCommand(
   const response: StopRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14607,7 +14607,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
 ): Promise<StopRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14623,7 +14623,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14634,7 +14634,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14645,7 +14645,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14656,7 +14656,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14667,7 +14667,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14678,7 +14678,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14689,7 +14689,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14700,7 +14700,7 @@ async function deserializeAws_json1_1StopRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14722,7 +14722,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14733,7 +14733,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14749,7 +14749,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14760,7 +14760,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14771,7 +14771,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14782,7 +14782,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14793,7 +14793,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14804,7 +14804,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14815,7 +14815,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14826,7 +14826,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14848,7 +14848,7 @@ export async function deserializeAws_json1_1UnpeerVpcCommand(
   const response: UnpeerVpcCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UnpeerVpcResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14859,7 +14859,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
 ): Promise<UnpeerVpcCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -14875,7 +14875,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -14886,7 +14886,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -14897,7 +14897,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -14908,7 +14908,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -14919,7 +14919,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -14930,7 +14930,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -14941,7 +14941,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -14952,7 +14952,7 @@ async function deserializeAws_json1_1UnpeerVpcCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -14974,7 +14974,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -14985,7 +14985,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -15001,7 +15001,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -15012,7 +15012,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -15023,7 +15023,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -15034,7 +15034,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -15045,7 +15045,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -15056,7 +15056,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -15067,7 +15067,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -15078,7 +15078,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -15100,7 +15100,7 @@ export async function deserializeAws_json1_1UpdateDomainEntryCommand(
   const response: UpdateDomainEntryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateDomainEntryResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -15111,7 +15111,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
 ): Promise<UpdateDomainEntryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -15127,7 +15127,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -15138,7 +15138,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -15149,7 +15149,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -15160,7 +15160,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -15171,7 +15171,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -15182,7 +15182,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -15193,7 +15193,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -15204,7 +15204,7 @@ async function deserializeAws_json1_1UpdateDomainEntryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -15232,7 +15232,7 @@ export async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommand(
   const response: UpdateLoadBalancerAttributeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateLoadBalancerAttributeResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -15243,7 +15243,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
 ): Promise<UpdateLoadBalancerAttributeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -15259,7 +15259,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -15270,7 +15270,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -15281,7 +15281,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -15292,7 +15292,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -15303,7 +15303,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -15314,7 +15314,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -15325,7 +15325,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -15336,7 +15336,7 @@ async function deserializeAws_json1_1UpdateLoadBalancerAttributeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -15364,7 +15364,7 @@ export async function deserializeAws_json1_1UpdateRelationalDatabaseCommand(
   const response: UpdateRelationalDatabaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateRelationalDatabaseResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -15375,7 +15375,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
 ): Promise<UpdateRelationalDatabaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -15391,7 +15391,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -15402,7 +15402,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -15413,7 +15413,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -15424,7 +15424,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -15435,7 +15435,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -15446,7 +15446,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -15457,7 +15457,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -15468,7 +15468,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -15496,7 +15496,7 @@ export async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCo
   const response: UpdateRelationalDatabaseParametersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateRelationalDatabaseParametersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -15507,7 +15507,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
 ): Promise<UpdateRelationalDatabaseParametersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -15523,7 +15523,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountSetupInProgressException":
@@ -15534,7 +15534,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -15545,7 +15545,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -15556,7 +15556,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationFailureException":
@@ -15567,7 +15567,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -15578,7 +15578,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthenticatedException":
@@ -15589,7 +15589,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -15600,7 +15600,7 @@ async function deserializeAws_json1_1UpdateRelationalDatabaseParametersCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -15622,7 +15622,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15640,7 +15640,7 @@ const deserializeAws_json1_1AccountSetupInProgressExceptionResponse = async (
     name: "AccountSetupInProgressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15658,7 +15658,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15676,7 +15676,7 @@ const deserializeAws_json1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15694,7 +15694,7 @@ const deserializeAws_json1_1OperationFailureExceptionResponse = async (
     name: "OperationFailureException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15712,7 +15712,7 @@ const deserializeAws_json1_1ServiceExceptionResponse = async (
     name: "ServiceException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15730,7 +15730,7 @@ const deserializeAws_json1_1UnauthenticatedExceptionResponse = async (
     name: "UnauthenticatedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -15843,7 +15843,7 @@ const serializeAws_json1_1AttachedDiskMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_json1_1DiskMapList(input[key], context);
   });
   return mapParams;
@@ -16603,7 +16603,7 @@ const serializeAws_json1_1DomainEntryOptions = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -17713,7 +17713,7 @@ const deserializeAws_json1_1AccessDeniedException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -17739,7 +17739,7 @@ const deserializeAws_json1_1AccountSetupInProgressException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -17765,7 +17765,7 @@ const deserializeAws_json1_1AddOn = (
     name: undefined,
     nextSnapshotTimeOfDay: undefined,
     snapshotTimeOfDay: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -17803,7 +17803,7 @@ const deserializeAws_json1_1AllocateStaticIpResult = (
 ): AllocateStaticIpResult => {
   let contents: any = {
     __type: "AllocateStaticIpResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -17820,7 +17820,7 @@ const deserializeAws_json1_1AttachDiskResult = (
 ): AttachDiskResult => {
   let contents: any = {
     __type: "AttachDiskResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -17837,7 +17837,7 @@ const deserializeAws_json1_1AttachInstancesToLoadBalancerResult = (
 ): AttachInstancesToLoadBalancerResult => {
   let contents: any = {
     __type: "AttachInstancesToLoadBalancerResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -17854,7 +17854,7 @@ const deserializeAws_json1_1AttachLoadBalancerTlsCertificateResult = (
 ): AttachLoadBalancerTlsCertificateResult => {
   let contents: any = {
     __type: "AttachLoadBalancerTlsCertificateResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -17871,7 +17871,7 @@ const deserializeAws_json1_1AttachStaticIpResult = (
 ): AttachStaticIpResult => {
   let contents: any = {
     __type: "AttachStaticIpResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -17889,7 +17889,7 @@ const deserializeAws_json1_1AttachedDisk = (
   let contents: any = {
     __type: "AttachedDisk",
     path: undefined,
-    sizeInGb: undefined
+    sizeInGb: undefined,
   };
   if (output.path !== undefined && output.path !== null) {
     contents.path = output.path;
@@ -17918,7 +17918,7 @@ const deserializeAws_json1_1AutoSnapshotDetails = (
     createdAt: undefined,
     date: undefined,
     fromAttachedDisks: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -17957,7 +17957,7 @@ const deserializeAws_json1_1AvailabilityZone = (
   let contents: any = {
     __type: "AvailabilityZone",
     state: undefined,
-    zoneName: undefined
+    zoneName: undefined,
   };
   if (output.state !== undefined && output.state !== null) {
     contents.state = output.state;
@@ -17994,7 +17994,7 @@ const deserializeAws_json1_1Blueprint = (
     productUrl: undefined,
     type: undefined,
     version: undefined,
-    versionCode: undefined
+    versionCode: undefined,
   };
   if (output.blueprintId !== undefined && output.blueprintId !== null) {
     contents.blueprintId = output.blueprintId;
@@ -18060,7 +18060,7 @@ const deserializeAws_json1_1Bundle = (
     price: undefined,
     ramSizeInGb: undefined,
     supportedPlatforms: undefined,
-    transferPerMonthInGb: undefined
+    transferPerMonthInGb: undefined,
   };
   if (output.bundleId !== undefined && output.bundleId !== null) {
     contents.bundleId = output.bundleId;
@@ -18122,7 +18122,7 @@ const deserializeAws_json1_1CloseInstancePublicPortsResult = (
 ): CloseInstancePublicPortsResult => {
   let contents: any = {
     __type: "CloseInstancePublicPortsResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18146,7 +18146,7 @@ const deserializeAws_json1_1CloudFormationStackRecord = (
     name: undefined,
     resourceType: undefined,
     sourceInfo: undefined,
-    state: undefined
+    state: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -18201,7 +18201,7 @@ const deserializeAws_json1_1CloudFormationStackRecordSourceInfo = (
     __type: "CloudFormationStackRecordSourceInfo",
     arn: undefined,
     name: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -18230,7 +18230,7 @@ const deserializeAws_json1_1CopySnapshotResult = (
 ): CopySnapshotResult => {
   let contents: any = {
     __type: "CopySnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18247,7 +18247,7 @@ const deserializeAws_json1_1CreateCloudFormationStackResult = (
 ): CreateCloudFormationStackResult => {
   let contents: any = {
     __type: "CreateCloudFormationStackResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18264,7 +18264,7 @@ const deserializeAws_json1_1CreateDiskFromSnapshotResult = (
 ): CreateDiskFromSnapshotResult => {
   let contents: any = {
     __type: "CreateDiskFromSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18281,7 +18281,7 @@ const deserializeAws_json1_1CreateDiskResult = (
 ): CreateDiskResult => {
   let contents: any = {
     __type: "CreateDiskResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18298,7 +18298,7 @@ const deserializeAws_json1_1CreateDiskSnapshotResult = (
 ): CreateDiskSnapshotResult => {
   let contents: any = {
     __type: "CreateDiskSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18315,7 +18315,7 @@ const deserializeAws_json1_1CreateDomainEntryResult = (
 ): CreateDomainEntryResult => {
   let contents: any = {
     __type: "CreateDomainEntryResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18332,7 +18332,7 @@ const deserializeAws_json1_1CreateDomainResult = (
 ): CreateDomainResult => {
   let contents: any = {
     __type: "CreateDomainResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18349,7 +18349,7 @@ const deserializeAws_json1_1CreateInstanceSnapshotResult = (
 ): CreateInstanceSnapshotResult => {
   let contents: any = {
     __type: "CreateInstanceSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18366,7 +18366,7 @@ const deserializeAws_json1_1CreateInstancesFromSnapshotResult = (
 ): CreateInstancesFromSnapshotResult => {
   let contents: any = {
     __type: "CreateInstancesFromSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18383,7 +18383,7 @@ const deserializeAws_json1_1CreateInstancesResult = (
 ): CreateInstancesResult => {
   let contents: any = {
     __type: "CreateInstancesResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18403,7 +18403,7 @@ const deserializeAws_json1_1CreateKeyPairResult = (
     keyPair: undefined,
     operation: undefined,
     privateKeyBase64: undefined,
-    publicKeyBase64: undefined
+    publicKeyBase64: undefined,
   };
   if (output.keyPair !== undefined && output.keyPair !== null) {
     contents.keyPair = deserializeAws_json1_1KeyPair(output.keyPair, context);
@@ -18432,7 +18432,7 @@ const deserializeAws_json1_1CreateLoadBalancerResult = (
 ): CreateLoadBalancerResult => {
   let contents: any = {
     __type: "CreateLoadBalancerResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18449,7 +18449,7 @@ const deserializeAws_json1_1CreateLoadBalancerTlsCertificateResult = (
 ): CreateLoadBalancerTlsCertificateResult => {
   let contents: any = {
     __type: "CreateLoadBalancerTlsCertificateResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18466,7 +18466,7 @@ const deserializeAws_json1_1CreateRelationalDatabaseFromSnapshotResult = (
 ): CreateRelationalDatabaseFromSnapshotResult => {
   let contents: any = {
     __type: "CreateRelationalDatabaseFromSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18483,7 +18483,7 @@ const deserializeAws_json1_1CreateRelationalDatabaseResult = (
 ): CreateRelationalDatabaseResult => {
   let contents: any = {
     __type: "CreateRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18500,7 +18500,7 @@ const deserializeAws_json1_1CreateRelationalDatabaseSnapshotResult = (
 ): CreateRelationalDatabaseSnapshotResult => {
   let contents: any = {
     __type: "CreateRelationalDatabaseSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18517,7 +18517,7 @@ const deserializeAws_json1_1DeleteAutoSnapshotResult = (
 ): DeleteAutoSnapshotResult => {
   let contents: any = {
     __type: "DeleteAutoSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18534,7 +18534,7 @@ const deserializeAws_json1_1DeleteDiskResult = (
 ): DeleteDiskResult => {
   let contents: any = {
     __type: "DeleteDiskResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18551,7 +18551,7 @@ const deserializeAws_json1_1DeleteDiskSnapshotResult = (
 ): DeleteDiskSnapshotResult => {
   let contents: any = {
     __type: "DeleteDiskSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18568,7 +18568,7 @@ const deserializeAws_json1_1DeleteDomainEntryResult = (
 ): DeleteDomainEntryResult => {
   let contents: any = {
     __type: "DeleteDomainEntryResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18585,7 +18585,7 @@ const deserializeAws_json1_1DeleteDomainResult = (
 ): DeleteDomainResult => {
   let contents: any = {
     __type: "DeleteDomainResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18602,7 +18602,7 @@ const deserializeAws_json1_1DeleteInstanceResult = (
 ): DeleteInstanceResult => {
   let contents: any = {
     __type: "DeleteInstanceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18619,7 +18619,7 @@ const deserializeAws_json1_1DeleteInstanceSnapshotResult = (
 ): DeleteInstanceSnapshotResult => {
   let contents: any = {
     __type: "DeleteInstanceSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18636,7 +18636,7 @@ const deserializeAws_json1_1DeleteKeyPairResult = (
 ): DeleteKeyPairResult => {
   let contents: any = {
     __type: "DeleteKeyPairResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -18653,7 +18653,7 @@ const deserializeAws_json1_1DeleteKnownHostKeysResult = (
 ): DeleteKnownHostKeysResult => {
   let contents: any = {
     __type: "DeleteKnownHostKeysResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18670,7 +18670,7 @@ const deserializeAws_json1_1DeleteLoadBalancerResult = (
 ): DeleteLoadBalancerResult => {
   let contents: any = {
     __type: "DeleteLoadBalancerResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18687,7 +18687,7 @@ const deserializeAws_json1_1DeleteLoadBalancerTlsCertificateResult = (
 ): DeleteLoadBalancerTlsCertificateResult => {
   let contents: any = {
     __type: "DeleteLoadBalancerTlsCertificateResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18704,7 +18704,7 @@ const deserializeAws_json1_1DeleteRelationalDatabaseResult = (
 ): DeleteRelationalDatabaseResult => {
   let contents: any = {
     __type: "DeleteRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18721,7 +18721,7 @@ const deserializeAws_json1_1DeleteRelationalDatabaseSnapshotResult = (
 ): DeleteRelationalDatabaseSnapshotResult => {
   let contents: any = {
     __type: "DeleteRelationalDatabaseSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18739,7 +18739,7 @@ const deserializeAws_json1_1DestinationInfo = (
   let contents: any = {
     __type: "DestinationInfo",
     id: undefined,
-    service: undefined
+    service: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -18756,7 +18756,7 @@ const deserializeAws_json1_1DetachDiskResult = (
 ): DetachDiskResult => {
   let contents: any = {
     __type: "DetachDiskResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18773,7 +18773,7 @@ const deserializeAws_json1_1DetachInstancesFromLoadBalancerResult = (
 ): DetachInstancesFromLoadBalancerResult => {
   let contents: any = {
     __type: "DetachInstancesFromLoadBalancerResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18790,7 +18790,7 @@ const deserializeAws_json1_1DetachStaticIpResult = (
 ): DetachStaticIpResult => {
   let contents: any = {
     __type: "DetachStaticIpResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18807,7 +18807,7 @@ const deserializeAws_json1_1DisableAddOnResult = (
 ): DisableAddOnResult => {
   let contents: any = {
     __type: "DisableAddOnResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -18840,7 +18840,7 @@ const deserializeAws_json1_1Disk = (
     sizeInGb: undefined,
     state: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.addOns !== undefined && output.addOns !== null) {
     contents.addOns = deserializeAws_json1_1AddOnList(output.addOns, context);
@@ -18908,7 +18908,7 @@ const deserializeAws_json1_1DiskInfo = (
     isSystemDisk: undefined,
     name: undefined,
     path: undefined,
-    sizeInGb: undefined
+    sizeInGb: undefined,
   };
   if (output.isSystemDisk !== undefined && output.isSystemDisk !== null) {
     contents.isSystemDisk = output.isSystemDisk;
@@ -18963,7 +18963,7 @@ const deserializeAws_json1_1DiskSnapshot = (
     sizeInGb: undefined,
     state: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -19028,7 +19028,7 @@ const deserializeAws_json1_1DiskSnapshotInfo = (
 ): DiskSnapshotInfo => {
   let contents: any = {
     __type: "DiskSnapshotInfo",
-    sizeInGb: undefined
+    sizeInGb: undefined,
   };
   if (output.sizeInGb !== undefined && output.sizeInGb !== null) {
     contents.sizeInGb = output.sizeInGb;
@@ -19058,7 +19058,7 @@ const deserializeAws_json1_1Domain = (
     name: undefined,
     resourceType: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -19104,7 +19104,7 @@ const deserializeAws_json1_1DomainEntry = (
     name: undefined,
     options: undefined,
     target: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -19144,7 +19144,7 @@ const deserializeAws_json1_1DomainEntryOptions = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -19166,7 +19166,7 @@ const deserializeAws_json1_1DownloadDefaultKeyPairResult = (
   let contents: any = {
     __type: "DownloadDefaultKeyPairResult",
     privateKeyBase64: undefined,
-    publicKeyBase64: undefined
+    publicKeyBase64: undefined,
   };
   if (
     output.privateKeyBase64 !== undefined &&
@@ -19186,7 +19186,7 @@ const deserializeAws_json1_1EnableAddOnResult = (
 ): EnableAddOnResult => {
   let contents: any = {
     __type: "EnableAddOnResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -19210,7 +19210,7 @@ const deserializeAws_json1_1ExportSnapshotRecord = (
     name: undefined,
     resourceType: undefined,
     sourceInfo: undefined,
-    state: undefined
+    state: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -19270,7 +19270,7 @@ const deserializeAws_json1_1ExportSnapshotRecordSourceInfo = (
     fromResourceName: undefined,
     instanceSnapshotInfo: undefined,
     name: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -19320,7 +19320,7 @@ const deserializeAws_json1_1ExportSnapshotResult = (
 ): ExportSnapshotResult => {
   let contents: any = {
     __type: "ExportSnapshotResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -19338,7 +19338,7 @@ const deserializeAws_json1_1GetActiveNamesResult = (
   let contents: any = {
     __type: "GetActiveNamesResult",
     activeNames: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.activeNames !== undefined && output.activeNames !== null) {
     contents.activeNames = deserializeAws_json1_1StringList(
@@ -19360,7 +19360,7 @@ const deserializeAws_json1_1GetAutoSnapshotsResult = (
     __type: "GetAutoSnapshotsResult",
     autoSnapshots: undefined,
     resourceName: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.autoSnapshots !== undefined && output.autoSnapshots !== null) {
     contents.autoSnapshots = deserializeAws_json1_1AutoSnapshotDetailsList(
@@ -19384,7 +19384,7 @@ const deserializeAws_json1_1GetBlueprintsResult = (
   let contents: any = {
     __type: "GetBlueprintsResult",
     blueprints: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.blueprints !== undefined && output.blueprints !== null) {
     contents.blueprints = deserializeAws_json1_1BlueprintList(
@@ -19405,7 +19405,7 @@ const deserializeAws_json1_1GetBundlesResult = (
   let contents: any = {
     __type: "GetBundlesResult",
     bundles: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.bundles !== undefined && output.bundles !== null) {
     contents.bundles = deserializeAws_json1_1BundleList(
@@ -19426,7 +19426,7 @@ const deserializeAws_json1_1GetCloudFormationStackRecordsResult = (
   let contents: any = {
     __type: "GetCloudFormationStackRecordsResult",
     cloudFormationStackRecords: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (
     output.cloudFormationStackRecords !== undefined &&
@@ -19449,7 +19449,7 @@ const deserializeAws_json1_1GetDiskResult = (
 ): GetDiskResult => {
   let contents: any = {
     __type: "GetDiskResult",
-    disk: undefined
+    disk: undefined,
   };
   if (output.disk !== undefined && output.disk !== null) {
     contents.disk = deserializeAws_json1_1Disk(output.disk, context);
@@ -19463,7 +19463,7 @@ const deserializeAws_json1_1GetDiskSnapshotResult = (
 ): GetDiskSnapshotResult => {
   let contents: any = {
     __type: "GetDiskSnapshotResult",
-    diskSnapshot: undefined
+    diskSnapshot: undefined,
   };
   if (output.diskSnapshot !== undefined && output.diskSnapshot !== null) {
     contents.diskSnapshot = deserializeAws_json1_1DiskSnapshot(
@@ -19481,7 +19481,7 @@ const deserializeAws_json1_1GetDiskSnapshotsResult = (
   let contents: any = {
     __type: "GetDiskSnapshotsResult",
     diskSnapshots: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.diskSnapshots !== undefined && output.diskSnapshots !== null) {
     contents.diskSnapshots = deserializeAws_json1_1DiskSnapshotList(
@@ -19502,7 +19502,7 @@ const deserializeAws_json1_1GetDisksResult = (
   let contents: any = {
     __type: "GetDisksResult",
     disks: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.disks !== undefined && output.disks !== null) {
     contents.disks = deserializeAws_json1_1DiskList(output.disks, context);
@@ -19519,7 +19519,7 @@ const deserializeAws_json1_1GetDomainResult = (
 ): GetDomainResult => {
   let contents: any = {
     __type: "GetDomainResult",
-    domain: undefined
+    domain: undefined,
   };
   if (output.domain !== undefined && output.domain !== null) {
     contents.domain = deserializeAws_json1_1Domain(output.domain, context);
@@ -19534,7 +19534,7 @@ const deserializeAws_json1_1GetDomainsResult = (
   let contents: any = {
     __type: "GetDomainsResult",
     domains: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.domains !== undefined && output.domains !== null) {
     contents.domains = deserializeAws_json1_1DomainList(
@@ -19555,7 +19555,7 @@ const deserializeAws_json1_1GetExportSnapshotRecordsResult = (
   let contents: any = {
     __type: "GetExportSnapshotRecordsResult",
     exportSnapshotRecords: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (
     output.exportSnapshotRecords !== undefined &&
@@ -19578,7 +19578,7 @@ const deserializeAws_json1_1GetInstanceAccessDetailsResult = (
 ): GetInstanceAccessDetailsResult => {
   let contents: any = {
     __type: "GetInstanceAccessDetailsResult",
-    accessDetails: undefined
+    accessDetails: undefined,
   };
   if (output.accessDetails !== undefined && output.accessDetails !== null) {
     contents.accessDetails = deserializeAws_json1_1InstanceAccessDetails(
@@ -19596,7 +19596,7 @@ const deserializeAws_json1_1GetInstanceMetricDataResult = (
   let contents: any = {
     __type: "GetInstanceMetricDataResult",
     metricData: undefined,
-    metricName: undefined
+    metricName: undefined,
   };
   if (output.metricData !== undefined && output.metricData !== null) {
     contents.metricData = deserializeAws_json1_1MetricDatapointList(
@@ -19616,7 +19616,7 @@ const deserializeAws_json1_1GetInstancePortStatesResult = (
 ): GetInstancePortStatesResult => {
   let contents: any = {
     __type: "GetInstancePortStatesResult",
-    portStates: undefined
+    portStates: undefined,
   };
   if (output.portStates !== undefined && output.portStates !== null) {
     contents.portStates = deserializeAws_json1_1InstancePortStateList(
@@ -19633,7 +19633,7 @@ const deserializeAws_json1_1GetInstanceResult = (
 ): GetInstanceResult => {
   let contents: any = {
     __type: "GetInstanceResult",
-    instance: undefined
+    instance: undefined,
   };
   if (output.instance !== undefined && output.instance !== null) {
     contents.instance = deserializeAws_json1_1Instance(
@@ -19650,7 +19650,7 @@ const deserializeAws_json1_1GetInstanceSnapshotResult = (
 ): GetInstanceSnapshotResult => {
   let contents: any = {
     __type: "GetInstanceSnapshotResult",
-    instanceSnapshot: undefined
+    instanceSnapshot: undefined,
   };
   if (
     output.instanceSnapshot !== undefined &&
@@ -19671,7 +19671,7 @@ const deserializeAws_json1_1GetInstanceSnapshotsResult = (
   let contents: any = {
     __type: "GetInstanceSnapshotsResult",
     instanceSnapshots: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (
     output.instanceSnapshots !== undefined &&
@@ -19694,7 +19694,7 @@ const deserializeAws_json1_1GetInstanceStateResult = (
 ): GetInstanceStateResult => {
   let contents: any = {
     __type: "GetInstanceStateResult",
-    state: undefined
+    state: undefined,
   };
   if (output.state !== undefined && output.state !== null) {
     contents.state = deserializeAws_json1_1InstanceState(output.state, context);
@@ -19709,7 +19709,7 @@ const deserializeAws_json1_1GetInstancesResult = (
   let contents: any = {
     __type: "GetInstancesResult",
     instances: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.instances !== undefined && output.instances !== null) {
     contents.instances = deserializeAws_json1_1InstanceList(
@@ -19729,7 +19729,7 @@ const deserializeAws_json1_1GetKeyPairResult = (
 ): GetKeyPairResult => {
   let contents: any = {
     __type: "GetKeyPairResult",
-    keyPair: undefined
+    keyPair: undefined,
   };
   if (output.keyPair !== undefined && output.keyPair !== null) {
     contents.keyPair = deserializeAws_json1_1KeyPair(output.keyPair, context);
@@ -19744,7 +19744,7 @@ const deserializeAws_json1_1GetKeyPairsResult = (
   let contents: any = {
     __type: "GetKeyPairsResult",
     keyPairs: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.keyPairs !== undefined && output.keyPairs !== null) {
     contents.keyPairs = deserializeAws_json1_1KeyPairList(
@@ -19765,7 +19765,7 @@ const deserializeAws_json1_1GetLoadBalancerMetricDataResult = (
   let contents: any = {
     __type: "GetLoadBalancerMetricDataResult",
     metricData: undefined,
-    metricName: undefined
+    metricName: undefined,
   };
   if (output.metricData !== undefined && output.metricData !== null) {
     contents.metricData = deserializeAws_json1_1MetricDatapointList(
@@ -19785,7 +19785,7 @@ const deserializeAws_json1_1GetLoadBalancerResult = (
 ): GetLoadBalancerResult => {
   let contents: any = {
     __type: "GetLoadBalancerResult",
-    loadBalancer: undefined
+    loadBalancer: undefined,
   };
   if (output.loadBalancer !== undefined && output.loadBalancer !== null) {
     contents.loadBalancer = deserializeAws_json1_1LoadBalancer(
@@ -19802,7 +19802,7 @@ const deserializeAws_json1_1GetLoadBalancerTlsCertificatesResult = (
 ): GetLoadBalancerTlsCertificatesResult => {
   let contents: any = {
     __type: "GetLoadBalancerTlsCertificatesResult",
-    tlsCertificates: undefined
+    tlsCertificates: undefined,
   };
   if (output.tlsCertificates !== undefined && output.tlsCertificates !== null) {
     contents.tlsCertificates = deserializeAws_json1_1LoadBalancerTlsCertificateList(
@@ -19820,7 +19820,7 @@ const deserializeAws_json1_1GetLoadBalancersResult = (
   let contents: any = {
     __type: "GetLoadBalancersResult",
     loadBalancers: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.loadBalancers !== undefined && output.loadBalancers !== null) {
     contents.loadBalancers = deserializeAws_json1_1LoadBalancerList(
@@ -19840,7 +19840,7 @@ const deserializeAws_json1_1GetOperationResult = (
 ): GetOperationResult => {
   let contents: any = {
     __type: "GetOperationResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -19859,7 +19859,7 @@ const deserializeAws_json1_1GetOperationsForResourceResult = (
     __type: "GetOperationsForResourceResult",
     nextPageCount: undefined,
     nextPageToken: undefined,
-    operations: undefined
+    operations: undefined,
   };
   if (output.nextPageCount !== undefined && output.nextPageCount !== null) {
     contents.nextPageCount = output.nextPageCount;
@@ -19883,7 +19883,7 @@ const deserializeAws_json1_1GetOperationsResult = (
   let contents: any = {
     __type: "GetOperationsResult",
     nextPageToken: undefined,
-    operations: undefined
+    operations: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -19903,7 +19903,7 @@ const deserializeAws_json1_1GetRegionsResult = (
 ): GetRegionsResult => {
   let contents: any = {
     __type: "GetRegionsResult",
-    regions: undefined
+    regions: undefined,
   };
   if (output.regions !== undefined && output.regions !== null) {
     contents.regions = deserializeAws_json1_1RegionList(
@@ -19921,7 +19921,7 @@ const deserializeAws_json1_1GetRelationalDatabaseBlueprintsResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseBlueprintsResult",
     blueprints: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.blueprints !== undefined && output.blueprints !== null) {
     contents.blueprints = deserializeAws_json1_1RelationalDatabaseBlueprintList(
@@ -19942,7 +19942,7 @@ const deserializeAws_json1_1GetRelationalDatabaseBundlesResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseBundlesResult",
     bundles: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.bundles !== undefined && output.bundles !== null) {
     contents.bundles = deserializeAws_json1_1RelationalDatabaseBundleList(
@@ -19963,7 +19963,7 @@ const deserializeAws_json1_1GetRelationalDatabaseEventsResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseEventsResult",
     nextPageToken: undefined,
-    relationalDatabaseEvents: undefined
+    relationalDatabaseEvents: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -19988,7 +19988,7 @@ const deserializeAws_json1_1GetRelationalDatabaseLogEventsResult = (
     __type: "GetRelationalDatabaseLogEventsResult",
     nextBackwardToken: undefined,
     nextForwardToken: undefined,
-    resourceLogEvents: undefined
+    resourceLogEvents: undefined,
   };
   if (
     output.nextBackwardToken !== undefined &&
@@ -20020,7 +20020,7 @@ const deserializeAws_json1_1GetRelationalDatabaseLogStreamsResult = (
 ): GetRelationalDatabaseLogStreamsResult => {
   let contents: any = {
     __type: "GetRelationalDatabaseLogStreamsResult",
-    logStreams: undefined
+    logStreams: undefined,
   };
   if (output.logStreams !== undefined && output.logStreams !== null) {
     contents.logStreams = deserializeAws_json1_1StringList(
@@ -20038,7 +20038,7 @@ const deserializeAws_json1_1GetRelationalDatabaseMasterUserPasswordResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseMasterUserPasswordResult",
     createdAt: undefined,
-    masterUserPassword: undefined
+    masterUserPassword: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -20059,7 +20059,7 @@ const deserializeAws_json1_1GetRelationalDatabaseMetricDataResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseMetricDataResult",
     metricData: undefined,
-    metricName: undefined
+    metricName: undefined,
   };
   if (output.metricData !== undefined && output.metricData !== null) {
     contents.metricData = deserializeAws_json1_1MetricDatapointList(
@@ -20080,7 +20080,7 @@ const deserializeAws_json1_1GetRelationalDatabaseParametersResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseParametersResult",
     nextPageToken: undefined,
-    parameters: undefined
+    parameters: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -20100,7 +20100,7 @@ const deserializeAws_json1_1GetRelationalDatabaseResult = (
 ): GetRelationalDatabaseResult => {
   let contents: any = {
     __type: "GetRelationalDatabaseResult",
-    relationalDatabase: undefined
+    relationalDatabase: undefined,
   };
   if (
     output.relationalDatabase !== undefined &&
@@ -20120,7 +20120,7 @@ const deserializeAws_json1_1GetRelationalDatabaseSnapshotResult = (
 ): GetRelationalDatabaseSnapshotResult => {
   let contents: any = {
     __type: "GetRelationalDatabaseSnapshotResult",
-    relationalDatabaseSnapshot: undefined
+    relationalDatabaseSnapshot: undefined,
   };
   if (
     output.relationalDatabaseSnapshot !== undefined &&
@@ -20141,7 +20141,7 @@ const deserializeAws_json1_1GetRelationalDatabaseSnapshotsResult = (
   let contents: any = {
     __type: "GetRelationalDatabaseSnapshotsResult",
     nextPageToken: undefined,
-    relationalDatabaseSnapshots: undefined
+    relationalDatabaseSnapshots: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -20165,7 +20165,7 @@ const deserializeAws_json1_1GetRelationalDatabasesResult = (
   let contents: any = {
     __type: "GetRelationalDatabasesResult",
     nextPageToken: undefined,
-    relationalDatabases: undefined
+    relationalDatabases: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -20188,7 +20188,7 @@ const deserializeAws_json1_1GetStaticIpResult = (
 ): GetStaticIpResult => {
   let contents: any = {
     __type: "GetStaticIpResult",
-    staticIp: undefined
+    staticIp: undefined,
   };
   if (output.staticIp !== undefined && output.staticIp !== null) {
     contents.staticIp = deserializeAws_json1_1StaticIp(
@@ -20206,7 +20206,7 @@ const deserializeAws_json1_1GetStaticIpsResult = (
   let contents: any = {
     __type: "GetStaticIpsResult",
     nextPageToken: undefined,
-    staticIps: undefined
+    staticIps: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -20232,7 +20232,7 @@ const deserializeAws_json1_1HostKeyAttributes = (
     notValidAfter: undefined,
     notValidBefore: undefined,
     publicKey: undefined,
-    witnessedAt: undefined
+    witnessedAt: undefined,
   };
   if (output.algorithm !== undefined && output.algorithm !== null) {
     contents.algorithm = output.algorithm;
@@ -20278,7 +20278,7 @@ const deserializeAws_json1_1ImportKeyPairResult = (
 ): ImportKeyPairResult => {
   let contents: any = {
     __type: "ImportKeyPairResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -20314,7 +20314,7 @@ const deserializeAws_json1_1Instance = (
     state: undefined,
     supportCode: undefined,
     tags: undefined,
-    username: undefined
+    username: undefined,
   };
   if (output.addOns !== undefined && output.addOns !== null) {
     contents.addOns = deserializeAws_json1_1AddOnList(output.addOns, context);
@@ -20406,7 +20406,7 @@ const deserializeAws_json1_1InstanceAccessDetails = (
     passwordData: undefined,
     privateKey: undefined,
     protocol: undefined,
-    username: undefined
+    username: undefined,
   };
   if (output.certKey !== undefined && output.certKey !== null) {
     contents.certKey = output.certKey;
@@ -20455,7 +20455,7 @@ const deserializeAws_json1_1InstanceHardware = (
     __type: "InstanceHardware",
     cpuCount: undefined,
     disks: undefined,
-    ramSizeInGb: undefined
+    ramSizeInGb: undefined,
   };
   if (output.cpuCount !== undefined && output.cpuCount !== null) {
     contents.cpuCount = output.cpuCount;
@@ -20477,7 +20477,7 @@ const deserializeAws_json1_1InstanceHealthSummary = (
     __type: "InstanceHealthSummary",
     instanceHealth: undefined,
     instanceHealthReason: undefined,
-    instanceName: undefined
+    instanceName: undefined,
   };
   if (output.instanceHealth !== undefined && output.instanceHealth !== null) {
     contents.instanceHealth = output.instanceHealth;
@@ -20519,7 +20519,7 @@ const deserializeAws_json1_1InstanceNetworking = (
   let contents: any = {
     __type: "InstanceNetworking",
     monthlyTransfer: undefined,
-    ports: undefined
+    ports: undefined,
   };
   if (output.monthlyTransfer !== undefined && output.monthlyTransfer !== null) {
     contents.monthlyTransfer = deserializeAws_json1_1MonthlyTransfer(
@@ -20555,7 +20555,7 @@ const deserializeAws_json1_1InstancePortInfo = (
     commonName: undefined,
     fromPort: undefined,
     protocol: undefined,
-    toPort: undefined
+    toPort: undefined,
   };
   if (output.accessDirection !== undefined && output.accessDirection !== null) {
     contents.accessDirection = output.accessDirection;
@@ -20599,7 +20599,7 @@ const deserializeAws_json1_1InstancePortState = (
     fromPort: undefined,
     protocol: undefined,
     state: undefined,
-    toPort: undefined
+    toPort: undefined,
   };
   if (output.fromPort !== undefined && output.fromPort !== null) {
     contents.fromPort = output.fromPort;
@@ -20646,7 +20646,7 @@ const deserializeAws_json1_1InstanceSnapshot = (
     sizeInGb: undefined,
     state: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -20722,7 +20722,7 @@ const deserializeAws_json1_1InstanceSnapshotInfo = (
     __type: "InstanceSnapshotInfo",
     fromBlueprintId: undefined,
     fromBundleId: undefined,
-    fromDiskInfo: undefined
+    fromDiskInfo: undefined,
   };
   if (output.fromBlueprintId !== undefined && output.fromBlueprintId !== null) {
     contents.fromBlueprintId = output.fromBlueprintId;
@@ -20755,7 +20755,7 @@ const deserializeAws_json1_1InstanceState = (
   let contents: any = {
     __type: "InstanceState",
     code: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -20775,7 +20775,7 @@ const deserializeAws_json1_1InvalidInputException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -20798,7 +20798,7 @@ const deserializeAws_json1_1IsVpcPeeredResult = (
 ): IsVpcPeeredResult => {
   let contents: any = {
     __type: "IsVpcPeeredResult",
-    isPeered: undefined
+    isPeered: undefined,
   };
   if (output.isPeered !== undefined && output.isPeered !== null) {
     contents.isPeered = output.isPeered;
@@ -20819,7 +20819,7 @@ const deserializeAws_json1_1KeyPair = (
     name: undefined,
     resourceType: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -20881,7 +20881,7 @@ const deserializeAws_json1_1LoadBalancer = (
     state: undefined,
     supportCode: undefined,
     tags: undefined,
-    tlsCertificateSummaries: undefined
+    tlsCertificateSummaries: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -20963,7 +20963,7 @@ const deserializeAws_json1_1LoadBalancerConfigurationOptions = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -21008,7 +21008,7 @@ const deserializeAws_json1_1LoadBalancerTlsCertificate = (
     subject: undefined,
     subjectAlternativeNames: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -21122,7 +21122,7 @@ const deserializeAws_json1_1LoadBalancerTlsCertificateDomainValidationOption = (
   let contents: any = {
     __type: "LoadBalancerTlsCertificateDomainValidationOption",
     domainName: undefined,
-    validationStatus: undefined
+    validationStatus: undefined,
   };
   if (output.domainName !== undefined && output.domainName !== null) {
     contents.domainName = output.domainName;
@@ -21158,7 +21158,7 @@ const deserializeAws_json1_1LoadBalancerTlsCertificateDomainValidationRecord = (
     name: undefined,
     type: undefined,
     validationStatus: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.domainName !== undefined && output.domainName !== null) {
     contents.domainName = output.domainName;
@@ -21209,7 +21209,7 @@ const deserializeAws_json1_1LoadBalancerTlsCertificateRenewalSummary = (
   let contents: any = {
     __type: "LoadBalancerTlsCertificateRenewalSummary",
     domainValidationOptions: undefined,
-    renewalStatus: undefined
+    renewalStatus: undefined,
   };
   if (
     output.domainValidationOptions !== undefined &&
@@ -21233,7 +21233,7 @@ const deserializeAws_json1_1LoadBalancerTlsCertificateSummary = (
   let contents: any = {
     __type: "LoadBalancerTlsCertificateSummary",
     isAttached: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.isAttached !== undefined && output.isAttached !== null) {
     contents.isAttached = output.isAttached;
@@ -21260,7 +21260,7 @@ const deserializeAws_json1_1LogEvent = (
   let contents: any = {
     __type: "LogEvent",
     createdAt: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -21292,7 +21292,7 @@ const deserializeAws_json1_1MetricDatapoint = (
     sampleCount: undefined,
     sum: undefined,
     timestamp: undefined,
-    unit: undefined
+    unit: undefined,
   };
   if (output.average !== undefined && output.average !== null) {
     contents.average = output.average;
@@ -21333,7 +21333,7 @@ const deserializeAws_json1_1MonthlyTransfer = (
 ): MonthlyTransfer => {
   let contents: any = {
     __type: "MonthlyTransfer",
-    gbPerMonthAllocated: undefined
+    gbPerMonthAllocated: undefined,
   };
   if (
     output.gbPerMonthAllocated !== undefined &&
@@ -21353,7 +21353,7 @@ const deserializeAws_json1_1NotFoundException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -21376,7 +21376,7 @@ const deserializeAws_json1_1OpenInstancePublicPortsResult = (
 ): OpenInstancePublicPortsResult => {
   let contents: any = {
     __type: "OpenInstancePublicPortsResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -21404,7 +21404,7 @@ const deserializeAws_json1_1Operation = (
     resourceName: undefined,
     resourceType: undefined,
     status: undefined,
-    statusChangedAt: undefined
+    statusChangedAt: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -21462,7 +21462,7 @@ const deserializeAws_json1_1OperationFailureException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -21495,7 +21495,7 @@ const deserializeAws_json1_1PasswordData = (
   let contents: any = {
     __type: "PasswordData",
     ciphertext: undefined,
-    keyPairName: undefined
+    keyPairName: undefined,
   };
   if (output.ciphertext !== undefined && output.ciphertext !== null) {
     contents.ciphertext = output.ciphertext;
@@ -21512,7 +21512,7 @@ const deserializeAws_json1_1PeerVpcResult = (
 ): PeerVpcResult => {
   let contents: any = {
     __type: "PeerVpcResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -21531,7 +21531,7 @@ const deserializeAws_json1_1PendingMaintenanceAction = (
     __type: "PendingMaintenanceAction",
     action: undefined,
     currentApplyDate: undefined,
-    description: undefined
+    description: undefined,
   };
   if (output.action !== undefined && output.action !== null) {
     contents.action = output.action;
@@ -21567,7 +21567,7 @@ const deserializeAws_json1_1PendingModifiedRelationalDatabaseValues = (
     __type: "PendingModifiedRelationalDatabaseValues",
     backupRetentionEnabled: undefined,
     engineVersion: undefined,
-    masterUserPassword: undefined
+    masterUserPassword: undefined,
   };
   if (
     output.backupRetentionEnabled !== undefined &&
@@ -21600,7 +21600,7 @@ const deserializeAws_json1_1PutInstancePublicPortsResult = (
 ): PutInstancePublicPortsResult => {
   let contents: any = {
     __type: "PutInstancePublicPortsResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -21617,7 +21617,7 @@ const deserializeAws_json1_1RebootInstanceResult = (
 ): RebootInstanceResult => {
   let contents: any = {
     __type: "RebootInstanceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -21634,7 +21634,7 @@ const deserializeAws_json1_1RebootRelationalDatabaseResult = (
 ): RebootRelationalDatabaseResult => {
   let contents: any = {
     __type: "RebootRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -21656,7 +21656,7 @@ const deserializeAws_json1_1Region = (
     description: undefined,
     displayName: undefined,
     name: undefined,
-    relationalDatabaseAvailabilityZones: undefined
+    relationalDatabaseAvailabilityZones: undefined,
   };
   if (
     output.availabilityZones !== undefined &&
@@ -21731,7 +21731,7 @@ const deserializeAws_json1_1RelationalDatabase = (
     secondaryAvailabilityZone: undefined,
     state: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -21882,7 +21882,7 @@ const deserializeAws_json1_1RelationalDatabaseBlueprint = (
     engineDescription: undefined,
     engineVersion: undefined,
     engineVersionDescription: undefined,
-    isEngineDefault: undefined
+    isEngineDefault: undefined,
   };
   if (output.blueprintId !== undefined && output.blueprintId !== null) {
     contents.blueprintId = output.blueprintId;
@@ -21934,7 +21934,7 @@ const deserializeAws_json1_1RelationalDatabaseBundle = (
     name: undefined,
     price: undefined,
     ramSizeInGb: undefined,
-    transferPerMonthInGb: undefined
+    transferPerMonthInGb: undefined,
   };
   if (output.bundleId !== undefined && output.bundleId !== null) {
     contents.bundleId = output.bundleId;
@@ -21985,7 +21985,7 @@ const deserializeAws_json1_1RelationalDatabaseEndpoint = (
   let contents: any = {
     __type: "RelationalDatabaseEndpoint",
     address: undefined,
-    port: undefined
+    port: undefined,
   };
   if (output.address !== undefined && output.address !== null) {
     contents.address = output.address;
@@ -22005,7 +22005,7 @@ const deserializeAws_json1_1RelationalDatabaseEvent = (
     createdAt: undefined,
     eventCategories: undefined,
     message: undefined,
-    resource: undefined
+    resource: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -22042,7 +22042,7 @@ const deserializeAws_json1_1RelationalDatabaseHardware = (
     __type: "RelationalDatabaseHardware",
     cpuCount: undefined,
     diskSizeInGb: undefined,
-    ramSizeInGb: undefined
+    ramSizeInGb: undefined,
   };
   if (output.cpuCount !== undefined && output.cpuCount !== null) {
     contents.cpuCount = output.cpuCount;
@@ -22078,7 +22078,7 @@ const deserializeAws_json1_1RelationalDatabaseParameter = (
     description: undefined,
     isModifiable: undefined,
     parameterName: undefined,
-    parameterValue: undefined
+    parameterValue: undefined,
   };
   if (output.allowedValues !== undefined && output.allowedValues !== null) {
     contents.allowedValues = output.allowedValues;
@@ -22136,7 +22136,7 @@ const deserializeAws_json1_1RelationalDatabaseSnapshot = (
     sizeInGb: undefined,
     state: undefined,
     supportCode: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -22218,7 +22218,7 @@ const deserializeAws_json1_1ReleaseStaticIpResult = (
 ): ReleaseStaticIpResult => {
   let contents: any = {
     __type: "ReleaseStaticIpResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22236,7 +22236,7 @@ const deserializeAws_json1_1ResourceLocation = (
   let contents: any = {
     __type: "ResourceLocation",
     availabilityZone: undefined,
-    regionName: undefined
+    regionName: undefined,
   };
   if (
     output.availabilityZone !== undefined &&
@@ -22259,7 +22259,7 @@ const deserializeAws_json1_1ServiceException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -22282,7 +22282,7 @@ const deserializeAws_json1_1StartInstanceResult = (
 ): StartInstanceResult => {
   let contents: any = {
     __type: "StartInstanceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22299,7 +22299,7 @@ const deserializeAws_json1_1StartRelationalDatabaseResult = (
 ): StartRelationalDatabaseResult => {
   let contents: any = {
     __type: "StartRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22324,7 +22324,7 @@ const deserializeAws_json1_1StaticIp = (
     location: undefined,
     name: undefined,
     resourceType: undefined,
-    supportCode: undefined
+    supportCode: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -22374,7 +22374,7 @@ const deserializeAws_json1_1StopInstanceResult = (
 ): StopInstanceResult => {
   let contents: any = {
     __type: "StopInstanceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22391,7 +22391,7 @@ const deserializeAws_json1_1StopRelationalDatabaseResult = (
 ): StopRelationalDatabaseResult => {
   let contents: any = {
     __type: "StopRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22416,7 +22416,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -22442,7 +22442,7 @@ const deserializeAws_json1_1TagResourceResult = (
 ): TagResourceResult => {
   let contents: any = {
     __type: "TagResourceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22462,7 +22462,7 @@ const deserializeAws_json1_1UnauthenticatedException = (
     code: undefined,
     docs: undefined,
     message: undefined,
-    tip: undefined
+    tip: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -22485,7 +22485,7 @@ const deserializeAws_json1_1UnpeerVpcResult = (
 ): UnpeerVpcResult => {
   let contents: any = {
     __type: "UnpeerVpcResult",
-    operation: undefined
+    operation: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = deserializeAws_json1_1Operation(
@@ -22502,7 +22502,7 @@ const deserializeAws_json1_1UntagResourceResult = (
 ): UntagResourceResult => {
   let contents: any = {
     __type: "UntagResourceResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22519,7 +22519,7 @@ const deserializeAws_json1_1UpdateDomainEntryResult = (
 ): UpdateDomainEntryResult => {
   let contents: any = {
     __type: "UpdateDomainEntryResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22536,7 +22536,7 @@ const deserializeAws_json1_1UpdateLoadBalancerAttributeResult = (
 ): UpdateLoadBalancerAttributeResult => {
   let contents: any = {
     __type: "UpdateLoadBalancerAttributeResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22553,7 +22553,7 @@ const deserializeAws_json1_1UpdateRelationalDatabaseParametersResult = (
 ): UpdateRelationalDatabaseParametersResult => {
   let contents: any = {
     __type: "UpdateRelationalDatabaseParametersResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22570,7 +22570,7 @@ const deserializeAws_json1_1UpdateRelationalDatabaseResult = (
 ): UpdateRelationalDatabaseResult => {
   let contents: any = {
     __type: "UpdateRelationalDatabaseResult",
-    operations: undefined
+    operations: undefined,
   };
   if (output.operations !== undefined && output.operations !== null) {
     contents.operations = deserializeAws_json1_1OperationList(
@@ -22584,7 +22584,7 @@ const deserializeAws_json1_1UpdateRelationalDatabaseResult = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -22605,7 +22605,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -22618,11 +22618,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -22634,7 +22634,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

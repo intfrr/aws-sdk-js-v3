@@ -1,74 +1,74 @@
 import {
   CreateContainerCommandInput,
-  CreateContainerCommandOutput
+  CreateContainerCommandOutput,
 } from "../commands/CreateContainerCommand";
 import {
   DeleteContainerCommandInput,
-  DeleteContainerCommandOutput
+  DeleteContainerCommandOutput,
 } from "../commands/DeleteContainerCommand";
 import {
   DeleteContainerPolicyCommandInput,
-  DeleteContainerPolicyCommandOutput
+  DeleteContainerPolicyCommandOutput,
 } from "../commands/DeleteContainerPolicyCommand";
 import {
   DeleteCorsPolicyCommandInput,
-  DeleteCorsPolicyCommandOutput
+  DeleteCorsPolicyCommandOutput,
 } from "../commands/DeleteCorsPolicyCommand";
 import {
   DeleteLifecyclePolicyCommandInput,
-  DeleteLifecyclePolicyCommandOutput
+  DeleteLifecyclePolicyCommandOutput,
 } from "../commands/DeleteLifecyclePolicyCommand";
 import {
   DescribeContainerCommandInput,
-  DescribeContainerCommandOutput
+  DescribeContainerCommandOutput,
 } from "../commands/DescribeContainerCommand";
 import {
   GetContainerPolicyCommandInput,
-  GetContainerPolicyCommandOutput
+  GetContainerPolicyCommandOutput,
 } from "../commands/GetContainerPolicyCommand";
 import {
   GetCorsPolicyCommandInput,
-  GetCorsPolicyCommandOutput
+  GetCorsPolicyCommandOutput,
 } from "../commands/GetCorsPolicyCommand";
 import {
   GetLifecyclePolicyCommandInput,
-  GetLifecyclePolicyCommandOutput
+  GetLifecyclePolicyCommandOutput,
 } from "../commands/GetLifecyclePolicyCommand";
 import {
   ListContainersCommandInput,
-  ListContainersCommandOutput
+  ListContainersCommandOutput,
 } from "../commands/ListContainersCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutContainerPolicyCommandInput,
-  PutContainerPolicyCommandOutput
+  PutContainerPolicyCommandOutput,
 } from "../commands/PutContainerPolicyCommand";
 import {
   PutCorsPolicyCommandInput,
-  PutCorsPolicyCommandOutput
+  PutCorsPolicyCommandOutput,
 } from "../commands/PutCorsPolicyCommand";
 import {
   PutLifecyclePolicyCommandInput,
-  PutLifecyclePolicyCommandOutput
+  PutLifecyclePolicyCommandOutput,
 } from "../commands/PutLifecyclePolicyCommand";
 import {
   StartAccessLoggingCommandInput,
-  StartAccessLoggingCommandOutput
+  StartAccessLoggingCommandOutput,
 } from "../commands/StartAccessLoggingCommand";
 import {
   StopAccessLoggingCommandInput,
-  StopAccessLoggingCommandOutput
+  StopAccessLoggingCommandOutput,
 } from "../commands/StopAccessLoggingCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   Container,
@@ -116,11 +116,11 @@ import {
   TagResourceInput,
   TagResourceOutput,
   UntagResourceInput,
-  UntagResourceOutput
+  UntagResourceOutput,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -128,7 +128,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateContainerCommand(
@@ -388,7 +388,7 @@ export async function deserializeAws_json1_1CreateContainerCommand(
   const response: CreateContainerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateContainerOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -399,7 +399,7 @@ async function deserializeAws_json1_1CreateContainerCommandError(
 ): Promise<CreateContainerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -415,7 +415,7 @@ async function deserializeAws_json1_1CreateContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -426,7 +426,7 @@ async function deserializeAws_json1_1CreateContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -437,7 +437,7 @@ async function deserializeAws_json1_1CreateContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -448,7 +448,7 @@ async function deserializeAws_json1_1CreateContainerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -470,7 +470,7 @@ export async function deserializeAws_json1_1DeleteContainerCommand(
   const response: DeleteContainerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteContainerOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -481,7 +481,7 @@ async function deserializeAws_json1_1DeleteContainerCommandError(
 ): Promise<DeleteContainerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -497,7 +497,7 @@ async function deserializeAws_json1_1DeleteContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -508,7 +508,7 @@ async function deserializeAws_json1_1DeleteContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -519,7 +519,7 @@ async function deserializeAws_json1_1DeleteContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -530,7 +530,7 @@ async function deserializeAws_json1_1DeleteContainerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -555,7 +555,7 @@ export async function deserializeAws_json1_1DeleteContainerPolicyCommand(
   const response: DeleteContainerPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteContainerPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -566,7 +566,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
 ): Promise<DeleteContainerPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -582,7 +582,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -593,7 +593,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -604,7 +604,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -615,7 +615,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -626,7 +626,7 @@ async function deserializeAws_json1_1DeleteContainerPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -648,7 +648,7 @@ export async function deserializeAws_json1_1DeleteCorsPolicyCommand(
   const response: DeleteCorsPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteCorsPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -659,7 +659,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
 ): Promise<DeleteCorsPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -675,7 +675,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -686,7 +686,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CorsPolicyNotFoundException":
@@ -697,7 +697,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -708,7 +708,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -719,7 +719,7 @@ async function deserializeAws_json1_1DeleteCorsPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -744,7 +744,7 @@ export async function deserializeAws_json1_1DeleteLifecyclePolicyCommand(
   const response: DeleteLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLifecyclePolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -755,7 +755,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
 ): Promise<DeleteLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -771,7 +771,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -782,7 +782,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -793,7 +793,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -804,7 +804,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -815,7 +815,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -837,7 +837,7 @@ export async function deserializeAws_json1_1DescribeContainerCommand(
   const response: DescribeContainerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeContainerOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -848,7 +848,7 @@ async function deserializeAws_json1_1DescribeContainerCommandError(
 ): Promise<DescribeContainerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -864,7 +864,7 @@ async function deserializeAws_json1_1DescribeContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -875,7 +875,7 @@ async function deserializeAws_json1_1DescribeContainerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -886,7 +886,7 @@ async function deserializeAws_json1_1DescribeContainerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -911,7 +911,7 @@ export async function deserializeAws_json1_1GetContainerPolicyCommand(
   const response: GetContainerPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetContainerPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -922,7 +922,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
 ): Promise<GetContainerPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -938,7 +938,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -949,7 +949,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -960,7 +960,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -971,7 +971,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -982,7 +982,7 @@ async function deserializeAws_json1_1GetContainerPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1004,7 +1004,7 @@ export async function deserializeAws_json1_1GetCorsPolicyCommand(
   const response: GetCorsPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCorsPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1015,7 +1015,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
 ): Promise<GetCorsPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1031,7 +1031,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1042,7 +1042,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CorsPolicyNotFoundException":
@@ -1053,7 +1053,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1064,7 +1064,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1075,7 +1075,7 @@ async function deserializeAws_json1_1GetCorsPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1100,7 +1100,7 @@ export async function deserializeAws_json1_1GetLifecyclePolicyCommand(
   const response: GetLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLifecyclePolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1111,7 +1111,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
 ): Promise<GetLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1127,7 +1127,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1138,7 +1138,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1149,7 +1149,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -1160,7 +1160,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1171,7 +1171,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1193,7 +1193,7 @@ export async function deserializeAws_json1_1ListContainersCommand(
   const response: ListContainersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListContainersOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1204,7 +1204,7 @@ async function deserializeAws_json1_1ListContainersCommandError(
 ): Promise<ListContainersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1220,7 +1220,7 @@ async function deserializeAws_json1_1ListContainersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1231,7 +1231,7 @@ async function deserializeAws_json1_1ListContainersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1256,7 +1256,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1267,7 +1267,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1283,7 +1283,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1294,7 +1294,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1305,7 +1305,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1316,7 +1316,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1341,7 +1341,7 @@ export async function deserializeAws_json1_1PutContainerPolicyCommand(
   const response: PutContainerPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutContainerPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1352,7 +1352,7 @@ async function deserializeAws_json1_1PutContainerPolicyCommandError(
 ): Promise<PutContainerPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1368,7 +1368,7 @@ async function deserializeAws_json1_1PutContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1379,7 +1379,7 @@ async function deserializeAws_json1_1PutContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1390,7 +1390,7 @@ async function deserializeAws_json1_1PutContainerPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1401,7 +1401,7 @@ async function deserializeAws_json1_1PutContainerPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1423,7 +1423,7 @@ export async function deserializeAws_json1_1PutCorsPolicyCommand(
   const response: PutCorsPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutCorsPolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1434,7 +1434,7 @@ async function deserializeAws_json1_1PutCorsPolicyCommandError(
 ): Promise<PutCorsPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1450,7 +1450,7 @@ async function deserializeAws_json1_1PutCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1461,7 +1461,7 @@ async function deserializeAws_json1_1PutCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1472,7 +1472,7 @@ async function deserializeAws_json1_1PutCorsPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1483,7 +1483,7 @@ async function deserializeAws_json1_1PutCorsPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1508,7 +1508,7 @@ export async function deserializeAws_json1_1PutLifecyclePolicyCommand(
   const response: PutLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutLifecyclePolicyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1519,7 +1519,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
 ): Promise<PutLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1535,7 +1535,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1546,7 +1546,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1557,7 +1557,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1568,7 +1568,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1593,7 +1593,7 @@ export async function deserializeAws_json1_1StartAccessLoggingCommand(
   const response: StartAccessLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartAccessLoggingOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1604,7 +1604,7 @@ async function deserializeAws_json1_1StartAccessLoggingCommandError(
 ): Promise<StartAccessLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1620,7 +1620,7 @@ async function deserializeAws_json1_1StartAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1631,7 +1631,7 @@ async function deserializeAws_json1_1StartAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1642,7 +1642,7 @@ async function deserializeAws_json1_1StartAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1653,7 +1653,7 @@ async function deserializeAws_json1_1StartAccessLoggingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1675,7 +1675,7 @@ export async function deserializeAws_json1_1StopAccessLoggingCommand(
   const response: StopAccessLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopAccessLoggingOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1686,7 +1686,7 @@ async function deserializeAws_json1_1StopAccessLoggingCommandError(
 ): Promise<StopAccessLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1702,7 +1702,7 @@ async function deserializeAws_json1_1StopAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1713,7 +1713,7 @@ async function deserializeAws_json1_1StopAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1724,7 +1724,7 @@ async function deserializeAws_json1_1StopAccessLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1735,7 +1735,7 @@ async function deserializeAws_json1_1StopAccessLoggingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1757,7 +1757,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1768,7 +1768,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1784,7 +1784,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1795,7 +1795,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1806,7 +1806,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1817,7 +1817,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1839,7 +1839,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1850,7 +1850,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1866,7 +1866,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ContainerNotFoundException":
@@ -1877,7 +1877,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1888,7 +1888,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1899,7 +1899,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1921,7 +1921,7 @@ const deserializeAws_json1_1ContainerInUseExceptionResponse = async (
     name: "ContainerInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1939,7 +1939,7 @@ const deserializeAws_json1_1ContainerNotFoundExceptionResponse = async (
     name: "ContainerNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1957,7 +1957,7 @@ const deserializeAws_json1_1CorsPolicyNotFoundExceptionResponse = async (
     name: "CorsPolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1975,7 +1975,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1993,7 +1993,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2011,7 +2011,7 @@ const deserializeAws_json1_1PolicyNotFoundExceptionResponse = async (
     name: "PolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2396,7 +2396,7 @@ const deserializeAws_json1_1Container = (
     CreationTime: undefined,
     Endpoint: undefined,
     Name: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -2428,7 +2428,7 @@ const deserializeAws_json1_1ContainerInUseException = (
 ): ContainerInUseException => {
   let contents: any = {
     __type: "ContainerInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2451,7 +2451,7 @@ const deserializeAws_json1_1ContainerNotFoundException = (
 ): ContainerNotFoundException => {
   let contents: any = {
     __type: "ContainerNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2474,7 +2474,7 @@ const deserializeAws_json1_1CorsPolicyNotFoundException = (
 ): CorsPolicyNotFoundException => {
   let contents: any = {
     __type: "CorsPolicyNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2492,7 +2492,7 @@ const deserializeAws_json1_1CorsRule = (
     AllowedMethods: undefined,
     AllowedOrigins: undefined,
     ExposeHeaders: undefined,
-    MaxAgeSeconds: undefined
+    MaxAgeSeconds: undefined,
   };
   if (output.AllowedHeaders !== undefined && output.AllowedHeaders !== null) {
     contents.AllowedHeaders = deserializeAws_json1_1AllowedHeaders(
@@ -2530,7 +2530,7 @@ const deserializeAws_json1_1CreateContainerOutput = (
 ): CreateContainerOutput => {
   let contents: any = {
     __type: "CreateContainerOutput",
-    Container: undefined
+    Container: undefined,
   };
   if (output.Container !== undefined && output.Container !== null) {
     contents.Container = deserializeAws_json1_1Container(
@@ -2546,7 +2546,7 @@ const deserializeAws_json1_1DeleteContainerOutput = (
   context: __SerdeContext
 ): DeleteContainerOutput => {
   let contents: any = {
-    __type: "DeleteContainerOutput"
+    __type: "DeleteContainerOutput",
   };
   return contents;
 };
@@ -2556,7 +2556,7 @@ const deserializeAws_json1_1DeleteContainerPolicyOutput = (
   context: __SerdeContext
 ): DeleteContainerPolicyOutput => {
   let contents: any = {
-    __type: "DeleteContainerPolicyOutput"
+    __type: "DeleteContainerPolicyOutput",
   };
   return contents;
 };
@@ -2566,7 +2566,7 @@ const deserializeAws_json1_1DeleteCorsPolicyOutput = (
   context: __SerdeContext
 ): DeleteCorsPolicyOutput => {
   let contents: any = {
-    __type: "DeleteCorsPolicyOutput"
+    __type: "DeleteCorsPolicyOutput",
   };
   return contents;
 };
@@ -2576,7 +2576,7 @@ const deserializeAws_json1_1DeleteLifecyclePolicyOutput = (
   context: __SerdeContext
 ): DeleteLifecyclePolicyOutput => {
   let contents: any = {
-    __type: "DeleteLifecyclePolicyOutput"
+    __type: "DeleteLifecyclePolicyOutput",
   };
   return contents;
 };
@@ -2587,7 +2587,7 @@ const deserializeAws_json1_1DescribeContainerOutput = (
 ): DescribeContainerOutput => {
   let contents: any = {
     __type: "DescribeContainerOutput",
-    Container: undefined
+    Container: undefined,
   };
   if (output.Container !== undefined && output.Container !== null) {
     contents.Container = deserializeAws_json1_1Container(
@@ -2611,7 +2611,7 @@ const deserializeAws_json1_1GetContainerPolicyOutput = (
 ): GetContainerPolicyOutput => {
   let contents: any = {
     __type: "GetContainerPolicyOutput",
-    Policy: undefined
+    Policy: undefined,
   };
   if (output.Policy !== undefined && output.Policy !== null) {
     contents.Policy = output.Policy;
@@ -2625,7 +2625,7 @@ const deserializeAws_json1_1GetCorsPolicyOutput = (
 ): GetCorsPolicyOutput => {
   let contents: any = {
     __type: "GetCorsPolicyOutput",
-    CorsPolicy: undefined
+    CorsPolicy: undefined,
   };
   if (output.CorsPolicy !== undefined && output.CorsPolicy !== null) {
     contents.CorsPolicy = deserializeAws_json1_1CorsPolicy(
@@ -2642,7 +2642,7 @@ const deserializeAws_json1_1GetLifecyclePolicyOutput = (
 ): GetLifecyclePolicyOutput => {
   let contents: any = {
     __type: "GetLifecyclePolicyOutput",
-    LifecyclePolicy: undefined
+    LifecyclePolicy: undefined,
   };
   if (output.LifecyclePolicy !== undefined && output.LifecyclePolicy !== null) {
     contents.LifecyclePolicy = output.LifecyclePolicy;
@@ -2656,7 +2656,7 @@ const deserializeAws_json1_1InternalServerError = (
 ): InternalServerError => {
   let contents: any = {
     __type: "InternalServerError",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2670,7 +2670,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2685,7 +2685,7 @@ const deserializeAws_json1_1ListContainersOutput = (
   let contents: any = {
     __type: "ListContainersOutput",
     Containers: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Containers !== undefined && output.Containers !== null) {
     contents.Containers = deserializeAws_json1_1ContainerList(
@@ -2705,7 +2705,7 @@ const deserializeAws_json1_1ListTagsForResourceOutput = (
 ): ListTagsForResourceOutput => {
   let contents: any = {
     __type: "ListTagsForResourceOutput",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags !== undefined && output.Tags !== null) {
     contents.Tags = deserializeAws_json1_1TagList(output.Tags, context);
@@ -2719,7 +2719,7 @@ const deserializeAws_json1_1PolicyNotFoundException = (
 ): PolicyNotFoundException => {
   let contents: any = {
     __type: "PolicyNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2732,7 +2732,7 @@ const deserializeAws_json1_1PutContainerPolicyOutput = (
   context: __SerdeContext
 ): PutContainerPolicyOutput => {
   let contents: any = {
-    __type: "PutContainerPolicyOutput"
+    __type: "PutContainerPolicyOutput",
   };
   return contents;
 };
@@ -2742,7 +2742,7 @@ const deserializeAws_json1_1PutCorsPolicyOutput = (
   context: __SerdeContext
 ): PutCorsPolicyOutput => {
   let contents: any = {
-    __type: "PutCorsPolicyOutput"
+    __type: "PutCorsPolicyOutput",
   };
   return contents;
 };
@@ -2752,7 +2752,7 @@ const deserializeAws_json1_1PutLifecyclePolicyOutput = (
   context: __SerdeContext
 ): PutLifecyclePolicyOutput => {
   let contents: any = {
-    __type: "PutLifecyclePolicyOutput"
+    __type: "PutLifecyclePolicyOutput",
   };
   return contents;
 };
@@ -2762,7 +2762,7 @@ const deserializeAws_json1_1StartAccessLoggingOutput = (
   context: __SerdeContext
 ): StartAccessLoggingOutput => {
   let contents: any = {
-    __type: "StartAccessLoggingOutput"
+    __type: "StartAccessLoggingOutput",
   };
   return contents;
 };
@@ -2772,7 +2772,7 @@ const deserializeAws_json1_1StopAccessLoggingOutput = (
   context: __SerdeContext
 ): StopAccessLoggingOutput => {
   let contents: any = {
-    __type: "StopAccessLoggingOutput"
+    __type: "StopAccessLoggingOutput",
   };
   return contents;
 };
@@ -2784,7 +2784,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -2809,7 +2809,7 @@ const deserializeAws_json1_1TagResourceOutput = (
   context: __SerdeContext
 ): TagResourceOutput => {
   let contents: any = {
-    __type: "TagResourceOutput"
+    __type: "TagResourceOutput",
   };
   return contents;
 };
@@ -2819,7 +2819,7 @@ const deserializeAws_json1_1UntagResourceOutput = (
   context: __SerdeContext
 ): UntagResourceOutput => {
   let contents: any = {
-    __type: "UntagResourceOutput"
+    __type: "UntagResourceOutput",
   };
   return contents;
 };
@@ -2827,7 +2827,7 @@ const deserializeAws_json1_1UntagResourceOutput = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2848,7 +2848,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2861,11 +2861,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2877,7 +2877,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

@@ -1,134 +1,134 @@
 import {
   AssociateDelegateToResourceCommandInput,
-  AssociateDelegateToResourceCommandOutput
+  AssociateDelegateToResourceCommandOutput,
 } from "../commands/AssociateDelegateToResourceCommand";
 import {
   AssociateMemberToGroupCommandInput,
-  AssociateMemberToGroupCommandOutput
+  AssociateMemberToGroupCommandOutput,
 } from "../commands/AssociateMemberToGroupCommand";
 import {
   CreateAliasCommandInput,
-  CreateAliasCommandOutput
+  CreateAliasCommandOutput,
 } from "../commands/CreateAliasCommand";
 import {
   CreateGroupCommandInput,
-  CreateGroupCommandOutput
+  CreateGroupCommandOutput,
 } from "../commands/CreateGroupCommand";
 import {
   CreateResourceCommandInput,
-  CreateResourceCommandOutput
+  CreateResourceCommandOutput,
 } from "../commands/CreateResourceCommand";
 import {
   CreateUserCommandInput,
-  CreateUserCommandOutput
+  CreateUserCommandOutput,
 } from "../commands/CreateUserCommand";
 import {
   DeleteAliasCommandInput,
-  DeleteAliasCommandOutput
+  DeleteAliasCommandOutput,
 } from "../commands/DeleteAliasCommand";
 import {
   DeleteGroupCommandInput,
-  DeleteGroupCommandOutput
+  DeleteGroupCommandOutput,
 } from "../commands/DeleteGroupCommand";
 import {
   DeleteMailboxPermissionsCommandInput,
-  DeleteMailboxPermissionsCommandOutput
+  DeleteMailboxPermissionsCommandOutput,
 } from "../commands/DeleteMailboxPermissionsCommand";
 import {
   DeleteResourceCommandInput,
-  DeleteResourceCommandOutput
+  DeleteResourceCommandOutput,
 } from "../commands/DeleteResourceCommand";
 import {
   DeleteUserCommandInput,
-  DeleteUserCommandOutput
+  DeleteUserCommandOutput,
 } from "../commands/DeleteUserCommand";
 import {
   DeregisterFromWorkMailCommandInput,
-  DeregisterFromWorkMailCommandOutput
+  DeregisterFromWorkMailCommandOutput,
 } from "../commands/DeregisterFromWorkMailCommand";
 import {
   DescribeGroupCommandInput,
-  DescribeGroupCommandOutput
+  DescribeGroupCommandOutput,
 } from "../commands/DescribeGroupCommand";
 import {
   DescribeOrganizationCommandInput,
-  DescribeOrganizationCommandOutput
+  DescribeOrganizationCommandOutput,
 } from "../commands/DescribeOrganizationCommand";
 import {
   DescribeResourceCommandInput,
-  DescribeResourceCommandOutput
+  DescribeResourceCommandOutput,
 } from "../commands/DescribeResourceCommand";
 import {
   DescribeUserCommandInput,
-  DescribeUserCommandOutput
+  DescribeUserCommandOutput,
 } from "../commands/DescribeUserCommand";
 import {
   DisassociateDelegateFromResourceCommandInput,
-  DisassociateDelegateFromResourceCommandOutput
+  DisassociateDelegateFromResourceCommandOutput,
 } from "../commands/DisassociateDelegateFromResourceCommand";
 import {
   DisassociateMemberFromGroupCommandInput,
-  DisassociateMemberFromGroupCommandOutput
+  DisassociateMemberFromGroupCommandOutput,
 } from "../commands/DisassociateMemberFromGroupCommand";
 import {
   GetMailboxDetailsCommandInput,
-  GetMailboxDetailsCommandOutput
+  GetMailboxDetailsCommandOutput,
 } from "../commands/GetMailboxDetailsCommand";
 import {
   ListAliasesCommandInput,
-  ListAliasesCommandOutput
+  ListAliasesCommandOutput,
 } from "../commands/ListAliasesCommand";
 import {
   ListGroupMembersCommandInput,
-  ListGroupMembersCommandOutput
+  ListGroupMembersCommandOutput,
 } from "../commands/ListGroupMembersCommand";
 import {
   ListGroupsCommandInput,
-  ListGroupsCommandOutput
+  ListGroupsCommandOutput,
 } from "../commands/ListGroupsCommand";
 import {
   ListMailboxPermissionsCommandInput,
-  ListMailboxPermissionsCommandOutput
+  ListMailboxPermissionsCommandOutput,
 } from "../commands/ListMailboxPermissionsCommand";
 import {
   ListOrganizationsCommandInput,
-  ListOrganizationsCommandOutput
+  ListOrganizationsCommandOutput,
 } from "../commands/ListOrganizationsCommand";
 import {
   ListResourceDelegatesCommandInput,
-  ListResourceDelegatesCommandOutput
+  ListResourceDelegatesCommandOutput,
 } from "../commands/ListResourceDelegatesCommand";
 import {
   ListResourcesCommandInput,
-  ListResourcesCommandOutput
+  ListResourcesCommandOutput,
 } from "../commands/ListResourcesCommand";
 import {
   ListUsersCommandInput,
-  ListUsersCommandOutput
+  ListUsersCommandOutput,
 } from "../commands/ListUsersCommand";
 import {
   PutMailboxPermissionsCommandInput,
-  PutMailboxPermissionsCommandOutput
+  PutMailboxPermissionsCommandOutput,
 } from "../commands/PutMailboxPermissionsCommand";
 import {
   RegisterToWorkMailCommandInput,
-  RegisterToWorkMailCommandOutput
+  RegisterToWorkMailCommandOutput,
 } from "../commands/RegisterToWorkMailCommand";
 import {
   ResetPasswordCommandInput,
-  ResetPasswordCommandOutput
+  ResetPasswordCommandOutput,
 } from "../commands/ResetPasswordCommand";
 import {
   UpdateMailboxQuotaCommandInput,
-  UpdateMailboxQuotaCommandOutput
+  UpdateMailboxQuotaCommandOutput,
 } from "../commands/UpdateMailboxQuotaCommand";
 import {
   UpdatePrimaryEmailAddressCommandInput,
-  UpdatePrimaryEmailAddressCommandOutput
+  UpdatePrimaryEmailAddressCommandOutput,
 } from "../commands/UpdatePrimaryEmailAddressCommand";
 import {
   UpdateResourceCommandInput,
-  UpdateResourceCommandOutput
+  UpdateResourceCommandOutput,
 } from "../commands/UpdateResourceCommand";
 import {
   AssociateDelegateToResourceRequest,
@@ -221,11 +221,11 @@ import {
   UpdatePrimaryEmailAddressResponse,
   UpdateResourceRequest,
   UpdateResourceResponse,
-  User
+  User,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -233,7 +233,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateDelegateToResourceCommand(
@@ -699,7 +699,7 @@ export async function deserializeAws_json1_1AssociateDelegateToResourceCommand(
   const response: AssociateDelegateToResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateDelegateToResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -710,7 +710,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
 ): Promise<AssociateDelegateToResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -726,7 +726,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -737,7 +737,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -748,7 +748,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -759,7 +759,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -770,7 +770,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -781,7 +781,7 @@ async function deserializeAws_json1_1AssociateDelegateToResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -809,7 +809,7 @@ export async function deserializeAws_json1_1AssociateMemberToGroupCommand(
   const response: AssociateMemberToGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateMemberToGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -820,7 +820,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
 ): Promise<AssociateMemberToGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -836,7 +836,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -847,7 +847,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -858,7 +858,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -869,7 +869,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -880,7 +880,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -891,7 +891,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -902,7 +902,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -913,7 +913,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -924,7 +924,7 @@ async function deserializeAws_json1_1AssociateMemberToGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -946,7 +946,7 @@ export async function deserializeAws_json1_1CreateAliasCommand(
   const response: CreateAliasCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateAliasResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -957,7 +957,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
 ): Promise<CreateAliasCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -973,7 +973,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -984,7 +984,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -995,7 +995,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1006,7 +1006,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainNotFoundException":
@@ -1017,7 +1017,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainStateException":
@@ -1028,7 +1028,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1039,7 +1039,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1050,7 +1050,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1061,7 +1061,7 @@ async function deserializeAws_json1_1CreateAliasCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1083,7 +1083,7 @@ export async function deserializeAws_json1_1CreateGroupCommand(
   const response: CreateGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1094,7 +1094,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
 ): Promise<CreateGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1110,7 +1110,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -1121,7 +1121,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1132,7 +1132,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NameAvailabilityException":
@@ -1143,7 +1143,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1154,7 +1154,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1165,7 +1165,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNameException":
@@ -1176,7 +1176,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1187,7 +1187,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1198,7 +1198,7 @@ async function deserializeAws_json1_1CreateGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1220,7 +1220,7 @@ export async function deserializeAws_json1_1CreateResourceCommand(
   const response: CreateResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1231,7 +1231,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
 ): Promise<CreateResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1247,7 +1247,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -1258,7 +1258,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1269,7 +1269,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NameAvailabilityException":
@@ -1280,7 +1280,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1291,7 +1291,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1302,7 +1302,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNameException":
@@ -1313,7 +1313,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1324,7 +1324,7 @@ async function deserializeAws_json1_1CreateResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1346,7 +1346,7 @@ export async function deserializeAws_json1_1CreateUserCommand(
   const response: CreateUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateUserResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1357,7 +1357,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
 ): Promise<CreateUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1373,7 +1373,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -1384,7 +1384,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1395,7 +1395,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPasswordException":
@@ -1406,7 +1406,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NameAvailabilityException":
@@ -1417,7 +1417,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1428,7 +1428,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1439,7 +1439,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNameException":
@@ -1450,7 +1450,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1461,7 +1461,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1472,7 +1472,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1494,7 +1494,7 @@ export async function deserializeAws_json1_1DeleteAliasCommand(
   const response: DeleteAliasCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteAliasResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1505,7 +1505,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
 ): Promise<DeleteAliasCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1521,7 +1521,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -1532,7 +1532,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1543,7 +1543,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1554,7 +1554,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1565,7 +1565,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1576,7 +1576,7 @@ async function deserializeAws_json1_1DeleteAliasCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1598,7 +1598,7 @@ export async function deserializeAws_json1_1DeleteGroupCommand(
   const response: DeleteGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1609,7 +1609,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
 ): Promise<DeleteGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1625,7 +1625,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -1636,7 +1636,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -1647,7 +1647,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1658,7 +1658,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1669,7 +1669,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1680,7 +1680,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -1691,7 +1691,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1702,7 +1702,7 @@ async function deserializeAws_json1_1DeleteGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1730,7 +1730,7 @@ export async function deserializeAws_json1_1DeleteMailboxPermissionsCommand(
   const response: DeleteMailboxPermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteMailboxPermissionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1741,7 +1741,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
 ): Promise<DeleteMailboxPermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1757,7 +1757,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -1768,7 +1768,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1779,7 +1779,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1790,7 +1790,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1801,7 +1801,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1812,7 +1812,7 @@ async function deserializeAws_json1_1DeleteMailboxPermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1834,7 +1834,7 @@ export async function deserializeAws_json1_1DeleteResourceCommand(
   const response: DeleteResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1845,7 +1845,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
 ): Promise<DeleteResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1861,7 +1861,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1872,7 +1872,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1883,7 +1883,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -1894,7 +1894,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1905,7 +1905,7 @@ async function deserializeAws_json1_1DeleteResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1927,7 +1927,7 @@ export async function deserializeAws_json1_1DeleteUserCommand(
   const response: DeleteUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteUserResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1938,7 +1938,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
 ): Promise<DeleteUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1954,7 +1954,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -1965,7 +1965,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -1976,7 +1976,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1987,7 +1987,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -1998,7 +1998,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2009,7 +2009,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2020,7 +2020,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2031,7 +2031,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2059,7 +2059,7 @@ export async function deserializeAws_json1_1DeregisterFromWorkMailCommand(
   const response: DeregisterFromWorkMailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeregisterFromWorkMailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2070,7 +2070,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
 ): Promise<DeregisterFromWorkMailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2086,7 +2086,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -2097,7 +2097,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2108,7 +2108,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2119,7 +2119,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2130,7 +2130,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2141,7 +2141,7 @@ async function deserializeAws_json1_1DeregisterFromWorkMailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2163,7 +2163,7 @@ export async function deserializeAws_json1_1DescribeGroupCommand(
   const response: DescribeGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2174,7 +2174,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
 ): Promise<DescribeGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2190,7 +2190,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2201,7 +2201,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2212,7 +2212,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2223,7 +2223,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2234,7 +2234,7 @@ async function deserializeAws_json1_1DescribeGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2259,7 +2259,7 @@ export async function deserializeAws_json1_1DescribeOrganizationCommand(
   const response: DescribeOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2270,7 +2270,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
 ): Promise<DescribeOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2286,7 +2286,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2297,7 +2297,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2308,7 +2308,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2330,7 +2330,7 @@ export async function deserializeAws_json1_1DescribeResourceCommand(
   const response: DescribeResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2341,7 +2341,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
 ): Promise<DescribeResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2357,7 +2357,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2368,7 +2368,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2379,7 +2379,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2390,7 +2390,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2401,7 +2401,7 @@ async function deserializeAws_json1_1DescribeResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2423,7 +2423,7 @@ export async function deserializeAws_json1_1DescribeUserCommand(
   const response: DescribeUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2434,7 +2434,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
 ): Promise<DescribeUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2450,7 +2450,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2461,7 +2461,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2472,7 +2472,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2483,7 +2483,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2494,7 +2494,7 @@ async function deserializeAws_json1_1DescribeUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2522,7 +2522,7 @@ export async function deserializeAws_json1_1DisassociateDelegateFromResourceComm
   const response: DisassociateDelegateFromResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateDelegateFromResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2533,7 +2533,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
 ): Promise<DisassociateDelegateFromResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2549,7 +2549,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -2560,7 +2560,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2571,7 +2571,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2582,7 +2582,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2593,7 +2593,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2604,7 +2604,7 @@ async function deserializeAws_json1_1DisassociateDelegateFromResourceCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2632,7 +2632,7 @@ export async function deserializeAws_json1_1DisassociateMemberFromGroupCommand(
   const response: DisassociateMemberFromGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateMemberFromGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2643,7 +2643,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
 ): Promise<DisassociateMemberFromGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2659,7 +2659,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -2670,7 +2670,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -2681,7 +2681,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -2692,7 +2692,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2703,7 +2703,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2714,7 +2714,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2725,7 +2725,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -2736,7 +2736,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2747,7 +2747,7 @@ async function deserializeAws_json1_1DisassociateMemberFromGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2769,7 +2769,7 @@ export async function deserializeAws_json1_1GetMailboxDetailsCommand(
   const response: GetMailboxDetailsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetMailboxDetailsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2780,7 +2780,7 @@ async function deserializeAws_json1_1GetMailboxDetailsCommandError(
 ): Promise<GetMailboxDetailsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2796,7 +2796,7 @@ async function deserializeAws_json1_1GetMailboxDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2807,7 +2807,7 @@ async function deserializeAws_json1_1GetMailboxDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2818,7 +2818,7 @@ async function deserializeAws_json1_1GetMailboxDetailsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2829,7 +2829,7 @@ async function deserializeAws_json1_1GetMailboxDetailsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2851,7 +2851,7 @@ export async function deserializeAws_json1_1ListAliasesCommand(
   const response: ListAliasesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAliasesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2862,7 +2862,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
 ): Promise<ListAliasesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2878,7 +2878,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -2889,7 +2889,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2900,7 +2900,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -2911,7 +2911,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -2922,7 +2922,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2933,7 +2933,7 @@ async function deserializeAws_json1_1ListAliasesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2955,7 +2955,7 @@ export async function deserializeAws_json1_1ListGroupMembersCommand(
   const response: ListGroupMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListGroupMembersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2966,7 +2966,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
 ): Promise<ListGroupMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2982,7 +2982,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -2993,7 +2993,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3004,7 +3004,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3015,7 +3015,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3026,7 +3026,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3037,7 +3037,7 @@ async function deserializeAws_json1_1ListGroupMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3059,7 +3059,7 @@ export async function deserializeAws_json1_1ListGroupsCommand(
   const response: ListGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListGroupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3070,7 +3070,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
 ): Promise<ListGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3086,7 +3086,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3097,7 +3097,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3108,7 +3108,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3119,7 +3119,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3130,7 +3130,7 @@ async function deserializeAws_json1_1ListGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3158,7 +3158,7 @@ export async function deserializeAws_json1_1ListMailboxPermissionsCommand(
   const response: ListMailboxPermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListMailboxPermissionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3169,7 +3169,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
 ): Promise<ListMailboxPermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3185,7 +3185,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3196,7 +3196,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3207,7 +3207,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3218,7 +3218,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3229,7 +3229,7 @@ async function deserializeAws_json1_1ListMailboxPermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3251,7 +3251,7 @@ export async function deserializeAws_json1_1ListOrganizationsCommand(
   const response: ListOrganizationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListOrganizationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3262,7 +3262,7 @@ async function deserializeAws_json1_1ListOrganizationsCommandError(
 ): Promise<ListOrganizationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3278,7 +3278,7 @@ async function deserializeAws_json1_1ListOrganizationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3289,7 +3289,7 @@ async function deserializeAws_json1_1ListOrganizationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3314,7 +3314,7 @@ export async function deserializeAws_json1_1ListResourceDelegatesCommand(
   const response: ListResourceDelegatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListResourceDelegatesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3325,7 +3325,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
 ): Promise<ListResourceDelegatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3341,7 +3341,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -3352,7 +3352,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3363,7 +3363,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3374,7 +3374,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3385,7 +3385,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3396,7 +3396,7 @@ async function deserializeAws_json1_1ListResourceDelegatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3418,7 +3418,7 @@ export async function deserializeAws_json1_1ListResourcesCommand(
   const response: ListResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListResourcesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3429,7 +3429,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
 ): Promise<ListResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3445,7 +3445,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3456,7 +3456,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3467,7 +3467,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3478,7 +3478,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3500,7 +3500,7 @@ export async function deserializeAws_json1_1ListUsersCommand(
   const response: ListUsersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListUsersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3511,7 +3511,7 @@ async function deserializeAws_json1_1ListUsersCommandError(
 ): Promise<ListUsersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3527,7 +3527,7 @@ async function deserializeAws_json1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3538,7 +3538,7 @@ async function deserializeAws_json1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3549,7 +3549,7 @@ async function deserializeAws_json1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3560,7 +3560,7 @@ async function deserializeAws_json1_1ListUsersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3585,7 +3585,7 @@ export async function deserializeAws_json1_1PutMailboxPermissionsCommand(
   const response: PutMailboxPermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutMailboxPermissionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3596,7 +3596,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
 ): Promise<PutMailboxPermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3612,7 +3612,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -3623,7 +3623,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3634,7 +3634,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3645,7 +3645,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3656,7 +3656,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3667,7 +3667,7 @@ async function deserializeAws_json1_1PutMailboxPermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3692,7 +3692,7 @@ export async function deserializeAws_json1_1RegisterToWorkMailCommand(
   const response: RegisterToWorkMailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RegisterToWorkMailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3703,7 +3703,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
 ): Promise<RegisterToWorkMailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3719,7 +3719,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -3730,7 +3730,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EmailAddressInUseException":
@@ -3741,7 +3741,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityAlreadyRegisteredException":
@@ -3752,7 +3752,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -3763,7 +3763,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -3774,7 +3774,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3785,7 +3785,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainNotFoundException":
@@ -3796,7 +3796,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainStateException":
@@ -3807,7 +3807,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3818,7 +3818,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3829,7 +3829,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3840,7 +3840,7 @@ async function deserializeAws_json1_1RegisterToWorkMailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3862,7 +3862,7 @@ export async function deserializeAws_json1_1ResetPasswordCommand(
   const response: ResetPasswordCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResetPasswordResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3873,7 +3873,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
 ): Promise<ResetPasswordCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3889,7 +3889,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -3900,7 +3900,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -3911,7 +3911,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -3922,7 +3922,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3933,7 +3933,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPasswordException":
@@ -3944,7 +3944,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -3955,7 +3955,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -3966,7 +3966,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -3977,7 +3977,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3988,7 +3988,7 @@ async function deserializeAws_json1_1ResetPasswordCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4013,7 +4013,7 @@ export async function deserializeAws_json1_1UpdateMailboxQuotaCommand(
   const response: UpdateMailboxQuotaCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateMailboxQuotaResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4024,7 +4024,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
 ): Promise<UpdateMailboxQuotaCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4040,7 +4040,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -4051,7 +4051,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4062,7 +4062,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -4073,7 +4073,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -4084,7 +4084,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4095,7 +4095,7 @@ async function deserializeAws_json1_1UpdateMailboxQuotaCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4123,7 +4123,7 @@ export async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommand(
   const response: UpdatePrimaryEmailAddressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdatePrimaryEmailAddressResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4134,7 +4134,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
 ): Promise<UpdatePrimaryEmailAddressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4150,7 +4150,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DirectoryUnavailableException":
@@ -4161,7 +4161,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EmailAddressInUseException":
@@ -4172,7 +4172,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -4183,7 +4183,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -4194,7 +4194,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4205,7 +4205,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainNotFoundException":
@@ -4216,7 +4216,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainStateException":
@@ -4227,7 +4227,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -4238,7 +4238,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -4249,7 +4249,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationException":
@@ -4260,7 +4260,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4271,7 +4271,7 @@ async function deserializeAws_json1_1UpdatePrimaryEmailAddressCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4293,7 +4293,7 @@ export async function deserializeAws_json1_1UpdateResourceCommand(
   const response: UpdateResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4304,7 +4304,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
 ): Promise<UpdateResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4320,7 +4320,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EmailAddressInUseException":
@@ -4331,7 +4331,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityNotFoundException":
@@ -4342,7 +4342,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EntityStateException":
@@ -4353,7 +4353,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidConfigurationException":
@@ -4364,7 +4364,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainNotFoundException":
@@ -4375,7 +4375,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailDomainStateException":
@@ -4386,7 +4386,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NameAvailabilityException":
@@ -4397,7 +4397,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotFoundException":
@@ -4408,7 +4408,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationStateException":
@@ -4419,7 +4419,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4430,7 +4430,7 @@ async function deserializeAws_json1_1UpdateResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4452,7 +4452,7 @@ const deserializeAws_json1_1DirectoryServiceAuthenticationFailedExceptionRespons
     name: "DirectoryServiceAuthenticationFailedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4470,7 +4470,7 @@ const deserializeAws_json1_1DirectoryUnavailableExceptionResponse = async (
     name: "DirectoryUnavailableException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4488,7 +4488,7 @@ const deserializeAws_json1_1EmailAddressInUseExceptionResponse = async (
     name: "EmailAddressInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4506,7 +4506,7 @@ const deserializeAws_json1_1EntityAlreadyRegisteredExceptionResponse = async (
     name: "EntityAlreadyRegisteredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4524,7 +4524,7 @@ const deserializeAws_json1_1EntityNotFoundExceptionResponse = async (
     name: "EntityNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4542,7 +4542,7 @@ const deserializeAws_json1_1EntityStateExceptionResponse = async (
     name: "EntityStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4560,7 +4560,7 @@ const deserializeAws_json1_1InvalidConfigurationExceptionResponse = async (
     name: "InvalidConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4578,7 +4578,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4596,7 +4596,7 @@ const deserializeAws_json1_1InvalidPasswordExceptionResponse = async (
     name: "InvalidPasswordException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4614,7 +4614,7 @@ const deserializeAws_json1_1MailDomainNotFoundExceptionResponse = async (
     name: "MailDomainNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4632,7 +4632,7 @@ const deserializeAws_json1_1MailDomainStateExceptionResponse = async (
     name: "MailDomainStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4650,7 +4650,7 @@ const deserializeAws_json1_1NameAvailabilityExceptionResponse = async (
     name: "NameAvailabilityException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4668,7 +4668,7 @@ const deserializeAws_json1_1OrganizationNotFoundExceptionResponse = async (
     name: "OrganizationNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4686,7 +4686,7 @@ const deserializeAws_json1_1OrganizationStateExceptionResponse = async (
     name: "OrganizationStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4704,7 +4704,7 @@ const deserializeAws_json1_1ReservedNameExceptionResponse = async (
     name: "ReservedNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4722,7 +4722,7 @@ const deserializeAws_json1_1UnsupportedOperationExceptionResponse = async (
     name: "UnsupportedOperationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5321,7 +5321,7 @@ const deserializeAws_json1_1AssociateDelegateToResourceResponse = (
   context: __SerdeContext
 ): AssociateDelegateToResourceResponse => {
   let contents: any = {
-    __type: "AssociateDelegateToResourceResponse"
+    __type: "AssociateDelegateToResourceResponse",
   };
   return contents;
 };
@@ -5331,7 +5331,7 @@ const deserializeAws_json1_1AssociateMemberToGroupResponse = (
   context: __SerdeContext
 ): AssociateMemberToGroupResponse => {
   let contents: any = {
-    __type: "AssociateMemberToGroupResponse"
+    __type: "AssociateMemberToGroupResponse",
   };
   return contents;
 };
@@ -5344,7 +5344,7 @@ const deserializeAws_json1_1BookingOptions = (
     __type: "BookingOptions",
     AutoAcceptRequests: undefined,
     AutoDeclineConflictingRequests: undefined,
-    AutoDeclineRecurringRequests: undefined
+    AutoDeclineRecurringRequests: undefined,
   };
   if (
     output.AutoAcceptRequests !== undefined &&
@@ -5373,7 +5373,7 @@ const deserializeAws_json1_1CreateAliasResponse = (
   context: __SerdeContext
 ): CreateAliasResponse => {
   let contents: any = {
-    __type: "CreateAliasResponse"
+    __type: "CreateAliasResponse",
   };
   return contents;
 };
@@ -5384,7 +5384,7 @@ const deserializeAws_json1_1CreateGroupResponse = (
 ): CreateGroupResponse => {
   let contents: any = {
     __type: "CreateGroupResponse",
-    GroupId: undefined
+    GroupId: undefined,
   };
   if (output.GroupId !== undefined && output.GroupId !== null) {
     contents.GroupId = output.GroupId;
@@ -5398,7 +5398,7 @@ const deserializeAws_json1_1CreateResourceResponse = (
 ): CreateResourceResponse => {
   let contents: any = {
     __type: "CreateResourceResponse",
-    ResourceId: undefined
+    ResourceId: undefined,
   };
   if (output.ResourceId !== undefined && output.ResourceId !== null) {
     contents.ResourceId = output.ResourceId;
@@ -5412,7 +5412,7 @@ const deserializeAws_json1_1CreateUserResponse = (
 ): CreateUserResponse => {
   let contents: any = {
     __type: "CreateUserResponse",
-    UserId: undefined
+    UserId: undefined,
   };
   if (output.UserId !== undefined && output.UserId !== null) {
     contents.UserId = output.UserId;
@@ -5427,7 +5427,7 @@ const deserializeAws_json1_1Delegate = (
   let contents: any = {
     __type: "Delegate",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -5443,7 +5443,7 @@ const deserializeAws_json1_1DeleteAliasResponse = (
   context: __SerdeContext
 ): DeleteAliasResponse => {
   let contents: any = {
-    __type: "DeleteAliasResponse"
+    __type: "DeleteAliasResponse",
   };
   return contents;
 };
@@ -5453,7 +5453,7 @@ const deserializeAws_json1_1DeleteGroupResponse = (
   context: __SerdeContext
 ): DeleteGroupResponse => {
   let contents: any = {
-    __type: "DeleteGroupResponse"
+    __type: "DeleteGroupResponse",
   };
   return contents;
 };
@@ -5463,7 +5463,7 @@ const deserializeAws_json1_1DeleteMailboxPermissionsResponse = (
   context: __SerdeContext
 ): DeleteMailboxPermissionsResponse => {
   let contents: any = {
-    __type: "DeleteMailboxPermissionsResponse"
+    __type: "DeleteMailboxPermissionsResponse",
   };
   return contents;
 };
@@ -5473,7 +5473,7 @@ const deserializeAws_json1_1DeleteResourceResponse = (
   context: __SerdeContext
 ): DeleteResourceResponse => {
   let contents: any = {
-    __type: "DeleteResourceResponse"
+    __type: "DeleteResourceResponse",
   };
   return contents;
 };
@@ -5483,7 +5483,7 @@ const deserializeAws_json1_1DeleteUserResponse = (
   context: __SerdeContext
 ): DeleteUserResponse => {
   let contents: any = {
-    __type: "DeleteUserResponse"
+    __type: "DeleteUserResponse",
   };
   return contents;
 };
@@ -5493,7 +5493,7 @@ const deserializeAws_json1_1DeregisterFromWorkMailResponse = (
   context: __SerdeContext
 ): DeregisterFromWorkMailResponse => {
   let contents: any = {
-    __type: "DeregisterFromWorkMailResponse"
+    __type: "DeregisterFromWorkMailResponse",
   };
   return contents;
 };
@@ -5509,7 +5509,7 @@ const deserializeAws_json1_1DescribeGroupResponse = (
     EnabledDate: undefined,
     GroupId: undefined,
     Name: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -5545,7 +5545,7 @@ const deserializeAws_json1_1DescribeOrganizationResponse = (
     DirectoryType: undefined,
     ErrorMessage: undefined,
     OrganizationId: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.Alias !== undefined && output.Alias !== null) {
     contents.Alias = output.Alias;
@@ -5590,7 +5590,7 @@ const deserializeAws_json1_1DescribeResourceResponse = (
     Name: undefined,
     ResourceId: undefined,
     State: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.BookingOptions !== undefined && output.BookingOptions !== null) {
     contents.BookingOptions = deserializeAws_json1_1BookingOptions(
@@ -5635,7 +5635,7 @@ const deserializeAws_json1_1DescribeUserResponse = (
     Name: undefined,
     State: undefined,
     UserId: undefined,
-    UserRole: undefined
+    UserRole: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -5670,7 +5670,7 @@ const deserializeAws_json1_1DirectoryServiceAuthenticationFailedException = (
 ): DirectoryServiceAuthenticationFailedException => {
   let contents: any = {
     __type: "DirectoryServiceAuthenticationFailedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5684,7 +5684,7 @@ const deserializeAws_json1_1DirectoryUnavailableException = (
 ): DirectoryUnavailableException => {
   let contents: any = {
     __type: "DirectoryUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5697,7 +5697,7 @@ const deserializeAws_json1_1DisassociateDelegateFromResourceResponse = (
   context: __SerdeContext
 ): DisassociateDelegateFromResourceResponse => {
   let contents: any = {
-    __type: "DisassociateDelegateFromResourceResponse"
+    __type: "DisassociateDelegateFromResourceResponse",
   };
   return contents;
 };
@@ -5707,7 +5707,7 @@ const deserializeAws_json1_1DisassociateMemberFromGroupResponse = (
   context: __SerdeContext
 ): DisassociateMemberFromGroupResponse => {
   let contents: any = {
-    __type: "DisassociateMemberFromGroupResponse"
+    __type: "DisassociateMemberFromGroupResponse",
   };
   return contents;
 };
@@ -5718,7 +5718,7 @@ const deserializeAws_json1_1EmailAddressInUseException = (
 ): EmailAddressInUseException => {
   let contents: any = {
     __type: "EmailAddressInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5732,7 +5732,7 @@ const deserializeAws_json1_1EntityAlreadyRegisteredException = (
 ): EntityAlreadyRegisteredException => {
   let contents: any = {
     __type: "EntityAlreadyRegisteredException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5746,7 +5746,7 @@ const deserializeAws_json1_1EntityNotFoundException = (
 ): EntityNotFoundException => {
   let contents: any = {
     __type: "EntityNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5760,7 +5760,7 @@ const deserializeAws_json1_1EntityStateException = (
 ): EntityStateException => {
   let contents: any = {
     __type: "EntityStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5775,7 +5775,7 @@ const deserializeAws_json1_1GetMailboxDetailsResponse = (
   let contents: any = {
     __type: "GetMailboxDetailsResponse",
     MailboxQuota: undefined,
-    MailboxSize: undefined
+    MailboxSize: undefined,
   };
   if (output.MailboxQuota !== undefined && output.MailboxQuota !== null) {
     contents.MailboxQuota = output.MailboxQuota;
@@ -5797,7 +5797,7 @@ const deserializeAws_json1_1Group = (
     EnabledDate: undefined,
     Id: undefined,
     Name: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -5835,7 +5835,7 @@ const deserializeAws_json1_1InvalidConfigurationException = (
 ): InvalidConfigurationException => {
   let contents: any = {
     __type: "InvalidConfigurationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5849,7 +5849,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5863,7 +5863,7 @@ const deserializeAws_json1_1InvalidPasswordException = (
 ): InvalidPasswordException => {
   let contents: any = {
     __type: "InvalidPasswordException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5878,7 +5878,7 @@ const deserializeAws_json1_1ListAliasesResponse = (
   let contents: any = {
     __type: "ListAliasesResponse",
     Aliases: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Aliases !== undefined && output.Aliases !== null) {
     contents.Aliases = deserializeAws_json1_1Aliases(output.Aliases, context);
@@ -5896,7 +5896,7 @@ const deserializeAws_json1_1ListGroupMembersResponse = (
   let contents: any = {
     __type: "ListGroupMembersResponse",
     Members: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Members !== undefined && output.Members !== null) {
     contents.Members = deserializeAws_json1_1Members(output.Members, context);
@@ -5914,7 +5914,7 @@ const deserializeAws_json1_1ListGroupsResponse = (
   let contents: any = {
     __type: "ListGroupsResponse",
     Groups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Groups !== undefined && output.Groups !== null) {
     contents.Groups = deserializeAws_json1_1Groups(output.Groups, context);
@@ -5932,7 +5932,7 @@ const deserializeAws_json1_1ListMailboxPermissionsResponse = (
   let contents: any = {
     __type: "ListMailboxPermissionsResponse",
     NextToken: undefined,
-    Permissions: undefined
+    Permissions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5953,7 +5953,7 @@ const deserializeAws_json1_1ListOrganizationsResponse = (
   let contents: any = {
     __type: "ListOrganizationsResponse",
     NextToken: undefined,
-    OrganizationSummaries: undefined
+    OrganizationSummaries: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5977,7 +5977,7 @@ const deserializeAws_json1_1ListResourceDelegatesResponse = (
   let contents: any = {
     __type: "ListResourceDelegatesResponse",
     Delegates: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Delegates !== undefined && output.Delegates !== null) {
     contents.Delegates = deserializeAws_json1_1ResourceDelegates(
@@ -5998,7 +5998,7 @@ const deserializeAws_json1_1ListResourcesResponse = (
   let contents: any = {
     __type: "ListResourcesResponse",
     NextToken: undefined,
-    Resources: undefined
+    Resources: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -6019,7 +6019,7 @@ const deserializeAws_json1_1ListUsersResponse = (
   let contents: any = {
     __type: "ListUsersResponse",
     NextToken: undefined,
-    Users: undefined
+    Users: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -6036,7 +6036,7 @@ const deserializeAws_json1_1MailDomainNotFoundException = (
 ): MailDomainNotFoundException => {
   let contents: any = {
     __type: "MailDomainNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6050,7 +6050,7 @@ const deserializeAws_json1_1MailDomainStateException = (
 ): MailDomainStateException => {
   let contents: any = {
     __type: "MailDomainStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6069,7 +6069,7 @@ const deserializeAws_json1_1Member = (
     Id: undefined,
     Name: undefined,
     State: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -6107,7 +6107,7 @@ const deserializeAws_json1_1NameAvailabilityException = (
 ): NameAvailabilityException => {
   let contents: any = {
     __type: "NameAvailabilityException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6121,7 +6121,7 @@ const deserializeAws_json1_1OrganizationNotFoundException = (
 ): OrganizationNotFoundException => {
   let contents: any = {
     __type: "OrganizationNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6135,7 +6135,7 @@ const deserializeAws_json1_1OrganizationStateException = (
 ): OrganizationStateException => {
   let contents: any = {
     __type: "OrganizationStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6161,7 +6161,7 @@ const deserializeAws_json1_1OrganizationSummary = (
     Alias: undefined,
     ErrorMessage: undefined,
     OrganizationId: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.Alias !== undefined && output.Alias !== null) {
     contents.Alias = output.Alias;
@@ -6186,7 +6186,7 @@ const deserializeAws_json1_1Permission = (
     __type: "Permission",
     GranteeId: undefined,
     GranteeType: undefined,
-    PermissionValues: undefined
+    PermissionValues: undefined,
   };
   if (output.GranteeId !== undefined && output.GranteeId !== null) {
     contents.GranteeId = output.GranteeId;
@@ -6227,7 +6227,7 @@ const deserializeAws_json1_1PutMailboxPermissionsResponse = (
   context: __SerdeContext
 ): PutMailboxPermissionsResponse => {
   let contents: any = {
-    __type: "PutMailboxPermissionsResponse"
+    __type: "PutMailboxPermissionsResponse",
   };
   return contents;
 };
@@ -6237,7 +6237,7 @@ const deserializeAws_json1_1RegisterToWorkMailResponse = (
   context: __SerdeContext
 ): RegisterToWorkMailResponse => {
   let contents: any = {
-    __type: "RegisterToWorkMailResponse"
+    __type: "RegisterToWorkMailResponse",
   };
   return contents;
 };
@@ -6248,7 +6248,7 @@ const deserializeAws_json1_1ReservedNameException = (
 ): ReservedNameException => {
   let contents: any = {
     __type: "ReservedNameException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6261,7 +6261,7 @@ const deserializeAws_json1_1ResetPasswordResponse = (
   context: __SerdeContext
 ): ResetPasswordResponse => {
   let contents: any = {
-    __type: "ResetPasswordResponse"
+    __type: "ResetPasswordResponse",
   };
   return contents;
 };
@@ -6278,7 +6278,7 @@ const deserializeAws_json1_1Resource = (
     Id: undefined,
     Name: undefined,
     State: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -6328,7 +6328,7 @@ const deserializeAws_json1_1UnsupportedOperationException = (
 ): UnsupportedOperationException => {
   let contents: any = {
     __type: "UnsupportedOperationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6341,7 +6341,7 @@ const deserializeAws_json1_1UpdateMailboxQuotaResponse = (
   context: __SerdeContext
 ): UpdateMailboxQuotaResponse => {
   let contents: any = {
-    __type: "UpdateMailboxQuotaResponse"
+    __type: "UpdateMailboxQuotaResponse",
   };
   return contents;
 };
@@ -6351,7 +6351,7 @@ const deserializeAws_json1_1UpdatePrimaryEmailAddressResponse = (
   context: __SerdeContext
 ): UpdatePrimaryEmailAddressResponse => {
   let contents: any = {
-    __type: "UpdatePrimaryEmailAddressResponse"
+    __type: "UpdatePrimaryEmailAddressResponse",
   };
   return contents;
 };
@@ -6361,7 +6361,7 @@ const deserializeAws_json1_1UpdateResourceResponse = (
   context: __SerdeContext
 ): UpdateResourceResponse => {
   let contents: any = {
-    __type: "UpdateResourceResponse"
+    __type: "UpdateResourceResponse",
   };
   return contents;
 };
@@ -6379,7 +6379,7 @@ const deserializeAws_json1_1User = (
     Id: undefined,
     Name: undefined,
     State: undefined,
-    UserRole: undefined
+    UserRole: undefined,
   };
   if (output.DisabledDate !== undefined && output.DisabledDate !== null) {
     contents.DisabledDate = new Date(Math.round(output.DisabledDate * 1000));
@@ -6420,7 +6420,7 @@ const deserializeAws_json1_1Users = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6441,7 +6441,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -6454,11 +6454,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -6470,7 +6470,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

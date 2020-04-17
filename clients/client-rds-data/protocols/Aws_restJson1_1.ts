@@ -1,26 +1,26 @@
 import {
   BatchExecuteStatementCommandInput,
-  BatchExecuteStatementCommandOutput
+  BatchExecuteStatementCommandOutput,
 } from "../commands/BatchExecuteStatementCommand";
 import {
   BeginTransactionCommandInput,
-  BeginTransactionCommandOutput
+  BeginTransactionCommandOutput,
 } from "../commands/BeginTransactionCommand";
 import {
   CommitTransactionCommandInput,
-  CommitTransactionCommandOutput
+  CommitTransactionCommandOutput,
 } from "../commands/CommitTransactionCommand";
 import {
   ExecuteSqlCommandInput,
-  ExecuteSqlCommandOutput
+  ExecuteSqlCommandOutput,
 } from "../commands/ExecuteSqlCommand";
 import {
   ExecuteStatementCommandInput,
-  ExecuteStatementCommandOutput
+  ExecuteStatementCommandOutput,
 } from "../commands/ExecuteStatementCommand";
 import {
   RollbackTransactionCommandInput,
-  RollbackTransactionCommandOutput
+  RollbackTransactionCommandOutput,
 } from "../commands/RollbackTransactionCommand";
 import {
   ArrayValue,
@@ -39,18 +39,18 @@ import {
   StructValue,
   UpdateResult,
   Value,
-  _Record
+  _Record,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1BatchExecuteStatementCommand(
@@ -88,12 +88,12 @@ export async function serializeAws_restJson1_1BatchExecuteStatementCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -120,12 +120,12 @@ export async function serializeAws_restJson1_1BeginTransactionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -149,12 +149,12 @@ export async function serializeAws_restJson1_1CommitTransactionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -184,12 +184,12 @@ export async function serializeAws_restJson1_1ExecuteSqlCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -234,12 +234,12 @@ export async function serializeAws_restJson1_1ExecuteStatementCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -263,12 +263,12 @@ export async function serializeAws_restJson1_1RollbackTransactionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -285,7 +285,7 @@ export async function deserializeAws_restJson1_1BatchExecuteStatementCommand(
   const contents: BatchExecuteStatementCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchExecuteStatementResponse",
-    updateResults: undefined
+    updateResults: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.updateResults !== undefined && data.updateResults !== null) {
@@ -303,7 +303,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
 ): Promise<BatchExecuteStatementCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -317,7 +317,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -328,7 +328,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -339,7 +339,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -350,7 +350,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StatementTimeoutException":
@@ -361,7 +361,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -372,7 +372,7 @@ async function deserializeAws_restJson1_1BatchExecuteStatementCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -394,7 +394,7 @@ export async function deserializeAws_restJson1_1BeginTransactionCommand(
   const contents: BeginTransactionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BeginTransactionResponse",
-    transactionId: undefined
+    transactionId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.transactionId !== undefined && data.transactionId !== null) {
@@ -409,7 +409,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
 ): Promise<BeginTransactionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -423,7 +423,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -434,7 +434,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -445,7 +445,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -456,7 +456,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StatementTimeoutException":
@@ -467,7 +467,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -478,7 +478,7 @@ async function deserializeAws_restJson1_1BeginTransactionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -500,7 +500,7 @@ export async function deserializeAws_restJson1_1CommitTransactionCommand(
   const contents: CommitTransactionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CommitTransactionResponse",
-    transactionStatus: undefined
+    transactionStatus: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.transactionStatus !== undefined && data.transactionStatus !== null) {
@@ -515,7 +515,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
 ): Promise<CommitTransactionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -529,7 +529,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -540,7 +540,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -551,7 +551,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -562,7 +562,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -573,7 +573,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -584,7 +584,7 @@ async function deserializeAws_restJson1_1CommitTransactionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -603,7 +603,7 @@ export async function deserializeAws_restJson1_1ExecuteSqlCommand(
   const contents: ExecuteSqlCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ExecuteSqlResponse",
-    sqlStatementResults: undefined
+    sqlStatementResults: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -624,7 +624,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
 ): Promise<ExecuteSqlCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -638,7 +638,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -649,7 +649,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -660,7 +660,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -671,7 +671,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -682,7 +682,7 @@ async function deserializeAws_restJson1_1ExecuteSqlCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -707,7 +707,7 @@ export async function deserializeAws_restJson1_1ExecuteStatementCommand(
     columnMetadata: undefined,
     generatedFields: undefined,
     numberOfRecordsUpdated: undefined,
-    records: undefined
+    records: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.columnMetadata !== undefined && data.columnMetadata !== null) {
@@ -743,7 +743,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
 ): Promise<ExecuteStatementCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -757,7 +757,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -768,7 +768,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -779,7 +779,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -790,7 +790,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StatementTimeoutException":
@@ -801,7 +801,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -812,7 +812,7 @@ async function deserializeAws_restJson1_1ExecuteStatementCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -834,7 +834,7 @@ export async function deserializeAws_restJson1_1RollbackTransactionCommand(
   const contents: RollbackTransactionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RollbackTransactionResponse",
-    transactionStatus: undefined
+    transactionStatus: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.transactionStatus !== undefined && data.transactionStatus !== null) {
@@ -849,7 +849,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
 ): Promise<RollbackTransactionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -863,7 +863,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ForbiddenException":
@@ -874,7 +874,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -885,7 +885,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -896,7 +896,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -907,7 +907,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -918,7 +918,7 @@ async function deserializeAws_restJson1_1RollbackTransactionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -935,7 +935,7 @@ const deserializeAws_restJson1_1BadRequestExceptionResponse = async (
     name: "BadRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -952,7 +952,7 @@ const deserializeAws_restJson1_1ForbiddenExceptionResponse = async (
     name: "ForbiddenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -968,7 +968,7 @@ const deserializeAws_restJson1_1InternalServerErrorExceptionResponse = async (
   const contents: InternalServerErrorException = {
     name: "InternalServerErrorException",
     $fault: "server",
-    $metadata: deserializeMetadata(parsedOutput)
+    $metadata: deserializeMetadata(parsedOutput),
   };
   const data: any = parsedOutput.body;
   return contents;
@@ -982,7 +982,7 @@ const deserializeAws_restJson1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -998,7 +998,7 @@ const deserializeAws_restJson1_1ServiceUnavailableErrorResponse = async (
   const contents: ServiceUnavailableError = {
     name: "ServiceUnavailableError",
     $fault: "server",
-    $metadata: deserializeMetadata(parsedOutput)
+    $metadata: deserializeMetadata(parsedOutput),
   };
   const data: any = parsedOutput.body;
   return contents;
@@ -1013,7 +1013,7 @@ const deserializeAws_restJson1_1StatementTimeoutExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     dbConnectionId: undefined,
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.dbConnectionId !== undefined && data.dbConnectionId !== null) {
@@ -1041,13 +1041,16 @@ const serializeAws_restJson1_1ArrayValue = (
   context: __SerdeContext
 ): any => {
   return ArrayValue.visit(input, {
-    arrayValues: value => serializeAws_restJson1_1ArrayOfArray(value, context),
-    booleanValues: value =>
+    arrayValues: (value) =>
+      serializeAws_restJson1_1ArrayOfArray(value, context),
+    booleanValues: (value) =>
       serializeAws_restJson1_1BooleanArray(value, context),
-    doubleValues: value => serializeAws_restJson1_1DoubleArray(value, context),
-    longValues: value => serializeAws_restJson1_1LongArray(value, context),
-    stringValues: value => serializeAws_restJson1_1StringArray(value, context),
-    _: value => value
+    doubleValues: (value) =>
+      serializeAws_restJson1_1DoubleArray(value, context),
+    longValues: (value) => serializeAws_restJson1_1LongArray(value, context),
+    stringValues: (value) =>
+      serializeAws_restJson1_1StringArray(value, context),
+    _: (value) => value,
   });
 };
 
@@ -1078,14 +1081,14 @@ const serializeAws_restJson1_1Field = (
   context: __SerdeContext
 ): any => {
   return Field.visit(input, {
-    arrayValue: value => serializeAws_restJson1_1ArrayValue(value, context),
-    blobValue: value => context.base64Encoder(value),
-    booleanValue: value => value,
-    doubleValue: value => value,
-    isNull: value => value,
-    longValue: value => value,
-    stringValue: value => value,
-    _: value => value
+    arrayValue: (value) => serializeAws_restJson1_1ArrayValue(value, context),
+    blobValue: (value) => context.base64Encoder(value),
+    booleanValue: (value) => value,
+    doubleValue: (value) => value,
+    isNull: (value) => value,
+    longValue: (value) => value,
+    stringValue: (value) => value,
+    _: (value) => value,
   });
 };
 
@@ -1165,7 +1168,7 @@ const deserializeAws_restJson1_1ArrayValue = (
       arrayValues: deserializeAws_restJson1_1ArrayOfArray(
         output.arrayValues,
         context
-      )
+      ),
     };
   }
   if (output.booleanValues !== undefined && output.booleanValues !== null) {
@@ -1173,7 +1176,7 @@ const deserializeAws_restJson1_1ArrayValue = (
       booleanValues: deserializeAws_restJson1_1BooleanArray(
         output.booleanValues,
         context
-      )
+      ),
     };
   }
   if (output.doubleValues !== undefined && output.doubleValues !== null) {
@@ -1181,7 +1184,7 @@ const deserializeAws_restJson1_1ArrayValue = (
       doubleValues: deserializeAws_restJson1_1DoubleArray(
         output.doubleValues,
         context
-      )
+      ),
     };
   }
   if (output.longValues !== undefined && output.longValues !== null) {
@@ -1189,7 +1192,7 @@ const deserializeAws_restJson1_1ArrayValue = (
       longValues: deserializeAws_restJson1_1LongArray(
         output.longValues,
         context
-      )
+      ),
     };
   }
   if (output.stringValues !== undefined && output.stringValues !== null) {
@@ -1197,7 +1200,7 @@ const deserializeAws_restJson1_1ArrayValue = (
       stringValues: deserializeAws_restJson1_1StringArray(
         output.stringValues,
         context
-      )
+      ),
     };
   }
   const key = Object.keys(output)[0];
@@ -1239,7 +1242,7 @@ const deserializeAws_restJson1_1ColumnMetadata = (
     schemaName: undefined,
     tableName: undefined,
     type: undefined,
-    typeName: undefined
+    typeName: undefined,
   };
   if (
     output.arrayBaseColumnType !== undefined &&
@@ -1305,37 +1308,37 @@ const deserializeAws_restJson1_1Field = (
       arrayValue: deserializeAws_restJson1_1ArrayValue(
         output.arrayValue,
         context
-      )
+      ),
     };
   }
   if (output.blobValue !== undefined && output.blobValue !== null) {
     return {
-      blobValue: context.base64Decoder(output.blobValue)
+      blobValue: context.base64Decoder(output.blobValue),
     };
   }
   if (output.booleanValue !== undefined && output.booleanValue !== null) {
     return {
-      booleanValue: output.booleanValue
+      booleanValue: output.booleanValue,
     };
   }
   if (output.doubleValue !== undefined && output.doubleValue !== null) {
     return {
-      doubleValue: output.doubleValue
+      doubleValue: output.doubleValue,
     };
   }
   if (output.isNull !== undefined && output.isNull !== null) {
     return {
-      isNull: output.isNull
+      isNull: output.isNull,
     };
   }
   if (output.longValue !== undefined && output.longValue !== null) {
     return {
-      longValue: output.longValue
+      longValue: output.longValue,
     };
   }
   if (output.stringValue !== undefined && output.stringValue !== null) {
     return {
-      stringValue: output.stringValue
+      stringValue: output.stringValue,
     };
   }
   const key = Object.keys(output)[0];
@@ -1373,7 +1376,7 @@ const deserializeAws_restJson1_1_Record = (
 ): _Record => {
   let contents: any = {
     __type: "Record",
-    values: undefined
+    values: undefined,
   };
   if (output.values !== undefined && output.values !== null) {
     contents.values = deserializeAws_restJson1_1Row(output.values, context);
@@ -1397,7 +1400,7 @@ const deserializeAws_restJson1_1ResultFrame = (
   let contents: any = {
     __type: "ResultFrame",
     records: undefined,
-    resultSetMetadata: undefined
+    resultSetMetadata: undefined,
   };
   if (output.records !== undefined && output.records !== null) {
     contents.records = deserializeAws_restJson1_1Records(
@@ -1424,7 +1427,7 @@ const deserializeAws_restJson1_1ResultSetMetadata = (
   let contents: any = {
     __type: "ResultSetMetadata",
     columnCount: undefined,
-    columnMetadata: undefined
+    columnMetadata: undefined,
   };
   if (output.columnCount !== undefined && output.columnCount !== null) {
     contents.columnCount = output.columnCount;
@@ -1463,7 +1466,7 @@ const deserializeAws_restJson1_1SqlStatementResult = (
   let contents: any = {
     __type: "SqlStatementResult",
     numberOfRecordsUpdated: undefined,
-    resultFrame: undefined
+    resultFrame: undefined,
   };
   if (
     output.numberOfRecordsUpdated !== undefined &&
@@ -1502,7 +1505,7 @@ const deserializeAws_restJson1_1StructValue = (
 ): StructValue => {
   let contents: any = {
     __type: "StructValue",
-    attributes: undefined
+    attributes: undefined,
   };
   if (output.attributes !== undefined && output.attributes !== null) {
     contents.attributes = deserializeAws_restJson1_1ArrayValueList(
@@ -1519,7 +1522,7 @@ const deserializeAws_restJson1_1UpdateResult = (
 ): UpdateResult => {
   let contents: any = {
     __type: "UpdateResult",
-    generatedFields: undefined
+    generatedFields: undefined,
   };
   if (output.generatedFields !== undefined && output.generatedFields !== null) {
     contents.generatedFields = deserializeAws_restJson1_1FieldList(
@@ -1548,47 +1551,47 @@ const deserializeAws_restJson1_1Value = (
       arrayValues: deserializeAws_restJson1_1ArrayValueList(
         output.arrayValues,
         context
-      )
+      ),
     };
   }
   if (output.bigIntValue !== undefined && output.bigIntValue !== null) {
     return {
-      bigIntValue: output.bigIntValue
+      bigIntValue: output.bigIntValue,
     };
   }
   if (output.bitValue !== undefined && output.bitValue !== null) {
     return {
-      bitValue: output.bitValue
+      bitValue: output.bitValue,
     };
   }
   if (output.blobValue !== undefined && output.blobValue !== null) {
     return {
-      blobValue: context.base64Decoder(output.blobValue)
+      blobValue: context.base64Decoder(output.blobValue),
     };
   }
   if (output.doubleValue !== undefined && output.doubleValue !== null) {
     return {
-      doubleValue: output.doubleValue
+      doubleValue: output.doubleValue,
     };
   }
   if (output.intValue !== undefined && output.intValue !== null) {
     return {
-      intValue: output.intValue
+      intValue: output.intValue,
     };
   }
   if (output.isNull !== undefined && output.isNull !== null) {
     return {
-      isNull: output.isNull
+      isNull: output.isNull,
     };
   }
   if (output.realValue !== undefined && output.realValue !== null) {
     return {
-      realValue: output.realValue
+      realValue: output.realValue,
     };
   }
   if (output.stringValue !== undefined && output.stringValue !== null) {
     return {
-      stringValue: output.stringValue
+      stringValue: output.stringValue,
     };
   }
   if (output.structValue !== undefined && output.structValue !== null) {
@@ -1596,7 +1599,7 @@ const deserializeAws_restJson1_1Value = (
       structValue: deserializeAws_restJson1_1StructValue(
         output.structValue,
         context
-      )
+      ),
     };
   }
   const key = Object.keys(output)[0];
@@ -1606,7 +1609,7 @@ const deserializeAws_restJson1_1Value = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1627,13 +1630,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1646,7 +1649,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

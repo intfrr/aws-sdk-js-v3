@@ -1,54 +1,54 @@
 import {
   DescribeEntitiesDetectionV2JobCommandInput,
-  DescribeEntitiesDetectionV2JobCommandOutput
+  DescribeEntitiesDetectionV2JobCommandOutput,
 } from "../commands/DescribeEntitiesDetectionV2JobCommand";
 import {
   DescribePHIDetectionJobCommandInput,
-  DescribePHIDetectionJobCommandOutput
+  DescribePHIDetectionJobCommandOutput,
 } from "../commands/DescribePHIDetectionJobCommand";
 import {
   DetectEntitiesCommandInput,
-  DetectEntitiesCommandOutput
+  DetectEntitiesCommandOutput,
 } from "../commands/DetectEntitiesCommand";
 import {
   DetectEntitiesV2CommandInput,
-  DetectEntitiesV2CommandOutput
+  DetectEntitiesV2CommandOutput,
 } from "../commands/DetectEntitiesV2Command";
 import {
   DetectPHICommandInput,
-  DetectPHICommandOutput
+  DetectPHICommandOutput,
 } from "../commands/DetectPHICommand";
 import {
   InferICD10CMCommandInput,
-  InferICD10CMCommandOutput
+  InferICD10CMCommandOutput,
 } from "../commands/InferICD10CMCommand";
 import {
   InferRxNormCommandInput,
-  InferRxNormCommandOutput
+  InferRxNormCommandOutput,
 } from "../commands/InferRxNormCommand";
 import {
   ListEntitiesDetectionV2JobsCommandInput,
-  ListEntitiesDetectionV2JobsCommandOutput
+  ListEntitiesDetectionV2JobsCommandOutput,
 } from "../commands/ListEntitiesDetectionV2JobsCommand";
 import {
   ListPHIDetectionJobsCommandInput,
-  ListPHIDetectionJobsCommandOutput
+  ListPHIDetectionJobsCommandOutput,
 } from "../commands/ListPHIDetectionJobsCommand";
 import {
   StartEntitiesDetectionV2JobCommandInput,
-  StartEntitiesDetectionV2JobCommandOutput
+  StartEntitiesDetectionV2JobCommandOutput,
 } from "../commands/StartEntitiesDetectionV2JobCommand";
 import {
   StartPHIDetectionJobCommandInput,
-  StartPHIDetectionJobCommandOutput
+  StartPHIDetectionJobCommandOutput,
 } from "../commands/StartPHIDetectionJobCommand";
 import {
   StopEntitiesDetectionV2JobCommandInput,
-  StopEntitiesDetectionV2JobCommandOutput
+  StopEntitiesDetectionV2JobCommandOutput,
 } from "../commands/StopEntitiesDetectionV2JobCommand";
 import {
   StopPHIDetectionJobCommandInput,
-  StopPHIDetectionJobCommandOutput
+  StopPHIDetectionJobCommandOutput,
 } from "../commands/StopPHIDetectionJobCommand";
 import {
   Attribute,
@@ -100,11 +100,11 @@ import {
   TooManyRequestsException,
   Trait,
   UnmappedAttribute,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -112,7 +112,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -318,7 +318,7 @@ export async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobComman
   const response: DescribeEntitiesDetectionV2JobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeEntitiesDetectionV2JobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -329,7 +329,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
 ): Promise<DescribeEntitiesDetectionV2JobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -345,7 +345,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -356,7 +356,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -367,7 +367,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -378,7 +378,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -389,7 +389,7 @@ async function deserializeAws_json1_1DescribeEntitiesDetectionV2JobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -417,7 +417,7 @@ export async function deserializeAws_json1_1DescribePHIDetectionJobCommand(
   const response: DescribePHIDetectionJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribePHIDetectionJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -428,7 +428,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
 ): Promise<DescribePHIDetectionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -444,7 +444,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -455,7 +455,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -466,7 +466,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -477,7 +477,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -488,7 +488,7 @@ async function deserializeAws_json1_1DescribePHIDetectionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -510,7 +510,7 @@ export async function deserializeAws_json1_1DetectEntitiesCommand(
   const response: DetectEntitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectEntitiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -521,7 +521,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
 ): Promise<DetectEntitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -537,7 +537,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEncodingException":
@@ -548,7 +548,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -559,7 +559,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -570,7 +570,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -581,7 +581,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -592,7 +592,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -603,7 +603,7 @@ async function deserializeAws_json1_1DetectEntitiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -625,7 +625,7 @@ export async function deserializeAws_json1_1DetectEntitiesV2Command(
   const response: DetectEntitiesV2CommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectEntitiesV2Response",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -636,7 +636,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
 ): Promise<DetectEntitiesV2CommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -652,7 +652,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEncodingException":
@@ -663,7 +663,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -674,7 +674,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -685,7 +685,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -696,7 +696,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -707,7 +707,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -718,7 +718,7 @@ async function deserializeAws_json1_1DetectEntitiesV2CommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -740,7 +740,7 @@ export async function deserializeAws_json1_1DetectPHICommand(
   const response: DetectPHICommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectPHIResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -751,7 +751,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
 ): Promise<DetectPHICommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -767,7 +767,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEncodingException":
@@ -778,7 +778,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -789,7 +789,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -800,7 +800,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -811,7 +811,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -822,7 +822,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -833,7 +833,7 @@ async function deserializeAws_json1_1DetectPHICommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -855,7 +855,7 @@ export async function deserializeAws_json1_1InferICD10CMCommand(
   const response: InferICD10CMCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InferICD10CMResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -866,7 +866,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
 ): Promise<InferICD10CMCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -882,7 +882,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEncodingException":
@@ -893,7 +893,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -904,7 +904,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -915,7 +915,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -926,7 +926,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -937,7 +937,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -948,7 +948,7 @@ async function deserializeAws_json1_1InferICD10CMCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -970,7 +970,7 @@ export async function deserializeAws_json1_1InferRxNormCommand(
   const response: InferRxNormCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InferRxNormResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -981,7 +981,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
 ): Promise<InferRxNormCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -997,7 +997,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidEncodingException":
@@ -1008,7 +1008,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1019,7 +1019,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1030,7 +1030,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TextSizeLimitExceededException":
@@ -1041,7 +1041,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1052,7 +1052,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1063,7 +1063,7 @@ async function deserializeAws_json1_1InferRxNormCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1091,7 +1091,7 @@ export async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommand(
   const response: ListEntitiesDetectionV2JobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListEntitiesDetectionV2JobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1102,7 +1102,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
 ): Promise<ListEntitiesDetectionV2JobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1118,7 +1118,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1129,7 +1129,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1140,7 +1140,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1151,7 +1151,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1162,7 +1162,7 @@ async function deserializeAws_json1_1ListEntitiesDetectionV2JobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1187,7 +1187,7 @@ export async function deserializeAws_json1_1ListPHIDetectionJobsCommand(
   const response: ListPHIDetectionJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPHIDetectionJobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1198,7 +1198,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
 ): Promise<ListPHIDetectionJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1214,7 +1214,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1225,7 +1225,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1236,7 +1236,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1247,7 +1247,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1258,7 +1258,7 @@ async function deserializeAws_json1_1ListPHIDetectionJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1286,7 +1286,7 @@ export async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommand(
   const response: StartEntitiesDetectionV2JobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartEntitiesDetectionV2JobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1297,7 +1297,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
 ): Promise<StartEntitiesDetectionV2JobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1313,7 +1313,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1324,7 +1324,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1335,7 +1335,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1346,7 +1346,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1357,7 +1357,7 @@ async function deserializeAws_json1_1StartEntitiesDetectionV2JobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1382,7 +1382,7 @@ export async function deserializeAws_json1_1StartPHIDetectionJobCommand(
   const response: StartPHIDetectionJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartPHIDetectionJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1393,7 +1393,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
 ): Promise<StartPHIDetectionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1409,7 +1409,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1420,7 +1420,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1431,7 +1431,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1442,7 +1442,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1453,7 +1453,7 @@ async function deserializeAws_json1_1StartPHIDetectionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1481,7 +1481,7 @@ export async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommand(
   const response: StopEntitiesDetectionV2JobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopEntitiesDetectionV2JobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1492,7 +1492,7 @@ async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommandError(
 ): Promise<StopEntitiesDetectionV2JobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1508,7 +1508,7 @@ async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1519,7 +1519,7 @@ async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1530,7 +1530,7 @@ async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1541,7 +1541,7 @@ async function deserializeAws_json1_1StopEntitiesDetectionV2JobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1566,7 +1566,7 @@ export async function deserializeAws_json1_1StopPHIDetectionJobCommand(
   const response: StopPHIDetectionJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopPHIDetectionJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1577,7 +1577,7 @@ async function deserializeAws_json1_1StopPHIDetectionJobCommandError(
 ): Promise<StopPHIDetectionJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1593,7 +1593,7 @@ async function deserializeAws_json1_1StopPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1604,7 +1604,7 @@ async function deserializeAws_json1_1StopPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1615,7 +1615,7 @@ async function deserializeAws_json1_1StopPHIDetectionJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1626,7 +1626,7 @@ async function deserializeAws_json1_1StopPHIDetectionJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1648,7 +1648,7 @@ const deserializeAws_json1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1666,7 +1666,7 @@ const deserializeAws_json1_1InvalidEncodingExceptionResponse = async (
     name: "InvalidEncodingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1684,7 +1684,7 @@ const deserializeAws_json1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1702,7 +1702,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1720,7 +1720,7 @@ const deserializeAws_json1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1738,7 +1738,7 @@ const deserializeAws_json1_1TextSizeLimitExceededExceptionResponse = async (
     name: "TextSizeLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1756,7 +1756,7 @@ const deserializeAws_json1_1TooManyRequestsExceptionResponse = async (
     name: "TooManyRequestsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1774,7 +1774,7 @@ const deserializeAws_json1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2059,7 +2059,7 @@ const deserializeAws_json1_1Attribute = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.BeginOffset !== undefined && output.BeginOffset !== null) {
     contents.BeginOffset = output.BeginOffset;
@@ -2119,7 +2119,7 @@ const deserializeAws_json1_1ComprehendMedicalAsyncJobProperties = (
     Message: undefined,
     ModelVersion: undefined,
     OutputDataConfig: undefined,
-    SubmitTime: undefined
+    SubmitTime: undefined,
   };
   if (
     output.DataAccessRoleArn !== undefined &&
@@ -2198,7 +2198,7 @@ const deserializeAws_json1_1DescribeEntitiesDetectionV2JobResponse = (
 ): DescribeEntitiesDetectionV2JobResponse => {
   let contents: any = {
     __type: "DescribeEntitiesDetectionV2JobResponse",
-    ComprehendMedicalAsyncJobProperties: undefined
+    ComprehendMedicalAsyncJobProperties: undefined,
   };
   if (
     output.ComprehendMedicalAsyncJobProperties !== undefined &&
@@ -2218,7 +2218,7 @@ const deserializeAws_json1_1DescribePHIDetectionJobResponse = (
 ): DescribePHIDetectionJobResponse => {
   let contents: any = {
     __type: "DescribePHIDetectionJobResponse",
-    ComprehendMedicalAsyncJobProperties: undefined
+    ComprehendMedicalAsyncJobProperties: undefined,
   };
   if (
     output.ComprehendMedicalAsyncJobProperties !== undefined &&
@@ -2241,7 +2241,7 @@ const deserializeAws_json1_1DetectEntitiesResponse = (
     Entities: undefined,
     ModelVersion: undefined,
     PaginationToken: undefined,
-    UnmappedAttributes: undefined
+    UnmappedAttributes: undefined,
   };
   if (output.Entities !== undefined && output.Entities !== null) {
     contents.Entities = deserializeAws_json1_1EntityList(
@@ -2276,7 +2276,7 @@ const deserializeAws_json1_1DetectEntitiesV2Response = (
     Entities: undefined,
     ModelVersion: undefined,
     PaginationToken: undefined,
-    UnmappedAttributes: undefined
+    UnmappedAttributes: undefined,
   };
   if (output.Entities !== undefined && output.Entities !== null) {
     contents.Entities = deserializeAws_json1_1EntityList(
@@ -2310,7 +2310,7 @@ const deserializeAws_json1_1DetectPHIResponse = (
     __type: "DetectPHIResponse",
     Entities: undefined,
     ModelVersion: undefined,
-    PaginationToken: undefined
+    PaginationToken: undefined,
   };
   if (output.Entities !== undefined && output.Entities !== null) {
     contents.Entities = deserializeAws_json1_1EntityList(
@@ -2341,7 +2341,7 @@ const deserializeAws_json1_1Entity = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1AttributeList(
@@ -2398,7 +2398,7 @@ const deserializeAws_json1_1ICD10CMAttribute = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.BeginOffset !== undefined && output.BeginOffset !== null) {
     contents.BeginOffset = output.BeginOffset;
@@ -2450,7 +2450,7 @@ const deserializeAws_json1_1ICD10CMConcept = (
     __type: "ICD10CMConcept",
     Code: undefined,
     Description: undefined,
-    Score: undefined
+    Score: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2488,7 +2488,7 @@ const deserializeAws_json1_1ICD10CMEntity = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1ICD10CMAttributeList(
@@ -2548,7 +2548,7 @@ const deserializeAws_json1_1ICD10CMTrait = (
   let contents: any = {
     __type: "ICD10CMTrait",
     Name: undefined,
-    Score: undefined
+    Score: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -2576,7 +2576,7 @@ const deserializeAws_json1_1InferICD10CMResponse = (
     __type: "InferICD10CMResponse",
     Entities: undefined,
     ModelVersion: undefined,
-    PaginationToken: undefined
+    PaginationToken: undefined,
   };
   if (output.Entities !== undefined && output.Entities !== null) {
     contents.Entities = deserializeAws_json1_1ICD10CMEntityList(
@@ -2601,7 +2601,7 @@ const deserializeAws_json1_1InferRxNormResponse = (
     __type: "InferRxNormResponse",
     Entities: undefined,
     ModelVersion: undefined,
-    PaginationToken: undefined
+    PaginationToken: undefined,
   };
   if (output.Entities !== undefined && output.Entities !== null) {
     contents.Entities = deserializeAws_json1_1RxNormEntityList(
@@ -2625,7 +2625,7 @@ const deserializeAws_json1_1InputDataConfig = (
   let contents: any = {
     __type: "InputDataConfig",
     S3Bucket: undefined,
-    S3Key: undefined
+    S3Key: undefined,
   };
   if (output.S3Bucket !== undefined && output.S3Bucket !== null) {
     contents.S3Bucket = output.S3Bucket;
@@ -2642,7 +2642,7 @@ const deserializeAws_json1_1InternalServerException = (
 ): InternalServerException => {
   let contents: any = {
     __type: "InternalServerException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2656,7 +2656,7 @@ const deserializeAws_json1_1InvalidEncodingException = (
 ): InvalidEncodingException => {
   let contents: any = {
     __type: "InvalidEncodingException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2670,7 +2670,7 @@ const deserializeAws_json1_1InvalidRequestException = (
 ): InvalidRequestException => {
   let contents: any = {
     __type: "InvalidRequestException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2685,7 +2685,7 @@ const deserializeAws_json1_1ListEntitiesDetectionV2JobsResponse = (
   let contents: any = {
     __type: "ListEntitiesDetectionV2JobsResponse",
     ComprehendMedicalAsyncJobPropertiesList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.ComprehendMedicalAsyncJobPropertiesList !== undefined &&
@@ -2709,7 +2709,7 @@ const deserializeAws_json1_1ListPHIDetectionJobsResponse = (
   let contents: any = {
     __type: "ListPHIDetectionJobsResponse",
     ComprehendMedicalAsyncJobPropertiesList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.ComprehendMedicalAsyncJobPropertiesList !== undefined &&
@@ -2733,7 +2733,7 @@ const deserializeAws_json1_1OutputDataConfig = (
   let contents: any = {
     __type: "OutputDataConfig",
     S3Bucket: undefined,
-    S3Key: undefined
+    S3Key: undefined,
   };
   if (output.S3Bucket !== undefined && output.S3Bucket !== null) {
     contents.S3Bucket = output.S3Bucket;
@@ -2750,7 +2750,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2771,7 +2771,7 @@ const deserializeAws_json1_1RxNormAttribute = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.BeginOffset !== undefined && output.BeginOffset !== null) {
     contents.BeginOffset = output.BeginOffset;
@@ -2823,7 +2823,7 @@ const deserializeAws_json1_1RxNormConcept = (
     __type: "RxNormConcept",
     Code: undefined,
     Description: undefined,
-    Score: undefined
+    Score: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -2861,7 +2861,7 @@ const deserializeAws_json1_1RxNormEntity = (
     Score: undefined,
     Text: undefined,
     Traits: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1RxNormAttributeList(
@@ -2921,7 +2921,7 @@ const deserializeAws_json1_1RxNormTrait = (
   let contents: any = {
     __type: "RxNormTrait",
     Name: undefined,
-    Score: undefined
+    Score: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -2947,7 +2947,7 @@ const deserializeAws_json1_1ServiceUnavailableException = (
 ): ServiceUnavailableException => {
   let contents: any = {
     __type: "ServiceUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2961,7 +2961,7 @@ const deserializeAws_json1_1StartEntitiesDetectionV2JobResponse = (
 ): StartEntitiesDetectionV2JobResponse => {
   let contents: any = {
     __type: "StartEntitiesDetectionV2JobResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -2975,7 +2975,7 @@ const deserializeAws_json1_1StartPHIDetectionJobResponse = (
 ): StartPHIDetectionJobResponse => {
   let contents: any = {
     __type: "StartPHIDetectionJobResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -2989,7 +2989,7 @@ const deserializeAws_json1_1StopEntitiesDetectionV2JobResponse = (
 ): StopEntitiesDetectionV2JobResponse => {
   let contents: any = {
     __type: "StopEntitiesDetectionV2JobResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -3003,7 +3003,7 @@ const deserializeAws_json1_1StopPHIDetectionJobResponse = (
 ): StopPHIDetectionJobResponse => {
   let contents: any = {
     __type: "StopPHIDetectionJobResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -3017,7 +3017,7 @@ const deserializeAws_json1_1TextSizeLimitExceededException = (
 ): TextSizeLimitExceededException => {
   let contents: any = {
     __type: "TextSizeLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3031,7 +3031,7 @@ const deserializeAws_json1_1TooManyRequestsException = (
 ): TooManyRequestsException => {
   let contents: any = {
     __type: "TooManyRequestsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3046,7 +3046,7 @@ const deserializeAws_json1_1Trait = (
   let contents: any = {
     __type: "Trait",
     Name: undefined,
-    Score: undefined
+    Score: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -3073,7 +3073,7 @@ const deserializeAws_json1_1UnmappedAttribute = (
   let contents: any = {
     __type: "UnmappedAttribute",
     Attribute: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Attribute !== undefined && output.Attribute !== null) {
     contents.Attribute = deserializeAws_json1_1Attribute(
@@ -3102,7 +3102,7 @@ const deserializeAws_json1_1ValidationException = (
 ): ValidationException => {
   let contents: any = {
     __type: "ValidationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3113,7 +3113,7 @@ const deserializeAws_json1_1ValidationException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3134,7 +3134,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3147,11 +3147,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3163,7 +3163,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

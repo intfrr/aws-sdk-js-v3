@@ -1,14 +1,14 @@
 import {
   CreateTokenCommandInput,
-  CreateTokenCommandOutput
+  CreateTokenCommandOutput,
 } from "../commands/CreateTokenCommand";
 import {
   RegisterClientCommandInput,
-  RegisterClientCommandOutput
+  RegisterClientCommandOutput,
 } from "../commands/RegisterClientCommand";
 import {
   StartDeviceAuthorizationCommandInput,
-  StartDeviceAuthorizationCommandOutput
+  StartDeviceAuthorizationCommandOutput,
 } from "../commands/StartDeviceAuthorizationCommand";
 import {
   AccessDeniedException,
@@ -22,18 +22,18 @@ import {
   InvalidScopeException,
   SlowDownException,
   UnauthorizedClientException,
-  UnsupportedGrantTypeException
+  UnsupportedGrantTypeException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1CreateTokenCommand(
@@ -71,12 +71,12 @@ export async function serializeAws_restJson1_1CreateTokenCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -103,12 +103,12 @@ export async function serializeAws_restJson1_1RegisterClientCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -132,12 +132,12 @@ export async function serializeAws_restJson1_1StartDeviceAuthorizationCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -155,7 +155,7 @@ export async function deserializeAws_restJson1_1CreateTokenCommand(
     expiresIn: undefined,
     idToken: undefined,
     refreshToken: undefined,
-    tokenType: undefined
+    tokenType: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.accessToken !== undefined && data.accessToken !== null) {
@@ -182,7 +182,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
 ): Promise<CreateTokenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -196,7 +196,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationPendingException":
@@ -207,7 +207,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExpiredTokenException":
@@ -218,7 +218,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -229,7 +229,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientException":
@@ -240,7 +240,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGrantException":
@@ -251,7 +251,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -262,7 +262,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidScopeException":
@@ -273,7 +273,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SlowDownException":
@@ -284,7 +284,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedClientException":
@@ -295,7 +295,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedGrantTypeException":
@@ -306,7 +306,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -317,7 +317,7 @@ async function deserializeAws_restJson1_1CreateTokenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -344,7 +344,7 @@ export async function deserializeAws_restJson1_1RegisterClientCommand(
     clientIdIssuedAt: undefined,
     clientSecret: undefined,
     clientSecretExpiresAt: undefined,
-    tokenEndpoint: undefined
+    tokenEndpoint: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -380,7 +380,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
 ): Promise<RegisterClientCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -394,7 +394,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientMetadataException":
@@ -405,7 +405,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -416,7 +416,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidScopeException":
@@ -427,7 +427,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -438,7 +438,7 @@ async function deserializeAws_restJson1_1RegisterClientCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -465,7 +465,7 @@ export async function deserializeAws_restJson1_1StartDeviceAuthorizationCommand(
     interval: undefined,
     userCode: undefined,
     verificationUri: undefined,
-    verificationUriComplete: undefined
+    verificationUriComplete: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.deviceCode !== undefined && data.deviceCode !== null) {
@@ -498,7 +498,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
 ): Promise<StartDeviceAuthorizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -512,7 +512,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClientException":
@@ -523,7 +523,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -534,7 +534,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SlowDownException":
@@ -545,7 +545,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedClientException":
@@ -556,7 +556,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -567,7 +567,7 @@ async function deserializeAws_restJson1_1StartDeviceAuthorizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -585,7 +585,7 @@ const deserializeAws_restJson1_1AccessDeniedExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -606,7 +606,7 @@ const deserializeAws_restJson1_1AuthorizationPendingExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -627,7 +627,7 @@ const deserializeAws_restJson1_1ExpiredTokenExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -648,7 +648,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -669,7 +669,7 @@ const deserializeAws_restJson1_1InvalidClientExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -690,7 +690,7 @@ const deserializeAws_restJson1_1InvalidClientMetadataExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -711,7 +711,7 @@ const deserializeAws_restJson1_1InvalidGrantExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -732,7 +732,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -753,7 +753,7 @@ const deserializeAws_restJson1_1InvalidScopeExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -774,7 +774,7 @@ const deserializeAws_restJson1_1SlowDownExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -795,7 +795,7 @@ const deserializeAws_restJson1_1UnauthorizedClientExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -816,7 +816,7 @@ const deserializeAws_restJson1_1UnsupportedGrantTypeExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     error: undefined,
-    error_description: undefined
+    error_description: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.error !== undefined && data.error !== null) {
@@ -842,7 +842,7 @@ const serializeAws_restJson1_1Scopes = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -863,13 +863,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -882,7 +882,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

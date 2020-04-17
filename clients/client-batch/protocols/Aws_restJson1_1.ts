@@ -1,66 +1,66 @@
 import {
   CancelJobCommandInput,
-  CancelJobCommandOutput
+  CancelJobCommandOutput,
 } from "../commands/CancelJobCommand";
 import {
   CreateComputeEnvironmentCommandInput,
-  CreateComputeEnvironmentCommandOutput
+  CreateComputeEnvironmentCommandOutput,
 } from "../commands/CreateComputeEnvironmentCommand";
 import {
   CreateJobQueueCommandInput,
-  CreateJobQueueCommandOutput
+  CreateJobQueueCommandOutput,
 } from "../commands/CreateJobQueueCommand";
 import {
   DeleteComputeEnvironmentCommandInput,
-  DeleteComputeEnvironmentCommandOutput
+  DeleteComputeEnvironmentCommandOutput,
 } from "../commands/DeleteComputeEnvironmentCommand";
 import {
   DeleteJobQueueCommandInput,
-  DeleteJobQueueCommandOutput
+  DeleteJobQueueCommandOutput,
 } from "../commands/DeleteJobQueueCommand";
 import {
   DeregisterJobDefinitionCommandInput,
-  DeregisterJobDefinitionCommandOutput
+  DeregisterJobDefinitionCommandOutput,
 } from "../commands/DeregisterJobDefinitionCommand";
 import {
   DescribeComputeEnvironmentsCommandInput,
-  DescribeComputeEnvironmentsCommandOutput
+  DescribeComputeEnvironmentsCommandOutput,
 } from "../commands/DescribeComputeEnvironmentsCommand";
 import {
   DescribeJobDefinitionsCommandInput,
-  DescribeJobDefinitionsCommandOutput
+  DescribeJobDefinitionsCommandOutput,
 } from "../commands/DescribeJobDefinitionsCommand";
 import {
   DescribeJobQueuesCommandInput,
-  DescribeJobQueuesCommandOutput
+  DescribeJobQueuesCommandOutput,
 } from "../commands/DescribeJobQueuesCommand";
 import {
   DescribeJobsCommandInput,
-  DescribeJobsCommandOutput
+  DescribeJobsCommandOutput,
 } from "../commands/DescribeJobsCommand";
 import {
   ListJobsCommandInput,
-  ListJobsCommandOutput
+  ListJobsCommandOutput,
 } from "../commands/ListJobsCommand";
 import {
   RegisterJobDefinitionCommandInput,
-  RegisterJobDefinitionCommandOutput
+  RegisterJobDefinitionCommandOutput,
 } from "../commands/RegisterJobDefinitionCommand";
 import {
   SubmitJobCommandInput,
-  SubmitJobCommandOutput
+  SubmitJobCommandOutput,
 } from "../commands/SubmitJobCommand";
 import {
   TerminateJobCommandInput,
-  TerminateJobCommandOutput
+  TerminateJobCommandOutput,
 } from "../commands/TerminateJobCommand";
 import {
   UpdateComputeEnvironmentCommandInput,
-  UpdateComputeEnvironmentCommandOutput
+  UpdateComputeEnvironmentCommandOutput,
 } from "../commands/UpdateComputeEnvironmentCommand";
 import {
   UpdateJobQueueCommandInput,
-  UpdateJobQueueCommandOutput
+  UpdateJobQueueCommandOutput,
 } from "../commands/UpdateJobQueueCommand";
 import {
   ArrayProperties,
@@ -101,18 +101,18 @@ import {
   RetryStrategy,
   ServerException,
   Ulimit,
-  Volume
+  Volume,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1CancelJobCommand(
@@ -132,12 +132,12 @@ export async function serializeAws_restJson1_1CancelJobCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -170,12 +170,12 @@ export async function serializeAws_restJson1_1CreateComputeEnvironmentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -207,12 +207,12 @@ export async function serializeAws_restJson1_1CreateJobQueueCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -230,12 +230,12 @@ export async function serializeAws_restJson1_1DeleteComputeEnvironmentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -253,12 +253,12 @@ export async function serializeAws_restJson1_1DeleteJobQueueCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -276,12 +276,12 @@ export async function serializeAws_restJson1_1DeregisterJobDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -308,12 +308,12 @@ export async function serializeAws_restJson1_1DescribeComputeEnvironmentsCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -346,12 +346,12 @@ export async function serializeAws_restJson1_1DescribeJobDefinitionsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -378,12 +378,12 @@ export async function serializeAws_restJson1_1DescribeJobQueuesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -404,12 +404,12 @@ export async function serializeAws_restJson1_1DescribeJobsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -442,12 +442,12 @@ export async function serializeAws_restJson1_1ListJobsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -500,12 +500,12 @@ export async function serializeAws_restJson1_1RegisterJobDefinitionCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -573,12 +573,12 @@ export async function serializeAws_restJson1_1SubmitJobCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -599,12 +599,12 @@ export async function serializeAws_restJson1_1TerminateJobCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -636,12 +636,12 @@ export async function serializeAws_restJson1_1UpdateComputeEnvironmentCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -673,12 +673,12 @@ export async function serializeAws_restJson1_1UpdateJobQueueCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -691,7 +691,7 @@ export async function deserializeAws_restJson1_1CancelJobCommand(
   }
   const contents: CancelJobCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "CancelJobResponse"
+    __type: "CancelJobResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -703,7 +703,7 @@ async function deserializeAws_restJson1_1CancelJobCommandError(
 ): Promise<CancelJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -717,7 +717,7 @@ async function deserializeAws_restJson1_1CancelJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -728,7 +728,7 @@ async function deserializeAws_restJson1_1CancelJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -739,7 +739,7 @@ async function deserializeAws_restJson1_1CancelJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -762,7 +762,7 @@ export async function deserializeAws_restJson1_1CreateComputeEnvironmentCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateComputeEnvironmentResponse",
     computeEnvironmentArn: undefined,
-    computeEnvironmentName: undefined
+    computeEnvironmentName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -786,7 +786,7 @@ async function deserializeAws_restJson1_1CreateComputeEnvironmentCommandError(
 ): Promise<CreateComputeEnvironmentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -800,7 +800,7 @@ async function deserializeAws_restJson1_1CreateComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -811,7 +811,7 @@ async function deserializeAws_restJson1_1CreateComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -822,7 +822,7 @@ async function deserializeAws_restJson1_1CreateComputeEnvironmentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -845,7 +845,7 @@ export async function deserializeAws_restJson1_1CreateJobQueueCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateJobQueueResponse",
     jobQueueArn: undefined,
-    jobQueueName: undefined
+    jobQueueName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobQueueArn !== undefined && data.jobQueueArn !== null) {
@@ -863,7 +863,7 @@ async function deserializeAws_restJson1_1CreateJobQueueCommandError(
 ): Promise<CreateJobQueueCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -877,7 +877,7 @@ async function deserializeAws_restJson1_1CreateJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -888,7 +888,7 @@ async function deserializeAws_restJson1_1CreateJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -899,7 +899,7 @@ async function deserializeAws_restJson1_1CreateJobQueueCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -920,7 +920,7 @@ export async function deserializeAws_restJson1_1DeleteComputeEnvironmentCommand(
   }
   const contents: DeleteComputeEnvironmentCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteComputeEnvironmentResponse"
+    __type: "DeleteComputeEnvironmentResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -932,7 +932,7 @@ async function deserializeAws_restJson1_1DeleteComputeEnvironmentCommandError(
 ): Promise<DeleteComputeEnvironmentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -946,7 +946,7 @@ async function deserializeAws_restJson1_1DeleteComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -957,7 +957,7 @@ async function deserializeAws_restJson1_1DeleteComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -968,7 +968,7 @@ async function deserializeAws_restJson1_1DeleteComputeEnvironmentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -989,7 +989,7 @@ export async function deserializeAws_restJson1_1DeleteJobQueueCommand(
   }
   const contents: DeleteJobQueueCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteJobQueueResponse"
+    __type: "DeleteJobQueueResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1001,7 +1001,7 @@ async function deserializeAws_restJson1_1DeleteJobQueueCommandError(
 ): Promise<DeleteJobQueueCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1015,7 +1015,7 @@ async function deserializeAws_restJson1_1DeleteJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1026,7 +1026,7 @@ async function deserializeAws_restJson1_1DeleteJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1037,7 +1037,7 @@ async function deserializeAws_restJson1_1DeleteJobQueueCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1058,7 +1058,7 @@ export async function deserializeAws_restJson1_1DeregisterJobDefinitionCommand(
   }
   const contents: DeregisterJobDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeregisterJobDefinitionResponse"
+    __type: "DeregisterJobDefinitionResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1070,7 +1070,7 @@ async function deserializeAws_restJson1_1DeregisterJobDefinitionCommandError(
 ): Promise<DeregisterJobDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1084,7 +1084,7 @@ async function deserializeAws_restJson1_1DeregisterJobDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1095,7 +1095,7 @@ async function deserializeAws_restJson1_1DeregisterJobDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1106,7 +1106,7 @@ async function deserializeAws_restJson1_1DeregisterJobDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1129,7 +1129,7 @@ export async function deserializeAws_restJson1_1DescribeComputeEnvironmentsComma
     $metadata: deserializeMetadata(output),
     __type: "DescribeComputeEnvironmentsResponse",
     computeEnvironments: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -1153,7 +1153,7 @@ async function deserializeAws_restJson1_1DescribeComputeEnvironmentsCommandError
 ): Promise<DescribeComputeEnvironmentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1167,7 +1167,7 @@ async function deserializeAws_restJson1_1DescribeComputeEnvironmentsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1178,7 +1178,7 @@ async function deserializeAws_restJson1_1DescribeComputeEnvironmentsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1189,7 +1189,7 @@ async function deserializeAws_restJson1_1DescribeComputeEnvironmentsCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1212,7 +1212,7 @@ export async function deserializeAws_restJson1_1DescribeJobDefinitionsCommand(
     $metadata: deserializeMetadata(output),
     __type: "DescribeJobDefinitionsResponse",
     jobDefinitions: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobDefinitions !== undefined && data.jobDefinitions !== null) {
@@ -1233,7 +1233,7 @@ async function deserializeAws_restJson1_1DescribeJobDefinitionsCommandError(
 ): Promise<DescribeJobDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1247,7 +1247,7 @@ async function deserializeAws_restJson1_1DescribeJobDefinitionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1258,7 +1258,7 @@ async function deserializeAws_restJson1_1DescribeJobDefinitionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1269,7 +1269,7 @@ async function deserializeAws_restJson1_1DescribeJobDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1292,7 +1292,7 @@ export async function deserializeAws_restJson1_1DescribeJobQueuesCommand(
     $metadata: deserializeMetadata(output),
     __type: "DescribeJobQueuesResponse",
     jobQueues: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobQueues !== undefined && data.jobQueues !== null) {
@@ -1313,7 +1313,7 @@ async function deserializeAws_restJson1_1DescribeJobQueuesCommandError(
 ): Promise<DescribeJobQueuesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1327,7 +1327,7 @@ async function deserializeAws_restJson1_1DescribeJobQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1338,7 +1338,7 @@ async function deserializeAws_restJson1_1DescribeJobQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1349,7 +1349,7 @@ async function deserializeAws_restJson1_1DescribeJobQueuesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1368,7 +1368,7 @@ export async function deserializeAws_restJson1_1DescribeJobsCommand(
   const contents: DescribeJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeJobsResponse",
-    jobs: undefined
+    jobs: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobs !== undefined && data.jobs !== null) {
@@ -1383,7 +1383,7 @@ async function deserializeAws_restJson1_1DescribeJobsCommandError(
 ): Promise<DescribeJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1397,7 +1397,7 @@ async function deserializeAws_restJson1_1DescribeJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1408,7 +1408,7 @@ async function deserializeAws_restJson1_1DescribeJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1419,7 +1419,7 @@ async function deserializeAws_restJson1_1DescribeJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1439,7 +1439,7 @@ export async function deserializeAws_restJson1_1ListJobsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListJobsResponse",
     jobSummaryList: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobSummaryList !== undefined && data.jobSummaryList !== null) {
@@ -1460,7 +1460,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
 ): Promise<ListJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1474,7 +1474,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1485,7 +1485,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1496,7 +1496,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1520,7 +1520,7 @@ export async function deserializeAws_restJson1_1RegisterJobDefinitionCommand(
     __type: "RegisterJobDefinitionResponse",
     jobDefinitionArn: undefined,
     jobDefinitionName: undefined,
-    revision: undefined
+    revision: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobDefinitionArn !== undefined && data.jobDefinitionArn !== null) {
@@ -1541,7 +1541,7 @@ async function deserializeAws_restJson1_1RegisterJobDefinitionCommandError(
 ): Promise<RegisterJobDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1555,7 +1555,7 @@ async function deserializeAws_restJson1_1RegisterJobDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1566,7 +1566,7 @@ async function deserializeAws_restJson1_1RegisterJobDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1577,7 +1577,7 @@ async function deserializeAws_restJson1_1RegisterJobDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1597,7 +1597,7 @@ export async function deserializeAws_restJson1_1SubmitJobCommand(
     $metadata: deserializeMetadata(output),
     __type: "SubmitJobResponse",
     jobId: undefined,
-    jobName: undefined
+    jobName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobId !== undefined && data.jobId !== null) {
@@ -1615,7 +1615,7 @@ async function deserializeAws_restJson1_1SubmitJobCommandError(
 ): Promise<SubmitJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1629,7 +1629,7 @@ async function deserializeAws_restJson1_1SubmitJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1640,7 +1640,7 @@ async function deserializeAws_restJson1_1SubmitJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1651,7 +1651,7 @@ async function deserializeAws_restJson1_1SubmitJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1669,7 +1669,7 @@ export async function deserializeAws_restJson1_1TerminateJobCommand(
   }
   const contents: TerminateJobCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TerminateJobResponse"
+    __type: "TerminateJobResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1681,7 +1681,7 @@ async function deserializeAws_restJson1_1TerminateJobCommandError(
 ): Promise<TerminateJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1695,7 +1695,7 @@ async function deserializeAws_restJson1_1TerminateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1706,7 +1706,7 @@ async function deserializeAws_restJson1_1TerminateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1717,7 +1717,7 @@ async function deserializeAws_restJson1_1TerminateJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1740,7 +1740,7 @@ export async function deserializeAws_restJson1_1UpdateComputeEnvironmentCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateComputeEnvironmentResponse",
     computeEnvironmentArn: undefined,
-    computeEnvironmentName: undefined
+    computeEnvironmentName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -1764,7 +1764,7 @@ async function deserializeAws_restJson1_1UpdateComputeEnvironmentCommandError(
 ): Promise<UpdateComputeEnvironmentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1778,7 +1778,7 @@ async function deserializeAws_restJson1_1UpdateComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1789,7 +1789,7 @@ async function deserializeAws_restJson1_1UpdateComputeEnvironmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1800,7 +1800,7 @@ async function deserializeAws_restJson1_1UpdateComputeEnvironmentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1823,7 +1823,7 @@ export async function deserializeAws_restJson1_1UpdateJobQueueCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateJobQueueResponse",
     jobQueueArn: undefined,
-    jobQueueName: undefined
+    jobQueueName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.jobQueueArn !== undefined && data.jobQueueArn !== null) {
@@ -1841,7 +1841,7 @@ async function deserializeAws_restJson1_1UpdateJobQueueCommandError(
 ): Promise<UpdateJobQueueCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1855,7 +1855,7 @@ async function deserializeAws_restJson1_1UpdateJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1866,7 +1866,7 @@ async function deserializeAws_restJson1_1UpdateJobQueueCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1877,7 +1877,7 @@ async function deserializeAws_restJson1_1UpdateJobQueueCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1894,7 +1894,7 @@ const deserializeAws_restJson1_1ClientExceptionResponse = async (
     name: "ClientException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1911,7 +1911,7 @@ const deserializeAws_restJson1_1ServerExceptionResponse = async (
     name: "ServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -2435,7 +2435,7 @@ const serializeAws_restJson1_1ParametersMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -2493,7 +2493,7 @@ const serializeAws_restJson1_1TagsMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -2557,7 +2557,7 @@ const deserializeAws_restJson1_1ArrayJobStatusSummary = (
   context: __SerdeContext
 ): { [key: string]: number } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2571,7 +2571,7 @@ const deserializeAws_restJson1_1ArrayPropertiesDetail = (
     __type: "ArrayPropertiesDetail",
     index: undefined,
     size: undefined,
-    statusSummary: undefined
+    statusSummary: undefined,
   };
   if (output.index !== undefined && output.index !== null) {
     contents.index = output.index;
@@ -2595,7 +2595,7 @@ const deserializeAws_restJson1_1ArrayPropertiesSummary = (
   let contents: any = {
     __type: "ArrayPropertiesSummary",
     index: undefined,
-    size: undefined
+    size: undefined,
   };
   if (output.index !== undefined && output.index !== null) {
     contents.index = output.index;
@@ -2617,7 +2617,7 @@ const deserializeAws_restJson1_1AttemptContainerDetail = (
     logStreamName: undefined,
     networkInterfaces: undefined,
     reason: undefined,
-    taskArn: undefined
+    taskArn: undefined,
   };
   if (
     output.containerInstanceArn !== undefined &&
@@ -2658,7 +2658,7 @@ const deserializeAws_restJson1_1AttemptDetail = (
     container: undefined,
     startedAt: undefined,
     statusReason: undefined,
-    stoppedAt: undefined
+    stoppedAt: undefined,
   };
   if (output.container !== undefined && output.container !== null) {
     contents.container = deserializeAws_restJson1_1AttemptContainerDetail(
@@ -2701,7 +2701,7 @@ const deserializeAws_restJson1_1ComputeEnvironmentDetail = (
     state: undefined,
     status: undefined,
     statusReason: undefined,
-    type: undefined
+    type: undefined,
   };
   if (
     output.computeEnvironmentArn !== undefined &&
@@ -2761,7 +2761,7 @@ const deserializeAws_restJson1_1ComputeEnvironmentOrder = (
   let contents: any = {
     __type: "ComputeEnvironmentOrder",
     computeEnvironment: undefined,
-    order: undefined
+    order: undefined,
   };
   if (
     output.computeEnvironment !== undefined &&
@@ -2805,7 +2805,7 @@ const deserializeAws_restJson1_1ComputeResource = (
     spotIamFleetRole: undefined,
     subnets: undefined,
     tags: undefined,
-    type: undefined
+    type: undefined,
   };
   if (
     output.allocationStrategy !== undefined &&
@@ -2905,7 +2905,7 @@ const deserializeAws_restJson1_1ContainerDetail = (
     ulimits: undefined,
     user: undefined,
     vcpus: undefined,
-    volumes: undefined
+    volumes: undefined,
   };
   if (output.command !== undefined && output.command !== null) {
     contents.command = deserializeAws_restJson1_1StringList(
@@ -3029,7 +3029,7 @@ const deserializeAws_restJson1_1ContainerProperties = (
     ulimits: undefined,
     user: undefined,
     vcpus: undefined,
-    volumes: undefined
+    volumes: undefined,
   };
   if (output.command !== undefined && output.command !== null) {
     contents.command = deserializeAws_restJson1_1StringList(
@@ -3113,7 +3113,7 @@ const deserializeAws_restJson1_1ContainerSummary = (
   let contents: any = {
     __type: "ContainerSummary",
     exitCode: undefined,
-    reason: undefined
+    reason: undefined,
   };
   if (output.exitCode !== undefined && output.exitCode !== null) {
     contents.exitCode = output.exitCode;
@@ -3132,7 +3132,7 @@ const deserializeAws_restJson1_1Device = (
     __type: "Device",
     containerPath: undefined,
     hostPath: undefined,
-    permissions: undefined
+    permissions: undefined,
   };
   if (output.containerPath !== undefined && output.containerPath !== null) {
     contents.containerPath = output.containerPath;
@@ -3180,7 +3180,7 @@ const deserializeAws_restJson1_1Host = (
 ): Host => {
   let contents: any = {
     __type: "Host",
-    sourcePath: undefined
+    sourcePath: undefined,
   };
   if (output.sourcePath !== undefined && output.sourcePath !== null) {
     contents.sourcePath = output.sourcePath;
@@ -3203,7 +3203,7 @@ const deserializeAws_restJson1_1JobDefinition = (
     revision: undefined,
     status: undefined,
     timeout: undefined,
-    type: undefined
+    type: undefined,
   };
   if (
     output.containerProperties !== undefined &&
@@ -3278,7 +3278,7 @@ const deserializeAws_restJson1_1JobDependency = (
   let contents: any = {
     __type: "JobDependency",
     jobId: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.jobId !== undefined && output.jobId !== null) {
     contents.jobId = output.jobId;
@@ -3321,7 +3321,7 @@ const deserializeAws_restJson1_1JobDetail = (
     status: undefined,
     statusReason: undefined,
     stoppedAt: undefined,
-    timeout: undefined
+    timeout: undefined,
   };
   if (output.arrayProperties !== undefined && output.arrayProperties !== null) {
     contents.arrayProperties = deserializeAws_restJson1_1ArrayPropertiesDetail(
@@ -3428,7 +3428,7 @@ const deserializeAws_restJson1_1JobQueueDetail = (
     priority: undefined,
     state: undefined,
     status: undefined,
-    statusReason: undefined
+    statusReason: undefined,
   };
   if (
     output.computeEnvironmentOrder !== undefined &&
@@ -3484,7 +3484,7 @@ const deserializeAws_restJson1_1JobSummary = (
     startedAt: undefined,
     status: undefined,
     statusReason: undefined,
-    stoppedAt: undefined
+    stoppedAt: undefined,
   };
   if (output.arrayProperties !== undefined && output.arrayProperties !== null) {
     contents.arrayProperties = deserializeAws_restJson1_1ArrayPropertiesSummary(
@@ -3543,7 +3543,7 @@ const deserializeAws_restJson1_1JobTimeout = (
 ): JobTimeout => {
   let contents: any = {
     __type: "JobTimeout",
-    attemptDurationSeconds: undefined
+    attemptDurationSeconds: undefined,
   };
   if (
     output.attemptDurationSeconds !== undefined &&
@@ -3561,7 +3561,7 @@ const deserializeAws_restJson1_1KeyValuePair = (
   let contents: any = {
     __type: "KeyValuePair",
     name: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -3580,7 +3580,7 @@ const deserializeAws_restJson1_1LaunchTemplateSpecification = (
     __type: "LaunchTemplateSpecification",
     launchTemplateId: undefined,
     launchTemplateName: undefined,
-    version: undefined
+    version: undefined,
   };
   if (
     output.launchTemplateId !== undefined &&
@@ -3606,7 +3606,7 @@ const deserializeAws_restJson1_1LinuxParameters = (
 ): LinuxParameters => {
   let contents: any = {
     __type: "LinuxParameters",
-    devices: undefined
+    devices: undefined,
   };
   if (output.devices !== undefined && output.devices !== null) {
     contents.devices = deserializeAws_restJson1_1DevicesList(
@@ -3625,7 +3625,7 @@ const deserializeAws_restJson1_1MountPoint = (
     __type: "MountPoint",
     containerPath: undefined,
     readOnly: undefined,
-    sourceVolume: undefined
+    sourceVolume: undefined,
   };
   if (output.containerPath !== undefined && output.containerPath !== null) {
     contents.containerPath = output.containerPath;
@@ -3656,7 +3656,7 @@ const deserializeAws_restJson1_1NetworkInterface = (
     __type: "NetworkInterface",
     attachmentId: undefined,
     ipv6Address: undefined,
-    privateIpv4Address: undefined
+    privateIpv4Address: undefined,
   };
   if (output.attachmentId !== undefined && output.attachmentId !== null) {
     contents.attachmentId = output.attachmentId;
@@ -3689,7 +3689,7 @@ const deserializeAws_restJson1_1NodeDetails = (
   let contents: any = {
     __type: "NodeDetails",
     isMainNode: undefined,
-    nodeIndex: undefined
+    nodeIndex: undefined,
   };
   if (output.isMainNode !== undefined && output.isMainNode !== null) {
     contents.isMainNode = output.isMainNode;
@@ -3708,7 +3708,7 @@ const deserializeAws_restJson1_1NodeProperties = (
     __type: "NodeProperties",
     mainNode: undefined,
     nodeRangeProperties: undefined,
-    numNodes: undefined
+    numNodes: undefined,
   };
   if (output.mainNode !== undefined && output.mainNode !== null) {
     contents.mainNode = output.mainNode;
@@ -3736,7 +3736,7 @@ const deserializeAws_restJson1_1NodePropertiesSummary = (
     __type: "NodePropertiesSummary",
     isMainNode: undefined,
     nodeIndex: undefined,
-    numNodes: undefined
+    numNodes: undefined,
   };
   if (output.isMainNode !== undefined && output.isMainNode !== null) {
     contents.isMainNode = output.isMainNode;
@@ -3766,7 +3766,7 @@ const deserializeAws_restJson1_1NodeRangeProperty = (
   let contents: any = {
     __type: "NodeRangeProperty",
     container: undefined,
-    targetNodes: undefined
+    targetNodes: undefined,
   };
   if (output.container !== undefined && output.container !== null) {
     contents.container = deserializeAws_restJson1_1ContainerProperties(
@@ -3785,7 +3785,7 @@ const deserializeAws_restJson1_1ParametersMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -3798,7 +3798,7 @@ const deserializeAws_restJson1_1ResourceRequirement = (
   let contents: any = {
     __type: "ResourceRequirement",
     type: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.type !== undefined && output.type !== null) {
     contents.type = output.type;
@@ -3824,7 +3824,7 @@ const deserializeAws_restJson1_1RetryStrategy = (
 ): RetryStrategy => {
   let contents: any = {
     __type: "RetryStrategy",
-    attempts: undefined
+    attempts: undefined,
   };
   if (output.attempts !== undefined && output.attempts !== null) {
     contents.attempts = output.attempts;
@@ -3844,7 +3844,7 @@ const deserializeAws_restJson1_1TagsMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -3858,7 +3858,7 @@ const deserializeAws_restJson1_1Ulimit = (
     __type: "Ulimit",
     hardLimit: undefined,
     name: undefined,
-    softLimit: undefined
+    softLimit: undefined,
   };
   if (output.hardLimit !== undefined && output.hardLimit !== null) {
     contents.hardLimit = output.hardLimit;
@@ -3888,7 +3888,7 @@ const deserializeAws_restJson1_1Volume = (
   let contents: any = {
     __type: "Volume",
     host: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.host !== undefined && output.host !== null) {
     contents.host = deserializeAws_restJson1_1Host(output.host, context);
@@ -3911,7 +3911,7 @@ const deserializeAws_restJson1_1Volumes = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3932,13 +3932,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -3951,7 +3951,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

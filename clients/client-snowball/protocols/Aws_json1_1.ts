@@ -1,78 +1,78 @@
 import {
   CancelClusterCommandInput,
-  CancelClusterCommandOutput
+  CancelClusterCommandOutput,
 } from "../commands/CancelClusterCommand";
 import {
   CancelJobCommandInput,
-  CancelJobCommandOutput
+  CancelJobCommandOutput,
 } from "../commands/CancelJobCommand";
 import {
   CreateAddressCommandInput,
-  CreateAddressCommandOutput
+  CreateAddressCommandOutput,
 } from "../commands/CreateAddressCommand";
 import {
   CreateClusterCommandInput,
-  CreateClusterCommandOutput
+  CreateClusterCommandOutput,
 } from "../commands/CreateClusterCommand";
 import {
   CreateJobCommandInput,
-  CreateJobCommandOutput
+  CreateJobCommandOutput,
 } from "../commands/CreateJobCommand";
 import {
   DescribeAddressCommandInput,
-  DescribeAddressCommandOutput
+  DescribeAddressCommandOutput,
 } from "../commands/DescribeAddressCommand";
 import {
   DescribeAddressesCommandInput,
-  DescribeAddressesCommandOutput
+  DescribeAddressesCommandOutput,
 } from "../commands/DescribeAddressesCommand";
 import {
   DescribeClusterCommandInput,
-  DescribeClusterCommandOutput
+  DescribeClusterCommandOutput,
 } from "../commands/DescribeClusterCommand";
 import {
   DescribeJobCommandInput,
-  DescribeJobCommandOutput
+  DescribeJobCommandOutput,
 } from "../commands/DescribeJobCommand";
 import {
   GetJobManifestCommandInput,
-  GetJobManifestCommandOutput
+  GetJobManifestCommandOutput,
 } from "../commands/GetJobManifestCommand";
 import {
   GetJobUnlockCodeCommandInput,
-  GetJobUnlockCodeCommandOutput
+  GetJobUnlockCodeCommandOutput,
 } from "../commands/GetJobUnlockCodeCommand";
 import {
   GetSnowballUsageCommandInput,
-  GetSnowballUsageCommandOutput
+  GetSnowballUsageCommandOutput,
 } from "../commands/GetSnowballUsageCommand";
 import {
   GetSoftwareUpdatesCommandInput,
-  GetSoftwareUpdatesCommandOutput
+  GetSoftwareUpdatesCommandOutput,
 } from "../commands/GetSoftwareUpdatesCommand";
 import {
   ListClusterJobsCommandInput,
-  ListClusterJobsCommandOutput
+  ListClusterJobsCommandOutput,
 } from "../commands/ListClusterJobsCommand";
 import {
   ListClustersCommandInput,
-  ListClustersCommandOutput
+  ListClustersCommandOutput,
 } from "../commands/ListClustersCommand";
 import {
   ListCompatibleImagesCommandInput,
-  ListCompatibleImagesCommandOutput
+  ListCompatibleImagesCommandOutput,
 } from "../commands/ListCompatibleImagesCommand";
 import {
   ListJobsCommandInput,
-  ListJobsCommandOutput
+  ListJobsCommandOutput,
 } from "../commands/ListJobsCommand";
 import {
   UpdateClusterCommandInput,
-  UpdateClusterCommandOutput
+  UpdateClusterCommandOutput,
 } from "../commands/UpdateClusterCommand";
 import {
   UpdateJobCommandInput,
-  UpdateJobCommandOutput
+  UpdateJobCommandOutput,
 } from "../commands/UpdateJobCommand";
 import {
   Address,
@@ -139,11 +139,11 @@ import {
   UpdateClusterRequest,
   UpdateClusterResult,
   UpdateJobRequest,
-  UpdateJobResult
+  UpdateJobResult,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -151,7 +151,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CancelClusterCommand(
@@ -428,7 +428,7 @@ export async function deserializeAws_json1_1CancelClusterCommand(
   const response: CancelClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -439,7 +439,7 @@ async function deserializeAws_json1_1CancelClusterCommandError(
 ): Promise<CancelClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -455,7 +455,7 @@ async function deserializeAws_json1_1CancelClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -466,7 +466,7 @@ async function deserializeAws_json1_1CancelClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -477,7 +477,7 @@ async function deserializeAws_json1_1CancelClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -488,7 +488,7 @@ async function deserializeAws_json1_1CancelClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -510,7 +510,7 @@ export async function deserializeAws_json1_1CancelJobCommand(
   const response: CancelJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelJobResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -521,7 +521,7 @@ async function deserializeAws_json1_1CancelJobCommandError(
 ): Promise<CancelJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -537,7 +537,7 @@ async function deserializeAws_json1_1CancelJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -548,7 +548,7 @@ async function deserializeAws_json1_1CancelJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -559,7 +559,7 @@ async function deserializeAws_json1_1CancelJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -570,7 +570,7 @@ async function deserializeAws_json1_1CancelJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -592,7 +592,7 @@ export async function deserializeAws_json1_1CreateAddressCommand(
   const response: CreateAddressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateAddressResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -603,7 +603,7 @@ async function deserializeAws_json1_1CreateAddressCommandError(
 ): Promise<CreateAddressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -619,7 +619,7 @@ async function deserializeAws_json1_1CreateAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAddressException":
@@ -630,7 +630,7 @@ async function deserializeAws_json1_1CreateAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -641,7 +641,7 @@ async function deserializeAws_json1_1CreateAddressCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -663,7 +663,7 @@ export async function deserializeAws_json1_1CreateClusterCommand(
   const response: CreateClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -674,7 +674,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
 ): Promise<CreateClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -690,7 +690,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputCombinationException":
@@ -701,7 +701,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -712,7 +712,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -723,7 +723,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -734,7 +734,7 @@ async function deserializeAws_json1_1CreateClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -756,7 +756,7 @@ export async function deserializeAws_json1_1CreateJobCommand(
   const response: CreateJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateJobResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -767,7 +767,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
 ): Promise<CreateJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -783,7 +783,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "Ec2RequestFailedException":
@@ -794,7 +794,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputCombinationException":
@@ -805,7 +805,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -816,7 +816,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -827,7 +827,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -838,7 +838,7 @@ async function deserializeAws_json1_1CreateJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -860,7 +860,7 @@ export async function deserializeAws_json1_1DescribeAddressCommand(
   const response: DescribeAddressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAddressResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -871,7 +871,7 @@ async function deserializeAws_json1_1DescribeAddressCommandError(
 ): Promise<DescribeAddressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -887,7 +887,7 @@ async function deserializeAws_json1_1DescribeAddressCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -898,7 +898,7 @@ async function deserializeAws_json1_1DescribeAddressCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -920,7 +920,7 @@ export async function deserializeAws_json1_1DescribeAddressesCommand(
   const response: DescribeAddressesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAddressesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -931,7 +931,7 @@ async function deserializeAws_json1_1DescribeAddressesCommandError(
 ): Promise<DescribeAddressesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -947,7 +947,7 @@ async function deserializeAws_json1_1DescribeAddressesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -958,7 +958,7 @@ async function deserializeAws_json1_1DescribeAddressesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -969,7 +969,7 @@ async function deserializeAws_json1_1DescribeAddressesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -991,7 +991,7 @@ export async function deserializeAws_json1_1DescribeClusterCommand(
   const response: DescribeClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1002,7 +1002,7 @@ async function deserializeAws_json1_1DescribeClusterCommandError(
 ): Promise<DescribeClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1018,7 +1018,7 @@ async function deserializeAws_json1_1DescribeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1029,7 +1029,7 @@ async function deserializeAws_json1_1DescribeClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1051,7 +1051,7 @@ export async function deserializeAws_json1_1DescribeJobCommand(
   const response: DescribeJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeJobResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1062,7 +1062,7 @@ async function deserializeAws_json1_1DescribeJobCommandError(
 ): Promise<DescribeJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1078,7 +1078,7 @@ async function deserializeAws_json1_1DescribeJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1089,7 +1089,7 @@ async function deserializeAws_json1_1DescribeJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1111,7 +1111,7 @@ export async function deserializeAws_json1_1GetJobManifestCommand(
   const response: GetJobManifestCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetJobManifestResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1122,7 +1122,7 @@ async function deserializeAws_json1_1GetJobManifestCommandError(
 ): Promise<GetJobManifestCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1138,7 +1138,7 @@ async function deserializeAws_json1_1GetJobManifestCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1149,7 +1149,7 @@ async function deserializeAws_json1_1GetJobManifestCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1160,7 +1160,7 @@ async function deserializeAws_json1_1GetJobManifestCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1182,7 +1182,7 @@ export async function deserializeAws_json1_1GetJobUnlockCodeCommand(
   const response: GetJobUnlockCodeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetJobUnlockCodeResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1193,7 +1193,7 @@ async function deserializeAws_json1_1GetJobUnlockCodeCommandError(
 ): Promise<GetJobUnlockCodeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1209,7 +1209,7 @@ async function deserializeAws_json1_1GetJobUnlockCodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1220,7 +1220,7 @@ async function deserializeAws_json1_1GetJobUnlockCodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1231,7 +1231,7 @@ async function deserializeAws_json1_1GetJobUnlockCodeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1253,7 +1253,7 @@ export async function deserializeAws_json1_1GetSnowballUsageCommand(
   const response: GetSnowballUsageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSnowballUsageResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1264,7 +1264,7 @@ async function deserializeAws_json1_1GetSnowballUsageCommandError(
 ): Promise<GetSnowballUsageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1280,7 +1280,7 @@ async function deserializeAws_json1_1GetSnowballUsageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1305,7 +1305,7 @@ export async function deserializeAws_json1_1GetSoftwareUpdatesCommand(
   const response: GetSoftwareUpdatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSoftwareUpdatesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1316,7 +1316,7 @@ async function deserializeAws_json1_1GetSoftwareUpdatesCommandError(
 ): Promise<GetSoftwareUpdatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1332,7 +1332,7 @@ async function deserializeAws_json1_1GetSoftwareUpdatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1343,7 +1343,7 @@ async function deserializeAws_json1_1GetSoftwareUpdatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1354,7 +1354,7 @@ async function deserializeAws_json1_1GetSoftwareUpdatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1376,7 +1376,7 @@ export async function deserializeAws_json1_1ListClusterJobsCommand(
   const response: ListClusterJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListClusterJobsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1387,7 +1387,7 @@ async function deserializeAws_json1_1ListClusterJobsCommandError(
 ): Promise<ListClusterJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1403,7 +1403,7 @@ async function deserializeAws_json1_1ListClusterJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1414,7 +1414,7 @@ async function deserializeAws_json1_1ListClusterJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1425,7 +1425,7 @@ async function deserializeAws_json1_1ListClusterJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1447,7 +1447,7 @@ export async function deserializeAws_json1_1ListClustersCommand(
   const response: ListClustersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListClustersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1458,7 +1458,7 @@ async function deserializeAws_json1_1ListClustersCommandError(
 ): Promise<ListClustersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1474,7 +1474,7 @@ async function deserializeAws_json1_1ListClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1485,7 +1485,7 @@ async function deserializeAws_json1_1ListClustersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1510,7 +1510,7 @@ export async function deserializeAws_json1_1ListCompatibleImagesCommand(
   const response: ListCompatibleImagesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCompatibleImagesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1521,7 +1521,7 @@ async function deserializeAws_json1_1ListCompatibleImagesCommandError(
 ): Promise<ListCompatibleImagesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1537,7 +1537,7 @@ async function deserializeAws_json1_1ListCompatibleImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1548,7 +1548,7 @@ async function deserializeAws_json1_1ListCompatibleImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1559,7 +1559,7 @@ async function deserializeAws_json1_1ListCompatibleImagesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1581,7 +1581,7 @@ export async function deserializeAws_json1_1ListJobsCommand(
   const response: ListJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListJobsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1592,7 +1592,7 @@ async function deserializeAws_json1_1ListJobsCommandError(
 ): Promise<ListJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1608,7 +1608,7 @@ async function deserializeAws_json1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1619,7 +1619,7 @@ async function deserializeAws_json1_1ListJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1641,7 +1641,7 @@ export async function deserializeAws_json1_1UpdateClusterCommand(
   const response: UpdateClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1652,7 +1652,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
 ): Promise<UpdateClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1668,7 +1668,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputCombinationException":
@@ -1679,7 +1679,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidJobStateException":
@@ -1690,7 +1690,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1701,7 +1701,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -1712,7 +1712,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1723,7 +1723,7 @@ async function deserializeAws_json1_1UpdateClusterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1745,7 +1745,7 @@ export async function deserializeAws_json1_1UpdateJobCommand(
   const response: UpdateJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateJobResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1756,7 +1756,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
 ): Promise<UpdateJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1772,7 +1772,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "Ec2RequestFailedException":
@@ -1783,7 +1783,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputCombinationException":
@@ -1794,7 +1794,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidJobStateException":
@@ -1805,7 +1805,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceException":
@@ -1816,7 +1816,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSRequestFailedException":
@@ -1827,7 +1827,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1838,7 +1838,7 @@ async function deserializeAws_json1_1UpdateJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1860,7 +1860,7 @@ const deserializeAws_json1_1ClusterLimitExceededExceptionResponse = async (
     name: "ClusterLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1878,7 +1878,7 @@ const deserializeAws_json1_1Ec2RequestFailedExceptionResponse = async (
     name: "Ec2RequestFailedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1896,7 +1896,7 @@ const deserializeAws_json1_1InvalidAddressExceptionResponse = async (
     name: "InvalidAddressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1914,7 +1914,7 @@ const deserializeAws_json1_1InvalidInputCombinationExceptionResponse = async (
     name: "InvalidInputCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1932,7 +1932,7 @@ const deserializeAws_json1_1InvalidJobStateExceptionResponse = async (
     name: "InvalidJobStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1950,7 +1950,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1968,7 +1968,7 @@ const deserializeAws_json1_1InvalidResourceExceptionResponse = async (
     name: "InvalidResourceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1986,7 +1986,7 @@ const deserializeAws_json1_1KMSRequestFailedExceptionResponse = async (
     name: "KMSRequestFailedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2004,7 +2004,7 @@ const deserializeAws_json1_1UnsupportedAddressExceptionResponse = async (
     name: "UnsupportedAddressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2607,7 +2607,7 @@ const deserializeAws_json1_1Address = (
     StateOrProvince: undefined,
     Street1: undefined,
     Street2: undefined,
-    Street3: undefined
+    Street3: undefined,
   };
   if (output.AddressId !== undefined && output.AddressId !== null) {
     contents.AddressId = output.AddressId;
@@ -2671,7 +2671,7 @@ const deserializeAws_json1_1CancelClusterResult = (
   context: __SerdeContext
 ): CancelClusterResult => {
   let contents: any = {
-    __type: "CancelClusterResult"
+    __type: "CancelClusterResult",
   };
   return contents;
 };
@@ -2681,7 +2681,7 @@ const deserializeAws_json1_1CancelJobResult = (
   context: __SerdeContext
 ): CancelJobResult => {
   let contents: any = {
-    __type: "CancelJobResult"
+    __type: "CancelJobResult",
   };
   return contents;
 };
@@ -2692,7 +2692,7 @@ const deserializeAws_json1_1ClusterLimitExceededException = (
 ): ClusterLimitExceededException => {
   let contents: any = {
     __type: "ClusterLimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2709,7 +2709,7 @@ const deserializeAws_json1_1ClusterListEntry = (
     ClusterId: undefined,
     ClusterState: undefined,
     CreationDate: undefined,
-    Description: undefined
+    Description: undefined,
   };
   if (output.ClusterId !== undefined && output.ClusterId !== null) {
     contents.ClusterId = output.ClusterId;
@@ -2753,7 +2753,7 @@ const deserializeAws_json1_1ClusterMetadata = (
     Resources: undefined,
     RoleARN: undefined,
     ShippingOption: undefined,
-    SnowballType: undefined
+    SnowballType: undefined,
   };
   if (output.AddressId !== undefined && output.AddressId !== null) {
     contents.AddressId = output.AddressId;
@@ -2813,7 +2813,7 @@ const deserializeAws_json1_1CompatibleImage = (
   let contents: any = {
     __type: "CompatibleImage",
     AmiId: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.AmiId !== undefined && output.AmiId !== null) {
     contents.AmiId = output.AmiId;
@@ -2839,7 +2839,7 @@ const deserializeAws_json1_1CreateAddressResult = (
 ): CreateAddressResult => {
   let contents: any = {
     __type: "CreateAddressResult",
-    AddressId: undefined
+    AddressId: undefined,
   };
   if (output.AddressId !== undefined && output.AddressId !== null) {
     contents.AddressId = output.AddressId;
@@ -2853,7 +2853,7 @@ const deserializeAws_json1_1CreateClusterResult = (
 ): CreateClusterResult => {
   let contents: any = {
     __type: "CreateClusterResult",
-    ClusterId: undefined
+    ClusterId: undefined,
   };
   if (output.ClusterId !== undefined && output.ClusterId !== null) {
     contents.ClusterId = output.ClusterId;
@@ -2867,7 +2867,7 @@ const deserializeAws_json1_1CreateJobResult = (
 ): CreateJobResult => {
   let contents: any = {
     __type: "CreateJobResult",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -2884,7 +2884,7 @@ const deserializeAws_json1_1DataTransfer = (
     BytesTransferred: undefined,
     ObjectsTransferred: undefined,
     TotalBytes: undefined,
-    TotalObjects: undefined
+    TotalObjects: undefined,
   };
   if (
     output.BytesTransferred !== undefined &&
@@ -2913,7 +2913,7 @@ const deserializeAws_json1_1DescribeAddressResult = (
 ): DescribeAddressResult => {
   let contents: any = {
     __type: "DescribeAddressResult",
-    Address: undefined
+    Address: undefined,
   };
   if (output.Address !== undefined && output.Address !== null) {
     contents.Address = deserializeAws_json1_1Address(output.Address, context);
@@ -2928,7 +2928,7 @@ const deserializeAws_json1_1DescribeAddressesResult = (
   let contents: any = {
     __type: "DescribeAddressesResult",
     Addresses: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Addresses !== undefined && output.Addresses !== null) {
     contents.Addresses = deserializeAws_json1_1AddressList(
@@ -2948,7 +2948,7 @@ const deserializeAws_json1_1DescribeClusterResult = (
 ): DescribeClusterResult => {
   let contents: any = {
     __type: "DescribeClusterResult",
-    ClusterMetadata: undefined
+    ClusterMetadata: undefined,
   };
   if (output.ClusterMetadata !== undefined && output.ClusterMetadata !== null) {
     contents.ClusterMetadata = deserializeAws_json1_1ClusterMetadata(
@@ -2966,7 +2966,7 @@ const deserializeAws_json1_1DescribeJobResult = (
   let contents: any = {
     __type: "DescribeJobResult",
     JobMetadata: undefined,
-    SubJobMetadata: undefined
+    SubJobMetadata: undefined,
   };
   if (output.JobMetadata !== undefined && output.JobMetadata !== null) {
     contents.JobMetadata = deserializeAws_json1_1JobMetadata(
@@ -2990,7 +2990,7 @@ const deserializeAws_json1_1Ec2AmiResource = (
   let contents: any = {
     __type: "Ec2AmiResource",
     AmiId: undefined,
-    SnowballAmiId: undefined
+    SnowballAmiId: undefined,
   };
   if (output.AmiId !== undefined && output.AmiId !== null) {
     contents.AmiId = output.AmiId;
@@ -3016,7 +3016,7 @@ const deserializeAws_json1_1Ec2RequestFailedException = (
 ): Ec2RequestFailedException => {
   let contents: any = {
     __type: "Ec2RequestFailedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3030,7 +3030,7 @@ const deserializeAws_json1_1EventTriggerDefinition = (
 ): EventTriggerDefinition => {
   let contents: any = {
     __type: "EventTriggerDefinition",
-    EventResourceARN: undefined
+    EventResourceARN: undefined,
   };
   if (
     output.EventResourceARN !== undefined &&
@@ -3056,7 +3056,7 @@ const deserializeAws_json1_1GetJobManifestResult = (
 ): GetJobManifestResult => {
   let contents: any = {
     __type: "GetJobManifestResult",
-    ManifestURI: undefined
+    ManifestURI: undefined,
   };
   if (output.ManifestURI !== undefined && output.ManifestURI !== null) {
     contents.ManifestURI = output.ManifestURI;
@@ -3070,7 +3070,7 @@ const deserializeAws_json1_1GetJobUnlockCodeResult = (
 ): GetJobUnlockCodeResult => {
   let contents: any = {
     __type: "GetJobUnlockCodeResult",
-    UnlockCode: undefined
+    UnlockCode: undefined,
   };
   if (output.UnlockCode !== undefined && output.UnlockCode !== null) {
     contents.UnlockCode = output.UnlockCode;
@@ -3085,7 +3085,7 @@ const deserializeAws_json1_1GetSnowballUsageResult = (
   let contents: any = {
     __type: "GetSnowballUsageResult",
     SnowballLimit: undefined,
-    SnowballsInUse: undefined
+    SnowballsInUse: undefined,
   };
   if (output.SnowballLimit !== undefined && output.SnowballLimit !== null) {
     contents.SnowballLimit = output.SnowballLimit;
@@ -3102,7 +3102,7 @@ const deserializeAws_json1_1GetSoftwareUpdatesResult = (
 ): GetSoftwareUpdatesResult => {
   let contents: any = {
     __type: "GetSoftwareUpdatesResult",
-    UpdatesURI: undefined
+    UpdatesURI: undefined,
   };
   if (output.UpdatesURI !== undefined && output.UpdatesURI !== null) {
     contents.UpdatesURI = output.UpdatesURI;
@@ -3116,7 +3116,7 @@ const deserializeAws_json1_1InvalidAddressException = (
 ): InvalidAddressException => {
   let contents: any = {
     __type: "InvalidAddressException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3130,7 +3130,7 @@ const deserializeAws_json1_1InvalidInputCombinationException = (
 ): InvalidInputCombinationException => {
   let contents: any = {
     __type: "InvalidInputCombinationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3144,7 +3144,7 @@ const deserializeAws_json1_1InvalidJobStateException = (
 ): InvalidJobStateException => {
   let contents: any = {
     __type: "InvalidJobStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3158,7 +3158,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3173,7 +3173,7 @@ const deserializeAws_json1_1InvalidResourceException = (
   let contents: any = {
     __type: "InvalidResourceException",
     Message: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3196,7 +3196,7 @@ const deserializeAws_json1_1JobListEntry = (
     JobId: undefined,
     JobState: undefined,
     JobType: undefined,
-    SnowballType: undefined
+    SnowballType: undefined,
   };
   if (output.CreationDate !== undefined && output.CreationDate !== null) {
     contents.CreationDate = new Date(Math.round(output.CreationDate * 1000));
@@ -3239,7 +3239,7 @@ const deserializeAws_json1_1JobLogs = (
     __type: "JobLogs",
     JobCompletionReportURI: undefined,
     JobFailureLogURI: undefined,
-    JobSuccessLogURI: undefined
+    JobSuccessLogURI: undefined,
   };
   if (
     output.JobCompletionReportURI !== undefined &&
@@ -3284,7 +3284,7 @@ const deserializeAws_json1_1JobMetadata = (
     RoleARN: undefined,
     ShippingDetails: undefined,
     SnowballCapacityPreference: undefined,
-    SnowballType: undefined
+    SnowballType: undefined,
   };
   if (output.AddressId !== undefined && output.AddressId !== null) {
     contents.AddressId = output.AddressId;
@@ -3381,7 +3381,7 @@ const deserializeAws_json1_1JobResource = (
     __type: "JobResource",
     Ec2AmiResources: undefined,
     LambdaResources: undefined,
-    S3Resources: undefined
+    S3Resources: undefined,
   };
   if (output.Ec2AmiResources !== undefined && output.Ec2AmiResources !== null) {
     contents.Ec2AmiResources = deserializeAws_json1_1Ec2AmiResourceList(
@@ -3417,7 +3417,7 @@ const deserializeAws_json1_1KMSRequestFailedException = (
 ): KMSRequestFailedException => {
   let contents: any = {
     __type: "KMSRequestFailedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3432,7 +3432,7 @@ const deserializeAws_json1_1KeyRange = (
   let contents: any = {
     __type: "KeyRange",
     BeginMarker: undefined,
-    EndMarker: undefined
+    EndMarker: undefined,
   };
   if (output.BeginMarker !== undefined && output.BeginMarker !== null) {
     contents.BeginMarker = output.BeginMarker;
@@ -3450,7 +3450,7 @@ const deserializeAws_json1_1LambdaResource = (
   let contents: any = {
     __type: "LambdaResource",
     EventTriggers: undefined,
-    LambdaArn: undefined
+    LambdaArn: undefined,
   };
   if (output.EventTriggers !== undefined && output.EventTriggers !== null) {
     contents.EventTriggers = deserializeAws_json1_1EventTriggerDefinitionList(
@@ -3480,7 +3480,7 @@ const deserializeAws_json1_1ListClusterJobsResult = (
   let contents: any = {
     __type: "ListClusterJobsResult",
     JobListEntries: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.JobListEntries !== undefined && output.JobListEntries !== null) {
     contents.JobListEntries = deserializeAws_json1_1JobListEntryList(
@@ -3501,7 +3501,7 @@ const deserializeAws_json1_1ListClustersResult = (
   let contents: any = {
     __type: "ListClustersResult",
     ClusterListEntries: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.ClusterListEntries !== undefined &&
@@ -3525,7 +3525,7 @@ const deserializeAws_json1_1ListCompatibleImagesResult = (
   let contents: any = {
     __type: "ListCompatibleImagesResult",
     CompatibleImages: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.CompatibleImages !== undefined &&
@@ -3549,7 +3549,7 @@ const deserializeAws_json1_1ListJobsResult = (
   let contents: any = {
     __type: "ListJobsResult",
     JobListEntries: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.JobListEntries !== undefined && output.JobListEntries !== null) {
     contents.JobListEntries = deserializeAws_json1_1JobListEntryList(
@@ -3571,7 +3571,7 @@ const deserializeAws_json1_1Notification = (
     __type: "Notification",
     JobStatesToNotify: undefined,
     NotifyAll: undefined,
-    SnsTopicARN: undefined
+    SnsTopicARN: undefined,
   };
   if (
     output.JobStatesToNotify !== undefined &&
@@ -3598,7 +3598,7 @@ const deserializeAws_json1_1S3Resource = (
   let contents: any = {
     __type: "S3Resource",
     BucketArn: undefined,
-    KeyRange: undefined
+    KeyRange: undefined,
   };
   if (output.BucketArn !== undefined && output.BucketArn !== null) {
     contents.BucketArn = output.BucketArn;
@@ -3628,7 +3628,7 @@ const deserializeAws_json1_1Shipment = (
   let contents: any = {
     __type: "Shipment",
     Status: undefined,
-    TrackingNumber: undefined
+    TrackingNumber: undefined,
   };
   if (output.Status !== undefined && output.Status !== null) {
     contents.Status = output.Status;
@@ -3647,7 +3647,7 @@ const deserializeAws_json1_1ShippingDetails = (
     __type: "ShippingDetails",
     InboundShipment: undefined,
     OutboundShipment: undefined,
-    ShippingOption: undefined
+    ShippingOption: undefined,
   };
   if (output.InboundShipment !== undefined && output.InboundShipment !== null) {
     contents.InboundShipment = deserializeAws_json1_1Shipment(
@@ -3676,7 +3676,7 @@ const deserializeAws_json1_1UnsupportedAddressException = (
 ): UnsupportedAddressException => {
   let contents: any = {
     __type: "UnsupportedAddressException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3689,7 +3689,7 @@ const deserializeAws_json1_1UpdateClusterResult = (
   context: __SerdeContext
 ): UpdateClusterResult => {
   let contents: any = {
-    __type: "UpdateClusterResult"
+    __type: "UpdateClusterResult",
   };
   return contents;
 };
@@ -3699,7 +3699,7 @@ const deserializeAws_json1_1UpdateJobResult = (
   context: __SerdeContext
 ): UpdateJobResult => {
   let contents: any = {
-    __type: "UpdateJobResult"
+    __type: "UpdateJobResult",
   };
   return contents;
 };
@@ -3707,7 +3707,7 @@ const deserializeAws_json1_1UpdateJobResult = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3728,7 +3728,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3741,11 +3741,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3757,7 +3757,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

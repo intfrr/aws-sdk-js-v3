@@ -1,90 +1,90 @@
 import {
   CreateActivityCommandInput,
-  CreateActivityCommandOutput
+  CreateActivityCommandOutput,
 } from "../commands/CreateActivityCommand";
 import {
   CreateStateMachineCommandInput,
-  CreateStateMachineCommandOutput
+  CreateStateMachineCommandOutput,
 } from "../commands/CreateStateMachineCommand";
 import {
   DeleteActivityCommandInput,
-  DeleteActivityCommandOutput
+  DeleteActivityCommandOutput,
 } from "../commands/DeleteActivityCommand";
 import {
   DeleteStateMachineCommandInput,
-  DeleteStateMachineCommandOutput
+  DeleteStateMachineCommandOutput,
 } from "../commands/DeleteStateMachineCommand";
 import {
   DescribeActivityCommandInput,
-  DescribeActivityCommandOutput
+  DescribeActivityCommandOutput,
 } from "../commands/DescribeActivityCommand";
 import {
   DescribeExecutionCommandInput,
-  DescribeExecutionCommandOutput
+  DescribeExecutionCommandOutput,
 } from "../commands/DescribeExecutionCommand";
 import {
   DescribeStateMachineCommandInput,
-  DescribeStateMachineCommandOutput
+  DescribeStateMachineCommandOutput,
 } from "../commands/DescribeStateMachineCommand";
 import {
   DescribeStateMachineForExecutionCommandInput,
-  DescribeStateMachineForExecutionCommandOutput
+  DescribeStateMachineForExecutionCommandOutput,
 } from "../commands/DescribeStateMachineForExecutionCommand";
 import {
   GetActivityTaskCommandInput,
-  GetActivityTaskCommandOutput
+  GetActivityTaskCommandOutput,
 } from "../commands/GetActivityTaskCommand";
 import {
   GetExecutionHistoryCommandInput,
-  GetExecutionHistoryCommandOutput
+  GetExecutionHistoryCommandOutput,
 } from "../commands/GetExecutionHistoryCommand";
 import {
   ListActivitiesCommandInput,
-  ListActivitiesCommandOutput
+  ListActivitiesCommandOutput,
 } from "../commands/ListActivitiesCommand";
 import {
   ListExecutionsCommandInput,
-  ListExecutionsCommandOutput
+  ListExecutionsCommandOutput,
 } from "../commands/ListExecutionsCommand";
 import {
   ListStateMachinesCommandInput,
-  ListStateMachinesCommandOutput
+  ListStateMachinesCommandOutput,
 } from "../commands/ListStateMachinesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   SendTaskFailureCommandInput,
-  SendTaskFailureCommandOutput
+  SendTaskFailureCommandOutput,
 } from "../commands/SendTaskFailureCommand";
 import {
   SendTaskHeartbeatCommandInput,
-  SendTaskHeartbeatCommandOutput
+  SendTaskHeartbeatCommandOutput,
 } from "../commands/SendTaskHeartbeatCommand";
 import {
   SendTaskSuccessCommandInput,
-  SendTaskSuccessCommandOutput
+  SendTaskSuccessCommandOutput,
 } from "../commands/SendTaskSuccessCommand";
 import {
   StartExecutionCommandInput,
-  StartExecutionCommandOutput
+  StartExecutionCommandOutput,
 } from "../commands/StartExecutionCommand";
 import {
   StopExecutionCommandInput,
-  StopExecutionCommandOutput
+  StopExecutionCommandOutput,
 } from "../commands/StopExecutionCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateStateMachineCommandInput,
-  UpdateStateMachineCommandOutput
+  UpdateStateMachineCommandOutput,
 } from "../commands/UpdateStateMachineCommand";
 import {
   ActivityDoesNotExist,
@@ -190,11 +190,11 @@ import {
   UntagResourceInput,
   UntagResourceOutput,
   UpdateStateMachineInput,
-  UpdateStateMachineOutput
+  UpdateStateMachineOutput,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -202,7 +202,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_0CreateActivityCommand(
@@ -520,7 +520,7 @@ export async function deserializeAws_json1_0CreateActivityCommand(
   const response: CreateActivityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateActivityOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -531,7 +531,7 @@ async function deserializeAws_json1_0CreateActivityCommandError(
 ): Promise<CreateActivityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -547,7 +547,7 @@ async function deserializeAws_json1_0CreateActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidName":
@@ -558,7 +558,7 @@ async function deserializeAws_json1_0CreateActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTags":
@@ -569,7 +569,7 @@ async function deserializeAws_json1_0CreateActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -580,7 +580,7 @@ async function deserializeAws_json1_0CreateActivityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -605,7 +605,7 @@ export async function deserializeAws_json1_0CreateStateMachineCommand(
   const response: CreateStateMachineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateStateMachineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -616,7 +616,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
 ): Promise<CreateStateMachineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -632,7 +632,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDefinition":
@@ -643,7 +643,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLoggingConfiguration":
@@ -654,7 +654,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidName":
@@ -665,7 +665,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineAlreadyExists":
@@ -676,7 +676,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDeleting":
@@ -687,7 +687,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineLimitExceeded":
@@ -698,7 +698,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineTypeNotSupported":
@@ -709,7 +709,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTags":
@@ -720,7 +720,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -731,7 +731,7 @@ async function deserializeAws_json1_0CreateStateMachineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -753,7 +753,7 @@ export async function deserializeAws_json1_0DeleteActivityCommand(
   const response: DeleteActivityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteActivityOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -764,7 +764,7 @@ async function deserializeAws_json1_0DeleteActivityCommandError(
 ): Promise<DeleteActivityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -780,7 +780,7 @@ async function deserializeAws_json1_0DeleteActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -791,7 +791,7 @@ async function deserializeAws_json1_0DeleteActivityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -816,7 +816,7 @@ export async function deserializeAws_json1_0DeleteStateMachineCommand(
   const response: DeleteStateMachineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteStateMachineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -827,7 +827,7 @@ async function deserializeAws_json1_0DeleteStateMachineCommandError(
 ): Promise<DeleteStateMachineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -843,7 +843,7 @@ async function deserializeAws_json1_0DeleteStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -854,7 +854,7 @@ async function deserializeAws_json1_0DeleteStateMachineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -876,7 +876,7 @@ export async function deserializeAws_json1_0DescribeActivityCommand(
   const response: DescribeActivityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeActivityOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -887,7 +887,7 @@ async function deserializeAws_json1_0DescribeActivityCommandError(
 ): Promise<DescribeActivityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -903,7 +903,7 @@ async function deserializeAws_json1_0DescribeActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -914,7 +914,7 @@ async function deserializeAws_json1_0DescribeActivityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -925,7 +925,7 @@ async function deserializeAws_json1_0DescribeActivityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -947,7 +947,7 @@ export async function deserializeAws_json1_0DescribeExecutionCommand(
   const response: DescribeExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeExecutionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -958,7 +958,7 @@ async function deserializeAws_json1_0DescribeExecutionCommandError(
 ): Promise<DescribeExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -974,7 +974,7 @@ async function deserializeAws_json1_0DescribeExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -985,7 +985,7 @@ async function deserializeAws_json1_0DescribeExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -996,7 +996,7 @@ async function deserializeAws_json1_0DescribeExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1021,7 +1021,7 @@ export async function deserializeAws_json1_0DescribeStateMachineCommand(
   const response: DescribeStateMachineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStateMachineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1032,7 +1032,7 @@ async function deserializeAws_json1_0DescribeStateMachineCommandError(
 ): Promise<DescribeStateMachineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1048,7 +1048,7 @@ async function deserializeAws_json1_0DescribeStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDoesNotExist":
@@ -1059,7 +1059,7 @@ async function deserializeAws_json1_0DescribeStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1070,7 +1070,7 @@ async function deserializeAws_json1_0DescribeStateMachineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1098,7 +1098,7 @@ export async function deserializeAws_json1_0DescribeStateMachineForExecutionComm
   const response: DescribeStateMachineForExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStateMachineForExecutionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1109,7 +1109,7 @@ async function deserializeAws_json1_0DescribeStateMachineForExecutionCommandErro
 ): Promise<DescribeStateMachineForExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1125,7 +1125,7 @@ async function deserializeAws_json1_0DescribeStateMachineForExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -1136,7 +1136,7 @@ async function deserializeAws_json1_0DescribeStateMachineForExecutionCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1147,7 +1147,7 @@ async function deserializeAws_json1_0DescribeStateMachineForExecutionCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1169,7 +1169,7 @@ export async function deserializeAws_json1_0GetActivityTaskCommand(
   const response: GetActivityTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetActivityTaskOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1180,7 +1180,7 @@ async function deserializeAws_json1_0GetActivityTaskCommandError(
 ): Promise<GetActivityTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1196,7 +1196,7 @@ async function deserializeAws_json1_0GetActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ActivityWorkerLimitExceeded":
@@ -1207,7 +1207,7 @@ async function deserializeAws_json1_0GetActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -1218,7 +1218,7 @@ async function deserializeAws_json1_0GetActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1229,7 +1229,7 @@ async function deserializeAws_json1_0GetActivityTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1254,7 +1254,7 @@ export async function deserializeAws_json1_0GetExecutionHistoryCommand(
   const response: GetExecutionHistoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetExecutionHistoryOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1265,7 +1265,7 @@ async function deserializeAws_json1_0GetExecutionHistoryCommandError(
 ): Promise<GetExecutionHistoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1281,7 +1281,7 @@ async function deserializeAws_json1_0GetExecutionHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -1292,7 +1292,7 @@ async function deserializeAws_json1_0GetExecutionHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidToken":
@@ -1303,7 +1303,7 @@ async function deserializeAws_json1_0GetExecutionHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1314,7 +1314,7 @@ async function deserializeAws_json1_0GetExecutionHistoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1336,7 +1336,7 @@ export async function deserializeAws_json1_0ListActivitiesCommand(
   const response: ListActivitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListActivitiesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1347,7 +1347,7 @@ async function deserializeAws_json1_0ListActivitiesCommandError(
 ): Promise<ListActivitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1363,7 +1363,7 @@ async function deserializeAws_json1_0ListActivitiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1374,7 +1374,7 @@ async function deserializeAws_json1_0ListActivitiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1396,7 +1396,7 @@ export async function deserializeAws_json1_0ListExecutionsCommand(
   const response: ListExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListExecutionsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1407,7 +1407,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
 ): Promise<ListExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1423,7 +1423,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidToken":
@@ -1434,7 +1434,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDoesNotExist":
@@ -1445,7 +1445,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineTypeNotSupported":
@@ -1456,7 +1456,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1467,7 +1467,7 @@ async function deserializeAws_json1_0ListExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1489,7 +1489,7 @@ export async function deserializeAws_json1_0ListStateMachinesCommand(
   const response: ListStateMachinesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListStateMachinesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1500,7 +1500,7 @@ async function deserializeAws_json1_0ListStateMachinesCommandError(
 ): Promise<ListStateMachinesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1516,7 +1516,7 @@ async function deserializeAws_json1_0ListStateMachinesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1527,7 +1527,7 @@ async function deserializeAws_json1_0ListStateMachinesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1552,7 +1552,7 @@ export async function deserializeAws_json1_0ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1563,7 +1563,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1579,7 +1579,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -1590,7 +1590,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1601,7 +1601,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1623,7 +1623,7 @@ export async function deserializeAws_json1_0SendTaskFailureCommand(
   const response: SendTaskFailureCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendTaskFailureOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1634,7 +1634,7 @@ async function deserializeAws_json1_0SendTaskFailureCommandError(
 ): Promise<SendTaskFailureCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1650,7 +1650,7 @@ async function deserializeAws_json1_0SendTaskFailureCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskDoesNotExist":
@@ -1661,7 +1661,7 @@ async function deserializeAws_json1_0SendTaskFailureCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskTimedOut":
@@ -1672,7 +1672,7 @@ async function deserializeAws_json1_0SendTaskFailureCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1683,7 +1683,7 @@ async function deserializeAws_json1_0SendTaskFailureCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1705,7 +1705,7 @@ export async function deserializeAws_json1_0SendTaskHeartbeatCommand(
   const response: SendTaskHeartbeatCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendTaskHeartbeatOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1716,7 +1716,7 @@ async function deserializeAws_json1_0SendTaskHeartbeatCommandError(
 ): Promise<SendTaskHeartbeatCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1732,7 +1732,7 @@ async function deserializeAws_json1_0SendTaskHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskDoesNotExist":
@@ -1743,7 +1743,7 @@ async function deserializeAws_json1_0SendTaskHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskTimedOut":
@@ -1754,7 +1754,7 @@ async function deserializeAws_json1_0SendTaskHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1765,7 +1765,7 @@ async function deserializeAws_json1_0SendTaskHeartbeatCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1787,7 +1787,7 @@ export async function deserializeAws_json1_0SendTaskSuccessCommand(
   const response: SendTaskSuccessCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendTaskSuccessOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1798,7 +1798,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
 ): Promise<SendTaskSuccessCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1814,7 +1814,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidToken":
@@ -1825,7 +1825,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskDoesNotExist":
@@ -1836,7 +1836,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TaskTimedOut":
@@ -1847,7 +1847,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1858,7 +1858,7 @@ async function deserializeAws_json1_0SendTaskSuccessCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1880,7 +1880,7 @@ export async function deserializeAws_json1_0StartExecutionCommand(
   const response: StartExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartExecutionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1891,7 +1891,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
 ): Promise<StartExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1907,7 +1907,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ExecutionLimitExceeded":
@@ -1918,7 +1918,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -1929,7 +1929,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidExecutionInput":
@@ -1940,7 +1940,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidName":
@@ -1951,7 +1951,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDeleting":
@@ -1962,7 +1962,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDoesNotExist":
@@ -1973,7 +1973,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1984,7 +1984,7 @@ async function deserializeAws_json1_0StartExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2006,7 +2006,7 @@ export async function deserializeAws_json1_0StopExecutionCommand(
   const response: StopExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopExecutionOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2017,7 +2017,7 @@ async function deserializeAws_json1_0StopExecutionCommandError(
 ): Promise<StopExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2033,7 +2033,7 @@ async function deserializeAws_json1_0StopExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArn":
@@ -2044,7 +2044,7 @@ async function deserializeAws_json1_0StopExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2055,7 +2055,7 @@ async function deserializeAws_json1_0StopExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2077,7 +2077,7 @@ export async function deserializeAws_json1_0TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2088,7 +2088,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2104,7 +2104,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -2115,7 +2115,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTags":
@@ -2126,7 +2126,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2137,7 +2137,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2159,7 +2159,7 @@ export async function deserializeAws_json1_0UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2170,7 +2170,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2186,7 +2186,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -2197,7 +2197,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2208,7 +2208,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2233,7 +2233,7 @@ export async function deserializeAws_json1_0UpdateStateMachineCommand(
   const response: UpdateStateMachineCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateStateMachineOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2244,7 +2244,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
 ): Promise<UpdateStateMachineCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2260,7 +2260,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDefinition":
@@ -2271,7 +2271,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLoggingConfiguration":
@@ -2282,7 +2282,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRequiredParameter":
@@ -2293,7 +2293,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDeleting":
@@ -2304,7 +2304,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StateMachineDoesNotExist":
@@ -2315,7 +2315,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2326,7 +2326,7 @@ async function deserializeAws_json1_0UpdateStateMachineCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2348,7 +2348,7 @@ const deserializeAws_json1_0ActivityDoesNotExistResponse = async (
     name: "ActivityDoesNotExist",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2366,7 +2366,7 @@ const deserializeAws_json1_0ActivityLimitExceededResponse = async (
     name: "ActivityLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2384,7 +2384,7 @@ const deserializeAws_json1_0ActivityWorkerLimitExceededResponse = async (
     name: "ActivityWorkerLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2402,7 +2402,7 @@ const deserializeAws_json1_0ExecutionAlreadyExistsResponse = async (
     name: "ExecutionAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2420,7 +2420,7 @@ const deserializeAws_json1_0ExecutionDoesNotExistResponse = async (
     name: "ExecutionDoesNotExist",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2438,7 +2438,7 @@ const deserializeAws_json1_0ExecutionLimitExceededResponse = async (
     name: "ExecutionLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2453,7 +2453,7 @@ const deserializeAws_json1_0InvalidArnResponse = async (
     name: "InvalidArn",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2471,7 +2471,7 @@ const deserializeAws_json1_0InvalidDefinitionResponse = async (
     name: "InvalidDefinition",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2489,7 +2489,7 @@ const deserializeAws_json1_0InvalidExecutionInputResponse = async (
     name: "InvalidExecutionInput",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2507,7 +2507,7 @@ const deserializeAws_json1_0InvalidLoggingConfigurationResponse = async (
     name: "InvalidLoggingConfiguration",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2522,7 +2522,7 @@ const deserializeAws_json1_0InvalidNameResponse = async (
     name: "InvalidName",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2537,7 +2537,7 @@ const deserializeAws_json1_0InvalidOutputResponse = async (
     name: "InvalidOutput",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2552,7 +2552,7 @@ const deserializeAws_json1_0InvalidTokenResponse = async (
     name: "InvalidToken",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2570,7 +2570,7 @@ const deserializeAws_json1_0MissingRequiredParameterResponse = async (
     name: "MissingRequiredParameter",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2588,7 +2588,7 @@ const deserializeAws_json1_0ResourceNotFoundResponse = async (
     name: "ResourceNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2606,7 +2606,7 @@ const deserializeAws_json1_0StateMachineAlreadyExistsResponse = async (
     name: "StateMachineAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2624,7 +2624,7 @@ const deserializeAws_json1_0StateMachineDeletingResponse = async (
     name: "StateMachineDeleting",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2642,7 +2642,7 @@ const deserializeAws_json1_0StateMachineDoesNotExistResponse = async (
     name: "StateMachineDoesNotExist",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2660,7 +2660,7 @@ const deserializeAws_json1_0StateMachineLimitExceededResponse = async (
     name: "StateMachineLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2678,7 +2678,7 @@ const deserializeAws_json1_0StateMachineTypeNotSupportedResponse = async (
     name: "StateMachineTypeNotSupported",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2696,7 +2696,7 @@ const deserializeAws_json1_0TaskDoesNotExistResponse = async (
     name: "TaskDoesNotExist",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2711,7 +2711,7 @@ const deserializeAws_json1_0TaskTimedOutResponse = async (
     name: "TaskTimedOut",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2726,7 +2726,7 @@ const deserializeAws_json1_0TooManyTagsResponse = async (
     name: "TooManyTags",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3165,7 +3165,7 @@ const deserializeAws_json1_0ActivityFailedEventDetails = (
   let contents: any = {
     __type: "ActivityFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3183,7 +3183,7 @@ const deserializeAws_json1_0ActivityScheduleFailedEventDetails = (
   let contents: any = {
     __type: "ActivityScheduleFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3203,7 +3203,7 @@ const deserializeAws_json1_0ActivityScheduledEventDetails = (
     heartbeatInSeconds: undefined,
     input: undefined,
     resource: undefined,
-    timeoutInSeconds: undefined
+    timeoutInSeconds: undefined,
   };
   if (
     output.heartbeatInSeconds !== undefined &&
@@ -3232,7 +3232,7 @@ const deserializeAws_json1_0ActivityStartedEventDetails = (
 ): ActivityStartedEventDetails => {
   let contents: any = {
     __type: "ActivityStartedEventDetails",
-    workerName: undefined
+    workerName: undefined,
   };
   if (output.workerName !== undefined && output.workerName !== null) {
     contents.workerName = output.workerName;
@@ -3246,7 +3246,7 @@ const deserializeAws_json1_0ActivitySucceededEventDetails = (
 ): ActivitySucceededEventDetails => {
   let contents: any = {
     __type: "ActivitySucceededEventDetails",
-    output: undefined
+    output: undefined,
   };
   if (output.output !== undefined && output.output !== null) {
     contents.output = output.output;
@@ -3261,7 +3261,7 @@ const deserializeAws_json1_0ActivityTimedOutEventDetails = (
   let contents: any = {
     __type: "ActivityTimedOutEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3278,7 +3278,7 @@ const deserializeAws_json1_0CloudWatchLogsLogGroup = (
 ): CloudWatchLogsLogGroup => {
   let contents: any = {
     __type: "CloudWatchLogsLogGroup",
-    logGroupArn: undefined
+    logGroupArn: undefined,
   };
   if (output.logGroupArn !== undefined && output.logGroupArn !== null) {
     contents.logGroupArn = output.logGroupArn;
@@ -3293,7 +3293,7 @@ const deserializeAws_json1_0ExecutionAbortedEventDetails = (
   let contents: any = {
     __type: "ExecutionAbortedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3311,7 +3311,7 @@ const deserializeAws_json1_0ExecutionFailedEventDetails = (
   let contents: any = {
     __type: "ExecutionFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3329,7 +3329,7 @@ const deserializeAws_json1_0ExecutionStartedEventDetails = (
   let contents: any = {
     __type: "ExecutionStartedEventDetails",
     input: undefined,
-    roleArn: undefined
+    roleArn: undefined,
   };
   if (output.input !== undefined && output.input !== null) {
     contents.input = output.input;
@@ -3346,7 +3346,7 @@ const deserializeAws_json1_0ExecutionSucceededEventDetails = (
 ): ExecutionSucceededEventDetails => {
   let contents: any = {
     __type: "ExecutionSucceededEventDetails",
-    output: undefined
+    output: undefined,
   };
   if (output.output !== undefined && output.output !== null) {
     contents.output = output.output;
@@ -3361,7 +3361,7 @@ const deserializeAws_json1_0ExecutionTimedOutEventDetails = (
   let contents: any = {
     __type: "ExecutionTimedOutEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3413,7 +3413,7 @@ const deserializeAws_json1_0HistoryEvent = (
     taskSucceededEventDetails: undefined,
     taskTimedOutEventDetails: undefined,
     timestamp: undefined,
-    type: undefined
+    type: undefined,
   };
   if (
     output.activityFailedEventDetails !== undefined &&
@@ -3734,7 +3734,7 @@ const deserializeAws_json1_0LambdaFunctionFailedEventDetails = (
   let contents: any = {
     __type: "LambdaFunctionFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3752,7 +3752,7 @@ const deserializeAws_json1_0LambdaFunctionScheduleFailedEventDetails = (
   let contents: any = {
     __type: "LambdaFunctionScheduleFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3771,7 +3771,7 @@ const deserializeAws_json1_0LambdaFunctionScheduledEventDetails = (
     __type: "LambdaFunctionScheduledEventDetails",
     input: undefined,
     resource: undefined,
-    timeoutInSeconds: undefined
+    timeoutInSeconds: undefined,
   };
   if (output.input !== undefined && output.input !== null) {
     contents.input = output.input;
@@ -3795,7 +3795,7 @@ const deserializeAws_json1_0LambdaFunctionStartFailedEventDetails = (
   let contents: any = {
     __type: "LambdaFunctionStartFailedEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3812,7 +3812,7 @@ const deserializeAws_json1_0LambdaFunctionSucceededEventDetails = (
 ): LambdaFunctionSucceededEventDetails => {
   let contents: any = {
     __type: "LambdaFunctionSucceededEventDetails",
-    output: undefined
+    output: undefined,
   };
   if (output.output !== undefined && output.output !== null) {
     contents.output = output.output;
@@ -3827,7 +3827,7 @@ const deserializeAws_json1_0LambdaFunctionTimedOutEventDetails = (
   let contents: any = {
     __type: "LambdaFunctionTimedOutEventDetails",
     cause: undefined,
-    error: undefined
+    error: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3844,7 +3844,7 @@ const deserializeAws_json1_0LogDestination = (
 ): LogDestination => {
   let contents: any = {
     __type: "LogDestination",
-    cloudWatchLogsLogGroup: undefined
+    cloudWatchLogsLogGroup: undefined,
   };
   if (
     output.cloudWatchLogsLogGroup !== undefined &&
@@ -3875,7 +3875,7 @@ const deserializeAws_json1_0LoggingConfiguration = (
     __type: "LoggingConfiguration",
     destinations: undefined,
     includeExecutionData: undefined,
-    level: undefined
+    level: undefined,
   };
   if (output.destinations !== undefined && output.destinations !== null) {
     contents.destinations = deserializeAws_json1_0LogDestinationList(
@@ -3902,7 +3902,7 @@ const deserializeAws_json1_0MapIterationEventDetails = (
   let contents: any = {
     __type: "MapIterationEventDetails",
     index: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.index !== undefined && output.index !== null) {
     contents.index = output.index;
@@ -3919,7 +3919,7 @@ const deserializeAws_json1_0MapStateStartedEventDetails = (
 ): MapStateStartedEventDetails => {
   let contents: any = {
     __type: "MapStateStartedEventDetails",
-    length: undefined
+    length: undefined,
   };
   if (output.length !== undefined && output.length !== null) {
     contents.length = output.length;
@@ -3934,7 +3934,7 @@ const deserializeAws_json1_0StateEnteredEventDetails = (
   let contents: any = {
     __type: "StateEnteredEventDetails",
     input: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.input !== undefined && output.input !== null) {
     contents.input = output.input;
@@ -3952,7 +3952,7 @@ const deserializeAws_json1_0StateExitedEventDetails = (
   let contents: any = {
     __type: "StateExitedEventDetails",
     name: undefined,
-    output: undefined
+    output: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -3972,7 +3972,7 @@ const deserializeAws_json1_0TaskFailedEventDetails = (
     cause: undefined,
     error: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -3999,7 +3999,7 @@ const deserializeAws_json1_0TaskScheduledEventDetails = (
     region: undefined,
     resource: undefined,
     resourceType: undefined,
-    timeoutInSeconds: undefined
+    timeoutInSeconds: undefined,
   };
   if (output.parameters !== undefined && output.parameters !== null) {
     contents.parameters = output.parameters;
@@ -4031,7 +4031,7 @@ const deserializeAws_json1_0TaskStartFailedEventDetails = (
     cause: undefined,
     error: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -4055,7 +4055,7 @@ const deserializeAws_json1_0TaskStartedEventDetails = (
   let contents: any = {
     __type: "TaskStartedEventDetails",
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.resource !== undefined && output.resource !== null) {
     contents.resource = output.resource;
@@ -4075,7 +4075,7 @@ const deserializeAws_json1_0TaskSubmitFailedEventDetails = (
     cause: undefined,
     error: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -4100,7 +4100,7 @@ const deserializeAws_json1_0TaskSubmittedEventDetails = (
     __type: "TaskSubmittedEventDetails",
     output: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.output !== undefined && output.output !== null) {
     contents.output = output.output;
@@ -4122,7 +4122,7 @@ const deserializeAws_json1_0TaskSucceededEventDetails = (
     __type: "TaskSucceededEventDetails",
     output: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.output !== undefined && output.output !== null) {
     contents.output = output.output;
@@ -4145,7 +4145,7 @@ const deserializeAws_json1_0TaskTimedOutEventDetails = (
     cause: undefined,
     error: undefined,
     resource: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -4168,7 +4168,7 @@ const deserializeAws_json1_0ActivityDoesNotExist = (
 ): ActivityDoesNotExist => {
   let contents: any = {
     __type: "ActivityDoesNotExist",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4182,7 +4182,7 @@ const deserializeAws_json1_0ActivityLimitExceeded = (
 ): ActivityLimitExceeded => {
   let contents: any = {
     __type: "ActivityLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4207,7 +4207,7 @@ const deserializeAws_json1_0ActivityListItem = (
     __type: "ActivityListItem",
     activityArn: undefined,
     creationDate: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.activityArn !== undefined && output.activityArn !== null) {
     contents.activityArn = output.activityArn;
@@ -4227,7 +4227,7 @@ const deserializeAws_json1_0ActivityWorkerLimitExceeded = (
 ): ActivityWorkerLimitExceeded => {
   let contents: any = {
     __type: "ActivityWorkerLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4242,7 +4242,7 @@ const deserializeAws_json1_0CreateActivityOutput = (
   let contents: any = {
     __type: "CreateActivityOutput",
     activityArn: undefined,
-    creationDate: undefined
+    creationDate: undefined,
   };
   if (output.activityArn !== undefined && output.activityArn !== null) {
     contents.activityArn = output.activityArn;
@@ -4260,7 +4260,7 @@ const deserializeAws_json1_0CreateStateMachineOutput = (
   let contents: any = {
     __type: "CreateStateMachineOutput",
     creationDate: undefined,
-    stateMachineArn: undefined
+    stateMachineArn: undefined,
   };
   if (output.creationDate !== undefined && output.creationDate !== null) {
     contents.creationDate = new Date(Math.round(output.creationDate * 1000));
@@ -4276,7 +4276,7 @@ const deserializeAws_json1_0DeleteActivityOutput = (
   context: __SerdeContext
 ): DeleteActivityOutput => {
   let contents: any = {
-    __type: "DeleteActivityOutput"
+    __type: "DeleteActivityOutput",
   };
   return contents;
 };
@@ -4286,7 +4286,7 @@ const deserializeAws_json1_0DeleteStateMachineOutput = (
   context: __SerdeContext
 ): DeleteStateMachineOutput => {
   let contents: any = {
-    __type: "DeleteStateMachineOutput"
+    __type: "DeleteStateMachineOutput",
   };
   return contents;
 };
@@ -4299,7 +4299,7 @@ const deserializeAws_json1_0DescribeActivityOutput = (
     __type: "DescribeActivityOutput",
     activityArn: undefined,
     creationDate: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.activityArn !== undefined && output.activityArn !== null) {
     contents.activityArn = output.activityArn;
@@ -4326,7 +4326,7 @@ const deserializeAws_json1_0DescribeExecutionOutput = (
     startDate: undefined,
     stateMachineArn: undefined,
     status: undefined,
-    stopDate: undefined
+    stopDate: undefined,
   };
   if (output.executionArn !== undefined && output.executionArn !== null) {
     contents.executionArn = output.executionArn;
@@ -4365,7 +4365,7 @@ const deserializeAws_json1_0DescribeStateMachineForExecutionOutput = (
     name: undefined,
     roleArn: undefined,
     stateMachineArn: undefined,
-    updateDate: undefined
+    updateDate: undefined,
   };
   if (output.definition !== undefined && output.definition !== null) {
     contents.definition = output.definition;
@@ -4398,7 +4398,7 @@ const deserializeAws_json1_0DescribeStateMachineOutput = (
     roleArn: undefined,
     stateMachineArn: undefined,
     status: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.creationDate !== undefined && output.creationDate !== null) {
     contents.creationDate = new Date(Math.round(output.creationDate * 1000));
@@ -4439,7 +4439,7 @@ const deserializeAws_json1_0ExecutionAlreadyExists = (
 ): ExecutionAlreadyExists => {
   let contents: any = {
     __type: "ExecutionAlreadyExists",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4453,7 +4453,7 @@ const deserializeAws_json1_0ExecutionDoesNotExist = (
 ): ExecutionDoesNotExist => {
   let contents: any = {
     __type: "ExecutionDoesNotExist",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4467,7 +4467,7 @@ const deserializeAws_json1_0ExecutionLimitExceeded = (
 ): ExecutionLimitExceeded => {
   let contents: any = {
     __type: "ExecutionLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4495,7 +4495,7 @@ const deserializeAws_json1_0ExecutionListItem = (
     startDate: undefined,
     stateMachineArn: undefined,
     status: undefined,
-    stopDate: undefined
+    stopDate: undefined,
   };
   if (output.executionArn !== undefined && output.executionArn !== null) {
     contents.executionArn = output.executionArn;
@@ -4525,7 +4525,7 @@ const deserializeAws_json1_0GetActivityTaskOutput = (
   let contents: any = {
     __type: "GetActivityTaskOutput",
     input: undefined,
-    taskToken: undefined
+    taskToken: undefined,
   };
   if (output.input !== undefined && output.input !== null) {
     contents.input = output.input;
@@ -4543,7 +4543,7 @@ const deserializeAws_json1_0GetExecutionHistoryOutput = (
   let contents: any = {
     __type: "GetExecutionHistoryOutput",
     events: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.events !== undefined && output.events !== null) {
     contents.events = deserializeAws_json1_0HistoryEventList(
@@ -4563,7 +4563,7 @@ const deserializeAws_json1_0InvalidArn = (
 ): InvalidArn => {
   let contents: any = {
     __type: "InvalidArn",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4577,7 +4577,7 @@ const deserializeAws_json1_0InvalidDefinition = (
 ): InvalidDefinition => {
   let contents: any = {
     __type: "InvalidDefinition",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4591,7 +4591,7 @@ const deserializeAws_json1_0InvalidExecutionInput = (
 ): InvalidExecutionInput => {
   let contents: any = {
     __type: "InvalidExecutionInput",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4605,7 +4605,7 @@ const deserializeAws_json1_0InvalidLoggingConfiguration = (
 ): InvalidLoggingConfiguration => {
   let contents: any = {
     __type: "InvalidLoggingConfiguration",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4619,7 +4619,7 @@ const deserializeAws_json1_0InvalidName = (
 ): InvalidName => {
   let contents: any = {
     __type: "InvalidName",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4633,7 +4633,7 @@ const deserializeAws_json1_0InvalidOutput = (
 ): InvalidOutput => {
   let contents: any = {
     __type: "InvalidOutput",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4647,7 +4647,7 @@ const deserializeAws_json1_0InvalidToken = (
 ): InvalidToken => {
   let contents: any = {
     __type: "InvalidToken",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4662,7 +4662,7 @@ const deserializeAws_json1_0ListActivitiesOutput = (
   let contents: any = {
     __type: "ListActivitiesOutput",
     activities: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.activities !== undefined && output.activities !== null) {
     contents.activities = deserializeAws_json1_0ActivityList(
@@ -4683,7 +4683,7 @@ const deserializeAws_json1_0ListExecutionsOutput = (
   let contents: any = {
     __type: "ListExecutionsOutput",
     executions: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.executions !== undefined && output.executions !== null) {
     contents.executions = deserializeAws_json1_0ExecutionList(
@@ -4704,7 +4704,7 @@ const deserializeAws_json1_0ListStateMachinesOutput = (
   let contents: any = {
     __type: "ListStateMachinesOutput",
     nextToken: undefined,
-    stateMachines: undefined
+    stateMachines: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -4724,7 +4724,7 @@ const deserializeAws_json1_0ListTagsForResourceOutput = (
 ): ListTagsForResourceOutput => {
   let contents: any = {
     __type: "ListTagsForResourceOutput",
-    tags: undefined
+    tags: undefined,
   };
   if (output.tags !== undefined && output.tags !== null) {
     contents.tags = deserializeAws_json1_0TagList(output.tags, context);
@@ -4738,7 +4738,7 @@ const deserializeAws_json1_0MissingRequiredParameter = (
 ): MissingRequiredParameter => {
   let contents: any = {
     __type: "MissingRequiredParameter",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4753,7 +4753,7 @@ const deserializeAws_json1_0ResourceNotFound = (
   let contents: any = {
     __type: "ResourceNotFound",
     message: undefined,
-    resourceName: undefined
+    resourceName: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4769,7 +4769,7 @@ const deserializeAws_json1_0SendTaskFailureOutput = (
   context: __SerdeContext
 ): SendTaskFailureOutput => {
   let contents: any = {
-    __type: "SendTaskFailureOutput"
+    __type: "SendTaskFailureOutput",
   };
   return contents;
 };
@@ -4779,7 +4779,7 @@ const deserializeAws_json1_0SendTaskHeartbeatOutput = (
   context: __SerdeContext
 ): SendTaskHeartbeatOutput => {
   let contents: any = {
-    __type: "SendTaskHeartbeatOutput"
+    __type: "SendTaskHeartbeatOutput",
   };
   return contents;
 };
@@ -4789,7 +4789,7 @@ const deserializeAws_json1_0SendTaskSuccessOutput = (
   context: __SerdeContext
 ): SendTaskSuccessOutput => {
   let contents: any = {
-    __type: "SendTaskSuccessOutput"
+    __type: "SendTaskSuccessOutput",
   };
   return contents;
 };
@@ -4801,7 +4801,7 @@ const deserializeAws_json1_0StartExecutionOutput = (
   let contents: any = {
     __type: "StartExecutionOutput",
     executionArn: undefined,
-    startDate: undefined
+    startDate: undefined,
   };
   if (output.executionArn !== undefined && output.executionArn !== null) {
     contents.executionArn = output.executionArn;
@@ -4818,7 +4818,7 @@ const deserializeAws_json1_0StateMachineAlreadyExists = (
 ): StateMachineAlreadyExists => {
   let contents: any = {
     __type: "StateMachineAlreadyExists",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4832,7 +4832,7 @@ const deserializeAws_json1_0StateMachineDeleting = (
 ): StateMachineDeleting => {
   let contents: any = {
     __type: "StateMachineDeleting",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4846,7 +4846,7 @@ const deserializeAws_json1_0StateMachineDoesNotExist = (
 ): StateMachineDoesNotExist => {
   let contents: any = {
     __type: "StateMachineDoesNotExist",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4860,7 +4860,7 @@ const deserializeAws_json1_0StateMachineLimitExceeded = (
 ): StateMachineLimitExceeded => {
   let contents: any = {
     __type: "StateMachineLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4886,7 +4886,7 @@ const deserializeAws_json1_0StateMachineListItem = (
     creationDate: undefined,
     name: undefined,
     stateMachineArn: undefined,
-    type: undefined
+    type: undefined,
   };
   if (output.creationDate !== undefined && output.creationDate !== null) {
     contents.creationDate = new Date(Math.round(output.creationDate * 1000));
@@ -4909,7 +4909,7 @@ const deserializeAws_json1_0StateMachineTypeNotSupported = (
 ): StateMachineTypeNotSupported => {
   let contents: any = {
     __type: "StateMachineTypeNotSupported",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4923,7 +4923,7 @@ const deserializeAws_json1_0StopExecutionOutput = (
 ): StopExecutionOutput => {
   let contents: any = {
     __type: "StopExecutionOutput",
-    stopDate: undefined
+    stopDate: undefined,
   };
   if (output.stopDate !== undefined && output.stopDate !== null) {
     contents.stopDate = new Date(Math.round(output.stopDate * 1000));
@@ -4938,7 +4938,7 @@ const deserializeAws_json1_0Tag = (
   let contents: any = {
     __type: "Tag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -4963,7 +4963,7 @@ const deserializeAws_json1_0TagResourceOutput = (
   context: __SerdeContext
 ): TagResourceOutput => {
   let contents: any = {
-    __type: "TagResourceOutput"
+    __type: "TagResourceOutput",
   };
   return contents;
 };
@@ -4974,7 +4974,7 @@ const deserializeAws_json1_0TaskDoesNotExist = (
 ): TaskDoesNotExist => {
   let contents: any = {
     __type: "TaskDoesNotExist",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4988,7 +4988,7 @@ const deserializeAws_json1_0TaskTimedOut = (
 ): TaskTimedOut => {
   let contents: any = {
     __type: "TaskTimedOut",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5003,7 +5003,7 @@ const deserializeAws_json1_0TooManyTags = (
   let contents: any = {
     __type: "TooManyTags",
     message: undefined,
-    resourceName: undefined
+    resourceName: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5019,7 +5019,7 @@ const deserializeAws_json1_0UntagResourceOutput = (
   context: __SerdeContext
 ): UntagResourceOutput => {
   let contents: any = {
-    __type: "UntagResourceOutput"
+    __type: "UntagResourceOutput",
   };
   return contents;
 };
@@ -5030,7 +5030,7 @@ const deserializeAws_json1_0UpdateStateMachineOutput = (
 ): UpdateStateMachineOutput => {
   let contents: any = {
     __type: "UpdateStateMachineOutput",
-    updateDate: undefined
+    updateDate: undefined,
   };
   if (output.updateDate !== undefined && output.updateDate !== null) {
     contents.updateDate = new Date(Math.round(output.updateDate * 1000));
@@ -5041,7 +5041,7 @@ const deserializeAws_json1_0UpdateStateMachineOutput = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -5062,7 +5062,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -5075,11 +5075,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -5091,7 +5091,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

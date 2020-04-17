@@ -1,118 +1,118 @@
 import {
   CreateUserCommandInput,
-  CreateUserCommandOutput
+  CreateUserCommandOutput,
 } from "../commands/CreateUserCommand";
 import {
   DeleteUserCommandInput,
-  DeleteUserCommandOutput
+  DeleteUserCommandOutput,
 } from "../commands/DeleteUserCommand";
 import {
   DescribeUserCommandInput,
-  DescribeUserCommandOutput
+  DescribeUserCommandOutput,
 } from "../commands/DescribeUserCommand";
 import {
   DescribeUserHierarchyGroupCommandInput,
-  DescribeUserHierarchyGroupCommandOutput
+  DescribeUserHierarchyGroupCommandOutput,
 } from "../commands/DescribeUserHierarchyGroupCommand";
 import {
   DescribeUserHierarchyStructureCommandInput,
-  DescribeUserHierarchyStructureCommandOutput
+  DescribeUserHierarchyStructureCommandOutput,
 } from "../commands/DescribeUserHierarchyStructureCommand";
 import {
   GetContactAttributesCommandInput,
-  GetContactAttributesCommandOutput
+  GetContactAttributesCommandOutput,
 } from "../commands/GetContactAttributesCommand";
 import {
   GetCurrentMetricDataCommandInput,
-  GetCurrentMetricDataCommandOutput
+  GetCurrentMetricDataCommandOutput,
 } from "../commands/GetCurrentMetricDataCommand";
 import {
   GetFederationTokenCommandInput,
-  GetFederationTokenCommandOutput
+  GetFederationTokenCommandOutput,
 } from "../commands/GetFederationTokenCommand";
 import {
   GetMetricDataCommandInput,
-  GetMetricDataCommandOutput
+  GetMetricDataCommandOutput,
 } from "../commands/GetMetricDataCommand";
 import {
   ListContactFlowsCommandInput,
-  ListContactFlowsCommandOutput
+  ListContactFlowsCommandOutput,
 } from "../commands/ListContactFlowsCommand";
 import {
   ListHoursOfOperationsCommandInput,
-  ListHoursOfOperationsCommandOutput
+  ListHoursOfOperationsCommandOutput,
 } from "../commands/ListHoursOfOperationsCommand";
 import {
   ListPhoneNumbersCommandInput,
-  ListPhoneNumbersCommandOutput
+  ListPhoneNumbersCommandOutput,
 } from "../commands/ListPhoneNumbersCommand";
 import {
   ListQueuesCommandInput,
-  ListQueuesCommandOutput
+  ListQueuesCommandOutput,
 } from "../commands/ListQueuesCommand";
 import {
   ListRoutingProfilesCommandInput,
-  ListRoutingProfilesCommandOutput
+  ListRoutingProfilesCommandOutput,
 } from "../commands/ListRoutingProfilesCommand";
 import {
   ListSecurityProfilesCommandInput,
-  ListSecurityProfilesCommandOutput
+  ListSecurityProfilesCommandOutput,
 } from "../commands/ListSecurityProfilesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListUserHierarchyGroupsCommandInput,
-  ListUserHierarchyGroupsCommandOutput
+  ListUserHierarchyGroupsCommandOutput,
 } from "../commands/ListUserHierarchyGroupsCommand";
 import {
   ListUsersCommandInput,
-  ListUsersCommandOutput
+  ListUsersCommandOutput,
 } from "../commands/ListUsersCommand";
 import {
   StartChatContactCommandInput,
-  StartChatContactCommandOutput
+  StartChatContactCommandOutput,
 } from "../commands/StartChatContactCommand";
 import {
   StartOutboundVoiceContactCommandInput,
-  StartOutboundVoiceContactCommandOutput
+  StartOutboundVoiceContactCommandOutput,
 } from "../commands/StartOutboundVoiceContactCommand";
 import {
   StopContactCommandInput,
-  StopContactCommandOutput
+  StopContactCommandOutput,
 } from "../commands/StopContactCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateContactAttributesCommandInput,
-  UpdateContactAttributesCommandOutput
+  UpdateContactAttributesCommandOutput,
 } from "../commands/UpdateContactAttributesCommand";
 import {
   UpdateUserHierarchyCommandInput,
-  UpdateUserHierarchyCommandOutput
+  UpdateUserHierarchyCommandOutput,
 } from "../commands/UpdateUserHierarchyCommand";
 import {
   UpdateUserIdentityInfoCommandInput,
-  UpdateUserIdentityInfoCommandOutput
+  UpdateUserIdentityInfoCommandOutput,
 } from "../commands/UpdateUserIdentityInfoCommand";
 import {
   UpdateUserPhoneConfigCommandInput,
-  UpdateUserPhoneConfigCommandOutput
+  UpdateUserPhoneConfigCommandOutput,
 } from "../commands/UpdateUserPhoneConfigCommand";
 import {
   UpdateUserRoutingProfileCommandInput,
-  UpdateUserRoutingProfileCommandOutput
+  UpdateUserRoutingProfileCommandOutput,
 } from "../commands/UpdateUserRoutingProfileCommand";
 import {
   UpdateUserSecurityProfilesCommandInput,
-  UpdateUserSecurityProfilesCommandOutput
+  UpdateUserSecurityProfilesCommandOutput,
 } from "../commands/UpdateUserSecurityProfilesCommand";
 import {
   Channel,
@@ -155,21 +155,21 @@ import {
   UserIdentityInfo,
   UserNotFoundException,
   UserPhoneConfig,
-  UserSummary
+  UserSummary,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -234,12 +234,12 @@ export async function serializeAws_restJson1_1CreateUserCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -276,12 +276,12 @@ export async function serializeAws_restJson1_1DeleteUserCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -318,12 +318,12 @@ export async function serializeAws_restJson1_1DescribeUserCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -364,12 +364,12 @@ export async function serializeAws_restJson1_1DescribeUserHierarchyGroupCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -394,12 +394,12 @@ export async function serializeAws_restJson1_1DescribeUserHierarchyStructureComm
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -440,12 +440,12 @@ export async function serializeAws_restJson1_1GetContactAttributesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -496,12 +496,12 @@ export async function serializeAws_restJson1_1GetCurrentMetricDataCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -526,12 +526,12 @@ export async function serializeAws_restJson1_1GetFederationTokenCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -588,12 +588,12 @@ export async function serializeAws_restJson1_1GetMetricDataCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -619,7 +619,7 @@ export async function serializeAws_restJson1_1ListContactFlowsCommand(
   const query: any = {};
   if (input.ContactFlowTypes !== undefined) {
     query["contactFlowTypes"] = (input.ContactFlowTypes || []).map(
-      _entry => _entry
+      (_entry) => _entry
     );
   }
   if (input.MaxResults !== undefined) {
@@ -630,13 +630,13 @@ export async function serializeAws_restJson1_1ListContactFlowsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -668,13 +668,13 @@ export async function serializeAws_restJson1_1ListHoursOfOperationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -707,22 +707,22 @@ export async function serializeAws_restJson1_1ListPhoneNumbersCommand(
   if (input.PhoneNumberCountryCodes !== undefined) {
     query["phoneNumberCountryCodes"] = (
       input.PhoneNumberCountryCodes || []
-    ).map(_entry => _entry);
+    ).map((_entry) => _entry);
   }
   if (input.PhoneNumberTypes !== undefined) {
     query["phoneNumberTypes"] = (input.PhoneNumberTypes || []).map(
-      _entry => _entry
+      (_entry) => _entry
     );
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -753,17 +753,17 @@ export async function serializeAws_restJson1_1ListQueuesCommand(
     query["nextToken"] = input.NextToken;
   }
   if (input.QueueTypes !== undefined) {
-    query["queueTypes"] = (input.QueueTypes || []).map(_entry => _entry);
+    query["queueTypes"] = (input.QueueTypes || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -795,13 +795,13 @@ export async function serializeAws_restJson1_1ListRoutingProfilesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -833,13 +833,13 @@ export async function serializeAws_restJson1_1ListSecurityProfilesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -866,12 +866,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -903,13 +903,13 @@ export async function serializeAws_restJson1_1ListUserHierarchyGroupsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -941,13 +941,13 @@ export async function serializeAws_restJson1_1ListUsersCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -994,12 +994,12 @@ export async function serializeAws_restJson1_1StartChatContactCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1041,12 +1041,12 @@ export async function serializeAws_restJson1_1StartOutboundVoiceContactCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1067,12 +1067,12 @@ export async function serializeAws_restJson1_1StopContactCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1104,12 +1104,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1136,17 +1136,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.tagKeys !== undefined) {
-    query["tagKeys"] = (input.tagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.tagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1173,12 +1173,12 @@ export async function serializeAws_restJson1_1UpdateContactAttributesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1220,12 +1220,12 @@ export async function serializeAws_restJson1_1UpdateUserHierarchyCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1270,12 +1270,12 @@ export async function serializeAws_restJson1_1UpdateUserIdentityInfoCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1320,12 +1320,12 @@ export async function serializeAws_restJson1_1UpdateUserPhoneConfigCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1367,12 +1367,12 @@ export async function serializeAws_restJson1_1UpdateUserRoutingProfileCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1419,12 +1419,12 @@ export async function serializeAws_restJson1_1UpdateUserSecurityProfilesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1439,7 +1439,7 @@ export async function deserializeAws_restJson1_1CreateUserCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateUserResponse",
     UserArn: undefined,
-    UserId: undefined
+    UserId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.UserArn !== undefined && data.UserArn !== null) {
@@ -1457,7 +1457,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
 ): Promise<CreateUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1471,7 +1471,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceException":
@@ -1482,7 +1482,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1493,7 +1493,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1504,7 +1504,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1515,7 +1515,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1526,7 +1526,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1537,7 +1537,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1548,7 +1548,7 @@ async function deserializeAws_restJson1_1CreateUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1565,7 +1565,7 @@ export async function deserializeAws_restJson1_1DeleteUserCommand(
     return deserializeAws_restJson1_1DeleteUserCommandError(output, context);
   }
   const contents: DeleteUserCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1577,7 +1577,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
 ): Promise<DeleteUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1591,7 +1591,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1602,7 +1602,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1613,7 +1613,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1624,7 +1624,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1635,7 +1635,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1646,7 +1646,7 @@ async function deserializeAws_restJson1_1DeleteUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1665,7 +1665,7 @@ export async function deserializeAws_restJson1_1DescribeUserCommand(
   const contents: DescribeUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserResponse",
-    User: undefined
+    User: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.User !== undefined && data.User !== null) {
@@ -1680,7 +1680,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
 ): Promise<DescribeUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1694,7 +1694,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1705,7 +1705,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1716,7 +1716,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1727,7 +1727,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1738,7 +1738,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1749,7 +1749,7 @@ async function deserializeAws_restJson1_1DescribeUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1771,7 +1771,7 @@ export async function deserializeAws_restJson1_1DescribeUserHierarchyGroupComman
   const contents: DescribeUserHierarchyGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserHierarchyGroupResponse",
-    HierarchyGroup: undefined
+    HierarchyGroup: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.HierarchyGroup !== undefined && data.HierarchyGroup !== null) {
@@ -1789,7 +1789,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
 ): Promise<DescribeUserHierarchyGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1803,7 +1803,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1814,7 +1814,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1825,7 +1825,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1836,7 +1836,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1847,7 +1847,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1858,7 +1858,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1880,7 +1880,7 @@ export async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCo
   const contents: DescribeUserHierarchyStructureCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserHierarchyStructureResponse",
-    HierarchyStructure: undefined
+    HierarchyStructure: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -1901,7 +1901,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
 ): Promise<DescribeUserHierarchyStructureCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1915,7 +1915,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1926,7 +1926,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1937,7 +1937,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1948,7 +1948,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1959,7 +1959,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1970,7 +1970,7 @@ async function deserializeAws_restJson1_1DescribeUserHierarchyStructureCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1992,7 +1992,7 @@ export async function deserializeAws_restJson1_1GetContactAttributesCommand(
   const contents: GetContactAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetContactAttributesResponse",
-    Attributes: undefined
+    Attributes: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Attributes !== undefined && data.Attributes !== null) {
@@ -2010,7 +2010,7 @@ async function deserializeAws_restJson1_1GetContactAttributesCommandError(
 ): Promise<GetContactAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2024,7 +2024,7 @@ async function deserializeAws_restJson1_1GetContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2035,7 +2035,7 @@ async function deserializeAws_restJson1_1GetContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2046,7 +2046,7 @@ async function deserializeAws_restJson1_1GetContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2057,7 +2057,7 @@ async function deserializeAws_restJson1_1GetContactAttributesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2081,7 +2081,7 @@ export async function deserializeAws_restJson1_1GetCurrentMetricDataCommand(
     __type: "GetCurrentMetricDataResponse",
     DataSnapshotTime: undefined,
     MetricResults: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.DataSnapshotTime !== undefined && data.DataSnapshotTime !== null) {
@@ -2107,7 +2107,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
 ): Promise<GetCurrentMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2121,7 +2121,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2132,7 +2132,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2143,7 +2143,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2154,7 +2154,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2165,7 +2165,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2176,7 +2176,7 @@ async function deserializeAws_restJson1_1GetCurrentMetricDataCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2198,7 +2198,7 @@ export async function deserializeAws_restJson1_1GetFederationTokenCommand(
   const contents: GetFederationTokenCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetFederationTokenResponse",
-    Credentials: undefined
+    Credentials: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Credentials !== undefined && data.Credentials !== null) {
@@ -2216,7 +2216,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
 ): Promise<GetFederationTokenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2230,7 +2230,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceException":
@@ -2241,7 +2241,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2252,7 +2252,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2263,7 +2263,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2274,7 +2274,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UserNotFoundException":
@@ -2285,7 +2285,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2296,7 +2296,7 @@ async function deserializeAws_restJson1_1GetFederationTokenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2316,7 +2316,7 @@ export async function deserializeAws_restJson1_1GetMetricDataCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetMetricDataResponse",
     MetricResults: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.MetricResults !== undefined && data.MetricResults !== null) {
@@ -2337,7 +2337,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
 ): Promise<GetMetricDataCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2351,7 +2351,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2362,7 +2362,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2373,7 +2373,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2384,7 +2384,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2395,7 +2395,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2406,7 +2406,7 @@ async function deserializeAws_restJson1_1GetMetricDataCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2429,7 +2429,7 @@ export async function deserializeAws_restJson1_1ListContactFlowsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListContactFlowsResponse",
     ContactFlowSummaryList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -2453,7 +2453,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
 ): Promise<ListContactFlowsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2467,7 +2467,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2478,7 +2478,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2489,7 +2489,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2500,7 +2500,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2511,7 +2511,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2522,7 +2522,7 @@ async function deserializeAws_restJson1_1ListContactFlowsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2545,7 +2545,7 @@ export async function deserializeAws_restJson1_1ListHoursOfOperationsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListHoursOfOperationsResponse",
     HoursOfOperationSummaryList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -2569,7 +2569,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
 ): Promise<ListHoursOfOperationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2583,7 +2583,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2594,7 +2594,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2605,7 +2605,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2616,7 +2616,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2627,7 +2627,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2638,7 +2638,7 @@ async function deserializeAws_restJson1_1ListHoursOfOperationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2661,7 +2661,7 @@ export async function deserializeAws_restJson1_1ListPhoneNumbersCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListPhoneNumbersResponse",
     NextToken: undefined,
-    PhoneNumberSummaryList: undefined
+    PhoneNumberSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -2685,7 +2685,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
 ): Promise<ListPhoneNumbersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2699,7 +2699,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2710,7 +2710,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2721,7 +2721,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2732,7 +2732,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2743,7 +2743,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2754,7 +2754,7 @@ async function deserializeAws_restJson1_1ListPhoneNumbersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2774,7 +2774,7 @@ export async function deserializeAws_restJson1_1ListQueuesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListQueuesResponse",
     NextToken: undefined,
-    QueueSummaryList: undefined
+    QueueSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -2795,7 +2795,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
 ): Promise<ListQueuesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2809,7 +2809,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2820,7 +2820,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2831,7 +2831,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2842,7 +2842,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2853,7 +2853,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2864,7 +2864,7 @@ async function deserializeAws_restJson1_1ListQueuesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2887,7 +2887,7 @@ export async function deserializeAws_restJson1_1ListRoutingProfilesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListRoutingProfilesResponse",
     NextToken: undefined,
-    RoutingProfileSummaryList: undefined
+    RoutingProfileSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -2911,7 +2911,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
 ): Promise<ListRoutingProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2925,7 +2925,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2936,7 +2936,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2947,7 +2947,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2958,7 +2958,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2969,7 +2969,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2980,7 +2980,7 @@ async function deserializeAws_restJson1_1ListRoutingProfilesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3003,7 +3003,7 @@ export async function deserializeAws_restJson1_1ListSecurityProfilesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListSecurityProfilesResponse",
     NextToken: undefined,
-    SecurityProfileSummaryList: undefined
+    SecurityProfileSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -3027,7 +3027,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
 ): Promise<ListSecurityProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3041,7 +3041,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3052,7 +3052,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3063,7 +3063,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3074,7 +3074,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3085,7 +3085,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3096,7 +3096,7 @@ async function deserializeAws_restJson1_1ListSecurityProfilesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3118,7 +3118,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -3133,7 +3133,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3147,7 +3147,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3158,7 +3158,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3169,7 +3169,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3180,7 +3180,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3191,7 +3191,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3202,7 +3202,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3225,7 +3225,7 @@ export async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListUserHierarchyGroupsResponse",
     NextToken: undefined,
-    UserHierarchyGroupSummaryList: undefined
+    UserHierarchyGroupSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -3249,7 +3249,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
 ): Promise<ListUserHierarchyGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3263,7 +3263,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3274,7 +3274,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3285,7 +3285,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3296,7 +3296,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3307,7 +3307,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3318,7 +3318,7 @@ async function deserializeAws_restJson1_1ListUserHierarchyGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3338,7 +3338,7 @@ export async function deserializeAws_restJson1_1ListUsersCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListUsersResponse",
     NextToken: undefined,
-    UserSummaryList: undefined
+    UserSummaryList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -3359,7 +3359,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
 ): Promise<ListUsersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3373,7 +3373,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3384,7 +3384,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3395,7 +3395,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3406,7 +3406,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3417,7 +3417,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3428,7 +3428,7 @@ async function deserializeAws_restJson1_1ListUsersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3452,7 +3452,7 @@ export async function deserializeAws_restJson1_1StartChatContactCommand(
     __type: "StartChatContactResponse",
     ContactId: undefined,
     ParticipantId: undefined,
-    ParticipantToken: undefined
+    ParticipantToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.ContactId !== undefined && data.ContactId !== null) {
@@ -3473,7 +3473,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
 ): Promise<StartChatContactCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3487,7 +3487,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3498,7 +3498,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3509,7 +3509,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -3520,7 +3520,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3531,7 +3531,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3542,7 +3542,7 @@ async function deserializeAws_restJson1_1StartChatContactCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3564,7 +3564,7 @@ export async function deserializeAws_restJson1_1StartOutboundVoiceContactCommand
   const contents: StartOutboundVoiceContactCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartOutboundVoiceContactResponse",
-    ContactId: undefined
+    ContactId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.ContactId !== undefined && data.ContactId !== null) {
@@ -3579,7 +3579,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
 ): Promise<StartOutboundVoiceContactCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3593,7 +3593,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceException":
@@ -3604,7 +3604,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3615,7 +3615,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3626,7 +3626,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -3637,7 +3637,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OutboundContactNotPermittedException":
@@ -3648,7 +3648,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3659,7 +3659,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3670,7 +3670,7 @@ async function deserializeAws_restJson1_1StartOutboundVoiceContactCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3688,7 +3688,7 @@ export async function deserializeAws_restJson1_1StopContactCommand(
   }
   const contents: StopContactCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "StopContactResponse"
+    __type: "StopContactResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3700,7 +3700,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
 ): Promise<StopContactCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3714,7 +3714,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServiceException":
@@ -3725,7 +3725,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3736,7 +3736,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3747,7 +3747,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3758,7 +3758,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3769,7 +3769,7 @@ async function deserializeAws_restJson1_1StopContactCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3786,7 +3786,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
     return deserializeAws_restJson1_1TagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3798,7 +3798,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3812,7 +3812,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3823,7 +3823,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3834,7 +3834,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3845,7 +3845,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3856,7 +3856,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3867,7 +3867,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3884,7 +3884,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
     return deserializeAws_restJson1_1UntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3896,7 +3896,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3910,7 +3910,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3921,7 +3921,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -3932,7 +3932,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3943,7 +3943,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3954,7 +3954,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3965,7 +3965,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3986,7 +3986,7 @@ export async function deserializeAws_restJson1_1UpdateContactAttributesCommand(
   }
   const contents: UpdateContactAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateContactAttributesResponse"
+    __type: "UpdateContactAttributesResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3998,7 +3998,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
 ): Promise<UpdateContactAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4012,7 +4012,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4023,7 +4023,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4034,7 +4034,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4045,7 +4045,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4056,7 +4056,7 @@ async function deserializeAws_restJson1_1UpdateContactAttributesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4076,7 +4076,7 @@ export async function deserializeAws_restJson1_1UpdateUserHierarchyCommand(
     );
   }
   const contents: UpdateUserHierarchyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4088,7 +4088,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
 ): Promise<UpdateUserHierarchyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4102,7 +4102,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4113,7 +4113,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4124,7 +4124,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4135,7 +4135,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4146,7 +4146,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4157,7 +4157,7 @@ async function deserializeAws_restJson1_1UpdateUserHierarchyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4177,7 +4177,7 @@ export async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommand(
     );
   }
   const contents: UpdateUserIdentityInfoCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4189,7 +4189,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
 ): Promise<UpdateUserIdentityInfoCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4203,7 +4203,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4214,7 +4214,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4225,7 +4225,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4236,7 +4236,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4247,7 +4247,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4258,7 +4258,7 @@ async function deserializeAws_restJson1_1UpdateUserIdentityInfoCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4278,7 +4278,7 @@ export async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommand(
     );
   }
   const contents: UpdateUserPhoneConfigCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4290,7 +4290,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
 ): Promise<UpdateUserPhoneConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4304,7 +4304,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4315,7 +4315,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4326,7 +4326,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4337,7 +4337,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4348,7 +4348,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4359,7 +4359,7 @@ async function deserializeAws_restJson1_1UpdateUserPhoneConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4379,7 +4379,7 @@ export async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommand(
     );
   }
   const contents: UpdateUserRoutingProfileCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4391,7 +4391,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
 ): Promise<UpdateUserRoutingProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4405,7 +4405,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4416,7 +4416,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4427,7 +4427,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4438,7 +4438,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4449,7 +4449,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4460,7 +4460,7 @@ async function deserializeAws_restJson1_1UpdateUserRoutingProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4480,7 +4480,7 @@ export async function deserializeAws_restJson1_1UpdateUserSecurityProfilesComman
     );
   }
   const contents: UpdateUserSecurityProfilesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4492,7 +4492,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
 ): Promise<UpdateUserSecurityProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4506,7 +4506,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4517,7 +4517,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -4528,7 +4528,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4539,7 +4539,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4550,7 +4550,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4561,7 +4561,7 @@ async function deserializeAws_restJson1_1UpdateUserSecurityProfilesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4578,7 +4578,7 @@ const deserializeAws_restJson1_1ContactNotFoundExceptionResponse = async (
     name: "ContactNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4595,7 +4595,7 @@ const deserializeAws_restJson1_1DestinationNotAllowedExceptionResponse = async (
     name: "DestinationNotAllowedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4612,7 +4612,7 @@ const deserializeAws_restJson1_1DuplicateResourceExceptionResponse = async (
     name: "DuplicateResourceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4629,7 +4629,7 @@ const deserializeAws_restJson1_1InternalServiceExceptionResponse = async (
     name: "InternalServiceException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4646,7 +4646,7 @@ const deserializeAws_restJson1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4663,7 +4663,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4680,7 +4680,7 @@ const deserializeAws_restJson1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4697,7 +4697,7 @@ const deserializeAws_restJson1_1OutboundContactNotPermittedExceptionResponse = a
     name: "OutboundContactNotPermittedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4714,7 +4714,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4731,7 +4731,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4748,7 +4748,7 @@ const deserializeAws_restJson1_1UserNotFoundExceptionResponse = async (
     name: "UserNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -4762,7 +4762,7 @@ const serializeAws_restJson1_1Attributes = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -4935,7 +4935,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -4983,7 +4983,7 @@ const deserializeAws_restJson1_1Attributes = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4996,7 +4996,7 @@ const deserializeAws_restJson1_1CurrentMetric = (
   let contents: any = {
     __type: "CurrentMetric",
     Name: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -5014,7 +5014,7 @@ const deserializeAws_restJson1_1CurrentMetricData = (
   let contents: any = {
     __type: "CurrentMetricData",
     Metric: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Metric !== undefined && output.Metric !== null) {
     contents.Metric = deserializeAws_restJson1_1CurrentMetric(
@@ -5044,7 +5044,7 @@ const deserializeAws_restJson1_1CurrentMetricResult = (
   let contents: any = {
     __type: "CurrentMetricResult",
     Collections: undefined,
-    Dimensions: undefined
+    Dimensions: undefined,
   };
   if (output.Collections !== undefined && output.Collections !== null) {
     contents.Collections = deserializeAws_restJson1_1CurrentMetricDataCollections(
@@ -5077,7 +5077,7 @@ const deserializeAws_restJson1_1Dimensions = (
   let contents: any = {
     __type: "Dimensions",
     Channel: undefined,
-    Queue: undefined
+    Queue: undefined,
   };
   if (output.Channel !== undefined && output.Channel !== null) {
     contents.Channel = output.Channel;
@@ -5100,7 +5100,7 @@ const deserializeAws_restJson1_1HistoricalMetric = (
     Name: undefined,
     Statistic: undefined,
     Threshold: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -5127,7 +5127,7 @@ const deserializeAws_restJson1_1HistoricalMetricData = (
   let contents: any = {
     __type: "HistoricalMetricData",
     Metric: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Metric !== undefined && output.Metric !== null) {
     contents.Metric = deserializeAws_restJson1_1HistoricalMetric(
@@ -5157,7 +5157,7 @@ const deserializeAws_restJson1_1HistoricalMetricResult = (
   let contents: any = {
     __type: "HistoricalMetricResult",
     Collections: undefined,
-    Dimensions: undefined
+    Dimensions: undefined,
   };
   if (output.Collections !== undefined && output.Collections !== null) {
     contents.Collections = deserializeAws_restJson1_1HistoricalMetricDataCollections(
@@ -5190,7 +5190,7 @@ const deserializeAws_restJson1_1QueueReference = (
   let contents: any = {
     __type: "QueueReference",
     Arn: undefined,
-    Id: undefined
+    Id: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5208,7 +5208,7 @@ const deserializeAws_restJson1_1Threshold = (
   let contents: any = {
     __type: "Threshold",
     Comparison: undefined,
-    ThresholdValue: undefined
+    ThresholdValue: undefined,
   };
   if (output.Comparison !== undefined && output.Comparison !== null) {
     contents.Comparison = output.Comparison;
@@ -5228,7 +5228,7 @@ const deserializeAws_restJson1_1ContactFlowSummary = (
     Arn: undefined,
     ContactFlowType: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5263,7 +5263,7 @@ const deserializeAws_restJson1_1Credentials = (
     AccessToken: undefined,
     AccessTokenExpiration: undefined,
     RefreshToken: undefined,
-    RefreshTokenExpiration: undefined
+    RefreshTokenExpiration: undefined,
   };
   if (output.AccessToken !== undefined && output.AccessToken !== null) {
     contents.AccessToken = output.AccessToken;
@@ -5300,7 +5300,7 @@ const deserializeAws_restJson1_1HierarchyGroup = (
     HierarchyPath: undefined,
     Id: undefined,
     LevelId: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5331,7 +5331,7 @@ const deserializeAws_restJson1_1HierarchyGroupSummary = (
     __type: "HierarchyGroupSummary",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5362,7 +5362,7 @@ const deserializeAws_restJson1_1HierarchyLevel = (
     __type: "HierarchyLevel",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5386,7 +5386,7 @@ const deserializeAws_restJson1_1HierarchyPath = (
     LevelFour: undefined,
     LevelOne: undefined,
     LevelThree: undefined,
-    LevelTwo: undefined
+    LevelTwo: undefined,
   };
   if (output.LevelFive !== undefined && output.LevelFive !== null) {
     contents.LevelFive = deserializeAws_restJson1_1HierarchyGroupSummary(
@@ -5431,7 +5431,7 @@ const deserializeAws_restJson1_1HierarchyStructure = (
     LevelFour: undefined,
     LevelOne: undefined,
     LevelThree: undefined,
-    LevelTwo: undefined
+    LevelTwo: undefined,
   };
   if (output.LevelFive !== undefined && output.LevelFive !== null) {
     contents.LevelFive = deserializeAws_restJson1_1HierarchyLevel(
@@ -5474,7 +5474,7 @@ const deserializeAws_restJson1_1HoursOfOperationSummary = (
     __type: "HoursOfOperationSummary",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5507,7 +5507,7 @@ const deserializeAws_restJson1_1PhoneNumberSummary = (
     Id: undefined,
     PhoneNumber: undefined,
     PhoneNumberCountryCode: undefined,
-    PhoneNumberType: undefined
+    PhoneNumberType: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5548,7 +5548,7 @@ const deserializeAws_restJson1_1QueueSummary = (
     Arn: undefined,
     Id: undefined,
     Name: undefined,
-    QueueType: undefined
+    QueueType: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5582,7 +5582,7 @@ const deserializeAws_restJson1_1RoutingProfileSummary = (
     __type: "RoutingProfileSummary",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5620,7 +5620,7 @@ const deserializeAws_restJson1_1SecurityProfileSummary = (
     __type: "SecurityProfileSummary",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5648,7 +5648,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -5669,7 +5669,7 @@ const deserializeAws_restJson1_1User = (
     RoutingProfileId: undefined,
     SecurityProfileIds: undefined,
     Tags: undefined,
-    Username: undefined
+    Username: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5730,7 +5730,7 @@ const deserializeAws_restJson1_1UserIdentityInfo = (
     __type: "UserIdentityInfo",
     Email: undefined,
     FirstName: undefined,
-    LastName: undefined
+    LastName: undefined,
   };
   if (output.Email !== undefined && output.Email !== null) {
     contents.Email = output.Email;
@@ -5753,7 +5753,7 @@ const deserializeAws_restJson1_1UserPhoneConfig = (
     AfterContactWorkTimeLimit: undefined,
     AutoAccept: undefined,
     DeskPhoneNumber: undefined,
-    PhoneType: undefined
+    PhoneType: undefined,
   };
   if (
     output.AfterContactWorkTimeLimit !== undefined &&
@@ -5781,7 +5781,7 @@ const deserializeAws_restJson1_1UserSummary = (
     __type: "UserSummary",
     Arn: undefined,
     Id: undefined,
-    Username: undefined
+    Username: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -5807,7 +5807,7 @@ const deserializeAws_restJson1_1UserSummaryList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -5828,13 +5828,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -5847,7 +5847,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

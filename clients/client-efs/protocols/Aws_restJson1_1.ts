@@ -1,94 +1,94 @@
 import {
   CreateAccessPointCommandInput,
-  CreateAccessPointCommandOutput
+  CreateAccessPointCommandOutput,
 } from "../commands/CreateAccessPointCommand";
 import {
   CreateFileSystemCommandInput,
-  CreateFileSystemCommandOutput
+  CreateFileSystemCommandOutput,
 } from "../commands/CreateFileSystemCommand";
 import {
   CreateMountTargetCommandInput,
-  CreateMountTargetCommandOutput
+  CreateMountTargetCommandOutput,
 } from "../commands/CreateMountTargetCommand";
 import {
   CreateTagsCommandInput,
-  CreateTagsCommandOutput
+  CreateTagsCommandOutput,
 } from "../commands/CreateTagsCommand";
 import {
   DeleteAccessPointCommandInput,
-  DeleteAccessPointCommandOutput
+  DeleteAccessPointCommandOutput,
 } from "../commands/DeleteAccessPointCommand";
 import {
   DeleteFileSystemCommandInput,
-  DeleteFileSystemCommandOutput
+  DeleteFileSystemCommandOutput,
 } from "../commands/DeleteFileSystemCommand";
 import {
   DeleteFileSystemPolicyCommandInput,
-  DeleteFileSystemPolicyCommandOutput
+  DeleteFileSystemPolicyCommandOutput,
 } from "../commands/DeleteFileSystemPolicyCommand";
 import {
   DeleteMountTargetCommandInput,
-  DeleteMountTargetCommandOutput
+  DeleteMountTargetCommandOutput,
 } from "../commands/DeleteMountTargetCommand";
 import {
   DeleteTagsCommandInput,
-  DeleteTagsCommandOutput
+  DeleteTagsCommandOutput,
 } from "../commands/DeleteTagsCommand";
 import {
   DescribeAccessPointsCommandInput,
-  DescribeAccessPointsCommandOutput
+  DescribeAccessPointsCommandOutput,
 } from "../commands/DescribeAccessPointsCommand";
 import {
   DescribeFileSystemPolicyCommandInput,
-  DescribeFileSystemPolicyCommandOutput
+  DescribeFileSystemPolicyCommandOutput,
 } from "../commands/DescribeFileSystemPolicyCommand";
 import {
   DescribeFileSystemsCommandInput,
-  DescribeFileSystemsCommandOutput
+  DescribeFileSystemsCommandOutput,
 } from "../commands/DescribeFileSystemsCommand";
 import {
   DescribeLifecycleConfigurationCommandInput,
-  DescribeLifecycleConfigurationCommandOutput
+  DescribeLifecycleConfigurationCommandOutput,
 } from "../commands/DescribeLifecycleConfigurationCommand";
 import {
   DescribeMountTargetSecurityGroupsCommandInput,
-  DescribeMountTargetSecurityGroupsCommandOutput
+  DescribeMountTargetSecurityGroupsCommandOutput,
 } from "../commands/DescribeMountTargetSecurityGroupsCommand";
 import {
   DescribeMountTargetsCommandInput,
-  DescribeMountTargetsCommandOutput
+  DescribeMountTargetsCommandOutput,
 } from "../commands/DescribeMountTargetsCommand";
 import {
   DescribeTagsCommandInput,
-  DescribeTagsCommandOutput
+  DescribeTagsCommandOutput,
 } from "../commands/DescribeTagsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ModifyMountTargetSecurityGroupsCommandInput,
-  ModifyMountTargetSecurityGroupsCommandOutput
+  ModifyMountTargetSecurityGroupsCommandOutput,
 } from "../commands/ModifyMountTargetSecurityGroupsCommand";
 import {
   PutFileSystemPolicyCommandInput,
-  PutFileSystemPolicyCommandOutput
+  PutFileSystemPolicyCommandOutput,
 } from "../commands/PutFileSystemPolicyCommand";
 import {
   PutLifecycleConfigurationCommandInput,
-  PutLifecycleConfigurationCommandOutput
+  PutLifecycleConfigurationCommandOutput,
 } from "../commands/PutLifecycleConfigurationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateFileSystemCommandInput,
-  UpdateFileSystemCommandOutput
+  UpdateFileSystemCommandOutput,
 } from "../commands/UpdateFileSystemCommand";
 import {
   AccessPointAlreadyExists,
@@ -125,21 +125,21 @@ import {
   Tag,
   ThroughputLimitExceeded,
   TooManyRequests,
-  UnsupportedAvailabilityZone
+  UnsupportedAvailabilityZone,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -178,12 +178,12 @@ export async function serializeAws_restJson1_1CreateAccessPointCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -223,12 +223,12 @@ export async function serializeAws_restJson1_1CreateFileSystemCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -258,12 +258,12 @@ export async function serializeAws_restJson1_1CreateMountTargetCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -295,12 +295,12 @@ export async function serializeAws_restJson1_1CreateTagsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -327,12 +327,12 @@ export async function serializeAws_restJson1_1DeleteAccessPointCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -359,12 +359,12 @@ export async function serializeAws_restJson1_1DeleteFileSystemCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -391,12 +391,12 @@ export async function serializeAws_restJson1_1DeleteFileSystemPolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -423,12 +423,12 @@ export async function serializeAws_restJson1_1DeleteMountTargetCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -463,12 +463,12 @@ export async function serializeAws_restJson1_1DeleteTagsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -494,13 +494,13 @@ export async function serializeAws_restJson1_1DescribeAccessPointsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -527,12 +527,12 @@ export async function serializeAws_restJson1_1DescribeFileSystemPolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -558,13 +558,13 @@ export async function serializeAws_restJson1_1DescribeFileSystemsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -592,12 +592,12 @@ export async function serializeAws_restJson1_1DescribeLifecycleConfigurationComm
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -625,12 +625,12 @@ export async function serializeAws_restJson1_1DescribeMountTargetSecurityGroupsC
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -659,13 +659,13 @@ export async function serializeAws_restJson1_1DescribeMountTargetsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -699,13 +699,13 @@ export async function serializeAws_restJson1_1DescribeTagsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -737,13 +737,13 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -779,12 +779,12 @@ export async function serializeAws_restJson1_1ModifyMountTargetSecurityGroupsCom
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -820,12 +820,12 @@ export async function serializeAws_restJson1_1PutFileSystemPolicyCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -861,12 +861,12 @@ export async function serializeAws_restJson1_1PutLifecycleConfigurationCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -896,12 +896,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -934,12 +934,12 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -975,12 +975,12 @@ export async function serializeAws_restJson1_1UpdateFileSystemCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1006,7 +1006,7 @@ export async function deserializeAws_restJson1_1CreateAccessPointCommand(
     OwnerId: undefined,
     PosixUser: undefined,
     RootDirectory: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AccessPointArn !== undefined && data.AccessPointArn !== null) {
@@ -1054,7 +1054,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
 ): Promise<CreateAccessPointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1068,7 +1068,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessPointLimitExceeded":
@@ -1079,7 +1079,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -1090,7 +1090,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1101,7 +1101,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1112,7 +1112,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1123,7 +1123,7 @@ async function deserializeAws_restJson1_1CreateAccessPointCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1158,7 +1158,7 @@ export async function deserializeAws_restJson1_1CreateFileSystemCommand(
     ProvisionedThroughputInMibps: undefined,
     SizeInBytes: undefined,
     Tags: undefined,
-    ThroughputMode: undefined
+    ThroughputMode: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.CreationTime !== undefined && data.CreationTime !== null) {
@@ -1221,7 +1221,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
 ): Promise<CreateFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1235,7 +1235,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemAlreadyExists":
@@ -1246,7 +1246,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemLimitExceeded":
@@ -1257,7 +1257,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientThroughputCapacity":
@@ -1268,7 +1268,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1279,7 +1279,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThroughputLimitExceeded":
@@ -1290,7 +1290,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1301,7 +1301,7 @@ async function deserializeAws_restJson1_1CreateFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1331,7 +1331,7 @@ export async function deserializeAws_restJson1_1CreateMountTargetCommand(
     MountTargetId: undefined,
     NetworkInterfaceId: undefined,
     OwnerId: undefined,
-    SubnetId: undefined
+    SubnetId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -1379,7 +1379,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
 ): Promise<CreateMountTargetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1393,7 +1393,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1404,7 +1404,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectFileSystemLifeCycleState":
@@ -1415,7 +1415,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1426,7 +1426,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IpAddressInUse":
@@ -1437,7 +1437,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MountTargetConflict":
@@ -1448,7 +1448,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NetworkInterfaceLimitExceeded":
@@ -1459,7 +1459,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoFreeAddressesInSubnet":
@@ -1470,7 +1470,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SecurityGroupLimitExceeded":
@@ -1481,7 +1481,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SecurityGroupNotFound":
@@ -1492,7 +1492,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubnetNotFound":
@@ -1503,7 +1503,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAvailabilityZone":
@@ -1514,7 +1514,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1525,7 +1525,7 @@ async function deserializeAws_restJson1_1CreateMountTargetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1542,7 +1542,7 @@ export async function deserializeAws_restJson1_1CreateTagsCommand(
     return deserializeAws_restJson1_1CreateTagsCommandError(output, context);
   }
   const contents: CreateTagsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1554,7 +1554,7 @@ async function deserializeAws_restJson1_1CreateTagsCommandError(
 ): Promise<CreateTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1568,7 +1568,7 @@ async function deserializeAws_restJson1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1579,7 +1579,7 @@ async function deserializeAws_restJson1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1590,7 +1590,7 @@ async function deserializeAws_restJson1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1601,7 +1601,7 @@ async function deserializeAws_restJson1_1CreateTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1621,7 +1621,7 @@ export async function deserializeAws_restJson1_1DeleteAccessPointCommand(
     );
   }
   const contents: DeleteAccessPointCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1633,7 +1633,7 @@ async function deserializeAws_restJson1_1DeleteAccessPointCommandError(
 ): Promise<DeleteAccessPointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1647,7 +1647,7 @@ async function deserializeAws_restJson1_1DeleteAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -1658,7 +1658,7 @@ async function deserializeAws_restJson1_1DeleteAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1669,7 +1669,7 @@ async function deserializeAws_restJson1_1DeleteAccessPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1680,7 +1680,7 @@ async function deserializeAws_restJson1_1DeleteAccessPointCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1700,7 +1700,7 @@ export async function deserializeAws_restJson1_1DeleteFileSystemCommand(
     );
   }
   const contents: DeleteFileSystemCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1712,7 +1712,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
 ): Promise<DeleteFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1726,7 +1726,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemInUse":
@@ -1737,7 +1737,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1748,7 +1748,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1759,7 +1759,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1770,7 +1770,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1790,7 +1790,7 @@ export async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommand(
     );
   }
   const contents: DeleteFileSystemPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1802,7 +1802,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommandError(
 ): Promise<DeleteFileSystemPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1816,7 +1816,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectFileSystemLifeCycleState":
@@ -1827,7 +1827,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1838,7 +1838,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1849,7 +1849,7 @@ async function deserializeAws_restJson1_1DeleteFileSystemPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1869,7 +1869,7 @@ export async function deserializeAws_restJson1_1DeleteMountTargetCommand(
     );
   }
   const contents: DeleteMountTargetCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1881,7 +1881,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
 ): Promise<DeleteMountTargetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1895,7 +1895,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependencyTimeout":
@@ -1906,7 +1906,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1917,7 +1917,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MountTargetNotFound":
@@ -1928,7 +1928,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1939,7 +1939,7 @@ async function deserializeAws_restJson1_1DeleteMountTargetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1956,7 +1956,7 @@ export async function deserializeAws_restJson1_1DeleteTagsCommand(
     return deserializeAws_restJson1_1DeleteTagsCommandError(output, context);
   }
   const contents: DeleteTagsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1968,7 +1968,7 @@ async function deserializeAws_restJson1_1DeleteTagsCommandError(
 ): Promise<DeleteTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1982,7 +1982,7 @@ async function deserializeAws_restJson1_1DeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1993,7 +1993,7 @@ async function deserializeAws_restJson1_1DeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2004,7 +2004,7 @@ async function deserializeAws_restJson1_1DeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2015,7 +2015,7 @@ async function deserializeAws_restJson1_1DeleteTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2038,7 +2038,7 @@ export async function deserializeAws_restJson1_1DescribeAccessPointsCommand(
     $metadata: deserializeMetadata(output),
     __type: "DescribeAccessPointsResponse",
     AccessPoints: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.AccessPoints !== undefined && data.AccessPoints !== null) {
@@ -2059,7 +2059,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
 ): Promise<DescribeAccessPointsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2073,7 +2073,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -2084,7 +2084,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2095,7 +2095,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2106,7 +2106,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2117,7 +2117,7 @@ async function deserializeAws_restJson1_1DescribeAccessPointsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2140,7 +2140,7 @@ export async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommand(
     $metadata: deserializeMetadata(output),
     __type: "FileSystemPolicyDescription",
     FileSystemId: undefined,
-    Policy: undefined
+    Policy: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.FileSystemId !== undefined && data.FileSystemId !== null) {
@@ -2158,7 +2158,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommandError(
 ): Promise<DescribeFileSystemPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2172,7 +2172,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2183,7 +2183,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFound":
@@ -2194,7 +2194,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2205,7 +2205,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2229,7 +2229,7 @@ export async function deserializeAws_restJson1_1DescribeFileSystemsCommand(
     __type: "DescribeFileSystemsResponse",
     FileSystems: undefined,
     Marker: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.FileSystems !== undefined && data.FileSystems !== null) {
@@ -2253,7 +2253,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemsCommandError(
 ): Promise<DescribeFileSystemsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2267,7 +2267,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2278,7 +2278,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2289,7 +2289,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2300,7 +2300,7 @@ async function deserializeAws_restJson1_1DescribeFileSystemsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2322,7 +2322,7 @@ export async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCo
   const contents: DescribeLifecycleConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LifecycleConfigurationDescription",
-    LifecyclePolicies: undefined
+    LifecyclePolicies: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.LifecyclePolicies !== undefined && data.LifecyclePolicies !== null) {
@@ -2340,7 +2340,7 @@ async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCommandEr
 ): Promise<DescribeLifecycleConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2354,7 +2354,7 @@ async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2365,7 +2365,7 @@ async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2376,7 +2376,7 @@ async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2387,7 +2387,7 @@ async function deserializeAws_restJson1_1DescribeLifecycleConfigurationCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2409,7 +2409,7 @@ export async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroup
   const contents: DescribeMountTargetSecurityGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeMountTargetSecurityGroupsResponse",
-    SecurityGroups: undefined
+    SecurityGroups: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.SecurityGroups !== undefined && data.SecurityGroups !== null) {
@@ -2427,7 +2427,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
 ): Promise<DescribeMountTargetSecurityGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2441,7 +2441,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectMountTargetState":
@@ -2452,7 +2452,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2463,7 +2463,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MountTargetNotFound":
@@ -2474,7 +2474,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2485,7 +2485,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetSecurityGroupsComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2509,7 +2509,7 @@ export async function deserializeAws_restJson1_1DescribeMountTargetsCommand(
     __type: "DescribeMountTargetsResponse",
     Marker: undefined,
     MountTargets: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Marker !== undefined && data.Marker !== null) {
@@ -2533,7 +2533,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
 ): Promise<DescribeMountTargetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2547,7 +2547,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -2558,7 +2558,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2569,7 +2569,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2580,7 +2580,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MountTargetNotFound":
@@ -2591,7 +2591,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2602,7 +2602,7 @@ async function deserializeAws_restJson1_1DescribeMountTargetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2623,7 +2623,7 @@ export async function deserializeAws_restJson1_1DescribeTagsCommand(
     __type: "DescribeTagsResponse",
     Marker: undefined,
     NextMarker: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Marker !== undefined && data.Marker !== null) {
@@ -2644,7 +2644,7 @@ async function deserializeAws_restJson1_1DescribeTagsCommandError(
 ): Promise<DescribeTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2658,7 +2658,7 @@ async function deserializeAws_restJson1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2669,7 +2669,7 @@ async function deserializeAws_restJson1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2680,7 +2680,7 @@ async function deserializeAws_restJson1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2691,7 +2691,7 @@ async function deserializeAws_restJson1_1DescribeTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2714,7 +2714,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
     NextToken: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.NextToken !== undefined && data.NextToken !== null) {
@@ -2732,7 +2732,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2746,7 +2746,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -2757,7 +2757,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -2768,7 +2768,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2779,7 +2779,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2790,7 +2790,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2810,7 +2810,7 @@ export async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsC
     );
   }
   const contents: ModifyMountTargetSecurityGroupsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2822,7 +2822,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
 ): Promise<ModifyMountTargetSecurityGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2836,7 +2836,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectMountTargetState":
@@ -2847,7 +2847,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2858,7 +2858,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MountTargetNotFound":
@@ -2869,7 +2869,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SecurityGroupLimitExceeded":
@@ -2880,7 +2880,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SecurityGroupNotFound":
@@ -2891,7 +2891,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2902,7 +2902,7 @@ async function deserializeAws_restJson1_1ModifyMountTargetSecurityGroupsCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2925,7 +2925,7 @@ export async function deserializeAws_restJson1_1PutFileSystemPolicyCommand(
     $metadata: deserializeMetadata(output),
     __type: "FileSystemPolicyDescription",
     FileSystemId: undefined,
-    Policy: undefined
+    Policy: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.FileSystemId !== undefined && data.FileSystemId !== null) {
@@ -2943,7 +2943,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
 ): Promise<PutFileSystemPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2957,7 +2957,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectFileSystemLifeCycleState":
@@ -2968,7 +2968,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2979,7 +2979,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPolicyException":
@@ -2990,7 +2990,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3001,7 +3001,7 @@ async function deserializeAws_restJson1_1PutFileSystemPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3023,7 +3023,7 @@ export async function deserializeAws_restJson1_1PutLifecycleConfigurationCommand
   const contents: PutLifecycleConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LifecycleConfigurationDescription",
-    LifecyclePolicies: undefined
+    LifecyclePolicies: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.LifecyclePolicies !== undefined && data.LifecyclePolicies !== null) {
@@ -3041,7 +3041,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
 ): Promise<PutLifecycleConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3055,7 +3055,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -3066,7 +3066,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectFileSystemLifeCycleState":
@@ -3077,7 +3077,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3088,7 +3088,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3099,7 +3099,7 @@ async function deserializeAws_restJson1_1PutLifecycleConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3116,7 +3116,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
     return deserializeAws_restJson1_1TagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3128,7 +3128,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3142,7 +3142,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -3153,7 +3153,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -3164,7 +3164,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3175,7 +3175,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3186,7 +3186,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3203,7 +3203,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
     return deserializeAws_restJson1_1UntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3215,7 +3215,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3229,7 +3229,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -3240,7 +3240,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -3251,7 +3251,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3262,7 +3262,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3273,7 +3273,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3308,7 +3308,7 @@ export async function deserializeAws_restJson1_1UpdateFileSystemCommand(
     ProvisionedThroughputInMibps: undefined,
     SizeInBytes: undefined,
     Tags: undefined,
-    ThroughputMode: undefined
+    ThroughputMode: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.CreationTime !== undefined && data.CreationTime !== null) {
@@ -3371,7 +3371,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
 ): Promise<UpdateFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3385,7 +3385,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -3396,7 +3396,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncorrectFileSystemLifeCycleState":
@@ -3407,7 +3407,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientThroughputCapacity":
@@ -3418,7 +3418,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3429,7 +3429,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThroughputLimitExceeded":
@@ -3440,7 +3440,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequests":
@@ -3451,7 +3451,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3462,7 +3462,7 @@ async function deserializeAws_restJson1_1UpdateFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3481,7 +3481,7 @@ const deserializeAws_restJson1_1AccessPointAlreadyExistsResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     AccessPointId: undefined,
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.AccessPointId !== undefined && data.AccessPointId !== null) {
@@ -3505,7 +3505,7 @@ const deserializeAws_restJson1_1AccessPointLimitExceededResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3526,7 +3526,7 @@ const deserializeAws_restJson1_1AccessPointNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3547,7 +3547,7 @@ const deserializeAws_restJson1_1BadRequestResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3568,7 +3568,7 @@ const deserializeAws_restJson1_1DependencyTimeoutResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3590,7 +3590,7 @@ const deserializeAws_restJson1_1FileSystemAlreadyExistsResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
     FileSystemId: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3614,7 +3614,7 @@ const deserializeAws_restJson1_1FileSystemInUseResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3635,7 +3635,7 @@ const deserializeAws_restJson1_1FileSystemLimitExceededResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3656,7 +3656,7 @@ const deserializeAws_restJson1_1FileSystemNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3677,7 +3677,7 @@ const deserializeAws_restJson1_1IncorrectFileSystemLifeCycleStateResponse = asyn
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3698,7 +3698,7 @@ const deserializeAws_restJson1_1IncorrectMountTargetStateResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3719,7 +3719,7 @@ const deserializeAws_restJson1_1InsufficientThroughputCapacityResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3740,7 +3740,7 @@ const deserializeAws_restJson1_1InternalServerErrorResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3761,7 +3761,7 @@ const deserializeAws_restJson1_1InvalidPolicyExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3782,7 +3782,7 @@ const deserializeAws_restJson1_1IpAddressInUseResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3803,7 +3803,7 @@ const deserializeAws_restJson1_1MountTargetConflictResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3824,7 +3824,7 @@ const deserializeAws_restJson1_1MountTargetNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3845,7 +3845,7 @@ const deserializeAws_restJson1_1NetworkInterfaceLimitExceededResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3866,7 +3866,7 @@ const deserializeAws_restJson1_1NoFreeAddressesInSubnetResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3887,7 +3887,7 @@ const deserializeAws_restJson1_1PolicyNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3908,7 +3908,7 @@ const deserializeAws_restJson1_1SecurityGroupLimitExceededResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3929,7 +3929,7 @@ const deserializeAws_restJson1_1SecurityGroupNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3950,7 +3950,7 @@ const deserializeAws_restJson1_1SubnetNotFoundResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3971,7 +3971,7 @@ const deserializeAws_restJson1_1ThroughputLimitExceededResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -3992,7 +3992,7 @@ const deserializeAws_restJson1_1TooManyRequestsResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -4013,7 +4013,7 @@ const deserializeAws_restJson1_1UnsupportedAvailabilityZoneResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     ErrorCode: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.ErrorCode !== undefined && data.ErrorCode !== null) {
@@ -4174,7 +4174,7 @@ const deserializeAws_restJson1_1AccessPointDescription = (
     OwnerId: undefined,
     PosixUser: undefined,
     RootDirectory: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.AccessPointArn !== undefined && output.AccessPointArn !== null) {
     contents.AccessPointArn = output.AccessPointArn;
@@ -4232,7 +4232,7 @@ const deserializeAws_restJson1_1CreationInfo = (
     __type: "CreationInfo",
     OwnerGid: undefined,
     OwnerUid: undefined,
-    Permissions: undefined
+    Permissions: undefined,
   };
   if (output.OwnerGid !== undefined && output.OwnerGid !== null) {
     contents.OwnerGid = output.OwnerGid;
@@ -4265,7 +4265,7 @@ const deserializeAws_restJson1_1FileSystemDescription = (
     ProvisionedThroughputInMibps: undefined,
     SizeInBytes: undefined,
     Tags: undefined,
-    ThroughputMode: undefined
+    ThroughputMode: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4339,7 +4339,7 @@ const deserializeAws_restJson1_1FileSystemSize = (
     Timestamp: undefined,
     Value: undefined,
     ValueInIA: undefined,
-    ValueInStandard: undefined
+    ValueInStandard: undefined,
   };
   if (output.Timestamp !== undefined && output.Timestamp !== null) {
     contents.Timestamp = new Date(Math.round(output.Timestamp * 1000));
@@ -4371,7 +4371,7 @@ const deserializeAws_restJson1_1LifecyclePolicy = (
 ): LifecyclePolicy => {
   let contents: any = {
     __type: "LifecyclePolicy",
-    TransitionToIA: undefined
+    TransitionToIA: undefined,
   };
   if (output.TransitionToIA !== undefined && output.TransitionToIA !== null) {
     contents.TransitionToIA = output.TransitionToIA;
@@ -4393,7 +4393,7 @@ const deserializeAws_restJson1_1MountTargetDescription = (
     MountTargetId: undefined,
     NetworkInterfaceId: undefined,
     OwnerId: undefined,
-    SubnetId: undefined
+    SubnetId: undefined,
   };
   if (
     output.AvailabilityZoneId !== undefined &&
@@ -4451,7 +4451,7 @@ const deserializeAws_restJson1_1PosixUser = (
     __type: "PosixUser",
     Gid: undefined,
     SecondaryGids: undefined,
-    Uid: undefined
+    Uid: undefined,
   };
   if (output.Gid !== undefined && output.Gid !== null) {
     contents.Gid = output.Gid;
@@ -4475,7 +4475,7 @@ const deserializeAws_restJson1_1RootDirectory = (
   let contents: any = {
     __type: "RootDirectory",
     CreationInfo: undefined,
-    Path: undefined
+    Path: undefined,
   };
   if (output.CreationInfo !== undefined && output.CreationInfo !== null) {
     contents.CreationInfo = deserializeAws_restJson1_1CreationInfo(
@@ -4510,7 +4510,7 @@ const deserializeAws_restJson1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -4533,7 +4533,7 @@ const deserializeAws_restJson1_1Tags = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4554,13 +4554,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -4573,7 +4573,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

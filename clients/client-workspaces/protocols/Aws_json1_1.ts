@@ -1,166 +1,166 @@
 import {
   AssociateIpGroupsCommandInput,
-  AssociateIpGroupsCommandOutput
+  AssociateIpGroupsCommandOutput,
 } from "../commands/AssociateIpGroupsCommand";
 import {
   AuthorizeIpRulesCommandInput,
-  AuthorizeIpRulesCommandOutput
+  AuthorizeIpRulesCommandOutput,
 } from "../commands/AuthorizeIpRulesCommand";
 import {
   CopyWorkspaceImageCommandInput,
-  CopyWorkspaceImageCommandOutput
+  CopyWorkspaceImageCommandOutput,
 } from "../commands/CopyWorkspaceImageCommand";
 import {
   CreateIpGroupCommandInput,
-  CreateIpGroupCommandOutput
+  CreateIpGroupCommandOutput,
 } from "../commands/CreateIpGroupCommand";
 import {
   CreateTagsCommandInput,
-  CreateTagsCommandOutput
+  CreateTagsCommandOutput,
 } from "../commands/CreateTagsCommand";
 import {
   CreateWorkspacesCommandInput,
-  CreateWorkspacesCommandOutput
+  CreateWorkspacesCommandOutput,
 } from "../commands/CreateWorkspacesCommand";
 import {
   DeleteIpGroupCommandInput,
-  DeleteIpGroupCommandOutput
+  DeleteIpGroupCommandOutput,
 } from "../commands/DeleteIpGroupCommand";
 import {
   DeleteTagsCommandInput,
-  DeleteTagsCommandOutput
+  DeleteTagsCommandOutput,
 } from "../commands/DeleteTagsCommand";
 import {
   DeleteWorkspaceImageCommandInput,
-  DeleteWorkspaceImageCommandOutput
+  DeleteWorkspaceImageCommandOutput,
 } from "../commands/DeleteWorkspaceImageCommand";
 import {
   DeregisterWorkspaceDirectoryCommandInput,
-  DeregisterWorkspaceDirectoryCommandOutput
+  DeregisterWorkspaceDirectoryCommandOutput,
 } from "../commands/DeregisterWorkspaceDirectoryCommand";
 import {
   DescribeAccountCommandInput,
-  DescribeAccountCommandOutput
+  DescribeAccountCommandOutput,
 } from "../commands/DescribeAccountCommand";
 import {
   DescribeAccountModificationsCommandInput,
-  DescribeAccountModificationsCommandOutput
+  DescribeAccountModificationsCommandOutput,
 } from "../commands/DescribeAccountModificationsCommand";
 import {
   DescribeClientPropertiesCommandInput,
-  DescribeClientPropertiesCommandOutput
+  DescribeClientPropertiesCommandOutput,
 } from "../commands/DescribeClientPropertiesCommand";
 import {
   DescribeIpGroupsCommandInput,
-  DescribeIpGroupsCommandOutput
+  DescribeIpGroupsCommandOutput,
 } from "../commands/DescribeIpGroupsCommand";
 import {
   DescribeTagsCommandInput,
-  DescribeTagsCommandOutput
+  DescribeTagsCommandOutput,
 } from "../commands/DescribeTagsCommand";
 import {
   DescribeWorkspaceBundlesCommandInput,
-  DescribeWorkspaceBundlesCommandOutput
+  DescribeWorkspaceBundlesCommandOutput,
 } from "../commands/DescribeWorkspaceBundlesCommand";
 import {
   DescribeWorkspaceDirectoriesCommandInput,
-  DescribeWorkspaceDirectoriesCommandOutput
+  DescribeWorkspaceDirectoriesCommandOutput,
 } from "../commands/DescribeWorkspaceDirectoriesCommand";
 import {
   DescribeWorkspaceImagesCommandInput,
-  DescribeWorkspaceImagesCommandOutput
+  DescribeWorkspaceImagesCommandOutput,
 } from "../commands/DescribeWorkspaceImagesCommand";
 import {
   DescribeWorkspaceSnapshotsCommandInput,
-  DescribeWorkspaceSnapshotsCommandOutput
+  DescribeWorkspaceSnapshotsCommandOutput,
 } from "../commands/DescribeWorkspaceSnapshotsCommand";
 import {
   DescribeWorkspacesCommandInput,
-  DescribeWorkspacesCommandOutput
+  DescribeWorkspacesCommandOutput,
 } from "../commands/DescribeWorkspacesCommand";
 import {
   DescribeWorkspacesConnectionStatusCommandInput,
-  DescribeWorkspacesConnectionStatusCommandOutput
+  DescribeWorkspacesConnectionStatusCommandOutput,
 } from "../commands/DescribeWorkspacesConnectionStatusCommand";
 import {
   DisassociateIpGroupsCommandInput,
-  DisassociateIpGroupsCommandOutput
+  DisassociateIpGroupsCommandOutput,
 } from "../commands/DisassociateIpGroupsCommand";
 import {
   ImportWorkspaceImageCommandInput,
-  ImportWorkspaceImageCommandOutput
+  ImportWorkspaceImageCommandOutput,
 } from "../commands/ImportWorkspaceImageCommand";
 import {
   ListAvailableManagementCidrRangesCommandInput,
-  ListAvailableManagementCidrRangesCommandOutput
+  ListAvailableManagementCidrRangesCommandOutput,
 } from "../commands/ListAvailableManagementCidrRangesCommand";
 import {
   MigrateWorkspaceCommandInput,
-  MigrateWorkspaceCommandOutput
+  MigrateWorkspaceCommandOutput,
 } from "../commands/MigrateWorkspaceCommand";
 import {
   ModifyAccountCommandInput,
-  ModifyAccountCommandOutput
+  ModifyAccountCommandOutput,
 } from "../commands/ModifyAccountCommand";
 import {
   ModifyClientPropertiesCommandInput,
-  ModifyClientPropertiesCommandOutput
+  ModifyClientPropertiesCommandOutput,
 } from "../commands/ModifyClientPropertiesCommand";
 import {
   ModifySelfservicePermissionsCommandInput,
-  ModifySelfservicePermissionsCommandOutput
+  ModifySelfservicePermissionsCommandOutput,
 } from "../commands/ModifySelfservicePermissionsCommand";
 import {
   ModifyWorkspaceAccessPropertiesCommandInput,
-  ModifyWorkspaceAccessPropertiesCommandOutput
+  ModifyWorkspaceAccessPropertiesCommandOutput,
 } from "../commands/ModifyWorkspaceAccessPropertiesCommand";
 import {
   ModifyWorkspaceCreationPropertiesCommandInput,
-  ModifyWorkspaceCreationPropertiesCommandOutput
+  ModifyWorkspaceCreationPropertiesCommandOutput,
 } from "../commands/ModifyWorkspaceCreationPropertiesCommand";
 import {
   ModifyWorkspacePropertiesCommandInput,
-  ModifyWorkspacePropertiesCommandOutput
+  ModifyWorkspacePropertiesCommandOutput,
 } from "../commands/ModifyWorkspacePropertiesCommand";
 import {
   ModifyWorkspaceStateCommandInput,
-  ModifyWorkspaceStateCommandOutput
+  ModifyWorkspaceStateCommandOutput,
 } from "../commands/ModifyWorkspaceStateCommand";
 import {
   RebootWorkspacesCommandInput,
-  RebootWorkspacesCommandOutput
+  RebootWorkspacesCommandOutput,
 } from "../commands/RebootWorkspacesCommand";
 import {
   RebuildWorkspacesCommandInput,
-  RebuildWorkspacesCommandOutput
+  RebuildWorkspacesCommandOutput,
 } from "../commands/RebuildWorkspacesCommand";
 import {
   RegisterWorkspaceDirectoryCommandInput,
-  RegisterWorkspaceDirectoryCommandOutput
+  RegisterWorkspaceDirectoryCommandOutput,
 } from "../commands/RegisterWorkspaceDirectoryCommand";
 import {
   RestoreWorkspaceCommandInput,
-  RestoreWorkspaceCommandOutput
+  RestoreWorkspaceCommandOutput,
 } from "../commands/RestoreWorkspaceCommand";
 import {
   RevokeIpRulesCommandInput,
-  RevokeIpRulesCommandOutput
+  RevokeIpRulesCommandOutput,
 } from "../commands/RevokeIpRulesCommand";
 import {
   StartWorkspacesCommandInput,
-  StartWorkspacesCommandOutput
+  StartWorkspacesCommandOutput,
 } from "../commands/StartWorkspacesCommand";
 import {
   StopWorkspacesCommandInput,
-  StopWorkspacesCommandOutput
+  StopWorkspacesCommandOutput,
 } from "../commands/StopWorkspacesCommand";
 import {
   TerminateWorkspacesCommandInput,
-  TerminateWorkspacesCommandOutput
+  TerminateWorkspacesCommandOutput,
 } from "../commands/TerminateWorkspacesCommand";
 import {
   UpdateRulesOfIpGroupCommandInput,
-  UpdateRulesOfIpGroupCommandOutput
+  UpdateRulesOfIpGroupCommandOutput,
 } from "../commands/UpdateRulesOfIpGroupCommand";
 import {
   AccessDeniedException,
@@ -288,11 +288,11 @@ import {
   WorkspaceProperties,
   WorkspaceRequest,
   WorkspacesDefaultRoleNotFoundException,
-  WorkspacesIpGroup
+  WorkspacesIpGroup,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -300,7 +300,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateIpGroupsCommand(
@@ -892,7 +892,7 @@ export async function deserializeAws_json1_1AssociateIpGroupsCommand(
   const response: AssociateIpGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateIpGroupsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -903,7 +903,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
 ): Promise<AssociateIpGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -919,7 +919,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -930,7 +930,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -941,7 +941,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -952,7 +952,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -963,7 +963,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -974,7 +974,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -985,7 +985,7 @@ async function deserializeAws_json1_1AssociateIpGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1007,7 +1007,7 @@ export async function deserializeAws_json1_1AuthorizeIpRulesCommand(
   const response: AuthorizeIpRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AuthorizeIpRulesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1018,7 +1018,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
 ): Promise<AuthorizeIpRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1034,7 +1034,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -1045,7 +1045,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -1056,7 +1056,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -1067,7 +1067,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1078,7 +1078,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1089,7 +1089,7 @@ async function deserializeAws_json1_1AuthorizeIpRulesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1114,7 +1114,7 @@ export async function deserializeAws_json1_1CopyWorkspaceImageCommand(
   const response: CopyWorkspaceImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CopyWorkspaceImageResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1125,7 +1125,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
 ): Promise<CopyWorkspaceImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1141,7 +1141,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -1152,7 +1152,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -1163,7 +1163,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1174,7 +1174,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -1185,7 +1185,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1196,7 +1196,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceUnavailableException":
@@ -1207,7 +1207,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1218,7 +1218,7 @@ async function deserializeAws_json1_1CopyWorkspaceImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1240,7 +1240,7 @@ export async function deserializeAws_json1_1CreateIpGroupCommand(
   const response: CreateIpGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateIpGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1251,7 +1251,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
 ): Promise<CreateIpGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1267,7 +1267,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -1278,7 +1278,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1289,7 +1289,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceCreationFailedException":
@@ -1300,7 +1300,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -1311,7 +1311,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1322,7 +1322,7 @@ async function deserializeAws_json1_1CreateIpGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1344,7 +1344,7 @@ export async function deserializeAws_json1_1CreateTagsCommand(
   const response: CreateTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTagsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1355,7 +1355,7 @@ async function deserializeAws_json1_1CreateTagsCommandError(
 ): Promise<CreateTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1371,7 +1371,7 @@ async function deserializeAws_json1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -1382,7 +1382,7 @@ async function deserializeAws_json1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1393,7 +1393,7 @@ async function deserializeAws_json1_1CreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1404,7 +1404,7 @@ async function deserializeAws_json1_1CreateTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1426,7 +1426,7 @@ export async function deserializeAws_json1_1CreateWorkspacesCommand(
   const response: CreateWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1437,7 +1437,7 @@ async function deserializeAws_json1_1CreateWorkspacesCommandError(
 ): Promise<CreateWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1453,7 +1453,7 @@ async function deserializeAws_json1_1CreateWorkspacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -1464,7 +1464,7 @@ async function deserializeAws_json1_1CreateWorkspacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1475,7 +1475,7 @@ async function deserializeAws_json1_1CreateWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1497,7 +1497,7 @@ export async function deserializeAws_json1_1DeleteIpGroupCommand(
   const response: DeleteIpGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteIpGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1508,7 +1508,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
 ): Promise<DeleteIpGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1524,7 +1524,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -1535,7 +1535,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAssociatedException":
@@ -1546,7 +1546,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1557,7 +1557,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1568,7 +1568,7 @@ async function deserializeAws_json1_1DeleteIpGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1590,7 +1590,7 @@ export async function deserializeAws_json1_1DeleteTagsCommand(
   const response: DeleteTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTagsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1601,7 +1601,7 @@ async function deserializeAws_json1_1DeleteTagsCommandError(
 ): Promise<DeleteTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1617,7 +1617,7 @@ async function deserializeAws_json1_1DeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1628,7 +1628,7 @@ async function deserializeAws_json1_1DeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1639,7 +1639,7 @@ async function deserializeAws_json1_1DeleteTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1664,7 +1664,7 @@ export async function deserializeAws_json1_1DeleteWorkspaceImageCommand(
   const response: DeleteWorkspaceImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteWorkspaceImageResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1675,7 +1675,7 @@ async function deserializeAws_json1_1DeleteWorkspaceImageCommandError(
 ): Promise<DeleteWorkspaceImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1691,7 +1691,7 @@ async function deserializeAws_json1_1DeleteWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -1702,7 +1702,7 @@ async function deserializeAws_json1_1DeleteWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAssociatedException":
@@ -1713,7 +1713,7 @@ async function deserializeAws_json1_1DeleteWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1724,7 +1724,7 @@ async function deserializeAws_json1_1DeleteWorkspaceImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1752,7 +1752,7 @@ export async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommand(
   const response: DeregisterWorkspaceDirectoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeregisterWorkspaceDirectoryResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1763,7 +1763,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
 ): Promise<DeregisterWorkspaceDirectoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1779,7 +1779,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -1790,7 +1790,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -1801,7 +1801,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -1812,7 +1812,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1823,7 +1823,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1834,7 +1834,7 @@ async function deserializeAws_json1_1DeregisterWorkspaceDirectoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1856,7 +1856,7 @@ export async function deserializeAws_json1_1DescribeAccountCommand(
   const response: DescribeAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAccountResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1867,7 +1867,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
 ): Promise<DescribeAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1883,7 +1883,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1894,7 +1894,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1922,7 +1922,7 @@ export async function deserializeAws_json1_1DescribeAccountModificationsCommand(
   const response: DescribeAccountModificationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAccountModificationsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1933,7 +1933,7 @@ async function deserializeAws_json1_1DescribeAccountModificationsCommandError(
 ): Promise<DescribeAccountModificationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1949,7 +1949,7 @@ async function deserializeAws_json1_1DescribeAccountModificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1960,7 +1960,7 @@ async function deserializeAws_json1_1DescribeAccountModificationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1988,7 +1988,7 @@ export async function deserializeAws_json1_1DescribeClientPropertiesCommand(
   const response: DescribeClientPropertiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeClientPropertiesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1999,7 +1999,7 @@ async function deserializeAws_json1_1DescribeClientPropertiesCommandError(
 ): Promise<DescribeClientPropertiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2015,7 +2015,7 @@ async function deserializeAws_json1_1DescribeClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2026,7 +2026,7 @@ async function deserializeAws_json1_1DescribeClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2037,7 +2037,7 @@ async function deserializeAws_json1_1DescribeClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2048,7 +2048,7 @@ async function deserializeAws_json1_1DescribeClientPropertiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2070,7 +2070,7 @@ export async function deserializeAws_json1_1DescribeIpGroupsCommand(
   const response: DescribeIpGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeIpGroupsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2081,7 +2081,7 @@ async function deserializeAws_json1_1DescribeIpGroupsCommandError(
 ): Promise<DescribeIpGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2097,7 +2097,7 @@ async function deserializeAws_json1_1DescribeIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2108,7 +2108,7 @@ async function deserializeAws_json1_1DescribeIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2119,7 +2119,7 @@ async function deserializeAws_json1_1DescribeIpGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2141,7 +2141,7 @@ export async function deserializeAws_json1_1DescribeTagsCommand(
   const response: DescribeTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTagsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2152,7 +2152,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
 ): Promise<DescribeTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2168,7 +2168,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2179,7 +2179,7 @@ async function deserializeAws_json1_1DescribeTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2207,7 +2207,7 @@ export async function deserializeAws_json1_1DescribeWorkspaceBundlesCommand(
   const response: DescribeWorkspaceBundlesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspaceBundlesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2218,7 +2218,7 @@ async function deserializeAws_json1_1DescribeWorkspaceBundlesCommandError(
 ): Promise<DescribeWorkspaceBundlesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2234,7 +2234,7 @@ async function deserializeAws_json1_1DescribeWorkspaceBundlesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2245,7 +2245,7 @@ async function deserializeAws_json1_1DescribeWorkspaceBundlesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2273,7 +2273,7 @@ export async function deserializeAws_json1_1DescribeWorkspaceDirectoriesCommand(
   const response: DescribeWorkspaceDirectoriesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspaceDirectoriesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2284,7 +2284,7 @@ async function deserializeAws_json1_1DescribeWorkspaceDirectoriesCommandError(
 ): Promise<DescribeWorkspaceDirectoriesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2300,7 +2300,7 @@ async function deserializeAws_json1_1DescribeWorkspaceDirectoriesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2311,7 +2311,7 @@ async function deserializeAws_json1_1DescribeWorkspaceDirectoriesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2336,7 +2336,7 @@ export async function deserializeAws_json1_1DescribeWorkspaceImagesCommand(
   const response: DescribeWorkspaceImagesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspaceImagesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2347,7 +2347,7 @@ async function deserializeAws_json1_1DescribeWorkspaceImagesCommandError(
 ): Promise<DescribeWorkspaceImagesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2363,7 +2363,7 @@ async function deserializeAws_json1_1DescribeWorkspaceImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2374,7 +2374,7 @@ async function deserializeAws_json1_1DescribeWorkspaceImagesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2402,7 +2402,7 @@ export async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommand(
   const response: DescribeWorkspaceSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspaceSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2413,7 +2413,7 @@ async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommandError(
 ): Promise<DescribeWorkspaceSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2429,7 +2429,7 @@ async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2440,7 +2440,7 @@ async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2451,7 +2451,7 @@ async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2462,7 +2462,7 @@ async function deserializeAws_json1_1DescribeWorkspaceSnapshotsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2487,7 +2487,7 @@ export async function deserializeAws_json1_1DescribeWorkspacesCommand(
   const response: DescribeWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2498,7 +2498,7 @@ async function deserializeAws_json1_1DescribeWorkspacesCommandError(
 ): Promise<DescribeWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2514,7 +2514,7 @@ async function deserializeAws_json1_1DescribeWorkspacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceUnavailableException":
@@ -2525,7 +2525,7 @@ async function deserializeAws_json1_1DescribeWorkspacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2536,7 +2536,7 @@ async function deserializeAws_json1_1DescribeWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2564,7 +2564,7 @@ export async function deserializeAws_json1_1DescribeWorkspacesConnectionStatusCo
   const response: DescribeWorkspacesConnectionStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkspacesConnectionStatusResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2575,7 +2575,7 @@ async function deserializeAws_json1_1DescribeWorkspacesConnectionStatusCommandEr
 ): Promise<DescribeWorkspacesConnectionStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2591,7 +2591,7 @@ async function deserializeAws_json1_1DescribeWorkspacesConnectionStatusCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2602,7 +2602,7 @@ async function deserializeAws_json1_1DescribeWorkspacesConnectionStatusCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2627,7 +2627,7 @@ export async function deserializeAws_json1_1DisassociateIpGroupsCommand(
   const response: DisassociateIpGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateIpGroupsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2638,7 +2638,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
 ): Promise<DisassociateIpGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2654,7 +2654,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2665,7 +2665,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -2676,7 +2676,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2687,7 +2687,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2698,7 +2698,7 @@ async function deserializeAws_json1_1DisassociateIpGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2723,7 +2723,7 @@ export async function deserializeAws_json1_1ImportWorkspaceImageCommand(
   const response: ImportWorkspaceImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ImportWorkspaceImageResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2734,7 +2734,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
 ): Promise<ImportWorkspaceImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2750,7 +2750,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2761,7 +2761,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -2772,7 +2772,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -2783,7 +2783,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -2794,7 +2794,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2805,7 +2805,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2816,7 +2816,7 @@ async function deserializeAws_json1_1ImportWorkspaceImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2844,7 +2844,7 @@ export async function deserializeAws_json1_1ListAvailableManagementCidrRangesCom
   const response: ListAvailableManagementCidrRangesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAvailableManagementCidrRangesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2855,7 +2855,7 @@ async function deserializeAws_json1_1ListAvailableManagementCidrRangesCommandErr
 ): Promise<ListAvailableManagementCidrRangesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2871,7 +2871,7 @@ async function deserializeAws_json1_1ListAvailableManagementCidrRangesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2882,7 +2882,7 @@ async function deserializeAws_json1_1ListAvailableManagementCidrRangesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2893,7 +2893,7 @@ async function deserializeAws_json1_1ListAvailableManagementCidrRangesCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2915,7 +2915,7 @@ export async function deserializeAws_json1_1MigrateWorkspaceCommand(
   const response: MigrateWorkspaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "MigrateWorkspaceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2926,7 +2926,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
 ): Promise<MigrateWorkspaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2942,7 +2942,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -2953,7 +2953,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationInProgressException":
@@ -2964,7 +2964,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -2975,7 +2975,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2986,7 +2986,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceUnavailableException":
@@ -2997,7 +2997,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3008,7 +3008,7 @@ async function deserializeAws_json1_1MigrateWorkspaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3030,7 +3030,7 @@ export async function deserializeAws_json1_1ModifyAccountCommand(
   const response: ModifyAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyAccountResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3041,7 +3041,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
 ): Promise<ModifyAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3057,7 +3057,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3068,7 +3068,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -3079,7 +3079,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3090,7 +3090,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceUnavailableException":
@@ -3101,7 +3101,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3112,7 +3112,7 @@ async function deserializeAws_json1_1ModifyAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3137,7 +3137,7 @@ export async function deserializeAws_json1_1ModifyClientPropertiesCommand(
   const response: ModifyClientPropertiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClientPropertiesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3148,7 +3148,7 @@ async function deserializeAws_json1_1ModifyClientPropertiesCommandError(
 ): Promise<ModifyClientPropertiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3164,7 +3164,7 @@ async function deserializeAws_json1_1ModifyClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3175,7 +3175,7 @@ async function deserializeAws_json1_1ModifyClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3186,7 +3186,7 @@ async function deserializeAws_json1_1ModifyClientPropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3197,7 +3197,7 @@ async function deserializeAws_json1_1ModifyClientPropertiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3225,7 +3225,7 @@ export async function deserializeAws_json1_1ModifySelfservicePermissionsCommand(
   const response: ModifySelfservicePermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifySelfservicePermissionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3236,7 +3236,7 @@ async function deserializeAws_json1_1ModifySelfservicePermissionsCommandError(
 ): Promise<ModifySelfservicePermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3252,7 +3252,7 @@ async function deserializeAws_json1_1ModifySelfservicePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3263,7 +3263,7 @@ async function deserializeAws_json1_1ModifySelfservicePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3274,7 +3274,7 @@ async function deserializeAws_json1_1ModifySelfservicePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3285,7 +3285,7 @@ async function deserializeAws_json1_1ModifySelfservicePermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3313,7 +3313,7 @@ export async function deserializeAws_json1_1ModifyWorkspaceAccessPropertiesComma
   const response: ModifyWorkspaceAccessPropertiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyWorkspaceAccessPropertiesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3324,7 +3324,7 @@ async function deserializeAws_json1_1ModifyWorkspaceAccessPropertiesCommandError
 ): Promise<ModifyWorkspaceAccessPropertiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3340,7 +3340,7 @@ async function deserializeAws_json1_1ModifyWorkspaceAccessPropertiesCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3351,7 +3351,7 @@ async function deserializeAws_json1_1ModifyWorkspaceAccessPropertiesCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3362,7 +3362,7 @@ async function deserializeAws_json1_1ModifyWorkspaceAccessPropertiesCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3390,7 +3390,7 @@ export async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCom
   const response: ModifyWorkspaceCreationPropertiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyWorkspaceCreationPropertiesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3401,7 +3401,7 @@ async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCommandErr
 ): Promise<ModifyWorkspaceCreationPropertiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3417,7 +3417,7 @@ async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3428,7 +3428,7 @@ async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3439,7 +3439,7 @@ async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3450,7 +3450,7 @@ async function deserializeAws_json1_1ModifyWorkspaceCreationPropertiesCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3478,7 +3478,7 @@ export async function deserializeAws_json1_1ModifyWorkspacePropertiesCommand(
   const response: ModifyWorkspacePropertiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyWorkspacePropertiesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3489,7 +3489,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
 ): Promise<ModifyWorkspacePropertiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3505,7 +3505,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3516,7 +3516,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -3527,7 +3527,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationInProgressException":
@@ -3538,7 +3538,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3549,7 +3549,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceUnavailableException":
@@ -3560,7 +3560,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedWorkspaceConfigurationException":
@@ -3571,7 +3571,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3582,7 +3582,7 @@ async function deserializeAws_json1_1ModifyWorkspacePropertiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3607,7 +3607,7 @@ export async function deserializeAws_json1_1ModifyWorkspaceStateCommand(
   const response: ModifyWorkspaceStateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyWorkspaceStateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3618,7 +3618,7 @@ async function deserializeAws_json1_1ModifyWorkspaceStateCommandError(
 ): Promise<ModifyWorkspaceStateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3634,7 +3634,7 @@ async function deserializeAws_json1_1ModifyWorkspaceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -3645,7 +3645,7 @@ async function deserializeAws_json1_1ModifyWorkspaceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3656,7 +3656,7 @@ async function deserializeAws_json1_1ModifyWorkspaceStateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3667,7 +3667,7 @@ async function deserializeAws_json1_1ModifyWorkspaceStateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3689,7 +3689,7 @@ export async function deserializeAws_json1_1RebootWorkspacesCommand(
   const response: RebootWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RebootWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3700,7 +3700,7 @@ async function deserializeAws_json1_1RebootWorkspacesCommandError(
 ): Promise<RebootWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3716,7 +3716,7 @@ async function deserializeAws_json1_1RebootWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3738,7 +3738,7 @@ export async function deserializeAws_json1_1RebuildWorkspacesCommand(
   const response: RebuildWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RebuildWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3749,7 +3749,7 @@ async function deserializeAws_json1_1RebuildWorkspacesCommandError(
 ): Promise<RebuildWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3765,7 +3765,7 @@ async function deserializeAws_json1_1RebuildWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3793,7 +3793,7 @@ export async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommand(
   const response: RegisterWorkspaceDirectoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RegisterWorkspaceDirectoryResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3804,7 +3804,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
 ): Promise<RegisterWorkspaceDirectoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3820,7 +3820,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3831,7 +3831,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -3842,7 +3842,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotSupportedException":
@@ -3853,7 +3853,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -3864,7 +3864,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3875,7 +3875,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedNetworkConfigurationException":
@@ -3886,7 +3886,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WorkspacesDefaultRoleNotFoundException":
@@ -3897,7 +3897,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3908,7 +3908,7 @@ async function deserializeAws_json1_1RegisterWorkspaceDirectoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3930,7 +3930,7 @@ export async function deserializeAws_json1_1RestoreWorkspaceCommand(
   const response: RestoreWorkspaceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RestoreWorkspaceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3941,7 +3941,7 @@ async function deserializeAws_json1_1RestoreWorkspaceCommandError(
 ): Promise<RestoreWorkspaceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3957,7 +3957,7 @@ async function deserializeAws_json1_1RestoreWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -3968,7 +3968,7 @@ async function deserializeAws_json1_1RestoreWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3979,7 +3979,7 @@ async function deserializeAws_json1_1RestoreWorkspaceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3990,7 +3990,7 @@ async function deserializeAws_json1_1RestoreWorkspaceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4012,7 +4012,7 @@ export async function deserializeAws_json1_1RevokeIpRulesCommand(
   const response: RevokeIpRulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RevokeIpRulesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4023,7 +4023,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
 ): Promise<RevokeIpRulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4039,7 +4039,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -4050,7 +4050,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -4061,7 +4061,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4072,7 +4072,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4083,7 +4083,7 @@ async function deserializeAws_json1_1RevokeIpRulesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4105,7 +4105,7 @@ export async function deserializeAws_json1_1StartWorkspacesCommand(
   const response: StartWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4116,7 +4116,7 @@ async function deserializeAws_json1_1StartWorkspacesCommandError(
 ): Promise<StartWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4132,7 +4132,7 @@ async function deserializeAws_json1_1StartWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4154,7 +4154,7 @@ export async function deserializeAws_json1_1StopWorkspacesCommand(
   const response: StopWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4165,7 +4165,7 @@ async function deserializeAws_json1_1StopWorkspacesCommandError(
 ): Promise<StopWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4181,7 +4181,7 @@ async function deserializeAws_json1_1StopWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4206,7 +4206,7 @@ export async function deserializeAws_json1_1TerminateWorkspacesCommand(
   const response: TerminateWorkspacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TerminateWorkspacesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4217,7 +4217,7 @@ async function deserializeAws_json1_1TerminateWorkspacesCommandError(
 ): Promise<TerminateWorkspacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4233,7 +4233,7 @@ async function deserializeAws_json1_1TerminateWorkspacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4258,7 +4258,7 @@ export async function deserializeAws_json1_1UpdateRulesOfIpGroupCommand(
   const response: UpdateRulesOfIpGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateRulesOfIpGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4269,7 +4269,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
 ): Promise<UpdateRulesOfIpGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4285,7 +4285,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValuesException":
@@ -4296,7 +4296,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResourceStateException":
@@ -4307,7 +4307,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceLimitExceededException":
@@ -4318,7 +4318,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4329,7 +4329,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4340,7 +4340,7 @@ async function deserializeAws_json1_1UpdateRulesOfIpGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4362,7 +4362,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4380,7 +4380,7 @@ const deserializeAws_json1_1InvalidParameterValuesExceptionResponse = async (
     name: "InvalidParameterValuesException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4398,7 +4398,7 @@ const deserializeAws_json1_1InvalidResourceStateExceptionResponse = async (
     name: "InvalidResourceStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4416,7 +4416,7 @@ const deserializeAws_json1_1OperationInProgressExceptionResponse = async (
     name: "OperationInProgressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4434,7 +4434,7 @@ const deserializeAws_json1_1OperationNotSupportedExceptionResponse = async (
     name: "OperationNotSupportedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4452,7 +4452,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsExceptionResponse = async (
     name: "ResourceAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4470,7 +4470,7 @@ const deserializeAws_json1_1ResourceAssociatedExceptionResponse = async (
     name: "ResourceAssociatedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4488,7 +4488,7 @@ const deserializeAws_json1_1ResourceCreationFailedExceptionResponse = async (
     name: "ResourceCreationFailedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4506,7 +4506,7 @@ const deserializeAws_json1_1ResourceLimitExceededExceptionResponse = async (
     name: "ResourceLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4524,7 +4524,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4542,7 +4542,7 @@ const deserializeAws_json1_1ResourceUnavailableExceptionResponse = async (
     name: "ResourceUnavailableException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4560,7 +4560,7 @@ const deserializeAws_json1_1UnsupportedNetworkConfigurationExceptionResponse = a
     name: "UnsupportedNetworkConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4578,7 +4578,7 @@ const deserializeAws_json1_1UnsupportedWorkspaceConfigurationExceptionResponse =
     name: "UnsupportedWorkspaceConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4596,7 +4596,7 @@ const deserializeAws_json1_1WorkspacesDefaultRoleNotFoundExceptionResponse = asy
     name: "WorkspacesDefaultRoleNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5707,7 +5707,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5726,7 +5726,7 @@ const deserializeAws_json1_1AccountModification = (
     ErrorCode: undefined,
     ErrorMessage: undefined,
     ModificationState: undefined,
-    StartTime: undefined
+    StartTime: undefined,
   };
   if (
     output.DedicatedTenancyManagementCidrRange !== undefined &&
@@ -5773,7 +5773,7 @@ const deserializeAws_json1_1AssociateIpGroupsResult = (
   context: __SerdeContext
 ): AssociateIpGroupsResult => {
   let contents: any = {
-    __type: "AssociateIpGroupsResult"
+    __type: "AssociateIpGroupsResult",
   };
   return contents;
 };
@@ -5783,7 +5783,7 @@ const deserializeAws_json1_1AuthorizeIpRulesResult = (
   context: __SerdeContext
 ): AuthorizeIpRulesResult => {
   let contents: any = {
-    __type: "AuthorizeIpRulesResult"
+    __type: "AuthorizeIpRulesResult",
   };
   return contents;
 };
@@ -5803,7 +5803,7 @@ const deserializeAws_json1_1ClientProperties = (
 ): ClientProperties => {
   let contents: any = {
     __type: "ClientProperties",
-    ReconnectEnabled: undefined
+    ReconnectEnabled: undefined,
   };
   if (
     output.ReconnectEnabled !== undefined &&
@@ -5830,7 +5830,7 @@ const deserializeAws_json1_1ClientPropertiesResult = (
   let contents: any = {
     __type: "ClientPropertiesResult",
     ClientProperties: undefined,
-    ResourceId: undefined
+    ResourceId: undefined,
   };
   if (
     output.ClientProperties !== undefined &&
@@ -5853,7 +5853,7 @@ const deserializeAws_json1_1ComputeType = (
 ): ComputeType => {
   let contents: any = {
     __type: "ComputeType",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -5867,7 +5867,7 @@ const deserializeAws_json1_1CopyWorkspaceImageResult = (
 ): CopyWorkspaceImageResult => {
   let contents: any = {
     __type: "CopyWorkspaceImageResult",
-    ImageId: undefined
+    ImageId: undefined,
   };
   if (output.ImageId !== undefined && output.ImageId !== null) {
     contents.ImageId = output.ImageId;
@@ -5881,7 +5881,7 @@ const deserializeAws_json1_1CreateIpGroupResult = (
 ): CreateIpGroupResult => {
   let contents: any = {
     __type: "CreateIpGroupResult",
-    GroupId: undefined
+    GroupId: undefined,
   };
   if (output.GroupId !== undefined && output.GroupId !== null) {
     contents.GroupId = output.GroupId;
@@ -5894,7 +5894,7 @@ const deserializeAws_json1_1CreateTagsResult = (
   context: __SerdeContext
 ): CreateTagsResult => {
   let contents: any = {
-    __type: "CreateTagsResult"
+    __type: "CreateTagsResult",
   };
   return contents;
 };
@@ -5906,7 +5906,7 @@ const deserializeAws_json1_1CreateWorkspacesResult = (
   let contents: any = {
     __type: "CreateWorkspacesResult",
     FailedRequests: undefined,
-    PendingRequests: undefined
+    PendingRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedCreateWorkspaceRequests(
@@ -5941,7 +5941,7 @@ const deserializeAws_json1_1DefaultWorkspaceCreationProperties = (
     EnableInternetAccess: undefined,
     EnableMaintenanceMode: undefined,
     EnableWorkDocs: undefined,
-    UserEnabledAsLocalAdministrator: undefined
+    UserEnabledAsLocalAdministrator: undefined,
   };
   if (
     output.CustomSecurityGroupId !== undefined &&
@@ -5982,7 +5982,7 @@ const deserializeAws_json1_1DeleteIpGroupResult = (
   context: __SerdeContext
 ): DeleteIpGroupResult => {
   let contents: any = {
-    __type: "DeleteIpGroupResult"
+    __type: "DeleteIpGroupResult",
   };
   return contents;
 };
@@ -5992,7 +5992,7 @@ const deserializeAws_json1_1DeleteTagsResult = (
   context: __SerdeContext
 ): DeleteTagsResult => {
   let contents: any = {
-    __type: "DeleteTagsResult"
+    __type: "DeleteTagsResult",
   };
   return contents;
 };
@@ -6002,7 +6002,7 @@ const deserializeAws_json1_1DeleteWorkspaceImageResult = (
   context: __SerdeContext
 ): DeleteWorkspaceImageResult => {
   let contents: any = {
-    __type: "DeleteWorkspaceImageResult"
+    __type: "DeleteWorkspaceImageResult",
   };
   return contents;
 };
@@ -6012,7 +6012,7 @@ const deserializeAws_json1_1DeregisterWorkspaceDirectoryResult = (
   context: __SerdeContext
 ): DeregisterWorkspaceDirectoryResult => {
   let contents: any = {
-    __type: "DeregisterWorkspaceDirectoryResult"
+    __type: "DeregisterWorkspaceDirectoryResult",
   };
   return contents;
 };
@@ -6024,7 +6024,7 @@ const deserializeAws_json1_1DescribeAccountModificationsResult = (
   let contents: any = {
     __type: "DescribeAccountModificationsResult",
     AccountModifications: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.AccountModifications !== undefined &&
@@ -6048,7 +6048,7 @@ const deserializeAws_json1_1DescribeAccountResult = (
   let contents: any = {
     __type: "DescribeAccountResult",
     DedicatedTenancyManagementCidrRange: undefined,
-    DedicatedTenancySupport: undefined
+    DedicatedTenancySupport: undefined,
   };
   if (
     output.DedicatedTenancyManagementCidrRange !== undefined &&
@@ -6072,7 +6072,7 @@ const deserializeAws_json1_1DescribeClientPropertiesResult = (
 ): DescribeClientPropertiesResult => {
   let contents: any = {
     __type: "DescribeClientPropertiesResult",
-    ClientPropertiesList: undefined
+    ClientPropertiesList: undefined,
   };
   if (
     output.ClientPropertiesList !== undefined &&
@@ -6093,7 +6093,7 @@ const deserializeAws_json1_1DescribeIpGroupsResult = (
   let contents: any = {
     __type: "DescribeIpGroupsResult",
     NextToken: undefined,
-    Result: undefined
+    Result: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -6113,7 +6113,7 @@ const deserializeAws_json1_1DescribeTagsResult = (
 ): DescribeTagsResult => {
   let contents: any = {
     __type: "DescribeTagsResult",
-    TagList: undefined
+    TagList: undefined,
   };
   if (output.TagList !== undefined && output.TagList !== null) {
     contents.TagList = deserializeAws_json1_1TagList(output.TagList, context);
@@ -6128,7 +6128,7 @@ const deserializeAws_json1_1DescribeWorkspaceBundlesResult = (
   let contents: any = {
     __type: "DescribeWorkspaceBundlesResult",
     Bundles: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Bundles !== undefined && output.Bundles !== null) {
     contents.Bundles = deserializeAws_json1_1BundleList(
@@ -6149,7 +6149,7 @@ const deserializeAws_json1_1DescribeWorkspaceDirectoriesResult = (
   let contents: any = {
     __type: "DescribeWorkspaceDirectoriesResult",
     Directories: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Directories !== undefined && output.Directories !== null) {
     contents.Directories = deserializeAws_json1_1DirectoryList(
@@ -6170,7 +6170,7 @@ const deserializeAws_json1_1DescribeWorkspaceImagesResult = (
   let contents: any = {
     __type: "DescribeWorkspaceImagesResult",
     Images: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Images !== undefined && output.Images !== null) {
     contents.Images = deserializeAws_json1_1WorkspaceImageList(
@@ -6191,7 +6191,7 @@ const deserializeAws_json1_1DescribeWorkspaceSnapshotsResult = (
   let contents: any = {
     __type: "DescribeWorkspaceSnapshotsResult",
     RebuildSnapshots: undefined,
-    RestoreSnapshots: undefined
+    RestoreSnapshots: undefined,
   };
   if (
     output.RebuildSnapshots !== undefined &&
@@ -6221,7 +6221,7 @@ const deserializeAws_json1_1DescribeWorkspacesConnectionStatusResult = (
   let contents: any = {
     __type: "DescribeWorkspacesConnectionStatusResult",
     NextToken: undefined,
-    WorkspacesConnectionStatus: undefined
+    WorkspacesConnectionStatus: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -6245,7 +6245,7 @@ const deserializeAws_json1_1DescribeWorkspacesResult = (
   let contents: any = {
     __type: "DescribeWorkspacesResult",
     NextToken: undefined,
-    Workspaces: undefined
+    Workspaces: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -6273,7 +6273,7 @@ const deserializeAws_json1_1DisassociateIpGroupsResult = (
   context: __SerdeContext
 ): DisassociateIpGroupsResult => {
   let contents: any = {
-    __type: "DisassociateIpGroupsResult"
+    __type: "DisassociateIpGroupsResult",
   };
   return contents;
 };
@@ -6293,7 +6293,7 @@ const deserializeAws_json1_1FailedCreateWorkspaceRequest = (
     __type: "FailedCreateWorkspaceRequest",
     ErrorCode: undefined,
     ErrorMessage: undefined,
-    WorkspaceRequest: undefined
+    WorkspaceRequest: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -6375,7 +6375,7 @@ const deserializeAws_json1_1FailedWorkspaceChangeRequest = (
     __type: "FailedWorkspaceChangeRequest",
     ErrorCode: undefined,
     ErrorMessage: undefined,
-    WorkspaceId: undefined
+    WorkspaceId: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -6395,7 +6395,7 @@ const deserializeAws_json1_1ImportWorkspaceImageResult = (
 ): ImportWorkspaceImageResult => {
   let contents: any = {
     __type: "ImportWorkspaceImageResult",
-    ImageId: undefined
+    ImageId: undefined,
   };
   if (output.ImageId !== undefined && output.ImageId !== null) {
     contents.ImageId = output.ImageId;
@@ -6409,7 +6409,7 @@ const deserializeAws_json1_1InvalidParameterValuesException = (
 ): InvalidParameterValuesException => {
   let contents: any = {
     __type: "InvalidParameterValuesException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6423,7 +6423,7 @@ const deserializeAws_json1_1InvalidResourceStateException = (
 ): InvalidResourceStateException => {
   let contents: any = {
     __type: "InvalidResourceStateException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6445,7 +6445,7 @@ const deserializeAws_json1_1IpRuleItem = (
   let contents: any = {
     __type: "IpRuleItem",
     ipRule: undefined,
-    ruleDesc: undefined
+    ruleDesc: undefined,
   };
   if (output.ipRule !== undefined && output.ipRule !== null) {
     contents.ipRule = output.ipRule;
@@ -6472,7 +6472,7 @@ const deserializeAws_json1_1ListAvailableManagementCidrRangesResult = (
   let contents: any = {
     __type: "ListAvailableManagementCidrRangesResult",
     ManagementCidrRanges: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.ManagementCidrRanges !== undefined &&
@@ -6496,7 +6496,7 @@ const deserializeAws_json1_1MigrateWorkspaceResult = (
   let contents: any = {
     __type: "MigrateWorkspaceResult",
     SourceWorkspaceId: undefined,
-    TargetWorkspaceId: undefined
+    TargetWorkspaceId: undefined,
   };
   if (
     output.SourceWorkspaceId !== undefined &&
@@ -6520,7 +6520,7 @@ const deserializeAws_json1_1ModificationState = (
   let contents: any = {
     __type: "ModificationState",
     Resource: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.Resource !== undefined && output.Resource !== null) {
     contents.Resource = output.Resource;
@@ -6545,7 +6545,7 @@ const deserializeAws_json1_1ModifyAccountResult = (
   context: __SerdeContext
 ): ModifyAccountResult => {
   let contents: any = {
-    __type: "ModifyAccountResult"
+    __type: "ModifyAccountResult",
   };
   return contents;
 };
@@ -6555,7 +6555,7 @@ const deserializeAws_json1_1ModifyClientPropertiesResult = (
   context: __SerdeContext
 ): ModifyClientPropertiesResult => {
   let contents: any = {
-    __type: "ModifyClientPropertiesResult"
+    __type: "ModifyClientPropertiesResult",
   };
   return contents;
 };
@@ -6565,7 +6565,7 @@ const deserializeAws_json1_1ModifySelfservicePermissionsResult = (
   context: __SerdeContext
 ): ModifySelfservicePermissionsResult => {
   let contents: any = {
-    __type: "ModifySelfservicePermissionsResult"
+    __type: "ModifySelfservicePermissionsResult",
   };
   return contents;
 };
@@ -6575,7 +6575,7 @@ const deserializeAws_json1_1ModifyWorkspaceAccessPropertiesResult = (
   context: __SerdeContext
 ): ModifyWorkspaceAccessPropertiesResult => {
   let contents: any = {
-    __type: "ModifyWorkspaceAccessPropertiesResult"
+    __type: "ModifyWorkspaceAccessPropertiesResult",
   };
   return contents;
 };
@@ -6585,7 +6585,7 @@ const deserializeAws_json1_1ModifyWorkspaceCreationPropertiesResult = (
   context: __SerdeContext
 ): ModifyWorkspaceCreationPropertiesResult => {
   let contents: any = {
-    __type: "ModifyWorkspaceCreationPropertiesResult"
+    __type: "ModifyWorkspaceCreationPropertiesResult",
   };
   return contents;
 };
@@ -6595,7 +6595,7 @@ const deserializeAws_json1_1ModifyWorkspacePropertiesResult = (
   context: __SerdeContext
 ): ModifyWorkspacePropertiesResult => {
   let contents: any = {
-    __type: "ModifyWorkspacePropertiesResult"
+    __type: "ModifyWorkspacePropertiesResult",
   };
   return contents;
 };
@@ -6605,7 +6605,7 @@ const deserializeAws_json1_1ModifyWorkspaceStateResult = (
   context: __SerdeContext
 ): ModifyWorkspaceStateResult => {
   let contents: any = {
-    __type: "ModifyWorkspaceStateResult"
+    __type: "ModifyWorkspaceStateResult",
   };
   return contents;
 };
@@ -6616,7 +6616,7 @@ const deserializeAws_json1_1OperatingSystem = (
 ): OperatingSystem => {
   let contents: any = {
     __type: "OperatingSystem",
-    Type: undefined
+    Type: undefined,
   };
   if (output.Type !== undefined && output.Type !== null) {
     contents.Type = output.Type;
@@ -6630,7 +6630,7 @@ const deserializeAws_json1_1OperationInProgressException = (
 ): OperationInProgressException => {
   let contents: any = {
     __type: "OperationInProgressException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6644,7 +6644,7 @@ const deserializeAws_json1_1OperationNotSupportedException = (
 ): OperationNotSupportedException => {
   let contents: any = {
     __type: "OperationNotSupportedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6658,7 +6658,7 @@ const deserializeAws_json1_1RebootWorkspacesResult = (
 ): RebootWorkspacesResult => {
   let contents: any = {
     __type: "RebootWorkspacesResult",
-    FailedRequests: undefined
+    FailedRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedRebootWorkspaceRequests(
@@ -6675,7 +6675,7 @@ const deserializeAws_json1_1RebuildWorkspacesResult = (
 ): RebuildWorkspacesResult => {
   let contents: any = {
     __type: "RebuildWorkspacesResult",
-    FailedRequests: undefined
+    FailedRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedRebuildWorkspaceRequests(
@@ -6691,7 +6691,7 @@ const deserializeAws_json1_1RegisterWorkspaceDirectoryResult = (
   context: __SerdeContext
 ): RegisterWorkspaceDirectoryResult => {
   let contents: any = {
-    __type: "RegisterWorkspaceDirectoryResult"
+    __type: "RegisterWorkspaceDirectoryResult",
   };
   return contents;
 };
@@ -6702,7 +6702,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsException = (
 ): ResourceAlreadyExistsException => {
   let contents: any = {
     __type: "ResourceAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6716,7 +6716,7 @@ const deserializeAws_json1_1ResourceAssociatedException = (
 ): ResourceAssociatedException => {
   let contents: any = {
     __type: "ResourceAssociatedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6730,7 +6730,7 @@ const deserializeAws_json1_1ResourceCreationFailedException = (
 ): ResourceCreationFailedException => {
   let contents: any = {
     __type: "ResourceCreationFailedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6744,7 +6744,7 @@ const deserializeAws_json1_1ResourceLimitExceededException = (
 ): ResourceLimitExceededException => {
   let contents: any = {
     __type: "ResourceLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6759,7 +6759,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
   let contents: any = {
     __type: "ResourceNotFoundException",
     ResourceId: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.ResourceId !== undefined && output.ResourceId !== null) {
     contents.ResourceId = output.ResourceId;
@@ -6777,7 +6777,7 @@ const deserializeAws_json1_1ResourceUnavailableException = (
   let contents: any = {
     __type: "ResourceUnavailableException",
     ResourceId: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.ResourceId !== undefined && output.ResourceId !== null) {
     contents.ResourceId = output.ResourceId;
@@ -6793,7 +6793,7 @@ const deserializeAws_json1_1RestoreWorkspaceResult = (
   context: __SerdeContext
 ): RestoreWorkspaceResult => {
   let contents: any = {
-    __type: "RestoreWorkspaceResult"
+    __type: "RestoreWorkspaceResult",
   };
   return contents;
 };
@@ -6803,7 +6803,7 @@ const deserializeAws_json1_1RevokeIpRulesResult = (
   context: __SerdeContext
 ): RevokeIpRulesResult => {
   let contents: any = {
-    __type: "RevokeIpRulesResult"
+    __type: "RevokeIpRulesResult",
   };
   return contents;
 };
@@ -6814,7 +6814,7 @@ const deserializeAws_json1_1RootStorage = (
 ): RootStorage => {
   let contents: any = {
     __type: "RootStorage",
-    Capacity: undefined
+    Capacity: undefined,
   };
   if (output.Capacity !== undefined && output.Capacity !== null) {
     contents.Capacity = output.Capacity;
@@ -6832,7 +6832,7 @@ const deserializeAws_json1_1SelfservicePermissions = (
     IncreaseVolumeSize: undefined,
     RebuildWorkspace: undefined,
     RestartWorkspace: undefined,
-    SwitchRunningMode: undefined
+    SwitchRunningMode: undefined,
   };
   if (
     output.ChangeComputeType !== undefined &&
@@ -6873,7 +6873,7 @@ const deserializeAws_json1_1Snapshot = (
 ): Snapshot => {
   let contents: any = {
     __type: "Snapshot",
-    SnapshotTime: undefined
+    SnapshotTime: undefined,
   };
   if (output.SnapshotTime !== undefined && output.SnapshotTime !== null) {
     contents.SnapshotTime = new Date(Math.round(output.SnapshotTime * 1000));
@@ -6896,7 +6896,7 @@ const deserializeAws_json1_1StartWorkspacesResult = (
 ): StartWorkspacesResult => {
   let contents: any = {
     __type: "StartWorkspacesResult",
-    FailedRequests: undefined
+    FailedRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedStartWorkspaceRequests(
@@ -6913,7 +6913,7 @@ const deserializeAws_json1_1StopWorkspacesResult = (
 ): StopWorkspacesResult => {
   let contents: any = {
     __type: "StopWorkspacesResult",
-    FailedRequests: undefined
+    FailedRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedStopWorkspaceRequests(
@@ -6938,7 +6938,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -6964,7 +6964,7 @@ const deserializeAws_json1_1TerminateWorkspacesResult = (
 ): TerminateWorkspacesResult => {
   let contents: any = {
     __type: "TerminateWorkspacesResult",
-    FailedRequests: undefined
+    FailedRequests: undefined,
   };
   if (output.FailedRequests !== undefined && output.FailedRequests !== null) {
     contents.FailedRequests = deserializeAws_json1_1FailedTerminateWorkspaceRequests(
@@ -6981,7 +6981,7 @@ const deserializeAws_json1_1UnsupportedNetworkConfigurationException = (
 ): UnsupportedNetworkConfigurationException => {
   let contents: any = {
     __type: "UnsupportedNetworkConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6995,7 +6995,7 @@ const deserializeAws_json1_1UnsupportedWorkspaceConfigurationException = (
 ): UnsupportedWorkspaceConfigurationException => {
   let contents: any = {
     __type: "UnsupportedWorkspaceConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7008,7 +7008,7 @@ const deserializeAws_json1_1UpdateRulesOfIpGroupResult = (
   context: __SerdeContext
 ): UpdateRulesOfIpGroupResult => {
   let contents: any = {
-    __type: "UpdateRulesOfIpGroupResult"
+    __type: "UpdateRulesOfIpGroupResult",
   };
   return contents;
 };
@@ -7019,7 +7019,7 @@ const deserializeAws_json1_1UserStorage = (
 ): UserStorage => {
   let contents: any = {
     __type: "UserStorage",
-    Capacity: undefined
+    Capacity: undefined,
   };
   if (output.Capacity !== undefined && output.Capacity !== null) {
     contents.Capacity = output.Capacity;
@@ -7047,7 +7047,7 @@ const deserializeAws_json1_1Workspace = (
     UserVolumeEncryptionEnabled: undefined,
     VolumeEncryptionKey: undefined,
     WorkspaceId: undefined,
-    WorkspaceProperties: undefined
+    WorkspaceProperties: undefined,
   };
   if (output.BundleId !== undefined && output.BundleId !== null) {
     contents.BundleId = output.BundleId;
@@ -7130,7 +7130,7 @@ const deserializeAws_json1_1WorkspaceAccessProperties = (
     DeviceTypeOsx: undefined,
     DeviceTypeWeb: undefined,
     DeviceTypeWindows: undefined,
-    DeviceTypeZeroClient: undefined
+    DeviceTypeZeroClient: undefined,
   };
   if (
     output.DeviceTypeAndroid !== undefined &&
@@ -7182,7 +7182,7 @@ const deserializeAws_json1_1WorkspaceBundle = (
     Name: undefined,
     Owner: undefined,
     RootStorage: undefined,
-    UserStorage: undefined
+    UserStorage: undefined,
   };
   if (output.BundleId !== undefined && output.BundleId !== null) {
     contents.BundleId = output.BundleId;
@@ -7234,7 +7234,7 @@ const deserializeAws_json1_1WorkspaceConnectionStatus = (
     ConnectionState: undefined,
     ConnectionStateCheckTimestamp: undefined,
     LastKnownUserConnectionTimestamp: undefined,
-    WorkspaceId: undefined
+    WorkspaceId: undefined,
   };
   if (output.ConnectionState !== undefined && output.ConnectionState !== null) {
     contents.ConnectionState = output.ConnectionState;
@@ -7291,7 +7291,7 @@ const deserializeAws_json1_1WorkspaceDirectory = (
     WorkspaceAccessProperties: undefined,
     WorkspaceCreationProperties: undefined,
     WorkspaceSecurityGroupId: undefined,
-    ipGroupIds: undefined
+    ipGroupIds: undefined,
   };
   if (output.Alias !== undefined && output.Alias !== null) {
     contents.Alias = output.Alias;
@@ -7393,7 +7393,7 @@ const deserializeAws_json1_1WorkspaceImage = (
     Name: undefined,
     OperatingSystem: undefined,
     RequiredTenancy: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.Description !== undefined && output.Description !== null) {
     contents.Description = output.Description;
@@ -7453,7 +7453,7 @@ const deserializeAws_json1_1WorkspaceProperties = (
     RootVolumeSizeGib: undefined,
     RunningMode: undefined,
     RunningModeAutoStopTimeoutInMinutes: undefined,
-    UserVolumeSizeGib: undefined
+    UserVolumeSizeGib: undefined,
   };
   if (output.ComputeTypeName !== undefined && output.ComputeTypeName !== null) {
     contents.ComputeTypeName = output.ComputeTypeName;
@@ -7496,7 +7496,7 @@ const deserializeAws_json1_1WorkspaceRequest = (
     UserName: undefined,
     UserVolumeEncryptionEnabled: undefined,
     VolumeEncryptionKey: undefined,
-    WorkspaceProperties: undefined
+    WorkspaceProperties: undefined,
   };
   if (output.BundleId !== undefined && output.BundleId !== null) {
     contents.BundleId = output.BundleId;
@@ -7546,7 +7546,7 @@ const deserializeAws_json1_1WorkspacesDefaultRoleNotFoundException = (
 ): WorkspacesDefaultRoleNotFoundException => {
   let contents: any = {
     __type: "WorkspacesDefaultRoleNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7563,7 +7563,7 @@ const deserializeAws_json1_1WorkspacesIpGroup = (
     groupDesc: undefined,
     groupId: undefined,
     groupName: undefined,
-    userRules: undefined
+    userRules: undefined,
   };
   if (output.groupDesc !== undefined && output.groupDesc !== null) {
     contents.groupDesc = output.groupDesc;
@@ -7595,7 +7595,7 @@ const deserializeAws_json1_1WorkspacesIpGroupsList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -7616,7 +7616,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -7629,11 +7629,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -7645,7 +7645,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

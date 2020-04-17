@@ -1,18 +1,18 @@
 import {
   DeleteReportDefinitionCommandInput,
-  DeleteReportDefinitionCommandOutput
+  DeleteReportDefinitionCommandOutput,
 } from "../commands/DeleteReportDefinitionCommand";
 import {
   DescribeReportDefinitionsCommandInput,
-  DescribeReportDefinitionsCommandOutput
+  DescribeReportDefinitionsCommandOutput,
 } from "../commands/DescribeReportDefinitionsCommand";
 import {
   ModifyReportDefinitionCommandInput,
-  ModifyReportDefinitionCommandOutput
+  ModifyReportDefinitionCommandOutput,
 } from "../commands/ModifyReportDefinitionCommand";
 import {
   PutReportDefinitionCommandInput,
-  PutReportDefinitionCommandOutput
+  PutReportDefinitionCommandOutput,
 } from "../commands/PutReportDefinitionCommand";
 import {
   AdditionalArtifact,
@@ -29,11 +29,11 @@ import {
   ReportDefinition,
   ReportLimitReachedException,
   SchemaElement,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -41,7 +41,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1DeleteReportDefinitionCommand(
@@ -123,7 +123,7 @@ export async function deserializeAws_json1_1DeleteReportDefinitionCommand(
   const response: DeleteReportDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteReportDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -134,7 +134,7 @@ async function deserializeAws_json1_1DeleteReportDefinitionCommandError(
 ): Promise<DeleteReportDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -150,7 +150,7 @@ async function deserializeAws_json1_1DeleteReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -161,7 +161,7 @@ async function deserializeAws_json1_1DeleteReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -172,7 +172,7 @@ async function deserializeAws_json1_1DeleteReportDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -200,7 +200,7 @@ export async function deserializeAws_json1_1DescribeReportDefinitionsCommand(
   const response: DescribeReportDefinitionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeReportDefinitionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -211,7 +211,7 @@ async function deserializeAws_json1_1DescribeReportDefinitionsCommandError(
 ): Promise<DescribeReportDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -227,7 +227,7 @@ async function deserializeAws_json1_1DescribeReportDefinitionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -238,7 +238,7 @@ async function deserializeAws_json1_1DescribeReportDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -266,7 +266,7 @@ export async function deserializeAws_json1_1ModifyReportDefinitionCommand(
   const response: ModifyReportDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyReportDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -277,7 +277,7 @@ async function deserializeAws_json1_1ModifyReportDefinitionCommandError(
 ): Promise<ModifyReportDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -293,7 +293,7 @@ async function deserializeAws_json1_1ModifyReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -304,7 +304,7 @@ async function deserializeAws_json1_1ModifyReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -315,7 +315,7 @@ async function deserializeAws_json1_1ModifyReportDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -340,7 +340,7 @@ export async function deserializeAws_json1_1PutReportDefinitionCommand(
   const response: PutReportDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutReportDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -351,7 +351,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
 ): Promise<PutReportDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -367,7 +367,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -378,7 +378,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReportLimitReachedException":
@@ -389,7 +389,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -400,7 +400,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -411,7 +411,7 @@ async function deserializeAws_json1_1PutReportDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -433,7 +433,7 @@ const deserializeAws_json1_1DuplicateReportNameExceptionResponse = async (
     name: "DuplicateReportNameException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -451,7 +451,7 @@ const deserializeAws_json1_1InternalErrorExceptionResponse = async (
     name: "InternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -469,7 +469,7 @@ const deserializeAws_json1_1ReportLimitReachedExceptionResponse = async (
     name: "ReportLimitReachedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -487,7 +487,7 @@ const deserializeAws_json1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -634,7 +634,7 @@ const deserializeAws_json1_1DeleteReportDefinitionResponse = (
 ): DeleteReportDefinitionResponse => {
   let contents: any = {
     __type: "DeleteReportDefinitionResponse",
-    ResponseMessage: undefined
+    ResponseMessage: undefined,
   };
   if (output.ResponseMessage !== undefined && output.ResponseMessage !== null) {
     contents.ResponseMessage = output.ResponseMessage;
@@ -649,7 +649,7 @@ const deserializeAws_json1_1DescribeReportDefinitionsResponse = (
   let contents: any = {
     __type: "DescribeReportDefinitionsResponse",
     NextToken: undefined,
-    ReportDefinitions: undefined
+    ReportDefinitions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -672,7 +672,7 @@ const deserializeAws_json1_1DuplicateReportNameException = (
 ): DuplicateReportNameException => {
   let contents: any = {
     __type: "DuplicateReportNameException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -686,7 +686,7 @@ const deserializeAws_json1_1InternalErrorException = (
 ): InternalErrorException => {
   let contents: any = {
     __type: "InternalErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -699,7 +699,7 @@ const deserializeAws_json1_1ModifyReportDefinitionResponse = (
   context: __SerdeContext
 ): ModifyReportDefinitionResponse => {
   let contents: any = {
-    __type: "ModifyReportDefinitionResponse"
+    __type: "ModifyReportDefinitionResponse",
   };
   return contents;
 };
@@ -709,7 +709,7 @@ const deserializeAws_json1_1PutReportDefinitionResponse = (
   context: __SerdeContext
 ): PutReportDefinitionResponse => {
   let contents: any = {
-    __type: "PutReportDefinitionResponse"
+    __type: "PutReportDefinitionResponse",
   };
   return contents;
 };
@@ -730,7 +730,7 @@ const deserializeAws_json1_1ReportDefinition = (
     S3Bucket: undefined,
     S3Prefix: undefined,
     S3Region: undefined,
-    TimeUnit: undefined
+    TimeUnit: undefined,
   };
   if (
     output.AdditionalArtifacts !== undefined &&
@@ -801,7 +801,7 @@ const deserializeAws_json1_1ReportLimitReachedException = (
 ): ReportLimitReachedException => {
   let contents: any = {
     __type: "ReportLimitReachedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -822,7 +822,7 @@ const deserializeAws_json1_1ValidationException = (
 ): ValidationException => {
   let contents: any = {
     __type: "ValidationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -833,7 +833,7 @@ const deserializeAws_json1_1ValidationException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -854,7 +854,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -867,11 +867,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -883,7 +883,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

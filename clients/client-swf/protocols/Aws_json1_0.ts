@@ -1,150 +1,150 @@
 import {
   CountClosedWorkflowExecutionsCommandInput,
-  CountClosedWorkflowExecutionsCommandOutput
+  CountClosedWorkflowExecutionsCommandOutput,
 } from "../commands/CountClosedWorkflowExecutionsCommand";
 import {
   CountOpenWorkflowExecutionsCommandInput,
-  CountOpenWorkflowExecutionsCommandOutput
+  CountOpenWorkflowExecutionsCommandOutput,
 } from "../commands/CountOpenWorkflowExecutionsCommand";
 import {
   CountPendingActivityTasksCommandInput,
-  CountPendingActivityTasksCommandOutput
+  CountPendingActivityTasksCommandOutput,
 } from "../commands/CountPendingActivityTasksCommand";
 import {
   CountPendingDecisionTasksCommandInput,
-  CountPendingDecisionTasksCommandOutput
+  CountPendingDecisionTasksCommandOutput,
 } from "../commands/CountPendingDecisionTasksCommand";
 import {
   DeprecateActivityTypeCommandInput,
-  DeprecateActivityTypeCommandOutput
+  DeprecateActivityTypeCommandOutput,
 } from "../commands/DeprecateActivityTypeCommand";
 import {
   DeprecateDomainCommandInput,
-  DeprecateDomainCommandOutput
+  DeprecateDomainCommandOutput,
 } from "../commands/DeprecateDomainCommand";
 import {
   DeprecateWorkflowTypeCommandInput,
-  DeprecateWorkflowTypeCommandOutput
+  DeprecateWorkflowTypeCommandOutput,
 } from "../commands/DeprecateWorkflowTypeCommand";
 import {
   DescribeActivityTypeCommandInput,
-  DescribeActivityTypeCommandOutput
+  DescribeActivityTypeCommandOutput,
 } from "../commands/DescribeActivityTypeCommand";
 import {
   DescribeDomainCommandInput,
-  DescribeDomainCommandOutput
+  DescribeDomainCommandOutput,
 } from "../commands/DescribeDomainCommand";
 import {
   DescribeWorkflowExecutionCommandInput,
-  DescribeWorkflowExecutionCommandOutput
+  DescribeWorkflowExecutionCommandOutput,
 } from "../commands/DescribeWorkflowExecutionCommand";
 import {
   DescribeWorkflowTypeCommandInput,
-  DescribeWorkflowTypeCommandOutput
+  DescribeWorkflowTypeCommandOutput,
 } from "../commands/DescribeWorkflowTypeCommand";
 import {
   GetWorkflowExecutionHistoryCommandInput,
-  GetWorkflowExecutionHistoryCommandOutput
+  GetWorkflowExecutionHistoryCommandOutput,
 } from "../commands/GetWorkflowExecutionHistoryCommand";
 import {
   ListActivityTypesCommandInput,
-  ListActivityTypesCommandOutput
+  ListActivityTypesCommandOutput,
 } from "../commands/ListActivityTypesCommand";
 import {
   ListClosedWorkflowExecutionsCommandInput,
-  ListClosedWorkflowExecutionsCommandOutput
+  ListClosedWorkflowExecutionsCommandOutput,
 } from "../commands/ListClosedWorkflowExecutionsCommand";
 import {
   ListDomainsCommandInput,
-  ListDomainsCommandOutput
+  ListDomainsCommandOutput,
 } from "../commands/ListDomainsCommand";
 import {
   ListOpenWorkflowExecutionsCommandInput,
-  ListOpenWorkflowExecutionsCommandOutput
+  ListOpenWorkflowExecutionsCommandOutput,
 } from "../commands/ListOpenWorkflowExecutionsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListWorkflowTypesCommandInput,
-  ListWorkflowTypesCommandOutput
+  ListWorkflowTypesCommandOutput,
 } from "../commands/ListWorkflowTypesCommand";
 import {
   PollForActivityTaskCommandInput,
-  PollForActivityTaskCommandOutput
+  PollForActivityTaskCommandOutput,
 } from "../commands/PollForActivityTaskCommand";
 import {
   PollForDecisionTaskCommandInput,
-  PollForDecisionTaskCommandOutput
+  PollForDecisionTaskCommandOutput,
 } from "../commands/PollForDecisionTaskCommand";
 import {
   RecordActivityTaskHeartbeatCommandInput,
-  RecordActivityTaskHeartbeatCommandOutput
+  RecordActivityTaskHeartbeatCommandOutput,
 } from "../commands/RecordActivityTaskHeartbeatCommand";
 import {
   RegisterActivityTypeCommandInput,
-  RegisterActivityTypeCommandOutput
+  RegisterActivityTypeCommandOutput,
 } from "../commands/RegisterActivityTypeCommand";
 import {
   RegisterDomainCommandInput,
-  RegisterDomainCommandOutput
+  RegisterDomainCommandOutput,
 } from "../commands/RegisterDomainCommand";
 import {
   RegisterWorkflowTypeCommandInput,
-  RegisterWorkflowTypeCommandOutput
+  RegisterWorkflowTypeCommandOutput,
 } from "../commands/RegisterWorkflowTypeCommand";
 import {
   RequestCancelWorkflowExecutionCommandInput,
-  RequestCancelWorkflowExecutionCommandOutput
+  RequestCancelWorkflowExecutionCommandOutput,
 } from "../commands/RequestCancelWorkflowExecutionCommand";
 import {
   RespondActivityTaskCanceledCommandInput,
-  RespondActivityTaskCanceledCommandOutput
+  RespondActivityTaskCanceledCommandOutput,
 } from "../commands/RespondActivityTaskCanceledCommand";
 import {
   RespondActivityTaskCompletedCommandInput,
-  RespondActivityTaskCompletedCommandOutput
+  RespondActivityTaskCompletedCommandOutput,
 } from "../commands/RespondActivityTaskCompletedCommand";
 import {
   RespondActivityTaskFailedCommandInput,
-  RespondActivityTaskFailedCommandOutput
+  RespondActivityTaskFailedCommandOutput,
 } from "../commands/RespondActivityTaskFailedCommand";
 import {
   RespondDecisionTaskCompletedCommandInput,
-  RespondDecisionTaskCompletedCommandOutput
+  RespondDecisionTaskCompletedCommandOutput,
 } from "../commands/RespondDecisionTaskCompletedCommand";
 import {
   SignalWorkflowExecutionCommandInput,
-  SignalWorkflowExecutionCommandOutput
+  SignalWorkflowExecutionCommandOutput,
 } from "../commands/SignalWorkflowExecutionCommand";
 import {
   StartWorkflowExecutionCommandInput,
-  StartWorkflowExecutionCommandOutput
+  StartWorkflowExecutionCommandOutput,
 } from "../commands/StartWorkflowExecutionCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   TerminateWorkflowExecutionCommandInput,
-  TerminateWorkflowExecutionCommandOutput
+  TerminateWorkflowExecutionCommandOutput,
 } from "../commands/TerminateWorkflowExecutionCommand";
 import {
   UndeprecateActivityTypeCommandInput,
-  UndeprecateActivityTypeCommandOutput
+  UndeprecateActivityTypeCommandOutput,
 } from "../commands/UndeprecateActivityTypeCommand";
 import {
   UndeprecateDomainCommandInput,
-  UndeprecateDomainCommandOutput
+  UndeprecateDomainCommandOutput,
 } from "../commands/UndeprecateDomainCommand";
 import {
   UndeprecateWorkflowTypeCommandInput,
-  UndeprecateWorkflowTypeCommandOutput
+  UndeprecateWorkflowTypeCommandOutput,
 } from "../commands/UndeprecateWorkflowTypeCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   ActivityTask,
@@ -297,11 +297,11 @@ import {
   WorkflowTypeDetail,
   WorkflowTypeFilter,
   WorkflowTypeInfo,
-  WorkflowTypeInfos
+  WorkflowTypeInfos,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -309,7 +309,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_0CountClosedWorkflowExecutionsCommand(
@@ -845,7 +845,7 @@ export async function deserializeAws_json1_0CountClosedWorkflowExecutionsCommand
   const response: CountClosedWorkflowExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowExecutionCount",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -856,7 +856,7 @@ async function deserializeAws_json1_0CountClosedWorkflowExecutionsCommandError(
 ): Promise<CountClosedWorkflowExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -872,7 +872,7 @@ async function deserializeAws_json1_0CountClosedWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -883,7 +883,7 @@ async function deserializeAws_json1_0CountClosedWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -894,7 +894,7 @@ async function deserializeAws_json1_0CountClosedWorkflowExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -919,7 +919,7 @@ export async function deserializeAws_json1_0CountOpenWorkflowExecutionsCommand(
   const response: CountOpenWorkflowExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowExecutionCount",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -930,7 +930,7 @@ async function deserializeAws_json1_0CountOpenWorkflowExecutionsCommandError(
 ): Promise<CountOpenWorkflowExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -946,7 +946,7 @@ async function deserializeAws_json1_0CountOpenWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -957,7 +957,7 @@ async function deserializeAws_json1_0CountOpenWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -968,7 +968,7 @@ async function deserializeAws_json1_0CountOpenWorkflowExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -993,7 +993,7 @@ export async function deserializeAws_json1_0CountPendingActivityTasksCommand(
   const response: CountPendingActivityTasksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PendingTaskCount",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1004,7 +1004,7 @@ async function deserializeAws_json1_0CountPendingActivityTasksCommandError(
 ): Promise<CountPendingActivityTasksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1020,7 +1020,7 @@ async function deserializeAws_json1_0CountPendingActivityTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1031,7 +1031,7 @@ async function deserializeAws_json1_0CountPendingActivityTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1042,7 +1042,7 @@ async function deserializeAws_json1_0CountPendingActivityTasksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1067,7 +1067,7 @@ export async function deserializeAws_json1_0CountPendingDecisionTasksCommand(
   const response: CountPendingDecisionTasksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PendingTaskCount",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1078,7 +1078,7 @@ async function deserializeAws_json1_0CountPendingDecisionTasksCommandError(
 ): Promise<CountPendingDecisionTasksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1094,7 +1094,7 @@ async function deserializeAws_json1_0CountPendingDecisionTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1105,7 +1105,7 @@ async function deserializeAws_json1_0CountPendingDecisionTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1116,7 +1116,7 @@ async function deserializeAws_json1_0CountPendingDecisionTasksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1137,7 +1137,7 @@ export async function deserializeAws_json1_0DeprecateActivityTypeCommand(
   }
   await collectBody(output.body, context);
   const response: DeprecateActivityTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1148,7 +1148,7 @@ async function deserializeAws_json1_0DeprecateActivityTypeCommandError(
 ): Promise<DeprecateActivityTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1164,7 +1164,7 @@ async function deserializeAws_json1_0DeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeDeprecatedFault":
@@ -1175,7 +1175,7 @@ async function deserializeAws_json1_0DeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1186,7 +1186,7 @@ async function deserializeAws_json1_0DeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1197,7 +1197,7 @@ async function deserializeAws_json1_0DeprecateActivityTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1215,7 +1215,7 @@ export async function deserializeAws_json1_0DeprecateDomainCommand(
   }
   await collectBody(output.body, context);
   const response: DeprecateDomainCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1226,7 +1226,7 @@ async function deserializeAws_json1_0DeprecateDomainCommandError(
 ): Promise<DeprecateDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1242,7 +1242,7 @@ async function deserializeAws_json1_0DeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -1253,7 +1253,7 @@ async function deserializeAws_json1_0DeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1264,7 +1264,7 @@ async function deserializeAws_json1_0DeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1275,7 +1275,7 @@ async function deserializeAws_json1_0DeprecateDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1296,7 +1296,7 @@ export async function deserializeAws_json1_0DeprecateWorkflowTypeCommand(
   }
   await collectBody(output.body, context);
   const response: DeprecateWorkflowTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1307,7 +1307,7 @@ async function deserializeAws_json1_0DeprecateWorkflowTypeCommandError(
 ): Promise<DeprecateWorkflowTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1323,7 +1323,7 @@ async function deserializeAws_json1_0DeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeDeprecatedFault":
@@ -1334,7 +1334,7 @@ async function deserializeAws_json1_0DeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1345,7 +1345,7 @@ async function deserializeAws_json1_0DeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1356,7 +1356,7 @@ async function deserializeAws_json1_0DeprecateWorkflowTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1381,7 +1381,7 @@ export async function deserializeAws_json1_0DescribeActivityTypeCommand(
   const response: DescribeActivityTypeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivityTypeDetail",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1392,7 +1392,7 @@ async function deserializeAws_json1_0DescribeActivityTypeCommandError(
 ): Promise<DescribeActivityTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1408,7 +1408,7 @@ async function deserializeAws_json1_0DescribeActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1419,7 +1419,7 @@ async function deserializeAws_json1_0DescribeActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1430,7 +1430,7 @@ async function deserializeAws_json1_0DescribeActivityTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1452,7 +1452,7 @@ export async function deserializeAws_json1_0DescribeDomainCommand(
   const response: DescribeDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DomainDetail",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1463,7 +1463,7 @@ async function deserializeAws_json1_0DescribeDomainCommandError(
 ): Promise<DescribeDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1479,7 +1479,7 @@ async function deserializeAws_json1_0DescribeDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1490,7 +1490,7 @@ async function deserializeAws_json1_0DescribeDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1501,7 +1501,7 @@ async function deserializeAws_json1_0DescribeDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1526,7 +1526,7 @@ export async function deserializeAws_json1_0DescribeWorkflowExecutionCommand(
   const response: DescribeWorkflowExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowExecutionDetail",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1537,7 +1537,7 @@ async function deserializeAws_json1_0DescribeWorkflowExecutionCommandError(
 ): Promise<DescribeWorkflowExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1553,7 +1553,7 @@ async function deserializeAws_json1_0DescribeWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1564,7 +1564,7 @@ async function deserializeAws_json1_0DescribeWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1575,7 +1575,7 @@ async function deserializeAws_json1_0DescribeWorkflowExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1600,7 +1600,7 @@ export async function deserializeAws_json1_0DescribeWorkflowTypeCommand(
   const response: DescribeWorkflowTypeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowTypeDetail",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1611,7 +1611,7 @@ async function deserializeAws_json1_0DescribeWorkflowTypeCommandError(
 ): Promise<DescribeWorkflowTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1627,7 +1627,7 @@ async function deserializeAws_json1_0DescribeWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1638,7 +1638,7 @@ async function deserializeAws_json1_0DescribeWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1649,7 +1649,7 @@ async function deserializeAws_json1_0DescribeWorkflowTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1674,7 +1674,7 @@ export async function deserializeAws_json1_0GetWorkflowExecutionHistoryCommand(
   const response: GetWorkflowExecutionHistoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "History",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1685,7 +1685,7 @@ async function deserializeAws_json1_0GetWorkflowExecutionHistoryCommandError(
 ): Promise<GetWorkflowExecutionHistoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1701,7 +1701,7 @@ async function deserializeAws_json1_0GetWorkflowExecutionHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1712,7 +1712,7 @@ async function deserializeAws_json1_0GetWorkflowExecutionHistoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1723,7 +1723,7 @@ async function deserializeAws_json1_0GetWorkflowExecutionHistoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1745,7 +1745,7 @@ export async function deserializeAws_json1_0ListActivityTypesCommand(
   const response: ListActivityTypesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivityTypeInfos",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1756,7 +1756,7 @@ async function deserializeAws_json1_0ListActivityTypesCommandError(
 ): Promise<ListActivityTypesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1772,7 +1772,7 @@ async function deserializeAws_json1_0ListActivityTypesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1783,7 +1783,7 @@ async function deserializeAws_json1_0ListActivityTypesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1794,7 +1794,7 @@ async function deserializeAws_json1_0ListActivityTypesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1819,7 +1819,7 @@ export async function deserializeAws_json1_0ListClosedWorkflowExecutionsCommand(
   const response: ListClosedWorkflowExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowExecutionInfos",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1830,7 +1830,7 @@ async function deserializeAws_json1_0ListClosedWorkflowExecutionsCommandError(
 ): Promise<ListClosedWorkflowExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1846,7 +1846,7 @@ async function deserializeAws_json1_0ListClosedWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1857,7 +1857,7 @@ async function deserializeAws_json1_0ListClosedWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1868,7 +1868,7 @@ async function deserializeAws_json1_0ListClosedWorkflowExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1890,7 +1890,7 @@ export async function deserializeAws_json1_0ListDomainsCommand(
   const response: ListDomainsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DomainInfos",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1901,7 +1901,7 @@ async function deserializeAws_json1_0ListDomainsCommandError(
 ): Promise<ListDomainsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1917,7 +1917,7 @@ async function deserializeAws_json1_0ListDomainsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1928,7 +1928,7 @@ async function deserializeAws_json1_0ListDomainsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1953,7 +1953,7 @@ export async function deserializeAws_json1_0ListOpenWorkflowExecutionsCommand(
   const response: ListOpenWorkflowExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowExecutionInfos",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1964,7 +1964,7 @@ async function deserializeAws_json1_0ListOpenWorkflowExecutionsCommandError(
 ): Promise<ListOpenWorkflowExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1980,7 +1980,7 @@ async function deserializeAws_json1_0ListOpenWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -1991,7 +1991,7 @@ async function deserializeAws_json1_0ListOpenWorkflowExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2002,7 +2002,7 @@ async function deserializeAws_json1_0ListOpenWorkflowExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2027,7 +2027,7 @@ export async function deserializeAws_json1_0ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2038,7 +2038,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2054,7 +2054,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2065,7 +2065,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2076,7 +2076,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2087,7 +2087,7 @@ async function deserializeAws_json1_0ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2109,7 +2109,7 @@ export async function deserializeAws_json1_0ListWorkflowTypesCommand(
   const response: ListWorkflowTypesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "WorkflowTypeInfos",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2120,7 +2120,7 @@ async function deserializeAws_json1_0ListWorkflowTypesCommandError(
 ): Promise<ListWorkflowTypesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2136,7 +2136,7 @@ async function deserializeAws_json1_0ListWorkflowTypesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2147,7 +2147,7 @@ async function deserializeAws_json1_0ListWorkflowTypesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2158,7 +2158,7 @@ async function deserializeAws_json1_0ListWorkflowTypesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2183,7 +2183,7 @@ export async function deserializeAws_json1_0PollForActivityTaskCommand(
   const response: PollForActivityTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivityTask",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2194,7 +2194,7 @@ async function deserializeAws_json1_0PollForActivityTaskCommandError(
 ): Promise<PollForActivityTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2210,7 +2210,7 @@ async function deserializeAws_json1_0PollForActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2221,7 +2221,7 @@ async function deserializeAws_json1_0PollForActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2232,7 +2232,7 @@ async function deserializeAws_json1_0PollForActivityTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2243,7 +2243,7 @@ async function deserializeAws_json1_0PollForActivityTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2268,7 +2268,7 @@ export async function deserializeAws_json1_0PollForDecisionTaskCommand(
   const response: PollForDecisionTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DecisionTask",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2279,7 +2279,7 @@ async function deserializeAws_json1_0PollForDecisionTaskCommandError(
 ): Promise<PollForDecisionTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2295,7 +2295,7 @@ async function deserializeAws_json1_0PollForDecisionTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2306,7 +2306,7 @@ async function deserializeAws_json1_0PollForDecisionTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2317,7 +2317,7 @@ async function deserializeAws_json1_0PollForDecisionTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2328,7 +2328,7 @@ async function deserializeAws_json1_0PollForDecisionTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2353,7 +2353,7 @@ export async function deserializeAws_json1_0RecordActivityTaskHeartbeatCommand(
   const response: RecordActivityTaskHeartbeatCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivityTaskStatus",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2364,7 +2364,7 @@ async function deserializeAws_json1_0RecordActivityTaskHeartbeatCommandError(
 ): Promise<RecordActivityTaskHeartbeatCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2380,7 +2380,7 @@ async function deserializeAws_json1_0RecordActivityTaskHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2391,7 +2391,7 @@ async function deserializeAws_json1_0RecordActivityTaskHeartbeatCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2402,7 +2402,7 @@ async function deserializeAws_json1_0RecordActivityTaskHeartbeatCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2423,7 +2423,7 @@ export async function deserializeAws_json1_0RegisterActivityTypeCommand(
   }
   await collectBody(output.body, context);
   const response: RegisterActivityTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2434,7 +2434,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
 ): Promise<RegisterActivityTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2450,7 +2450,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2461,7 +2461,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeAlreadyExistsFault":
@@ -2472,7 +2472,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2483,7 +2483,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2494,7 +2494,7 @@ async function deserializeAws_json1_0RegisterActivityTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2512,7 +2512,7 @@ export async function deserializeAws_json1_0RegisterDomainCommand(
   }
   await collectBody(output.body, context);
   const response: RegisterDomainCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2523,7 +2523,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
 ): Promise<RegisterDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2539,7 +2539,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -2550,7 +2550,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2561,7 +2561,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsFault":
@@ -2572,7 +2572,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2583,7 +2583,7 @@ async function deserializeAws_json1_0RegisterDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2604,7 +2604,7 @@ export async function deserializeAws_json1_0RegisterWorkflowTypeCommand(
   }
   await collectBody(output.body, context);
   const response: RegisterWorkflowTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2615,7 +2615,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
 ): Promise<RegisterWorkflowTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2631,7 +2631,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -2642,7 +2642,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeAlreadyExistsFault":
@@ -2653,7 +2653,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2664,7 +2664,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2675,7 +2675,7 @@ async function deserializeAws_json1_0RegisterWorkflowTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2696,7 +2696,7 @@ export async function deserializeAws_json1_0RequestCancelWorkflowExecutionComman
   }
   await collectBody(output.body, context);
   const response: RequestCancelWorkflowExecutionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2707,7 +2707,7 @@ async function deserializeAws_json1_0RequestCancelWorkflowExecutionCommandError(
 ): Promise<RequestCancelWorkflowExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2723,7 +2723,7 @@ async function deserializeAws_json1_0RequestCancelWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2734,7 +2734,7 @@ async function deserializeAws_json1_0RequestCancelWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2745,7 +2745,7 @@ async function deserializeAws_json1_0RequestCancelWorkflowExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2766,7 +2766,7 @@ export async function deserializeAws_json1_0RespondActivityTaskCanceledCommand(
   }
   await collectBody(output.body, context);
   const response: RespondActivityTaskCanceledCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2777,7 +2777,7 @@ async function deserializeAws_json1_0RespondActivityTaskCanceledCommandError(
 ): Promise<RespondActivityTaskCanceledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2793,7 +2793,7 @@ async function deserializeAws_json1_0RespondActivityTaskCanceledCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2804,7 +2804,7 @@ async function deserializeAws_json1_0RespondActivityTaskCanceledCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2815,7 +2815,7 @@ async function deserializeAws_json1_0RespondActivityTaskCanceledCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2836,7 +2836,7 @@ export async function deserializeAws_json1_0RespondActivityTaskCompletedCommand(
   }
   await collectBody(output.body, context);
   const response: RespondActivityTaskCompletedCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2847,7 +2847,7 @@ async function deserializeAws_json1_0RespondActivityTaskCompletedCommandError(
 ): Promise<RespondActivityTaskCompletedCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2863,7 +2863,7 @@ async function deserializeAws_json1_0RespondActivityTaskCompletedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2874,7 +2874,7 @@ async function deserializeAws_json1_0RespondActivityTaskCompletedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2885,7 +2885,7 @@ async function deserializeAws_json1_0RespondActivityTaskCompletedCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2906,7 +2906,7 @@ export async function deserializeAws_json1_0RespondActivityTaskFailedCommand(
   }
   await collectBody(output.body, context);
   const response: RespondActivityTaskFailedCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2917,7 +2917,7 @@ async function deserializeAws_json1_0RespondActivityTaskFailedCommandError(
 ): Promise<RespondActivityTaskFailedCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2933,7 +2933,7 @@ async function deserializeAws_json1_0RespondActivityTaskFailedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -2944,7 +2944,7 @@ async function deserializeAws_json1_0RespondActivityTaskFailedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2955,7 +2955,7 @@ async function deserializeAws_json1_0RespondActivityTaskFailedCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2976,7 +2976,7 @@ export async function deserializeAws_json1_0RespondDecisionTaskCompletedCommand(
   }
   await collectBody(output.body, context);
   const response: RespondDecisionTaskCompletedCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2987,7 +2987,7 @@ async function deserializeAws_json1_0RespondDecisionTaskCompletedCommandError(
 ): Promise<RespondDecisionTaskCompletedCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3003,7 +3003,7 @@ async function deserializeAws_json1_0RespondDecisionTaskCompletedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3014,7 +3014,7 @@ async function deserializeAws_json1_0RespondDecisionTaskCompletedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3025,7 +3025,7 @@ async function deserializeAws_json1_0RespondDecisionTaskCompletedCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3046,7 +3046,7 @@ export async function deserializeAws_json1_0SignalWorkflowExecutionCommand(
   }
   await collectBody(output.body, context);
   const response: SignalWorkflowExecutionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3057,7 +3057,7 @@ async function deserializeAws_json1_0SignalWorkflowExecutionCommandError(
 ): Promise<SignalWorkflowExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3073,7 +3073,7 @@ async function deserializeAws_json1_0SignalWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3084,7 +3084,7 @@ async function deserializeAws_json1_0SignalWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3095,7 +3095,7 @@ async function deserializeAws_json1_0SignalWorkflowExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3120,7 +3120,7 @@ export async function deserializeAws_json1_0StartWorkflowExecutionCommand(
   const response: StartWorkflowExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "Run",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3131,7 +3131,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
 ): Promise<StartWorkflowExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3147,7 +3147,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -3158,7 +3158,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -3169,7 +3169,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeDeprecatedFault":
@@ -3180,7 +3180,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3191,7 +3191,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WorkflowExecutionAlreadyStartedFault":
@@ -3202,7 +3202,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3213,7 +3213,7 @@ async function deserializeAws_json1_0StartWorkflowExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3231,7 +3231,7 @@ export async function deserializeAws_json1_0TagResourceCommand(
   }
   await collectBody(output.body, context);
   const response: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3242,7 +3242,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3258,7 +3258,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -3269,7 +3269,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsFault":
@@ -3280,7 +3280,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3291,7 +3291,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3302,7 +3302,7 @@ async function deserializeAws_json1_0TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3323,7 +3323,7 @@ export async function deserializeAws_json1_0TerminateWorkflowExecutionCommand(
   }
   await collectBody(output.body, context);
   const response: TerminateWorkflowExecutionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3334,7 +3334,7 @@ async function deserializeAws_json1_0TerminateWorkflowExecutionCommandError(
 ): Promise<TerminateWorkflowExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3350,7 +3350,7 @@ async function deserializeAws_json1_0TerminateWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3361,7 +3361,7 @@ async function deserializeAws_json1_0TerminateWorkflowExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3372,7 +3372,7 @@ async function deserializeAws_json1_0TerminateWorkflowExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3393,7 +3393,7 @@ export async function deserializeAws_json1_0UndeprecateActivityTypeCommand(
   }
   await collectBody(output.body, context);
   const response: UndeprecateActivityTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3404,7 +3404,7 @@ async function deserializeAws_json1_0UndeprecateActivityTypeCommandError(
 ): Promise<UndeprecateActivityTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3420,7 +3420,7 @@ async function deserializeAws_json1_0UndeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeAlreadyExistsFault":
@@ -3431,7 +3431,7 @@ async function deserializeAws_json1_0UndeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3442,7 +3442,7 @@ async function deserializeAws_json1_0UndeprecateActivityTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3453,7 +3453,7 @@ async function deserializeAws_json1_0UndeprecateActivityTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3471,7 +3471,7 @@ export async function deserializeAws_json1_0UndeprecateDomainCommand(
   }
   await collectBody(output.body, context);
   const response: UndeprecateDomainCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3482,7 +3482,7 @@ async function deserializeAws_json1_0UndeprecateDomainCommandError(
 ): Promise<UndeprecateDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3498,7 +3498,7 @@ async function deserializeAws_json1_0UndeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -3509,7 +3509,7 @@ async function deserializeAws_json1_0UndeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3520,7 +3520,7 @@ async function deserializeAws_json1_0UndeprecateDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3531,7 +3531,7 @@ async function deserializeAws_json1_0UndeprecateDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3552,7 +3552,7 @@ export async function deserializeAws_json1_0UndeprecateWorkflowTypeCommand(
   }
   await collectBody(output.body, context);
   const response: UndeprecateWorkflowTypeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3563,7 +3563,7 @@ async function deserializeAws_json1_0UndeprecateWorkflowTypeCommandError(
 ): Promise<UndeprecateWorkflowTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3579,7 +3579,7 @@ async function deserializeAws_json1_0UndeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TypeAlreadyExistsFault":
@@ -3590,7 +3590,7 @@ async function deserializeAws_json1_0UndeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3601,7 +3601,7 @@ async function deserializeAws_json1_0UndeprecateWorkflowTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3612,7 +3612,7 @@ async function deserializeAws_json1_0UndeprecateWorkflowTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3630,7 +3630,7 @@ export async function deserializeAws_json1_0UntagResourceCommand(
   }
   await collectBody(output.body, context);
   const response: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3641,7 +3641,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3657,7 +3657,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedFault":
@@ -3668,7 +3668,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownResourceFault":
@@ -3679,7 +3679,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3690,7 +3690,7 @@ async function deserializeAws_json1_0UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3712,7 +3712,7 @@ const deserializeAws_json1_0DefaultUndefinedFaultResponse = async (
     name: "DefaultUndefinedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3730,7 +3730,7 @@ const deserializeAws_json1_0DomainAlreadyExistsFaultResponse = async (
     name: "DomainAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3748,7 +3748,7 @@ const deserializeAws_json1_0DomainDeprecatedFaultResponse = async (
     name: "DomainDeprecatedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3766,7 +3766,7 @@ const deserializeAws_json1_0LimitExceededFaultResponse = async (
     name: "LimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3784,7 +3784,7 @@ const deserializeAws_json1_0OperationNotPermittedFaultResponse = async (
     name: "OperationNotPermittedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3802,7 +3802,7 @@ const deserializeAws_json1_0TooManyTagsFaultResponse = async (
     name: "TooManyTagsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3820,7 +3820,7 @@ const deserializeAws_json1_0TypeAlreadyExistsFaultResponse = async (
     name: "TypeAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3838,7 +3838,7 @@ const deserializeAws_json1_0TypeDeprecatedFaultResponse = async (
     name: "TypeDeprecatedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3856,7 +3856,7 @@ const deserializeAws_json1_0UnknownResourceFaultResponse = async (
     name: "UnknownResourceFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3874,7 +3874,7 @@ const deserializeAws_json1_0WorkflowExecutionAlreadyStartedFaultResponse = async
     name: "WorkflowExecutionAlreadyStartedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5327,7 +5327,7 @@ const deserializeAws_json1_0ActivityTask = (
     input: undefined,
     startedEventId: undefined,
     taskToken: undefined,
-    workflowExecution: undefined
+    workflowExecution: undefined,
   };
   if (output.activityId !== undefined && output.activityId !== null) {
     contents.activityId = output.activityId;
@@ -5366,7 +5366,7 @@ const deserializeAws_json1_0ActivityTaskCancelRequestedEventAttributes = (
   let contents: any = {
     __type: "ActivityTaskCancelRequestedEventAttributes",
     activityId: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.activityId !== undefined && output.activityId !== null) {
     contents.activityId = output.activityId;
@@ -5389,7 +5389,7 @@ const deserializeAws_json1_0ActivityTaskCanceledEventAttributes = (
     details: undefined,
     latestCancelRequestedEventId: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -5420,7 +5420,7 @@ const deserializeAws_json1_0ActivityTaskCompletedEventAttributes = (
     __type: "ActivityTaskCompletedEventAttributes",
     result: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (output.result !== undefined && output.result !== null) {
     contents.result = output.result;
@@ -5446,7 +5446,7 @@ const deserializeAws_json1_0ActivityTaskFailedEventAttributes = (
     details: undefined,
     reason: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -5482,7 +5482,7 @@ const deserializeAws_json1_0ActivityTaskScheduledEventAttributes = (
     scheduleToStartTimeout: undefined,
     startToCloseTimeout: undefined,
     taskList: undefined,
-    taskPriority: undefined
+    taskPriority: undefined,
   };
   if (output.activityId !== undefined && output.activityId !== null) {
     contents.activityId = output.activityId;
@@ -5548,7 +5548,7 @@ const deserializeAws_json1_0ActivityTaskStartedEventAttributes = (
   let contents: any = {
     __type: "ActivityTaskStartedEventAttributes",
     identity: undefined,
-    scheduledEventId: undefined
+    scheduledEventId: undefined,
   };
   if (output.identity !== undefined && output.identity !== null) {
     contents.identity = output.identity;
@@ -5568,7 +5568,7 @@ const deserializeAws_json1_0ActivityTaskStatus = (
 ): ActivityTaskStatus => {
   let contents: any = {
     __type: "ActivityTaskStatus",
-    cancelRequested: undefined
+    cancelRequested: undefined,
   };
   if (output.cancelRequested !== undefined && output.cancelRequested !== null) {
     contents.cancelRequested = output.cancelRequested;
@@ -5585,7 +5585,7 @@ const deserializeAws_json1_0ActivityTaskTimedOutEventAttributes = (
     details: undefined,
     scheduledEventId: undefined,
     startedEventId: undefined,
-    timeoutType: undefined
+    timeoutType: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -5612,7 +5612,7 @@ const deserializeAws_json1_0ActivityType = (
   let contents: any = {
     __type: "ActivityType",
     name: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -5634,7 +5634,7 @@ const deserializeAws_json1_0ActivityTypeConfiguration = (
     defaultTaskPriority: undefined,
     defaultTaskScheduleToCloseTimeout: undefined,
     defaultTaskScheduleToStartTimeout: undefined,
-    defaultTaskStartToCloseTimeout: undefined
+    defaultTaskStartToCloseTimeout: undefined,
   };
   if (
     output.defaultTaskHeartbeatTimeout !== undefined &&
@@ -5685,7 +5685,7 @@ const deserializeAws_json1_0ActivityTypeDetail = (
   let contents: any = {
     __type: "ActivityTypeDetail",
     configuration: undefined,
-    typeInfo: undefined
+    typeInfo: undefined,
   };
   if (output.configuration !== undefined && output.configuration !== null) {
     contents.configuration = deserializeAws_json1_0ActivityTypeConfiguration(
@@ -5712,7 +5712,7 @@ const deserializeAws_json1_0ActivityTypeInfo = (
     creationDate: undefined,
     deprecationDate: undefined,
     description: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.activityType !== undefined && output.activityType !== null) {
     contents.activityType = deserializeAws_json1_0ActivityType(
@@ -5753,7 +5753,7 @@ const deserializeAws_json1_0ActivityTypeInfos = (
   let contents: any = {
     __type: "ActivityTypeInfos",
     nextPageToken: undefined,
-    typeInfos: undefined
+    typeInfos: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -5775,7 +5775,7 @@ const deserializeAws_json1_0CancelTimerFailedEventAttributes = (
     __type: "CancelTimerFailedEventAttributes",
     cause: undefined,
     decisionTaskCompletedEventId: undefined,
-    timerId: undefined
+    timerId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -5799,7 +5799,7 @@ const deserializeAws_json1_0CancelWorkflowExecutionFailedEventAttributes = (
   let contents: any = {
     __type: "CancelWorkflowExecutionFailedEventAttributes",
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -5823,7 +5823,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionCanceledEventAttributes = (
     initiatedEventId: undefined,
     startedEventId: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -5865,7 +5865,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionCompletedEventAttributes = (
     result: undefined,
     startedEventId: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -5908,7 +5908,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionFailedEventAttributes = (
     reason: undefined,
     startedEventId: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -5951,7 +5951,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionStartedEventAttributes = (
     __type: "ChildWorkflowExecutionStartedEventAttributes",
     initiatedEventId: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -5986,7 +5986,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionTerminatedEventAttributes = (
     initiatedEventId: undefined,
     startedEventId: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -6025,7 +6025,7 @@ const deserializeAws_json1_0ChildWorkflowExecutionTimedOutEventAttributes = (
     startedEventId: undefined,
     timeoutType: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -6064,7 +6064,7 @@ const deserializeAws_json1_0CompleteWorkflowExecutionFailedEventAttributes = (
   let contents: any = {
     __type: "CompleteWorkflowExecutionFailedEventAttributes",
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -6085,7 +6085,7 @@ const deserializeAws_json1_0ContinueAsNewWorkflowExecutionFailedEventAttributes 
   let contents: any = {
     __type: "ContinueAsNewWorkflowExecutionFailedEventAttributes",
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -6111,7 +6111,7 @@ const deserializeAws_json1_0DecisionTask = (
     startedEventId: undefined,
     taskToken: undefined,
     workflowExecution: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.events !== undefined && output.events !== null) {
     contents.events = deserializeAws_json1_0HistoryEventList(
@@ -6160,7 +6160,7 @@ const deserializeAws_json1_0DecisionTaskCompletedEventAttributes = (
     __type: "DecisionTaskCompletedEventAttributes",
     executionContext: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (
     output.executionContext !== undefined &&
@@ -6188,7 +6188,7 @@ const deserializeAws_json1_0DecisionTaskScheduledEventAttributes = (
     __type: "DecisionTaskScheduledEventAttributes",
     startToCloseTimeout: undefined,
     taskList: undefined,
-    taskPriority: undefined
+    taskPriority: undefined,
   };
   if (
     output.startToCloseTimeout !== undefined &&
@@ -6215,7 +6215,7 @@ const deserializeAws_json1_0DecisionTaskStartedEventAttributes = (
   let contents: any = {
     __type: "DecisionTaskStartedEventAttributes",
     identity: undefined,
-    scheduledEventId: undefined
+    scheduledEventId: undefined,
   };
   if (output.identity !== undefined && output.identity !== null) {
     contents.identity = output.identity;
@@ -6237,7 +6237,7 @@ const deserializeAws_json1_0DecisionTaskTimedOutEventAttributes = (
     __type: "DecisionTaskTimedOutEventAttributes",
     scheduledEventId: undefined,
     startedEventId: undefined,
-    timeoutType: undefined
+    timeoutType: undefined,
   };
   if (
     output.scheduledEventId !== undefined &&
@@ -6260,7 +6260,7 @@ const deserializeAws_json1_0DefaultUndefinedFault = (
 ): DefaultUndefinedFault => {
   let contents: any = {
     __type: "DefaultUndefinedFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6274,7 +6274,7 @@ const deserializeAws_json1_0DomainAlreadyExistsFault = (
 ): DomainAlreadyExistsFault => {
   let contents: any = {
     __type: "DomainAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6288,7 +6288,7 @@ const deserializeAws_json1_0DomainConfiguration = (
 ): DomainConfiguration => {
   let contents: any = {
     __type: "DomainConfiguration",
-    workflowExecutionRetentionPeriodInDays: undefined
+    workflowExecutionRetentionPeriodInDays: undefined,
   };
   if (
     output.workflowExecutionRetentionPeriodInDays !== undefined &&
@@ -6306,7 +6306,7 @@ const deserializeAws_json1_0DomainDeprecatedFault = (
 ): DomainDeprecatedFault => {
   let contents: any = {
     __type: "DomainDeprecatedFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6321,7 +6321,7 @@ const deserializeAws_json1_0DomainDetail = (
   let contents: any = {
     __type: "DomainDetail",
     configuration: undefined,
-    domainInfo: undefined
+    domainInfo: undefined,
   };
   if (output.configuration !== undefined && output.configuration !== null) {
     contents.configuration = deserializeAws_json1_0DomainConfiguration(
@@ -6347,7 +6347,7 @@ const deserializeAws_json1_0DomainInfo = (
     arn: undefined,
     description: undefined,
     name: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -6380,7 +6380,7 @@ const deserializeAws_json1_0DomainInfos = (
   let contents: any = {
     __type: "DomainInfos",
     domainInfos: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.domainInfos !== undefined && output.domainInfos !== null) {
     contents.domainInfos = deserializeAws_json1_0DomainInfoList(
@@ -6401,7 +6401,7 @@ const deserializeAws_json1_0ExternalWorkflowExecutionCancelRequestedEventAttribu
   let contents: any = {
     __type: "ExternalWorkflowExecutionCancelRequestedEventAttributes",
     initiatedEventId: undefined,
-    workflowExecution: undefined
+    workflowExecution: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -6428,7 +6428,7 @@ const deserializeAws_json1_0ExternalWorkflowExecutionSignaledEventAttributes = (
   let contents: any = {
     __type: "ExternalWorkflowExecutionSignaledEventAttributes",
     initiatedEventId: undefined,
-    workflowExecution: undefined
+    workflowExecution: undefined,
   };
   if (
     output.initiatedEventId !== undefined &&
@@ -6455,7 +6455,7 @@ const deserializeAws_json1_0FailWorkflowExecutionFailedEventAttributes = (
   let contents: any = {
     __type: "FailWorkflowExecutionFailedEventAttributes",
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -6476,7 +6476,7 @@ const deserializeAws_json1_0History = (
   let contents: any = {
     __type: "History",
     events: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.events !== undefined && output.events !== null) {
     contents.events = deserializeAws_json1_0HistoryEventList(
@@ -6552,7 +6552,7 @@ const deserializeAws_json1_0HistoryEvent = (
     workflowExecutionSignaledEventAttributes: undefined,
     workflowExecutionStartedEventAttributes: undefined,
     workflowExecutionTerminatedEventAttributes: undefined,
-    workflowExecutionTimedOutEventAttributes: undefined
+    workflowExecutionTimedOutEventAttributes: undefined,
   };
   if (
     output.activityTaskCancelRequestedEventAttributes !== undefined &&
@@ -7076,7 +7076,7 @@ const deserializeAws_json1_0LambdaFunctionCompletedEventAttributes = (
     __type: "LambdaFunctionCompletedEventAttributes",
     result: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (output.result !== undefined && output.result !== null) {
     contents.result = output.result;
@@ -7102,7 +7102,7 @@ const deserializeAws_json1_0LambdaFunctionFailedEventAttributes = (
     details: undefined,
     reason: undefined,
     scheduledEventId: undefined,
-    startedEventId: undefined
+    startedEventId: undefined,
   };
   if (output.details !== undefined && output.details !== null) {
     contents.details = output.details;
@@ -7133,7 +7133,7 @@ const deserializeAws_json1_0LambdaFunctionScheduledEventAttributes = (
     id: undefined,
     input: undefined,
     name: undefined,
-    startToCloseTimeout: undefined
+    startToCloseTimeout: undefined,
   };
   if (output.control !== undefined && output.control !== null) {
     contents.control = output.control;
@@ -7168,7 +7168,7 @@ const deserializeAws_json1_0LambdaFunctionStartedEventAttributes = (
 ): LambdaFunctionStartedEventAttributes => {
   let contents: any = {
     __type: "LambdaFunctionStartedEventAttributes",
-    scheduledEventId: undefined
+    scheduledEventId: undefined,
   };
   if (
     output.scheduledEventId !== undefined &&
@@ -7187,7 +7187,7 @@ const deserializeAws_json1_0LambdaFunctionTimedOutEventAttributes = (
     __type: "LambdaFunctionTimedOutEventAttributes",
     scheduledEventId: undefined,
     startedEventId: undefined,
-    timeoutType: undefined
+    timeoutType: undefined,
   };
   if (
     output.scheduledEventId !== undefined &&
@@ -7210,7 +7210,7 @@ const deserializeAws_json1_0LimitExceededFault = (
 ): LimitExceededFault => {
   let contents: any = {
     __type: "LimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7226,7 +7226,7 @@ const deserializeAws_json1_0MarkerRecordedEventAttributes = (
     __type: "MarkerRecordedEventAttributes",
     decisionTaskCompletedEventId: undefined,
     details: undefined,
-    markerName: undefined
+    markerName: undefined,
   };
   if (
     output.decisionTaskCompletedEventId !== undefined &&
@@ -7249,7 +7249,7 @@ const deserializeAws_json1_0OperationNotPermittedFault = (
 ): OperationNotPermittedFault => {
   let contents: any = {
     __type: "OperationNotPermittedFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7264,7 +7264,7 @@ const deserializeAws_json1_0PendingTaskCount = (
   let contents: any = {
     __type: "PendingTaskCount",
     count: undefined,
-    truncated: undefined
+    truncated: undefined,
   };
   if (output.count !== undefined && output.count !== null) {
     contents.count = output.count;
@@ -7283,7 +7283,7 @@ const deserializeAws_json1_0RecordMarkerFailedEventAttributes = (
     __type: "RecordMarkerFailedEventAttributes",
     cause: undefined,
     decisionTaskCompletedEventId: undefined,
-    markerName: undefined
+    markerName: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7308,7 +7308,7 @@ const deserializeAws_json1_0RequestCancelActivityTaskFailedEventAttributes = (
     __type: "RequestCancelActivityTaskFailedEventAttributes",
     activityId: undefined,
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.activityId !== undefined && output.activityId !== null) {
     contents.activityId = output.activityId;
@@ -7336,7 +7336,7 @@ const deserializeAws_json1_0RequestCancelExternalWorkflowExecutionFailedEventAtt
     decisionTaskCompletedEventId: undefined,
     initiatedEventId: undefined,
     runId: undefined,
-    workflowId: undefined
+    workflowId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7374,7 +7374,7 @@ const deserializeAws_json1_0RequestCancelExternalWorkflowExecutionInitiatedEvent
     control: undefined,
     decisionTaskCompletedEventId: undefined,
     runId: undefined,
-    workflowId: undefined
+    workflowId: undefined,
   };
   if (output.control !== undefined && output.control !== null) {
     contents.control = output.control;
@@ -7401,7 +7401,7 @@ const deserializeAws_json1_0ResourceTag = (
   let contents: any = {
     __type: "ResourceTag",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -7430,7 +7430,7 @@ const deserializeAws_json1_0ScheduleActivityTaskFailedEventAttributes = (
     activityId: undefined,
     activityType: undefined,
     cause: undefined,
-    decisionTaskCompletedEventId: undefined
+    decisionTaskCompletedEventId: undefined,
   };
   if (output.activityId !== undefined && output.activityId !== null) {
     contents.activityId = output.activityId;
@@ -7462,7 +7462,7 @@ const deserializeAws_json1_0ScheduleLambdaFunctionFailedEventAttributes = (
     cause: undefined,
     decisionTaskCompletedEventId: undefined,
     id: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7493,7 +7493,7 @@ const deserializeAws_json1_0SignalExternalWorkflowExecutionFailedEventAttributes
     decisionTaskCompletedEventId: undefined,
     initiatedEventId: undefined,
     runId: undefined,
-    workflowId: undefined
+    workflowId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7533,7 +7533,7 @@ const deserializeAws_json1_0SignalExternalWorkflowExecutionInitiatedEventAttribu
     input: undefined,
     runId: undefined,
     signalName: undefined,
-    workflowId: undefined
+    workflowId: undefined,
   };
   if (output.control !== undefined && output.control !== null) {
     contents.control = output.control;
@@ -7570,7 +7570,7 @@ const deserializeAws_json1_0StartChildWorkflowExecutionFailedEventAttributes = (
     decisionTaskCompletedEventId: undefined,
     initiatedEventId: undefined,
     workflowId: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7619,7 +7619,7 @@ const deserializeAws_json1_0StartChildWorkflowExecutionInitiatedEventAttributes 
     taskPriority: undefined,
     taskStartToCloseTimeout: undefined,
     workflowId: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.childPolicy !== undefined && output.childPolicy !== null) {
     contents.childPolicy = output.childPolicy;
@@ -7683,7 +7683,7 @@ const deserializeAws_json1_0StartLambdaFunctionFailedEventAttributes = (
     __type: "StartLambdaFunctionFailedEventAttributes",
     cause: undefined,
     message: undefined,
-    scheduledEventId: undefined
+    scheduledEventId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7708,7 +7708,7 @@ const deserializeAws_json1_0StartTimerFailedEventAttributes = (
     __type: "StartTimerFailedEventAttributes",
     cause: undefined,
     decisionTaskCompletedEventId: undefined,
-    timerId: undefined
+    timerId: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7738,7 +7738,7 @@ const deserializeAws_json1_0TaskList = (
 ): TaskList => {
   let contents: any = {
     __type: "TaskList",
-    name: undefined
+    name: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -7754,7 +7754,7 @@ const deserializeAws_json1_0TimerCanceledEventAttributes = (
     __type: "TimerCanceledEventAttributes",
     decisionTaskCompletedEventId: undefined,
     startedEventId: undefined,
-    timerId: undefined
+    timerId: undefined,
   };
   if (
     output.decisionTaskCompletedEventId !== undefined &&
@@ -7778,7 +7778,7 @@ const deserializeAws_json1_0TimerFiredEventAttributes = (
   let contents: any = {
     __type: "TimerFiredEventAttributes",
     startedEventId: undefined,
-    timerId: undefined
+    timerId: undefined,
   };
   if (output.startedEventId !== undefined && output.startedEventId !== null) {
     contents.startedEventId = output.startedEventId;
@@ -7798,7 +7798,7 @@ const deserializeAws_json1_0TimerStartedEventAttributes = (
     control: undefined,
     decisionTaskCompletedEventId: undefined,
     startToFireTimeout: undefined,
-    timerId: undefined
+    timerId: undefined,
   };
   if (output.control !== undefined && output.control !== null) {
     contents.control = output.control;
@@ -7827,7 +7827,7 @@ const deserializeAws_json1_0TooManyTagsFault = (
 ): TooManyTagsFault => {
   let contents: any = {
     __type: "TooManyTagsFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7841,7 +7841,7 @@ const deserializeAws_json1_0TypeAlreadyExistsFault = (
 ): TypeAlreadyExistsFault => {
   let contents: any = {
     __type: "TypeAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7855,7 +7855,7 @@ const deserializeAws_json1_0TypeDeprecatedFault = (
 ): TypeDeprecatedFault => {
   let contents: any = {
     __type: "TypeDeprecatedFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7869,7 +7869,7 @@ const deserializeAws_json1_0UnknownResourceFault = (
 ): UnknownResourceFault => {
   let contents: any = {
     __type: "UnknownResourceFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7884,7 +7884,7 @@ const deserializeAws_json1_0WorkflowExecution = (
   let contents: any = {
     __type: "WorkflowExecution",
     runId: undefined,
-    workflowId: undefined
+    workflowId: undefined,
   };
   if (output.runId !== undefined && output.runId !== null) {
     contents.runId = output.runId;
@@ -7901,7 +7901,7 @@ const deserializeAws_json1_0WorkflowExecutionAlreadyStartedFault = (
 ): WorkflowExecutionAlreadyStartedFault => {
   let contents: any = {
     __type: "WorkflowExecutionAlreadyStartedFault",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -7917,7 +7917,7 @@ const deserializeAws_json1_0WorkflowExecutionCancelRequestedEventAttributes = (
     __type: "WorkflowExecutionCancelRequestedEventAttributes",
     cause: undefined,
     externalInitiatedEventId: undefined,
-    externalWorkflowExecution: undefined
+    externalWorkflowExecution: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -7947,7 +7947,7 @@ const deserializeAws_json1_0WorkflowExecutionCanceledEventAttributes = (
   let contents: any = {
     __type: "WorkflowExecutionCanceledEventAttributes",
     decisionTaskCompletedEventId: undefined,
-    details: undefined
+    details: undefined,
   };
   if (
     output.decisionTaskCompletedEventId !== undefined &&
@@ -7968,7 +7968,7 @@ const deserializeAws_json1_0WorkflowExecutionCompletedEventAttributes = (
   let contents: any = {
     __type: "WorkflowExecutionCompletedEventAttributes",
     decisionTaskCompletedEventId: undefined,
-    result: undefined
+    result: undefined,
   };
   if (
     output.decisionTaskCompletedEventId !== undefined &&
@@ -7993,7 +7993,7 @@ const deserializeAws_json1_0WorkflowExecutionConfiguration = (
     lambdaRole: undefined,
     taskList: undefined,
     taskPriority: undefined,
-    taskStartToCloseTimeout: undefined
+    taskStartToCloseTimeout: undefined,
   };
   if (output.childPolicy !== undefined && output.childPolicy !== null) {
     contents.childPolicy = output.childPolicy;
@@ -8041,7 +8041,7 @@ const deserializeAws_json1_0WorkflowExecutionContinuedAsNewEventAttributes = (
     taskList: undefined,
     taskPriority: undefined,
     taskStartToCloseTimeout: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.childPolicy !== undefined && output.childPolicy !== null) {
     contents.childPolicy = output.childPolicy;
@@ -8104,7 +8104,7 @@ const deserializeAws_json1_0WorkflowExecutionCount = (
   let contents: any = {
     __type: "WorkflowExecutionCount",
     count: undefined,
-    truncated: undefined
+    truncated: undefined,
   };
   if (output.count !== undefined && output.count !== null) {
     contents.count = output.count;
@@ -8125,7 +8125,7 @@ const deserializeAws_json1_0WorkflowExecutionDetail = (
     executionInfo: undefined,
     latestActivityTaskTimestamp: undefined,
     latestExecutionContext: undefined,
-    openCounts: undefined
+    openCounts: undefined,
   };
   if (
     output.executionConfiguration !== undefined &&
@@ -8173,7 +8173,7 @@ const deserializeAws_json1_0WorkflowExecutionFailedEventAttributes = (
     __type: "WorkflowExecutionFailedEventAttributes",
     decisionTaskCompletedEventId: undefined,
     details: undefined,
-    reason: undefined
+    reason: undefined,
   };
   if (
     output.decisionTaskCompletedEventId !== undefined &&
@@ -8204,7 +8204,7 @@ const deserializeAws_json1_0WorkflowExecutionInfo = (
     parent: undefined,
     startTimestamp: undefined,
     tagList: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.cancelRequested !== undefined && output.cancelRequested !== null) {
     contents.cancelRequested = output.cancelRequested;
@@ -8265,7 +8265,7 @@ const deserializeAws_json1_0WorkflowExecutionInfos = (
   let contents: any = {
     __type: "WorkflowExecutionInfos",
     executionInfos: undefined,
-    nextPageToken: undefined
+    nextPageToken: undefined,
   };
   if (output.executionInfos !== undefined && output.executionInfos !== null) {
     contents.executionInfos = deserializeAws_json1_0WorkflowExecutionInfoList(
@@ -8289,7 +8289,7 @@ const deserializeAws_json1_0WorkflowExecutionOpenCounts = (
     openChildWorkflowExecutions: undefined,
     openDecisionTasks: undefined,
     openLambdaFunctions: undefined,
-    openTimers: undefined
+    openTimers: undefined,
   };
   if (
     output.openActivityTasks !== undefined &&
@@ -8330,7 +8330,7 @@ const deserializeAws_json1_0WorkflowExecutionSignaledEventAttributes = (
     externalInitiatedEventId: undefined,
     externalWorkflowExecution: undefined,
     input: undefined,
-    signalName: undefined
+    signalName: undefined,
   };
   if (
     output.externalInitiatedEventId !== undefined &&
@@ -8373,7 +8373,7 @@ const deserializeAws_json1_0WorkflowExecutionStartedEventAttributes = (
     taskList: undefined,
     taskPriority: undefined,
     taskStartToCloseTimeout: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.childPolicy !== undefined && output.childPolicy !== null) {
     contents.childPolicy = output.childPolicy;
@@ -8447,7 +8447,7 @@ const deserializeAws_json1_0WorkflowExecutionTerminatedEventAttributes = (
     cause: undefined,
     childPolicy: undefined,
     details: undefined,
-    reason: undefined
+    reason: undefined,
   };
   if (output.cause !== undefined && output.cause !== null) {
     contents.cause = output.cause;
@@ -8471,7 +8471,7 @@ const deserializeAws_json1_0WorkflowExecutionTimedOutEventAttributes = (
   let contents: any = {
     __type: "WorkflowExecutionTimedOutEventAttributes",
     childPolicy: undefined,
-    timeoutType: undefined
+    timeoutType: undefined,
   };
   if (output.childPolicy !== undefined && output.childPolicy !== null) {
     contents.childPolicy = output.childPolicy;
@@ -8489,7 +8489,7 @@ const deserializeAws_json1_0WorkflowType = (
   let contents: any = {
     __type: "WorkflowType",
     name: undefined,
-    version: undefined
+    version: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -8511,7 +8511,7 @@ const deserializeAws_json1_0WorkflowTypeConfiguration = (
     defaultLambdaRole: undefined,
     defaultTaskList: undefined,
     defaultTaskPriority: undefined,
-    defaultTaskStartToCloseTimeout: undefined
+    defaultTaskStartToCloseTimeout: undefined,
   };
   if (
     output.defaultChildPolicy !== undefined &&
@@ -8561,7 +8561,7 @@ const deserializeAws_json1_0WorkflowTypeDetail = (
   let contents: any = {
     __type: "WorkflowTypeDetail",
     configuration: undefined,
-    typeInfo: undefined
+    typeInfo: undefined,
   };
   if (output.configuration !== undefined && output.configuration !== null) {
     contents.configuration = deserializeAws_json1_0WorkflowTypeConfiguration(
@@ -8588,7 +8588,7 @@ const deserializeAws_json1_0WorkflowTypeInfo = (
     deprecationDate: undefined,
     description: undefined,
     status: undefined,
-    workflowType: undefined
+    workflowType: undefined,
   };
   if (output.creationDate !== undefined && output.creationDate !== null) {
     contents.creationDate = new Date(Math.round(output.creationDate * 1000));
@@ -8629,7 +8629,7 @@ const deserializeAws_json1_0WorkflowTypeInfos = (
   let contents: any = {
     __type: "WorkflowTypeInfos",
     nextPageToken: undefined,
-    typeInfos: undefined
+    typeInfos: undefined,
   };
   if (output.nextPageToken !== undefined && output.nextPageToken !== null) {
     contents.nextPageToken = output.nextPageToken;
@@ -8649,7 +8649,7 @@ const deserializeAws_json1_0ListTagsForResourceOutput = (
 ): ListTagsForResourceOutput => {
   let contents: any = {
     __type: "ListTagsForResourceOutput",
-    tags: undefined
+    tags: undefined,
   };
   if (output.tags !== undefined && output.tags !== null) {
     contents.tags = deserializeAws_json1_0ResourceTagList(output.tags, context);
@@ -8663,7 +8663,7 @@ const deserializeAws_json1_0Run = (
 ): Run => {
   let contents: any = {
     __type: "Run",
-    runId: undefined
+    runId: undefined,
   };
   if (output.runId !== undefined && output.runId !== null) {
     contents.runId = output.runId;
@@ -8674,7 +8674,7 @@ const deserializeAws_json1_0Run = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -8695,7 +8695,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -8708,11 +8708,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -8724,7 +8724,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

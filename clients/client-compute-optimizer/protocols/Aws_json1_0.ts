@@ -1,26 +1,26 @@
 import {
   GetAutoScalingGroupRecommendationsCommandInput,
-  GetAutoScalingGroupRecommendationsCommandOutput
+  GetAutoScalingGroupRecommendationsCommandOutput,
 } from "../commands/GetAutoScalingGroupRecommendationsCommand";
 import {
   GetEC2InstanceRecommendationsCommandInput,
-  GetEC2InstanceRecommendationsCommandOutput
+  GetEC2InstanceRecommendationsCommandOutput,
 } from "../commands/GetEC2InstanceRecommendationsCommand";
 import {
   GetEC2RecommendationProjectedMetricsCommandInput,
-  GetEC2RecommendationProjectedMetricsCommandOutput
+  GetEC2RecommendationProjectedMetricsCommandOutput,
 } from "../commands/GetEC2RecommendationProjectedMetricsCommand";
 import {
   GetEnrollmentStatusCommandInput,
-  GetEnrollmentStatusCommandOutput
+  GetEnrollmentStatusCommandOutput,
 } from "../commands/GetEnrollmentStatusCommand";
 import {
   GetRecommendationSummariesCommandInput,
-  GetRecommendationSummariesCommandOutput
+  GetRecommendationSummariesCommandOutput,
 } from "../commands/GetRecommendationSummariesCommand";
 import {
   UpdateEnrollmentStatusCommandInput,
-  UpdateEnrollmentStatusCommandOutput
+  UpdateEnrollmentStatusCommandOutput,
 } from "../commands/UpdateEnrollmentStatusCommand";
 import {
   AccessDeniedException,
@@ -55,11 +55,11 @@ import {
   ThrottlingException,
   UpdateEnrollmentStatusRequest,
   UpdateEnrollmentStatusResponse,
-  UtilizationMetric
+  UtilizationMetric,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -67,7 +67,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_0GetAutoScalingGroupRecommendationsCommand(
@@ -183,7 +183,7 @@ export async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCo
   const response: GetAutoScalingGroupRecommendationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAutoScalingGroupRecommendationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -194,7 +194,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
 ): Promise<GetAutoScalingGroupRecommendationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -210,7 +210,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -221,7 +221,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -232,7 +232,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -243,7 +243,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OptInRequiredException":
@@ -254,7 +254,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -265,7 +265,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -276,7 +276,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -287,7 +287,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -298,7 +298,7 @@ async function deserializeAws_json1_0GetAutoScalingGroupRecommendationsCommandEr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -326,7 +326,7 @@ export async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommand
   const response: GetEC2InstanceRecommendationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetEC2InstanceRecommendationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -337,7 +337,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
 ): Promise<GetEC2InstanceRecommendationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -353,7 +353,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -364,7 +364,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -375,7 +375,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -386,7 +386,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OptInRequiredException":
@@ -397,7 +397,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -408,7 +408,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -419,7 +419,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -430,7 +430,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -441,7 +441,7 @@ async function deserializeAws_json1_0GetEC2InstanceRecommendationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -469,7 +469,7 @@ export async function deserializeAws_json1_0GetEC2RecommendationProjectedMetrics
   const response: GetEC2RecommendationProjectedMetricsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetEC2RecommendationProjectedMetricsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -480,7 +480,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
 ): Promise<GetEC2RecommendationProjectedMetricsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -496,7 +496,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -507,7 +507,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -518,7 +518,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -529,7 +529,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OptInRequiredException":
@@ -540,7 +540,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -551,7 +551,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -562,7 +562,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -573,7 +573,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -584,7 +584,7 @@ async function deserializeAws_json1_0GetEC2RecommendationProjectedMetricsCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -609,7 +609,7 @@ export async function deserializeAws_json1_0GetEnrollmentStatusCommand(
   const response: GetEnrollmentStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetEnrollmentStatusResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -620,7 +620,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
 ): Promise<GetEnrollmentStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -636,7 +636,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -647,7 +647,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -658,7 +658,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -669,7 +669,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -680,7 +680,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -691,7 +691,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -702,7 +702,7 @@ async function deserializeAws_json1_0GetEnrollmentStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -730,7 +730,7 @@ export async function deserializeAws_json1_0GetRecommendationSummariesCommand(
   const response: GetRecommendationSummariesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRecommendationSummariesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -741,7 +741,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
 ): Promise<GetRecommendationSummariesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -757,7 +757,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -768,7 +768,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -779,7 +779,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -790,7 +790,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OptInRequiredException":
@@ -801,7 +801,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -812,7 +812,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -823,7 +823,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -834,7 +834,7 @@ async function deserializeAws_json1_0GetRecommendationSummariesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -862,7 +862,7 @@ export async function deserializeAws_json1_0UpdateEnrollmentStatusCommand(
   const response: UpdateEnrollmentStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateEnrollmentStatusResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -873,7 +873,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
 ): Promise<UpdateEnrollmentStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -889,7 +889,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerException":
@@ -900,7 +900,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -911,7 +911,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingAuthenticationToken":
@@ -922,7 +922,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -933,7 +933,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -944,7 +944,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -955,7 +955,7 @@ async function deserializeAws_json1_0UpdateEnrollmentStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -977,7 +977,7 @@ const deserializeAws_json1_0AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -995,7 +995,7 @@ const deserializeAws_json1_0InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1013,7 +1013,7 @@ const deserializeAws_json1_0InvalidParameterValueExceptionResponse = async (
     name: "InvalidParameterValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1031,7 +1031,7 @@ const deserializeAws_json1_0MissingAuthenticationTokenResponse = async (
     name: "MissingAuthenticationToken",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1049,7 +1049,7 @@ const deserializeAws_json1_0OptInRequiredExceptionResponse = async (
     name: "OptInRequiredException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1067,7 +1067,7 @@ const deserializeAws_json1_0ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1085,7 +1085,7 @@ const deserializeAws_json1_0ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1103,7 +1103,7 @@ const deserializeAws_json1_0ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1311,7 +1311,7 @@ const deserializeAws_json1_0AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1328,7 +1328,7 @@ const deserializeAws_json1_0AutoScalingGroupConfiguration = (
     desiredCapacity: undefined,
     instanceType: undefined,
     maxSize: undefined,
-    minSize: undefined
+    minSize: undefined,
   };
   if (output.desiredCapacity !== undefined && output.desiredCapacity !== null) {
     contents.desiredCapacity = output.desiredCapacity;
@@ -1359,7 +1359,7 @@ const deserializeAws_json1_0AutoScalingGroupRecommendation = (
     lastRefreshTimestamp: undefined,
     lookBackPeriodInDays: undefined,
     recommendationOptions: undefined,
-    utilizationMetrics: undefined
+    utilizationMetrics: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -1432,7 +1432,7 @@ const deserializeAws_json1_0AutoScalingGroupRecommendationOption = (
     configuration: undefined,
     performanceRisk: undefined,
     projectedUtilizationMetrics: undefined,
-    rank: undefined
+    rank: undefined,
   };
   if (output.configuration !== undefined && output.configuration !== null) {
     contents.configuration = deserializeAws_json1_0AutoScalingGroupConfiguration(
@@ -1484,7 +1484,7 @@ const deserializeAws_json1_0GetAutoScalingGroupRecommendationsResponse = (
     __type: "GetAutoScalingGroupRecommendationsResponse",
     autoScalingGroupRecommendations: undefined,
     errors: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (
     output.autoScalingGroupRecommendations !== undefined &&
@@ -1515,7 +1515,7 @@ const deserializeAws_json1_0GetEC2InstanceRecommendationsResponse = (
     __type: "GetEC2InstanceRecommendationsResponse",
     errors: undefined,
     instanceRecommendations: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.errors !== undefined && output.errors !== null) {
     contents.errors = deserializeAws_json1_0GetRecommendationErrors(
@@ -1544,7 +1544,7 @@ const deserializeAws_json1_0GetEC2RecommendationProjectedMetricsResponse = (
 ): GetEC2RecommendationProjectedMetricsResponse => {
   let contents: any = {
     __type: "GetEC2RecommendationProjectedMetricsResponse",
-    recommendedOptionProjectedMetrics: undefined
+    recommendedOptionProjectedMetrics: undefined,
   };
   if (
     output.recommendedOptionProjectedMetrics !== undefined &&
@@ -1566,7 +1566,7 @@ const deserializeAws_json1_0GetEnrollmentStatusResponse = (
     __type: "GetEnrollmentStatusResponse",
     memberAccountsEnrolled: undefined,
     status: undefined,
-    statusReason: undefined
+    statusReason: undefined,
   };
   if (
     output.memberAccountsEnrolled !== undefined &&
@@ -1591,7 +1591,7 @@ const deserializeAws_json1_0GetRecommendationError = (
     __type: "GetRecommendationError",
     code: undefined,
     identifier: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -1621,7 +1621,7 @@ const deserializeAws_json1_0GetRecommendationSummariesResponse = (
   let contents: any = {
     __type: "GetRecommendationSummariesResponse",
     nextToken: undefined,
-    recommendationSummaries: undefined
+    recommendationSummaries: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -1653,7 +1653,7 @@ const deserializeAws_json1_0InstanceRecommendation = (
     lookBackPeriodInDays: undefined,
     recommendationOptions: undefined,
     recommendationSources: undefined,
-    utilizationMetrics: undefined
+    utilizationMetrics: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -1726,7 +1726,7 @@ const deserializeAws_json1_0InstanceRecommendationOption = (
     instanceType: undefined,
     performanceRisk: undefined,
     projectedUtilizationMetrics: undefined,
-    rank: undefined
+    rank: undefined,
   };
   if (output.instanceType !== undefined && output.instanceType !== null) {
     contents.instanceType = output.instanceType;
@@ -1764,7 +1764,7 @@ const deserializeAws_json1_0InternalServerException = (
 ): InternalServerException => {
   let contents: any = {
     __type: "InternalServerException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1778,7 +1778,7 @@ const deserializeAws_json1_0InvalidParameterValueException = (
 ): InvalidParameterValueException => {
   let contents: any = {
     __type: "InvalidParameterValueException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1799,7 +1799,7 @@ const deserializeAws_json1_0MissingAuthenticationToken = (
 ): MissingAuthenticationToken => {
   let contents: any = {
     __type: "MissingAuthenticationToken",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1813,7 +1813,7 @@ const deserializeAws_json1_0OptInRequiredException = (
 ): OptInRequiredException => {
   let contents: any = {
     __type: "OptInRequiredException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1829,7 +1829,7 @@ const deserializeAws_json1_0ProjectedMetric = (
     __type: "ProjectedMetric",
     name: undefined,
     timestamps: undefined,
-    values: undefined
+    values: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -1883,7 +1883,7 @@ const deserializeAws_json1_0RecommendationSource = (
   let contents: any = {
     __type: "RecommendationSource",
     recommendationSourceArn: undefined,
-    recommendationSourceType: undefined
+    recommendationSourceType: undefined,
   };
   if (
     output.recommendationSourceArn !== undefined &&
@@ -1926,7 +1926,7 @@ const deserializeAws_json1_0RecommendationSummary = (
     __type: "RecommendationSummary",
     accountId: undefined,
     recommendationResourceType: undefined,
-    summaries: undefined
+    summaries: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -1954,7 +1954,7 @@ const deserializeAws_json1_0RecommendedOptionProjectedMetric = (
     __type: "RecommendedOptionProjectedMetric",
     projectedMetrics: undefined,
     rank: undefined,
-    recommendedInstanceType: undefined
+    recommendedInstanceType: undefined,
   };
   if (
     output.projectedMetrics !== undefined &&
@@ -1992,7 +1992,7 @@ const deserializeAws_json1_0ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2006,7 +2006,7 @@ const deserializeAws_json1_0ServiceUnavailableException = (
 ): ServiceUnavailableException => {
   let contents: any = {
     __type: "ServiceUnavailableException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2030,7 +2030,7 @@ const deserializeAws_json1_0Summary = (
   let contents: any = {
     __type: "Summary",
     name: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -2047,7 +2047,7 @@ const deserializeAws_json1_0ThrottlingException = (
 ): ThrottlingException => {
   let contents: any = {
     __type: "ThrottlingException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2069,7 +2069,7 @@ const deserializeAws_json1_0UpdateEnrollmentStatusResponse = (
   let contents: any = {
     __type: "UpdateEnrollmentStatusResponse",
     status: undefined,
-    statusReason: undefined
+    statusReason: undefined,
   };
   if (output.status !== undefined && output.status !== null) {
     contents.status = output.status;
@@ -2088,7 +2088,7 @@ const deserializeAws_json1_0UtilizationMetric = (
     __type: "UtilizationMetric",
     name: undefined,
     statistic: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -2114,7 +2114,7 @@ const deserializeAws_json1_0UtilizationMetrics = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2135,7 +2135,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2148,11 +2148,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2164,7 +2164,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

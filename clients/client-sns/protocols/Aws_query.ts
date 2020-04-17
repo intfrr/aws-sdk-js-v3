@@ -1,134 +1,134 @@
 import {
   AddPermissionCommandInput,
-  AddPermissionCommandOutput
+  AddPermissionCommandOutput,
 } from "../commands/AddPermissionCommand";
 import {
   CheckIfPhoneNumberIsOptedOutCommandInput,
-  CheckIfPhoneNumberIsOptedOutCommandOutput
+  CheckIfPhoneNumberIsOptedOutCommandOutput,
 } from "../commands/CheckIfPhoneNumberIsOptedOutCommand";
 import {
   ConfirmSubscriptionCommandInput,
-  ConfirmSubscriptionCommandOutput
+  ConfirmSubscriptionCommandOutput,
 } from "../commands/ConfirmSubscriptionCommand";
 import {
   CreatePlatformApplicationCommandInput,
-  CreatePlatformApplicationCommandOutput
+  CreatePlatformApplicationCommandOutput,
 } from "../commands/CreatePlatformApplicationCommand";
 import {
   CreatePlatformEndpointCommandInput,
-  CreatePlatformEndpointCommandOutput
+  CreatePlatformEndpointCommandOutput,
 } from "../commands/CreatePlatformEndpointCommand";
 import {
   CreateTopicCommandInput,
-  CreateTopicCommandOutput
+  CreateTopicCommandOutput,
 } from "../commands/CreateTopicCommand";
 import {
   DeleteEndpointCommandInput,
-  DeleteEndpointCommandOutput
+  DeleteEndpointCommandOutput,
 } from "../commands/DeleteEndpointCommand";
 import {
   DeletePlatformApplicationCommandInput,
-  DeletePlatformApplicationCommandOutput
+  DeletePlatformApplicationCommandOutput,
 } from "../commands/DeletePlatformApplicationCommand";
 import {
   DeleteTopicCommandInput,
-  DeleteTopicCommandOutput
+  DeleteTopicCommandOutput,
 } from "../commands/DeleteTopicCommand";
 import {
   GetEndpointAttributesCommandInput,
-  GetEndpointAttributesCommandOutput
+  GetEndpointAttributesCommandOutput,
 } from "../commands/GetEndpointAttributesCommand";
 import {
   GetPlatformApplicationAttributesCommandInput,
-  GetPlatformApplicationAttributesCommandOutput
+  GetPlatformApplicationAttributesCommandOutput,
 } from "../commands/GetPlatformApplicationAttributesCommand";
 import {
   GetSMSAttributesCommandInput,
-  GetSMSAttributesCommandOutput
+  GetSMSAttributesCommandOutput,
 } from "../commands/GetSMSAttributesCommand";
 import {
   GetSubscriptionAttributesCommandInput,
-  GetSubscriptionAttributesCommandOutput
+  GetSubscriptionAttributesCommandOutput,
 } from "../commands/GetSubscriptionAttributesCommand";
 import {
   GetTopicAttributesCommandInput,
-  GetTopicAttributesCommandOutput
+  GetTopicAttributesCommandOutput,
 } from "../commands/GetTopicAttributesCommand";
 import {
   ListEndpointsByPlatformApplicationCommandInput,
-  ListEndpointsByPlatformApplicationCommandOutput
+  ListEndpointsByPlatformApplicationCommandOutput,
 } from "../commands/ListEndpointsByPlatformApplicationCommand";
 import {
   ListPhoneNumbersOptedOutCommandInput,
-  ListPhoneNumbersOptedOutCommandOutput
+  ListPhoneNumbersOptedOutCommandOutput,
 } from "../commands/ListPhoneNumbersOptedOutCommand";
 import {
   ListPlatformApplicationsCommandInput,
-  ListPlatformApplicationsCommandOutput
+  ListPlatformApplicationsCommandOutput,
 } from "../commands/ListPlatformApplicationsCommand";
 import {
   ListSubscriptionsByTopicCommandInput,
-  ListSubscriptionsByTopicCommandOutput
+  ListSubscriptionsByTopicCommandOutput,
 } from "../commands/ListSubscriptionsByTopicCommand";
 import {
   ListSubscriptionsCommandInput,
-  ListSubscriptionsCommandOutput
+  ListSubscriptionsCommandOutput,
 } from "../commands/ListSubscriptionsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListTopicsCommandInput,
-  ListTopicsCommandOutput
+  ListTopicsCommandOutput,
 } from "../commands/ListTopicsCommand";
 import {
   OptInPhoneNumberCommandInput,
-  OptInPhoneNumberCommandOutput
+  OptInPhoneNumberCommandOutput,
 } from "../commands/OptInPhoneNumberCommand";
 import {
   PublishCommandInput,
-  PublishCommandOutput
+  PublishCommandOutput,
 } from "../commands/PublishCommand";
 import {
   RemovePermissionCommandInput,
-  RemovePermissionCommandOutput
+  RemovePermissionCommandOutput,
 } from "../commands/RemovePermissionCommand";
 import {
   SetEndpointAttributesCommandInput,
-  SetEndpointAttributesCommandOutput
+  SetEndpointAttributesCommandOutput,
 } from "../commands/SetEndpointAttributesCommand";
 import {
   SetPlatformApplicationAttributesCommandInput,
-  SetPlatformApplicationAttributesCommandOutput
+  SetPlatformApplicationAttributesCommandOutput,
 } from "../commands/SetPlatformApplicationAttributesCommand";
 import {
   SetSMSAttributesCommandInput,
-  SetSMSAttributesCommandOutput
+  SetSMSAttributesCommandOutput,
 } from "../commands/SetSMSAttributesCommand";
 import {
   SetSubscriptionAttributesCommandInput,
-  SetSubscriptionAttributesCommandOutput
+  SetSubscriptionAttributesCommandOutput,
 } from "../commands/SetSubscriptionAttributesCommand";
 import {
   SetTopicAttributesCommandInput,
-  SetTopicAttributesCommandOutput
+  SetTopicAttributesCommandOutput,
 } from "../commands/SetTopicAttributesCommand";
 import {
   SubscribeCommandInput,
-  SubscribeCommandOutput
+  SubscribeCommandOutput,
 } from "../commands/SubscribeCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UnsubscribeCommandInput,
-  UnsubscribeCommandOutput
+  UnsubscribeCommandOutput,
 } from "../commands/UnsubscribeCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   AddPermissionInput,
@@ -215,22 +215,22 @@ import {
   TopicLimitExceededException,
   UnsubscribeInput,
   UntagResourceRequest,
-  UntagResourceResponse
+  UntagResourceResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { parse as xmlParse } from "fast-xml-parser";
 
@@ -245,7 +245,7 @@ export async function serializeAws_queryAddPermissionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "AddPermission",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -264,7 +264,7 @@ export async function serializeAws_queryCheckIfPhoneNumberIsOptedOutCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CheckIfPhoneNumberIsOptedOut",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -280,7 +280,7 @@ export async function serializeAws_queryConfirmSubscriptionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ConfirmSubscription",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -299,7 +299,7 @@ export async function serializeAws_queryCreatePlatformApplicationCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreatePlatformApplication",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -315,7 +315,7 @@ export async function serializeAws_queryCreatePlatformEndpointCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreatePlatformEndpoint",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -331,7 +331,7 @@ export async function serializeAws_queryCreateTopicCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateTopic",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -347,7 +347,7 @@ export async function serializeAws_queryDeleteEndpointCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteEndpoint",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -366,7 +366,7 @@ export async function serializeAws_queryDeletePlatformApplicationCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeletePlatformApplication",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -382,7 +382,7 @@ export async function serializeAws_queryDeleteTopicCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteTopic",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -398,7 +398,7 @@ export async function serializeAws_queryGetEndpointAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetEndpointAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -417,7 +417,7 @@ export async function serializeAws_queryGetPlatformApplicationAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetPlatformApplicationAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -433,7 +433,7 @@ export async function serializeAws_queryGetSMSAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetSMSAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -452,7 +452,7 @@ export async function serializeAws_queryGetSubscriptionAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetSubscriptionAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -468,7 +468,7 @@ export async function serializeAws_queryGetTopicAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetTopicAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -487,7 +487,7 @@ export async function serializeAws_queryListEndpointsByPlatformApplicationComman
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListEndpointsByPlatformApplication",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -506,7 +506,7 @@ export async function serializeAws_queryListPhoneNumbersOptedOutCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListPhoneNumbersOptedOut",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -525,7 +525,7 @@ export async function serializeAws_queryListPlatformApplicationsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListPlatformApplications",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -541,7 +541,7 @@ export async function serializeAws_queryListSubscriptionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListSubscriptions",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -560,7 +560,7 @@ export async function serializeAws_queryListSubscriptionsByTopicCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListSubscriptionsByTopic",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -576,7 +576,7 @@ export async function serializeAws_queryListTagsForResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListTagsForResource",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -592,7 +592,7 @@ export async function serializeAws_queryListTopicsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListTopics",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -608,7 +608,7 @@ export async function serializeAws_queryOptInPhoneNumberCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "OptInPhoneNumber",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -624,7 +624,7 @@ export async function serializeAws_queryPublishCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "Publish",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -640,7 +640,7 @@ export async function serializeAws_queryRemovePermissionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RemovePermission",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -656,7 +656,7 @@ export async function serializeAws_querySetEndpointAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetEndpointAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -675,7 +675,7 @@ export async function serializeAws_querySetPlatformApplicationAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetPlatformApplicationAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -691,7 +691,7 @@ export async function serializeAws_querySetSMSAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetSMSAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -710,7 +710,7 @@ export async function serializeAws_querySetSubscriptionAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetSubscriptionAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -726,7 +726,7 @@ export async function serializeAws_querySetTopicAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetTopicAttributes",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -742,7 +742,7 @@ export async function serializeAws_querySubscribeCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "Subscribe",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -758,7 +758,7 @@ export async function serializeAws_queryTagResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "TagResource",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -774,7 +774,7 @@ export async function serializeAws_queryUnsubscribeCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "Unsubscribe",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -790,7 +790,7 @@ export async function serializeAws_queryUntagResourceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UntagResource",
-    Version: "2010-03-31"
+    Version: "2010-03-31",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -804,7 +804,7 @@ export async function deserializeAws_queryAddPermissionCommand(
   }
   await collectBody(output.body, context);
   const response: AddPermissionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -815,7 +815,7 @@ async function deserializeAws_queryAddPermissionCommandError(
 ): Promise<AddPermissionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -829,7 +829,7 @@ async function deserializeAws_queryAddPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -840,7 +840,7 @@ async function deserializeAws_queryAddPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -851,7 +851,7 @@ async function deserializeAws_queryAddPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -862,7 +862,7 @@ async function deserializeAws_queryAddPermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -874,7 +874,7 @@ async function deserializeAws_queryAddPermissionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -902,7 +902,7 @@ export async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommand(
   const response: CheckIfPhoneNumberIsOptedOutCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CheckIfPhoneNumberIsOptedOutResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -913,7 +913,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
 ): Promise<CheckIfPhoneNumberIsOptedOutCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -927,7 +927,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -938,7 +938,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -949,7 +949,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottledException":
@@ -960,7 +960,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -972,7 +972,7 @@ async function deserializeAws_queryCheckIfPhoneNumberIsOptedOutCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -997,7 +997,7 @@ export async function deserializeAws_queryConfirmSubscriptionCommand(
   const response: ConfirmSubscriptionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ConfirmSubscriptionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1008,7 +1008,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
 ): Promise<ConfirmSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1022,7 +1022,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterPolicyLimitExceededException":
@@ -1033,7 +1033,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1044,7 +1044,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1055,7 +1055,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1066,7 +1066,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionLimitExceededException":
@@ -1077,7 +1077,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1089,7 +1089,7 @@ async function deserializeAws_queryConfirmSubscriptionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1117,7 +1117,7 @@ export async function deserializeAws_queryCreatePlatformApplicationCommand(
   const response: CreatePlatformApplicationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreatePlatformApplicationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1128,7 +1128,7 @@ async function deserializeAws_queryCreatePlatformApplicationCommandError(
 ): Promise<CreatePlatformApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1142,7 +1142,7 @@ async function deserializeAws_queryCreatePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1153,7 +1153,7 @@ async function deserializeAws_queryCreatePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1164,7 +1164,7 @@ async function deserializeAws_queryCreatePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1176,7 +1176,7 @@ async function deserializeAws_queryCreatePlatformApplicationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1204,7 +1204,7 @@ export async function deserializeAws_queryCreatePlatformEndpointCommand(
   const response: CreatePlatformEndpointCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateEndpointResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1215,7 +1215,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
 ): Promise<CreatePlatformEndpointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1229,7 +1229,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1240,7 +1240,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1251,7 +1251,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1262,7 +1262,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1274,7 +1274,7 @@ async function deserializeAws_queryCreatePlatformEndpointCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1299,7 +1299,7 @@ export async function deserializeAws_queryCreateTopicCommand(
   const response: CreateTopicCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTopicResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1310,7 +1310,7 @@ async function deserializeAws_queryCreateTopicCommandError(
 ): Promise<CreateTopicCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1324,7 +1324,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentAccessException":
@@ -1335,7 +1335,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1346,7 +1346,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1357,7 +1357,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -1368,7 +1368,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StaleTagException":
@@ -1379,7 +1379,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -1390,7 +1390,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -1401,7 +1401,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TopicLimitExceededException":
@@ -1412,7 +1412,7 @@ async function deserializeAws_queryCreateTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1424,7 +1424,7 @@ async function deserializeAws_queryCreateTopicCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1442,7 +1442,7 @@ export async function deserializeAws_queryDeleteEndpointCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteEndpointCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1453,7 +1453,7 @@ async function deserializeAws_queryDeleteEndpointCommandError(
 ): Promise<DeleteEndpointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1467,7 +1467,7 @@ async function deserializeAws_queryDeleteEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1478,7 +1478,7 @@ async function deserializeAws_queryDeleteEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1489,7 +1489,7 @@ async function deserializeAws_queryDeleteEndpointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1501,7 +1501,7 @@ async function deserializeAws_queryDeleteEndpointCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1522,7 +1522,7 @@ export async function deserializeAws_queryDeletePlatformApplicationCommand(
   }
   await collectBody(output.body, context);
   const response: DeletePlatformApplicationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1533,7 +1533,7 @@ async function deserializeAws_queryDeletePlatformApplicationCommandError(
 ): Promise<DeletePlatformApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1547,7 +1547,7 @@ async function deserializeAws_queryDeletePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1558,7 +1558,7 @@ async function deserializeAws_queryDeletePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1569,7 +1569,7 @@ async function deserializeAws_queryDeletePlatformApplicationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1581,7 +1581,7 @@ async function deserializeAws_queryDeletePlatformApplicationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1599,7 +1599,7 @@ export async function deserializeAws_queryDeleteTopicCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteTopicCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1610,7 +1610,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
 ): Promise<DeleteTopicCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1624,7 +1624,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentAccessException":
@@ -1635,7 +1635,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1646,7 +1646,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1657,7 +1657,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1668,7 +1668,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StaleTagException":
@@ -1679,7 +1679,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -1690,7 +1690,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1702,7 +1702,7 @@ async function deserializeAws_queryDeleteTopicCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1730,7 +1730,7 @@ export async function deserializeAws_queryGetEndpointAttributesCommand(
   const response: GetEndpointAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetEndpointAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1741,7 +1741,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
 ): Promise<GetEndpointAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1755,7 +1755,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1766,7 +1766,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1777,7 +1777,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1788,7 +1788,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1800,7 +1800,7 @@ async function deserializeAws_queryGetEndpointAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1828,7 +1828,7 @@ export async function deserializeAws_queryGetPlatformApplicationAttributesComman
   const response: GetPlatformApplicationAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetPlatformApplicationAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1839,7 +1839,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
 ): Promise<GetPlatformApplicationAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1853,7 +1853,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1864,7 +1864,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1875,7 +1875,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -1886,7 +1886,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1898,7 +1898,7 @@ async function deserializeAws_queryGetPlatformApplicationAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1923,7 +1923,7 @@ export async function deserializeAws_queryGetSMSAttributesCommand(
   const response: GetSMSAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSMSAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1934,7 +1934,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
 ): Promise<GetSMSAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1948,7 +1948,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -1959,7 +1959,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1970,7 +1970,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottledException":
@@ -1981,7 +1981,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1993,7 +1993,7 @@ async function deserializeAws_queryGetSMSAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2021,7 +2021,7 @@ export async function deserializeAws_queryGetSubscriptionAttributesCommand(
   const response: GetSubscriptionAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSubscriptionAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2032,7 +2032,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
 ): Promise<GetSubscriptionAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2046,7 +2046,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2057,7 +2057,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2068,7 +2068,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2079,7 +2079,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2091,7 +2091,7 @@ async function deserializeAws_queryGetSubscriptionAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2116,7 +2116,7 @@ export async function deserializeAws_queryGetTopicAttributesCommand(
   const response: GetTopicAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTopicAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2127,7 +2127,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
 ): Promise<GetTopicAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2141,7 +2141,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2152,7 +2152,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2163,7 +2163,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -2174,7 +2174,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2185,7 +2185,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2197,7 +2197,7 @@ async function deserializeAws_queryGetTopicAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2225,7 +2225,7 @@ export async function deserializeAws_queryListEndpointsByPlatformApplicationComm
   const response: ListEndpointsByPlatformApplicationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListEndpointsByPlatformApplicationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2236,7 +2236,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
 ): Promise<ListEndpointsByPlatformApplicationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2250,7 +2250,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2261,7 +2261,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2272,7 +2272,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2283,7 +2283,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2295,7 +2295,7 @@ async function deserializeAws_queryListEndpointsByPlatformApplicationCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2323,7 +2323,7 @@ export async function deserializeAws_queryListPhoneNumbersOptedOutCommand(
   const response: ListPhoneNumbersOptedOutCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPhoneNumbersOptedOutResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2334,7 +2334,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
 ): Promise<ListPhoneNumbersOptedOutCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2348,7 +2348,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2359,7 +2359,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2370,7 +2370,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottledException":
@@ -2381,7 +2381,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2393,7 +2393,7 @@ async function deserializeAws_queryListPhoneNumbersOptedOutCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2421,7 +2421,7 @@ export async function deserializeAws_queryListPlatformApplicationsCommand(
   const response: ListPlatformApplicationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPlatformApplicationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2432,7 +2432,7 @@ async function deserializeAws_queryListPlatformApplicationsCommandError(
 ): Promise<ListPlatformApplicationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2446,7 +2446,7 @@ async function deserializeAws_queryListPlatformApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2457,7 +2457,7 @@ async function deserializeAws_queryListPlatformApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2468,7 +2468,7 @@ async function deserializeAws_queryListPlatformApplicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2480,7 +2480,7 @@ async function deserializeAws_queryListPlatformApplicationsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2505,7 +2505,7 @@ export async function deserializeAws_queryListSubscriptionsCommand(
   const response: ListSubscriptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListSubscriptionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2516,7 +2516,7 @@ async function deserializeAws_queryListSubscriptionsCommandError(
 ): Promise<ListSubscriptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2530,7 +2530,7 @@ async function deserializeAws_queryListSubscriptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2541,7 +2541,7 @@ async function deserializeAws_queryListSubscriptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2552,7 +2552,7 @@ async function deserializeAws_queryListSubscriptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2564,7 +2564,7 @@ async function deserializeAws_queryListSubscriptionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2592,7 +2592,7 @@ export async function deserializeAws_queryListSubscriptionsByTopicCommand(
   const response: ListSubscriptionsByTopicCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListSubscriptionsByTopicResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2603,7 +2603,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
 ): Promise<ListSubscriptionsByTopicCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2617,7 +2617,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2628,7 +2628,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2639,7 +2639,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -2650,7 +2650,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2662,7 +2662,7 @@ async function deserializeAws_queryListSubscriptionsByTopicCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2687,7 +2687,7 @@ export async function deserializeAws_queryListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2698,7 +2698,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2712,7 +2712,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentAccessException":
@@ -2723,7 +2723,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2734,7 +2734,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2745,7 +2745,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -2756,7 +2756,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2768,7 +2768,7 @@ async function deserializeAws_queryListTagsForResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2793,7 +2793,7 @@ export async function deserializeAws_queryListTopicsCommand(
   const response: ListTopicsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTopicsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2804,7 +2804,7 @@ async function deserializeAws_queryListTopicsCommandError(
 ): Promise<ListTopicsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2818,7 +2818,7 @@ async function deserializeAws_queryListTopicsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2829,7 +2829,7 @@ async function deserializeAws_queryListTopicsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2840,7 +2840,7 @@ async function deserializeAws_queryListTopicsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2852,7 +2852,7 @@ async function deserializeAws_queryListTopicsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2877,7 +2877,7 @@ export async function deserializeAws_queryOptInPhoneNumberCommand(
   const response: OptInPhoneNumberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "OptInPhoneNumberResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2888,7 +2888,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
 ): Promise<OptInPhoneNumberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2902,7 +2902,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -2913,7 +2913,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2924,7 +2924,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottledException":
@@ -2935,7 +2935,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2947,7 +2947,7 @@ async function deserializeAws_queryOptInPhoneNumberCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2969,7 +2969,7 @@ export async function deserializeAws_queryPublishCommand(
   const response: PublishCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PublishResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2980,7 +2980,7 @@ async function deserializeAws_queryPublishCommandError(
 ): Promise<PublishCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2994,7 +2994,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EndpointDisabledException":
@@ -3005,7 +3005,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3016,7 +3016,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3027,7 +3027,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -3038,7 +3038,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -3049,7 +3049,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSAccessDeniedException":
@@ -3060,7 +3060,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSDisabledException":
@@ -3071,7 +3071,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSInvalidStateException":
@@ -3082,7 +3082,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSNotFoundException":
@@ -3093,7 +3093,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSOptInRequired":
@@ -3104,7 +3104,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "KMSThrottlingException":
@@ -3115,7 +3115,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3126,7 +3126,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PlatformApplicationDisabledException":
@@ -3137,7 +3137,7 @@ async function deserializeAws_queryPublishCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3149,7 +3149,7 @@ async function deserializeAws_queryPublishCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3167,7 +3167,7 @@ export async function deserializeAws_queryRemovePermissionCommand(
   }
   await collectBody(output.body, context);
   const response: RemovePermissionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3178,7 +3178,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
 ): Promise<RemovePermissionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3192,7 +3192,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3203,7 +3203,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3214,7 +3214,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3225,7 +3225,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3237,7 +3237,7 @@ async function deserializeAws_queryRemovePermissionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3258,7 +3258,7 @@ export async function deserializeAws_querySetEndpointAttributesCommand(
   }
   await collectBody(output.body, context);
   const response: SetEndpointAttributesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3269,7 +3269,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
 ): Promise<SetEndpointAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3283,7 +3283,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3294,7 +3294,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3305,7 +3305,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3316,7 +3316,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3328,7 +3328,7 @@ async function deserializeAws_querySetEndpointAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3349,7 +3349,7 @@ export async function deserializeAws_querySetPlatformApplicationAttributesComman
   }
   await collectBody(output.body, context);
   const response: SetPlatformApplicationAttributesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3360,7 +3360,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
 ): Promise<SetPlatformApplicationAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3374,7 +3374,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3385,7 +3385,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3396,7 +3396,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3407,7 +3407,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3419,7 +3419,7 @@ async function deserializeAws_querySetPlatformApplicationAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3444,7 +3444,7 @@ export async function deserializeAws_querySetSMSAttributesCommand(
   const response: SetSMSAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetSMSAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3455,7 +3455,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
 ): Promise<SetSMSAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3469,7 +3469,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3480,7 +3480,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3491,7 +3491,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottledException":
@@ -3502,7 +3502,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3514,7 +3514,7 @@ async function deserializeAws_querySetSMSAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3535,7 +3535,7 @@ export async function deserializeAws_querySetSubscriptionAttributesCommand(
   }
   await collectBody(output.body, context);
   const response: SetSubscriptionAttributesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3546,7 +3546,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
 ): Promise<SetSubscriptionAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3560,7 +3560,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterPolicyLimitExceededException":
@@ -3571,7 +3571,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3582,7 +3582,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3593,7 +3593,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3604,7 +3604,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3616,7 +3616,7 @@ async function deserializeAws_querySetSubscriptionAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3634,7 +3634,7 @@ export async function deserializeAws_querySetTopicAttributesCommand(
   }
   await collectBody(output.body, context);
   const response: SetTopicAttributesCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3645,7 +3645,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
 ): Promise<SetTopicAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3659,7 +3659,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3670,7 +3670,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3681,7 +3681,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -3692,7 +3692,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3703,7 +3703,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3715,7 +3715,7 @@ async function deserializeAws_querySetTopicAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3740,7 +3740,7 @@ export async function deserializeAws_querySubscribeCommand(
   const response: SubscribeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SubscribeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3751,7 +3751,7 @@ async function deserializeAws_querySubscribeCommandError(
 ): Promise<SubscribeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3765,7 +3765,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FilterPolicyLimitExceededException":
@@ -3776,7 +3776,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -3787,7 +3787,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3798,7 +3798,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -3809,7 +3809,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -3820,7 +3820,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionLimitExceededException":
@@ -3831,7 +3831,7 @@ async function deserializeAws_querySubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3843,7 +3843,7 @@ async function deserializeAws_querySubscribeCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3868,7 +3868,7 @@ export async function deserializeAws_queryTagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3879,7 +3879,7 @@ async function deserializeAws_queryTagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3893,7 +3893,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentAccessException":
@@ -3904,7 +3904,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3915,7 +3915,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3926,7 +3926,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StaleTagException":
@@ -3937,7 +3937,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -3948,7 +3948,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -3959,7 +3959,7 @@ async function deserializeAws_queryTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3971,7 +3971,7 @@ async function deserializeAws_queryTagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3989,7 +3989,7 @@ export async function deserializeAws_queryUnsubscribeCommand(
   }
   await collectBody(output.body, context);
   const response: UnsubscribeCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4000,7 +4000,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
 ): Promise<UnsubscribeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4014,7 +4014,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -4025,7 +4025,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4036,7 +4036,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSecurityException":
@@ -4047,7 +4047,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -4058,7 +4058,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4070,7 +4070,7 @@ async function deserializeAws_queryUnsubscribeCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4095,7 +4095,7 @@ export async function deserializeAws_queryUntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4106,7 +4106,7 @@ async function deserializeAws_queryUntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4120,7 +4120,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentAccessException":
@@ -4131,7 +4131,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4142,7 +4142,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4153,7 +4153,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StaleTagException":
@@ -4164,7 +4164,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededException":
@@ -4175,7 +4175,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -4186,7 +4186,7 @@ async function deserializeAws_queryUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4198,7 +4198,7 @@ async function deserializeAws_queryUntagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4220,7 +4220,7 @@ const deserializeAws_queryAuthorizationErrorExceptionResponse = async (
     name: "AuthorizationErrorException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4238,7 +4238,7 @@ const deserializeAws_queryConcurrentAccessExceptionResponse = async (
     name: "ConcurrentAccessException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4256,7 +4256,7 @@ const deserializeAws_queryEndpointDisabledExceptionResponse = async (
     name: "EndpointDisabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4274,7 +4274,7 @@ const deserializeAws_queryFilterPolicyLimitExceededExceptionResponse = async (
     name: "FilterPolicyLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4292,7 +4292,7 @@ const deserializeAws_queryInternalErrorExceptionResponse = async (
     name: "InternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4310,7 +4310,7 @@ const deserializeAws_queryInvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4328,7 +4328,7 @@ const deserializeAws_queryInvalidParameterValueExceptionResponse = async (
     name: "InvalidParameterValueException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4346,7 +4346,7 @@ const deserializeAws_queryInvalidSecurityExceptionResponse = async (
     name: "InvalidSecurityException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4364,7 +4364,7 @@ const deserializeAws_queryKMSAccessDeniedExceptionResponse = async (
     name: "KMSAccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4382,7 +4382,7 @@ const deserializeAws_queryKMSDisabledExceptionResponse = async (
     name: "KMSDisabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4400,7 +4400,7 @@ const deserializeAws_queryKMSInvalidStateExceptionResponse = async (
     name: "KMSInvalidStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4418,7 +4418,7 @@ const deserializeAws_queryKMSNotFoundExceptionResponse = async (
     name: "KMSNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4436,7 +4436,7 @@ const deserializeAws_queryKMSOptInRequiredResponse = async (
     name: "KMSOptInRequired",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4454,7 +4454,7 @@ const deserializeAws_queryKMSThrottlingExceptionResponse = async (
     name: "KMSThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4472,7 +4472,7 @@ const deserializeAws_queryNotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4490,7 +4490,7 @@ const deserializeAws_queryPlatformApplicationDisabledExceptionResponse = async (
     name: "PlatformApplicationDisabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4508,7 +4508,7 @@ const deserializeAws_queryResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4526,7 +4526,7 @@ const deserializeAws_queryStaleTagExceptionResponse = async (
     name: "StaleTagException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4544,7 +4544,7 @@ const deserializeAws_querySubscriptionLimitExceededExceptionResponse = async (
     name: "SubscriptionLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4562,7 +4562,7 @@ const deserializeAws_queryTagLimitExceededExceptionResponse = async (
     name: "TagLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4580,7 +4580,7 @@ const deserializeAws_queryTagPolicyExceptionResponse = async (
     name: "TagPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4598,7 +4598,7 @@ const deserializeAws_queryThrottledExceptionResponse = async (
     name: "ThrottledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4616,7 +4616,7 @@ const deserializeAws_queryTopicLimitExceededExceptionResponse = async (
     name: "TopicLimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4644,7 +4644,7 @@ const serializeAws_queryAddPermissionInput = (
       input.AWSAccountId,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AWSAccountId.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4654,7 +4654,7 @@ const serializeAws_queryAddPermissionInput = (
       input.ActionName,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ActionName.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4706,7 +4706,7 @@ const serializeAws_queryCreatePlatformApplicationInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4730,7 +4730,7 @@ const serializeAws_queryCreatePlatformEndpointInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4757,7 +4757,7 @@ const serializeAws_queryCreateTopicInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4767,7 +4767,7 @@ const serializeAws_queryCreateTopicInput = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4853,7 +4853,7 @@ const serializeAws_queryGetSMSAttributesInput = (
       input.attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -4985,7 +4985,7 @@ const serializeAws_queryMapStringToString = (
 ): any => {
   const entries: any = {};
   let counter = 1;
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     entries[`entry.${counter}.key`] = key;
     entries[`entry.${counter}.value`] = input[key];
     counter++;
@@ -4999,13 +4999,13 @@ const serializeAws_queryMessageAttributeMap = (
 ): any => {
   const entries: any = {};
   let counter = 1;
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     entries[`entry.${counter}.Name`] = key;
     const memberEntries = serializeAws_queryMessageAttributeValue(
       input[key],
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`entry.${counter}.Value.${key}`] = memberEntries[key];
     });
     counter++;
@@ -5054,7 +5054,7 @@ const serializeAws_queryPublishInput = (
       input.MessageAttributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MessageAttributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5101,7 +5101,7 @@ const serializeAws_querySetEndpointAttributesInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5122,7 +5122,7 @@ const serializeAws_querySetPlatformApplicationAttributesInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5143,7 +5143,7 @@ const serializeAws_querySetSMSAttributesInput = (
       input.attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5195,7 +5195,7 @@ const serializeAws_querySubscribeInput = (
       input.Attributes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Attributes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5221,7 +5221,7 @@ const serializeAws_querySubscriptionAttributesMap = (
 ): any => {
   const entries: any = {};
   let counter = 1;
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     entries[`entry.${counter}.key`] = key;
     entries[`entry.${counter}.value`] = input[key];
     counter++;
@@ -5261,7 +5261,7 @@ const serializeAws_queryTagList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryTag(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -5279,7 +5279,7 @@ const serializeAws_queryTagResourceRequest = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5293,7 +5293,7 @@ const serializeAws_queryTopicAttributesMap = (
 ): any => {
   const entries: any = {};
   let counter = 1;
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     entries[`entry.${counter}.key`] = key;
     entries[`entry.${counter}.value`] = input[key];
     counter++;
@@ -5322,7 +5322,7 @@ const serializeAws_queryUntagResourceRequest = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -5336,7 +5336,7 @@ const deserializeAws_queryAuthorizationErrorException = (
 ): AuthorizationErrorException => {
   let contents: any = {
     __type: "AuthorizationErrorException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5350,7 +5350,7 @@ const deserializeAws_queryCheckIfPhoneNumberIsOptedOutResponse = (
 ): CheckIfPhoneNumberIsOptedOutResponse => {
   let contents: any = {
     __type: "CheckIfPhoneNumberIsOptedOutResponse",
-    isOptedOut: undefined
+    isOptedOut: undefined,
   };
   if (output["isOptedOut"] !== undefined) {
     contents.isOptedOut = output["isOptedOut"] == "true";
@@ -5364,7 +5364,7 @@ const deserializeAws_queryConcurrentAccessException = (
 ): ConcurrentAccessException => {
   let contents: any = {
     __type: "ConcurrentAccessException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5378,7 +5378,7 @@ const deserializeAws_queryConfirmSubscriptionResponse = (
 ): ConfirmSubscriptionResponse => {
   let contents: any = {
     __type: "ConfirmSubscriptionResponse",
-    SubscriptionArn: undefined
+    SubscriptionArn: undefined,
   };
   if (output["SubscriptionArn"] !== undefined) {
     contents.SubscriptionArn = output["SubscriptionArn"];
@@ -5392,7 +5392,7 @@ const deserializeAws_queryCreateEndpointResponse = (
 ): CreateEndpointResponse => {
   let contents: any = {
     __type: "CreateEndpointResponse",
-    EndpointArn: undefined
+    EndpointArn: undefined,
   };
   if (output["EndpointArn"] !== undefined) {
     contents.EndpointArn = output["EndpointArn"];
@@ -5406,7 +5406,7 @@ const deserializeAws_queryCreatePlatformApplicationResponse = (
 ): CreatePlatformApplicationResponse => {
   let contents: any = {
     __type: "CreatePlatformApplicationResponse",
-    PlatformApplicationArn: undefined
+    PlatformApplicationArn: undefined,
   };
   if (output["PlatformApplicationArn"] !== undefined) {
     contents.PlatformApplicationArn = output["PlatformApplicationArn"];
@@ -5420,7 +5420,7 @@ const deserializeAws_queryCreateTopicResponse = (
 ): CreateTopicResponse => {
   let contents: any = {
     __type: "CreateTopicResponse",
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["TopicArn"] !== undefined) {
     contents.TopicArn = output["TopicArn"];
@@ -5435,7 +5435,7 @@ const deserializeAws_queryEndpoint = (
   let contents: any = {
     __type: "Endpoint",
     Attributes: undefined,
-    EndpointArn: undefined
+    EndpointArn: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -5465,7 +5465,7 @@ const deserializeAws_queryEndpointDisabledException = (
 ): EndpointDisabledException => {
   let contents: any = {
     __type: "EndpointDisabledException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5479,7 +5479,7 @@ const deserializeAws_queryFilterPolicyLimitExceededException = (
 ): FilterPolicyLimitExceededException => {
   let contents: any = {
     __type: "FilterPolicyLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5493,7 +5493,7 @@ const deserializeAws_queryGetEndpointAttributesResponse = (
 ): GetEndpointAttributesResponse => {
   let contents: any = {
     __type: "GetEndpointAttributesResponse",
-    Attributes: undefined
+    Attributes: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -5520,7 +5520,7 @@ const deserializeAws_queryGetPlatformApplicationAttributesResponse = (
 ): GetPlatformApplicationAttributesResponse => {
   let contents: any = {
     __type: "GetPlatformApplicationAttributesResponse",
-    Attributes: undefined
+    Attributes: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -5547,7 +5547,7 @@ const deserializeAws_queryGetSMSAttributesResponse = (
 ): GetSMSAttributesResponse => {
   let contents: any = {
     __type: "GetSMSAttributesResponse",
-    attributes: undefined
+    attributes: undefined,
   };
   if (output.attributes === "") {
     contents.attributes = {};
@@ -5574,7 +5574,7 @@ const deserializeAws_queryGetSubscriptionAttributesResponse = (
 ): GetSubscriptionAttributesResponse => {
   let contents: any = {
     __type: "GetSubscriptionAttributesResponse",
-    Attributes: undefined
+    Attributes: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -5601,7 +5601,7 @@ const deserializeAws_queryGetTopicAttributesResponse = (
 ): GetTopicAttributesResponse => {
   let contents: any = {
     __type: "GetTopicAttributesResponse",
-    Attributes: undefined
+    Attributes: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -5628,7 +5628,7 @@ const deserializeAws_queryInternalErrorException = (
 ): InternalErrorException => {
   let contents: any = {
     __type: "InternalErrorException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5642,7 +5642,7 @@ const deserializeAws_queryInvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5656,7 +5656,7 @@ const deserializeAws_queryInvalidParameterValueException = (
 ): InvalidParameterValueException => {
   let contents: any = {
     __type: "InvalidParameterValueException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5670,7 +5670,7 @@ const deserializeAws_queryInvalidSecurityException = (
 ): InvalidSecurityException => {
   let contents: any = {
     __type: "InvalidSecurityException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5684,7 +5684,7 @@ const deserializeAws_queryKMSAccessDeniedException = (
 ): KMSAccessDeniedException => {
   let contents: any = {
     __type: "KMSAccessDeniedException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5698,7 +5698,7 @@ const deserializeAws_queryKMSDisabledException = (
 ): KMSDisabledException => {
   let contents: any = {
     __type: "KMSDisabledException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5712,7 +5712,7 @@ const deserializeAws_queryKMSInvalidStateException = (
 ): KMSInvalidStateException => {
   let contents: any = {
     __type: "KMSInvalidStateException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5726,7 +5726,7 @@ const deserializeAws_queryKMSNotFoundException = (
 ): KMSNotFoundException => {
   let contents: any = {
     __type: "KMSNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5740,7 +5740,7 @@ const deserializeAws_queryKMSOptInRequired = (
 ): KMSOptInRequired => {
   let contents: any = {
     __type: "KMSOptInRequired",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5754,7 +5754,7 @@ const deserializeAws_queryKMSThrottlingException = (
 ): KMSThrottlingException => {
   let contents: any = {
     __type: "KMSThrottlingException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -5769,7 +5769,7 @@ const deserializeAws_queryListEndpointsByPlatformApplicationResponse = (
   let contents: any = {
     __type: "ListEndpointsByPlatformApplicationResponse",
     Endpoints: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Endpoints === "") {
     contents.Endpoints = [];
@@ -5822,7 +5822,7 @@ const deserializeAws_queryListPhoneNumbersOptedOutResponse = (
   let contents: any = {
     __type: "ListPhoneNumbersOptedOutResponse",
     nextToken: undefined,
-    phoneNumbers: undefined
+    phoneNumbers: undefined,
   };
   if (output["nextToken"] !== undefined) {
     contents.nextToken = output["nextToken"];
@@ -5853,7 +5853,7 @@ const deserializeAws_queryListPlatformApplicationsResponse = (
   let contents: any = {
     __type: "ListPlatformApplicationsResponse",
     NextToken: undefined,
-    PlatformApplications: undefined
+    PlatformApplications: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -5884,7 +5884,7 @@ const deserializeAws_queryListSubscriptionsByTopicResponse = (
   let contents: any = {
     __type: "ListSubscriptionsByTopicResponse",
     NextToken: undefined,
-    Subscriptions: undefined
+    Subscriptions: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -5915,7 +5915,7 @@ const deserializeAws_queryListSubscriptionsResponse = (
   let contents: any = {
     __type: "ListSubscriptionsResponse",
     NextToken: undefined,
-    Subscriptions: undefined
+    Subscriptions: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -5945,7 +5945,7 @@ const deserializeAws_queryListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags === "") {
     contents.Tags = [];
@@ -5967,7 +5967,7 @@ const deserializeAws_queryListTopicsResponse = (
   let contents: any = {
     __type: "ListTopicsResponse",
     NextToken: undefined,
-    Topics: undefined
+    Topics: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -6005,7 +6005,7 @@ const deserializeAws_queryNotFoundException = (
 ): NotFoundException => {
   let contents: any = {
     __type: "NotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6018,7 +6018,7 @@ const deserializeAws_queryOptInPhoneNumberResponse = (
   context: __SerdeContext
 ): OptInPhoneNumberResponse => {
   let contents: any = {
-    __type: "OptInPhoneNumberResponse"
+    __type: "OptInPhoneNumberResponse",
   };
   return contents;
 };
@@ -6041,7 +6041,7 @@ const deserializeAws_queryPlatformApplication = (
   let contents: any = {
     __type: "PlatformApplication",
     Attributes: undefined,
-    PlatformApplicationArn: undefined
+    PlatformApplicationArn: undefined,
   };
   if (output.Attributes === "") {
     contents.Attributes = {};
@@ -6071,7 +6071,7 @@ const deserializeAws_queryPlatformApplicationDisabledException = (
 ): PlatformApplicationDisabledException => {
   let contents: any = {
     __type: "PlatformApplicationDisabledException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6085,7 +6085,7 @@ const deserializeAws_queryPublishResponse = (
 ): PublishResponse => {
   let contents: any = {
     __type: "PublishResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -6099,7 +6099,7 @@ const deserializeAws_queryResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6112,7 +6112,7 @@ const deserializeAws_querySetSMSAttributesResponse = (
   context: __SerdeContext
 ): SetSMSAttributesResponse => {
   let contents: any = {
-    __type: "SetSMSAttributesResponse"
+    __type: "SetSMSAttributesResponse",
   };
   return contents;
 };
@@ -6123,7 +6123,7 @@ const deserializeAws_queryStaleTagException = (
 ): StaleTagException => {
   let contents: any = {
     __type: "StaleTagException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6137,7 +6137,7 @@ const deserializeAws_querySubscribeResponse = (
 ): SubscribeResponse => {
   let contents: any = {
     __type: "SubscribeResponse",
-    SubscriptionArn: undefined
+    SubscriptionArn: undefined,
   };
   if (output["SubscriptionArn"] !== undefined) {
     contents.SubscriptionArn = output["SubscriptionArn"];
@@ -6155,7 +6155,7 @@ const deserializeAws_querySubscription = (
     Owner: undefined,
     Protocol: undefined,
     SubscriptionArn: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["Endpoint"] !== undefined) {
     contents.Endpoint = output["Endpoint"];
@@ -6192,7 +6192,7 @@ const deserializeAws_querySubscriptionLimitExceededException = (
 ): SubscriptionLimitExceededException => {
   let contents: any = {
     __type: "SubscriptionLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6215,7 +6215,7 @@ const deserializeAws_queryTag = (output: any, context: __SerdeContext): Tag => {
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Key"] !== undefined) {
     contents.Key = output["Key"];
@@ -6232,7 +6232,7 @@ const deserializeAws_queryTagLimitExceededException = (
 ): TagLimitExceededException => {
   let contents: any = {
     __type: "TagLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6257,7 +6257,7 @@ const deserializeAws_queryTagPolicyException = (
 ): TagPolicyException => {
   let contents: any = {
     __type: "TagPolicyException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6270,7 +6270,7 @@ const deserializeAws_queryTagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -6281,7 +6281,7 @@ const deserializeAws_queryThrottledException = (
 ): ThrottledException => {
   let contents: any = {
     __type: "ThrottledException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6295,7 +6295,7 @@ const deserializeAws_queryTopic = (
 ): Topic => {
   let contents: any = {
     __type: "Topic",
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["TopicArn"] !== undefined) {
     contents.TopicArn = output["TopicArn"];
@@ -6320,7 +6320,7 @@ const deserializeAws_queryTopicLimitExceededException = (
 ): TopicLimitExceededException => {
   let contents: any = {
     __type: "TopicLimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -6344,7 +6344,7 @@ const deserializeAws_queryUntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -6352,7 +6352,7 @@ const deserializeAws_queryUntagResourceResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6373,7 +6373,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -6386,11 +6386,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -6411,13 +6411,13 @@ const decodeEscapedXML = (str: string) => {
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       const parsedObj = xmlParse(encoded, {
         attributeNamePrefix: "",
         ignoreAttributes: false,
         parseNodeValue: false,
-        tagValueProcessor: (val, tagName) => decodeEscapedXML(val)
+        tagValueProcessor: (val, tagName) => decodeEscapedXML(val),
       });
       const textNodeName = "#text";
       const key = Object.keys(parsedObj)[0];
@@ -6435,7 +6435,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
 const buildFormUrlencodedString = (entries: any): string => {
   return Object.keys(entries)
     .map(
-      key =>
+      (key) =>
         __extendedEncodeURIComponent(key) +
         "=" +
         __extendedEncodeURIComponent(entries[key])

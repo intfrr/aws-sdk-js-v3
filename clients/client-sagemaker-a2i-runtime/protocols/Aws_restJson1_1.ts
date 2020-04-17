@@ -1,22 +1,22 @@
 import {
   DeleteHumanLoopCommandInput,
-  DeleteHumanLoopCommandOutput
+  DeleteHumanLoopCommandOutput,
 } from "../commands/DeleteHumanLoopCommand";
 import {
   DescribeHumanLoopCommandInput,
-  DescribeHumanLoopCommandOutput
+  DescribeHumanLoopCommandOutput,
 } from "../commands/DescribeHumanLoopCommand";
 import {
   ListHumanLoopsCommandInput,
-  ListHumanLoopsCommandOutput
+  ListHumanLoopsCommandOutput,
 } from "../commands/ListHumanLoopsCommand";
 import {
   StartHumanLoopCommandInput,
-  StartHumanLoopCommandOutput
+  StartHumanLoopCommandOutput,
 } from "../commands/StartHumanLoopCommand";
 import {
   StopHumanLoopCommandInput,
-  StopHumanLoopCommandOutput
+  StopHumanLoopCommandOutput,
 } from "../commands/StopHumanLoopCommand";
 import {
   ContentClassifier,
@@ -30,21 +30,21 @@ import {
   ResourceNotFoundException,
   ServiceQuotaExceededException,
   ThrottlingException,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1DeleteHumanLoopCommand(
@@ -70,12 +70,12 @@ export async function serializeAws_restJson1_1DeleteHumanLoopCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -102,12 +102,12 @@ export async function serializeAws_restJson1_1DescribeHumanLoopCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -140,13 +140,13 @@ export async function serializeAws_restJson1_1ListHumanLoopsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -183,12 +183,12 @@ export async function serializeAws_restJson1_1StartHumanLoopCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -206,12 +206,12 @@ export async function serializeAws_restJson1_1StopHumanLoopCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -227,7 +227,7 @@ export async function deserializeAws_restJson1_1DeleteHumanLoopCommand(
   }
   const contents: DeleteHumanLoopCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteHumanLoopResponse"
+    __type: "DeleteHumanLoopResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -239,7 +239,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
 ): Promise<DeleteHumanLoopCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -253,7 +253,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -264,7 +264,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -275,7 +275,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -286,7 +286,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -297,7 +297,7 @@ async function deserializeAws_restJson1_1DeleteHumanLoopCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -327,7 +327,7 @@ export async function deserializeAws_restJson1_1DescribeHumanLoopCommand(
     HumanLoopInput: undefined,
     HumanLoopName: undefined,
     HumanLoopOutput: undefined,
-    HumanLoopStatus: undefined
+    HumanLoopStatus: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.CreationTimestamp !== undefined && data.CreationTimestamp !== null) {
@@ -374,7 +374,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
 ): Promise<DescribeHumanLoopCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -388,7 +388,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -399,7 +399,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -410,7 +410,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -421,7 +421,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -432,7 +432,7 @@ async function deserializeAws_restJson1_1DescribeHumanLoopCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -455,7 +455,7 @@ export async function deserializeAws_restJson1_1ListHumanLoopsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListHumanLoopsResponse",
     HumanLoopSummaries: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -479,7 +479,7 @@ async function deserializeAws_restJson1_1ListHumanLoopsCommandError(
 ): Promise<ListHumanLoopsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -493,7 +493,7 @@ async function deserializeAws_restJson1_1ListHumanLoopsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -504,7 +504,7 @@ async function deserializeAws_restJson1_1ListHumanLoopsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -515,7 +515,7 @@ async function deserializeAws_restJson1_1ListHumanLoopsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -526,7 +526,7 @@ async function deserializeAws_restJson1_1ListHumanLoopsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -549,7 +549,7 @@ export async function deserializeAws_restJson1_1StartHumanLoopCommand(
     $metadata: deserializeMetadata(output),
     __type: "StartHumanLoopResponse",
     HumanLoopActivationResults: undefined,
-    HumanLoopArn: undefined
+    HumanLoopArn: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -573,7 +573,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
 ): Promise<StartHumanLoopCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -587,7 +587,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -598,7 +598,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -609,7 +609,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -620,7 +620,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -631,7 +631,7 @@ async function deserializeAws_restJson1_1StartHumanLoopCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -649,7 +649,7 @@ export async function deserializeAws_restJson1_1StopHumanLoopCommand(
   }
   const contents: StopHumanLoopCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "StopHumanLoopResponse"
+    __type: "StopHumanLoopResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -661,7 +661,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
 ): Promise<StopHumanLoopCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -675,7 +675,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -686,7 +686,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -697,7 +697,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -708,7 +708,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -719,7 +719,7 @@ async function deserializeAws_restJson1_1StopHumanLoopCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -736,7 +736,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -753,7 +753,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -770,7 +770,7 @@ const deserializeAws_restJson1_1ServiceQuotaExceededExceptionResponse = async (
     name: "ServiceQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -787,7 +787,7 @@ const deserializeAws_restJson1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -804,7 +804,7 @@ const deserializeAws_restJson1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -857,7 +857,7 @@ const deserializeAws_restJson1_1HumanLoopActivationReason = (
 ): HumanLoopActivationReason => {
   let contents: any = {
     __type: "HumanLoopActivationReason",
-    ConditionsMatched: undefined
+    ConditionsMatched: undefined,
   };
   if (
     output.ConditionsMatched !== undefined &&
@@ -875,7 +875,7 @@ const deserializeAws_restJson1_1HumanLoopActivationResults = (
   let contents: any = {
     __type: "HumanLoopActivationResults",
     HumanLoopActivationConditionsEvaluationResults: undefined,
-    HumanLoopActivationReason: undefined
+    HumanLoopActivationReason: undefined,
   };
   if (
     output.HumanLoopActivationConditionsEvaluationResults !== undefined &&
@@ -902,7 +902,7 @@ const deserializeAws_restJson1_1HumanLoopInputContent = (
 ): HumanLoopInputContent => {
   let contents: any = {
     __type: "HumanLoopInputContent",
-    InputContent: undefined
+    InputContent: undefined,
   };
   if (output.InputContent !== undefined && output.InputContent !== null) {
     contents.InputContent = output.InputContent;
@@ -916,7 +916,7 @@ const deserializeAws_restJson1_1HumanLoopOutputContent = (
 ): HumanLoopOutputContent => {
   let contents: any = {
     __type: "HumanLoopOutputContent",
-    OutputS3Uri: undefined
+    OutputS3Uri: undefined,
   };
   if (output.OutputS3Uri !== undefined && output.OutputS3Uri !== null) {
     contents.OutputS3Uri = output.OutputS3Uri;
@@ -943,7 +943,7 @@ const deserializeAws_restJson1_1HumanLoopSummary = (
     FailureReason: undefined,
     FlowDefinitionArn: undefined,
     HumanLoopName: undefined,
-    HumanLoopStatus: undefined
+    HumanLoopStatus: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -969,7 +969,7 @@ const deserializeAws_restJson1_1HumanLoopSummary = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -990,13 +990,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1009,7 +1009,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

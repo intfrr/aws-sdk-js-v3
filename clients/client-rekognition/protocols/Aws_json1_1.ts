@@ -1,166 +1,166 @@
 import {
   CompareFacesCommandInput,
-  CompareFacesCommandOutput
+  CompareFacesCommandOutput,
 } from "../commands/CompareFacesCommand";
 import {
   CreateCollectionCommandInput,
-  CreateCollectionCommandOutput
+  CreateCollectionCommandOutput,
 } from "../commands/CreateCollectionCommand";
 import {
   CreateProjectCommandInput,
-  CreateProjectCommandOutput
+  CreateProjectCommandOutput,
 } from "../commands/CreateProjectCommand";
 import {
   CreateProjectVersionCommandInput,
-  CreateProjectVersionCommandOutput
+  CreateProjectVersionCommandOutput,
 } from "../commands/CreateProjectVersionCommand";
 import {
   CreateStreamProcessorCommandInput,
-  CreateStreamProcessorCommandOutput
+  CreateStreamProcessorCommandOutput,
 } from "../commands/CreateStreamProcessorCommand";
 import {
   DeleteCollectionCommandInput,
-  DeleteCollectionCommandOutput
+  DeleteCollectionCommandOutput,
 } from "../commands/DeleteCollectionCommand";
 import {
   DeleteFacesCommandInput,
-  DeleteFacesCommandOutput
+  DeleteFacesCommandOutput,
 } from "../commands/DeleteFacesCommand";
 import {
   DeleteStreamProcessorCommandInput,
-  DeleteStreamProcessorCommandOutput
+  DeleteStreamProcessorCommandOutput,
 } from "../commands/DeleteStreamProcessorCommand";
 import {
   DescribeCollectionCommandInput,
-  DescribeCollectionCommandOutput
+  DescribeCollectionCommandOutput,
 } from "../commands/DescribeCollectionCommand";
 import {
   DescribeProjectVersionsCommandInput,
-  DescribeProjectVersionsCommandOutput
+  DescribeProjectVersionsCommandOutput,
 } from "../commands/DescribeProjectVersionsCommand";
 import {
   DescribeProjectsCommandInput,
-  DescribeProjectsCommandOutput
+  DescribeProjectsCommandOutput,
 } from "../commands/DescribeProjectsCommand";
 import {
   DescribeStreamProcessorCommandInput,
-  DescribeStreamProcessorCommandOutput
+  DescribeStreamProcessorCommandOutput,
 } from "../commands/DescribeStreamProcessorCommand";
 import {
   DetectCustomLabelsCommandInput,
-  DetectCustomLabelsCommandOutput
+  DetectCustomLabelsCommandOutput,
 } from "../commands/DetectCustomLabelsCommand";
 import {
   DetectFacesCommandInput,
-  DetectFacesCommandOutput
+  DetectFacesCommandOutput,
 } from "../commands/DetectFacesCommand";
 import {
   DetectLabelsCommandInput,
-  DetectLabelsCommandOutput
+  DetectLabelsCommandOutput,
 } from "../commands/DetectLabelsCommand";
 import {
   DetectModerationLabelsCommandInput,
-  DetectModerationLabelsCommandOutput
+  DetectModerationLabelsCommandOutput,
 } from "../commands/DetectModerationLabelsCommand";
 import {
   DetectTextCommandInput,
-  DetectTextCommandOutput
+  DetectTextCommandOutput,
 } from "../commands/DetectTextCommand";
 import {
   GetCelebrityInfoCommandInput,
-  GetCelebrityInfoCommandOutput
+  GetCelebrityInfoCommandOutput,
 } from "../commands/GetCelebrityInfoCommand";
 import {
   GetCelebrityRecognitionCommandInput,
-  GetCelebrityRecognitionCommandOutput
+  GetCelebrityRecognitionCommandOutput,
 } from "../commands/GetCelebrityRecognitionCommand";
 import {
   GetContentModerationCommandInput,
-  GetContentModerationCommandOutput
+  GetContentModerationCommandOutput,
 } from "../commands/GetContentModerationCommand";
 import {
   GetFaceDetectionCommandInput,
-  GetFaceDetectionCommandOutput
+  GetFaceDetectionCommandOutput,
 } from "../commands/GetFaceDetectionCommand";
 import {
   GetFaceSearchCommandInput,
-  GetFaceSearchCommandOutput
+  GetFaceSearchCommandOutput,
 } from "../commands/GetFaceSearchCommand";
 import {
   GetLabelDetectionCommandInput,
-  GetLabelDetectionCommandOutput
+  GetLabelDetectionCommandOutput,
 } from "../commands/GetLabelDetectionCommand";
 import {
   GetPersonTrackingCommandInput,
-  GetPersonTrackingCommandOutput
+  GetPersonTrackingCommandOutput,
 } from "../commands/GetPersonTrackingCommand";
 import {
   IndexFacesCommandInput,
-  IndexFacesCommandOutput
+  IndexFacesCommandOutput,
 } from "../commands/IndexFacesCommand";
 import {
   ListCollectionsCommandInput,
-  ListCollectionsCommandOutput
+  ListCollectionsCommandOutput,
 } from "../commands/ListCollectionsCommand";
 import {
   ListFacesCommandInput,
-  ListFacesCommandOutput
+  ListFacesCommandOutput,
 } from "../commands/ListFacesCommand";
 import {
   ListStreamProcessorsCommandInput,
-  ListStreamProcessorsCommandOutput
+  ListStreamProcessorsCommandOutput,
 } from "../commands/ListStreamProcessorsCommand";
 import {
   RecognizeCelebritiesCommandInput,
-  RecognizeCelebritiesCommandOutput
+  RecognizeCelebritiesCommandOutput,
 } from "../commands/RecognizeCelebritiesCommand";
 import {
   SearchFacesByImageCommandInput,
-  SearchFacesByImageCommandOutput
+  SearchFacesByImageCommandOutput,
 } from "../commands/SearchFacesByImageCommand";
 import {
   SearchFacesCommandInput,
-  SearchFacesCommandOutput
+  SearchFacesCommandOutput,
 } from "../commands/SearchFacesCommand";
 import {
   StartCelebrityRecognitionCommandInput,
-  StartCelebrityRecognitionCommandOutput
+  StartCelebrityRecognitionCommandOutput,
 } from "../commands/StartCelebrityRecognitionCommand";
 import {
   StartContentModerationCommandInput,
-  StartContentModerationCommandOutput
+  StartContentModerationCommandOutput,
 } from "../commands/StartContentModerationCommand";
 import {
   StartFaceDetectionCommandInput,
-  StartFaceDetectionCommandOutput
+  StartFaceDetectionCommandOutput,
 } from "../commands/StartFaceDetectionCommand";
 import {
   StartFaceSearchCommandInput,
-  StartFaceSearchCommandOutput
+  StartFaceSearchCommandOutput,
 } from "../commands/StartFaceSearchCommand";
 import {
   StartLabelDetectionCommandInput,
-  StartLabelDetectionCommandOutput
+  StartLabelDetectionCommandOutput,
 } from "../commands/StartLabelDetectionCommand";
 import {
   StartPersonTrackingCommandInput,
-  StartPersonTrackingCommandOutput
+  StartPersonTrackingCommandOutput,
 } from "../commands/StartPersonTrackingCommand";
 import {
   StartProjectVersionCommandInput,
-  StartProjectVersionCommandOutput
+  StartProjectVersionCommandOutput,
 } from "../commands/StartProjectVersionCommand";
 import {
   StartStreamProcessorCommandInput,
-  StartStreamProcessorCommandOutput
+  StartStreamProcessorCommandOutput,
 } from "../commands/StartStreamProcessorCommand";
 import {
   StopProjectVersionCommandInput,
-  StopProjectVersionCommandOutput
+  StopProjectVersionCommandOutput,
 } from "../commands/StopProjectVersionCommand";
 import {
   StopStreamProcessorCommandInput,
-  StopStreamProcessorCommandOutput
+  StopStreamProcessorCommandOutput,
 } from "../commands/StopStreamProcessorCommand";
 import {
   AccessDeniedException,
@@ -329,22 +329,22 @@ import {
   UnindexedFace,
   Video,
   VideoMetadata,
-  VideoTooLargeException
+  VideoTooLargeException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   LazyJsonString as __LazyJsonString,
-  SmithyException as __SmithyException
+  SmithyException as __SmithyException,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CompareFacesCommand(
@@ -922,7 +922,7 @@ export async function deserializeAws_json1_1CompareFacesCommand(
   const response: CompareFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CompareFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -933,7 +933,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
 ): Promise<CompareFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -949,7 +949,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -960,7 +960,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -971,7 +971,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -982,7 +982,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -993,7 +993,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -1004,7 +1004,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1015,7 +1015,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1026,7 +1026,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1037,7 +1037,7 @@ async function deserializeAws_json1_1CompareFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1059,7 +1059,7 @@ export async function deserializeAws_json1_1CreateCollectionCommand(
   const response: CreateCollectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateCollectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1070,7 +1070,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
 ): Promise<CreateCollectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1086,7 +1086,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1097,7 +1097,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1108,7 +1108,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1119,7 +1119,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1130,7 +1130,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1141,7 +1141,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1152,7 +1152,7 @@ async function deserializeAws_json1_1CreateCollectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1174,7 +1174,7 @@ export async function deserializeAws_json1_1CreateProjectCommand(
   const response: CreateProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateProjectResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1185,7 +1185,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
 ): Promise<CreateProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1201,7 +1201,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1212,7 +1212,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1223,7 +1223,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1234,7 +1234,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1245,7 +1245,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1256,7 +1256,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1267,7 +1267,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1278,7 +1278,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1303,7 +1303,7 @@ export async function deserializeAws_json1_1CreateProjectVersionCommand(
   const response: CreateProjectVersionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateProjectVersionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1314,7 +1314,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
 ): Promise<CreateProjectVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1330,7 +1330,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1341,7 +1341,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1352,7 +1352,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1363,7 +1363,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1374,7 +1374,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1385,7 +1385,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1396,7 +1396,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1407,7 +1407,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1418,7 +1418,7 @@ async function deserializeAws_json1_1CreateProjectVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1443,7 +1443,7 @@ export async function deserializeAws_json1_1CreateStreamProcessorCommand(
   const response: CreateStreamProcessorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateStreamProcessorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1454,7 +1454,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
 ): Promise<CreateStreamProcessorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1470,7 +1470,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1481,7 +1481,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1492,7 +1492,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1503,7 +1503,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1514,7 +1514,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1525,7 +1525,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1536,7 +1536,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1547,7 +1547,7 @@ async function deserializeAws_json1_1CreateStreamProcessorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1569,7 +1569,7 @@ export async function deserializeAws_json1_1DeleteCollectionCommand(
   const response: DeleteCollectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteCollectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1580,7 +1580,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
 ): Promise<DeleteCollectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1596,7 +1596,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1607,7 +1607,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1618,7 +1618,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1629,7 +1629,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1640,7 +1640,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1651,7 +1651,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1662,7 +1662,7 @@ async function deserializeAws_json1_1DeleteCollectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1684,7 +1684,7 @@ export async function deserializeAws_json1_1DeleteFacesCommand(
   const response: DeleteFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1695,7 +1695,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
 ): Promise<DeleteFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1711,7 +1711,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1722,7 +1722,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1733,7 +1733,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1744,7 +1744,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1755,7 +1755,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1766,7 +1766,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1777,7 +1777,7 @@ async function deserializeAws_json1_1DeleteFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1802,7 +1802,7 @@ export async function deserializeAws_json1_1DeleteStreamProcessorCommand(
   const response: DeleteStreamProcessorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteStreamProcessorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1813,7 +1813,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
 ): Promise<DeleteStreamProcessorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1829,7 +1829,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1840,7 +1840,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1851,7 +1851,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1862,7 +1862,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1873,7 +1873,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1884,7 +1884,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -1895,7 +1895,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1906,7 +1906,7 @@ async function deserializeAws_json1_1DeleteStreamProcessorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1931,7 +1931,7 @@ export async function deserializeAws_json1_1DescribeCollectionCommand(
   const response: DescribeCollectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCollectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1942,7 +1942,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
 ): Promise<DescribeCollectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1958,7 +1958,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1969,7 +1969,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1980,7 +1980,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -1991,7 +1991,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2002,7 +2002,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2013,7 +2013,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2024,7 +2024,7 @@ async function deserializeAws_json1_1DescribeCollectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2052,7 +2052,7 @@ export async function deserializeAws_json1_1DescribeProjectVersionsCommand(
   const response: DescribeProjectVersionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeProjectVersionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2063,7 +2063,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
 ): Promise<DescribeProjectVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2079,7 +2079,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2090,7 +2090,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -2101,7 +2101,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2112,7 +2112,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2123,7 +2123,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2134,7 +2134,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2145,7 +2145,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2156,7 +2156,7 @@ async function deserializeAws_json1_1DescribeProjectVersionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2178,7 +2178,7 @@ export async function deserializeAws_json1_1DescribeProjectsCommand(
   const response: DescribeProjectsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeProjectsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2189,7 +2189,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
 ): Promise<DescribeProjectsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2205,7 +2205,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2216,7 +2216,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -2227,7 +2227,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2238,7 +2238,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2249,7 +2249,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2260,7 +2260,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2271,7 +2271,7 @@ async function deserializeAws_json1_1DescribeProjectsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2299,7 +2299,7 @@ export async function deserializeAws_json1_1DescribeStreamProcessorCommand(
   const response: DescribeStreamProcessorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStreamProcessorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2310,7 +2310,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
 ): Promise<DescribeStreamProcessorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2326,7 +2326,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2337,7 +2337,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2348,7 +2348,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2359,7 +2359,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2370,7 +2370,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2381,7 +2381,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2392,7 +2392,7 @@ async function deserializeAws_json1_1DescribeStreamProcessorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2417,7 +2417,7 @@ export async function deserializeAws_json1_1DetectCustomLabelsCommand(
   const response: DetectCustomLabelsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectCustomLabelsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2428,7 +2428,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
 ): Promise<DetectCustomLabelsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2444,7 +2444,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -2455,7 +2455,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2466,7 +2466,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -2477,7 +2477,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2488,7 +2488,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -2499,7 +2499,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2510,7 +2510,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2521,7 +2521,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2532,7 +2532,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotReadyException":
@@ -2543,7 +2543,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2554,7 +2554,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2565,7 +2565,7 @@ async function deserializeAws_json1_1DetectCustomLabelsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2587,7 +2587,7 @@ export async function deserializeAws_json1_1DetectFacesCommand(
   const response: DetectFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2598,7 +2598,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
 ): Promise<DetectFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2614,7 +2614,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -2625,7 +2625,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2636,7 +2636,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -2647,7 +2647,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2658,7 +2658,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -2669,7 +2669,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2680,7 +2680,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2691,7 +2691,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2702,7 +2702,7 @@ async function deserializeAws_json1_1DetectFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2724,7 +2724,7 @@ export async function deserializeAws_json1_1DetectLabelsCommand(
   const response: DetectLabelsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectLabelsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2735,7 +2735,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
 ): Promise<DetectLabelsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2751,7 +2751,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -2762,7 +2762,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2773,7 +2773,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -2784,7 +2784,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2795,7 +2795,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -2806,7 +2806,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2817,7 +2817,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2828,7 +2828,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2839,7 +2839,7 @@ async function deserializeAws_json1_1DetectLabelsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2867,7 +2867,7 @@ export async function deserializeAws_json1_1DetectModerationLabelsCommand(
   const response: DetectModerationLabelsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectModerationLabelsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2878,7 +2878,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
 ): Promise<DetectModerationLabelsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2894,7 +2894,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HumanLoopQuotaExceededException":
@@ -2905,7 +2905,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -2916,7 +2916,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -2927,7 +2927,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -2938,7 +2938,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2949,7 +2949,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -2960,7 +2960,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -2971,7 +2971,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -2982,7 +2982,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2993,7 +2993,7 @@ async function deserializeAws_json1_1DetectModerationLabelsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3015,7 +3015,7 @@ export async function deserializeAws_json1_1DetectTextCommand(
   const response: DetectTextCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetectTextResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3026,7 +3026,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
 ): Promise<DetectTextCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3042,7 +3042,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -3053,7 +3053,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3064,7 +3064,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -3075,7 +3075,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3086,7 +3086,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -3097,7 +3097,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3108,7 +3108,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3119,7 +3119,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3130,7 +3130,7 @@ async function deserializeAws_json1_1DetectTextCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3152,7 +3152,7 @@ export async function deserializeAws_json1_1GetCelebrityInfoCommand(
   const response: GetCelebrityInfoCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCelebrityInfoResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3163,7 +3163,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
 ): Promise<GetCelebrityInfoCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3179,7 +3179,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3190,7 +3190,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3201,7 +3201,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3212,7 +3212,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3223,7 +3223,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3234,7 +3234,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3245,7 +3245,7 @@ async function deserializeAws_json1_1GetCelebrityInfoCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3273,7 +3273,7 @@ export async function deserializeAws_json1_1GetCelebrityRecognitionCommand(
   const response: GetCelebrityRecognitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCelebrityRecognitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3284,7 +3284,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
 ): Promise<GetCelebrityRecognitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3300,7 +3300,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3311,7 +3311,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3322,7 +3322,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3333,7 +3333,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3344,7 +3344,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3355,7 +3355,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3366,7 +3366,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3377,7 +3377,7 @@ async function deserializeAws_json1_1GetCelebrityRecognitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3402,7 +3402,7 @@ export async function deserializeAws_json1_1GetContentModerationCommand(
   const response: GetContentModerationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetContentModerationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3413,7 +3413,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
 ): Promise<GetContentModerationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3429,7 +3429,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3440,7 +3440,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3451,7 +3451,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3462,7 +3462,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3473,7 +3473,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3484,7 +3484,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3495,7 +3495,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3506,7 +3506,7 @@ async function deserializeAws_json1_1GetContentModerationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3528,7 +3528,7 @@ export async function deserializeAws_json1_1GetFaceDetectionCommand(
   const response: GetFaceDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetFaceDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3539,7 +3539,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
 ): Promise<GetFaceDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3555,7 +3555,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3566,7 +3566,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3577,7 +3577,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3588,7 +3588,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3599,7 +3599,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3610,7 +3610,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3621,7 +3621,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3632,7 +3632,7 @@ async function deserializeAws_json1_1GetFaceDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3654,7 +3654,7 @@ export async function deserializeAws_json1_1GetFaceSearchCommand(
   const response: GetFaceSearchCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetFaceSearchResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3665,7 +3665,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
 ): Promise<GetFaceSearchCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3681,7 +3681,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3692,7 +3692,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3703,7 +3703,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3714,7 +3714,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3725,7 +3725,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3736,7 +3736,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3747,7 +3747,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3758,7 +3758,7 @@ async function deserializeAws_json1_1GetFaceSearchCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3780,7 +3780,7 @@ export async function deserializeAws_json1_1GetLabelDetectionCommand(
   const response: GetLabelDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLabelDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3791,7 +3791,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
 ): Promise<GetLabelDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3807,7 +3807,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3818,7 +3818,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3829,7 +3829,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3840,7 +3840,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3851,7 +3851,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3862,7 +3862,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3873,7 +3873,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3884,7 +3884,7 @@ async function deserializeAws_json1_1GetLabelDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3906,7 +3906,7 @@ export async function deserializeAws_json1_1GetPersonTrackingCommand(
   const response: GetPersonTrackingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetPersonTrackingResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3917,7 +3917,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
 ): Promise<GetPersonTrackingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3933,7 +3933,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -3944,7 +3944,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -3955,7 +3955,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3966,7 +3966,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -3977,7 +3977,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3988,7 +3988,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -3999,7 +3999,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4010,7 +4010,7 @@ async function deserializeAws_json1_1GetPersonTrackingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4032,7 +4032,7 @@ export async function deserializeAws_json1_1IndexFacesCommand(
   const response: IndexFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "IndexFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4043,7 +4043,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
 ): Promise<IndexFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4059,7 +4059,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -4070,7 +4070,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4081,7 +4081,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -4092,7 +4092,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4103,7 +4103,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -4114,7 +4114,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4125,7 +4125,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4136,7 +4136,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4147,7 +4147,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4158,7 +4158,7 @@ async function deserializeAws_json1_1IndexFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4180,7 +4180,7 @@ export async function deserializeAws_json1_1ListCollectionsCommand(
   const response: ListCollectionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCollectionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4191,7 +4191,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
 ): Promise<ListCollectionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4207,7 +4207,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4218,7 +4218,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -4229,7 +4229,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4240,7 +4240,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4251,7 +4251,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4262,7 +4262,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4273,7 +4273,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4284,7 +4284,7 @@ async function deserializeAws_json1_1ListCollectionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4306,7 +4306,7 @@ export async function deserializeAws_json1_1ListFacesCommand(
   const response: ListFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4317,7 +4317,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
 ): Promise<ListFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4333,7 +4333,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4344,7 +4344,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -4355,7 +4355,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4366,7 +4366,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4377,7 +4377,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4388,7 +4388,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4399,7 +4399,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4410,7 +4410,7 @@ async function deserializeAws_json1_1ListFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4435,7 +4435,7 @@ export async function deserializeAws_json1_1ListStreamProcessorsCommand(
   const response: ListStreamProcessorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListStreamProcessorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4446,7 +4446,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
 ): Promise<ListStreamProcessorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4462,7 +4462,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4473,7 +4473,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidPaginationTokenException":
@@ -4484,7 +4484,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4495,7 +4495,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4506,7 +4506,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4517,7 +4517,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4528,7 +4528,7 @@ async function deserializeAws_json1_1ListStreamProcessorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4553,7 +4553,7 @@ export async function deserializeAws_json1_1RecognizeCelebritiesCommand(
   const response: RecognizeCelebritiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RecognizeCelebritiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4564,7 +4564,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
 ): Promise<RecognizeCelebritiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4580,7 +4580,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -4591,7 +4591,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4602,7 +4602,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -4613,7 +4613,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4624,7 +4624,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -4635,7 +4635,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4646,7 +4646,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4657,7 +4657,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4668,7 +4668,7 @@ async function deserializeAws_json1_1RecognizeCelebritiesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4690,7 +4690,7 @@ export async function deserializeAws_json1_1SearchFacesCommand(
   const response: SearchFacesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SearchFacesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4701,7 +4701,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
 ): Promise<SearchFacesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4717,7 +4717,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4728,7 +4728,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4739,7 +4739,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4750,7 +4750,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4761,7 +4761,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4772,7 +4772,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4783,7 +4783,7 @@ async function deserializeAws_json1_1SearchFacesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4808,7 +4808,7 @@ export async function deserializeAws_json1_1SearchFacesByImageCommand(
   const response: SearchFacesByImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SearchFacesByImageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4819,7 +4819,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
 ): Promise<SearchFacesByImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4835,7 +4835,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTooLargeException":
@@ -4846,7 +4846,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -4857,7 +4857,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImageFormatException":
@@ -4868,7 +4868,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -4879,7 +4879,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -4890,7 +4890,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -4901,7 +4901,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4912,7 +4912,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -4923,7 +4923,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4934,7 +4934,7 @@ async function deserializeAws_json1_1SearchFacesByImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4962,7 +4962,7 @@ export async function deserializeAws_json1_1StartCelebrityRecognitionCommand(
   const response: StartCelebrityRecognitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartCelebrityRecognitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4973,7 +4973,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
 ): Promise<StartCelebrityRecognitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4989,7 +4989,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5000,7 +5000,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5011,7 +5011,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5022,7 +5022,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5033,7 +5033,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5044,7 +5044,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5055,7 +5055,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5066,7 +5066,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5077,7 +5077,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5088,7 +5088,7 @@ async function deserializeAws_json1_1StartCelebrityRecognitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5116,7 +5116,7 @@ export async function deserializeAws_json1_1StartContentModerationCommand(
   const response: StartContentModerationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartContentModerationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5127,7 +5127,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
 ): Promise<StartContentModerationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5143,7 +5143,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5154,7 +5154,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5165,7 +5165,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5176,7 +5176,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5187,7 +5187,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5198,7 +5198,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5209,7 +5209,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5220,7 +5220,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5231,7 +5231,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5242,7 +5242,7 @@ async function deserializeAws_json1_1StartContentModerationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5267,7 +5267,7 @@ export async function deserializeAws_json1_1StartFaceDetectionCommand(
   const response: StartFaceDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartFaceDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5278,7 +5278,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
 ): Promise<StartFaceDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5294,7 +5294,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5305,7 +5305,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5316,7 +5316,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5327,7 +5327,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5338,7 +5338,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5349,7 +5349,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5360,7 +5360,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5371,7 +5371,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5382,7 +5382,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5393,7 +5393,7 @@ async function deserializeAws_json1_1StartFaceDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5415,7 +5415,7 @@ export async function deserializeAws_json1_1StartFaceSearchCommand(
   const response: StartFaceSearchCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartFaceSearchResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5426,7 +5426,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
 ): Promise<StartFaceSearchCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5442,7 +5442,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5453,7 +5453,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5464,7 +5464,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5475,7 +5475,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5486,7 +5486,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5497,7 +5497,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5508,7 +5508,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -5519,7 +5519,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5530,7 +5530,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5541,7 +5541,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5552,7 +5552,7 @@ async function deserializeAws_json1_1StartFaceSearchCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5577,7 +5577,7 @@ export async function deserializeAws_json1_1StartLabelDetectionCommand(
   const response: StartLabelDetectionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartLabelDetectionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5588,7 +5588,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
 ): Promise<StartLabelDetectionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5604,7 +5604,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5615,7 +5615,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5626,7 +5626,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5637,7 +5637,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5648,7 +5648,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5659,7 +5659,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5670,7 +5670,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5681,7 +5681,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5692,7 +5692,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5703,7 +5703,7 @@ async function deserializeAws_json1_1StartLabelDetectionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5728,7 +5728,7 @@ export async function deserializeAws_json1_1StartPersonTrackingCommand(
   const response: StartPersonTrackingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartPersonTrackingResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5739,7 +5739,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
 ): Promise<StartPersonTrackingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5755,7 +5755,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IdempotentParameterMismatchException":
@@ -5766,7 +5766,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5777,7 +5777,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5788,7 +5788,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ObjectException":
@@ -5799,7 +5799,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5810,7 +5810,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5821,7 +5821,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5832,7 +5832,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "VideoTooLargeException":
@@ -5843,7 +5843,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5854,7 +5854,7 @@ async function deserializeAws_json1_1StartPersonTrackingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5879,7 +5879,7 @@ export async function deserializeAws_json1_1StartProjectVersionCommand(
   const response: StartProjectVersionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartProjectVersionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5890,7 +5890,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
 ): Promise<StartProjectVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5906,7 +5906,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -5917,7 +5917,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -5928,7 +5928,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -5939,7 +5939,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -5950,7 +5950,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -5961,7 +5961,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -5972,7 +5972,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -5983,7 +5983,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5994,7 +5994,7 @@ async function deserializeAws_json1_1StartProjectVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6019,7 +6019,7 @@ export async function deserializeAws_json1_1StartStreamProcessorCommand(
   const response: StartStreamProcessorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartStreamProcessorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6030,7 +6030,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
 ): Promise<StartStreamProcessorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6046,7 +6046,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -6057,7 +6057,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -6068,7 +6068,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -6079,7 +6079,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -6090,7 +6090,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -6101,7 +6101,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -6112,7 +6112,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6123,7 +6123,7 @@ async function deserializeAws_json1_1StartStreamProcessorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6148,7 +6148,7 @@ export async function deserializeAws_json1_1StopProjectVersionCommand(
   const response: StopProjectVersionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopProjectVersionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6159,7 +6159,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
 ): Promise<StopProjectVersionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6175,7 +6175,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -6186,7 +6186,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -6197,7 +6197,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -6208,7 +6208,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -6219,7 +6219,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -6230,7 +6230,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -6241,7 +6241,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6252,7 +6252,7 @@ async function deserializeAws_json1_1StopProjectVersionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6277,7 +6277,7 @@ export async function deserializeAws_json1_1StopStreamProcessorCommand(
   const response: StopStreamProcessorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopStreamProcessorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6288,7 +6288,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
 ): Promise<StopStreamProcessorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6304,7 +6304,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -6315,7 +6315,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -6326,7 +6326,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProvisionedThroughputExceededException":
@@ -6337,7 +6337,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -6348,7 +6348,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -6359,7 +6359,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ThrottlingException":
@@ -6370,7 +6370,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6381,7 +6381,7 @@ async function deserializeAws_json1_1StopStreamProcessorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6403,7 +6403,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6421,7 +6421,7 @@ const deserializeAws_json1_1HumanLoopQuotaExceededExceptionResponse = async (
     name: "HumanLoopQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6439,7 +6439,7 @@ const deserializeAws_json1_1IdempotentParameterMismatchExceptionResponse = async
     name: "IdempotentParameterMismatchException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6457,7 +6457,7 @@ const deserializeAws_json1_1ImageTooLargeExceptionResponse = async (
     name: "ImageTooLargeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6475,7 +6475,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6493,7 +6493,7 @@ const deserializeAws_json1_1InvalidImageFormatExceptionResponse = async (
     name: "InvalidImageFormatException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6511,7 +6511,7 @@ const deserializeAws_json1_1InvalidPaginationTokenExceptionResponse = async (
     name: "InvalidPaginationTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6529,7 +6529,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6547,7 +6547,7 @@ const deserializeAws_json1_1InvalidS3ObjectExceptionResponse = async (
     name: "InvalidS3ObjectException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6565,7 +6565,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6583,7 +6583,7 @@ const deserializeAws_json1_1ProvisionedThroughputExceededExceptionResponse = asy
     name: "ProvisionedThroughputExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6601,7 +6601,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsExceptionResponse = async (
     name: "ResourceAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6619,7 +6619,7 @@ const deserializeAws_json1_1ResourceInUseExceptionResponse = async (
     name: "ResourceInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6637,7 +6637,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6655,7 +6655,7 @@ const deserializeAws_json1_1ResourceNotReadyExceptionResponse = async (
     name: "ResourceNotReadyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6673,7 +6673,7 @@ const deserializeAws_json1_1ThrottlingExceptionResponse = async (
     name: "ThrottlingException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6691,7 +6691,7 @@ const deserializeAws_json1_1VideoTooLargeExceptionResponse = async (
     name: "VideoTooLargeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7751,7 +7751,7 @@ const deserializeAws_json1_1AccessDeniedException = (
     __type: "AccessDeniedException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -7772,7 +7772,7 @@ const deserializeAws_json1_1AgeRange = (
   let contents: any = {
     __type: "AgeRange",
     High: undefined,
-    Low: undefined
+    Low: undefined,
   };
   if (output.High !== undefined && output.High !== null) {
     contents.High = output.High;
@@ -7789,7 +7789,7 @@ const deserializeAws_json1_1Asset = (
 ): Asset => {
   let contents: any = {
     __type: "Asset",
-    GroundTruthManifest: undefined
+    GroundTruthManifest: undefined,
   };
   if (
     output.GroundTruthManifest !== undefined &&
@@ -7819,7 +7819,7 @@ const deserializeAws_json1_1Beard = (
   let contents: any = {
     __type: "Beard",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -7839,7 +7839,7 @@ const deserializeAws_json1_1BoundingBox = (
     Height: undefined,
     Left: undefined,
     Top: undefined,
-    Width: undefined
+    Width: undefined,
   };
   if (output.Height !== undefined && output.Height !== null) {
     contents.Height = output.Height;
@@ -7866,7 +7866,7 @@ const deserializeAws_json1_1Celebrity = (
     Id: undefined,
     MatchConfidence: undefined,
     Name: undefined,
-    Urls: undefined
+    Urls: undefined,
   };
   if (output.Face !== undefined && output.Face !== null) {
     contents.Face = deserializeAws_json1_1ComparedFace(output.Face, context);
@@ -7897,7 +7897,7 @@ const deserializeAws_json1_1CelebrityDetail = (
     Face: undefined,
     Id: undefined,
     Name: undefined,
-    Urls: undefined
+    Urls: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -7939,7 +7939,7 @@ const deserializeAws_json1_1CelebrityRecognition = (
   let contents: any = {
     __type: "CelebrityRecognition",
     Celebrity: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.Celebrity !== undefined && output.Celebrity !== null) {
     contents.Celebrity = deserializeAws_json1_1CelebrityDetail(
@@ -7976,7 +7976,7 @@ const deserializeAws_json1_1CompareFacesMatch = (
   let contents: any = {
     __type: "CompareFacesMatch",
     Face: undefined,
-    Similarity: undefined
+    Similarity: undefined,
   };
   if (output.Face !== undefined && output.Face !== null) {
     contents.Face = deserializeAws_json1_1ComparedFace(output.Face, context);
@@ -8006,7 +8006,7 @@ const deserializeAws_json1_1CompareFacesResponse = (
     SourceImageFace: undefined,
     SourceImageOrientationCorrection: undefined,
     TargetImageOrientationCorrection: undefined,
-    UnmatchedFaces: undefined
+    UnmatchedFaces: undefined,
   };
   if (output.FaceMatches !== undefined && output.FaceMatches !== null) {
     contents.FaceMatches = deserializeAws_json1_1CompareFacesMatchList(
@@ -8062,7 +8062,7 @@ const deserializeAws_json1_1ComparedFace = (
     Confidence: undefined,
     Landmarks: undefined,
     Pose: undefined,
-    Quality: undefined
+    Quality: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -8107,7 +8107,7 @@ const deserializeAws_json1_1ComparedSourceImageFace = (
   let contents: any = {
     __type: "ComparedSourceImageFace",
     BoundingBox: undefined,
-    Confidence: undefined
+    Confidence: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -8128,7 +8128,7 @@ const deserializeAws_json1_1ContentModerationDetection = (
   let contents: any = {
     __type: "ContentModerationDetection",
     ModerationLabel: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.ModerationLabel !== undefined && output.ModerationLabel !== null) {
     contents.ModerationLabel = deserializeAws_json1_1ModerationLabel(
@@ -8159,7 +8159,7 @@ const deserializeAws_json1_1CreateCollectionResponse = (
     __type: "CreateCollectionResponse",
     CollectionArn: undefined,
     FaceModelVersion: undefined,
-    StatusCode: undefined
+    StatusCode: undefined,
   };
   if (output.CollectionArn !== undefined && output.CollectionArn !== null) {
     contents.CollectionArn = output.CollectionArn;
@@ -8182,7 +8182,7 @@ const deserializeAws_json1_1CreateProjectResponse = (
 ): CreateProjectResponse => {
   let contents: any = {
     __type: "CreateProjectResponse",
-    ProjectArn: undefined
+    ProjectArn: undefined,
   };
   if (output.ProjectArn !== undefined && output.ProjectArn !== null) {
     contents.ProjectArn = output.ProjectArn;
@@ -8196,7 +8196,7 @@ const deserializeAws_json1_1CreateProjectVersionResponse = (
 ): CreateProjectVersionResponse => {
   let contents: any = {
     __type: "CreateProjectVersionResponse",
-    ProjectVersionArn: undefined
+    ProjectVersionArn: undefined,
   };
   if (
     output.ProjectVersionArn !== undefined &&
@@ -8213,7 +8213,7 @@ const deserializeAws_json1_1CreateStreamProcessorResponse = (
 ): CreateStreamProcessorResponse => {
   let contents: any = {
     __type: "CreateStreamProcessorResponse",
-    StreamProcessorArn: undefined
+    StreamProcessorArn: undefined,
   };
   if (
     output.StreamProcessorArn !== undefined &&
@@ -8232,7 +8232,7 @@ const deserializeAws_json1_1CustomLabel = (
     __type: "CustomLabel",
     Confidence: undefined,
     Geometry: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -8264,7 +8264,7 @@ const deserializeAws_json1_1DeleteCollectionResponse = (
 ): DeleteCollectionResponse => {
   let contents: any = {
     __type: "DeleteCollectionResponse",
-    StatusCode: undefined
+    StatusCode: undefined,
   };
   if (output.StatusCode !== undefined && output.StatusCode !== null) {
     contents.StatusCode = output.StatusCode;
@@ -8278,7 +8278,7 @@ const deserializeAws_json1_1DeleteFacesResponse = (
 ): DeleteFacesResponse => {
   let contents: any = {
     __type: "DeleteFacesResponse",
-    DeletedFaces: undefined
+    DeletedFaces: undefined,
   };
   if (output.DeletedFaces !== undefined && output.DeletedFaces !== null) {
     contents.DeletedFaces = deserializeAws_json1_1FaceIdList(
@@ -8294,7 +8294,7 @@ const deserializeAws_json1_1DeleteStreamProcessorResponse = (
   context: __SerdeContext
 ): DeleteStreamProcessorResponse => {
   let contents: any = {
-    __type: "DeleteStreamProcessorResponse"
+    __type: "DeleteStreamProcessorResponse",
   };
   return contents;
 };
@@ -8308,7 +8308,7 @@ const deserializeAws_json1_1DescribeCollectionResponse = (
     CollectionARN: undefined,
     CreationTimestamp: undefined,
     FaceCount: undefined,
-    FaceModelVersion: undefined
+    FaceModelVersion: undefined,
   };
   if (output.CollectionARN !== undefined && output.CollectionARN !== null) {
     contents.CollectionARN = output.CollectionARN;
@@ -8340,7 +8340,7 @@ const deserializeAws_json1_1DescribeProjectVersionsResponse = (
   let contents: any = {
     __type: "DescribeProjectVersionsResponse",
     NextToken: undefined,
-    ProjectVersionDescriptions: undefined
+    ProjectVersionDescriptions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -8364,7 +8364,7 @@ const deserializeAws_json1_1DescribeProjectsResponse = (
   let contents: any = {
     __type: "DescribeProjectsResponse",
     NextToken: undefined,
-    ProjectDescriptions: undefined
+    ProjectDescriptions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -8396,7 +8396,7 @@ const deserializeAws_json1_1DescribeStreamProcessorResponse = (
     Settings: undefined,
     Status: undefined,
     StatusMessage: undefined,
-    StreamProcessorArn: undefined
+    StreamProcessorArn: undefined,
   };
   if (
     output.CreationTimestamp !== undefined &&
@@ -8459,7 +8459,7 @@ const deserializeAws_json1_1DetectCustomLabelsResponse = (
 ): DetectCustomLabelsResponse => {
   let contents: any = {
     __type: "DetectCustomLabelsResponse",
-    CustomLabels: undefined
+    CustomLabels: undefined,
   };
   if (output.CustomLabels !== undefined && output.CustomLabels !== null) {
     contents.CustomLabels = deserializeAws_json1_1CustomLabels(
@@ -8477,7 +8477,7 @@ const deserializeAws_json1_1DetectFacesResponse = (
   let contents: any = {
     __type: "DetectFacesResponse",
     FaceDetails: undefined,
-    OrientationCorrection: undefined
+    OrientationCorrection: undefined,
   };
   if (output.FaceDetails !== undefined && output.FaceDetails !== null) {
     contents.FaceDetails = deserializeAws_json1_1FaceDetailList(
@@ -8502,7 +8502,7 @@ const deserializeAws_json1_1DetectLabelsResponse = (
     __type: "DetectLabelsResponse",
     LabelModelVersion: undefined,
     Labels: undefined,
-    OrientationCorrection: undefined
+    OrientationCorrection: undefined,
   };
   if (
     output.LabelModelVersion !== undefined &&
@@ -8530,7 +8530,7 @@ const deserializeAws_json1_1DetectModerationLabelsResponse = (
     __type: "DetectModerationLabelsResponse",
     HumanLoopActivationOutput: undefined,
     ModerationLabels: undefined,
-    ModerationModelVersion: undefined
+    ModerationModelVersion: undefined,
   };
   if (
     output.HumanLoopActivationOutput !== undefined &&
@@ -8565,7 +8565,7 @@ const deserializeAws_json1_1DetectTextResponse = (
 ): DetectTextResponse => {
   let contents: any = {
     __type: "DetectTextResponse",
-    TextDetections: undefined
+    TextDetections: undefined,
   };
   if (output.TextDetections !== undefined && output.TextDetections !== null) {
     contents.TextDetections = deserializeAws_json1_1TextDetectionList(
@@ -8583,7 +8583,7 @@ const deserializeAws_json1_1Emotion = (
   let contents: any = {
     __type: "Emotion",
     Confidence: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -8610,7 +8610,7 @@ const deserializeAws_json1_1EvaluationResult = (
   let contents: any = {
     __type: "EvaluationResult",
     F1Score: undefined,
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.F1Score !== undefined && output.F1Score !== null) {
     contents.F1Score = output.F1Score;
@@ -8628,7 +8628,7 @@ const deserializeAws_json1_1EyeOpen = (
   let contents: any = {
     __type: "EyeOpen",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -8646,7 +8646,7 @@ const deserializeAws_json1_1Eyeglasses = (
   let contents: any = {
     __type: "Eyeglasses",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -8667,7 +8667,7 @@ const deserializeAws_json1_1Face = (
     Confidence: undefined,
     ExternalImageId: undefined,
     FaceId: undefined,
-    ImageId: undefined
+    ImageId: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -8710,7 +8710,7 @@ const deserializeAws_json1_1FaceDetail = (
     Pose: undefined,
     Quality: undefined,
     Smile: undefined,
-    Sunglasses: undefined
+    Sunglasses: undefined,
   };
   if (output.AgeRange !== undefined && output.AgeRange !== null) {
     contents.AgeRange = deserializeAws_json1_1AgeRange(
@@ -8803,7 +8803,7 @@ const deserializeAws_json1_1FaceDetection = (
   let contents: any = {
     __type: "FaceDetection",
     Face: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.Face !== undefined && output.Face !== null) {
     contents.Face = deserializeAws_json1_1FaceDetail(output.Face, context);
@@ -8846,7 +8846,7 @@ const deserializeAws_json1_1FaceMatch = (
   let contents: any = {
     __type: "FaceMatch",
     Face: undefined,
-    Similarity: undefined
+    Similarity: undefined,
   };
   if (output.Face !== undefined && output.Face !== null) {
     contents.Face = deserializeAws_json1_1Face(output.Face, context);
@@ -8880,7 +8880,7 @@ const deserializeAws_json1_1FaceRecord = (
   let contents: any = {
     __type: "FaceRecord",
     Face: undefined,
-    FaceDetail: undefined
+    FaceDetail: undefined,
   };
   if (output.Face !== undefined && output.Face !== null) {
     contents.Face = deserializeAws_json1_1Face(output.Face, context);
@@ -8910,7 +8910,7 @@ const deserializeAws_json1_1FaceSearchSettings = (
   let contents: any = {
     __type: "FaceSearchSettings",
     CollectionId: undefined,
-    FaceMatchThreshold: undefined
+    FaceMatchThreshold: undefined,
   };
   if (output.CollectionId !== undefined && output.CollectionId !== null) {
     contents.CollectionId = output.CollectionId;
@@ -8931,7 +8931,7 @@ const deserializeAws_json1_1Gender = (
   let contents: any = {
     __type: "Gender",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -8949,7 +8949,7 @@ const deserializeAws_json1_1Geometry = (
   let contents: any = {
     __type: "Geometry",
     BoundingBox: undefined,
-    Polygon: undefined
+    Polygon: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -8970,7 +8970,7 @@ const deserializeAws_json1_1GetCelebrityInfoResponse = (
   let contents: any = {
     __type: "GetCelebrityInfoResponse",
     Name: undefined,
-    Urls: undefined
+    Urls: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -8991,7 +8991,7 @@ const deserializeAws_json1_1GetCelebrityRecognitionResponse = (
     JobStatus: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.Celebrities !== undefined && output.Celebrities !== null) {
     contents.Celebrities = deserializeAws_json1_1CelebrityRecognitions(
@@ -9028,7 +9028,7 @@ const deserializeAws_json1_1GetContentModerationResponse = (
     ModerationModelVersion: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.JobStatus !== undefined && output.JobStatus !== null) {
     contents.JobStatus = output.JobStatus;
@@ -9073,7 +9073,7 @@ const deserializeAws_json1_1GetFaceDetectionResponse = (
     JobStatus: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.Faces !== undefined && output.Faces !== null) {
     contents.Faces = deserializeAws_json1_1FaceDetections(
@@ -9109,7 +9109,7 @@ const deserializeAws_json1_1GetFaceSearchResponse = (
     NextToken: undefined,
     Persons: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.JobStatus !== undefined && output.JobStatus !== null) {
     contents.JobStatus = output.JobStatus;
@@ -9146,7 +9146,7 @@ const deserializeAws_json1_1GetLabelDetectionResponse = (
     Labels: undefined,
     NextToken: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.JobStatus !== undefined && output.JobStatus !== null) {
     contents.JobStatus = output.JobStatus;
@@ -9188,7 +9188,7 @@ const deserializeAws_json1_1GetPersonTrackingResponse = (
     NextToken: undefined,
     Persons: undefined,
     StatusMessage: undefined,
-    VideoMetadata: undefined
+    VideoMetadata: undefined,
   };
   if (output.JobStatus !== undefined && output.JobStatus !== null) {
     contents.JobStatus = output.JobStatus;
@@ -9220,7 +9220,7 @@ const deserializeAws_json1_1GroundTruthManifest = (
 ): GroundTruthManifest => {
   let contents: any = {
     __type: "GroundTruthManifest",
-    S3Object: undefined
+    S3Object: undefined,
   };
   if (output.S3Object !== undefined && output.S3Object !== null) {
     contents.S3Object = deserializeAws_json1_1S3Object(
@@ -9239,7 +9239,7 @@ const deserializeAws_json1_1HumanLoopActivationOutput = (
     __type: "HumanLoopActivationOutput",
     HumanLoopActivationConditionsEvaluationResults: undefined,
     HumanLoopActivationReasons: undefined,
-    HumanLoopArn: undefined
+    HumanLoopArn: undefined,
   };
   if (
     output.HumanLoopActivationConditionsEvaluationResults !== undefined &&
@@ -9282,7 +9282,7 @@ const deserializeAws_json1_1HumanLoopQuotaExceededException = (
     Message: undefined,
     QuotaCode: undefined,
     ResourceType: undefined,
-    ServiceCode: undefined
+    ServiceCode: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9313,7 +9313,7 @@ const deserializeAws_json1_1IdempotentParameterMismatchException = (
     __type: "IdempotentParameterMismatchException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9334,7 +9334,7 @@ const deserializeAws_json1_1ImageQuality = (
   let contents: any = {
     __type: "ImageQuality",
     Brightness: undefined,
-    Sharpness: undefined
+    Sharpness: undefined,
   };
   if (output.Brightness !== undefined && output.Brightness !== null) {
     contents.Brightness = output.Brightness;
@@ -9353,7 +9353,7 @@ const deserializeAws_json1_1ImageTooLargeException = (
     __type: "ImageTooLargeException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9376,7 +9376,7 @@ const deserializeAws_json1_1IndexFacesResponse = (
     FaceModelVersion: undefined,
     FaceRecords: undefined,
     OrientationCorrection: undefined,
-    UnindexedFaces: undefined
+    UnindexedFaces: undefined,
   };
   if (
     output.FaceModelVersion !== undefined &&
@@ -9412,7 +9412,7 @@ const deserializeAws_json1_1Instance = (
   let contents: any = {
     __type: "Instance",
     BoundingBox: undefined,
-    Confidence: undefined
+    Confidence: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -9443,7 +9443,7 @@ const deserializeAws_json1_1InternalServerError = (
     __type: "InternalServerError",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9465,7 +9465,7 @@ const deserializeAws_json1_1InvalidImageFormatException = (
     __type: "InvalidImageFormatException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9487,7 +9487,7 @@ const deserializeAws_json1_1InvalidPaginationTokenException = (
     __type: "InvalidPaginationTokenException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9509,7 +9509,7 @@ const deserializeAws_json1_1InvalidParameterException = (
     __type: "InvalidParameterException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9531,7 +9531,7 @@ const deserializeAws_json1_1InvalidS3ObjectException = (
     __type: "InvalidS3ObjectException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9551,7 +9551,7 @@ const deserializeAws_json1_1KinesisDataStream = (
 ): KinesisDataStream => {
   let contents: any = {
     __type: "KinesisDataStream",
-    Arn: undefined
+    Arn: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -9565,7 +9565,7 @@ const deserializeAws_json1_1KinesisVideoStream = (
 ): KinesisVideoStream => {
   let contents: any = {
     __type: "KinesisVideoStream",
-    Arn: undefined
+    Arn: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -9582,7 +9582,7 @@ const deserializeAws_json1_1Label = (
     Confidence: undefined,
     Instances: undefined,
     Name: undefined,
-    Parents: undefined
+    Parents: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -9609,7 +9609,7 @@ const deserializeAws_json1_1LabelDetection = (
   let contents: any = {
     __type: "LabelDetection",
     Label: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.Label !== undefined && output.Label !== null) {
     contents.Label = deserializeAws_json1_1Label(output.Label, context);
@@ -9646,7 +9646,7 @@ const deserializeAws_json1_1Landmark = (
     __type: "Landmark",
     Type: undefined,
     X: undefined,
-    Y: undefined
+    Y: undefined,
   };
   if (output.Type !== undefined && output.Type !== null) {
     contents.Type = output.Type;
@@ -9677,7 +9677,7 @@ const deserializeAws_json1_1LimitExceededException = (
     __type: "LimitExceededException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -9699,7 +9699,7 @@ const deserializeAws_json1_1ListCollectionsResponse = (
     __type: "ListCollectionsResponse",
     CollectionIds: undefined,
     FaceModelVersions: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.CollectionIds !== undefined && output.CollectionIds !== null) {
     contents.CollectionIds = deserializeAws_json1_1CollectionIdList(
@@ -9730,7 +9730,7 @@ const deserializeAws_json1_1ListFacesResponse = (
     __type: "ListFacesResponse",
     FaceModelVersion: undefined,
     Faces: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.FaceModelVersion !== undefined &&
@@ -9754,7 +9754,7 @@ const deserializeAws_json1_1ListStreamProcessorsResponse = (
   let contents: any = {
     __type: "ListStreamProcessorsResponse",
     NextToken: undefined,
-    StreamProcessors: undefined
+    StreamProcessors: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -9779,7 +9779,7 @@ const deserializeAws_json1_1ModerationLabel = (
     __type: "ModerationLabel",
     Confidence: undefined,
     Name: undefined,
-    ParentName: undefined
+    ParentName: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -9809,7 +9809,7 @@ const deserializeAws_json1_1MouthOpen = (
   let contents: any = {
     __type: "MouthOpen",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -9827,7 +9827,7 @@ const deserializeAws_json1_1Mustache = (
   let contents: any = {
     __type: "Mustache",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -9845,7 +9845,7 @@ const deserializeAws_json1_1OutputConfig = (
   let contents: any = {
     __type: "OutputConfig",
     S3Bucket: undefined,
-    S3KeyPrefix: undefined
+    S3KeyPrefix: undefined,
   };
   if (output.S3Bucket !== undefined && output.S3Bucket !== null) {
     contents.S3Bucket = output.S3Bucket;
@@ -9862,7 +9862,7 @@ const deserializeAws_json1_1Parent = (
 ): Parent => {
   let contents: any = {
     __type: "Parent",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -9887,7 +9887,7 @@ const deserializeAws_json1_1PersonDetail = (
     __type: "PersonDetail",
     BoundingBox: undefined,
     Face: undefined,
-    Index: undefined
+    Index: undefined,
   };
   if (output.BoundingBox !== undefined && output.BoundingBox !== null) {
     contents.BoundingBox = deserializeAws_json1_1BoundingBox(
@@ -9911,7 +9911,7 @@ const deserializeAws_json1_1PersonDetection = (
   let contents: any = {
     __type: "PersonDetection",
     Person: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.Person !== undefined && output.Person !== null) {
     contents.Person = deserializeAws_json1_1PersonDetail(
@@ -9942,7 +9942,7 @@ const deserializeAws_json1_1PersonMatch = (
     __type: "PersonMatch",
     FaceMatches: undefined,
     Person: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output.FaceMatches !== undefined && output.FaceMatches !== null) {
     contents.FaceMatches = deserializeAws_json1_1FaceMatchList(
@@ -9978,7 +9978,7 @@ const deserializeAws_json1_1Point = (
   let contents: any = {
     __type: "Point",
     X: undefined,
-    Y: undefined
+    Y: undefined,
   };
   if (output.X !== undefined && output.X !== null) {
     contents.X = output.X;
@@ -10006,7 +10006,7 @@ const deserializeAws_json1_1Pose = (
     __type: "Pose",
     Pitch: undefined,
     Roll: undefined,
-    Yaw: undefined
+    Yaw: undefined,
   };
   if (output.Pitch !== undefined && output.Pitch !== null) {
     contents.Pitch = output.Pitch;
@@ -10028,7 +10028,7 @@ const deserializeAws_json1_1ProjectDescription = (
     __type: "ProjectDescription",
     CreationTimestamp: undefined,
     ProjectArn: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (
     output.CreationTimestamp !== undefined &&
@@ -10072,7 +10072,7 @@ const deserializeAws_json1_1ProjectVersionDescription = (
     StatusMessage: undefined,
     TestingDataResult: undefined,
     TrainingDataResult: undefined,
-    TrainingEndTimestamp: undefined
+    TrainingEndTimestamp: undefined,
   };
   if (
     output.BillableTrainingTimeInSeconds !== undefined &&
@@ -10168,7 +10168,7 @@ const deserializeAws_json1_1ProvisionedThroughputExceededException = (
     __type: "ProvisionedThroughputExceededException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10197,7 +10197,7 @@ const deserializeAws_json1_1RecognizeCelebritiesResponse = (
     __type: "RecognizeCelebritiesResponse",
     CelebrityFaces: undefined,
     OrientationCorrection: undefined,
-    UnrecognizedFaces: undefined
+    UnrecognizedFaces: undefined,
   };
   if (output.CelebrityFaces !== undefined && output.CelebrityFaces !== null) {
     contents.CelebrityFaces = deserializeAws_json1_1CelebrityList(
@@ -10231,7 +10231,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsException = (
     __type: "ResourceAlreadyExistsException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10253,7 +10253,7 @@ const deserializeAws_json1_1ResourceInUseException = (
     __type: "ResourceInUseException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10275,7 +10275,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
     __type: "ResourceNotFoundException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10297,7 +10297,7 @@ const deserializeAws_json1_1ResourceNotReadyException = (
     __type: "ResourceNotReadyException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10319,7 +10319,7 @@ const deserializeAws_json1_1S3Object = (
     __type: "S3Object",
     Bucket: undefined,
     Name: undefined,
-    Version: undefined
+    Version: undefined,
   };
   if (output.Bucket !== undefined && output.Bucket !== null) {
     contents.Bucket = output.Bucket;
@@ -10342,7 +10342,7 @@ const deserializeAws_json1_1SearchFacesByImageResponse = (
     FaceMatches: undefined,
     FaceModelVersion: undefined,
     SearchedFaceBoundingBox: undefined,
-    SearchedFaceConfidence: undefined
+    SearchedFaceConfidence: undefined,
   };
   if (output.FaceMatches !== undefined && output.FaceMatches !== null) {
     contents.FaceMatches = deserializeAws_json1_1FaceMatchList(
@@ -10382,7 +10382,7 @@ const deserializeAws_json1_1SearchFacesResponse = (
     __type: "SearchFacesResponse",
     FaceMatches: undefined,
     FaceModelVersion: undefined,
-    SearchedFaceId: undefined
+    SearchedFaceId: undefined,
   };
   if (output.FaceMatches !== undefined && output.FaceMatches !== null) {
     contents.FaceMatches = deserializeAws_json1_1FaceMatchList(
@@ -10409,7 +10409,7 @@ const deserializeAws_json1_1Smile = (
   let contents: any = {
     __type: "Smile",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -10426,7 +10426,7 @@ const deserializeAws_json1_1StartCelebrityRecognitionResponse = (
 ): StartCelebrityRecognitionResponse => {
   let contents: any = {
     __type: "StartCelebrityRecognitionResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10440,7 +10440,7 @@ const deserializeAws_json1_1StartContentModerationResponse = (
 ): StartContentModerationResponse => {
   let contents: any = {
     __type: "StartContentModerationResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10454,7 +10454,7 @@ const deserializeAws_json1_1StartFaceDetectionResponse = (
 ): StartFaceDetectionResponse => {
   let contents: any = {
     __type: "StartFaceDetectionResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10468,7 +10468,7 @@ const deserializeAws_json1_1StartFaceSearchResponse = (
 ): StartFaceSearchResponse => {
   let contents: any = {
     __type: "StartFaceSearchResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10482,7 +10482,7 @@ const deserializeAws_json1_1StartLabelDetectionResponse = (
 ): StartLabelDetectionResponse => {
   let contents: any = {
     __type: "StartLabelDetectionResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10496,7 +10496,7 @@ const deserializeAws_json1_1StartPersonTrackingResponse = (
 ): StartPersonTrackingResponse => {
   let contents: any = {
     __type: "StartPersonTrackingResponse",
-    JobId: undefined
+    JobId: undefined,
   };
   if (output.JobId !== undefined && output.JobId !== null) {
     contents.JobId = output.JobId;
@@ -10510,7 +10510,7 @@ const deserializeAws_json1_1StartProjectVersionResponse = (
 ): StartProjectVersionResponse => {
   let contents: any = {
     __type: "StartProjectVersionResponse",
-    Status: undefined
+    Status: undefined,
   };
   if (output.Status !== undefined && output.Status !== null) {
     contents.Status = output.Status;
@@ -10523,7 +10523,7 @@ const deserializeAws_json1_1StartStreamProcessorResponse = (
   context: __SerdeContext
 ): StartStreamProcessorResponse => {
   let contents: any = {
-    __type: "StartStreamProcessorResponse"
+    __type: "StartStreamProcessorResponse",
   };
   return contents;
 };
@@ -10534,7 +10534,7 @@ const deserializeAws_json1_1StopProjectVersionResponse = (
 ): StopProjectVersionResponse => {
   let contents: any = {
     __type: "StopProjectVersionResponse",
-    Status: undefined
+    Status: undefined,
   };
   if (output.Status !== undefined && output.Status !== null) {
     contents.Status = output.Status;
@@ -10547,7 +10547,7 @@ const deserializeAws_json1_1StopStreamProcessorResponse = (
   context: __SerdeContext
 ): StopStreamProcessorResponse => {
   let contents: any = {
-    __type: "StopStreamProcessorResponse"
+    __type: "StopStreamProcessorResponse",
   };
   return contents;
 };
@@ -10559,7 +10559,7 @@ const deserializeAws_json1_1StreamProcessor = (
   let contents: any = {
     __type: "StreamProcessor",
     Name: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -10576,7 +10576,7 @@ const deserializeAws_json1_1StreamProcessorInput = (
 ): StreamProcessorInput => {
   let contents: any = {
     __type: "StreamProcessorInput",
-    KinesisVideoStream: undefined
+    KinesisVideoStream: undefined,
   };
   if (
     output.KinesisVideoStream !== undefined &&
@@ -10605,7 +10605,7 @@ const deserializeAws_json1_1StreamProcessorOutput = (
 ): StreamProcessorOutput => {
   let contents: any = {
     __type: "StreamProcessorOutput",
-    KinesisDataStream: undefined
+    KinesisDataStream: undefined,
   };
   if (
     output.KinesisDataStream !== undefined &&
@@ -10625,7 +10625,7 @@ const deserializeAws_json1_1StreamProcessorSettings = (
 ): StreamProcessorSettings => {
   let contents: any = {
     __type: "StreamProcessorSettings",
-    FaceSearch: undefined
+    FaceSearch: undefined,
   };
   if (output.FaceSearch !== undefined && output.FaceSearch !== null) {
     contents.FaceSearch = deserializeAws_json1_1FaceSearchSettings(
@@ -10642,7 +10642,7 @@ const deserializeAws_json1_1Summary = (
 ): Summary => {
   let contents: any = {
     __type: "Summary",
-    S3Object: undefined
+    S3Object: undefined,
   };
   if (output.S3Object !== undefined && output.S3Object !== null) {
     contents.S3Object = deserializeAws_json1_1S3Object(
@@ -10660,7 +10660,7 @@ const deserializeAws_json1_1Sunglasses = (
   let contents: any = {
     __type: "Sunglasses",
     Confidence: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -10678,7 +10678,7 @@ const deserializeAws_json1_1TestingData = (
   let contents: any = {
     __type: "TestingData",
     Assets: undefined,
-    AutoCreate: undefined
+    AutoCreate: undefined,
   };
   if (output.Assets !== undefined && output.Assets !== null) {
     contents.Assets = deserializeAws_json1_1Assets(output.Assets, context);
@@ -10696,7 +10696,7 @@ const deserializeAws_json1_1TestingDataResult = (
   let contents: any = {
     __type: "TestingDataResult",
     Input: undefined,
-    Output: undefined
+    Output: undefined,
   };
   if (output.Input !== undefined && output.Input !== null) {
     contents.Input = deserializeAws_json1_1TestingData(output.Input, context);
@@ -10718,7 +10718,7 @@ const deserializeAws_json1_1TextDetection = (
     Geometry: undefined,
     Id: undefined,
     ParentId: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Confidence !== undefined && output.Confidence !== null) {
     contents.Confidence = output.Confidence;
@@ -10761,7 +10761,7 @@ const deserializeAws_json1_1ThrottlingException = (
     __type: "ThrottlingException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10781,7 +10781,7 @@ const deserializeAws_json1_1TrainingData = (
 ): TrainingData => {
   let contents: any = {
     __type: "TrainingData",
-    Assets: undefined
+    Assets: undefined,
   };
   if (output.Assets !== undefined && output.Assets !== null) {
     contents.Assets = deserializeAws_json1_1Assets(output.Assets, context);
@@ -10796,7 +10796,7 @@ const deserializeAws_json1_1TrainingDataResult = (
   let contents: any = {
     __type: "TrainingDataResult",
     Input: undefined,
-    Output: undefined
+    Output: undefined,
   };
   if (output.Input !== undefined && output.Input !== null) {
     contents.Input = deserializeAws_json1_1TrainingData(output.Input, context);
@@ -10817,7 +10817,7 @@ const deserializeAws_json1_1UnindexedFace = (
   let contents: any = {
     __type: "UnindexedFace",
     FaceDetail: undefined,
-    Reasons: undefined
+    Reasons: undefined,
   };
   if (output.FaceDetail !== undefined && output.FaceDetail !== null) {
     contents.FaceDetail = deserializeAws_json1_1FaceDetail(
@@ -10858,7 +10858,7 @@ const deserializeAws_json1_1VideoMetadata = (
     Format: undefined,
     FrameHeight: undefined,
     FrameRate: undefined,
-    FrameWidth: undefined
+    FrameWidth: undefined,
   };
   if (output.Codec !== undefined && output.Codec !== null) {
     contents.Codec = output.Codec;
@@ -10889,7 +10889,7 @@ const deserializeAws_json1_1VideoTooLargeException = (
     __type: "VideoTooLargeException",
     Code: undefined,
     Logref: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -10906,7 +10906,7 @@ const deserializeAws_json1_1VideoTooLargeException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -10927,7 +10927,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -10940,11 +10940,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -10956,7 +10956,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

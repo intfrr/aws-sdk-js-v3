@@ -1,30 +1,30 @@
 import {
   DeletePlaybackConfigurationCommandInput,
-  DeletePlaybackConfigurationCommandOutput
+  DeletePlaybackConfigurationCommandOutput,
 } from "../commands/DeletePlaybackConfigurationCommand";
 import {
   GetPlaybackConfigurationCommandInput,
-  GetPlaybackConfigurationCommandOutput
+  GetPlaybackConfigurationCommandOutput,
 } from "../commands/GetPlaybackConfigurationCommand";
 import {
   ListPlaybackConfigurationsCommandInput,
-  ListPlaybackConfigurationsCommandOutput
+  ListPlaybackConfigurationsCommandOutput,
 } from "../commands/ListPlaybackConfigurationsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutPlaybackConfigurationCommandInput,
-  PutPlaybackConfigurationCommandOutput
+  PutPlaybackConfigurationCommandOutput,
 } from "../commands/PutPlaybackConfigurationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   BadRequestException,
@@ -33,21 +33,21 @@ import {
   DashConfigurationForPut,
   HlsConfiguration,
   LivePreRollConfiguration,
-  PlaybackConfiguration
+  PlaybackConfiguration,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1DeletePlaybackConfigurationCommand(
@@ -71,12 +71,12 @@ export async function serializeAws_restJson1_1DeletePlaybackConfigurationCommand
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -101,12 +101,12 @@ export async function serializeAws_restJson1_1GetPlaybackConfigurationCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -126,13 +126,13 @@ export async function serializeAws_restJson1_1ListPlaybackConfigurationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -159,12 +159,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -222,12 +222,12 @@ export async function serializeAws_restJson1_1PutPlaybackConfigurationCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -262,12 +262,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -294,17 +294,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.TagKeys !== undefined) {
-    query["tagKeys"] = (input.TagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.TagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -320,7 +320,7 @@ export async function deserializeAws_restJson1_1DeletePlaybackConfigurationComma
   }
   const contents: DeletePlaybackConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeletePlaybackConfigurationResponse"
+    __type: "DeletePlaybackConfigurationResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -332,7 +332,7 @@ async function deserializeAws_restJson1_1DeletePlaybackConfigurationCommandError
 ): Promise<DeletePlaybackConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -346,7 +346,7 @@ async function deserializeAws_restJson1_1DeletePlaybackConfigurationCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -380,7 +380,7 @@ export async function deserializeAws_restJson1_1GetPlaybackConfigurationCommand(
     SlateAdUrl: undefined,
     Tags: undefined,
     TranscodeProfileName: undefined,
-    VideoContentSourceUrl: undefined
+    VideoContentSourceUrl: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -468,7 +468,7 @@ async function deserializeAws_restJson1_1GetPlaybackConfigurationCommandError(
 ): Promise<GetPlaybackConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -482,7 +482,7 @@ async function deserializeAws_restJson1_1GetPlaybackConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -505,7 +505,7 @@ export async function deserializeAws_restJson1_1ListPlaybackConfigurationsComman
     $metadata: deserializeMetadata(output),
     __type: "ListPlaybackConfigurationsResponse",
     Items: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Items !== undefined && data.Items !== null) {
@@ -526,7 +526,7 @@ async function deserializeAws_restJson1_1ListPlaybackConfigurationsCommandError(
 ): Promise<ListPlaybackConfigurationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -540,7 +540,7 @@ async function deserializeAws_restJson1_1ListPlaybackConfigurationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -562,7 +562,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -580,7 +580,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -594,7 +594,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -605,7 +605,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -639,7 +639,7 @@ export async function deserializeAws_restJson1_1PutPlaybackConfigurationCommand(
     SlateAdUrl: undefined,
     Tags: undefined,
     TranscodeProfileName: undefined,
-    VideoContentSourceUrl: undefined
+    VideoContentSourceUrl: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -727,7 +727,7 @@ async function deserializeAws_restJson1_1PutPlaybackConfigurationCommandError(
 ): Promise<PutPlaybackConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -741,7 +741,7 @@ async function deserializeAws_restJson1_1PutPlaybackConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -758,7 +758,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
     return deserializeAws_restJson1_1TagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -770,7 +770,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -784,7 +784,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -795,7 +795,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -812,7 +812,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
     return deserializeAws_restJson1_1UntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -824,7 +824,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -838,7 +838,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -849,7 +849,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -866,7 +866,7 @@ const deserializeAws_restJson1_1BadRequestExceptionResponse = async (
     name: "BadRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Message !== undefined && data.Message !== null) {
@@ -922,7 +922,7 @@ const serializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -935,7 +935,7 @@ const deserializeAws_restJson1_1CdnConfiguration = (
   let contents: any = {
     __type: "CdnConfiguration",
     AdSegmentUrlPrefix: undefined,
-    ContentSegmentUrlPrefix: undefined
+    ContentSegmentUrlPrefix: undefined,
   };
   if (
     output.AdSegmentUrlPrefix !== undefined &&
@@ -960,7 +960,7 @@ const deserializeAws_restJson1_1DashConfiguration = (
     __type: "DashConfiguration",
     ManifestEndpointPrefix: undefined,
     MpdLocation: undefined,
-    OriginManifestType: undefined
+    OriginManifestType: undefined,
   };
   if (
     output.ManifestEndpointPrefix !== undefined &&
@@ -986,7 +986,7 @@ const deserializeAws_restJson1_1HlsConfiguration = (
 ): HlsConfiguration => {
   let contents: any = {
     __type: "HlsConfiguration",
-    ManifestEndpointPrefix: undefined
+    ManifestEndpointPrefix: undefined,
   };
   if (
     output.ManifestEndpointPrefix !== undefined &&
@@ -1004,7 +1004,7 @@ const deserializeAws_restJson1_1LivePreRollConfiguration = (
   let contents: any = {
     __type: "LivePreRollConfiguration",
     AdDecisionServerUrl: undefined,
-    MaxDurationSeconds: undefined
+    MaxDurationSeconds: undefined,
   };
   if (
     output.AdDecisionServerUrl !== undefined &&
@@ -1038,7 +1038,7 @@ const deserializeAws_restJson1_1PlaybackConfiguration = (
     SlateAdUrl: undefined,
     Tags: undefined,
     TranscodeProfileName: undefined,
-    VideoContentSourceUrl: undefined
+    VideoContentSourceUrl: undefined,
   };
   if (
     output.AdDecisionServerUrl !== undefined &&
@@ -1133,7 +1133,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -1142,7 +1142,7 @@ const deserializeAws_restJson1_1__mapOf__string = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1163,13 +1163,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1182,7 +1182,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

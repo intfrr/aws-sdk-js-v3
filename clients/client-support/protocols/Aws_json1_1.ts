@@ -1,58 +1,58 @@
 import {
   AddAttachmentsToSetCommandInput,
-  AddAttachmentsToSetCommandOutput
+  AddAttachmentsToSetCommandOutput,
 } from "../commands/AddAttachmentsToSetCommand";
 import {
   AddCommunicationToCaseCommandInput,
-  AddCommunicationToCaseCommandOutput
+  AddCommunicationToCaseCommandOutput,
 } from "../commands/AddCommunicationToCaseCommand";
 import {
   CreateCaseCommandInput,
-  CreateCaseCommandOutput
+  CreateCaseCommandOutput,
 } from "../commands/CreateCaseCommand";
 import {
   DescribeAttachmentCommandInput,
-  DescribeAttachmentCommandOutput
+  DescribeAttachmentCommandOutput,
 } from "../commands/DescribeAttachmentCommand";
 import {
   DescribeCasesCommandInput,
-  DescribeCasesCommandOutput
+  DescribeCasesCommandOutput,
 } from "../commands/DescribeCasesCommand";
 import {
   DescribeCommunicationsCommandInput,
-  DescribeCommunicationsCommandOutput
+  DescribeCommunicationsCommandOutput,
 } from "../commands/DescribeCommunicationsCommand";
 import {
   DescribeServicesCommandInput,
-  DescribeServicesCommandOutput
+  DescribeServicesCommandOutput,
 } from "../commands/DescribeServicesCommand";
 import {
   DescribeSeverityLevelsCommandInput,
-  DescribeSeverityLevelsCommandOutput
+  DescribeSeverityLevelsCommandOutput,
 } from "../commands/DescribeSeverityLevelsCommand";
 import {
   DescribeTrustedAdvisorCheckRefreshStatusesCommandInput,
-  DescribeTrustedAdvisorCheckRefreshStatusesCommandOutput
+  DescribeTrustedAdvisorCheckRefreshStatusesCommandOutput,
 } from "../commands/DescribeTrustedAdvisorCheckRefreshStatusesCommand";
 import {
   DescribeTrustedAdvisorCheckResultCommandInput,
-  DescribeTrustedAdvisorCheckResultCommandOutput
+  DescribeTrustedAdvisorCheckResultCommandOutput,
 } from "../commands/DescribeTrustedAdvisorCheckResultCommand";
 import {
   DescribeTrustedAdvisorCheckSummariesCommandInput,
-  DescribeTrustedAdvisorCheckSummariesCommandOutput
+  DescribeTrustedAdvisorCheckSummariesCommandOutput,
 } from "../commands/DescribeTrustedAdvisorCheckSummariesCommand";
 import {
   DescribeTrustedAdvisorChecksCommandInput,
-  DescribeTrustedAdvisorChecksCommandOutput
+  DescribeTrustedAdvisorChecksCommandOutput,
 } from "../commands/DescribeTrustedAdvisorChecksCommand";
 import {
   RefreshTrustedAdvisorCheckCommandInput,
-  RefreshTrustedAdvisorCheckCommandOutput
+  RefreshTrustedAdvisorCheckCommandOutput,
 } from "../commands/RefreshTrustedAdvisorCheckCommand";
 import {
   ResolveCaseCommandInput,
-  ResolveCaseCommandOutput
+  ResolveCaseCommandOutput,
 } from "../commands/ResolveCaseCommand";
 import {
   AddAttachmentsToSetRequest,
@@ -107,11 +107,11 @@ import {
   TrustedAdvisorCheckSummary,
   TrustedAdvisorCostOptimizingSummary,
   TrustedAdvisorResourceDetail,
-  TrustedAdvisorResourcesSummary
+  TrustedAdvisorResourcesSummary,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -119,7 +119,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AddAttachmentsToSetCommand(
@@ -339,7 +339,7 @@ export async function deserializeAws_json1_1AddAttachmentsToSetCommand(
   const response: AddAttachmentsToSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddAttachmentsToSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -350,7 +350,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
 ): Promise<AddAttachmentsToSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -366,7 +366,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AttachmentSetExpired":
@@ -377,7 +377,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AttachmentSetIdNotFound":
@@ -388,7 +388,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AttachmentSetSizeLimitExceeded":
@@ -399,7 +399,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -410,7 +410,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -421,7 +421,7 @@ async function deserializeAws_json1_1AddAttachmentsToSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -449,7 +449,7 @@ export async function deserializeAws_json1_1AddCommunicationToCaseCommand(
   const response: AddCommunicationToCaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddCommunicationToCaseResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -460,7 +460,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
 ): Promise<AddCommunicationToCaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -476,7 +476,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AttachmentSetIdNotFound":
@@ -487,7 +487,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CaseIdNotFound":
@@ -498,7 +498,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -509,7 +509,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -520,7 +520,7 @@ async function deserializeAws_json1_1AddCommunicationToCaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -542,7 +542,7 @@ export async function deserializeAws_json1_1CreateCaseCommand(
   const response: CreateCaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateCaseResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -553,7 +553,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
 ): Promise<CreateCaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -569,7 +569,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AttachmentSetIdNotFound":
@@ -580,7 +580,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CaseCreationLimitExceeded":
@@ -591,7 +591,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -602,7 +602,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -613,7 +613,7 @@ async function deserializeAws_json1_1CreateCaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -638,7 +638,7 @@ export async function deserializeAws_json1_1DescribeAttachmentCommand(
   const response: DescribeAttachmentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAttachmentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -649,7 +649,7 @@ async function deserializeAws_json1_1DescribeAttachmentCommandError(
 ): Promise<DescribeAttachmentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -665,7 +665,7 @@ async function deserializeAws_json1_1DescribeAttachmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DescribeAttachmentLimitExceeded":
@@ -676,7 +676,7 @@ async function deserializeAws_json1_1DescribeAttachmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -687,7 +687,7 @@ async function deserializeAws_json1_1DescribeAttachmentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -698,7 +698,7 @@ async function deserializeAws_json1_1DescribeAttachmentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -720,7 +720,7 @@ export async function deserializeAws_json1_1DescribeCasesCommand(
   const response: DescribeCasesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCasesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -731,7 +731,7 @@ async function deserializeAws_json1_1DescribeCasesCommandError(
 ): Promise<DescribeCasesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -747,7 +747,7 @@ async function deserializeAws_json1_1DescribeCasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -758,7 +758,7 @@ async function deserializeAws_json1_1DescribeCasesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -769,7 +769,7 @@ async function deserializeAws_json1_1DescribeCasesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -797,7 +797,7 @@ export async function deserializeAws_json1_1DescribeCommunicationsCommand(
   const response: DescribeCommunicationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCommunicationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -808,7 +808,7 @@ async function deserializeAws_json1_1DescribeCommunicationsCommandError(
 ): Promise<DescribeCommunicationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -824,7 +824,7 @@ async function deserializeAws_json1_1DescribeCommunicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -835,7 +835,7 @@ async function deserializeAws_json1_1DescribeCommunicationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -846,7 +846,7 @@ async function deserializeAws_json1_1DescribeCommunicationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -868,7 +868,7 @@ export async function deserializeAws_json1_1DescribeServicesCommand(
   const response: DescribeServicesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeServicesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
 ): Promise<DescribeServicesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -895,7 +895,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -906,7 +906,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -934,7 +934,7 @@ export async function deserializeAws_json1_1DescribeSeverityLevelsCommand(
   const response: DescribeSeverityLevelsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSeverityLevelsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -945,7 +945,7 @@ async function deserializeAws_json1_1DescribeSeverityLevelsCommandError(
 ): Promise<DescribeSeverityLevelsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -961,7 +961,7 @@ async function deserializeAws_json1_1DescribeSeverityLevelsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -972,7 +972,7 @@ async function deserializeAws_json1_1DescribeSeverityLevelsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -994,7 +994,7 @@ export async function deserializeAws_json1_1ResolveCaseCommand(
   const response: ResolveCaseCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResolveCaseResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1005,7 +1005,7 @@ async function deserializeAws_json1_1ResolveCaseCommandError(
 ): Promise<ResolveCaseCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1021,7 +1021,7 @@ async function deserializeAws_json1_1ResolveCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1032,7 +1032,7 @@ async function deserializeAws_json1_1ResolveCaseCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1043,7 +1043,7 @@ async function deserializeAws_json1_1ResolveCaseCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1071,7 +1071,7 @@ export async function deserializeAws_json1_1DescribeTrustedAdvisorCheckRefreshSt
   const response: DescribeTrustedAdvisorCheckRefreshStatusesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTrustedAdvisorCheckRefreshStatusesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1082,7 +1082,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckRefreshStatusesC
 ): Promise<DescribeTrustedAdvisorCheckRefreshStatusesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1098,7 +1098,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckRefreshStatusesC
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1109,7 +1109,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckRefreshStatusesC
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1137,7 +1137,7 @@ export async function deserializeAws_json1_1DescribeTrustedAdvisorCheckResultCom
   const response: DescribeTrustedAdvisorCheckResultCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTrustedAdvisorCheckResultResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1148,7 +1148,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckResultCommandErr
 ): Promise<DescribeTrustedAdvisorCheckResultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1164,7 +1164,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckResultCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1175,7 +1175,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckResultCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1203,7 +1203,7 @@ export async function deserializeAws_json1_1DescribeTrustedAdvisorCheckSummaries
   const response: DescribeTrustedAdvisorCheckSummariesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTrustedAdvisorCheckSummariesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1214,7 +1214,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckSummariesCommand
 ): Promise<DescribeTrustedAdvisorCheckSummariesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1230,7 +1230,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckSummariesCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1241,7 +1241,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorCheckSummariesCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1269,7 +1269,7 @@ export async function deserializeAws_json1_1DescribeTrustedAdvisorChecksCommand(
   const response: DescribeTrustedAdvisorChecksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTrustedAdvisorChecksResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1280,7 +1280,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorChecksCommandError(
 ): Promise<DescribeTrustedAdvisorChecksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1296,7 +1296,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorChecksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1307,7 +1307,7 @@ async function deserializeAws_json1_1DescribeTrustedAdvisorChecksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1335,7 +1335,7 @@ export async function deserializeAws_json1_1RefreshTrustedAdvisorCheckCommand(
   const response: RefreshTrustedAdvisorCheckCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RefreshTrustedAdvisorCheckResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1346,7 +1346,7 @@ async function deserializeAws_json1_1RefreshTrustedAdvisorCheckCommandError(
 ): Promise<RefreshTrustedAdvisorCheckCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1362,7 +1362,7 @@ async function deserializeAws_json1_1RefreshTrustedAdvisorCheckCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1373,7 +1373,7 @@ async function deserializeAws_json1_1RefreshTrustedAdvisorCheckCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1395,7 +1395,7 @@ const deserializeAws_json1_1AttachmentIdNotFoundResponse = async (
     name: "AttachmentIdNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1413,7 +1413,7 @@ const deserializeAws_json1_1AttachmentLimitExceededResponse = async (
     name: "AttachmentLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1431,7 +1431,7 @@ const deserializeAws_json1_1AttachmentSetExpiredResponse = async (
     name: "AttachmentSetExpired",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1449,7 +1449,7 @@ const deserializeAws_json1_1AttachmentSetIdNotFoundResponse = async (
     name: "AttachmentSetIdNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1467,7 +1467,7 @@ const deserializeAws_json1_1AttachmentSetSizeLimitExceededResponse = async (
     name: "AttachmentSetSizeLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1485,7 +1485,7 @@ const deserializeAws_json1_1CaseCreationLimitExceededResponse = async (
     name: "CaseCreationLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1500,7 +1500,7 @@ const deserializeAws_json1_1CaseIdNotFoundResponse = async (
     name: "CaseIdNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1518,7 +1518,7 @@ const deserializeAws_json1_1DescribeAttachmentLimitExceededResponse = async (
     name: "DescribeAttachmentLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1536,7 +1536,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1870,7 +1870,7 @@ const deserializeAws_json1_1Attachment = (
   let contents: any = {
     __type: "Attachment",
     data: undefined,
-    fileName: undefined
+    fileName: undefined,
   };
   if (output.data !== undefined && output.data !== null) {
     contents.data = context.base64Decoder(output.data);
@@ -1888,7 +1888,7 @@ const deserializeAws_json1_1AttachmentDetails = (
   let contents: any = {
     __type: "AttachmentDetails",
     attachmentId: undefined,
-    fileName: undefined
+    fileName: undefined,
   };
   if (output.attachmentId !== undefined && output.attachmentId !== null) {
     contents.attachmentId = output.attachmentId;
@@ -1925,7 +1925,7 @@ const deserializeAws_json1_1CaseDetails = (
     status: undefined,
     subject: undefined,
     submittedBy: undefined,
-    timeCreated: undefined
+    timeCreated: undefined,
   };
   if (output.caseId !== undefined && output.caseId !== null) {
     contents.caseId = output.caseId;
@@ -1985,7 +1985,7 @@ const deserializeAws_json1_1Category = (
   let contents: any = {
     __type: "Category",
     code: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -2022,7 +2022,7 @@ const deserializeAws_json1_1Communication = (
     body: undefined,
     caseId: undefined,
     submittedBy: undefined,
-    timeCreated: undefined
+    timeCreated: undefined,
   };
   if (output.attachmentSet !== undefined && output.attachmentSet !== null) {
     contents.attachmentSet = deserializeAws_json1_1AttachmentSet(
@@ -2052,7 +2052,7 @@ const deserializeAws_json1_1RecentCaseCommunications = (
   let contents: any = {
     __type: "RecentCaseCommunications",
     communications: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.communications !== undefined && output.communications !== null) {
     contents.communications = deserializeAws_json1_1CommunicationList(
@@ -2074,7 +2074,7 @@ const deserializeAws_json1_1Service = (
     __type: "Service",
     categories: undefined,
     code: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.categories !== undefined && output.categories !== null) {
     contents.categories = deserializeAws_json1_1CategoryList(
@@ -2097,7 +2097,7 @@ const deserializeAws_json1_1AttachmentIdNotFound = (
 ): AttachmentIdNotFound => {
   let contents: any = {
     __type: "AttachmentIdNotFound",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2111,7 +2111,7 @@ const deserializeAws_json1_1AttachmentLimitExceeded = (
 ): AttachmentLimitExceeded => {
   let contents: any = {
     __type: "AttachmentLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2125,7 +2125,7 @@ const deserializeAws_json1_1AttachmentSetExpired = (
 ): AttachmentSetExpired => {
   let contents: any = {
     __type: "AttachmentSetExpired",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2139,7 +2139,7 @@ const deserializeAws_json1_1AttachmentSetIdNotFound = (
 ): AttachmentSetIdNotFound => {
   let contents: any = {
     __type: "AttachmentSetIdNotFound",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2153,7 +2153,7 @@ const deserializeAws_json1_1AttachmentSetSizeLimitExceeded = (
 ): AttachmentSetSizeLimitExceeded => {
   let contents: any = {
     __type: "AttachmentSetSizeLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2167,7 +2167,7 @@ const deserializeAws_json1_1CaseCreationLimitExceeded = (
 ): CaseCreationLimitExceeded => {
   let contents: any = {
     __type: "CaseCreationLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2181,7 +2181,7 @@ const deserializeAws_json1_1CaseIdNotFound = (
 ): CaseIdNotFound => {
   let contents: any = {
     __type: "CaseIdNotFound",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2195,7 +2195,7 @@ const deserializeAws_json1_1DescribeAttachmentLimitExceeded = (
 ): DescribeAttachmentLimitExceeded => {
   let contents: any = {
     __type: "DescribeAttachmentLimitExceeded",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2209,7 +2209,7 @@ const deserializeAws_json1_1InternalServerError = (
 ): InternalServerError => {
   let contents: any = {
     __type: "InternalServerError",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2224,7 +2224,7 @@ const deserializeAws_json1_1AddAttachmentsToSetResponse = (
   let contents: any = {
     __type: "AddAttachmentsToSetResponse",
     attachmentSetId: undefined,
-    expiryTime: undefined
+    expiryTime: undefined,
   };
   if (output.attachmentSetId !== undefined && output.attachmentSetId !== null) {
     contents.attachmentSetId = output.attachmentSetId;
@@ -2241,7 +2241,7 @@ const deserializeAws_json1_1AddCommunicationToCaseResponse = (
 ): AddCommunicationToCaseResponse => {
   let contents: any = {
     __type: "AddCommunicationToCaseResponse",
-    result: undefined
+    result: undefined,
   };
   if (output.result !== undefined && output.result !== null) {
     contents.result = output.result;
@@ -2273,7 +2273,7 @@ const deserializeAws_json1_1CreateCaseResponse = (
 ): CreateCaseResponse => {
   let contents: any = {
     __type: "CreateCaseResponse",
-    caseId: undefined
+    caseId: undefined,
   };
   if (output.caseId !== undefined && output.caseId !== null) {
     contents.caseId = output.caseId;
@@ -2287,7 +2287,7 @@ const deserializeAws_json1_1DescribeAttachmentResponse = (
 ): DescribeAttachmentResponse => {
   let contents: any = {
     __type: "DescribeAttachmentResponse",
-    attachment: undefined
+    attachment: undefined,
   };
   if (output.attachment !== undefined && output.attachment !== null) {
     contents.attachment = deserializeAws_json1_1Attachment(
@@ -2305,7 +2305,7 @@ const deserializeAws_json1_1DescribeCasesResponse = (
   let contents: any = {
     __type: "DescribeCasesResponse",
     cases: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.cases !== undefined && output.cases !== null) {
     contents.cases = deserializeAws_json1_1CaseList(output.cases, context);
@@ -2323,7 +2323,7 @@ const deserializeAws_json1_1DescribeCommunicationsResponse = (
   let contents: any = {
     __type: "DescribeCommunicationsResponse",
     communications: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.communications !== undefined && output.communications !== null) {
     contents.communications = deserializeAws_json1_1CommunicationList(
@@ -2343,7 +2343,7 @@ const deserializeAws_json1_1DescribeServicesResponse = (
 ): DescribeServicesResponse => {
   let contents: any = {
     __type: "DescribeServicesResponse",
-    services: undefined
+    services: undefined,
   };
   if (output.services !== undefined && output.services !== null) {
     contents.services = deserializeAws_json1_1ServiceList(
@@ -2360,7 +2360,7 @@ const deserializeAws_json1_1DescribeSeverityLevelsResponse = (
 ): DescribeSeverityLevelsResponse => {
   let contents: any = {
     __type: "DescribeSeverityLevelsResponse",
-    severityLevels: undefined
+    severityLevels: undefined,
   };
   if (output.severityLevels !== undefined && output.severityLevels !== null) {
     contents.severityLevels = deserializeAws_json1_1SeverityLevelsList(
@@ -2378,7 +2378,7 @@ const deserializeAws_json1_1ResolveCaseResponse = (
   let contents: any = {
     __type: "ResolveCaseResponse",
     finalCaseStatus: undefined,
-    initialCaseStatus: undefined
+    initialCaseStatus: undefined,
   };
   if (output.finalCaseStatus !== undefined && output.finalCaseStatus !== null) {
     contents.finalCaseStatus = output.finalCaseStatus;
@@ -2408,7 +2408,7 @@ const deserializeAws_json1_1SeverityLevel = (
   let contents: any = {
     __type: "SeverityLevel",
     code: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.code = output.code;
@@ -2434,7 +2434,7 @@ const deserializeAws_json1_1DescribeTrustedAdvisorCheckRefreshStatusesResponse =
 ): DescribeTrustedAdvisorCheckRefreshStatusesResponse => {
   let contents: any = {
     __type: "DescribeTrustedAdvisorCheckRefreshStatusesResponse",
-    statuses: undefined
+    statuses: undefined,
   };
   if (output.statuses !== undefined && output.statuses !== null) {
     contents.statuses = deserializeAws_json1_1TrustedAdvisorCheckRefreshStatusList(
@@ -2451,7 +2451,7 @@ const deserializeAws_json1_1DescribeTrustedAdvisorCheckResultResponse = (
 ): DescribeTrustedAdvisorCheckResultResponse => {
   let contents: any = {
     __type: "DescribeTrustedAdvisorCheckResultResponse",
-    result: undefined
+    result: undefined,
   };
   if (output.result !== undefined && output.result !== null) {
     contents.result = deserializeAws_json1_1TrustedAdvisorCheckResult(
@@ -2468,7 +2468,7 @@ const deserializeAws_json1_1DescribeTrustedAdvisorCheckSummariesResponse = (
 ): DescribeTrustedAdvisorCheckSummariesResponse => {
   let contents: any = {
     __type: "DescribeTrustedAdvisorCheckSummariesResponse",
-    summaries: undefined
+    summaries: undefined,
   };
   if (output.summaries !== undefined && output.summaries !== null) {
     contents.summaries = deserializeAws_json1_1TrustedAdvisorCheckSummaryList(
@@ -2485,7 +2485,7 @@ const deserializeAws_json1_1DescribeTrustedAdvisorChecksResponse = (
 ): DescribeTrustedAdvisorChecksResponse => {
   let contents: any = {
     __type: "DescribeTrustedAdvisorChecksResponse",
-    checks: undefined
+    checks: undefined,
   };
   if (output.checks !== undefined && output.checks !== null) {
     contents.checks = deserializeAws_json1_1TrustedAdvisorCheckList(
@@ -2502,7 +2502,7 @@ const deserializeAws_json1_1RefreshTrustedAdvisorCheckResponse = (
 ): RefreshTrustedAdvisorCheckResponse => {
   let contents: any = {
     __type: "RefreshTrustedAdvisorCheckResponse",
-    status: undefined
+    status: undefined,
   };
   if (output.status !== undefined && output.status !== null) {
     contents.status = deserializeAws_json1_1TrustedAdvisorCheckRefreshStatus(
@@ -2526,7 +2526,7 @@ const deserializeAws_json1_1TrustedAdvisorCategorySpecificSummary = (
 ): TrustedAdvisorCategorySpecificSummary => {
   let contents: any = {
     __type: "TrustedAdvisorCategorySpecificSummary",
-    costOptimizing: undefined
+    costOptimizing: undefined,
   };
   if (output.costOptimizing !== undefined && output.costOptimizing !== null) {
     contents.costOptimizing = deserializeAws_json1_1TrustedAdvisorCostOptimizingSummary(
@@ -2547,7 +2547,7 @@ const deserializeAws_json1_1TrustedAdvisorCheckDescription = (
     description: undefined,
     id: undefined,
     metadata: undefined,
-    name: undefined
+    name: undefined,
   };
   if (output.category !== undefined && output.category !== null) {
     contents.category = output.category;
@@ -2587,7 +2587,7 @@ const deserializeAws_json1_1TrustedAdvisorCheckRefreshStatus = (
     __type: "TrustedAdvisorCheckRefreshStatus",
     checkId: undefined,
     millisUntilNextRefreshable: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.checkId !== undefined && output.checkId !== null) {
     contents.checkId = output.checkId;
@@ -2624,7 +2624,7 @@ const deserializeAws_json1_1TrustedAdvisorCheckResult = (
     flaggedResources: undefined,
     resourcesSummary: undefined,
     status: undefined,
-    timestamp: undefined
+    timestamp: undefined,
   };
   if (
     output.categorySpecificSummary !== undefined &&
@@ -2676,7 +2676,7 @@ const deserializeAws_json1_1TrustedAdvisorCheckSummary = (
     hasFlaggedResources: undefined,
     resourcesSummary: undefined,
     status: undefined,
-    timestamp: undefined
+    timestamp: undefined,
   };
   if (
     output.categorySpecificSummary !== undefined &&
@@ -2730,7 +2730,7 @@ const deserializeAws_json1_1TrustedAdvisorCostOptimizingSummary = (
   let contents: any = {
     __type: "TrustedAdvisorCostOptimizingSummary",
     estimatedMonthlySavings: undefined,
-    estimatedPercentMonthlySavings: undefined
+    estimatedPercentMonthlySavings: undefined,
   };
   if (
     output.estimatedMonthlySavings !== undefined &&
@@ -2758,7 +2758,7 @@ const deserializeAws_json1_1TrustedAdvisorResourceDetail = (
     metadata: undefined,
     region: undefined,
     resourceId: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.isSuppressed !== undefined && output.isSuppressed !== null) {
     contents.isSuppressed = output.isSuppressed;
@@ -2799,7 +2799,7 @@ const deserializeAws_json1_1TrustedAdvisorResourcesSummary = (
     resourcesFlagged: undefined,
     resourcesIgnored: undefined,
     resourcesProcessed: undefined,
-    resourcesSuppressed: undefined
+    resourcesSuppressed: undefined,
   };
   if (
     output.resourcesFlagged !== undefined &&
@@ -2831,7 +2831,7 @@ const deserializeAws_json1_1TrustedAdvisorResourcesSummary = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2852,7 +2852,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2865,11 +2865,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2881,7 +2881,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

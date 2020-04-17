@@ -1,78 +1,78 @@
 import {
   CreateCostCategoryDefinitionCommandInput,
-  CreateCostCategoryDefinitionCommandOutput
+  CreateCostCategoryDefinitionCommandOutput,
 } from "../commands/CreateCostCategoryDefinitionCommand";
 import {
   DeleteCostCategoryDefinitionCommandInput,
-  DeleteCostCategoryDefinitionCommandOutput
+  DeleteCostCategoryDefinitionCommandOutput,
 } from "../commands/DeleteCostCategoryDefinitionCommand";
 import {
   DescribeCostCategoryDefinitionCommandInput,
-  DescribeCostCategoryDefinitionCommandOutput
+  DescribeCostCategoryDefinitionCommandOutput,
 } from "../commands/DescribeCostCategoryDefinitionCommand";
 import {
   GetCostAndUsageCommandInput,
-  GetCostAndUsageCommandOutput
+  GetCostAndUsageCommandOutput,
 } from "../commands/GetCostAndUsageCommand";
 import {
   GetCostAndUsageWithResourcesCommandInput,
-  GetCostAndUsageWithResourcesCommandOutput
+  GetCostAndUsageWithResourcesCommandOutput,
 } from "../commands/GetCostAndUsageWithResourcesCommand";
 import {
   GetCostForecastCommandInput,
-  GetCostForecastCommandOutput
+  GetCostForecastCommandOutput,
 } from "../commands/GetCostForecastCommand";
 import {
   GetDimensionValuesCommandInput,
-  GetDimensionValuesCommandOutput
+  GetDimensionValuesCommandOutput,
 } from "../commands/GetDimensionValuesCommand";
 import {
   GetReservationCoverageCommandInput,
-  GetReservationCoverageCommandOutput
+  GetReservationCoverageCommandOutput,
 } from "../commands/GetReservationCoverageCommand";
 import {
   GetReservationPurchaseRecommendationCommandInput,
-  GetReservationPurchaseRecommendationCommandOutput
+  GetReservationPurchaseRecommendationCommandOutput,
 } from "../commands/GetReservationPurchaseRecommendationCommand";
 import {
   GetReservationUtilizationCommandInput,
-  GetReservationUtilizationCommandOutput
+  GetReservationUtilizationCommandOutput,
 } from "../commands/GetReservationUtilizationCommand";
 import {
   GetRightsizingRecommendationCommandInput,
-  GetRightsizingRecommendationCommandOutput
+  GetRightsizingRecommendationCommandOutput,
 } from "../commands/GetRightsizingRecommendationCommand";
 import {
   GetSavingsPlansCoverageCommandInput,
-  GetSavingsPlansCoverageCommandOutput
+  GetSavingsPlansCoverageCommandOutput,
 } from "../commands/GetSavingsPlansCoverageCommand";
 import {
   GetSavingsPlansPurchaseRecommendationCommandInput,
-  GetSavingsPlansPurchaseRecommendationCommandOutput
+  GetSavingsPlansPurchaseRecommendationCommandOutput,
 } from "../commands/GetSavingsPlansPurchaseRecommendationCommand";
 import {
   GetSavingsPlansUtilizationCommandInput,
-  GetSavingsPlansUtilizationCommandOutput
+  GetSavingsPlansUtilizationCommandOutput,
 } from "../commands/GetSavingsPlansUtilizationCommand";
 import {
   GetSavingsPlansUtilizationDetailsCommandInput,
-  GetSavingsPlansUtilizationDetailsCommandOutput
+  GetSavingsPlansUtilizationDetailsCommandOutput,
 } from "../commands/GetSavingsPlansUtilizationDetailsCommand";
 import {
   GetTagsCommandInput,
-  GetTagsCommandOutput
+  GetTagsCommandOutput,
 } from "../commands/GetTagsCommand";
 import {
   GetUsageForecastCommandInput,
-  GetUsageForecastCommandOutput
+  GetUsageForecastCommandOutput,
 } from "../commands/GetUsageForecastCommand";
 import {
   ListCostCategoryDefinitionsCommandInput,
-  ListCostCategoryDefinitionsCommandOutput
+  ListCostCategoryDefinitionsCommandOutput,
 } from "../commands/ListCostCategoryDefinitionsCommand";
 import {
   UpdateCostCategoryDefinitionCommandInput,
-  UpdateCostCategoryDefinitionCommandOutput
+  UpdateCostCategoryDefinitionCommandOutput,
 } from "../commands/UpdateCostCategoryDefinitionCommand";
 import {
   BillExpirationException,
@@ -179,11 +179,11 @@ import {
   UnresolvableUsageUnitException,
   UpdateCostCategoryDefinitionRequest,
   UpdateCostCategoryDefinitionResponse,
-  UtilizationByTime
+  UtilizationByTime,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -191,7 +191,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateCostCategoryDefinitionCommand(
@@ -494,7 +494,7 @@ export async function deserializeAws_json1_1CreateCostCategoryDefinitionCommand(
   const response: CreateCostCategoryDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateCostCategoryDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -505,7 +505,7 @@ async function deserializeAws_json1_1CreateCostCategoryDefinitionCommandError(
 ): Promise<CreateCostCategoryDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -521,7 +521,7 @@ async function deserializeAws_json1_1CreateCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -532,7 +532,7 @@ async function deserializeAws_json1_1CreateCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -543,7 +543,7 @@ async function deserializeAws_json1_1CreateCostCategoryDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -571,7 +571,7 @@ export async function deserializeAws_json1_1DeleteCostCategoryDefinitionCommand(
   const response: DeleteCostCategoryDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteCostCategoryDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -582,7 +582,7 @@ async function deserializeAws_json1_1DeleteCostCategoryDefinitionCommandError(
 ): Promise<DeleteCostCategoryDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -598,7 +598,7 @@ async function deserializeAws_json1_1DeleteCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -609,7 +609,7 @@ async function deserializeAws_json1_1DeleteCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -620,7 +620,7 @@ async function deserializeAws_json1_1DeleteCostCategoryDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -648,7 +648,7 @@ export async function deserializeAws_json1_1DescribeCostCategoryDefinitionComman
   const response: DescribeCostCategoryDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCostCategoryDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -659,7 +659,7 @@ async function deserializeAws_json1_1DescribeCostCategoryDefinitionCommandError(
 ): Promise<DescribeCostCategoryDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -675,7 +675,7 @@ async function deserializeAws_json1_1DescribeCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -686,7 +686,7 @@ async function deserializeAws_json1_1DescribeCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -697,7 +697,7 @@ async function deserializeAws_json1_1DescribeCostCategoryDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -719,7 +719,7 @@ export async function deserializeAws_json1_1GetCostAndUsageCommand(
   const response: GetCostAndUsageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCostAndUsageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -730,7 +730,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
 ): Promise<GetCostAndUsageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -746,7 +746,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataUnavailableException":
@@ -757,7 +757,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -768,7 +768,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -779,7 +779,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestChangedException":
@@ -790,7 +790,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -801,7 +801,7 @@ async function deserializeAws_json1_1GetCostAndUsageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -829,7 +829,7 @@ export async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommand(
   const response: GetCostAndUsageWithResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCostAndUsageWithResourcesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -840,7 +840,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
 ): Promise<GetCostAndUsageWithResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -856,7 +856,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataUnavailableException":
@@ -867,7 +867,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -878,7 +878,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -889,7 +889,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestChangedException":
@@ -900,7 +900,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -911,7 +911,7 @@ async function deserializeAws_json1_1GetCostAndUsageWithResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -933,7 +933,7 @@ export async function deserializeAws_json1_1GetCostForecastCommand(
   const response: GetCostForecastCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCostForecastResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -944,7 +944,7 @@ async function deserializeAws_json1_1GetCostForecastCommandError(
 ): Promise<GetCostForecastCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -960,7 +960,7 @@ async function deserializeAws_json1_1GetCostForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -971,7 +971,7 @@ async function deserializeAws_json1_1GetCostForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -982,7 +982,7 @@ async function deserializeAws_json1_1GetCostForecastCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1007,7 +1007,7 @@ export async function deserializeAws_json1_1GetDimensionValuesCommand(
   const response: GetDimensionValuesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDimensionValuesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1018,7 +1018,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
 ): Promise<GetDimensionValuesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1034,7 +1034,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataUnavailableException":
@@ -1045,7 +1045,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1056,7 +1056,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1067,7 +1067,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestChangedException":
@@ -1078,7 +1078,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1089,7 +1089,7 @@ async function deserializeAws_json1_1GetDimensionValuesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1117,7 +1117,7 @@ export async function deserializeAws_json1_1GetReservationCoverageCommand(
   const response: GetReservationCoverageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetReservationCoverageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1128,7 +1128,7 @@ async function deserializeAws_json1_1GetReservationCoverageCommandError(
 ): Promise<GetReservationCoverageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1144,7 +1144,7 @@ async function deserializeAws_json1_1GetReservationCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1155,7 +1155,7 @@ async function deserializeAws_json1_1GetReservationCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1166,7 +1166,7 @@ async function deserializeAws_json1_1GetReservationCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1177,7 +1177,7 @@ async function deserializeAws_json1_1GetReservationCoverageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1205,7 +1205,7 @@ export async function deserializeAws_json1_1GetReservationPurchaseRecommendation
   const response: GetReservationPurchaseRecommendationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetReservationPurchaseRecommendationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1216,7 +1216,7 @@ async function deserializeAws_json1_1GetReservationPurchaseRecommendationCommand
 ): Promise<GetReservationPurchaseRecommendationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1232,7 +1232,7 @@ async function deserializeAws_json1_1GetReservationPurchaseRecommendationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1243,7 +1243,7 @@ async function deserializeAws_json1_1GetReservationPurchaseRecommendationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1254,7 +1254,7 @@ async function deserializeAws_json1_1GetReservationPurchaseRecommendationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1265,7 +1265,7 @@ async function deserializeAws_json1_1GetReservationPurchaseRecommendationCommand
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1293,7 +1293,7 @@ export async function deserializeAws_json1_1GetReservationUtilizationCommand(
   const response: GetReservationUtilizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetReservationUtilizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1304,7 +1304,7 @@ async function deserializeAws_json1_1GetReservationUtilizationCommandError(
 ): Promise<GetReservationUtilizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1320,7 +1320,7 @@ async function deserializeAws_json1_1GetReservationUtilizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1331,7 +1331,7 @@ async function deserializeAws_json1_1GetReservationUtilizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1342,7 +1342,7 @@ async function deserializeAws_json1_1GetReservationUtilizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1353,7 +1353,7 @@ async function deserializeAws_json1_1GetReservationUtilizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1381,7 +1381,7 @@ export async function deserializeAws_json1_1GetRightsizingRecommendationCommand(
   const response: GetRightsizingRecommendationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRightsizingRecommendationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1392,7 +1392,7 @@ async function deserializeAws_json1_1GetRightsizingRecommendationCommandError(
 ): Promise<GetRightsizingRecommendationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1408,7 +1408,7 @@ async function deserializeAws_json1_1GetRightsizingRecommendationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1419,7 +1419,7 @@ async function deserializeAws_json1_1GetRightsizingRecommendationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1430,7 +1430,7 @@ async function deserializeAws_json1_1GetRightsizingRecommendationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1458,7 +1458,7 @@ export async function deserializeAws_json1_1GetSavingsPlansCoverageCommand(
   const response: GetSavingsPlansCoverageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSavingsPlansCoverageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1469,7 +1469,7 @@ async function deserializeAws_json1_1GetSavingsPlansCoverageCommandError(
 ): Promise<GetSavingsPlansCoverageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1485,7 +1485,7 @@ async function deserializeAws_json1_1GetSavingsPlansCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1496,7 +1496,7 @@ async function deserializeAws_json1_1GetSavingsPlansCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1507,7 +1507,7 @@ async function deserializeAws_json1_1GetSavingsPlansCoverageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1518,7 +1518,7 @@ async function deserializeAws_json1_1GetSavingsPlansCoverageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1546,7 +1546,7 @@ export async function deserializeAws_json1_1GetSavingsPlansPurchaseRecommendatio
   const response: GetSavingsPlansPurchaseRecommendationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSavingsPlansPurchaseRecommendationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1557,7 +1557,7 @@ async function deserializeAws_json1_1GetSavingsPlansPurchaseRecommendationComman
 ): Promise<GetSavingsPlansPurchaseRecommendationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1573,7 +1573,7 @@ async function deserializeAws_json1_1GetSavingsPlansPurchaseRecommendationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1584,7 +1584,7 @@ async function deserializeAws_json1_1GetSavingsPlansPurchaseRecommendationComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1595,7 +1595,7 @@ async function deserializeAws_json1_1GetSavingsPlansPurchaseRecommendationComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1623,7 +1623,7 @@ export async function deserializeAws_json1_1GetSavingsPlansUtilizationCommand(
   const response: GetSavingsPlansUtilizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSavingsPlansUtilizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1634,7 +1634,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationCommandError(
 ): Promise<GetSavingsPlansUtilizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1650,7 +1650,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1661,7 +1661,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1672,7 +1672,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1700,7 +1700,7 @@ export async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCom
   const response: GetSavingsPlansUtilizationDetailsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSavingsPlansUtilizationDetailsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1711,7 +1711,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCommandErr
 ): Promise<GetSavingsPlansUtilizationDetailsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1727,7 +1727,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1738,7 +1738,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1749,7 +1749,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1760,7 +1760,7 @@ async function deserializeAws_json1_1GetSavingsPlansUtilizationDetailsCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1782,7 +1782,7 @@ export async function deserializeAws_json1_1GetTagsCommand(
   const response: GetTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTagsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1793,7 +1793,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
 ): Promise<GetTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1809,7 +1809,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataUnavailableException":
@@ -1820,7 +1820,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -1831,7 +1831,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1842,7 +1842,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestChangedException":
@@ -1853,7 +1853,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1864,7 +1864,7 @@ async function deserializeAws_json1_1GetTagsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1886,7 +1886,7 @@ export async function deserializeAws_json1_1GetUsageForecastCommand(
   const response: GetUsageForecastCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetUsageForecastResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1897,7 +1897,7 @@ async function deserializeAws_json1_1GetUsageForecastCommandError(
 ): Promise<GetUsageForecastCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1913,7 +1913,7 @@ async function deserializeAws_json1_1GetUsageForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1924,7 +1924,7 @@ async function deserializeAws_json1_1GetUsageForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnresolvableUsageUnitException":
@@ -1935,7 +1935,7 @@ async function deserializeAws_json1_1GetUsageForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1946,7 +1946,7 @@ async function deserializeAws_json1_1GetUsageForecastCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1974,7 +1974,7 @@ export async function deserializeAws_json1_1ListCostCategoryDefinitionsCommand(
   const response: ListCostCategoryDefinitionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCostCategoryDefinitionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1985,7 +1985,7 @@ async function deserializeAws_json1_1ListCostCategoryDefinitionsCommandError(
 ): Promise<ListCostCategoryDefinitionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2001,7 +2001,7 @@ async function deserializeAws_json1_1ListCostCategoryDefinitionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2012,7 +2012,7 @@ async function deserializeAws_json1_1ListCostCategoryDefinitionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2040,7 +2040,7 @@ export async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommand(
   const response: UpdateCostCategoryDefinitionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateCostCategoryDefinitionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2051,7 +2051,7 @@ async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommandError(
 ): Promise<UpdateCostCategoryDefinitionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2067,7 +2067,7 @@ async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2078,7 +2078,7 @@ async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -2089,7 +2089,7 @@ async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2100,7 +2100,7 @@ async function deserializeAws_json1_1UpdateCostCategoryDefinitionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2122,7 +2122,7 @@ const deserializeAws_json1_1BillExpirationExceptionResponse = async (
     name: "BillExpirationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2140,7 +2140,7 @@ const deserializeAws_json1_1DataUnavailableExceptionResponse = async (
     name: "DataUnavailableException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2158,7 +2158,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2176,7 +2176,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2194,7 +2194,7 @@ const deserializeAws_json1_1RequestChangedExceptionResponse = async (
     name: "RequestChangedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2212,7 +2212,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2230,7 +2230,7 @@ const deserializeAws_json1_1ServiceQuotaExceededExceptionResponse = async (
     name: "ServiceQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2248,7 +2248,7 @@ const deserializeAws_json1_1UnresolvableUsageUnitExceptionResponse = async (
     name: "UnresolvableUsageUnitException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2965,7 +2965,7 @@ const deserializeAws_json1_1Attributes = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -2977,7 +2977,7 @@ const deserializeAws_json1_1BillExpirationException = (
 ): BillExpirationException => {
   let contents: any = {
     __type: "BillExpirationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -2996,7 +2996,7 @@ const deserializeAws_json1_1CostCategory = (
     EffectiveStart: undefined,
     Name: undefined,
     RuleVersion: undefined,
-    Rules: undefined
+    Rules: undefined,
   };
   if (output.CostCategoryArn !== undefined && output.CostCategoryArn !== null) {
     contents.CostCategoryArn = output.CostCategoryArn;
@@ -3031,7 +3031,7 @@ const deserializeAws_json1_1CostCategoryReference = (
     CostCategoryArn: undefined,
     EffectiveEnd: undefined,
     EffectiveStart: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.CostCategoryArn !== undefined && output.CostCategoryArn !== null) {
     contents.CostCategoryArn = output.CostCategoryArn;
@@ -3064,7 +3064,7 @@ const deserializeAws_json1_1CostCategoryRule = (
   let contents: any = {
     __type: "CostCategoryRule",
     Rule: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Rule !== undefined && output.Rule !== null) {
     contents.Rule = deserializeAws_json1_1Expression(output.Rule, context);
@@ -3091,7 +3091,7 @@ const deserializeAws_json1_1CostCategoryValues = (
   let contents: any = {
     __type: "CostCategoryValues",
     Key: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -3110,7 +3110,7 @@ const deserializeAws_json1_1Coverage = (
     __type: "Coverage",
     CoverageCost: undefined,
     CoverageHours: undefined,
-    CoverageNormalizedUnits: undefined
+    CoverageNormalizedUnits: undefined,
   };
   if (output.CoverageCost !== undefined && output.CoverageCost !== null) {
     contents.CoverageCost = deserializeAws_json1_1CoverageCost(
@@ -3144,7 +3144,7 @@ const deserializeAws_json1_1CoverageByTime = (
     __type: "CoverageByTime",
     Groups: undefined,
     TimePeriod: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (output.Groups !== undefined && output.Groups !== null) {
     contents.Groups = deserializeAws_json1_1ReservationCoverageGroups(
@@ -3170,7 +3170,7 @@ const deserializeAws_json1_1CoverageCost = (
 ): CoverageCost => {
   let contents: any = {
     __type: "CoverageCost",
-    OnDemandCost: undefined
+    OnDemandCost: undefined,
   };
   if (output.OnDemandCost !== undefined && output.OnDemandCost !== null) {
     contents.OnDemandCost = output.OnDemandCost;
@@ -3187,7 +3187,7 @@ const deserializeAws_json1_1CoverageHours = (
     CoverageHoursPercentage: undefined,
     OnDemandHours: undefined,
     ReservedHours: undefined,
-    TotalRunningHours: undefined
+    TotalRunningHours: undefined,
   };
   if (
     output.CoverageHoursPercentage !== undefined &&
@@ -3219,7 +3219,7 @@ const deserializeAws_json1_1CoverageNormalizedUnits = (
     CoverageNormalizedUnitsPercentage: undefined,
     OnDemandNormalizedUnits: undefined,
     ReservedNormalizedUnits: undefined,
-    TotalRunningNormalizedUnits: undefined
+    TotalRunningNormalizedUnits: undefined,
   };
   if (
     output.CoverageNormalizedUnitsPercentage !== undefined &&
@@ -3265,7 +3265,7 @@ const deserializeAws_json1_1CreateCostCategoryDefinitionResponse = (
   let contents: any = {
     __type: "CreateCostCategoryDefinitionResponse",
     CostCategoryArn: undefined,
-    EffectiveStart: undefined
+    EffectiveStart: undefined,
   };
   if (output.CostCategoryArn !== undefined && output.CostCategoryArn !== null) {
     contents.CostCategoryArn = output.CostCategoryArn;
@@ -3291,7 +3291,7 @@ const deserializeAws_json1_1CurrentInstance = (
     ResourceUtilization: undefined,
     SavingsPlansCoveredHoursInLookbackPeriod: undefined,
     Tags: undefined,
-    TotalRunningHoursInLookbackPeriod: undefined
+    TotalRunningHoursInLookbackPeriod: undefined,
   };
   if (output.CurrencyCode !== undefined && output.CurrencyCode !== null) {
     contents.CurrencyCode = output.CurrencyCode;
@@ -3357,7 +3357,7 @@ const deserializeAws_json1_1DataUnavailableException = (
 ): DataUnavailableException => {
   let contents: any = {
     __type: "DataUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3372,7 +3372,7 @@ const deserializeAws_json1_1DateInterval = (
   let contents: any = {
     __type: "DateInterval",
     End: undefined,
-    Start: undefined
+    Start: undefined,
   };
   if (output.End !== undefined && output.End !== null) {
     contents.End = output.End;
@@ -3390,7 +3390,7 @@ const deserializeAws_json1_1DeleteCostCategoryDefinitionResponse = (
   let contents: any = {
     __type: "DeleteCostCategoryDefinitionResponse",
     CostCategoryArn: undefined,
-    EffectiveEnd: undefined
+    EffectiveEnd: undefined,
   };
   if (output.CostCategoryArn !== undefined && output.CostCategoryArn !== null) {
     contents.CostCategoryArn = output.CostCategoryArn;
@@ -3407,7 +3407,7 @@ const deserializeAws_json1_1DescribeCostCategoryDefinitionResponse = (
 ): DescribeCostCategoryDefinitionResponse => {
   let contents: any = {
     __type: "DescribeCostCategoryDefinitionResponse",
-    CostCategory: undefined
+    CostCategory: undefined,
   };
   if (output.CostCategory !== undefined && output.CostCategory !== null) {
     contents.CostCategory = deserializeAws_json1_1CostCategory(
@@ -3425,7 +3425,7 @@ const deserializeAws_json1_1DimensionValues = (
   let contents: any = {
     __type: "DimensionValues",
     Key: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -3443,7 +3443,7 @@ const deserializeAws_json1_1DimensionValuesWithAttributes = (
   let contents: any = {
     __type: "DimensionValuesWithAttributes",
     Attributes: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1Attributes(
@@ -3479,7 +3479,7 @@ const deserializeAws_json1_1EC2InstanceDetails = (
     Platform: undefined,
     Region: undefined,
     SizeFlexEligible: undefined,
-    Tenancy: undefined
+    Tenancy: undefined,
   };
   if (
     output.AvailabilityZone !== undefined &&
@@ -3531,7 +3531,7 @@ const deserializeAws_json1_1EC2ResourceDetails = (
     Region: undefined,
     Sku: undefined,
     Storage: undefined,
-    Vcpu: undefined
+    Vcpu: undefined,
   };
   if (
     output.HourlyOnDemandRate !== undefined &&
@@ -3577,7 +3577,7 @@ const deserializeAws_json1_1EC2ResourceUtilization = (
     __type: "EC2ResourceUtilization",
     MaxCpuUtilizationPercentage: undefined,
     MaxMemoryUtilizationPercentage: undefined,
-    MaxStorageUtilizationPercentage: undefined
+    MaxStorageUtilizationPercentage: undefined,
   };
   if (
     output.MaxCpuUtilizationPercentage !== undefined &&
@@ -3608,7 +3608,7 @@ const deserializeAws_json1_1EC2Specification = (
 ): EC2Specification => {
   let contents: any = {
     __type: "EC2Specification",
-    OfferingClass: undefined
+    OfferingClass: undefined,
   };
   if (output.OfferingClass !== undefined && output.OfferingClass !== null) {
     contents.OfferingClass = output.OfferingClass;
@@ -3626,7 +3626,7 @@ const deserializeAws_json1_1ESInstanceDetails = (
     InstanceClass: undefined,
     InstanceSize: undefined,
     Region: undefined,
-    SizeFlexEligible: undefined
+    SizeFlexEligible: undefined,
   };
   if (
     output.CurrentGeneration !== undefined &&
@@ -3663,7 +3663,7 @@ const deserializeAws_json1_1ElastiCacheInstanceDetails = (
     NodeType: undefined,
     ProductDescription: undefined,
     Region: undefined,
-    SizeFlexEligible: undefined
+    SizeFlexEligible: undefined,
   };
   if (
     output.CurrentGeneration !== undefined &&
@@ -3706,7 +3706,7 @@ const deserializeAws_json1_1Expression = (
     Dimensions: undefined,
     Not: undefined,
     Or: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.And !== undefined && output.And !== null) {
     contents.And = deserializeAws_json1_1Expressions(output.And, context);
@@ -3753,7 +3753,7 @@ const deserializeAws_json1_1ForecastResult = (
     MeanValue: undefined,
     PredictionIntervalLowerBound: undefined,
     PredictionIntervalUpperBound: undefined,
-    TimePeriod: undefined
+    TimePeriod: undefined,
   };
   if (output.MeanValue !== undefined && output.MeanValue !== null) {
     contents.MeanValue = output.MeanValue;
@@ -3796,7 +3796,7 @@ const deserializeAws_json1_1GetCostAndUsageResponse = (
     __type: "GetCostAndUsageResponse",
     GroupDefinitions: undefined,
     NextPageToken: undefined,
-    ResultsByTime: undefined
+    ResultsByTime: undefined,
   };
   if (
     output.GroupDefinitions !== undefined &&
@@ -3827,7 +3827,7 @@ const deserializeAws_json1_1GetCostAndUsageWithResourcesResponse = (
     __type: "GetCostAndUsageWithResourcesResponse",
     GroupDefinitions: undefined,
     NextPageToken: undefined,
-    ResultsByTime: undefined
+    ResultsByTime: undefined,
   };
   if (
     output.GroupDefinitions !== undefined &&
@@ -3857,7 +3857,7 @@ const deserializeAws_json1_1GetCostForecastResponse = (
   let contents: any = {
     __type: "GetCostForecastResponse",
     ForecastResultsByTime: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (
     output.ForecastResultsByTime !== undefined &&
@@ -3883,7 +3883,7 @@ const deserializeAws_json1_1GetDimensionValuesResponse = (
     DimensionValues: undefined,
     NextPageToken: undefined,
     ReturnSize: undefined,
-    TotalSize: undefined
+    TotalSize: undefined,
   };
   if (output.DimensionValues !== undefined && output.DimensionValues !== null) {
     contents.DimensionValues = deserializeAws_json1_1DimensionValuesWithAttributesList(
@@ -3911,7 +3911,7 @@ const deserializeAws_json1_1GetReservationCoverageResponse = (
     __type: "GetReservationCoverageResponse",
     CoveragesByTime: undefined,
     NextPageToken: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (output.CoveragesByTime !== undefined && output.CoveragesByTime !== null) {
     contents.CoveragesByTime = deserializeAws_json1_1CoveragesByTime(
@@ -3936,7 +3936,7 @@ const deserializeAws_json1_1GetReservationPurchaseRecommendationResponse = (
     __type: "GetReservationPurchaseRecommendationResponse",
     Metadata: undefined,
     NextPageToken: undefined,
-    Recommendations: undefined
+    Recommendations: undefined,
   };
   if (output.Metadata !== undefined && output.Metadata !== null) {
     contents.Metadata = deserializeAws_json1_1ReservationPurchaseRecommendationMetadata(
@@ -3964,7 +3964,7 @@ const deserializeAws_json1_1GetReservationUtilizationResponse = (
     __type: "GetReservationUtilizationResponse",
     NextPageToken: undefined,
     Total: undefined,
-    UtilizationsByTime: undefined
+    UtilizationsByTime: undefined,
   };
   if (output.NextPageToken !== undefined && output.NextPageToken !== null) {
     contents.NextPageToken = output.NextPageToken;
@@ -3996,7 +3996,7 @@ const deserializeAws_json1_1GetRightsizingRecommendationResponse = (
     Metadata: undefined,
     NextPageToken: undefined,
     RightsizingRecommendations: undefined,
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.Metadata !== undefined && output.Metadata !== null) {
     contents.Metadata = deserializeAws_json1_1RightsizingRecommendationMetadata(
@@ -4032,7 +4032,7 @@ const deserializeAws_json1_1GetSavingsPlansCoverageResponse = (
   let contents: any = {
     __type: "GetSavingsPlansCoverageResponse",
     NextToken: undefined,
-    SavingsPlansCoverages: undefined
+    SavingsPlansCoverages: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -4057,7 +4057,7 @@ const deserializeAws_json1_1GetSavingsPlansPurchaseRecommendationResponse = (
     __type: "GetSavingsPlansPurchaseRecommendationResponse",
     Metadata: undefined,
     NextPageToken: undefined,
-    SavingsPlansPurchaseRecommendation: undefined
+    SavingsPlansPurchaseRecommendation: undefined,
   };
   if (output.Metadata !== undefined && output.Metadata !== null) {
     contents.Metadata = deserializeAws_json1_1SavingsPlansPurchaseRecommendationMetadata(
@@ -4089,7 +4089,7 @@ const deserializeAws_json1_1GetSavingsPlansUtilizationDetailsResponse = (
     NextToken: undefined,
     SavingsPlansUtilizationDetails: undefined,
     TimePeriod: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -4125,7 +4125,7 @@ const deserializeAws_json1_1GetSavingsPlansUtilizationResponse = (
   let contents: any = {
     __type: "GetSavingsPlansUtilizationResponse",
     SavingsPlansUtilizationsByTime: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (
     output.SavingsPlansUtilizationsByTime !== undefined &&
@@ -4154,7 +4154,7 @@ const deserializeAws_json1_1GetTagsResponse = (
     NextPageToken: undefined,
     ReturnSize: undefined,
     Tags: undefined,
-    TotalSize: undefined
+    TotalSize: undefined,
   };
   if (output.NextPageToken !== undefined && output.NextPageToken !== null) {
     contents.NextPageToken = output.NextPageToken;
@@ -4178,7 +4178,7 @@ const deserializeAws_json1_1GetUsageForecastResponse = (
   let contents: any = {
     __type: "GetUsageForecastResponse",
     ForecastResultsByTime: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (
     output.ForecastResultsByTime !== undefined &&
@@ -4202,7 +4202,7 @@ const deserializeAws_json1_1Group = (
   let contents: any = {
     __type: "Group",
     Keys: undefined,
-    Metrics: undefined
+    Metrics: undefined,
   };
   if (output.Keys !== undefined && output.Keys !== null) {
     contents.Keys = deserializeAws_json1_1Keys(output.Keys, context);
@@ -4220,7 +4220,7 @@ const deserializeAws_json1_1GroupDefinition = (
   let contents: any = {
     __type: "GroupDefinition",
     Key: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -4259,7 +4259,7 @@ const deserializeAws_json1_1InstanceDetails = (
     ESInstanceDetails: undefined,
     ElastiCacheInstanceDetails: undefined,
     RDSInstanceDetails: undefined,
-    RedshiftInstanceDetails: undefined
+    RedshiftInstanceDetails: undefined,
   };
   if (
     output.EC2InstanceDetails !== undefined &&
@@ -4315,7 +4315,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4336,7 +4336,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4351,7 +4351,7 @@ const deserializeAws_json1_1ListCostCategoryDefinitionsResponse = (
   let contents: any = {
     __type: "ListCostCategoryDefinitionsResponse",
     CostCategoryReferences: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.CostCategoryReferences !== undefined &&
@@ -4375,7 +4375,7 @@ const deserializeAws_json1_1MetricValue = (
   let contents: any = {
     __type: "MetricValue",
     Amount: undefined,
-    Unit: undefined
+    Unit: undefined,
   };
   if (output.Amount !== undefined && output.Amount !== null) {
     contents.Amount = output.Amount;
@@ -4391,7 +4391,7 @@ const deserializeAws_json1_1Metrics = (
   context: __SerdeContext
 ): { [key: string]: MetricValue } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1MetricValue(output[key], context);
   });
   return mapParams;
@@ -4403,7 +4403,7 @@ const deserializeAws_json1_1ModifyRecommendationDetail = (
 ): ModifyRecommendationDetail => {
   let contents: any = {
     __type: "ModifyRecommendationDetail",
-    TargetInstances: undefined
+    TargetInstances: undefined,
   };
   if (output.TargetInstances !== undefined && output.TargetInstances !== null) {
     contents.TargetInstances = deserializeAws_json1_1TargetInstancesList(
@@ -4428,7 +4428,7 @@ const deserializeAws_json1_1RDSInstanceDetails = (
     InstanceType: undefined,
     LicenseModel: undefined,
     Region: undefined,
-    SizeFlexEligible: undefined
+    SizeFlexEligible: undefined,
   };
   if (
     output.CurrentGeneration !== undefined &&
@@ -4479,7 +4479,7 @@ const deserializeAws_json1_1RedshiftInstanceDetails = (
     Family: undefined,
     NodeType: undefined,
     Region: undefined,
-    SizeFlexEligible: undefined
+    SizeFlexEligible: undefined,
   };
   if (
     output.CurrentGeneration !== undefined &&
@@ -4511,7 +4511,7 @@ const deserializeAws_json1_1RequestChangedException = (
 ): RequestChangedException => {
   let contents: any = {
     __type: "RequestChangedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4538,7 +4538,7 @@ const deserializeAws_json1_1ReservationAggregates = (
     UnusedHours: undefined,
     UnusedUnits: undefined,
     UtilizationPercentage: undefined,
-    UtilizationPercentageInUnits: undefined
+    UtilizationPercentageInUnits: undefined,
   };
   if (
     output.AmortizedRecurringFee !== undefined &&
@@ -4619,7 +4619,7 @@ const deserializeAws_json1_1ReservationCoverageGroup = (
   let contents: any = {
     __type: "ReservationCoverageGroup",
     Attributes: undefined,
-    Coverage: undefined
+    Coverage: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1Attributes(
@@ -4657,7 +4657,7 @@ const deserializeAws_json1_1ReservationPurchaseRecommendation = (
     RecommendationDetails: undefined,
     RecommendationSummary: undefined,
     ServiceSpecification: undefined,
-    TermInYears: undefined
+    TermInYears: undefined,
   };
   if (output.AccountScope !== undefined && output.AccountScope !== null) {
     contents.AccountScope = output.AccountScope;
@@ -4728,7 +4728,7 @@ const deserializeAws_json1_1ReservationPurchaseRecommendationDetail = (
     RecommendedNormalizedUnitsToPurchase: undefined,
     RecommendedNumberOfInstancesToPurchase: undefined,
     RecurringStandardMonthlyCost: undefined,
-    UpfrontCost: undefined
+    UpfrontCost: undefined,
   };
   if (output.AccountId !== undefined && output.AccountId !== null) {
     contents.AccountId = output.AccountId;
@@ -4868,7 +4868,7 @@ const deserializeAws_json1_1ReservationPurchaseRecommendationMetadata = (
   let contents: any = {
     __type: "ReservationPurchaseRecommendationMetadata",
     GenerationTimestamp: undefined,
-    RecommendationId: undefined
+    RecommendationId: undefined,
   };
   if (
     output.GenerationTimestamp !== undefined &&
@@ -4893,7 +4893,7 @@ const deserializeAws_json1_1ReservationPurchaseRecommendationSummary = (
     __type: "ReservationPurchaseRecommendationSummary",
     CurrencyCode: undefined,
     TotalEstimatedMonthlySavingsAmount: undefined,
-    TotalEstimatedMonthlySavingsPercentage: undefined
+    TotalEstimatedMonthlySavingsPercentage: undefined,
   };
   if (output.CurrencyCode !== undefined && output.CurrencyCode !== null) {
     contents.CurrencyCode = output.CurrencyCode;
@@ -4933,7 +4933,7 @@ const deserializeAws_json1_1ReservationUtilizationGroup = (
     Attributes: undefined,
     Key: undefined,
     Utilization: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1Attributes(
@@ -4971,7 +4971,7 @@ const deserializeAws_json1_1ResourceDetails = (
 ): ResourceDetails => {
   let contents: any = {
     __type: "ResourceDetails",
-    EC2ResourceDetails: undefined
+    EC2ResourceDetails: undefined,
   };
   if (
     output.EC2ResourceDetails !== undefined &&
@@ -4991,7 +4991,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5005,7 +5005,7 @@ const deserializeAws_json1_1ResourceUtilization = (
 ): ResourceUtilization => {
   let contents: any = {
     __type: "ResourceUtilization",
-    EC2ResourceUtilization: undefined
+    EC2ResourceUtilization: undefined,
   };
   if (
     output.EC2ResourceUtilization !== undefined &&
@@ -5028,7 +5028,7 @@ const deserializeAws_json1_1ResultByTime = (
     Estimated: undefined,
     Groups: undefined,
     TimePeriod: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (output.Estimated !== undefined && output.Estimated !== null) {
     contents.Estimated = output.Estimated;
@@ -5067,7 +5067,7 @@ const deserializeAws_json1_1RightsizingRecommendation = (
     CurrentInstance: undefined,
     ModifyRecommendationDetail: undefined,
     RightsizingType: undefined,
-    TerminateRecommendationDetail: undefined
+    TerminateRecommendationDetail: undefined,
   };
   if (output.AccountId !== undefined && output.AccountId !== null) {
     contents.AccountId = output.AccountId;
@@ -5119,7 +5119,7 @@ const deserializeAws_json1_1RightsizingRecommendationMetadata = (
     __type: "RightsizingRecommendationMetadata",
     GenerationTimestamp: undefined,
     LookbackPeriodInDays: undefined,
-    RecommendationId: undefined
+    RecommendationId: undefined,
   };
   if (
     output.GenerationTimestamp !== undefined &&
@@ -5151,7 +5151,7 @@ const deserializeAws_json1_1RightsizingRecommendationSummary = (
     EstimatedTotalMonthlySavingsAmount: undefined,
     SavingsCurrencyCode: undefined,
     SavingsPercentage: undefined,
-    TotalRecommendationCount: undefined
+    TotalRecommendationCount: undefined,
   };
   if (
     output.EstimatedTotalMonthlySavingsAmount !== undefined &&
@@ -5189,7 +5189,7 @@ const deserializeAws_json1_1SavingsPlansAmortizedCommitment = (
     __type: "SavingsPlansAmortizedCommitment",
     AmortizedRecurringCommitment: undefined,
     AmortizedUpfrontCommitment: undefined,
-    TotalAmortizedCommitment: undefined
+    TotalAmortizedCommitment: undefined,
   };
   if (
     output.AmortizedRecurringCommitment !== undefined &&
@@ -5220,7 +5220,7 @@ const deserializeAws_json1_1SavingsPlansCoverage = (
     __type: "SavingsPlansCoverage",
     Attributes: undefined,
     Coverage: undefined,
-    TimePeriod: undefined
+    TimePeriod: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1Attributes(
@@ -5252,7 +5252,7 @@ const deserializeAws_json1_1SavingsPlansCoverageData = (
     CoveragePercentage: undefined,
     OnDemandCost: undefined,
     SpendCoveredBySavingsPlans: undefined,
-    TotalCost: undefined
+    TotalCost: undefined,
   };
   if (
     output.CoveragePercentage !== undefined &&
@@ -5292,7 +5292,7 @@ const deserializeAws_json1_1SavingsPlansDetails = (
     __type: "SavingsPlansDetails",
     InstanceFamily: undefined,
     OfferingId: undefined,
-    Region: undefined
+    Region: undefined,
   };
   if (output.InstanceFamily !== undefined && output.InstanceFamily !== null) {
     contents.InstanceFamily = output.InstanceFamily;
@@ -5317,7 +5317,7 @@ const deserializeAws_json1_1SavingsPlansPurchaseRecommendation = (
     SavingsPlansPurchaseRecommendationDetails: undefined,
     SavingsPlansPurchaseRecommendationSummary: undefined,
     SavingsPlansType: undefined,
-    TermInYears: undefined
+    TermInYears: undefined,
   };
   if (
     output.LookbackPeriodInDays !== undefined &&
@@ -5379,7 +5379,7 @@ const deserializeAws_json1_1SavingsPlansPurchaseRecommendationDetail = (
     EstimatedSavingsPercentage: undefined,
     HourlyCommitmentToPurchase: undefined,
     SavingsPlansDetails: undefined,
-    UpfrontCost: undefined
+    UpfrontCost: undefined,
   };
   if (output.AccountId !== undefined && output.AccountId !== null) {
     contents.AccountId = output.AccountId;
@@ -5492,7 +5492,7 @@ const deserializeAws_json1_1SavingsPlansPurchaseRecommendationMetadata = (
   let contents: any = {
     __type: "SavingsPlansPurchaseRecommendationMetadata",
     GenerationTimestamp: undefined,
-    RecommendationId: undefined
+    RecommendationId: undefined,
   };
   if (
     output.GenerationTimestamp !== undefined &&
@@ -5525,7 +5525,7 @@ const deserializeAws_json1_1SavingsPlansPurchaseRecommendationSummary = (
     EstimatedSavingsPercentage: undefined,
     EstimatedTotalCost: undefined,
     HourlyCommitmentToPurchase: undefined,
-    TotalRecommendationCount: undefined
+    TotalRecommendationCount: undefined,
   };
   if (output.CurrencyCode !== undefined && output.CurrencyCode !== null) {
     contents.CurrencyCode = output.CurrencyCode;
@@ -5599,7 +5599,7 @@ const deserializeAws_json1_1SavingsPlansSavings = (
   let contents: any = {
     __type: "SavingsPlansSavings",
     NetSavings: undefined,
-    OnDemandCostEquivalent: undefined
+    OnDemandCostEquivalent: undefined,
   };
   if (output.NetSavings !== undefined && output.NetSavings !== null) {
     contents.NetSavings = output.NetSavings;
@@ -5622,7 +5622,7 @@ const deserializeAws_json1_1SavingsPlansUtilization = (
     TotalCommitment: undefined,
     UnusedCommitment: undefined,
     UsedCommitment: undefined,
-    UtilizationPercentage: undefined
+    UtilizationPercentage: undefined,
   };
   if (output.TotalCommitment !== undefined && output.TotalCommitment !== null) {
     contents.TotalCommitment = output.TotalCommitment;
@@ -5653,7 +5653,7 @@ const deserializeAws_json1_1SavingsPlansUtilizationAggregates = (
     __type: "SavingsPlansUtilizationAggregates",
     AmortizedCommitment: undefined,
     Savings: undefined,
-    Utilization: undefined
+    Utilization: undefined,
   };
   if (
     output.AmortizedCommitment !== undefined &&
@@ -5688,7 +5688,7 @@ const deserializeAws_json1_1SavingsPlansUtilizationByTime = (
     AmortizedCommitment: undefined,
     Savings: undefined,
     TimePeriod: undefined,
-    Utilization: undefined
+    Utilization: undefined,
   };
   if (
     output.AmortizedCommitment !== undefined &&
@@ -5730,7 +5730,7 @@ const deserializeAws_json1_1SavingsPlansUtilizationDetail = (
     Attributes: undefined,
     Savings: undefined,
     SavingsPlanArn: undefined,
-    Utilization: undefined
+    Utilization: undefined,
   };
   if (
     output.AmortizedCommitment !== undefined &&
@@ -5789,7 +5789,7 @@ const deserializeAws_json1_1ServiceQuotaExceededException = (
 ): ServiceQuotaExceededException => {
   let contents: any = {
     __type: "ServiceQuotaExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5803,7 +5803,7 @@ const deserializeAws_json1_1ServiceSpecification = (
 ): ServiceSpecification => {
   let contents: any = {
     __type: "ServiceSpecification",
-    EC2Specification: undefined
+    EC2Specification: undefined,
   };
   if (
     output.EC2Specification !== undefined &&
@@ -5831,7 +5831,7 @@ const deserializeAws_json1_1TagValues = (
   let contents: any = {
     __type: "TagValues",
     Key: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -5862,7 +5862,7 @@ const deserializeAws_json1_1TargetInstance = (
     EstimatedMonthlyCost: undefined,
     EstimatedMonthlySavings: undefined,
     ExpectedResourceUtilization: undefined,
-    ResourceDetails: undefined
+    ResourceDetails: undefined,
   };
   if (output.CurrencyCode !== undefined && output.CurrencyCode !== null) {
     contents.CurrencyCode = output.CurrencyCode;
@@ -5919,7 +5919,7 @@ const deserializeAws_json1_1TerminateRecommendationDetail = (
   let contents: any = {
     __type: "TerminateRecommendationDetail",
     CurrencyCode: undefined,
-    EstimatedMonthlySavings: undefined
+    EstimatedMonthlySavings: undefined,
   };
   if (output.CurrencyCode !== undefined && output.CurrencyCode !== null) {
     contents.CurrencyCode = output.CurrencyCode;
@@ -5939,7 +5939,7 @@ const deserializeAws_json1_1UnresolvableUsageUnitException = (
 ): UnresolvableUsageUnitException => {
   let contents: any = {
     __type: "UnresolvableUsageUnitException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5954,7 +5954,7 @@ const deserializeAws_json1_1UpdateCostCategoryDefinitionResponse = (
   let contents: any = {
     __type: "UpdateCostCategoryDefinitionResponse",
     CostCategoryArn: undefined,
-    EffectiveStart: undefined
+    EffectiveStart: undefined,
   };
   if (output.CostCategoryArn !== undefined && output.CostCategoryArn !== null) {
     contents.CostCategoryArn = output.CostCategoryArn;
@@ -5973,7 +5973,7 @@ const deserializeAws_json1_1UtilizationByTime = (
     __type: "UtilizationByTime",
     Groups: undefined,
     TimePeriod: undefined,
-    Total: undefined
+    Total: undefined,
   };
   if (output.Groups !== undefined && output.Groups !== null) {
     contents.Groups = deserializeAws_json1_1ReservationUtilizationGroups(
@@ -6015,7 +6015,7 @@ const deserializeAws_json1_1Values = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6036,7 +6036,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -6049,11 +6049,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -6065,7 +6065,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

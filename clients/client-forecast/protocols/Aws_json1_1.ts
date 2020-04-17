@@ -1,106 +1,106 @@
 import {
   CreateDatasetCommandInput,
-  CreateDatasetCommandOutput
+  CreateDatasetCommandOutput,
 } from "../commands/CreateDatasetCommand";
 import {
   CreateDatasetGroupCommandInput,
-  CreateDatasetGroupCommandOutput
+  CreateDatasetGroupCommandOutput,
 } from "../commands/CreateDatasetGroupCommand";
 import {
   CreateDatasetImportJobCommandInput,
-  CreateDatasetImportJobCommandOutput
+  CreateDatasetImportJobCommandOutput,
 } from "../commands/CreateDatasetImportJobCommand";
 import {
   CreateForecastCommandInput,
-  CreateForecastCommandOutput
+  CreateForecastCommandOutput,
 } from "../commands/CreateForecastCommand";
 import {
   CreateForecastExportJobCommandInput,
-  CreateForecastExportJobCommandOutput
+  CreateForecastExportJobCommandOutput,
 } from "../commands/CreateForecastExportJobCommand";
 import {
   CreatePredictorCommandInput,
-  CreatePredictorCommandOutput
+  CreatePredictorCommandOutput,
 } from "../commands/CreatePredictorCommand";
 import {
   DeleteDatasetCommandInput,
-  DeleteDatasetCommandOutput
+  DeleteDatasetCommandOutput,
 } from "../commands/DeleteDatasetCommand";
 import {
   DeleteDatasetGroupCommandInput,
-  DeleteDatasetGroupCommandOutput
+  DeleteDatasetGroupCommandOutput,
 } from "../commands/DeleteDatasetGroupCommand";
 import {
   DeleteDatasetImportJobCommandInput,
-  DeleteDatasetImportJobCommandOutput
+  DeleteDatasetImportJobCommandOutput,
 } from "../commands/DeleteDatasetImportJobCommand";
 import {
   DeleteForecastCommandInput,
-  DeleteForecastCommandOutput
+  DeleteForecastCommandOutput,
 } from "../commands/DeleteForecastCommand";
 import {
   DeleteForecastExportJobCommandInput,
-  DeleteForecastExportJobCommandOutput
+  DeleteForecastExportJobCommandOutput,
 } from "../commands/DeleteForecastExportJobCommand";
 import {
   DeletePredictorCommandInput,
-  DeletePredictorCommandOutput
+  DeletePredictorCommandOutput,
 } from "../commands/DeletePredictorCommand";
 import {
   DescribeDatasetCommandInput,
-  DescribeDatasetCommandOutput
+  DescribeDatasetCommandOutput,
 } from "../commands/DescribeDatasetCommand";
 import {
   DescribeDatasetGroupCommandInput,
-  DescribeDatasetGroupCommandOutput
+  DescribeDatasetGroupCommandOutput,
 } from "../commands/DescribeDatasetGroupCommand";
 import {
   DescribeDatasetImportJobCommandInput,
-  DescribeDatasetImportJobCommandOutput
+  DescribeDatasetImportJobCommandOutput,
 } from "../commands/DescribeDatasetImportJobCommand";
 import {
   DescribeForecastCommandInput,
-  DescribeForecastCommandOutput
+  DescribeForecastCommandOutput,
 } from "../commands/DescribeForecastCommand";
 import {
   DescribeForecastExportJobCommandInput,
-  DescribeForecastExportJobCommandOutput
+  DescribeForecastExportJobCommandOutput,
 } from "../commands/DescribeForecastExportJobCommand";
 import {
   DescribePredictorCommandInput,
-  DescribePredictorCommandOutput
+  DescribePredictorCommandOutput,
 } from "../commands/DescribePredictorCommand";
 import {
   GetAccuracyMetricsCommandInput,
-  GetAccuracyMetricsCommandOutput
+  GetAccuracyMetricsCommandOutput,
 } from "../commands/GetAccuracyMetricsCommand";
 import {
   ListDatasetGroupsCommandInput,
-  ListDatasetGroupsCommandOutput
+  ListDatasetGroupsCommandOutput,
 } from "../commands/ListDatasetGroupsCommand";
 import {
   ListDatasetImportJobsCommandInput,
-  ListDatasetImportJobsCommandOutput
+  ListDatasetImportJobsCommandOutput,
 } from "../commands/ListDatasetImportJobsCommand";
 import {
   ListDatasetsCommandInput,
-  ListDatasetsCommandOutput
+  ListDatasetsCommandOutput,
 } from "../commands/ListDatasetsCommand";
 import {
   ListForecastExportJobsCommandInput,
-  ListForecastExportJobsCommandOutput
+  ListForecastExportJobsCommandOutput,
 } from "../commands/ListForecastExportJobsCommand";
 import {
   ListForecastsCommandInput,
-  ListForecastsCommandOutput
+  ListForecastsCommandOutput,
 } from "../commands/ListForecastsCommand";
 import {
   ListPredictorsCommandInput,
-  ListPredictorsCommandOutput
+  ListPredictorsCommandOutput,
 } from "../commands/ListPredictorsCommand";
 import {
   UpdateDatasetGroupCommandInput,
-  UpdateDatasetGroupCommandOutput
+  UpdateDatasetGroupCommandOutput,
 } from "../commands/UpdateDatasetGroupCommand";
 import {
   CategoricalParameterRange,
@@ -186,11 +186,11 @@ import {
   UpdateDatasetGroupRequest,
   UpdateDatasetGroupResponse,
   WeightedQuantileLoss,
-  WindowSummary
+  WindowSummary,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -198,7 +198,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateDatasetCommand(
@@ -578,7 +578,7 @@ export async function deserializeAws_json1_1CreateDatasetCommand(
   const response: CreateDatasetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDatasetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -589,7 +589,7 @@ async function deserializeAws_json1_1CreateDatasetCommandError(
 ): Promise<CreateDatasetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -605,7 +605,7 @@ async function deserializeAws_json1_1CreateDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -616,7 +616,7 @@ async function deserializeAws_json1_1CreateDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -627,7 +627,7 @@ async function deserializeAws_json1_1CreateDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -638,7 +638,7 @@ async function deserializeAws_json1_1CreateDatasetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -663,7 +663,7 @@ export async function deserializeAws_json1_1CreateDatasetGroupCommand(
   const response: CreateDatasetGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDatasetGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -674,7 +674,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
 ): Promise<CreateDatasetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -690,7 +690,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -701,7 +701,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -712,7 +712,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -723,7 +723,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -734,7 +734,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -745,7 +745,7 @@ async function deserializeAws_json1_1CreateDatasetGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -773,7 +773,7 @@ export async function deserializeAws_json1_1CreateDatasetImportJobCommand(
   const response: CreateDatasetImportJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDatasetImportJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -784,7 +784,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
 ): Promise<CreateDatasetImportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -800,7 +800,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -811,7 +811,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -822,7 +822,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -833,7 +833,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -844,7 +844,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -855,7 +855,7 @@ async function deserializeAws_json1_1CreateDatasetImportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -877,7 +877,7 @@ export async function deserializeAws_json1_1CreateForecastCommand(
   const response: CreateForecastCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateForecastResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -888,7 +888,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
 ): Promise<CreateForecastCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -904,7 +904,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -915,7 +915,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -926,7 +926,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -937,7 +937,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -948,7 +948,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -959,7 +959,7 @@ async function deserializeAws_json1_1CreateForecastCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -987,7 +987,7 @@ export async function deserializeAws_json1_1CreateForecastExportJobCommand(
   const response: CreateForecastExportJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateForecastExportJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -998,7 +998,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
 ): Promise<CreateForecastExportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1014,7 +1014,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1025,7 +1025,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1036,7 +1036,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1047,7 +1047,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1058,7 +1058,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1069,7 +1069,7 @@ async function deserializeAws_json1_1CreateForecastExportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1091,7 +1091,7 @@ export async function deserializeAws_json1_1CreatePredictorCommand(
   const response: CreatePredictorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreatePredictorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1102,7 +1102,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
 ): Promise<CreatePredictorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1118,7 +1118,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1129,7 +1129,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1140,7 +1140,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1151,7 +1151,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1162,7 +1162,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1173,7 +1173,7 @@ async function deserializeAws_json1_1CreatePredictorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1191,7 +1191,7 @@ export async function deserializeAws_json1_1DeleteDatasetCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteDatasetCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1202,7 +1202,7 @@ async function deserializeAws_json1_1DeleteDatasetCommandError(
 ): Promise<DeleteDatasetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1218,7 +1218,7 @@ async function deserializeAws_json1_1DeleteDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1229,7 +1229,7 @@ async function deserializeAws_json1_1DeleteDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1240,7 +1240,7 @@ async function deserializeAws_json1_1DeleteDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1251,7 +1251,7 @@ async function deserializeAws_json1_1DeleteDatasetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1272,7 +1272,7 @@ export async function deserializeAws_json1_1DeleteDatasetGroupCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteDatasetGroupCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1283,7 +1283,7 @@ async function deserializeAws_json1_1DeleteDatasetGroupCommandError(
 ): Promise<DeleteDatasetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1299,7 +1299,7 @@ async function deserializeAws_json1_1DeleteDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1310,7 +1310,7 @@ async function deserializeAws_json1_1DeleteDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1321,7 +1321,7 @@ async function deserializeAws_json1_1DeleteDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1332,7 +1332,7 @@ async function deserializeAws_json1_1DeleteDatasetGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1353,7 +1353,7 @@ export async function deserializeAws_json1_1DeleteDatasetImportJobCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteDatasetImportJobCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1364,7 +1364,7 @@ async function deserializeAws_json1_1DeleteDatasetImportJobCommandError(
 ): Promise<DeleteDatasetImportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1380,7 +1380,7 @@ async function deserializeAws_json1_1DeleteDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1391,7 +1391,7 @@ async function deserializeAws_json1_1DeleteDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1402,7 +1402,7 @@ async function deserializeAws_json1_1DeleteDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1413,7 +1413,7 @@ async function deserializeAws_json1_1DeleteDatasetImportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1431,7 +1431,7 @@ export async function deserializeAws_json1_1DeleteForecastCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteForecastCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1442,7 +1442,7 @@ async function deserializeAws_json1_1DeleteForecastCommandError(
 ): Promise<DeleteForecastCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1458,7 +1458,7 @@ async function deserializeAws_json1_1DeleteForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1469,7 +1469,7 @@ async function deserializeAws_json1_1DeleteForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1480,7 +1480,7 @@ async function deserializeAws_json1_1DeleteForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1491,7 +1491,7 @@ async function deserializeAws_json1_1DeleteForecastCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1512,7 +1512,7 @@ export async function deserializeAws_json1_1DeleteForecastExportJobCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteForecastExportJobCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1523,7 +1523,7 @@ async function deserializeAws_json1_1DeleteForecastExportJobCommandError(
 ): Promise<DeleteForecastExportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1539,7 +1539,7 @@ async function deserializeAws_json1_1DeleteForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1550,7 +1550,7 @@ async function deserializeAws_json1_1DeleteForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1561,7 +1561,7 @@ async function deserializeAws_json1_1DeleteForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1572,7 +1572,7 @@ async function deserializeAws_json1_1DeleteForecastExportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1590,7 +1590,7 @@ export async function deserializeAws_json1_1DeletePredictorCommand(
   }
   await collectBody(output.body, context);
   const response: DeletePredictorCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1601,7 +1601,7 @@ async function deserializeAws_json1_1DeletePredictorCommandError(
 ): Promise<DeletePredictorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1617,7 +1617,7 @@ async function deserializeAws_json1_1DeletePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -1628,7 +1628,7 @@ async function deserializeAws_json1_1DeletePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1639,7 +1639,7 @@ async function deserializeAws_json1_1DeletePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1650,7 +1650,7 @@ async function deserializeAws_json1_1DeletePredictorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1672,7 +1672,7 @@ export async function deserializeAws_json1_1DescribeDatasetCommand(
   const response: DescribeDatasetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDatasetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1683,7 +1683,7 @@ async function deserializeAws_json1_1DescribeDatasetCommandError(
 ): Promise<DescribeDatasetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1699,7 +1699,7 @@ async function deserializeAws_json1_1DescribeDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1710,7 +1710,7 @@ async function deserializeAws_json1_1DescribeDatasetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1721,7 +1721,7 @@ async function deserializeAws_json1_1DescribeDatasetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1746,7 +1746,7 @@ export async function deserializeAws_json1_1DescribeDatasetGroupCommand(
   const response: DescribeDatasetGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDatasetGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1757,7 +1757,7 @@ async function deserializeAws_json1_1DescribeDatasetGroupCommandError(
 ): Promise<DescribeDatasetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1773,7 +1773,7 @@ async function deserializeAws_json1_1DescribeDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1784,7 +1784,7 @@ async function deserializeAws_json1_1DescribeDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1795,7 +1795,7 @@ async function deserializeAws_json1_1DescribeDatasetGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1823,7 +1823,7 @@ export async function deserializeAws_json1_1DescribeDatasetImportJobCommand(
   const response: DescribeDatasetImportJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDatasetImportJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1834,7 +1834,7 @@ async function deserializeAws_json1_1DescribeDatasetImportJobCommandError(
 ): Promise<DescribeDatasetImportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1850,7 +1850,7 @@ async function deserializeAws_json1_1DescribeDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1861,7 +1861,7 @@ async function deserializeAws_json1_1DescribeDatasetImportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1872,7 +1872,7 @@ async function deserializeAws_json1_1DescribeDatasetImportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1894,7 +1894,7 @@ export async function deserializeAws_json1_1DescribeForecastCommand(
   const response: DescribeForecastCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeForecastResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1905,7 +1905,7 @@ async function deserializeAws_json1_1DescribeForecastCommandError(
 ): Promise<DescribeForecastCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1921,7 +1921,7 @@ async function deserializeAws_json1_1DescribeForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1932,7 +1932,7 @@ async function deserializeAws_json1_1DescribeForecastCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1943,7 +1943,7 @@ async function deserializeAws_json1_1DescribeForecastCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1971,7 +1971,7 @@ export async function deserializeAws_json1_1DescribeForecastExportJobCommand(
   const response: DescribeForecastExportJobCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeForecastExportJobResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1982,7 +1982,7 @@ async function deserializeAws_json1_1DescribeForecastExportJobCommandError(
 ): Promise<DescribeForecastExportJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1998,7 +1998,7 @@ async function deserializeAws_json1_1DescribeForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2009,7 +2009,7 @@ async function deserializeAws_json1_1DescribeForecastExportJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2020,7 +2020,7 @@ async function deserializeAws_json1_1DescribeForecastExportJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2042,7 +2042,7 @@ export async function deserializeAws_json1_1DescribePredictorCommand(
   const response: DescribePredictorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribePredictorResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2053,7 +2053,7 @@ async function deserializeAws_json1_1DescribePredictorCommandError(
 ): Promise<DescribePredictorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2069,7 +2069,7 @@ async function deserializeAws_json1_1DescribePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2080,7 +2080,7 @@ async function deserializeAws_json1_1DescribePredictorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2091,7 +2091,7 @@ async function deserializeAws_json1_1DescribePredictorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2116,7 +2116,7 @@ export async function deserializeAws_json1_1GetAccuracyMetricsCommand(
   const response: GetAccuracyMetricsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAccuracyMetricsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2127,7 +2127,7 @@ async function deserializeAws_json1_1GetAccuracyMetricsCommandError(
 ): Promise<GetAccuracyMetricsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2143,7 +2143,7 @@ async function deserializeAws_json1_1GetAccuracyMetricsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -2154,7 +2154,7 @@ async function deserializeAws_json1_1GetAccuracyMetricsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2165,7 +2165,7 @@ async function deserializeAws_json1_1GetAccuracyMetricsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2176,7 +2176,7 @@ async function deserializeAws_json1_1GetAccuracyMetricsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2198,7 +2198,7 @@ export async function deserializeAws_json1_1ListDatasetGroupsCommand(
   const response: ListDatasetGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDatasetGroupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2209,7 +2209,7 @@ async function deserializeAws_json1_1ListDatasetGroupsCommandError(
 ): Promise<ListDatasetGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2225,7 +2225,7 @@ async function deserializeAws_json1_1ListDatasetGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2236,7 +2236,7 @@ async function deserializeAws_json1_1ListDatasetGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2261,7 +2261,7 @@ export async function deserializeAws_json1_1ListDatasetImportJobsCommand(
   const response: ListDatasetImportJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDatasetImportJobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2272,7 +2272,7 @@ async function deserializeAws_json1_1ListDatasetImportJobsCommandError(
 ): Promise<ListDatasetImportJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2288,7 +2288,7 @@ async function deserializeAws_json1_1ListDatasetImportJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -2299,7 +2299,7 @@ async function deserializeAws_json1_1ListDatasetImportJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2310,7 +2310,7 @@ async function deserializeAws_json1_1ListDatasetImportJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2332,7 +2332,7 @@ export async function deserializeAws_json1_1ListDatasetsCommand(
   const response: ListDatasetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDatasetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2343,7 +2343,7 @@ async function deserializeAws_json1_1ListDatasetsCommandError(
 ): Promise<ListDatasetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2359,7 +2359,7 @@ async function deserializeAws_json1_1ListDatasetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2370,7 +2370,7 @@ async function deserializeAws_json1_1ListDatasetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2398,7 +2398,7 @@ export async function deserializeAws_json1_1ListForecastExportJobsCommand(
   const response: ListForecastExportJobsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListForecastExportJobsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2409,7 +2409,7 @@ async function deserializeAws_json1_1ListForecastExportJobsCommandError(
 ): Promise<ListForecastExportJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2425,7 +2425,7 @@ async function deserializeAws_json1_1ListForecastExportJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -2436,7 +2436,7 @@ async function deserializeAws_json1_1ListForecastExportJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2447,7 +2447,7 @@ async function deserializeAws_json1_1ListForecastExportJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2469,7 +2469,7 @@ export async function deserializeAws_json1_1ListForecastsCommand(
   const response: ListForecastsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListForecastsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2480,7 +2480,7 @@ async function deserializeAws_json1_1ListForecastsCommandError(
 ): Promise<ListForecastsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2496,7 +2496,7 @@ async function deserializeAws_json1_1ListForecastsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -2507,7 +2507,7 @@ async function deserializeAws_json1_1ListForecastsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2518,7 +2518,7 @@ async function deserializeAws_json1_1ListForecastsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2540,7 +2540,7 @@ export async function deserializeAws_json1_1ListPredictorsCommand(
   const response: ListPredictorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPredictorsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2551,7 +2551,7 @@ async function deserializeAws_json1_1ListPredictorsCommandError(
 ): Promise<ListPredictorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2567,7 +2567,7 @@ async function deserializeAws_json1_1ListPredictorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -2578,7 +2578,7 @@ async function deserializeAws_json1_1ListPredictorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2589,7 +2589,7 @@ async function deserializeAws_json1_1ListPredictorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2614,7 +2614,7 @@ export async function deserializeAws_json1_1UpdateDatasetGroupCommand(
   const response: UpdateDatasetGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateDatasetGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2625,7 +2625,7 @@ async function deserializeAws_json1_1UpdateDatasetGroupCommandError(
 ): Promise<UpdateDatasetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2641,7 +2641,7 @@ async function deserializeAws_json1_1UpdateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -2652,7 +2652,7 @@ async function deserializeAws_json1_1UpdateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2663,7 +2663,7 @@ async function deserializeAws_json1_1UpdateDatasetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2674,7 +2674,7 @@ async function deserializeAws_json1_1UpdateDatasetGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2696,7 +2696,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2714,7 +2714,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2732,7 +2732,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2750,7 +2750,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsExceptionResponse = async (
     name: "ResourceAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2768,7 +2768,7 @@ const deserializeAws_json1_1ResourceInUseExceptionResponse = async (
     name: "ResourceInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2786,7 +2786,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3287,7 +3287,7 @@ const serializeAws_json1_1FeaturizationMethodParameters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3654,7 +3654,7 @@ const serializeAws_json1_1TrainingParameters = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -3702,7 +3702,7 @@ const deserializeAws_json1_1CategoricalParameterRange = (
   let contents: any = {
     __type: "CategoricalParameterRange",
     Name: undefined,
-    Values: undefined
+    Values: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -3731,7 +3731,7 @@ const deserializeAws_json1_1ContinuousParameterRange = (
     MaxValue: undefined,
     MinValue: undefined,
     Name: undefined,
-    ScalingType: undefined
+    ScalingType: undefined,
   };
   if (output.MaxValue !== undefined && output.MaxValue !== null) {
     contents.MaxValue = output.MaxValue;
@@ -3763,7 +3763,7 @@ const deserializeAws_json1_1CreateDatasetGroupResponse = (
 ): CreateDatasetGroupResponse => {
   let contents: any = {
     __type: "CreateDatasetGroupResponse",
-    DatasetGroupArn: undefined
+    DatasetGroupArn: undefined,
   };
   if (output.DatasetGroupArn !== undefined && output.DatasetGroupArn !== null) {
     contents.DatasetGroupArn = output.DatasetGroupArn;
@@ -3777,7 +3777,7 @@ const deserializeAws_json1_1CreateDatasetImportJobResponse = (
 ): CreateDatasetImportJobResponse => {
   let contents: any = {
     __type: "CreateDatasetImportJobResponse",
-    DatasetImportJobArn: undefined
+    DatasetImportJobArn: undefined,
   };
   if (
     output.DatasetImportJobArn !== undefined &&
@@ -3794,7 +3794,7 @@ const deserializeAws_json1_1CreateDatasetResponse = (
 ): CreateDatasetResponse => {
   let contents: any = {
     __type: "CreateDatasetResponse",
-    DatasetArn: undefined
+    DatasetArn: undefined,
   };
   if (output.DatasetArn !== undefined && output.DatasetArn !== null) {
     contents.DatasetArn = output.DatasetArn;
@@ -3808,7 +3808,7 @@ const deserializeAws_json1_1CreateForecastExportJobResponse = (
 ): CreateForecastExportJobResponse => {
   let contents: any = {
     __type: "CreateForecastExportJobResponse",
-    ForecastExportJobArn: undefined
+    ForecastExportJobArn: undefined,
   };
   if (
     output.ForecastExportJobArn !== undefined &&
@@ -3825,7 +3825,7 @@ const deserializeAws_json1_1CreateForecastResponse = (
 ): CreateForecastResponse => {
   let contents: any = {
     __type: "CreateForecastResponse",
-    ForecastArn: undefined
+    ForecastArn: undefined,
   };
   if (output.ForecastArn !== undefined && output.ForecastArn !== null) {
     contents.ForecastArn = output.ForecastArn;
@@ -3839,7 +3839,7 @@ const deserializeAws_json1_1CreatePredictorResponse = (
 ): CreatePredictorResponse => {
   let contents: any = {
     __type: "CreatePredictorResponse",
-    PredictorArn: undefined
+    PredictorArn: undefined,
   };
   if (output.PredictorArn !== undefined && output.PredictorArn !== null) {
     contents.PredictorArn = output.PredictorArn;
@@ -3853,7 +3853,7 @@ const deserializeAws_json1_1DataDestination = (
 ): DataDestination => {
   let contents: any = {
     __type: "DataDestination",
-    S3Config: undefined
+    S3Config: undefined,
   };
   if (output.S3Config !== undefined && output.S3Config !== null) {
     contents.S3Config = deserializeAws_json1_1S3Config(
@@ -3870,7 +3870,7 @@ const deserializeAws_json1_1DataSource = (
 ): DataSource => {
   let contents: any = {
     __type: "DataSource",
-    S3Config: undefined
+    S3Config: undefined,
   };
   if (output.S3Config !== undefined && output.S3Config !== null) {
     contents.S3Config = deserializeAws_json1_1S3Config(
@@ -3890,7 +3890,7 @@ const deserializeAws_json1_1DatasetGroupSummary = (
     CreationTime: undefined,
     DatasetGroupArn: undefined,
     DatasetGroupName: undefined,
-    LastModificationTime: undefined
+    LastModificationTime: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3936,7 +3936,7 @@ const deserializeAws_json1_1DatasetImportJobSummary = (
     DatasetImportJobName: undefined,
     LastModificationTime: undefined,
     Message: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3996,7 +3996,7 @@ const deserializeAws_json1_1DatasetSummary = (
     DatasetName: undefined,
     DatasetType: undefined,
     Domain: undefined,
-    LastModificationTime: undefined
+    LastModificationTime: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4045,7 +4045,7 @@ const deserializeAws_json1_1DescribeDatasetGroupResponse = (
     DatasetGroupName: undefined,
     Domain: undefined,
     LastModificationTime: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4098,7 +4098,7 @@ const deserializeAws_json1_1DescribeDatasetImportJobResponse = (
     LastModificationTime: undefined,
     Message: undefined,
     Status: undefined,
-    TimestampFormat: undefined
+    TimestampFormat: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4168,7 +4168,7 @@ const deserializeAws_json1_1DescribeDatasetResponse = (
     EncryptionConfig: undefined,
     LastModificationTime: undefined,
     Schema: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4227,7 +4227,7 @@ const deserializeAws_json1_1DescribeForecastExportJobResponse = (
     ForecastExportJobName: undefined,
     LastModificationTime: undefined,
     Message: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4284,7 +4284,7 @@ const deserializeAws_json1_1DescribeForecastResponse = (
     LastModificationTime: undefined,
     Message: undefined,
     PredictorArn: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4348,7 +4348,7 @@ const deserializeAws_json1_1DescribePredictorResponse = (
     PredictorExecutionDetails: undefined,
     PredictorName: undefined,
     Status: undefined,
-    TrainingParameters: undefined
+    TrainingParameters: undefined,
   };
   if (output.AlgorithmArn !== undefined && output.AlgorithmArn !== null) {
     contents.AlgorithmArn = output.AlgorithmArn;
@@ -4470,7 +4470,7 @@ const deserializeAws_json1_1EncryptionConfig = (
   let contents: any = {
     __type: "EncryptionConfig",
     KMSKeyArn: undefined,
-    RoleArn: undefined
+    RoleArn: undefined,
   };
   if (output.KMSKeyArn !== undefined && output.KMSKeyArn !== null) {
     contents.KMSKeyArn = output.KMSKeyArn;
@@ -4488,7 +4488,7 @@ const deserializeAws_json1_1EvaluationParameters = (
   let contents: any = {
     __type: "EvaluationParameters",
     BackTestWindowOffset: undefined,
-    NumberOfBacktestWindows: undefined
+    NumberOfBacktestWindows: undefined,
   };
   if (
     output.BackTestWindowOffset !== undefined &&
@@ -4512,7 +4512,7 @@ const deserializeAws_json1_1EvaluationResult = (
   let contents: any = {
     __type: "EvaluationResult",
     AlgorithmArn: undefined,
-    TestWindows: undefined
+    TestWindows: undefined,
   };
   if (output.AlgorithmArn !== undefined && output.AlgorithmArn !== null) {
     contents.AlgorithmArn = output.AlgorithmArn;
@@ -4533,7 +4533,7 @@ const deserializeAws_json1_1Featurization = (
   let contents: any = {
     __type: "Featurization",
     AttributeName: undefined,
-    FeaturizationPipeline: undefined
+    FeaturizationPipeline: undefined,
   };
   if (output.AttributeName !== undefined && output.AttributeName !== null) {
     contents.AttributeName = output.AttributeName;
@@ -4558,7 +4558,7 @@ const deserializeAws_json1_1FeaturizationConfig = (
     __type: "FeaturizationConfig",
     Featurizations: undefined,
     ForecastDimensions: undefined,
-    ForecastFrequency: undefined
+    ForecastFrequency: undefined,
   };
   if (output.Featurizations !== undefined && output.Featurizations !== null) {
     contents.Featurizations = deserializeAws_json1_1Featurizations(
@@ -4591,7 +4591,7 @@ const deserializeAws_json1_1FeaturizationMethod = (
   let contents: any = {
     __type: "FeaturizationMethod",
     FeaturizationMethodName: undefined,
-    FeaturizationMethodParameters: undefined
+    FeaturizationMethodParameters: undefined,
   };
   if (
     output.FeaturizationMethodName !== undefined &&
@@ -4616,7 +4616,7 @@ const deserializeAws_json1_1FeaturizationMethodParameters = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4645,7 +4645,7 @@ const deserializeAws_json1_1FieldStatistics = (
   context: __SerdeContext
 ): { [key: string]: Statistics } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_1Statistics(output[key], context);
   });
   return mapParams;
@@ -4670,7 +4670,7 @@ const deserializeAws_json1_1ForecastExportJobSummary = (
     ForecastExportJobName: undefined,
     LastModificationTime: undefined,
     Message: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4732,7 +4732,7 @@ const deserializeAws_json1_1ForecastSummary = (
     LastModificationTime: undefined,
     Message: undefined,
     PredictorArn: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -4788,7 +4788,7 @@ const deserializeAws_json1_1GetAccuracyMetricsResponse = (
 ): GetAccuracyMetricsResponse => {
   let contents: any = {
     __type: "GetAccuracyMetricsResponse",
-    PredictorEvaluationResults: undefined
+    PredictorEvaluationResults: undefined,
   };
   if (
     output.PredictorEvaluationResults !== undefined &&
@@ -4808,7 +4808,7 @@ const deserializeAws_json1_1HyperParameterTuningJobConfig = (
 ): HyperParameterTuningJobConfig => {
   let contents: any = {
     __type: "HyperParameterTuningJobConfig",
-    ParameterRanges: undefined
+    ParameterRanges: undefined,
   };
   if (output.ParameterRanges !== undefined && output.ParameterRanges !== null) {
     contents.ParameterRanges = deserializeAws_json1_1ParameterRanges(
@@ -4826,7 +4826,7 @@ const deserializeAws_json1_1InputDataConfig = (
   let contents: any = {
     __type: "InputDataConfig",
     DatasetGroupArn: undefined,
-    SupplementaryFeatures: undefined
+    SupplementaryFeatures: undefined,
   };
   if (output.DatasetGroupArn !== undefined && output.DatasetGroupArn !== null) {
     contents.DatasetGroupArn = output.DatasetGroupArn;
@@ -4852,7 +4852,7 @@ const deserializeAws_json1_1IntegerParameterRange = (
     MaxValue: undefined,
     MinValue: undefined,
     Name: undefined,
-    ScalingType: undefined
+    ScalingType: undefined,
   };
   if (output.MaxValue !== undefined && output.MaxValue !== null) {
     contents.MaxValue = output.MaxValue;
@@ -4884,7 +4884,7 @@ const deserializeAws_json1_1InvalidInputException = (
 ): InvalidInputException => {
   let contents: any = {
     __type: "InvalidInputException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4898,7 +4898,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4912,7 +4912,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4927,7 +4927,7 @@ const deserializeAws_json1_1ListDatasetGroupsResponse = (
   let contents: any = {
     __type: "ListDatasetGroupsResponse",
     DatasetGroups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.DatasetGroups !== undefined && output.DatasetGroups !== null) {
     contents.DatasetGroups = deserializeAws_json1_1DatasetGroups(
@@ -4948,7 +4948,7 @@ const deserializeAws_json1_1ListDatasetImportJobsResponse = (
   let contents: any = {
     __type: "ListDatasetImportJobsResponse",
     DatasetImportJobs: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.DatasetImportJobs !== undefined &&
@@ -4972,7 +4972,7 @@ const deserializeAws_json1_1ListDatasetsResponse = (
   let contents: any = {
     __type: "ListDatasetsResponse",
     Datasets: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Datasets !== undefined && output.Datasets !== null) {
     contents.Datasets = deserializeAws_json1_1Datasets(
@@ -4993,7 +4993,7 @@ const deserializeAws_json1_1ListForecastExportJobsResponse = (
   let contents: any = {
     __type: "ListForecastExportJobsResponse",
     ForecastExportJobs: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.ForecastExportJobs !== undefined &&
@@ -5017,7 +5017,7 @@ const deserializeAws_json1_1ListForecastsResponse = (
   let contents: any = {
     __type: "ListForecastsResponse",
     Forecasts: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Forecasts !== undefined && output.Forecasts !== null) {
     contents.Forecasts = deserializeAws_json1_1Forecasts(
@@ -5038,7 +5038,7 @@ const deserializeAws_json1_1ListPredictorsResponse = (
   let contents: any = {
     __type: "ListPredictorsResponse",
     NextToken: undefined,
-    Predictors: undefined
+    Predictors: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -5059,7 +5059,7 @@ const deserializeAws_json1_1Metrics = (
   let contents: any = {
     __type: "Metrics",
     RMSE: undefined,
-    WeightedQuantileLosses: undefined
+    WeightedQuantileLosses: undefined,
   };
   if (output.RMSE !== undefined && output.RMSE !== null) {
     contents.RMSE = output.RMSE;
@@ -5084,7 +5084,7 @@ const deserializeAws_json1_1ParameterRanges = (
     __type: "ParameterRanges",
     CategoricalParameterRanges: undefined,
     ContinuousParameterRanges: undefined,
-    IntegerParameterRanges: undefined
+    IntegerParameterRanges: undefined,
   };
   if (
     output.CategoricalParameterRanges !== undefined &&
@@ -5132,7 +5132,7 @@ const deserializeAws_json1_1PredictorExecution = (
   let contents: any = {
     __type: "PredictorExecution",
     AlgorithmArn: undefined,
-    TestWindows: undefined
+    TestWindows: undefined,
   };
   if (output.AlgorithmArn !== undefined && output.AlgorithmArn !== null) {
     contents.AlgorithmArn = output.AlgorithmArn;
@@ -5152,7 +5152,7 @@ const deserializeAws_json1_1PredictorExecutionDetails = (
 ): PredictorExecutionDetails => {
   let contents: any = {
     __type: "PredictorExecutionDetails",
-    PredictorExecutions: undefined
+    PredictorExecutions: undefined,
   };
   if (
     output.PredictorExecutions !== undefined &&
@@ -5187,7 +5187,7 @@ const deserializeAws_json1_1PredictorSummary = (
     Message: undefined,
     PredictorArn: undefined,
     PredictorName: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -5233,7 +5233,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsException = (
 ): ResourceAlreadyExistsException => {
   let contents: any = {
     __type: "ResourceAlreadyExistsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5247,7 +5247,7 @@ const deserializeAws_json1_1ResourceInUseException = (
 ): ResourceInUseException => {
   let contents: any = {
     __type: "ResourceInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5261,7 +5261,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5277,7 +5277,7 @@ const deserializeAws_json1_1S3Config = (
     __type: "S3Config",
     KMSKeyArn: undefined,
     Path: undefined,
-    RoleArn: undefined
+    RoleArn: undefined,
   };
   if (output.KMSKeyArn !== undefined && output.KMSKeyArn !== null) {
     contents.KMSKeyArn = output.KMSKeyArn;
@@ -5297,7 +5297,7 @@ const deserializeAws_json1_1Schema = (
 ): Schema => {
   let contents: any = {
     __type: "Schema",
-    Attributes: undefined
+    Attributes: undefined,
   };
   if (output.Attributes !== undefined && output.Attributes !== null) {
     contents.Attributes = deserializeAws_json1_1SchemaAttributes(
@@ -5315,7 +5315,7 @@ const deserializeAws_json1_1SchemaAttribute = (
   let contents: any = {
     __type: "SchemaAttribute",
     AttributeName: undefined,
-    AttributeType: undefined
+    AttributeType: undefined,
   };
   if (output.AttributeName !== undefined && output.AttributeName !== null) {
     contents.AttributeName = output.AttributeName;
@@ -5348,7 +5348,7 @@ const deserializeAws_json1_1Statistics = (
     CountNull: undefined,
     Max: undefined,
     Min: undefined,
-    Stddev: undefined
+    Stddev: undefined,
   };
   if (output.Avg !== undefined && output.Avg !== null) {
     contents.Avg = output.Avg;
@@ -5384,7 +5384,7 @@ const deserializeAws_json1_1SupplementaryFeature = (
   let contents: any = {
     __type: "SupplementaryFeature",
     Name: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -5422,7 +5422,7 @@ const deserializeAws_json1_1TestWindowSummary = (
     Message: undefined,
     Status: undefined,
     TestWindowEnd: undefined,
-    TestWindowStart: undefined
+    TestWindowStart: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -5455,7 +5455,7 @@ const deserializeAws_json1_1TrainingParameters = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -5466,7 +5466,7 @@ const deserializeAws_json1_1UpdateDatasetGroupResponse = (
   context: __SerdeContext
 ): UpdateDatasetGroupResponse => {
   let contents: any = {
-    __type: "UpdateDatasetGroupResponse"
+    __type: "UpdateDatasetGroupResponse",
   };
   return contents;
 };
@@ -5485,7 +5485,7 @@ const deserializeAws_json1_1WeightedQuantileLoss = (
   let contents: any = {
     __type: "WeightedQuantileLoss",
     LossValue: undefined,
-    Quantile: undefined
+    Quantile: undefined,
   };
   if (output.LossValue !== undefined && output.LossValue !== null) {
     contents.LossValue = output.LossValue;
@@ -5515,7 +5515,7 @@ const deserializeAws_json1_1WindowSummary = (
     ItemCount: undefined,
     Metrics: undefined,
     TestWindowEnd: undefined,
-    TestWindowStart: undefined
+    TestWindowStart: undefined,
   };
   if (output.EvaluationType !== undefined && output.EvaluationType !== null) {
     contents.EvaluationType = output.EvaluationType;
@@ -5540,7 +5540,7 @@ const deserializeAws_json1_1WindowSummary = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -5561,7 +5561,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -5574,11 +5574,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -5590,7 +5590,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

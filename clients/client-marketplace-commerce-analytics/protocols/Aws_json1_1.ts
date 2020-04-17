@@ -1,21 +1,21 @@
 import {
   GenerateDataSetCommandInput,
-  GenerateDataSetCommandOutput
+  GenerateDataSetCommandOutput,
 } from "../commands/GenerateDataSetCommand";
 import {
   StartSupportDataExportCommandInput,
-  StartSupportDataExportCommandOutput
+  StartSupportDataExportCommandOutput,
 } from "../commands/StartSupportDataExportCommand";
 import {
   GenerateDataSetRequest,
   GenerateDataSetResult,
   MarketplaceCommerceAnalyticsException,
   StartSupportDataExportRequest,
-  StartSupportDataExportResult
+  StartSupportDataExportResult,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -23,7 +23,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1GenerateDataSetCommand(
@@ -69,7 +69,7 @@ export async function deserializeAws_json1_1GenerateDataSetCommand(
   const response: GenerateDataSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GenerateDataSetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -80,7 +80,7 @@ async function deserializeAws_json1_1GenerateDataSetCommandError(
 ): Promise<GenerateDataSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -96,7 +96,7 @@ async function deserializeAws_json1_1GenerateDataSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -107,7 +107,7 @@ async function deserializeAws_json1_1GenerateDataSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -132,7 +132,7 @@ export async function deserializeAws_json1_1StartSupportDataExportCommand(
   const response: StartSupportDataExportCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartSupportDataExportResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -143,7 +143,7 @@ async function deserializeAws_json1_1StartSupportDataExportCommandError(
 ): Promise<StartSupportDataExportCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -159,7 +159,7 @@ async function deserializeAws_json1_1StartSupportDataExportCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -170,7 +170,7 @@ async function deserializeAws_json1_1StartSupportDataExportCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -192,7 +192,7 @@ const deserializeAws_json1_1MarketplaceCommerceAnalyticsExceptionResponse = asyn
     name: "MarketplaceCommerceAnalyticsException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -202,7 +202,7 @@ const serializeAws_json1_1CustomerDefinedValues = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -284,7 +284,7 @@ const deserializeAws_json1_1GenerateDataSetResult = (
 ): GenerateDataSetResult => {
   let contents: any = {
     __type: "GenerateDataSetResult",
-    dataSetRequestId: undefined
+    dataSetRequestId: undefined,
   };
   if (
     output.dataSetRequestId !== undefined &&
@@ -301,7 +301,7 @@ const deserializeAws_json1_1MarketplaceCommerceAnalyticsException = (
 ): MarketplaceCommerceAnalyticsException => {
   let contents: any = {
     __type: "MarketplaceCommerceAnalyticsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -315,7 +315,7 @@ const deserializeAws_json1_1StartSupportDataExportResult = (
 ): StartSupportDataExportResult => {
   let contents: any = {
     __type: "StartSupportDataExportResult",
-    dataSetRequestId: undefined
+    dataSetRequestId: undefined,
   };
   if (
     output.dataSetRequestId !== undefined &&
@@ -329,7 +329,7 @@ const deserializeAws_json1_1StartSupportDataExportResult = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -350,7 +350,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -363,11 +363,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -379,7 +379,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

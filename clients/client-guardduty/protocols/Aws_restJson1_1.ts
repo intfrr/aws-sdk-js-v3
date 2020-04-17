@@ -1,202 +1,202 @@
 import {
   AcceptInvitationCommandInput,
-  AcceptInvitationCommandOutput
+  AcceptInvitationCommandOutput,
 } from "../commands/AcceptInvitationCommand";
 import {
   ArchiveFindingsCommandInput,
-  ArchiveFindingsCommandOutput
+  ArchiveFindingsCommandOutput,
 } from "../commands/ArchiveFindingsCommand";
 import {
   CreateDetectorCommandInput,
-  CreateDetectorCommandOutput
+  CreateDetectorCommandOutput,
 } from "../commands/CreateDetectorCommand";
 import {
   CreateFilterCommandInput,
-  CreateFilterCommandOutput
+  CreateFilterCommandOutput,
 } from "../commands/CreateFilterCommand";
 import {
   CreateIPSetCommandInput,
-  CreateIPSetCommandOutput
+  CreateIPSetCommandOutput,
 } from "../commands/CreateIPSetCommand";
 import {
   CreateMembersCommandInput,
-  CreateMembersCommandOutput
+  CreateMembersCommandOutput,
 } from "../commands/CreateMembersCommand";
 import {
   CreatePublishingDestinationCommandInput,
-  CreatePublishingDestinationCommandOutput
+  CreatePublishingDestinationCommandOutput,
 } from "../commands/CreatePublishingDestinationCommand";
 import {
   CreateSampleFindingsCommandInput,
-  CreateSampleFindingsCommandOutput
+  CreateSampleFindingsCommandOutput,
 } from "../commands/CreateSampleFindingsCommand";
 import {
   CreateThreatIntelSetCommandInput,
-  CreateThreatIntelSetCommandOutput
+  CreateThreatIntelSetCommandOutput,
 } from "../commands/CreateThreatIntelSetCommand";
 import {
   DeclineInvitationsCommandInput,
-  DeclineInvitationsCommandOutput
+  DeclineInvitationsCommandOutput,
 } from "../commands/DeclineInvitationsCommand";
 import {
   DeleteDetectorCommandInput,
-  DeleteDetectorCommandOutput
+  DeleteDetectorCommandOutput,
 } from "../commands/DeleteDetectorCommand";
 import {
   DeleteFilterCommandInput,
-  DeleteFilterCommandOutput
+  DeleteFilterCommandOutput,
 } from "../commands/DeleteFilterCommand";
 import {
   DeleteIPSetCommandInput,
-  DeleteIPSetCommandOutput
+  DeleteIPSetCommandOutput,
 } from "../commands/DeleteIPSetCommand";
 import {
   DeleteInvitationsCommandInput,
-  DeleteInvitationsCommandOutput
+  DeleteInvitationsCommandOutput,
 } from "../commands/DeleteInvitationsCommand";
 import {
   DeleteMembersCommandInput,
-  DeleteMembersCommandOutput
+  DeleteMembersCommandOutput,
 } from "../commands/DeleteMembersCommand";
 import {
   DeletePublishingDestinationCommandInput,
-  DeletePublishingDestinationCommandOutput
+  DeletePublishingDestinationCommandOutput,
 } from "../commands/DeletePublishingDestinationCommand";
 import {
   DeleteThreatIntelSetCommandInput,
-  DeleteThreatIntelSetCommandOutput
+  DeleteThreatIntelSetCommandOutput,
 } from "../commands/DeleteThreatIntelSetCommand";
 import {
   DescribePublishingDestinationCommandInput,
-  DescribePublishingDestinationCommandOutput
+  DescribePublishingDestinationCommandOutput,
 } from "../commands/DescribePublishingDestinationCommand";
 import {
   DisassociateFromMasterAccountCommandInput,
-  DisassociateFromMasterAccountCommandOutput
+  DisassociateFromMasterAccountCommandOutput,
 } from "../commands/DisassociateFromMasterAccountCommand";
 import {
   DisassociateMembersCommandInput,
-  DisassociateMembersCommandOutput
+  DisassociateMembersCommandOutput,
 } from "../commands/DisassociateMembersCommand";
 import {
   GetDetectorCommandInput,
-  GetDetectorCommandOutput
+  GetDetectorCommandOutput,
 } from "../commands/GetDetectorCommand";
 import {
   GetFilterCommandInput,
-  GetFilterCommandOutput
+  GetFilterCommandOutput,
 } from "../commands/GetFilterCommand";
 import {
   GetFindingsCommandInput,
-  GetFindingsCommandOutput
+  GetFindingsCommandOutput,
 } from "../commands/GetFindingsCommand";
 import {
   GetFindingsStatisticsCommandInput,
-  GetFindingsStatisticsCommandOutput
+  GetFindingsStatisticsCommandOutput,
 } from "../commands/GetFindingsStatisticsCommand";
 import {
   GetIPSetCommandInput,
-  GetIPSetCommandOutput
+  GetIPSetCommandOutput,
 } from "../commands/GetIPSetCommand";
 import {
   GetInvitationsCountCommandInput,
-  GetInvitationsCountCommandOutput
+  GetInvitationsCountCommandOutput,
 } from "../commands/GetInvitationsCountCommand";
 import {
   GetMasterAccountCommandInput,
-  GetMasterAccountCommandOutput
+  GetMasterAccountCommandOutput,
 } from "../commands/GetMasterAccountCommand";
 import {
   GetMembersCommandInput,
-  GetMembersCommandOutput
+  GetMembersCommandOutput,
 } from "../commands/GetMembersCommand";
 import {
   GetThreatIntelSetCommandInput,
-  GetThreatIntelSetCommandOutput
+  GetThreatIntelSetCommandOutput,
 } from "../commands/GetThreatIntelSetCommand";
 import {
   InviteMembersCommandInput,
-  InviteMembersCommandOutput
+  InviteMembersCommandOutput,
 } from "../commands/InviteMembersCommand";
 import {
   ListDetectorsCommandInput,
-  ListDetectorsCommandOutput
+  ListDetectorsCommandOutput,
 } from "../commands/ListDetectorsCommand";
 import {
   ListFiltersCommandInput,
-  ListFiltersCommandOutput
+  ListFiltersCommandOutput,
 } from "../commands/ListFiltersCommand";
 import {
   ListFindingsCommandInput,
-  ListFindingsCommandOutput
+  ListFindingsCommandOutput,
 } from "../commands/ListFindingsCommand";
 import {
   ListIPSetsCommandInput,
-  ListIPSetsCommandOutput
+  ListIPSetsCommandOutput,
 } from "../commands/ListIPSetsCommand";
 import {
   ListInvitationsCommandInput,
-  ListInvitationsCommandOutput
+  ListInvitationsCommandOutput,
 } from "../commands/ListInvitationsCommand";
 import {
   ListMembersCommandInput,
-  ListMembersCommandOutput
+  ListMembersCommandOutput,
 } from "../commands/ListMembersCommand";
 import {
   ListPublishingDestinationsCommandInput,
-  ListPublishingDestinationsCommandOutput
+  ListPublishingDestinationsCommandOutput,
 } from "../commands/ListPublishingDestinationsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListThreatIntelSetsCommandInput,
-  ListThreatIntelSetsCommandOutput
+  ListThreatIntelSetsCommandOutput,
 } from "../commands/ListThreatIntelSetsCommand";
 import {
   StartMonitoringMembersCommandInput,
-  StartMonitoringMembersCommandOutput
+  StartMonitoringMembersCommandOutput,
 } from "../commands/StartMonitoringMembersCommand";
 import {
   StopMonitoringMembersCommandInput,
-  StopMonitoringMembersCommandOutput
+  StopMonitoringMembersCommandOutput,
 } from "../commands/StopMonitoringMembersCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UnarchiveFindingsCommandInput,
-  UnarchiveFindingsCommandOutput
+  UnarchiveFindingsCommandOutput,
 } from "../commands/UnarchiveFindingsCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateDetectorCommandInput,
-  UpdateDetectorCommandOutput
+  UpdateDetectorCommandOutput,
 } from "../commands/UpdateDetectorCommand";
 import {
   UpdateFilterCommandInput,
-  UpdateFilterCommandOutput
+  UpdateFilterCommandOutput,
 } from "../commands/UpdateFilterCommand";
 import {
   UpdateFindingsFeedbackCommandInput,
-  UpdateFindingsFeedbackCommandOutput
+  UpdateFindingsFeedbackCommandOutput,
 } from "../commands/UpdateFindingsFeedbackCommand";
 import {
   UpdateIPSetCommandInput,
-  UpdateIPSetCommandOutput
+  UpdateIPSetCommandOutput,
 } from "../commands/UpdateIPSetCommand";
 import {
   UpdatePublishingDestinationCommandInput,
-  UpdatePublishingDestinationCommandOutput
+  UpdatePublishingDestinationCommandOutput,
 } from "../commands/UpdatePublishingDestinationCommand";
 import {
   UpdateThreatIntelSetCommandInput,
-  UpdateThreatIntelSetCommandOutput
+  UpdateThreatIntelSetCommandOutput,
 } from "../commands/UpdateThreatIntelSetCommand";
 import {
   AccessKeyDetails,
@@ -239,21 +239,21 @@ import {
   SortCriteria,
   Tag,
   ThreatIntelligenceDetail,
-  UnprocessedAccount
+  UnprocessedAccount,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -286,12 +286,12 @@ export async function serializeAws_restJson1_1AcceptInvitationCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -324,12 +324,12 @@ export async function serializeAws_restJson1_1ArchiveFindingsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -359,12 +359,12 @@ export async function serializeAws_restJson1_1CreateDetectorCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -418,12 +418,12 @@ export async function serializeAws_restJson1_1CreateFilterCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -471,12 +471,12 @@ export async function serializeAws_restJson1_1CreateIPSetCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -509,12 +509,12 @@ export async function serializeAws_restJson1_1CreateMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -558,12 +558,12 @@ export async function serializeAws_restJson1_1CreatePublishingDestinationCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -596,12 +596,12 @@ export async function serializeAws_restJson1_1CreateSampleFindingsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -649,12 +649,12 @@ export async function serializeAws_restJson1_1CreateThreatIntelSetCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -675,12 +675,12 @@ export async function serializeAws_restJson1_1DeclineInvitationsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -705,12 +705,12 @@ export async function serializeAws_restJson1_1DeleteDetectorCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -747,12 +747,12 @@ export async function serializeAws_restJson1_1DeleteFilterCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -789,12 +789,12 @@ export async function serializeAws_restJson1_1DeleteIPSetCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -815,12 +815,12 @@ export async function serializeAws_restJson1_1DeleteInvitationsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -853,12 +853,12 @@ export async function serializeAws_restJson1_1DeleteMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -898,12 +898,12 @@ export async function serializeAws_restJson1_1DeletePublishingDestinationCommand
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -944,12 +944,12 @@ export async function serializeAws_restJson1_1DeleteThreatIntelSetCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -989,12 +989,12 @@ export async function serializeAws_restJson1_1DescribePublishingDestinationComma
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1019,12 +1019,12 @@ export async function serializeAws_restJson1_1DisassociateFromMasterAccountComma
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1057,12 +1057,12 @@ export async function serializeAws_restJson1_1DisassociateMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1087,12 +1087,12 @@ export async function serializeAws_restJson1_1GetDetectorCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1129,12 +1129,12 @@ export async function serializeAws_restJson1_1GetFilterCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1173,12 +1173,12 @@ export async function serializeAws_restJson1_1GetFindingsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1219,12 +1219,12 @@ export async function serializeAws_restJson1_1GetFindingsStatisticsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1261,12 +1261,12 @@ export async function serializeAws_restJson1_1GetIPSetCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1280,12 +1280,12 @@ export async function serializeAws_restJson1_1GetInvitationsCountCommand(
   let body: any;
   body = "{}";
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1310,12 +1310,12 @@ export async function serializeAws_restJson1_1GetMasterAccountCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1348,12 +1348,12 @@ export async function serializeAws_restJson1_1GetMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1394,12 +1394,12 @@ export async function serializeAws_restJson1_1GetThreatIntelSetCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1438,12 +1438,12 @@ export async function serializeAws_restJson1_1InviteMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1463,13 +1463,13 @@ export async function serializeAws_restJson1_1ListDetectorsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1501,13 +1501,13 @@ export async function serializeAws_restJson1_1ListFiltersCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1552,12 +1552,12 @@ export async function serializeAws_restJson1_1ListFindingsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1589,13 +1589,13 @@ export async function serializeAws_restJson1_1ListIPSetsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1615,13 +1615,13 @@ export async function serializeAws_restJson1_1ListInvitationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1656,13 +1656,13 @@ export async function serializeAws_restJson1_1ListMembersCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1694,13 +1694,13 @@ export async function serializeAws_restJson1_1ListPublishingDestinationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1727,12 +1727,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1764,13 +1764,13 @@ export async function serializeAws_restJson1_1ListThreatIntelSetsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1803,12 +1803,12 @@ export async function serializeAws_restJson1_1StartMonitoringMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1841,12 +1841,12 @@ export async function serializeAws_restJson1_1StopMonitoringMembersCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1878,12 +1878,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1916,12 +1916,12 @@ export async function serializeAws_restJson1_1UnarchiveFindingsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1948,17 +1948,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.TagKeys !== undefined) {
-    query["tagKeys"] = (input.TagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.TagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1991,12 +1991,12 @@ export async function serializeAws_restJson1_1UpdateDetectorCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2050,12 +2050,12 @@ export async function serializeAws_restJson1_1UpdateFilterCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2094,12 +2094,12 @@ export async function serializeAws_restJson1_1UpdateFindingsFeedbackCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2147,12 +2147,12 @@ export async function serializeAws_restJson1_1UpdateIPSetCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2202,12 +2202,12 @@ export async function serializeAws_restJson1_1UpdatePublishingDestinationCommand
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2259,12 +2259,12 @@ export async function serializeAws_restJson1_1UpdateThreatIntelSetCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -2280,7 +2280,7 @@ export async function deserializeAws_restJson1_1AcceptInvitationCommand(
   }
   const contents: AcceptInvitationCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "AcceptInvitationResponse"
+    __type: "AcceptInvitationResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2292,7 +2292,7 @@ async function deserializeAws_restJson1_1AcceptInvitationCommandError(
 ): Promise<AcceptInvitationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2306,7 +2306,7 @@ async function deserializeAws_restJson1_1AcceptInvitationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2317,7 +2317,7 @@ async function deserializeAws_restJson1_1AcceptInvitationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2328,7 +2328,7 @@ async function deserializeAws_restJson1_1AcceptInvitationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2349,7 +2349,7 @@ export async function deserializeAws_restJson1_1ArchiveFindingsCommand(
   }
   const contents: ArchiveFindingsCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "ArchiveFindingsResponse"
+    __type: "ArchiveFindingsResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2361,7 +2361,7 @@ async function deserializeAws_restJson1_1ArchiveFindingsCommandError(
 ): Promise<ArchiveFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2375,7 +2375,7 @@ async function deserializeAws_restJson1_1ArchiveFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2386,7 +2386,7 @@ async function deserializeAws_restJson1_1ArchiveFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2397,7 +2397,7 @@ async function deserializeAws_restJson1_1ArchiveFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2419,7 +2419,7 @@ export async function deserializeAws_restJson1_1CreateDetectorCommand(
   const contents: CreateDetectorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDetectorResponse",
-    DetectorId: undefined
+    DetectorId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.detectorId !== undefined && data.detectorId !== null) {
@@ -2434,7 +2434,7 @@ async function deserializeAws_restJson1_1CreateDetectorCommandError(
 ): Promise<CreateDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2448,7 +2448,7 @@ async function deserializeAws_restJson1_1CreateDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2459,7 +2459,7 @@ async function deserializeAws_restJson1_1CreateDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2470,7 +2470,7 @@ async function deserializeAws_restJson1_1CreateDetectorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2489,7 +2489,7 @@ export async function deserializeAws_restJson1_1CreateFilterCommand(
   const contents: CreateFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateFilterResponse",
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.name !== undefined && data.name !== null) {
@@ -2504,7 +2504,7 @@ async function deserializeAws_restJson1_1CreateFilterCommandError(
 ): Promise<CreateFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2518,7 +2518,7 @@ async function deserializeAws_restJson1_1CreateFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2529,7 +2529,7 @@ async function deserializeAws_restJson1_1CreateFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2540,7 +2540,7 @@ async function deserializeAws_restJson1_1CreateFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2559,7 +2559,7 @@ export async function deserializeAws_restJson1_1CreateIPSetCommand(
   const contents: CreateIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateIPSetResponse",
-    IpSetId: undefined
+    IpSetId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.ipSetId !== undefined && data.ipSetId !== null) {
@@ -2574,7 +2574,7 @@ async function deserializeAws_restJson1_1CreateIPSetCommandError(
 ): Promise<CreateIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2588,7 +2588,7 @@ async function deserializeAws_restJson1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2599,7 +2599,7 @@ async function deserializeAws_restJson1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2610,7 +2610,7 @@ async function deserializeAws_restJson1_1CreateIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2629,7 +2629,7 @@ export async function deserializeAws_restJson1_1CreateMembersCommand(
   const contents: CreateMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -2650,7 +2650,7 @@ async function deserializeAws_restJson1_1CreateMembersCommandError(
 ): Promise<CreateMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2664,7 +2664,7 @@ async function deserializeAws_restJson1_1CreateMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2675,7 +2675,7 @@ async function deserializeAws_restJson1_1CreateMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2686,7 +2686,7 @@ async function deserializeAws_restJson1_1CreateMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2708,7 +2708,7 @@ export async function deserializeAws_restJson1_1CreatePublishingDestinationComma
   const contents: CreatePublishingDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreatePublishingDestinationResponse",
-    DestinationId: undefined
+    DestinationId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.destinationId !== undefined && data.destinationId !== null) {
@@ -2723,7 +2723,7 @@ async function deserializeAws_restJson1_1CreatePublishingDestinationCommandError
 ): Promise<CreatePublishingDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2737,7 +2737,7 @@ async function deserializeAws_restJson1_1CreatePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2748,7 +2748,7 @@ async function deserializeAws_restJson1_1CreatePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2759,7 +2759,7 @@ async function deserializeAws_restJson1_1CreatePublishingDestinationCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2780,7 +2780,7 @@ export async function deserializeAws_restJson1_1CreateSampleFindingsCommand(
   }
   const contents: CreateSampleFindingsCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "CreateSampleFindingsResponse"
+    __type: "CreateSampleFindingsResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2792,7 +2792,7 @@ async function deserializeAws_restJson1_1CreateSampleFindingsCommandError(
 ): Promise<CreateSampleFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2806,7 +2806,7 @@ async function deserializeAws_restJson1_1CreateSampleFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2817,7 +2817,7 @@ async function deserializeAws_restJson1_1CreateSampleFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2828,7 +2828,7 @@ async function deserializeAws_restJson1_1CreateSampleFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2850,7 +2850,7 @@ export async function deserializeAws_restJson1_1CreateThreatIntelSetCommand(
   const contents: CreateThreatIntelSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateThreatIntelSetResponse",
-    ThreatIntelSetId: undefined
+    ThreatIntelSetId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.threatIntelSetId !== undefined && data.threatIntelSetId !== null) {
@@ -2865,7 +2865,7 @@ async function deserializeAws_restJson1_1CreateThreatIntelSetCommandError(
 ): Promise<CreateThreatIntelSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2879,7 +2879,7 @@ async function deserializeAws_restJson1_1CreateThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2890,7 +2890,7 @@ async function deserializeAws_restJson1_1CreateThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2901,7 +2901,7 @@ async function deserializeAws_restJson1_1CreateThreatIntelSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2923,7 +2923,7 @@ export async function deserializeAws_restJson1_1DeclineInvitationsCommand(
   const contents: DeclineInvitationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeclineInvitationsResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -2944,7 +2944,7 @@ async function deserializeAws_restJson1_1DeclineInvitationsCommandError(
 ): Promise<DeclineInvitationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2958,7 +2958,7 @@ async function deserializeAws_restJson1_1DeclineInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -2969,7 +2969,7 @@ async function deserializeAws_restJson1_1DeclineInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2980,7 +2980,7 @@ async function deserializeAws_restJson1_1DeclineInvitationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3001,7 +3001,7 @@ export async function deserializeAws_restJson1_1DeleteDetectorCommand(
   }
   const contents: DeleteDetectorCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteDetectorResponse"
+    __type: "DeleteDetectorResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3013,7 +3013,7 @@ async function deserializeAws_restJson1_1DeleteDetectorCommandError(
 ): Promise<DeleteDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3027,7 +3027,7 @@ async function deserializeAws_restJson1_1DeleteDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3038,7 +3038,7 @@ async function deserializeAws_restJson1_1DeleteDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3049,7 +3049,7 @@ async function deserializeAws_restJson1_1DeleteDetectorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3067,7 +3067,7 @@ export async function deserializeAws_restJson1_1DeleteFilterCommand(
   }
   const contents: DeleteFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteFilterResponse"
+    __type: "DeleteFilterResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3079,7 +3079,7 @@ async function deserializeAws_restJson1_1DeleteFilterCommandError(
 ): Promise<DeleteFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3093,7 +3093,7 @@ async function deserializeAws_restJson1_1DeleteFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3104,7 +3104,7 @@ async function deserializeAws_restJson1_1DeleteFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3115,7 +3115,7 @@ async function deserializeAws_restJson1_1DeleteFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3133,7 +3133,7 @@ export async function deserializeAws_restJson1_1DeleteIPSetCommand(
   }
   const contents: DeleteIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteIPSetResponse"
+    __type: "DeleteIPSetResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3145,7 +3145,7 @@ async function deserializeAws_restJson1_1DeleteIPSetCommandError(
 ): Promise<DeleteIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3159,7 +3159,7 @@ async function deserializeAws_restJson1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3170,7 +3170,7 @@ async function deserializeAws_restJson1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3181,7 +3181,7 @@ async function deserializeAws_restJson1_1DeleteIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3203,7 +3203,7 @@ export async function deserializeAws_restJson1_1DeleteInvitationsCommand(
   const contents: DeleteInvitationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteInvitationsResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -3224,7 +3224,7 @@ async function deserializeAws_restJson1_1DeleteInvitationsCommandError(
 ): Promise<DeleteInvitationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3238,7 +3238,7 @@ async function deserializeAws_restJson1_1DeleteInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3249,7 +3249,7 @@ async function deserializeAws_restJson1_1DeleteInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3260,7 +3260,7 @@ async function deserializeAws_restJson1_1DeleteInvitationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3279,7 +3279,7 @@ export async function deserializeAws_restJson1_1DeleteMembersCommand(
   const contents: DeleteMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -3300,7 +3300,7 @@ async function deserializeAws_restJson1_1DeleteMembersCommandError(
 ): Promise<DeleteMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3314,7 +3314,7 @@ async function deserializeAws_restJson1_1DeleteMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3325,7 +3325,7 @@ async function deserializeAws_restJson1_1DeleteMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3336,7 +3336,7 @@ async function deserializeAws_restJson1_1DeleteMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3357,7 +3357,7 @@ export async function deserializeAws_restJson1_1DeletePublishingDestinationComma
   }
   const contents: DeletePublishingDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeletePublishingDestinationResponse"
+    __type: "DeletePublishingDestinationResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3369,7 +3369,7 @@ async function deserializeAws_restJson1_1DeletePublishingDestinationCommandError
 ): Promise<DeletePublishingDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3383,7 +3383,7 @@ async function deserializeAws_restJson1_1DeletePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3394,7 +3394,7 @@ async function deserializeAws_restJson1_1DeletePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3405,7 +3405,7 @@ async function deserializeAws_restJson1_1DeletePublishingDestinationCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3426,7 +3426,7 @@ export async function deserializeAws_restJson1_1DeleteThreatIntelSetCommand(
   }
   const contents: DeleteThreatIntelSetCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteThreatIntelSetResponse"
+    __type: "DeleteThreatIntelSetResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3438,7 +3438,7 @@ async function deserializeAws_restJson1_1DeleteThreatIntelSetCommandError(
 ): Promise<DeleteThreatIntelSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3452,7 +3452,7 @@ async function deserializeAws_restJson1_1DeleteThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3463,7 +3463,7 @@ async function deserializeAws_restJson1_1DeleteThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3474,7 +3474,7 @@ async function deserializeAws_restJson1_1DeleteThreatIntelSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3500,7 +3500,7 @@ export async function deserializeAws_restJson1_1DescribePublishingDestinationCom
     DestinationProperties: undefined,
     DestinationType: undefined,
     PublishingFailureStartTimestamp: undefined,
-    Status: undefined
+    Status: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.destinationId !== undefined && data.destinationId !== null) {
@@ -3537,7 +3537,7 @@ async function deserializeAws_restJson1_1DescribePublishingDestinationCommandErr
 ): Promise<DescribePublishingDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3551,7 +3551,7 @@ async function deserializeAws_restJson1_1DescribePublishingDestinationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3562,7 +3562,7 @@ async function deserializeAws_restJson1_1DescribePublishingDestinationCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3573,7 +3573,7 @@ async function deserializeAws_restJson1_1DescribePublishingDestinationCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3594,7 +3594,7 @@ export async function deserializeAws_restJson1_1DisassociateFromMasterAccountCom
   }
   const contents: DisassociateFromMasterAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DisassociateFromMasterAccountResponse"
+    __type: "DisassociateFromMasterAccountResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -3606,7 +3606,7 @@ async function deserializeAws_restJson1_1DisassociateFromMasterAccountCommandErr
 ): Promise<DisassociateFromMasterAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3620,7 +3620,7 @@ async function deserializeAws_restJson1_1DisassociateFromMasterAccountCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3631,7 +3631,7 @@ async function deserializeAws_restJson1_1DisassociateFromMasterAccountCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3642,7 +3642,7 @@ async function deserializeAws_restJson1_1DisassociateFromMasterAccountCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3664,7 +3664,7 @@ export async function deserializeAws_restJson1_1DisassociateMembersCommand(
   const contents: DisassociateMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -3685,7 +3685,7 @@ async function deserializeAws_restJson1_1DisassociateMembersCommandError(
 ): Promise<DisassociateMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3699,7 +3699,7 @@ async function deserializeAws_restJson1_1DisassociateMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3710,7 +3710,7 @@ async function deserializeAws_restJson1_1DisassociateMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3721,7 +3721,7 @@ async function deserializeAws_restJson1_1DisassociateMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3745,7 +3745,7 @@ export async function deserializeAws_restJson1_1GetDetectorCommand(
     ServiceRole: undefined,
     Status: undefined,
     Tags: undefined,
-    UpdatedAt: undefined
+    UpdatedAt: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.createdAt !== undefined && data.createdAt !== null) {
@@ -3778,7 +3778,7 @@ async function deserializeAws_restJson1_1GetDetectorCommandError(
 ): Promise<GetDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3792,7 +3792,7 @@ async function deserializeAws_restJson1_1GetDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3803,7 +3803,7 @@ async function deserializeAws_restJson1_1GetDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3814,7 +3814,7 @@ async function deserializeAws_restJson1_1GetDetectorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3838,7 +3838,7 @@ export async function deserializeAws_restJson1_1GetFilterCommand(
     FindingCriteria: undefined,
     Name: undefined,
     Rank: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.action !== undefined && data.action !== null) {
@@ -3871,7 +3871,7 @@ async function deserializeAws_restJson1_1GetFilterCommandError(
 ): Promise<GetFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3885,7 +3885,7 @@ async function deserializeAws_restJson1_1GetFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3896,7 +3896,7 @@ async function deserializeAws_restJson1_1GetFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3907,7 +3907,7 @@ async function deserializeAws_restJson1_1GetFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3926,7 +3926,7 @@ export async function deserializeAws_restJson1_1GetFindingsCommand(
   const contents: GetFindingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetFindingsResponse",
-    Findings: undefined
+    Findings: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.findings !== undefined && data.findings !== null) {
@@ -3944,7 +3944,7 @@ async function deserializeAws_restJson1_1GetFindingsCommandError(
 ): Promise<GetFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3958,7 +3958,7 @@ async function deserializeAws_restJson1_1GetFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -3969,7 +3969,7 @@ async function deserializeAws_restJson1_1GetFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3980,7 +3980,7 @@ async function deserializeAws_restJson1_1GetFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4002,7 +4002,7 @@ export async function deserializeAws_restJson1_1GetFindingsStatisticsCommand(
   const contents: GetFindingsStatisticsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetFindingsStatisticsResponse",
-    FindingStatistics: undefined
+    FindingStatistics: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.findingStatistics !== undefined && data.findingStatistics !== null) {
@@ -4020,7 +4020,7 @@ async function deserializeAws_restJson1_1GetFindingsStatisticsCommandError(
 ): Promise<GetFindingsStatisticsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4034,7 +4034,7 @@ async function deserializeAws_restJson1_1GetFindingsStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4045,7 +4045,7 @@ async function deserializeAws_restJson1_1GetFindingsStatisticsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4056,7 +4056,7 @@ async function deserializeAws_restJson1_1GetFindingsStatisticsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4079,7 +4079,7 @@ export async function deserializeAws_restJson1_1GetIPSetCommand(
     Location: undefined,
     Name: undefined,
     Status: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.format !== undefined && data.format !== null) {
@@ -4106,7 +4106,7 @@ async function deserializeAws_restJson1_1GetIPSetCommandError(
 ): Promise<GetIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4120,7 +4120,7 @@ async function deserializeAws_restJson1_1GetIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4131,7 +4131,7 @@ async function deserializeAws_restJson1_1GetIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4142,7 +4142,7 @@ async function deserializeAws_restJson1_1GetIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4164,7 +4164,7 @@ export async function deserializeAws_restJson1_1GetInvitationsCountCommand(
   const contents: GetInvitationsCountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInvitationsCountResponse",
-    InvitationsCount: undefined
+    InvitationsCount: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.invitationsCount !== undefined && data.invitationsCount !== null) {
@@ -4179,7 +4179,7 @@ async function deserializeAws_restJson1_1GetInvitationsCountCommandError(
 ): Promise<GetInvitationsCountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4193,7 +4193,7 @@ async function deserializeAws_restJson1_1GetInvitationsCountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4204,7 +4204,7 @@ async function deserializeAws_restJson1_1GetInvitationsCountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4215,7 +4215,7 @@ async function deserializeAws_restJson1_1GetInvitationsCountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4237,7 +4237,7 @@ export async function deserializeAws_restJson1_1GetMasterAccountCommand(
   const contents: GetMasterAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetMasterAccountResponse",
-    Master: undefined
+    Master: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.master !== undefined && data.master !== null) {
@@ -4252,7 +4252,7 @@ async function deserializeAws_restJson1_1GetMasterAccountCommandError(
 ): Promise<GetMasterAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4266,7 +4266,7 @@ async function deserializeAws_restJson1_1GetMasterAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4277,7 +4277,7 @@ async function deserializeAws_restJson1_1GetMasterAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4288,7 +4288,7 @@ async function deserializeAws_restJson1_1GetMasterAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4308,7 +4308,7 @@ export async function deserializeAws_restJson1_1GetMembersCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetMembersResponse",
     Members: undefined,
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.members !== undefined && data.members !== null) {
@@ -4332,7 +4332,7 @@ async function deserializeAws_restJson1_1GetMembersCommandError(
 ): Promise<GetMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4346,7 +4346,7 @@ async function deserializeAws_restJson1_1GetMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4357,7 +4357,7 @@ async function deserializeAws_restJson1_1GetMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4368,7 +4368,7 @@ async function deserializeAws_restJson1_1GetMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4394,7 +4394,7 @@ export async function deserializeAws_restJson1_1GetThreatIntelSetCommand(
     Location: undefined,
     Name: undefined,
     Status: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.format !== undefined && data.format !== null) {
@@ -4421,7 +4421,7 @@ async function deserializeAws_restJson1_1GetThreatIntelSetCommandError(
 ): Promise<GetThreatIntelSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4435,7 +4435,7 @@ async function deserializeAws_restJson1_1GetThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4446,7 +4446,7 @@ async function deserializeAws_restJson1_1GetThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4457,7 +4457,7 @@ async function deserializeAws_restJson1_1GetThreatIntelSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4476,7 +4476,7 @@ export async function deserializeAws_restJson1_1InviteMembersCommand(
   const contents: InviteMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InviteMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -4497,7 +4497,7 @@ async function deserializeAws_restJson1_1InviteMembersCommandError(
 ): Promise<InviteMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4511,7 +4511,7 @@ async function deserializeAws_restJson1_1InviteMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4522,7 +4522,7 @@ async function deserializeAws_restJson1_1InviteMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4533,7 +4533,7 @@ async function deserializeAws_restJson1_1InviteMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4553,7 +4553,7 @@ export async function deserializeAws_restJson1_1ListDetectorsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListDetectorsResponse",
     DetectorIds: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.detectorIds !== undefined && data.detectorIds !== null) {
@@ -4574,7 +4574,7 @@ async function deserializeAws_restJson1_1ListDetectorsCommandError(
 ): Promise<ListDetectorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4588,7 +4588,7 @@ async function deserializeAws_restJson1_1ListDetectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4599,7 +4599,7 @@ async function deserializeAws_restJson1_1ListDetectorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4610,7 +4610,7 @@ async function deserializeAws_restJson1_1ListDetectorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4630,7 +4630,7 @@ export async function deserializeAws_restJson1_1ListFiltersCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListFiltersResponse",
     FilterNames: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.filterNames !== undefined && data.filterNames !== null) {
@@ -4651,7 +4651,7 @@ async function deserializeAws_restJson1_1ListFiltersCommandError(
 ): Promise<ListFiltersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4665,7 +4665,7 @@ async function deserializeAws_restJson1_1ListFiltersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4676,7 +4676,7 @@ async function deserializeAws_restJson1_1ListFiltersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4687,7 +4687,7 @@ async function deserializeAws_restJson1_1ListFiltersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4707,7 +4707,7 @@ export async function deserializeAws_restJson1_1ListFindingsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListFindingsResponse",
     FindingIds: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.findingIds !== undefined && data.findingIds !== null) {
@@ -4728,7 +4728,7 @@ async function deserializeAws_restJson1_1ListFindingsCommandError(
 ): Promise<ListFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4742,7 +4742,7 @@ async function deserializeAws_restJson1_1ListFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4753,7 +4753,7 @@ async function deserializeAws_restJson1_1ListFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4764,7 +4764,7 @@ async function deserializeAws_restJson1_1ListFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4784,7 +4784,7 @@ export async function deserializeAws_restJson1_1ListIPSetsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListIPSetsResponse",
     IpSetIds: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.ipSetIds !== undefined && data.ipSetIds !== null) {
@@ -4805,7 +4805,7 @@ async function deserializeAws_restJson1_1ListIPSetsCommandError(
 ): Promise<ListIPSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4819,7 +4819,7 @@ async function deserializeAws_restJson1_1ListIPSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4830,7 +4830,7 @@ async function deserializeAws_restJson1_1ListIPSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4841,7 +4841,7 @@ async function deserializeAws_restJson1_1ListIPSetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4864,7 +4864,7 @@ export async function deserializeAws_restJson1_1ListInvitationsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListInvitationsResponse",
     Invitations: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.invitations !== undefined && data.invitations !== null) {
@@ -4885,7 +4885,7 @@ async function deserializeAws_restJson1_1ListInvitationsCommandError(
 ): Promise<ListInvitationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4899,7 +4899,7 @@ async function deserializeAws_restJson1_1ListInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4910,7 +4910,7 @@ async function deserializeAws_restJson1_1ListInvitationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4921,7 +4921,7 @@ async function deserializeAws_restJson1_1ListInvitationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4941,7 +4941,7 @@ export async function deserializeAws_restJson1_1ListMembersCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListMembersResponse",
     Members: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.members !== undefined && data.members !== null) {
@@ -4959,7 +4959,7 @@ async function deserializeAws_restJson1_1ListMembersCommandError(
 ): Promise<ListMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4973,7 +4973,7 @@ async function deserializeAws_restJson1_1ListMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -4984,7 +4984,7 @@ async function deserializeAws_restJson1_1ListMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4995,7 +4995,7 @@ async function deserializeAws_restJson1_1ListMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5018,7 +5018,7 @@ export async function deserializeAws_restJson1_1ListPublishingDestinationsComman
     $metadata: deserializeMetadata(output),
     __type: "ListPublishingDestinationsResponse",
     Destinations: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.destinations !== undefined && data.destinations !== null) {
@@ -5039,7 +5039,7 @@ async function deserializeAws_restJson1_1ListPublishingDestinationsCommandError(
 ): Promise<ListPublishingDestinationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5053,7 +5053,7 @@ async function deserializeAws_restJson1_1ListPublishingDestinationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5064,7 +5064,7 @@ async function deserializeAws_restJson1_1ListPublishingDestinationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5075,7 +5075,7 @@ async function deserializeAws_restJson1_1ListPublishingDestinationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5097,7 +5097,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -5112,7 +5112,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5126,7 +5126,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5137,7 +5137,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5148,7 +5148,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5171,7 +5171,7 @@ export async function deserializeAws_restJson1_1ListThreatIntelSetsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListThreatIntelSetsResponse",
     NextToken: undefined,
-    ThreatIntelSetIds: undefined
+    ThreatIntelSetIds: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -5192,7 +5192,7 @@ async function deserializeAws_restJson1_1ListThreatIntelSetsCommandError(
 ): Promise<ListThreatIntelSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5206,7 +5206,7 @@ async function deserializeAws_restJson1_1ListThreatIntelSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5217,7 +5217,7 @@ async function deserializeAws_restJson1_1ListThreatIntelSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5228,7 +5228,7 @@ async function deserializeAws_restJson1_1ListThreatIntelSetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5250,7 +5250,7 @@ export async function deserializeAws_restJson1_1StartMonitoringMembersCommand(
   const contents: StartMonitoringMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartMonitoringMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -5271,7 +5271,7 @@ async function deserializeAws_restJson1_1StartMonitoringMembersCommandError(
 ): Promise<StartMonitoringMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5285,7 +5285,7 @@ async function deserializeAws_restJson1_1StartMonitoringMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5296,7 +5296,7 @@ async function deserializeAws_restJson1_1StartMonitoringMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5307,7 +5307,7 @@ async function deserializeAws_restJson1_1StartMonitoringMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5329,7 +5329,7 @@ export async function deserializeAws_restJson1_1StopMonitoringMembersCommand(
   const contents: StopMonitoringMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopMonitoringMembersResponse",
-    UnprocessedAccounts: undefined
+    UnprocessedAccounts: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -5350,7 +5350,7 @@ async function deserializeAws_restJson1_1StopMonitoringMembersCommandError(
 ): Promise<StopMonitoringMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5364,7 +5364,7 @@ async function deserializeAws_restJson1_1StopMonitoringMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5375,7 +5375,7 @@ async function deserializeAws_restJson1_1StopMonitoringMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5386,7 +5386,7 @@ async function deserializeAws_restJson1_1StopMonitoringMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5404,7 +5404,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
   }
   const contents: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5416,7 +5416,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5430,7 +5430,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5441,7 +5441,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5452,7 +5452,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5473,7 +5473,7 @@ export async function deserializeAws_restJson1_1UnarchiveFindingsCommand(
   }
   const contents: UnarchiveFindingsCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UnarchiveFindingsResponse"
+    __type: "UnarchiveFindingsResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5485,7 +5485,7 @@ async function deserializeAws_restJson1_1UnarchiveFindingsCommandError(
 ): Promise<UnarchiveFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5499,7 +5499,7 @@ async function deserializeAws_restJson1_1UnarchiveFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5510,7 +5510,7 @@ async function deserializeAws_restJson1_1UnarchiveFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5521,7 +5521,7 @@ async function deserializeAws_restJson1_1UnarchiveFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5539,7 +5539,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
   }
   const contents: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5551,7 +5551,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5565,7 +5565,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5576,7 +5576,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5587,7 +5587,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5608,7 +5608,7 @@ export async function deserializeAws_restJson1_1UpdateDetectorCommand(
   }
   const contents: UpdateDetectorCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateDetectorResponse"
+    __type: "UpdateDetectorResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5620,7 +5620,7 @@ async function deserializeAws_restJson1_1UpdateDetectorCommandError(
 ): Promise<UpdateDetectorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5634,7 +5634,7 @@ async function deserializeAws_restJson1_1UpdateDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5645,7 +5645,7 @@ async function deserializeAws_restJson1_1UpdateDetectorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5656,7 +5656,7 @@ async function deserializeAws_restJson1_1UpdateDetectorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5675,7 +5675,7 @@ export async function deserializeAws_restJson1_1UpdateFilterCommand(
   const contents: UpdateFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateFilterResponse",
-    Name: undefined
+    Name: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.name !== undefined && data.name !== null) {
@@ -5690,7 +5690,7 @@ async function deserializeAws_restJson1_1UpdateFilterCommandError(
 ): Promise<UpdateFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5704,7 +5704,7 @@ async function deserializeAws_restJson1_1UpdateFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5715,7 +5715,7 @@ async function deserializeAws_restJson1_1UpdateFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5726,7 +5726,7 @@ async function deserializeAws_restJson1_1UpdateFilterCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5747,7 +5747,7 @@ export async function deserializeAws_restJson1_1UpdateFindingsFeedbackCommand(
   }
   const contents: UpdateFindingsFeedbackCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateFindingsFeedbackResponse"
+    __type: "UpdateFindingsFeedbackResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5759,7 +5759,7 @@ async function deserializeAws_restJson1_1UpdateFindingsFeedbackCommandError(
 ): Promise<UpdateFindingsFeedbackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5773,7 +5773,7 @@ async function deserializeAws_restJson1_1UpdateFindingsFeedbackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5784,7 +5784,7 @@ async function deserializeAws_restJson1_1UpdateFindingsFeedbackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5795,7 +5795,7 @@ async function deserializeAws_restJson1_1UpdateFindingsFeedbackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5813,7 +5813,7 @@ export async function deserializeAws_restJson1_1UpdateIPSetCommand(
   }
   const contents: UpdateIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateIPSetResponse"
+    __type: "UpdateIPSetResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5825,7 +5825,7 @@ async function deserializeAws_restJson1_1UpdateIPSetCommandError(
 ): Promise<UpdateIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5839,7 +5839,7 @@ async function deserializeAws_restJson1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5850,7 +5850,7 @@ async function deserializeAws_restJson1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5861,7 +5861,7 @@ async function deserializeAws_restJson1_1UpdateIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5882,7 +5882,7 @@ export async function deserializeAws_restJson1_1UpdatePublishingDestinationComma
   }
   const contents: UpdatePublishingDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdatePublishingDestinationResponse"
+    __type: "UpdatePublishingDestinationResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5894,7 +5894,7 @@ async function deserializeAws_restJson1_1UpdatePublishingDestinationCommandError
 ): Promise<UpdatePublishingDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5908,7 +5908,7 @@ async function deserializeAws_restJson1_1UpdatePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5919,7 +5919,7 @@ async function deserializeAws_restJson1_1UpdatePublishingDestinationCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5930,7 +5930,7 @@ async function deserializeAws_restJson1_1UpdatePublishingDestinationCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5951,7 +5951,7 @@ export async function deserializeAws_restJson1_1UpdateThreatIntelSetCommand(
   }
   const contents: UpdateThreatIntelSetCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateThreatIntelSetResponse"
+    __type: "UpdateThreatIntelSetResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -5963,7 +5963,7 @@ async function deserializeAws_restJson1_1UpdateThreatIntelSetCommandError(
 ): Promise<UpdateThreatIntelSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5977,7 +5977,7 @@ async function deserializeAws_restJson1_1UpdateThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerErrorException":
@@ -5988,7 +5988,7 @@ async function deserializeAws_restJson1_1UpdateThreatIntelSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5999,7 +5999,7 @@ async function deserializeAws_restJson1_1UpdateThreatIntelSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6017,7 +6017,7 @@ const deserializeAws_restJson1_1BadRequestExceptionResponse = async (
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
     Message: undefined,
-    Type: undefined
+    Type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -6038,7 +6038,7 @@ const deserializeAws_restJson1_1InternalServerErrorExceptionResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     Message: undefined,
-    Type: undefined
+    Type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -6141,7 +6141,7 @@ const serializeAws_restJson1_1Criterion = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = serializeAws_restJson1_1Condition(input[key], context);
   });
   return mapParams;
@@ -6271,7 +6271,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -6286,7 +6286,7 @@ const deserializeAws_restJson1_1AccessKeyDetails = (
     AccessKeyId: undefined,
     PrincipalId: undefined,
     UserName: undefined,
-    UserType: undefined
+    UserType: undefined,
   };
   if (output.accessKeyId !== undefined && output.accessKeyId !== null) {
     contents.AccessKeyId = output.accessKeyId;
@@ -6313,7 +6313,7 @@ const deserializeAws_restJson1_1Action = (
     AwsApiCallAction: undefined,
     DnsRequestAction: undefined,
     NetworkConnectionAction: undefined,
-    PortProbeAction: undefined
+    PortProbeAction: undefined,
   };
   if (output.actionType !== undefined && output.actionType !== null) {
     contents.ActionType = output.actionType;
@@ -6364,7 +6364,7 @@ const deserializeAws_restJson1_1AwsApiCallAction = (
     CallerType: undefined,
     DomainDetails: undefined,
     RemoteIpDetails: undefined,
-    ServiceName: undefined
+    ServiceName: undefined,
   };
   if (output.api !== undefined && output.api !== null) {
     contents.Api = output.api;
@@ -6396,7 +6396,7 @@ const deserializeAws_restJson1_1City = (
 ): City => {
   let contents: any = {
     __type: "City",
-    CityName: undefined
+    CityName: undefined,
   };
   if (output.cityName !== undefined && output.cityName !== null) {
     contents.CityName = output.cityName;
@@ -6421,7 +6421,7 @@ const deserializeAws_restJson1_1Condition = (
     Lt: undefined,
     Lte: undefined,
     Neq: undefined,
-    NotEquals: undefined
+    NotEquals: undefined,
   };
   if (output.eq !== undefined && output.eq !== null) {
     contents.Eq = deserializeAws_restJson1_1Eq(output.eq, context);
@@ -6473,7 +6473,7 @@ const deserializeAws_restJson1_1CountBySeverity = (
   context: __SerdeContext
 ): { [key: string]: number } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -6486,7 +6486,7 @@ const deserializeAws_restJson1_1Country = (
   let contents: any = {
     __type: "Country",
     CountryCode: undefined,
-    CountryName: undefined
+    CountryName: undefined,
   };
   if (output.countryCode !== undefined && output.countryCode !== null) {
     contents.CountryCode = output.countryCode;
@@ -6502,7 +6502,7 @@ const deserializeAws_restJson1_1Criterion = (
   context: __SerdeContext
 ): { [key: string]: Condition } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_restJson1_1Condition(output[key], context);
   });
   return mapParams;
@@ -6516,7 +6516,7 @@ const deserializeAws_restJson1_1Destination = (
     __type: "Destination",
     DestinationId: undefined,
     DestinationType: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.destinationId !== undefined && output.destinationId !== null) {
     contents.DestinationId = output.destinationId;
@@ -6537,7 +6537,7 @@ const deserializeAws_restJson1_1DestinationProperties = (
   let contents: any = {
     __type: "DestinationProperties",
     DestinationArn: undefined,
-    KmsKeyArn: undefined
+    KmsKeyArn: undefined,
   };
   if (output.destinationArn !== undefined && output.destinationArn !== null) {
     contents.DestinationArn = output.destinationArn;
@@ -6570,7 +6570,7 @@ const deserializeAws_restJson1_1DnsRequestAction = (
 ): DnsRequestAction => {
   let contents: any = {
     __type: "DnsRequestAction",
-    Domain: undefined
+    Domain: undefined,
   };
   if (output.domain !== undefined && output.domain !== null) {
     contents.Domain = output.domain;
@@ -6584,7 +6584,7 @@ const deserializeAws_restJson1_1DomainDetails = (
 ): DomainDetails => {
   let contents: any = {
     __type: "DomainDetails",
-    Domain: undefined
+    Domain: undefined,
   };
   if (output.domain !== undefined && output.domain !== null) {
     contents.Domain = output.domain;
@@ -6612,7 +6612,7 @@ const deserializeAws_restJson1_1Evidence = (
 ): Evidence => {
   let contents: any = {
     __type: "Evidence",
-    ThreatIntelligenceDetails: undefined
+    ThreatIntelligenceDetails: undefined,
   };
   if (
     output.threatIntelligenceDetails !== undefined &&
@@ -6653,7 +6653,7 @@ const deserializeAws_restJson1_1Finding = (
     Severity: undefined,
     Title: undefined,
     Type: undefined,
-    UpdatedAt: undefined
+    UpdatedAt: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.AccountId = output.accountId;
@@ -6715,7 +6715,7 @@ const deserializeAws_restJson1_1FindingCriteria = (
 ): FindingCriteria => {
   let contents: any = {
     __type: "FindingCriteria",
-    Criterion: undefined
+    Criterion: undefined,
   };
   if (output.criterion !== undefined && output.criterion !== null) {
     contents.Criterion = deserializeAws_restJson1_1Criterion(
@@ -6739,7 +6739,7 @@ const deserializeAws_restJson1_1FindingStatistics = (
 ): FindingStatistics => {
   let contents: any = {
     __type: "FindingStatistics",
-    CountBySeverity: undefined
+    CountBySeverity: undefined,
   };
   if (output.countBySeverity !== undefined && output.countBySeverity !== null) {
     contents.CountBySeverity = deserializeAws_restJson1_1CountBySeverity(
@@ -6766,7 +6766,7 @@ const deserializeAws_restJson1_1GeoLocation = (
   let contents: any = {
     __type: "GeoLocation",
     Lat: undefined,
-    Lon: undefined
+    Lon: undefined,
   };
   if (output.lat !== undefined && output.lat !== null) {
     contents.Lat = output.lat;
@@ -6784,7 +6784,7 @@ const deserializeAws_restJson1_1IamInstanceProfile = (
   let contents: any = {
     __type: "IamInstanceProfile",
     Arn: undefined,
-    Id: undefined
+    Id: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.Arn = output.arn;
@@ -6812,7 +6812,7 @@ const deserializeAws_restJson1_1InstanceDetails = (
     NetworkInterfaces: undefined,
     Platform: undefined,
     ProductCodes: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (
     output.availabilityZone !== undefined &&
@@ -6883,7 +6883,7 @@ const deserializeAws_restJson1_1Invitation = (
     AccountId: undefined,
     InvitationId: undefined,
     InvitedAt: undefined,
-    RelationshipStatus: undefined
+    RelationshipStatus: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.AccountId = output.accountId;
@@ -6933,7 +6933,7 @@ const deserializeAws_restJson1_1LocalPortDetails = (
   let contents: any = {
     __type: "LocalPortDetails",
     Port: undefined,
-    PortName: undefined
+    PortName: undefined,
   };
   if (output.port !== undefined && output.port !== null) {
     contents.Port = output.port;
@@ -6953,7 +6953,7 @@ const deserializeAws_restJson1_1Master = (
     AccountId: undefined,
     InvitationId: undefined,
     InvitedAt: undefined,
-    RelationshipStatus: undefined
+    RelationshipStatus: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.AccountId = output.accountId;
@@ -6985,7 +6985,7 @@ const deserializeAws_restJson1_1Member = (
     InvitedAt: undefined,
     MasterId: undefined,
     RelationshipStatus: undefined,
-    UpdatedAt: undefined
+    UpdatedAt: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.AccountId = output.accountId;
@@ -7041,7 +7041,7 @@ const deserializeAws_restJson1_1NetworkConnectionAction = (
     LocalPortDetails: undefined,
     Protocol: undefined,
     RemoteIpDetails: undefined,
-    RemotePortDetails: undefined
+    RemotePortDetails: undefined,
   };
   if (output.blocked !== undefined && output.blocked !== null) {
     contents.Blocked = output.blocked;
@@ -7097,7 +7097,7 @@ const deserializeAws_restJson1_1NetworkInterface = (
     PublicIp: undefined,
     SecurityGroups: undefined,
     SubnetId: undefined,
-    VpcId: undefined
+    VpcId: undefined,
   };
   if (output.ipv6Addresses !== undefined && output.ipv6Addresses !== null) {
     contents.Ipv6Addresses = deserializeAws_restJson1_1Ipv6Addresses(
@@ -7175,7 +7175,7 @@ const deserializeAws_restJson1_1Organization = (
     Asn: undefined,
     AsnOrg: undefined,
     Isp: undefined,
-    Org: undefined
+    Org: undefined,
   };
   if (output.asn !== undefined && output.asn !== null) {
     contents.Asn = output.asn;
@@ -7199,7 +7199,7 @@ const deserializeAws_restJson1_1PortProbeAction = (
   let contents: any = {
     __type: "PortProbeAction",
     Blocked: undefined,
-    PortProbeDetails: undefined
+    PortProbeDetails: undefined,
   };
   if (output.blocked !== undefined && output.blocked !== null) {
     contents.Blocked = output.blocked;
@@ -7223,7 +7223,7 @@ const deserializeAws_restJson1_1PortProbeDetail = (
   let contents: any = {
     __type: "PortProbeDetail",
     LocalPortDetails: undefined,
-    RemoteIpDetails: undefined
+    RemoteIpDetails: undefined,
   };
   if (
     output.localPortDetails !== undefined &&
@@ -7259,7 +7259,7 @@ const deserializeAws_restJson1_1PrivateIpAddressDetails = (
   let contents: any = {
     __type: "PrivateIpAddressDetails",
     PrivateDnsName: undefined,
-    PrivateIpAddress: undefined
+    PrivateIpAddress: undefined,
   };
   if (output.privateDnsName !== undefined && output.privateDnsName !== null) {
     contents.PrivateDnsName = output.privateDnsName;
@@ -7289,7 +7289,7 @@ const deserializeAws_restJson1_1ProductCode = (
   let contents: any = {
     __type: "ProductCode",
     Code: undefined,
-    ProductType: undefined
+    ProductType: undefined,
   };
   if (output.code !== undefined && output.code !== null) {
     contents.Code = output.code;
@@ -7319,7 +7319,7 @@ const deserializeAws_restJson1_1RemoteIpDetails = (
     Country: undefined,
     GeoLocation: undefined,
     IpAddressV4: undefined,
-    Organization: undefined
+    Organization: undefined,
   };
   if (output.city !== undefined && output.city !== null) {
     contents.City = deserializeAws_restJson1_1City(output.city, context);
@@ -7355,7 +7355,7 @@ const deserializeAws_restJson1_1RemotePortDetails = (
   let contents: any = {
     __type: "RemotePortDetails",
     Port: undefined,
-    PortName: undefined
+    PortName: undefined,
   };
   if (output.port !== undefined && output.port !== null) {
     contents.Port = output.port;
@@ -7374,7 +7374,7 @@ const deserializeAws_restJson1_1Resource = (
     __type: "Resource",
     AccessKeyDetails: undefined,
     InstanceDetails: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   if (
     output.accessKeyDetails !== undefined &&
@@ -7404,7 +7404,7 @@ const deserializeAws_restJson1_1SecurityGroup = (
   let contents: any = {
     __type: "SecurityGroup",
     GroupId: undefined,
-    GroupName: undefined
+    GroupName: undefined,
   };
   if (output.groupId !== undefined && output.groupId !== null) {
     contents.GroupId = output.groupId;
@@ -7439,7 +7439,7 @@ const deserializeAws_restJson1_1Service = (
     Evidence: undefined,
     ResourceRole: undefined,
     ServiceName: undefined,
-    UserFeedback: undefined
+    UserFeedback: undefined,
   };
   if (output.action !== undefined && output.action !== null) {
     contents.Action = deserializeAws_restJson1_1Action(output.action, context);
@@ -7484,7 +7484,7 @@ const deserializeAws_restJson1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.Key = output.key;
@@ -7500,7 +7500,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -7529,7 +7529,7 @@ const deserializeAws_restJson1_1ThreatIntelligenceDetail = (
   let contents: any = {
     __type: "ThreatIntelligenceDetail",
     ThreatListName: undefined,
-    ThreatNames: undefined
+    ThreatNames: undefined,
   };
   if (output.threatListName !== undefined && output.threatListName !== null) {
     contents.ThreatListName = output.threatListName;
@@ -7566,7 +7566,7 @@ const deserializeAws_restJson1_1UnprocessedAccount = (
   let contents: any = {
     __type: "UnprocessedAccount",
     AccountId: undefined,
-    Result: undefined
+    Result: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.AccountId = output.accountId;
@@ -7589,7 +7589,7 @@ const deserializeAws_restJson1_1UnprocessedAccounts = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -7610,13 +7610,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -7629,7 +7629,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

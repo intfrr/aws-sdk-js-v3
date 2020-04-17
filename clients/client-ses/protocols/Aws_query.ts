@@ -1,286 +1,286 @@
 import {
   CloneReceiptRuleSetCommandInput,
-  CloneReceiptRuleSetCommandOutput
+  CloneReceiptRuleSetCommandOutput,
 } from "../commands/CloneReceiptRuleSetCommand";
 import {
   CreateConfigurationSetCommandInput,
-  CreateConfigurationSetCommandOutput
+  CreateConfigurationSetCommandOutput,
 } from "../commands/CreateConfigurationSetCommand";
 import {
   CreateConfigurationSetEventDestinationCommandInput,
-  CreateConfigurationSetEventDestinationCommandOutput
+  CreateConfigurationSetEventDestinationCommandOutput,
 } from "../commands/CreateConfigurationSetEventDestinationCommand";
 import {
   CreateConfigurationSetTrackingOptionsCommandInput,
-  CreateConfigurationSetTrackingOptionsCommandOutput
+  CreateConfigurationSetTrackingOptionsCommandOutput,
 } from "../commands/CreateConfigurationSetTrackingOptionsCommand";
 import {
   CreateCustomVerificationEmailTemplateCommandInput,
-  CreateCustomVerificationEmailTemplateCommandOutput
+  CreateCustomVerificationEmailTemplateCommandOutput,
 } from "../commands/CreateCustomVerificationEmailTemplateCommand";
 import {
   CreateReceiptFilterCommandInput,
-  CreateReceiptFilterCommandOutput
+  CreateReceiptFilterCommandOutput,
 } from "../commands/CreateReceiptFilterCommand";
 import {
   CreateReceiptRuleCommandInput,
-  CreateReceiptRuleCommandOutput
+  CreateReceiptRuleCommandOutput,
 } from "../commands/CreateReceiptRuleCommand";
 import {
   CreateReceiptRuleSetCommandInput,
-  CreateReceiptRuleSetCommandOutput
+  CreateReceiptRuleSetCommandOutput,
 } from "../commands/CreateReceiptRuleSetCommand";
 import {
   CreateTemplateCommandInput,
-  CreateTemplateCommandOutput
+  CreateTemplateCommandOutput,
 } from "../commands/CreateTemplateCommand";
 import {
   DeleteConfigurationSetCommandInput,
-  DeleteConfigurationSetCommandOutput
+  DeleteConfigurationSetCommandOutput,
 } from "../commands/DeleteConfigurationSetCommand";
 import {
   DeleteConfigurationSetEventDestinationCommandInput,
-  DeleteConfigurationSetEventDestinationCommandOutput
+  DeleteConfigurationSetEventDestinationCommandOutput,
 } from "../commands/DeleteConfigurationSetEventDestinationCommand";
 import {
   DeleteConfigurationSetTrackingOptionsCommandInput,
-  DeleteConfigurationSetTrackingOptionsCommandOutput
+  DeleteConfigurationSetTrackingOptionsCommandOutput,
 } from "../commands/DeleteConfigurationSetTrackingOptionsCommand";
 import {
   DeleteCustomVerificationEmailTemplateCommandInput,
-  DeleteCustomVerificationEmailTemplateCommandOutput
+  DeleteCustomVerificationEmailTemplateCommandOutput,
 } from "../commands/DeleteCustomVerificationEmailTemplateCommand";
 import {
   DeleteIdentityCommandInput,
-  DeleteIdentityCommandOutput
+  DeleteIdentityCommandOutput,
 } from "../commands/DeleteIdentityCommand";
 import {
   DeleteIdentityPolicyCommandInput,
-  DeleteIdentityPolicyCommandOutput
+  DeleteIdentityPolicyCommandOutput,
 } from "../commands/DeleteIdentityPolicyCommand";
 import {
   DeleteReceiptFilterCommandInput,
-  DeleteReceiptFilterCommandOutput
+  DeleteReceiptFilterCommandOutput,
 } from "../commands/DeleteReceiptFilterCommand";
 import {
   DeleteReceiptRuleCommandInput,
-  DeleteReceiptRuleCommandOutput
+  DeleteReceiptRuleCommandOutput,
 } from "../commands/DeleteReceiptRuleCommand";
 import {
   DeleteReceiptRuleSetCommandInput,
-  DeleteReceiptRuleSetCommandOutput
+  DeleteReceiptRuleSetCommandOutput,
 } from "../commands/DeleteReceiptRuleSetCommand";
 import {
   DeleteTemplateCommandInput,
-  DeleteTemplateCommandOutput
+  DeleteTemplateCommandOutput,
 } from "../commands/DeleteTemplateCommand";
 import {
   DeleteVerifiedEmailAddressCommandInput,
-  DeleteVerifiedEmailAddressCommandOutput
+  DeleteVerifiedEmailAddressCommandOutput,
 } from "../commands/DeleteVerifiedEmailAddressCommand";
 import {
   DescribeActiveReceiptRuleSetCommandInput,
-  DescribeActiveReceiptRuleSetCommandOutput
+  DescribeActiveReceiptRuleSetCommandOutput,
 } from "../commands/DescribeActiveReceiptRuleSetCommand";
 import {
   DescribeConfigurationSetCommandInput,
-  DescribeConfigurationSetCommandOutput
+  DescribeConfigurationSetCommandOutput,
 } from "../commands/DescribeConfigurationSetCommand";
 import {
   DescribeReceiptRuleCommandInput,
-  DescribeReceiptRuleCommandOutput
+  DescribeReceiptRuleCommandOutput,
 } from "../commands/DescribeReceiptRuleCommand";
 import {
   DescribeReceiptRuleSetCommandInput,
-  DescribeReceiptRuleSetCommandOutput
+  DescribeReceiptRuleSetCommandOutput,
 } from "../commands/DescribeReceiptRuleSetCommand";
 import {
   GetAccountSendingEnabledCommandInput,
-  GetAccountSendingEnabledCommandOutput
+  GetAccountSendingEnabledCommandOutput,
 } from "../commands/GetAccountSendingEnabledCommand";
 import {
   GetCustomVerificationEmailTemplateCommandInput,
-  GetCustomVerificationEmailTemplateCommandOutput
+  GetCustomVerificationEmailTemplateCommandOutput,
 } from "../commands/GetCustomVerificationEmailTemplateCommand";
 import {
   GetIdentityDkimAttributesCommandInput,
-  GetIdentityDkimAttributesCommandOutput
+  GetIdentityDkimAttributesCommandOutput,
 } from "../commands/GetIdentityDkimAttributesCommand";
 import {
   GetIdentityMailFromDomainAttributesCommandInput,
-  GetIdentityMailFromDomainAttributesCommandOutput
+  GetIdentityMailFromDomainAttributesCommandOutput,
 } from "../commands/GetIdentityMailFromDomainAttributesCommand";
 import {
   GetIdentityNotificationAttributesCommandInput,
-  GetIdentityNotificationAttributesCommandOutput
+  GetIdentityNotificationAttributesCommandOutput,
 } from "../commands/GetIdentityNotificationAttributesCommand";
 import {
   GetIdentityPoliciesCommandInput,
-  GetIdentityPoliciesCommandOutput
+  GetIdentityPoliciesCommandOutput,
 } from "../commands/GetIdentityPoliciesCommand";
 import {
   GetIdentityVerificationAttributesCommandInput,
-  GetIdentityVerificationAttributesCommandOutput
+  GetIdentityVerificationAttributesCommandOutput,
 } from "../commands/GetIdentityVerificationAttributesCommand";
 import {
   GetSendQuotaCommandInput,
-  GetSendQuotaCommandOutput
+  GetSendQuotaCommandOutput,
 } from "../commands/GetSendQuotaCommand";
 import {
   GetSendStatisticsCommandInput,
-  GetSendStatisticsCommandOutput
+  GetSendStatisticsCommandOutput,
 } from "../commands/GetSendStatisticsCommand";
 import {
   GetTemplateCommandInput,
-  GetTemplateCommandOutput
+  GetTemplateCommandOutput,
 } from "../commands/GetTemplateCommand";
 import {
   ListConfigurationSetsCommandInput,
-  ListConfigurationSetsCommandOutput
+  ListConfigurationSetsCommandOutput,
 } from "../commands/ListConfigurationSetsCommand";
 import {
   ListCustomVerificationEmailTemplatesCommandInput,
-  ListCustomVerificationEmailTemplatesCommandOutput
+  ListCustomVerificationEmailTemplatesCommandOutput,
 } from "../commands/ListCustomVerificationEmailTemplatesCommand";
 import {
   ListIdentitiesCommandInput,
-  ListIdentitiesCommandOutput
+  ListIdentitiesCommandOutput,
 } from "../commands/ListIdentitiesCommand";
 import {
   ListIdentityPoliciesCommandInput,
-  ListIdentityPoliciesCommandOutput
+  ListIdentityPoliciesCommandOutput,
 } from "../commands/ListIdentityPoliciesCommand";
 import {
   ListReceiptFiltersCommandInput,
-  ListReceiptFiltersCommandOutput
+  ListReceiptFiltersCommandOutput,
 } from "../commands/ListReceiptFiltersCommand";
 import {
   ListReceiptRuleSetsCommandInput,
-  ListReceiptRuleSetsCommandOutput
+  ListReceiptRuleSetsCommandOutput,
 } from "../commands/ListReceiptRuleSetsCommand";
 import {
   ListTemplatesCommandInput,
-  ListTemplatesCommandOutput
+  ListTemplatesCommandOutput,
 } from "../commands/ListTemplatesCommand";
 import {
   ListVerifiedEmailAddressesCommandInput,
-  ListVerifiedEmailAddressesCommandOutput
+  ListVerifiedEmailAddressesCommandOutput,
 } from "../commands/ListVerifiedEmailAddressesCommand";
 import {
   PutConfigurationSetDeliveryOptionsCommandInput,
-  PutConfigurationSetDeliveryOptionsCommandOutput
+  PutConfigurationSetDeliveryOptionsCommandOutput,
 } from "../commands/PutConfigurationSetDeliveryOptionsCommand";
 import {
   PutIdentityPolicyCommandInput,
-  PutIdentityPolicyCommandOutput
+  PutIdentityPolicyCommandOutput,
 } from "../commands/PutIdentityPolicyCommand";
 import {
   ReorderReceiptRuleSetCommandInput,
-  ReorderReceiptRuleSetCommandOutput
+  ReorderReceiptRuleSetCommandOutput,
 } from "../commands/ReorderReceiptRuleSetCommand";
 import {
   SendBounceCommandInput,
-  SendBounceCommandOutput
+  SendBounceCommandOutput,
 } from "../commands/SendBounceCommand";
 import {
   SendBulkTemplatedEmailCommandInput,
-  SendBulkTemplatedEmailCommandOutput
+  SendBulkTemplatedEmailCommandOutput,
 } from "../commands/SendBulkTemplatedEmailCommand";
 import {
   SendCustomVerificationEmailCommandInput,
-  SendCustomVerificationEmailCommandOutput
+  SendCustomVerificationEmailCommandOutput,
 } from "../commands/SendCustomVerificationEmailCommand";
 import {
   SendEmailCommandInput,
-  SendEmailCommandOutput
+  SendEmailCommandOutput,
 } from "../commands/SendEmailCommand";
 import {
   SendRawEmailCommandInput,
-  SendRawEmailCommandOutput
+  SendRawEmailCommandOutput,
 } from "../commands/SendRawEmailCommand";
 import {
   SendTemplatedEmailCommandInput,
-  SendTemplatedEmailCommandOutput
+  SendTemplatedEmailCommandOutput,
 } from "../commands/SendTemplatedEmailCommand";
 import {
   SetActiveReceiptRuleSetCommandInput,
-  SetActiveReceiptRuleSetCommandOutput
+  SetActiveReceiptRuleSetCommandOutput,
 } from "../commands/SetActiveReceiptRuleSetCommand";
 import {
   SetIdentityDkimEnabledCommandInput,
-  SetIdentityDkimEnabledCommandOutput
+  SetIdentityDkimEnabledCommandOutput,
 } from "../commands/SetIdentityDkimEnabledCommand";
 import {
   SetIdentityFeedbackForwardingEnabledCommandInput,
-  SetIdentityFeedbackForwardingEnabledCommandOutput
+  SetIdentityFeedbackForwardingEnabledCommandOutput,
 } from "../commands/SetIdentityFeedbackForwardingEnabledCommand";
 import {
   SetIdentityHeadersInNotificationsEnabledCommandInput,
-  SetIdentityHeadersInNotificationsEnabledCommandOutput
+  SetIdentityHeadersInNotificationsEnabledCommandOutput,
 } from "../commands/SetIdentityHeadersInNotificationsEnabledCommand";
 import {
   SetIdentityMailFromDomainCommandInput,
-  SetIdentityMailFromDomainCommandOutput
+  SetIdentityMailFromDomainCommandOutput,
 } from "../commands/SetIdentityMailFromDomainCommand";
 import {
   SetIdentityNotificationTopicCommandInput,
-  SetIdentityNotificationTopicCommandOutput
+  SetIdentityNotificationTopicCommandOutput,
 } from "../commands/SetIdentityNotificationTopicCommand";
 import {
   SetReceiptRulePositionCommandInput,
-  SetReceiptRulePositionCommandOutput
+  SetReceiptRulePositionCommandOutput,
 } from "../commands/SetReceiptRulePositionCommand";
 import {
   TestRenderTemplateCommandInput,
-  TestRenderTemplateCommandOutput
+  TestRenderTemplateCommandOutput,
 } from "../commands/TestRenderTemplateCommand";
 import {
   UpdateAccountSendingEnabledCommandInput,
-  UpdateAccountSendingEnabledCommandOutput
+  UpdateAccountSendingEnabledCommandOutput,
 } from "../commands/UpdateAccountSendingEnabledCommand";
 import {
   UpdateConfigurationSetEventDestinationCommandInput,
-  UpdateConfigurationSetEventDestinationCommandOutput
+  UpdateConfigurationSetEventDestinationCommandOutput,
 } from "../commands/UpdateConfigurationSetEventDestinationCommand";
 import {
   UpdateConfigurationSetReputationMetricsEnabledCommandInput,
-  UpdateConfigurationSetReputationMetricsEnabledCommandOutput
+  UpdateConfigurationSetReputationMetricsEnabledCommandOutput,
 } from "../commands/UpdateConfigurationSetReputationMetricsEnabledCommand";
 import {
   UpdateConfigurationSetSendingEnabledCommandInput,
-  UpdateConfigurationSetSendingEnabledCommandOutput
+  UpdateConfigurationSetSendingEnabledCommandOutput,
 } from "../commands/UpdateConfigurationSetSendingEnabledCommand";
 import {
   UpdateConfigurationSetTrackingOptionsCommandInput,
-  UpdateConfigurationSetTrackingOptionsCommandOutput
+  UpdateConfigurationSetTrackingOptionsCommandOutput,
 } from "../commands/UpdateConfigurationSetTrackingOptionsCommand";
 import {
   UpdateCustomVerificationEmailTemplateCommandInput,
-  UpdateCustomVerificationEmailTemplateCommandOutput
+  UpdateCustomVerificationEmailTemplateCommandOutput,
 } from "../commands/UpdateCustomVerificationEmailTemplateCommand";
 import {
   UpdateReceiptRuleCommandInput,
-  UpdateReceiptRuleCommandOutput
+  UpdateReceiptRuleCommandOutput,
 } from "../commands/UpdateReceiptRuleCommand";
 import {
   UpdateTemplateCommandInput,
-  UpdateTemplateCommandOutput
+  UpdateTemplateCommandOutput,
 } from "../commands/UpdateTemplateCommand";
 import {
   VerifyDomainDkimCommandInput,
-  VerifyDomainDkimCommandOutput
+  VerifyDomainDkimCommandOutput,
 } from "../commands/VerifyDomainDkimCommand";
 import {
   VerifyDomainIdentityCommandInput,
-  VerifyDomainIdentityCommandOutput
+  VerifyDomainIdentityCommandOutput,
 } from "../commands/VerifyDomainIdentityCommand";
 import {
   VerifyEmailAddressCommandInput,
-  VerifyEmailAddressCommandOutput
+  VerifyEmailAddressCommandOutput,
 } from "../commands/VerifyEmailAddressCommand";
 import {
   VerifyEmailIdentityCommandInput,
-  VerifyEmailIdentityCommandOutput
+  VerifyEmailIdentityCommandOutput,
 } from "../commands/VerifyEmailIdentityCommand";
 import {
   AccountSendingPausedException,
@@ -489,22 +489,22 @@ import {
   VerifyEmailAddressRequest,
   VerifyEmailIdentityRequest,
   VerifyEmailIdentityResponse,
-  WorkmailAction
+  WorkmailAction,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { parse as xmlParse } from "fast-xml-parser";
 
@@ -519,7 +519,7 @@ export async function serializeAws_queryCloneReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CloneReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -538,7 +538,7 @@ export async function serializeAws_queryCreateConfigurationSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateConfigurationSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -557,7 +557,7 @@ export async function serializeAws_queryCreateConfigurationSetEventDestinationCo
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateConfigurationSetEventDestination",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -576,7 +576,7 @@ export async function serializeAws_queryCreateConfigurationSetTrackingOptionsCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateConfigurationSetTrackingOptions",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -595,7 +595,7 @@ export async function serializeAws_queryCreateCustomVerificationEmailTemplateCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateCustomVerificationEmailTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -611,7 +611,7 @@ export async function serializeAws_queryCreateReceiptFilterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateReceiptFilter",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -627,7 +627,7 @@ export async function serializeAws_queryCreateReceiptRuleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateReceiptRule",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -643,7 +643,7 @@ export async function serializeAws_queryCreateReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -659,7 +659,7 @@ export async function serializeAws_queryCreateTemplateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -678,7 +678,7 @@ export async function serializeAws_queryDeleteConfigurationSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteConfigurationSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -697,7 +697,7 @@ export async function serializeAws_queryDeleteConfigurationSetEventDestinationCo
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteConfigurationSetEventDestination",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -716,7 +716,7 @@ export async function serializeAws_queryDeleteConfigurationSetTrackingOptionsCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteConfigurationSetTrackingOptions",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -735,7 +735,7 @@ export async function serializeAws_queryDeleteCustomVerificationEmailTemplateCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteCustomVerificationEmailTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -751,7 +751,7 @@ export async function serializeAws_queryDeleteIdentityCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteIdentity",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -767,7 +767,7 @@ export async function serializeAws_queryDeleteIdentityPolicyCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteIdentityPolicy",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -783,7 +783,7 @@ export async function serializeAws_queryDeleteReceiptFilterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteReceiptFilter",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -799,7 +799,7 @@ export async function serializeAws_queryDeleteReceiptRuleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteReceiptRule",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -815,7 +815,7 @@ export async function serializeAws_queryDeleteReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -831,7 +831,7 @@ export async function serializeAws_queryDeleteTemplateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -850,7 +850,7 @@ export async function serializeAws_queryDeleteVerifiedEmailAddressCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteVerifiedEmailAddress",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -869,7 +869,7 @@ export async function serializeAws_queryDescribeActiveReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeActiveReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -888,7 +888,7 @@ export async function serializeAws_queryDescribeConfigurationSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeConfigurationSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -904,7 +904,7 @@ export async function serializeAws_queryDescribeReceiptRuleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeReceiptRule",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -923,7 +923,7 @@ export async function serializeAws_queryDescribeReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -936,7 +936,7 @@ export async function serializeAws_queryGetAccountSendingEnabledCommand(
   headers["Content-Type"] = "application/x-www-form-urlencoded";
   const body = buildFormUrlencodedString({
     Action: "GetAccountSendingEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -955,7 +955,7 @@ export async function serializeAws_queryGetCustomVerificationEmailTemplateComman
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetCustomVerificationEmailTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -974,7 +974,7 @@ export async function serializeAws_queryGetIdentityDkimAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetIdentityDkimAttributes",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -993,7 +993,7 @@ export async function serializeAws_queryGetIdentityMailFromDomainAttributesComma
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetIdentityMailFromDomainAttributes",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1012,7 +1012,7 @@ export async function serializeAws_queryGetIdentityNotificationAttributesCommand
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetIdentityNotificationAttributes",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1028,7 +1028,7 @@ export async function serializeAws_queryGetIdentityPoliciesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetIdentityPolicies",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1047,7 +1047,7 @@ export async function serializeAws_queryGetIdentityVerificationAttributesCommand
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetIdentityVerificationAttributes",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1060,7 +1060,7 @@ export async function serializeAws_queryGetSendQuotaCommand(
   headers["Content-Type"] = "application/x-www-form-urlencoded";
   const body = buildFormUrlencodedString({
     Action: "GetSendQuota",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1073,7 +1073,7 @@ export async function serializeAws_queryGetSendStatisticsCommand(
   headers["Content-Type"] = "application/x-www-form-urlencoded";
   const body = buildFormUrlencodedString({
     Action: "GetSendStatistics",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1089,7 +1089,7 @@ export async function serializeAws_queryGetTemplateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1108,7 +1108,7 @@ export async function serializeAws_queryListConfigurationSetsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListConfigurationSets",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1127,7 +1127,7 @@ export async function serializeAws_queryListCustomVerificationEmailTemplatesComm
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListCustomVerificationEmailTemplates",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1143,7 +1143,7 @@ export async function serializeAws_queryListIdentitiesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListIdentities",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1159,7 +1159,7 @@ export async function serializeAws_queryListIdentityPoliciesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListIdentityPolicies",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1175,7 +1175,7 @@ export async function serializeAws_queryListReceiptFiltersCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListReceiptFilters",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1191,7 +1191,7 @@ export async function serializeAws_queryListReceiptRuleSetsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListReceiptRuleSets",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1207,7 +1207,7 @@ export async function serializeAws_queryListTemplatesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ListTemplates",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1220,7 +1220,7 @@ export async function serializeAws_queryListVerifiedEmailAddressesCommand(
   headers["Content-Type"] = "application/x-www-form-urlencoded";
   const body = buildFormUrlencodedString({
     Action: "ListVerifiedEmailAddresses",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1239,7 +1239,7 @@ export async function serializeAws_queryPutConfigurationSetDeliveryOptionsComman
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutConfigurationSetDeliveryOptions",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1255,7 +1255,7 @@ export async function serializeAws_queryPutIdentityPolicyCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PutIdentityPolicy",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1274,7 +1274,7 @@ export async function serializeAws_queryReorderReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ReorderReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1290,7 +1290,7 @@ export async function serializeAws_querySendBounceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendBounce",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1309,7 +1309,7 @@ export async function serializeAws_querySendBulkTemplatedEmailCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendBulkTemplatedEmail",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1328,7 +1328,7 @@ export async function serializeAws_querySendCustomVerificationEmailCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendCustomVerificationEmail",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1344,7 +1344,7 @@ export async function serializeAws_querySendEmailCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendEmail",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1360,7 +1360,7 @@ export async function serializeAws_querySendRawEmailCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendRawEmail",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1376,7 +1376,7 @@ export async function serializeAws_querySendTemplatedEmailCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SendTemplatedEmail",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1395,7 +1395,7 @@ export async function serializeAws_querySetActiveReceiptRuleSetCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetActiveReceiptRuleSet",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1414,7 +1414,7 @@ export async function serializeAws_querySetIdentityDkimEnabledCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetIdentityDkimEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1433,7 +1433,7 @@ export async function serializeAws_querySetIdentityFeedbackForwardingEnabledComm
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetIdentityFeedbackForwardingEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1452,7 +1452,7 @@ export async function serializeAws_querySetIdentityHeadersInNotificationsEnabled
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetIdentityHeadersInNotificationsEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1471,7 +1471,7 @@ export async function serializeAws_querySetIdentityMailFromDomainCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetIdentityMailFromDomain",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1490,7 +1490,7 @@ export async function serializeAws_querySetIdentityNotificationTopicCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetIdentityNotificationTopic",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1509,7 +1509,7 @@ export async function serializeAws_querySetReceiptRulePositionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "SetReceiptRulePosition",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1525,7 +1525,7 @@ export async function serializeAws_queryTestRenderTemplateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "TestRenderTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1544,7 +1544,7 @@ export async function serializeAws_queryUpdateAccountSendingEnabledCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateAccountSendingEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1563,7 +1563,7 @@ export async function serializeAws_queryUpdateConfigurationSetEventDestinationCo
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateConfigurationSetEventDestination",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1582,7 +1582,7 @@ export async function serializeAws_queryUpdateConfigurationSetReputationMetricsE
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateConfigurationSetReputationMetricsEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1601,7 +1601,7 @@ export async function serializeAws_queryUpdateConfigurationSetSendingEnabledComm
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateConfigurationSetSendingEnabled",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1620,7 +1620,7 @@ export async function serializeAws_queryUpdateConfigurationSetTrackingOptionsCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateConfigurationSetTrackingOptions",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1639,7 +1639,7 @@ export async function serializeAws_queryUpdateCustomVerificationEmailTemplateCom
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateCustomVerificationEmailTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1655,7 +1655,7 @@ export async function serializeAws_queryUpdateReceiptRuleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateReceiptRule",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1671,7 +1671,7 @@ export async function serializeAws_queryUpdateTemplateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "UpdateTemplate",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1687,7 +1687,7 @@ export async function serializeAws_queryVerifyDomainDkimCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "VerifyDomainDkim",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1703,7 +1703,7 @@ export async function serializeAws_queryVerifyDomainIdentityCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "VerifyDomainIdentity",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1719,7 +1719,7 @@ export async function serializeAws_queryVerifyEmailAddressCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "VerifyEmailAddress",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1735,7 +1735,7 @@ export async function serializeAws_queryVerifyEmailIdentityCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "VerifyEmailIdentity",
-    Version: "2010-12-01"
+    Version: "2010-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1756,7 +1756,7 @@ export async function deserializeAws_queryCloneReceiptRuleSetCommand(
   const response: CloneReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CloneReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1767,7 +1767,7 @@ async function deserializeAws_queryCloneReceiptRuleSetCommandError(
 ): Promise<CloneReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1781,7 +1781,7 @@ async function deserializeAws_queryCloneReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1792,7 +1792,7 @@ async function deserializeAws_queryCloneReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -1803,7 +1803,7 @@ async function deserializeAws_queryCloneReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1815,7 +1815,7 @@ async function deserializeAws_queryCloneReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1843,7 +1843,7 @@ export async function deserializeAws_queryCreateConfigurationSetCommand(
   const response: CreateConfigurationSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateConfigurationSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1854,7 +1854,7 @@ async function deserializeAws_queryCreateConfigurationSetCommandError(
 ): Promise<CreateConfigurationSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1868,7 +1868,7 @@ async function deserializeAws_queryCreateConfigurationSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidConfigurationSetException":
@@ -1879,7 +1879,7 @@ async function deserializeAws_queryCreateConfigurationSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1890,7 +1890,7 @@ async function deserializeAws_queryCreateConfigurationSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1902,7 +1902,7 @@ async function deserializeAws_queryCreateConfigurationSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1930,7 +1930,7 @@ export async function deserializeAws_queryCreateConfigurationSetEventDestination
   const response: CreateConfigurationSetEventDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateConfigurationSetEventDestinationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1941,7 +1941,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
 ): Promise<CreateConfigurationSetEventDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1955,7 +1955,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EventDestinationAlreadyExistsException":
@@ -1966,7 +1966,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchDestinationException":
@@ -1977,7 +1977,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidFirehoseDestinationException":
@@ -1988,7 +1988,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSNSDestinationException":
@@ -1999,7 +1999,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2010,7 +2010,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2022,7 +2022,7 @@ async function deserializeAws_queryCreateConfigurationSetEventDestinationCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2050,7 +2050,7 @@ export async function deserializeAws_queryCreateConfigurationSetTrackingOptionsC
   const response: CreateConfigurationSetTrackingOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateConfigurationSetTrackingOptionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2061,7 +2061,7 @@ async function deserializeAws_queryCreateConfigurationSetTrackingOptionsCommandE
 ): Promise<CreateConfigurationSetTrackingOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2075,7 +2075,7 @@ async function deserializeAws_queryCreateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrackingOptionsException":
@@ -2086,7 +2086,7 @@ async function deserializeAws_queryCreateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrackingOptionsAlreadyExistsException":
@@ -2097,7 +2097,7 @@ async function deserializeAws_queryCreateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2109,7 +2109,7 @@ async function deserializeAws_queryCreateConfigurationSetTrackingOptionsCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2130,7 +2130,7 @@ export async function deserializeAws_queryCreateCustomVerificationEmailTemplateC
   }
   await collectBody(output.body, context);
   const response: CreateCustomVerificationEmailTemplateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2141,7 +2141,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
 ): Promise<CreateCustomVerificationEmailTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2155,7 +2155,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CustomVerificationEmailTemplateAlreadyExistsException":
@@ -2166,7 +2166,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FromEmailAddressNotVerifiedException":
@@ -2177,7 +2177,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2188,7 +2188,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2200,7 +2200,7 @@ async function deserializeAws_queryCreateCustomVerificationEmailTemplateCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2225,7 +2225,7 @@ export async function deserializeAws_queryCreateReceiptFilterCommand(
   const response: CreateReceiptFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateReceiptFilterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2236,7 +2236,7 @@ async function deserializeAws_queryCreateReceiptFilterCommandError(
 ): Promise<CreateReceiptFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2250,7 +2250,7 @@ async function deserializeAws_queryCreateReceiptFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2261,7 +2261,7 @@ async function deserializeAws_queryCreateReceiptFilterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2273,7 +2273,7 @@ async function deserializeAws_queryCreateReceiptFilterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2298,7 +2298,7 @@ export async function deserializeAws_queryCreateReceiptRuleCommand(
   const response: CreateReceiptRuleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateReceiptRuleResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2309,7 +2309,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
 ): Promise<CreateReceiptRuleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2323,7 +2323,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLambdaFunctionException":
@@ -2334,7 +2334,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ConfigurationException":
@@ -2345,7 +2345,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSnsTopicException":
@@ -2356,7 +2356,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2367,7 +2367,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleDoesNotExistException":
@@ -2378,7 +2378,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -2389,7 +2389,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2401,7 +2401,7 @@ async function deserializeAws_queryCreateReceiptRuleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2429,7 +2429,7 @@ export async function deserializeAws_queryCreateReceiptRuleSetCommand(
   const response: CreateReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2440,7 +2440,7 @@ async function deserializeAws_queryCreateReceiptRuleSetCommandError(
 ): Promise<CreateReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2454,7 +2454,7 @@ async function deserializeAws_queryCreateReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2465,7 +2465,7 @@ async function deserializeAws_queryCreateReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2477,7 +2477,7 @@ async function deserializeAws_queryCreateReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2502,7 +2502,7 @@ export async function deserializeAws_queryCreateTemplateCommand(
   const response: CreateTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2513,7 +2513,7 @@ async function deserializeAws_queryCreateTemplateCommandError(
 ): Promise<CreateTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2527,7 +2527,7 @@ async function deserializeAws_queryCreateTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTemplateException":
@@ -2538,7 +2538,7 @@ async function deserializeAws_queryCreateTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2549,7 +2549,7 @@ async function deserializeAws_queryCreateTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2561,7 +2561,7 @@ async function deserializeAws_queryCreateTemplateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2589,7 +2589,7 @@ export async function deserializeAws_queryDeleteConfigurationSetCommand(
   const response: DeleteConfigurationSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteConfigurationSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2600,7 +2600,7 @@ async function deserializeAws_queryDeleteConfigurationSetCommandError(
 ): Promise<DeleteConfigurationSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2614,7 +2614,7 @@ async function deserializeAws_queryDeleteConfigurationSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2626,7 +2626,7 @@ async function deserializeAws_queryDeleteConfigurationSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2654,7 +2654,7 @@ export async function deserializeAws_queryDeleteConfigurationSetEventDestination
   const response: DeleteConfigurationSetEventDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteConfigurationSetEventDestinationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2665,7 +2665,7 @@ async function deserializeAws_queryDeleteConfigurationSetEventDestinationCommand
 ): Promise<DeleteConfigurationSetEventDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2679,7 +2679,7 @@ async function deserializeAws_queryDeleteConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EventDestinationDoesNotExistException":
@@ -2690,7 +2690,7 @@ async function deserializeAws_queryDeleteConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2702,7 +2702,7 @@ async function deserializeAws_queryDeleteConfigurationSetEventDestinationCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2730,7 +2730,7 @@ export async function deserializeAws_queryDeleteConfigurationSetTrackingOptionsC
   const response: DeleteConfigurationSetTrackingOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteConfigurationSetTrackingOptionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2741,7 +2741,7 @@ async function deserializeAws_queryDeleteConfigurationSetTrackingOptionsCommandE
 ): Promise<DeleteConfigurationSetTrackingOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2755,7 +2755,7 @@ async function deserializeAws_queryDeleteConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrackingOptionsDoesNotExistException":
@@ -2766,7 +2766,7 @@ async function deserializeAws_queryDeleteConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2778,7 +2778,7 @@ async function deserializeAws_queryDeleteConfigurationSetTrackingOptionsCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2799,7 +2799,7 @@ export async function deserializeAws_queryDeleteCustomVerificationEmailTemplateC
   }
   await collectBody(output.body, context);
   const response: DeleteCustomVerificationEmailTemplateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2810,7 +2810,7 @@ async function deserializeAws_queryDeleteCustomVerificationEmailTemplateCommandE
 ): Promise<DeleteCustomVerificationEmailTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2825,7 +2825,7 @@ async function deserializeAws_queryDeleteCustomVerificationEmailTemplateCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2850,7 +2850,7 @@ export async function deserializeAws_queryDeleteIdentityCommand(
   const response: DeleteIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2861,7 +2861,7 @@ async function deserializeAws_queryDeleteIdentityCommandError(
 ): Promise<DeleteIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2876,7 +2876,7 @@ async function deserializeAws_queryDeleteIdentityCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2904,7 +2904,7 @@ export async function deserializeAws_queryDeleteIdentityPolicyCommand(
   const response: DeleteIdentityPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteIdentityPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2915,7 +2915,7 @@ async function deserializeAws_queryDeleteIdentityPolicyCommandError(
 ): Promise<DeleteIdentityPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2930,7 +2930,7 @@ async function deserializeAws_queryDeleteIdentityPolicyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2955,7 +2955,7 @@ export async function deserializeAws_queryDeleteReceiptFilterCommand(
   const response: DeleteReceiptFilterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteReceiptFilterResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2966,7 +2966,7 @@ async function deserializeAws_queryDeleteReceiptFilterCommandError(
 ): Promise<DeleteReceiptFilterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2981,7 +2981,7 @@ async function deserializeAws_queryDeleteReceiptFilterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3006,7 +3006,7 @@ export async function deserializeAws_queryDeleteReceiptRuleCommand(
   const response: DeleteReceiptRuleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteReceiptRuleResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3017,7 +3017,7 @@ async function deserializeAws_queryDeleteReceiptRuleCommandError(
 ): Promise<DeleteReceiptRuleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3031,7 +3031,7 @@ async function deserializeAws_queryDeleteReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3043,7 +3043,7 @@ async function deserializeAws_queryDeleteReceiptRuleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3071,7 +3071,7 @@ export async function deserializeAws_queryDeleteReceiptRuleSetCommand(
   const response: DeleteReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3082,7 +3082,7 @@ async function deserializeAws_queryDeleteReceiptRuleSetCommandError(
 ): Promise<DeleteReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3096,7 +3096,7 @@ async function deserializeAws_queryDeleteReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3108,7 +3108,7 @@ async function deserializeAws_queryDeleteReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3133,7 +3133,7 @@ export async function deserializeAws_queryDeleteTemplateCommand(
   const response: DeleteTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3144,7 +3144,7 @@ async function deserializeAws_queryDeleteTemplateCommandError(
 ): Promise<DeleteTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3159,7 +3159,7 @@ async function deserializeAws_queryDeleteTemplateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3180,7 +3180,7 @@ export async function deserializeAws_queryDeleteVerifiedEmailAddressCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteVerifiedEmailAddressCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3191,7 +3191,7 @@ async function deserializeAws_queryDeleteVerifiedEmailAddressCommandError(
 ): Promise<DeleteVerifiedEmailAddressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3206,7 +3206,7 @@ async function deserializeAws_queryDeleteVerifiedEmailAddressCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3234,7 +3234,7 @@ export async function deserializeAws_queryDescribeActiveReceiptRuleSetCommand(
   const response: DescribeActiveReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeActiveReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3245,7 +3245,7 @@ async function deserializeAws_queryDescribeActiveReceiptRuleSetCommandError(
 ): Promise<DescribeActiveReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3260,7 +3260,7 @@ async function deserializeAws_queryDescribeActiveReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3288,7 +3288,7 @@ export async function deserializeAws_queryDescribeConfigurationSetCommand(
   const response: DescribeConfigurationSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeConfigurationSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3299,7 +3299,7 @@ async function deserializeAws_queryDescribeConfigurationSetCommandError(
 ): Promise<DescribeConfigurationSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3313,7 +3313,7 @@ async function deserializeAws_queryDescribeConfigurationSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3325,7 +3325,7 @@ async function deserializeAws_queryDescribeConfigurationSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3350,7 +3350,7 @@ export async function deserializeAws_queryDescribeReceiptRuleCommand(
   const response: DescribeReceiptRuleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeReceiptRuleResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3361,7 +3361,7 @@ async function deserializeAws_queryDescribeReceiptRuleCommandError(
 ): Promise<DescribeReceiptRuleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3375,7 +3375,7 @@ async function deserializeAws_queryDescribeReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -3386,7 +3386,7 @@ async function deserializeAws_queryDescribeReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3398,7 +3398,7 @@ async function deserializeAws_queryDescribeReceiptRuleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3426,7 +3426,7 @@ export async function deserializeAws_queryDescribeReceiptRuleSetCommand(
   const response: DescribeReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3437,7 +3437,7 @@ async function deserializeAws_queryDescribeReceiptRuleSetCommandError(
 ): Promise<DescribeReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3451,7 +3451,7 @@ async function deserializeAws_queryDescribeReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3463,7 +3463,7 @@ async function deserializeAws_queryDescribeReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3491,7 +3491,7 @@ export async function deserializeAws_queryGetAccountSendingEnabledCommand(
   const response: GetAccountSendingEnabledCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAccountSendingEnabledResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3502,7 +3502,7 @@ async function deserializeAws_queryGetAccountSendingEnabledCommandError(
 ): Promise<GetAccountSendingEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3517,7 +3517,7 @@ async function deserializeAws_queryGetAccountSendingEnabledCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3545,7 +3545,7 @@ export async function deserializeAws_queryGetCustomVerificationEmailTemplateComm
   const response: GetCustomVerificationEmailTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCustomVerificationEmailTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3556,7 +3556,7 @@ async function deserializeAws_queryGetCustomVerificationEmailTemplateCommandErro
 ): Promise<GetCustomVerificationEmailTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3570,7 +3570,7 @@ async function deserializeAws_queryGetCustomVerificationEmailTemplateCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3582,7 +3582,7 @@ async function deserializeAws_queryGetCustomVerificationEmailTemplateCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3610,7 +3610,7 @@ export async function deserializeAws_queryGetIdentityDkimAttributesCommand(
   const response: GetIdentityDkimAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityDkimAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3621,7 +3621,7 @@ async function deserializeAws_queryGetIdentityDkimAttributesCommandError(
 ): Promise<GetIdentityDkimAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3636,7 +3636,7 @@ async function deserializeAws_queryGetIdentityDkimAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3664,7 +3664,7 @@ export async function deserializeAws_queryGetIdentityMailFromDomainAttributesCom
   const response: GetIdentityMailFromDomainAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityMailFromDomainAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3675,7 +3675,7 @@ async function deserializeAws_queryGetIdentityMailFromDomainAttributesCommandErr
 ): Promise<GetIdentityMailFromDomainAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3690,7 +3690,7 @@ async function deserializeAws_queryGetIdentityMailFromDomainAttributesCommandErr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3718,7 +3718,7 @@ export async function deserializeAws_queryGetIdentityNotificationAttributesComma
   const response: GetIdentityNotificationAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityNotificationAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3729,7 +3729,7 @@ async function deserializeAws_queryGetIdentityNotificationAttributesCommandError
 ): Promise<GetIdentityNotificationAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3744,7 +3744,7 @@ async function deserializeAws_queryGetIdentityNotificationAttributesCommandError
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3769,7 +3769,7 @@ export async function deserializeAws_queryGetIdentityPoliciesCommand(
   const response: GetIdentityPoliciesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityPoliciesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3780,7 +3780,7 @@ async function deserializeAws_queryGetIdentityPoliciesCommandError(
 ): Promise<GetIdentityPoliciesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3795,7 +3795,7 @@ async function deserializeAws_queryGetIdentityPoliciesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3823,7 +3823,7 @@ export async function deserializeAws_queryGetIdentityVerificationAttributesComma
   const response: GetIdentityVerificationAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIdentityVerificationAttributesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3834,7 +3834,7 @@ async function deserializeAws_queryGetIdentityVerificationAttributesCommandError
 ): Promise<GetIdentityVerificationAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3849,7 +3849,7 @@ async function deserializeAws_queryGetIdentityVerificationAttributesCommandError
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3874,7 +3874,7 @@ export async function deserializeAws_queryGetSendQuotaCommand(
   const response: GetSendQuotaCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSendQuotaResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3885,7 +3885,7 @@ async function deserializeAws_queryGetSendQuotaCommandError(
 ): Promise<GetSendQuotaCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3900,7 +3900,7 @@ async function deserializeAws_queryGetSendQuotaCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3925,7 +3925,7 @@ export async function deserializeAws_queryGetSendStatisticsCommand(
   const response: GetSendStatisticsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSendStatisticsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3936,7 +3936,7 @@ async function deserializeAws_queryGetSendStatisticsCommandError(
 ): Promise<GetSendStatisticsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3951,7 +3951,7 @@ async function deserializeAws_queryGetSendStatisticsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3976,7 +3976,7 @@ export async function deserializeAws_queryGetTemplateCommand(
   const response: GetTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3987,7 +3987,7 @@ async function deserializeAws_queryGetTemplateCommandError(
 ): Promise<GetTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4001,7 +4001,7 @@ async function deserializeAws_queryGetTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4013,7 +4013,7 @@ async function deserializeAws_queryGetTemplateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4041,7 +4041,7 @@ export async function deserializeAws_queryListConfigurationSetsCommand(
   const response: ListConfigurationSetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListConfigurationSetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4052,7 +4052,7 @@ async function deserializeAws_queryListConfigurationSetsCommandError(
 ): Promise<ListConfigurationSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4067,7 +4067,7 @@ async function deserializeAws_queryListConfigurationSetsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4095,7 +4095,7 @@ export async function deserializeAws_queryListCustomVerificationEmailTemplatesCo
   const response: ListCustomVerificationEmailTemplatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCustomVerificationEmailTemplatesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4106,7 +4106,7 @@ async function deserializeAws_queryListCustomVerificationEmailTemplatesCommandEr
 ): Promise<ListCustomVerificationEmailTemplatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4121,7 +4121,7 @@ async function deserializeAws_queryListCustomVerificationEmailTemplatesCommandEr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4146,7 +4146,7 @@ export async function deserializeAws_queryListIdentitiesCommand(
   const response: ListIdentitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListIdentitiesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4157,7 +4157,7 @@ async function deserializeAws_queryListIdentitiesCommandError(
 ): Promise<ListIdentitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4172,7 +4172,7 @@ async function deserializeAws_queryListIdentitiesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4200,7 +4200,7 @@ export async function deserializeAws_queryListIdentityPoliciesCommand(
   const response: ListIdentityPoliciesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListIdentityPoliciesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4211,7 +4211,7 @@ async function deserializeAws_queryListIdentityPoliciesCommandError(
 ): Promise<ListIdentityPoliciesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4226,7 +4226,7 @@ async function deserializeAws_queryListIdentityPoliciesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4251,7 +4251,7 @@ export async function deserializeAws_queryListReceiptFiltersCommand(
   const response: ListReceiptFiltersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListReceiptFiltersResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4262,7 +4262,7 @@ async function deserializeAws_queryListReceiptFiltersCommandError(
 ): Promise<ListReceiptFiltersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4277,7 +4277,7 @@ async function deserializeAws_queryListReceiptFiltersCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4302,7 +4302,7 @@ export async function deserializeAws_queryListReceiptRuleSetsCommand(
   const response: ListReceiptRuleSetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListReceiptRuleSetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4313,7 +4313,7 @@ async function deserializeAws_queryListReceiptRuleSetsCommandError(
 ): Promise<ListReceiptRuleSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4328,7 +4328,7 @@ async function deserializeAws_queryListReceiptRuleSetsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4353,7 +4353,7 @@ export async function deserializeAws_queryListTemplatesCommand(
   const response: ListTemplatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTemplatesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4364,7 +4364,7 @@ async function deserializeAws_queryListTemplatesCommandError(
 ): Promise<ListTemplatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4379,7 +4379,7 @@ async function deserializeAws_queryListTemplatesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4407,7 +4407,7 @@ export async function deserializeAws_queryListVerifiedEmailAddressesCommand(
   const response: ListVerifiedEmailAddressesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVerifiedEmailAddressesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4418,7 +4418,7 @@ async function deserializeAws_queryListVerifiedEmailAddressesCommandError(
 ): Promise<ListVerifiedEmailAddressesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4433,7 +4433,7 @@ async function deserializeAws_queryListVerifiedEmailAddressesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4461,7 +4461,7 @@ export async function deserializeAws_queryPutConfigurationSetDeliveryOptionsComm
   const response: PutConfigurationSetDeliveryOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutConfigurationSetDeliveryOptionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4472,7 +4472,7 @@ async function deserializeAws_queryPutConfigurationSetDeliveryOptionsCommandErro
 ): Promise<PutConfigurationSetDeliveryOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4486,7 +4486,7 @@ async function deserializeAws_queryPutConfigurationSetDeliveryOptionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDeliveryOptionsException":
@@ -4497,7 +4497,7 @@ async function deserializeAws_queryPutConfigurationSetDeliveryOptionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4509,7 +4509,7 @@ async function deserializeAws_queryPutConfigurationSetDeliveryOptionsCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4534,7 +4534,7 @@ export async function deserializeAws_queryPutIdentityPolicyCommand(
   const response: PutIdentityPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutIdentityPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4545,7 +4545,7 @@ async function deserializeAws_queryPutIdentityPolicyCommandError(
 ): Promise<PutIdentityPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4559,7 +4559,7 @@ async function deserializeAws_queryPutIdentityPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4571,7 +4571,7 @@ async function deserializeAws_queryPutIdentityPolicyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4599,7 +4599,7 @@ export async function deserializeAws_queryReorderReceiptRuleSetCommand(
   const response: ReorderReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReorderReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4610,7 +4610,7 @@ async function deserializeAws_queryReorderReceiptRuleSetCommandError(
 ): Promise<ReorderReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4624,7 +4624,7 @@ async function deserializeAws_queryReorderReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -4635,7 +4635,7 @@ async function deserializeAws_queryReorderReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4647,7 +4647,7 @@ async function deserializeAws_queryReorderReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4672,7 +4672,7 @@ export async function deserializeAws_querySendBounceCommand(
   const response: SendBounceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendBounceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4683,7 +4683,7 @@ async function deserializeAws_querySendBounceCommandError(
 ): Promise<SendBounceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4697,7 +4697,7 @@ async function deserializeAws_querySendBounceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4709,7 +4709,7 @@ async function deserializeAws_querySendBounceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4737,7 +4737,7 @@ export async function deserializeAws_querySendBulkTemplatedEmailCommand(
   const response: SendBulkTemplatedEmailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendBulkTemplatedEmailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4748,7 +4748,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
 ): Promise<SendBulkTemplatedEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4762,7 +4762,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetDoesNotExistException":
@@ -4773,7 +4773,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetSendingPausedException":
@@ -4784,7 +4784,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailFromDomainNotVerifiedException":
@@ -4795,7 +4795,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MessageRejected":
@@ -4806,7 +4806,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TemplateDoesNotExistException":
@@ -4817,7 +4817,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4829,7 +4829,7 @@ async function deserializeAws_querySendBulkTemplatedEmailCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4857,7 +4857,7 @@ export async function deserializeAws_querySendCustomVerificationEmailCommand(
   const response: SendCustomVerificationEmailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendCustomVerificationEmailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4868,7 +4868,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
 ): Promise<SendCustomVerificationEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4882,7 +4882,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CustomVerificationEmailTemplateDoesNotExistException":
@@ -4893,7 +4893,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FromEmailAddressNotVerifiedException":
@@ -4904,7 +4904,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MessageRejected":
@@ -4915,7 +4915,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProductionAccessNotGrantedException":
@@ -4926,7 +4926,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4938,7 +4938,7 @@ async function deserializeAws_querySendCustomVerificationEmailCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4963,7 +4963,7 @@ export async function deserializeAws_querySendEmailCommand(
   const response: SendEmailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendEmailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4974,7 +4974,7 @@ async function deserializeAws_querySendEmailCommandError(
 ): Promise<SendEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4988,7 +4988,7 @@ async function deserializeAws_querySendEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetDoesNotExistException":
@@ -4999,7 +4999,7 @@ async function deserializeAws_querySendEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetSendingPausedException":
@@ -5010,7 +5010,7 @@ async function deserializeAws_querySendEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailFromDomainNotVerifiedException":
@@ -5021,7 +5021,7 @@ async function deserializeAws_querySendEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MessageRejected":
@@ -5032,7 +5032,7 @@ async function deserializeAws_querySendEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5044,7 +5044,7 @@ async function deserializeAws_querySendEmailCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5069,7 +5069,7 @@ export async function deserializeAws_querySendRawEmailCommand(
   const response: SendRawEmailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendRawEmailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5080,7 +5080,7 @@ async function deserializeAws_querySendRawEmailCommandError(
 ): Promise<SendRawEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5094,7 +5094,7 @@ async function deserializeAws_querySendRawEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetDoesNotExistException":
@@ -5105,7 +5105,7 @@ async function deserializeAws_querySendRawEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetSendingPausedException":
@@ -5116,7 +5116,7 @@ async function deserializeAws_querySendRawEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailFromDomainNotVerifiedException":
@@ -5127,7 +5127,7 @@ async function deserializeAws_querySendRawEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MessageRejected":
@@ -5138,7 +5138,7 @@ async function deserializeAws_querySendRawEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5150,7 +5150,7 @@ async function deserializeAws_querySendRawEmailCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5175,7 +5175,7 @@ export async function deserializeAws_querySendTemplatedEmailCommand(
   const response: SendTemplatedEmailCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SendTemplatedEmailResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5186,7 +5186,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
 ): Promise<SendTemplatedEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5200,7 +5200,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetDoesNotExistException":
@@ -5211,7 +5211,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConfigurationSetSendingPausedException":
@@ -5222,7 +5222,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MailFromDomainNotVerifiedException":
@@ -5233,7 +5233,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MessageRejected":
@@ -5244,7 +5244,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TemplateDoesNotExistException":
@@ -5255,7 +5255,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5267,7 +5267,7 @@ async function deserializeAws_querySendTemplatedEmailCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5295,7 +5295,7 @@ export async function deserializeAws_querySetActiveReceiptRuleSetCommand(
   const response: SetActiveReceiptRuleSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetActiveReceiptRuleSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5306,7 +5306,7 @@ async function deserializeAws_querySetActiveReceiptRuleSetCommandError(
 ): Promise<SetActiveReceiptRuleSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5320,7 +5320,7 @@ async function deserializeAws_querySetActiveReceiptRuleSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5332,7 +5332,7 @@ async function deserializeAws_querySetActiveReceiptRuleSetCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5360,7 +5360,7 @@ export async function deserializeAws_querySetIdentityDkimEnabledCommand(
   const response: SetIdentityDkimEnabledCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetIdentityDkimEnabledResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5371,7 +5371,7 @@ async function deserializeAws_querySetIdentityDkimEnabledCommandError(
 ): Promise<SetIdentityDkimEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5386,7 +5386,7 @@ async function deserializeAws_querySetIdentityDkimEnabledCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5414,7 +5414,7 @@ export async function deserializeAws_querySetIdentityFeedbackForwardingEnabledCo
   const response: SetIdentityFeedbackForwardingEnabledCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetIdentityFeedbackForwardingEnabledResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5425,7 +5425,7 @@ async function deserializeAws_querySetIdentityFeedbackForwardingEnabledCommandEr
 ): Promise<SetIdentityFeedbackForwardingEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5440,7 +5440,7 @@ async function deserializeAws_querySetIdentityFeedbackForwardingEnabledCommandEr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5468,7 +5468,7 @@ export async function deserializeAws_querySetIdentityHeadersInNotificationsEnabl
   const response: SetIdentityHeadersInNotificationsEnabledCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetIdentityHeadersInNotificationsEnabledResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5479,7 +5479,7 @@ async function deserializeAws_querySetIdentityHeadersInNotificationsEnabledComma
 ): Promise<SetIdentityHeadersInNotificationsEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5494,7 +5494,7 @@ async function deserializeAws_querySetIdentityHeadersInNotificationsEnabledComma
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5522,7 +5522,7 @@ export async function deserializeAws_querySetIdentityMailFromDomainCommand(
   const response: SetIdentityMailFromDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetIdentityMailFromDomainResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5533,7 +5533,7 @@ async function deserializeAws_querySetIdentityMailFromDomainCommandError(
 ): Promise<SetIdentityMailFromDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5548,7 +5548,7 @@ async function deserializeAws_querySetIdentityMailFromDomainCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5576,7 +5576,7 @@ export async function deserializeAws_querySetIdentityNotificationTopicCommand(
   const response: SetIdentityNotificationTopicCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetIdentityNotificationTopicResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5587,7 +5587,7 @@ async function deserializeAws_querySetIdentityNotificationTopicCommandError(
 ): Promise<SetIdentityNotificationTopicCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5602,7 +5602,7 @@ async function deserializeAws_querySetIdentityNotificationTopicCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5630,7 +5630,7 @@ export async function deserializeAws_querySetReceiptRulePositionCommand(
   const response: SetReceiptRulePositionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetReceiptRulePositionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5641,7 +5641,7 @@ async function deserializeAws_querySetReceiptRulePositionCommandError(
 ): Promise<SetReceiptRulePositionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5655,7 +5655,7 @@ async function deserializeAws_querySetReceiptRulePositionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -5666,7 +5666,7 @@ async function deserializeAws_querySetReceiptRulePositionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5678,7 +5678,7 @@ async function deserializeAws_querySetReceiptRulePositionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5703,7 +5703,7 @@ export async function deserializeAws_queryTestRenderTemplateCommand(
   const response: TestRenderTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TestRenderTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5714,7 +5714,7 @@ async function deserializeAws_queryTestRenderTemplateCommandError(
 ): Promise<TestRenderTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5728,7 +5728,7 @@ async function deserializeAws_queryTestRenderTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingRenderingAttributeException":
@@ -5739,7 +5739,7 @@ async function deserializeAws_queryTestRenderTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TemplateDoesNotExistException":
@@ -5750,7 +5750,7 @@ async function deserializeAws_queryTestRenderTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5762,7 +5762,7 @@ async function deserializeAws_queryTestRenderTemplateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5783,7 +5783,7 @@ export async function deserializeAws_queryUpdateAccountSendingEnabledCommand(
   }
   await collectBody(output.body, context);
   const response: UpdateAccountSendingEnabledCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5794,7 +5794,7 @@ async function deserializeAws_queryUpdateAccountSendingEnabledCommandError(
 ): Promise<UpdateAccountSendingEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5809,7 +5809,7 @@ async function deserializeAws_queryUpdateAccountSendingEnabledCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5837,7 +5837,7 @@ export async function deserializeAws_queryUpdateConfigurationSetEventDestination
   const response: UpdateConfigurationSetEventDestinationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateConfigurationSetEventDestinationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5848,7 +5848,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
 ): Promise<UpdateConfigurationSetEventDestinationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5862,7 +5862,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EventDestinationDoesNotExistException":
@@ -5873,7 +5873,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidCloudWatchDestinationException":
@@ -5884,7 +5884,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidFirehoseDestinationException":
@@ -5895,7 +5895,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSNSDestinationException":
@@ -5906,7 +5906,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5918,7 +5918,7 @@ async function deserializeAws_queryUpdateConfigurationSetEventDestinationCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5939,7 +5939,7 @@ export async function deserializeAws_queryUpdateConfigurationSetReputationMetric
   }
   await collectBody(output.body, context);
   const response: UpdateConfigurationSetReputationMetricsEnabledCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5950,7 +5950,7 @@ async function deserializeAws_queryUpdateConfigurationSetReputationMetricsEnable
 ): Promise<UpdateConfigurationSetReputationMetricsEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5964,7 +5964,7 @@ async function deserializeAws_queryUpdateConfigurationSetReputationMetricsEnable
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5976,7 +5976,7 @@ async function deserializeAws_queryUpdateConfigurationSetReputationMetricsEnable
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5997,7 +5997,7 @@ export async function deserializeAws_queryUpdateConfigurationSetSendingEnabledCo
   }
   await collectBody(output.body, context);
   const response: UpdateConfigurationSetSendingEnabledCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6008,7 +6008,7 @@ async function deserializeAws_queryUpdateConfigurationSetSendingEnabledCommandEr
 ): Promise<UpdateConfigurationSetSendingEnabledCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6022,7 +6022,7 @@ async function deserializeAws_queryUpdateConfigurationSetSendingEnabledCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6034,7 +6034,7 @@ async function deserializeAws_queryUpdateConfigurationSetSendingEnabledCommandEr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6062,7 +6062,7 @@ export async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsC
   const response: UpdateConfigurationSetTrackingOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateConfigurationSetTrackingOptionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6073,7 +6073,7 @@ async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsCommandE
 ): Promise<UpdateConfigurationSetTrackingOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6087,7 +6087,7 @@ async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTrackingOptionsException":
@@ -6098,7 +6098,7 @@ async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrackingOptionsDoesNotExistException":
@@ -6109,7 +6109,7 @@ async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6121,7 +6121,7 @@ async function deserializeAws_queryUpdateConfigurationSetTrackingOptionsCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6142,7 +6142,7 @@ export async function deserializeAws_queryUpdateCustomVerificationEmailTemplateC
   }
   await collectBody(output.body, context);
   const response: UpdateCustomVerificationEmailTemplateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6153,7 +6153,7 @@ async function deserializeAws_queryUpdateCustomVerificationEmailTemplateCommandE
 ): Promise<UpdateCustomVerificationEmailTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6167,7 +6167,7 @@ async function deserializeAws_queryUpdateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CustomVerificationEmailTemplateDoesNotExistException":
@@ -6178,7 +6178,7 @@ async function deserializeAws_queryUpdateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FromEmailAddressNotVerifiedException":
@@ -6189,7 +6189,7 @@ async function deserializeAws_queryUpdateCustomVerificationEmailTemplateCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6201,7 +6201,7 @@ async function deserializeAws_queryUpdateCustomVerificationEmailTemplateCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6226,7 +6226,7 @@ export async function deserializeAws_queryUpdateReceiptRuleCommand(
   const response: UpdateReceiptRuleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateReceiptRuleResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6237,7 +6237,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
 ): Promise<UpdateReceiptRuleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6251,7 +6251,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3ConfigurationException":
@@ -6262,7 +6262,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSnsTopicException":
@@ -6273,7 +6273,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -6284,7 +6284,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleDoesNotExistException":
@@ -6295,7 +6295,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RuleSetDoesNotExistException":
@@ -6306,7 +6306,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6318,7 +6318,7 @@ async function deserializeAws_queryUpdateReceiptRuleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6343,7 +6343,7 @@ export async function deserializeAws_queryUpdateTemplateCommand(
   const response: UpdateTemplateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateTemplateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6354,7 +6354,7 @@ async function deserializeAws_queryUpdateTemplateCommandError(
 ): Promise<UpdateTemplateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6368,7 +6368,7 @@ async function deserializeAws_queryUpdateTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TemplateDoesNotExistException":
@@ -6379,7 +6379,7 @@ async function deserializeAws_queryUpdateTemplateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6391,7 +6391,7 @@ async function deserializeAws_queryUpdateTemplateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6416,7 +6416,7 @@ export async function deserializeAws_queryVerifyDomainDkimCommand(
   const response: VerifyDomainDkimCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VerifyDomainDkimResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6427,7 +6427,7 @@ async function deserializeAws_queryVerifyDomainDkimCommandError(
 ): Promise<VerifyDomainDkimCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6442,7 +6442,7 @@ async function deserializeAws_queryVerifyDomainDkimCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6470,7 +6470,7 @@ export async function deserializeAws_queryVerifyDomainIdentityCommand(
   const response: VerifyDomainIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VerifyDomainIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6481,7 +6481,7 @@ async function deserializeAws_queryVerifyDomainIdentityCommandError(
 ): Promise<VerifyDomainIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6496,7 +6496,7 @@ async function deserializeAws_queryVerifyDomainIdentityCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6514,7 +6514,7 @@ export async function deserializeAws_queryVerifyEmailAddressCommand(
   }
   await collectBody(output.body, context);
   const response: VerifyEmailAddressCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6525,7 +6525,7 @@ async function deserializeAws_queryVerifyEmailAddressCommandError(
 ): Promise<VerifyEmailAddressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6540,7 +6540,7 @@ async function deserializeAws_queryVerifyEmailAddressCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6565,7 +6565,7 @@ export async function deserializeAws_queryVerifyEmailIdentityCommand(
   const response: VerifyEmailIdentityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "VerifyEmailIdentityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6576,7 +6576,7 @@ async function deserializeAws_queryVerifyEmailIdentityCommandError(
 ): Promise<VerifyEmailIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6591,7 +6591,7 @@ async function deserializeAws_queryVerifyEmailIdentityCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6613,7 +6613,7 @@ const deserializeAws_queryAccountSendingPausedExceptionResponse = async (
     name: "AccountSendingPausedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6631,7 +6631,7 @@ const deserializeAws_queryAlreadyExistsExceptionResponse = async (
     name: "AlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6649,7 +6649,7 @@ const deserializeAws_queryCannotDeleteExceptionResponse = async (
     name: "CannotDeleteException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6667,7 +6667,7 @@ const deserializeAws_queryConfigurationSetAlreadyExistsExceptionResponse = async
     name: "ConfigurationSetAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6685,7 +6685,7 @@ const deserializeAws_queryConfigurationSetDoesNotExistExceptionResponse = async 
     name: "ConfigurationSetDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6703,7 +6703,7 @@ const deserializeAws_queryConfigurationSetSendingPausedExceptionResponse = async
     name: "ConfigurationSetSendingPausedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6721,7 +6721,7 @@ const deserializeAws_queryCustomVerificationEmailInvalidContentExceptionResponse
     name: "CustomVerificationEmailInvalidContentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6739,7 +6739,7 @@ const deserializeAws_queryCustomVerificationEmailTemplateAlreadyExistsExceptionR
     name: "CustomVerificationEmailTemplateAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6757,7 +6757,7 @@ const deserializeAws_queryCustomVerificationEmailTemplateDoesNotExistExceptionRe
     name: "CustomVerificationEmailTemplateDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6775,7 +6775,7 @@ const deserializeAws_queryEventDestinationAlreadyExistsExceptionResponse = async
     name: "EventDestinationAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6793,7 +6793,7 @@ const deserializeAws_queryEventDestinationDoesNotExistExceptionResponse = async 
     name: "EventDestinationDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6811,7 +6811,7 @@ const deserializeAws_queryFromEmailAddressNotVerifiedExceptionResponse = async (
     name: "FromEmailAddressNotVerifiedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6829,7 +6829,7 @@ const deserializeAws_queryInvalidCloudWatchDestinationExceptionResponse = async 
     name: "InvalidCloudWatchDestinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6847,7 +6847,7 @@ const deserializeAws_queryInvalidConfigurationSetExceptionResponse = async (
     name: "InvalidConfigurationSetException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6865,7 +6865,7 @@ const deserializeAws_queryInvalidDeliveryOptionsExceptionResponse = async (
     name: "InvalidDeliveryOptionsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6883,7 +6883,7 @@ const deserializeAws_queryInvalidFirehoseDestinationExceptionResponse = async (
     name: "InvalidFirehoseDestinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6901,7 +6901,7 @@ const deserializeAws_queryInvalidLambdaFunctionExceptionResponse = async (
     name: "InvalidLambdaFunctionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6919,7 +6919,7 @@ const deserializeAws_queryInvalidPolicyExceptionResponse = async (
     name: "InvalidPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6937,7 +6937,7 @@ const deserializeAws_queryInvalidRenderingParameterExceptionResponse = async (
     name: "InvalidRenderingParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6955,7 +6955,7 @@ const deserializeAws_queryInvalidS3ConfigurationExceptionResponse = async (
     name: "InvalidS3ConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6973,7 +6973,7 @@ const deserializeAws_queryInvalidSNSDestinationExceptionResponse = async (
     name: "InvalidSNSDestinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6991,7 +6991,7 @@ const deserializeAws_queryInvalidSnsTopicExceptionResponse = async (
     name: "InvalidSnsTopicException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7009,7 +7009,7 @@ const deserializeAws_queryInvalidTemplateExceptionResponse = async (
     name: "InvalidTemplateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7027,7 +7027,7 @@ const deserializeAws_queryInvalidTrackingOptionsExceptionResponse = async (
     name: "InvalidTrackingOptionsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7045,7 +7045,7 @@ const deserializeAws_queryLimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7063,7 +7063,7 @@ const deserializeAws_queryMailFromDomainNotVerifiedExceptionResponse = async (
     name: "MailFromDomainNotVerifiedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7081,7 +7081,7 @@ const deserializeAws_queryMessageRejectedResponse = async (
     name: "MessageRejected",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7099,7 +7099,7 @@ const deserializeAws_queryMissingRenderingAttributeExceptionResponse = async (
     name: "MissingRenderingAttributeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7117,7 +7117,7 @@ const deserializeAws_queryProductionAccessNotGrantedExceptionResponse = async (
     name: "ProductionAccessNotGrantedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7135,7 +7135,7 @@ const deserializeAws_queryRuleDoesNotExistExceptionResponse = async (
     name: "RuleDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7153,7 +7153,7 @@ const deserializeAws_queryRuleSetDoesNotExistExceptionResponse = async (
     name: "RuleSetDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7171,7 +7171,7 @@ const deserializeAws_queryTemplateDoesNotExistExceptionResponse = async (
     name: "TemplateDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7189,7 +7189,7 @@ const deserializeAws_queryTrackingOptionsAlreadyExistsExceptionResponse = async 
     name: "TrackingOptionsAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7207,7 +7207,7 @@ const deserializeAws_queryTrackingOptionsDoesNotExistExceptionResponse = async (
     name: "TrackingOptionsDoesNotExistException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7257,14 +7257,14 @@ const serializeAws_queryBody = (input: Body, context: __SerdeContext): any => {
   const entries: any = {};
   if (input.Html !== undefined) {
     const memberEntries = serializeAws_queryContent(input.Html, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Html.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.Text !== undefined) {
     const memberEntries = serializeAws_queryContent(input.Text, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Text.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7314,7 +7314,7 @@ const serializeAws_queryBouncedRecipientInfo = (
       input.RecipientDsnFields,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RecipientDsnFields.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7333,7 +7333,7 @@ const serializeAws_queryBouncedRecipientInfoList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -7351,7 +7351,7 @@ const serializeAws_queryBulkEmailDestination = (
       input.Destination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Destination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7361,7 +7361,7 @@ const serializeAws_queryBulkEmailDestination = (
       input.ReplacementTags,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ReplacementTags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7383,7 +7383,7 @@ const serializeAws_queryBulkEmailDestinationList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -7415,7 +7415,7 @@ const serializeAws_queryCloudWatchDestination = (
       input.DimensionConfigurations,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `DimensionConfigurations.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7451,7 +7451,7 @@ const serializeAws_queryCloudWatchDimensionConfigurations = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -7510,7 +7510,7 @@ const serializeAws_queryCreateConfigurationSetEventDestinationRequest = (
       input.EventDestination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `EventDestination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7528,7 +7528,7 @@ const serializeAws_queryCreateConfigurationSetRequest = (
       input.ConfigurationSet,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ConfigurationSet.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7549,7 +7549,7 @@ const serializeAws_queryCreateConfigurationSetTrackingOptionsRequest = (
       input.TrackingOptions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TrackingOptions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7593,7 +7593,7 @@ const serializeAws_queryCreateReceiptFilterRequest = (
       input.Filter,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Filter.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7611,7 +7611,7 @@ const serializeAws_queryCreateReceiptRuleRequest = (
   }
   if (input.Rule !== undefined) {
     const memberEntries = serializeAws_queryReceiptRule(input.Rule, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Rule.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7640,7 +7640,7 @@ const serializeAws_queryCreateTemplateRequest = (
   const entries: any = {};
   if (input.Template !== undefined) {
     const memberEntries = serializeAws_queryTemplate(input.Template, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Template.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7807,7 +7807,7 @@ const serializeAws_queryDescribeConfigurationSetRequest = (
       input.ConfigurationSetAttributeNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ConfigurationSetAttributeNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7853,7 +7853,7 @@ const serializeAws_queryDestination = (
       input.BccAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `BccAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7863,7 +7863,7 @@ const serializeAws_queryDestination = (
       input.CcAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `CcAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7873,7 +7873,7 @@ const serializeAws_queryDestination = (
       input.ToAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ToAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7891,7 +7891,7 @@ const serializeAws_queryEventDestination = (
       input.CloudWatchDestination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `CloudWatchDestination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7904,7 +7904,7 @@ const serializeAws_queryEventDestination = (
       input.KinesisFirehoseDestination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `KinesisFirehoseDestination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7914,7 +7914,7 @@ const serializeAws_queryEventDestination = (
       input.MatchingEventTypes,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MatchingEventTypes.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7927,7 +7927,7 @@ const serializeAws_queryEventDestination = (
       input.SNSDestination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SNSDestination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -7970,7 +7970,7 @@ const serializeAws_queryExtensionFieldList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryExtensionField(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -7999,7 +7999,7 @@ const serializeAws_queryGetIdentityDkimAttributesRequest = (
       input.Identities,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Identities.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8017,7 +8017,7 @@ const serializeAws_queryGetIdentityMailFromDomainAttributesRequest = (
       input.Identities,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Identities.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8035,7 +8035,7 @@ const serializeAws_queryGetIdentityNotificationAttributesRequest = (
       input.Identities,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Identities.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8056,7 +8056,7 @@ const serializeAws_queryGetIdentityPoliciesRequest = (
       input.PolicyNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `PolicyNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8074,7 +8074,7 @@ const serializeAws_queryGetIdentityVerificationAttributesRequest = (
       input.Identities,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Identities.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8233,14 +8233,14 @@ const serializeAws_queryMessage = (
   const entries: any = {};
   if (input.Body !== undefined) {
     const memberEntries = serializeAws_queryBody(input.Body, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Body.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.Subject !== undefined) {
     const memberEntries = serializeAws_queryContent(input.Subject, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Subject.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8262,7 +8262,7 @@ const serializeAws_queryMessageDsn = (
       input.ExtensionFields,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ExtensionFields.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8281,7 +8281,7 @@ const serializeAws_queryMessageTagList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryMessageTag(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -8315,7 +8315,7 @@ const serializeAws_queryPutConfigurationSetDeliveryOptionsRequest = (
       input.DeliveryOptions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `DeliveryOptions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8361,7 +8361,7 @@ const serializeAws_queryReceiptAction = (
       input.AddHeaderAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AddHeaderAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8371,7 +8371,7 @@ const serializeAws_queryReceiptAction = (
       input.BounceAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `BounceAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8381,21 +8381,21 @@ const serializeAws_queryReceiptAction = (
       input.LambdaAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `LambdaAction.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.S3Action !== undefined) {
     const memberEntries = serializeAws_queryS3Action(input.S3Action, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `S3Action.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.SNSAction !== undefined) {
     const memberEntries = serializeAws_querySNSAction(input.SNSAction, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SNSAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8405,7 +8405,7 @@ const serializeAws_queryReceiptAction = (
       input.StopAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `StopAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8415,7 +8415,7 @@ const serializeAws_queryReceiptAction = (
       input.WorkmailAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `WorkmailAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8431,7 +8431,7 @@ const serializeAws_queryReceiptActionsList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryReceiptAction(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`member.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -8449,7 +8449,7 @@ const serializeAws_queryReceiptFilter = (
       input.IpFilter,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `IpFilter.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8484,7 +8484,7 @@ const serializeAws_queryReceiptRule = (
       input.Actions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Actions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8500,7 +8500,7 @@ const serializeAws_queryReceiptRule = (
       input.Recipients,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Recipients.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8543,7 +8543,7 @@ const serializeAws_queryRecipientDsnFields = (
       input.ExtensionFields,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ExtensionFields.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8587,7 +8587,7 @@ const serializeAws_queryReorderReceiptRuleSetRequest = (
       input.RuleNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RuleNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8659,7 +8659,7 @@ const serializeAws_querySendBounceRequest = (
       input.BouncedRecipientInfoList,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `BouncedRecipientInfoList.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8672,7 +8672,7 @@ const serializeAws_querySendBounceRequest = (
       input.MessageDsn,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `MessageDsn.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8696,7 +8696,7 @@ const serializeAws_querySendBulkTemplatedEmailRequest = (
       input.DefaultTags,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `DefaultTags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8709,7 +8709,7 @@ const serializeAws_querySendBulkTemplatedEmailRequest = (
       input.Destinations,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Destinations.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8719,7 +8719,7 @@ const serializeAws_querySendBulkTemplatedEmailRequest = (
       input.ReplyToAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ReplyToAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8775,14 +8775,14 @@ const serializeAws_querySendEmailRequest = (
       input.Destination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Destination.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.Message !== undefined) {
     const memberEntries = serializeAws_queryMessage(input.Message, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Message.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8792,7 +8792,7 @@ const serializeAws_querySendEmailRequest = (
       input.ReplyToAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ReplyToAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8811,7 +8811,7 @@ const serializeAws_querySendEmailRequest = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryMessageTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8832,7 +8832,7 @@ const serializeAws_querySendRawEmailRequest = (
       input.Destinations,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Destinations.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8845,7 +8845,7 @@ const serializeAws_querySendRawEmailRequest = (
       input.RawMessage,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RawMessage.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8861,7 +8861,7 @@ const serializeAws_querySendRawEmailRequest = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryMessageTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8882,7 +8882,7 @@ const serializeAws_querySendTemplatedEmailRequest = (
       input.Destination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Destination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8892,7 +8892,7 @@ const serializeAws_querySendTemplatedEmailRequest = (
       input.ReplyToAddresses,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ReplyToAddresses.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -8911,7 +8911,7 @@ const serializeAws_querySendTemplatedEmailRequest = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryMessageTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -9118,7 +9118,7 @@ const serializeAws_queryUpdateConfigurationSetEventDestinationRequest = (
       input.EventDestination,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `EventDestination.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -9167,7 +9167,7 @@ const serializeAws_queryUpdateConfigurationSetTrackingOptionsRequest = (
       input.TrackingOptions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TrackingOptions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -9208,7 +9208,7 @@ const serializeAws_queryUpdateReceiptRuleRequest = (
   const entries: any = {};
   if (input.Rule !== undefined) {
     const memberEntries = serializeAws_queryReceiptRule(input.Rule, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Rule.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -9226,7 +9226,7 @@ const serializeAws_queryUpdateTemplateRequest = (
   const entries: any = {};
   if (input.Template !== undefined) {
     const memberEntries = serializeAws_queryTemplate(input.Template, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Template.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -9298,7 +9298,7 @@ const deserializeAws_queryAccountSendingPausedException = (
 ): AccountSendingPausedException => {
   let contents: any = {
     __type: "AccountSendingPausedException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -9313,7 +9313,7 @@ const deserializeAws_queryAddHeaderAction = (
   let contents: any = {
     __type: "AddHeaderAction",
     HeaderName: undefined,
-    HeaderValue: undefined
+    HeaderValue: undefined,
   };
   if (output["HeaderName"] !== undefined) {
     contents.HeaderName = output["HeaderName"];
@@ -9342,7 +9342,7 @@ const deserializeAws_queryAlreadyExistsException = (
   let contents: any = {
     __type: "AlreadyExistsException",
     Name: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -9363,7 +9363,7 @@ const deserializeAws_queryBounceAction = (
     Sender: undefined,
     SmtpReplyCode: undefined,
     StatusCode: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["Message"] !== undefined) {
     contents.Message = output["Message"];
@@ -9391,7 +9391,7 @@ const deserializeAws_queryBulkEmailDestinationStatus = (
     __type: "BulkEmailDestinationStatus",
     Error: undefined,
     MessageId: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["Error"] !== undefined) {
     contents.Error = output["Error"];
@@ -9425,7 +9425,7 @@ const deserializeAws_queryCannotDeleteException = (
   let contents: any = {
     __type: "CannotDeleteException",
     Name: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -9441,7 +9441,7 @@ const deserializeAws_queryCloneReceiptRuleSetResponse = (
   context: __SerdeContext
 ): CloneReceiptRuleSetResponse => {
   let contents: any = {
-    __type: "CloneReceiptRuleSetResponse"
+    __type: "CloneReceiptRuleSetResponse",
   };
   return contents;
 };
@@ -9452,7 +9452,7 @@ const deserializeAws_queryCloudWatchDestination = (
 ): CloudWatchDestination => {
   let contents: any = {
     __type: "CloudWatchDestination",
-    DimensionConfigurations: undefined
+    DimensionConfigurations: undefined,
   };
   if (output.DimensionConfigurations === "") {
     contents.DimensionConfigurations = [];
@@ -9481,7 +9481,7 @@ const deserializeAws_queryCloudWatchDimensionConfiguration = (
     __type: "CloudWatchDimensionConfiguration",
     DefaultDimensionValue: undefined,
     DimensionName: undefined,
-    DimensionValueSource: undefined
+    DimensionValueSource: undefined,
   };
   if (output["DefaultDimensionValue"] !== undefined) {
     contents.DefaultDimensionValue = output["DefaultDimensionValue"];
@@ -9514,7 +9514,7 @@ const deserializeAws_queryConfigurationSet = (
 ): ConfigurationSet => {
   let contents: any = {
     __type: "ConfigurationSet",
-    Name: undefined
+    Name: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -9529,7 +9529,7 @@ const deserializeAws_queryConfigurationSetAlreadyExistsException = (
   let contents: any = {
     __type: "ConfigurationSetAlreadyExistsException",
     ConfigurationSetName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -9547,7 +9547,7 @@ const deserializeAws_queryConfigurationSetDoesNotExistException = (
   let contents: any = {
     __type: "ConfigurationSetDoesNotExistException",
     ConfigurationSetName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -9565,7 +9565,7 @@ const deserializeAws_queryConfigurationSetSendingPausedException = (
   let contents: any = {
     __type: "ConfigurationSetSendingPausedException",
     ConfigurationSetName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -9592,7 +9592,7 @@ const deserializeAws_queryCreateConfigurationSetEventDestinationResponse = (
   context: __SerdeContext
 ): CreateConfigurationSetEventDestinationResponse => {
   let contents: any = {
-    __type: "CreateConfigurationSetEventDestinationResponse"
+    __type: "CreateConfigurationSetEventDestinationResponse",
   };
   return contents;
 };
@@ -9602,7 +9602,7 @@ const deserializeAws_queryCreateConfigurationSetResponse = (
   context: __SerdeContext
 ): CreateConfigurationSetResponse => {
   let contents: any = {
-    __type: "CreateConfigurationSetResponse"
+    __type: "CreateConfigurationSetResponse",
   };
   return contents;
 };
@@ -9612,7 +9612,7 @@ const deserializeAws_queryCreateConfigurationSetTrackingOptionsResponse = (
   context: __SerdeContext
 ): CreateConfigurationSetTrackingOptionsResponse => {
   let contents: any = {
-    __type: "CreateConfigurationSetTrackingOptionsResponse"
+    __type: "CreateConfigurationSetTrackingOptionsResponse",
   };
   return contents;
 };
@@ -9622,7 +9622,7 @@ const deserializeAws_queryCreateReceiptFilterResponse = (
   context: __SerdeContext
 ): CreateReceiptFilterResponse => {
   let contents: any = {
-    __type: "CreateReceiptFilterResponse"
+    __type: "CreateReceiptFilterResponse",
   };
   return contents;
 };
@@ -9632,7 +9632,7 @@ const deserializeAws_queryCreateReceiptRuleResponse = (
   context: __SerdeContext
 ): CreateReceiptRuleResponse => {
   let contents: any = {
-    __type: "CreateReceiptRuleResponse"
+    __type: "CreateReceiptRuleResponse",
   };
   return contents;
 };
@@ -9642,7 +9642,7 @@ const deserializeAws_queryCreateReceiptRuleSetResponse = (
   context: __SerdeContext
 ): CreateReceiptRuleSetResponse => {
   let contents: any = {
-    __type: "CreateReceiptRuleSetResponse"
+    __type: "CreateReceiptRuleSetResponse",
   };
   return contents;
 };
@@ -9652,7 +9652,7 @@ const deserializeAws_queryCreateTemplateResponse = (
   context: __SerdeContext
 ): CreateTemplateResponse => {
   let contents: any = {
-    __type: "CreateTemplateResponse"
+    __type: "CreateTemplateResponse",
   };
   return contents;
 };
@@ -9663,7 +9663,7 @@ const deserializeAws_queryCustomVerificationEmailInvalidContentException = (
 ): CustomVerificationEmailInvalidContentException => {
   let contents: any = {
     __type: "CustomVerificationEmailInvalidContentException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -9681,7 +9681,7 @@ const deserializeAws_queryCustomVerificationEmailTemplate = (
     FromEmailAddress: undefined,
     SuccessRedirectionURL: undefined,
     TemplateName: undefined,
-    TemplateSubject: undefined
+    TemplateSubject: undefined,
   };
   if (output["FailureRedirectionURL"] !== undefined) {
     contents.FailureRedirectionURL = output["FailureRedirectionURL"];
@@ -9708,7 +9708,7 @@ const deserializeAws_queryCustomVerificationEmailTemplateAlreadyExistsException 
   let contents: any = {
     __type: "CustomVerificationEmailTemplateAlreadyExistsException",
     CustomVerificationEmailTemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["CustomVerificationEmailTemplateName"] !== undefined) {
     contents.CustomVerificationEmailTemplateName =
@@ -9727,7 +9727,7 @@ const deserializeAws_queryCustomVerificationEmailTemplateDoesNotExistException =
   let contents: any = {
     __type: "CustomVerificationEmailTemplateDoesNotExistException",
     CustomVerificationEmailTemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["CustomVerificationEmailTemplateName"] !== undefined) {
     contents.CustomVerificationEmailTemplateName =
@@ -9757,7 +9757,7 @@ const deserializeAws_queryDeleteConfigurationSetEventDestinationResponse = (
   context: __SerdeContext
 ): DeleteConfigurationSetEventDestinationResponse => {
   let contents: any = {
-    __type: "DeleteConfigurationSetEventDestinationResponse"
+    __type: "DeleteConfigurationSetEventDestinationResponse",
   };
   return contents;
 };
@@ -9767,7 +9767,7 @@ const deserializeAws_queryDeleteConfigurationSetResponse = (
   context: __SerdeContext
 ): DeleteConfigurationSetResponse => {
   let contents: any = {
-    __type: "DeleteConfigurationSetResponse"
+    __type: "DeleteConfigurationSetResponse",
   };
   return contents;
 };
@@ -9777,7 +9777,7 @@ const deserializeAws_queryDeleteConfigurationSetTrackingOptionsResponse = (
   context: __SerdeContext
 ): DeleteConfigurationSetTrackingOptionsResponse => {
   let contents: any = {
-    __type: "DeleteConfigurationSetTrackingOptionsResponse"
+    __type: "DeleteConfigurationSetTrackingOptionsResponse",
   };
   return contents;
 };
@@ -9787,7 +9787,7 @@ const deserializeAws_queryDeleteIdentityPolicyResponse = (
   context: __SerdeContext
 ): DeleteIdentityPolicyResponse => {
   let contents: any = {
-    __type: "DeleteIdentityPolicyResponse"
+    __type: "DeleteIdentityPolicyResponse",
   };
   return contents;
 };
@@ -9797,7 +9797,7 @@ const deserializeAws_queryDeleteIdentityResponse = (
   context: __SerdeContext
 ): DeleteIdentityResponse => {
   let contents: any = {
-    __type: "DeleteIdentityResponse"
+    __type: "DeleteIdentityResponse",
   };
   return contents;
 };
@@ -9807,7 +9807,7 @@ const deserializeAws_queryDeleteReceiptFilterResponse = (
   context: __SerdeContext
 ): DeleteReceiptFilterResponse => {
   let contents: any = {
-    __type: "DeleteReceiptFilterResponse"
+    __type: "DeleteReceiptFilterResponse",
   };
   return contents;
 };
@@ -9817,7 +9817,7 @@ const deserializeAws_queryDeleteReceiptRuleResponse = (
   context: __SerdeContext
 ): DeleteReceiptRuleResponse => {
   let contents: any = {
-    __type: "DeleteReceiptRuleResponse"
+    __type: "DeleteReceiptRuleResponse",
   };
   return contents;
 };
@@ -9827,7 +9827,7 @@ const deserializeAws_queryDeleteReceiptRuleSetResponse = (
   context: __SerdeContext
 ): DeleteReceiptRuleSetResponse => {
   let contents: any = {
-    __type: "DeleteReceiptRuleSetResponse"
+    __type: "DeleteReceiptRuleSetResponse",
   };
   return contents;
 };
@@ -9837,7 +9837,7 @@ const deserializeAws_queryDeleteTemplateResponse = (
   context: __SerdeContext
 ): DeleteTemplateResponse => {
   let contents: any = {
-    __type: "DeleteTemplateResponse"
+    __type: "DeleteTemplateResponse",
   };
   return contents;
 };
@@ -9848,7 +9848,7 @@ const deserializeAws_queryDeliveryOptions = (
 ): DeliveryOptions => {
   let contents: any = {
     __type: "DeliveryOptions",
-    TlsPolicy: undefined
+    TlsPolicy: undefined,
   };
   if (output["TlsPolicy"] !== undefined) {
     contents.TlsPolicy = output["TlsPolicy"];
@@ -9863,7 +9863,7 @@ const deserializeAws_queryDescribeActiveReceiptRuleSetResponse = (
   let contents: any = {
     __type: "DescribeActiveReceiptRuleSetResponse",
     Metadata: undefined,
-    Rules: undefined
+    Rules: undefined,
   };
   if (output["Metadata"] !== undefined) {
     contents.Metadata = deserializeAws_queryReceiptRuleSetMetadata(
@@ -9897,7 +9897,7 @@ const deserializeAws_queryDescribeConfigurationSetResponse = (
     DeliveryOptions: undefined,
     EventDestinations: undefined,
     ReputationOptions: undefined,
-    TrackingOptions: undefined
+    TrackingOptions: undefined,
   };
   if (output["ConfigurationSet"] !== undefined) {
     contents.ConfigurationSet = deserializeAws_queryConfigurationSet(
@@ -9948,7 +9948,7 @@ const deserializeAws_queryDescribeReceiptRuleResponse = (
 ): DescribeReceiptRuleResponse => {
   let contents: any = {
     __type: "DescribeReceiptRuleResponse",
-    Rule: undefined
+    Rule: undefined,
   };
   if (output["Rule"] !== undefined) {
     contents.Rule = deserializeAws_queryReceiptRule(output["Rule"], context);
@@ -9963,7 +9963,7 @@ const deserializeAws_queryDescribeReceiptRuleSetResponse = (
   let contents: any = {
     __type: "DescribeReceiptRuleSetResponse",
     Metadata: undefined,
-    Rules: undefined
+    Rules: undefined,
   };
   if (output["Metadata"] !== undefined) {
     contents.Metadata = deserializeAws_queryReceiptRuleSetMetadata(
@@ -10012,7 +10012,7 @@ const deserializeAws_queryEventDestination = (
     KinesisFirehoseDestination: undefined,
     MatchingEventTypes: undefined,
     Name: undefined,
-    SNSDestination: undefined
+    SNSDestination: undefined,
   };
   if (output["CloudWatchDestination"] !== undefined) {
     contents.CloudWatchDestination = deserializeAws_queryCloudWatchDestination(
@@ -10065,7 +10065,7 @@ const deserializeAws_queryEventDestinationAlreadyExistsException = (
     __type: "EventDestinationAlreadyExistsException",
     ConfigurationSetName: undefined,
     EventDestinationName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -10087,7 +10087,7 @@ const deserializeAws_queryEventDestinationDoesNotExistException = (
     __type: "EventDestinationDoesNotExistException",
     ConfigurationSetName: undefined,
     EventDestinationName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -10130,7 +10130,7 @@ const deserializeAws_queryFromEmailAddressNotVerifiedException = (
   let contents: any = {
     __type: "FromEmailAddressNotVerifiedException",
     FromEmailAddress: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["FromEmailAddress"] !== undefined) {
     contents.FromEmailAddress = output["FromEmailAddress"];
@@ -10147,7 +10147,7 @@ const deserializeAws_queryGetAccountSendingEnabledResponse = (
 ): GetAccountSendingEnabledResponse => {
   let contents: any = {
     __type: "GetAccountSendingEnabledResponse",
-    Enabled: undefined
+    Enabled: undefined,
   };
   if (output["Enabled"] !== undefined) {
     contents.Enabled = output["Enabled"] == "true";
@@ -10166,7 +10166,7 @@ const deserializeAws_queryGetCustomVerificationEmailTemplateResponse = (
     SuccessRedirectionURL: undefined,
     TemplateContent: undefined,
     TemplateName: undefined,
-    TemplateSubject: undefined
+    TemplateSubject: undefined,
   };
   if (output["FailureRedirectionURL"] !== undefined) {
     contents.FailureRedirectionURL = output["FailureRedirectionURL"];
@@ -10195,7 +10195,7 @@ const deserializeAws_queryGetIdentityDkimAttributesResponse = (
 ): GetIdentityDkimAttributesResponse => {
   let contents: any = {
     __type: "GetIdentityDkimAttributesResponse",
-    DkimAttributes: undefined
+    DkimAttributes: undefined,
   };
   if (output.DkimAttributes === "") {
     contents.DkimAttributes = {};
@@ -10222,7 +10222,7 @@ const deserializeAws_queryGetIdentityMailFromDomainAttributesResponse = (
 ): GetIdentityMailFromDomainAttributesResponse => {
   let contents: any = {
     __type: "GetIdentityMailFromDomainAttributesResponse",
-    MailFromDomainAttributes: undefined
+    MailFromDomainAttributes: undefined,
   };
   if (output.MailFromDomainAttributes === "") {
     contents.MailFromDomainAttributes = {};
@@ -10249,7 +10249,7 @@ const deserializeAws_queryGetIdentityNotificationAttributesResponse = (
 ): GetIdentityNotificationAttributesResponse => {
   let contents: any = {
     __type: "GetIdentityNotificationAttributesResponse",
-    NotificationAttributes: undefined
+    NotificationAttributes: undefined,
   };
   if (output.NotificationAttributes === "") {
     contents.NotificationAttributes = {};
@@ -10276,7 +10276,7 @@ const deserializeAws_queryGetIdentityPoliciesResponse = (
 ): GetIdentityPoliciesResponse => {
   let contents: any = {
     __type: "GetIdentityPoliciesResponse",
-    Policies: undefined
+    Policies: undefined,
   };
   if (output.Policies === "") {
     contents.Policies = {};
@@ -10300,7 +10300,7 @@ const deserializeAws_queryGetIdentityVerificationAttributesResponse = (
 ): GetIdentityVerificationAttributesResponse => {
   let contents: any = {
     __type: "GetIdentityVerificationAttributesResponse",
-    VerificationAttributes: undefined
+    VerificationAttributes: undefined,
   };
   if (output.VerificationAttributes === "") {
     contents.VerificationAttributes = {};
@@ -10329,7 +10329,7 @@ const deserializeAws_queryGetSendQuotaResponse = (
     __type: "GetSendQuotaResponse",
     Max24HourSend: undefined,
     MaxSendRate: undefined,
-    SentLast24Hours: undefined
+    SentLast24Hours: undefined,
   };
   if (output["Max24HourSend"] !== undefined) {
     contents.Max24HourSend = parseFloat(output["Max24HourSend"]);
@@ -10349,7 +10349,7 @@ const deserializeAws_queryGetSendStatisticsResponse = (
 ): GetSendStatisticsResponse => {
   let contents: any = {
     __type: "GetSendStatisticsResponse",
-    SendDataPoints: undefined
+    SendDataPoints: undefined,
   };
   if (output.SendDataPoints === "") {
     contents.SendDataPoints = [];
@@ -10376,7 +10376,7 @@ const deserializeAws_queryGetTemplateResponse = (
 ): GetTemplateResponse => {
   let contents: any = {
     __type: "GetTemplateResponse",
-    Template: undefined
+    Template: undefined,
   };
   if (output["Template"] !== undefined) {
     contents.Template = deserializeAws_queryTemplate(
@@ -10395,7 +10395,7 @@ const deserializeAws_queryIdentityDkimAttributes = (
     __type: "IdentityDkimAttributes",
     DkimEnabled: undefined,
     DkimTokens: undefined,
-    DkimVerificationStatus: undefined
+    DkimVerificationStatus: undefined,
   };
   if (output["DkimEnabled"] !== undefined) {
     contents.DkimEnabled = output["DkimEnabled"] == "true";
@@ -10441,7 +10441,7 @@ const deserializeAws_queryIdentityMailFromDomainAttributes = (
     __type: "IdentityMailFromDomainAttributes",
     BehaviorOnMXFailure: undefined,
     MailFromDomain: undefined,
-    MailFromDomainStatus: undefined
+    MailFromDomainStatus: undefined,
   };
   if (output["BehaviorOnMXFailure"] !== undefined) {
     contents.BehaviorOnMXFailure = output["BehaviorOnMXFailure"];
@@ -10467,7 +10467,7 @@ const deserializeAws_queryIdentityNotificationAttributes = (
     ForwardingEnabled: undefined,
     HeadersInBounceNotificationsEnabled: undefined,
     HeadersInComplaintNotificationsEnabled: undefined,
-    HeadersInDeliveryNotificationsEnabled: undefined
+    HeadersInDeliveryNotificationsEnabled: undefined,
   };
   if (output["BounceTopic"] !== undefined) {
     contents.BounceTopic = output["BounceTopic"];
@@ -10503,7 +10503,7 @@ const deserializeAws_queryIdentityVerificationAttributes = (
   let contents: any = {
     __type: "IdentityVerificationAttributes",
     VerificationStatus: undefined,
-    VerificationToken: undefined
+    VerificationToken: undefined,
   };
   if (output["VerificationStatus"] !== undefined) {
     contents.VerificationStatus = output["VerificationStatus"];
@@ -10522,7 +10522,7 @@ const deserializeAws_queryInvalidCloudWatchDestinationException = (
     __type: "InvalidCloudWatchDestinationException",
     ConfigurationSetName: undefined,
     EventDestinationName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -10542,7 +10542,7 @@ const deserializeAws_queryInvalidConfigurationSetException = (
 ): InvalidConfigurationSetException => {
   let contents: any = {
     __type: "InvalidConfigurationSetException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -10556,7 +10556,7 @@ const deserializeAws_queryInvalidDeliveryOptionsException = (
 ): InvalidDeliveryOptionsException => {
   let contents: any = {
     __type: "InvalidDeliveryOptionsException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -10572,7 +10572,7 @@ const deserializeAws_queryInvalidFirehoseDestinationException = (
     __type: "InvalidFirehoseDestinationException",
     ConfigurationSetName: undefined,
     EventDestinationName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -10593,7 +10593,7 @@ const deserializeAws_queryInvalidLambdaFunctionException = (
   let contents: any = {
     __type: "InvalidLambdaFunctionException",
     FunctionArn: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["FunctionArn"] !== undefined) {
     contents.FunctionArn = output["FunctionArn"];
@@ -10610,7 +10610,7 @@ const deserializeAws_queryInvalidPolicyException = (
 ): InvalidPolicyException => {
   let contents: any = {
     __type: "InvalidPolicyException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -10625,7 +10625,7 @@ const deserializeAws_queryInvalidRenderingParameterException = (
   let contents: any = {
     __type: "InvalidRenderingParameterException",
     TemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["TemplateName"] !== undefined) {
     contents.TemplateName = output["TemplateName"];
@@ -10643,7 +10643,7 @@ const deserializeAws_queryInvalidS3ConfigurationException = (
   let contents: any = {
     __type: "InvalidS3ConfigurationException",
     Bucket: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Bucket"] !== undefined) {
     contents.Bucket = output["Bucket"];
@@ -10662,7 +10662,7 @@ const deserializeAws_queryInvalidSNSDestinationException = (
     __type: "InvalidSNSDestinationException",
     ConfigurationSetName: undefined,
     EventDestinationName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -10683,7 +10683,7 @@ const deserializeAws_queryInvalidSnsTopicException = (
   let contents: any = {
     __type: "InvalidSnsTopicException",
     Topic: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Topic"] !== undefined) {
     contents.Topic = output["Topic"];
@@ -10701,7 +10701,7 @@ const deserializeAws_queryInvalidTemplateException = (
   let contents: any = {
     __type: "InvalidTemplateException",
     TemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["TemplateName"] !== undefined) {
     contents.TemplateName = output["TemplateName"];
@@ -10718,7 +10718,7 @@ const deserializeAws_queryInvalidTrackingOptionsException = (
 ): InvalidTrackingOptionsException => {
   let contents: any = {
     __type: "InvalidTrackingOptionsException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -10733,7 +10733,7 @@ const deserializeAws_queryKinesisFirehoseDestination = (
   let contents: any = {
     __type: "KinesisFirehoseDestination",
     DeliveryStreamARN: undefined,
-    IAMRoleARN: undefined
+    IAMRoleARN: undefined,
   };
   if (output["DeliveryStreamARN"] !== undefined) {
     contents.DeliveryStreamARN = output["DeliveryStreamARN"];
@@ -10752,7 +10752,7 @@ const deserializeAws_queryLambdaAction = (
     __type: "LambdaAction",
     FunctionArn: undefined,
     InvocationType: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["FunctionArn"] !== undefined) {
     contents.FunctionArn = output["FunctionArn"];
@@ -10772,7 +10772,7 @@ const deserializeAws_queryLimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -10787,7 +10787,7 @@ const deserializeAws_queryListConfigurationSetsResponse = (
   let contents: any = {
     __type: "ListConfigurationSetsResponse",
     ConfigurationSets: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.ConfigurationSets === "") {
     contents.ConfigurationSets = [];
@@ -10818,7 +10818,7 @@ const deserializeAws_queryListCustomVerificationEmailTemplatesResponse = (
   let contents: any = {
     __type: "ListCustomVerificationEmailTemplatesResponse",
     CustomVerificationEmailTemplates: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.CustomVerificationEmailTemplates === "") {
     contents.CustomVerificationEmailTemplates = [];
@@ -10849,7 +10849,7 @@ const deserializeAws_queryListIdentitiesResponse = (
   let contents: any = {
     __type: "ListIdentitiesResponse",
     Identities: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Identities === "") {
     contents.Identities = [];
@@ -10879,7 +10879,7 @@ const deserializeAws_queryListIdentityPoliciesResponse = (
 ): ListIdentityPoliciesResponse => {
   let contents: any = {
     __type: "ListIdentityPoliciesResponse",
-    PolicyNames: undefined
+    PolicyNames: undefined,
   };
   if (output.PolicyNames === "") {
     contents.PolicyNames = [];
@@ -10906,7 +10906,7 @@ const deserializeAws_queryListReceiptFiltersResponse = (
 ): ListReceiptFiltersResponse => {
   let contents: any = {
     __type: "ListReceiptFiltersResponse",
-    Filters: undefined
+    Filters: undefined,
   };
   if (output.Filters === "") {
     contents.Filters = [];
@@ -10934,7 +10934,7 @@ const deserializeAws_queryListReceiptRuleSetsResponse = (
   let contents: any = {
     __type: "ListReceiptRuleSetsResponse",
     NextToken: undefined,
-    RuleSets: undefined
+    RuleSets: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -10965,7 +10965,7 @@ const deserializeAws_queryListTemplatesResponse = (
   let contents: any = {
     __type: "ListTemplatesResponse",
     NextToken: undefined,
-    TemplatesMetadata: undefined
+    TemplatesMetadata: undefined,
   };
   if (output["NextToken"] !== undefined) {
     contents.NextToken = output["NextToken"];
@@ -10995,7 +10995,7 @@ const deserializeAws_queryListVerifiedEmailAddressesResponse = (
 ): ListVerifiedEmailAddressesResponse => {
   let contents: any = {
     __type: "ListVerifiedEmailAddressesResponse",
-    VerifiedEmailAddresses: undefined
+    VerifiedEmailAddresses: undefined,
   };
   if (output.VerifiedEmailAddresses === "") {
     contents.VerifiedEmailAddresses = [];
@@ -11038,7 +11038,7 @@ const deserializeAws_queryMailFromDomainNotVerifiedException = (
 ): MailFromDomainNotVerifiedException => {
   let contents: any = {
     __type: "MailFromDomainNotVerifiedException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -11052,7 +11052,7 @@ const deserializeAws_queryMessageRejected = (
 ): MessageRejected => {
   let contents: any = {
     __type: "MessageRejected",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -11067,7 +11067,7 @@ const deserializeAws_queryMissingRenderingAttributeException = (
   let contents: any = {
     __type: "MissingRenderingAttributeException",
     TemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["TemplateName"] !== undefined) {
     contents.TemplateName = output["TemplateName"];
@@ -11120,7 +11120,7 @@ const deserializeAws_queryProductionAccessNotGrantedException = (
 ): ProductionAccessNotGrantedException => {
   let contents: any = {
     __type: "ProductionAccessNotGrantedException",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -11133,7 +11133,7 @@ const deserializeAws_queryPutConfigurationSetDeliveryOptionsResponse = (
   context: __SerdeContext
 ): PutConfigurationSetDeliveryOptionsResponse => {
   let contents: any = {
-    __type: "PutConfigurationSetDeliveryOptionsResponse"
+    __type: "PutConfigurationSetDeliveryOptionsResponse",
   };
   return contents;
 };
@@ -11143,7 +11143,7 @@ const deserializeAws_queryPutIdentityPolicyResponse = (
   context: __SerdeContext
 ): PutIdentityPolicyResponse => {
   let contents: any = {
-    __type: "PutIdentityPolicyResponse"
+    __type: "PutIdentityPolicyResponse",
   };
   return contents;
 };
@@ -11160,7 +11160,7 @@ const deserializeAws_queryReceiptAction = (
     S3Action: undefined,
     SNSAction: undefined,
     StopAction: undefined,
-    WorkmailAction: undefined
+    WorkmailAction: undefined,
   };
   if (output["AddHeaderAction"] !== undefined) {
     contents.AddHeaderAction = deserializeAws_queryAddHeaderAction(
@@ -11225,7 +11225,7 @@ const deserializeAws_queryReceiptFilter = (
   let contents: any = {
     __type: "ReceiptFilter",
     IpFilter: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["IpFilter"] !== undefined) {
     contents.IpFilter = deserializeAws_queryReceiptIpFilter(
@@ -11257,7 +11257,7 @@ const deserializeAws_queryReceiptIpFilter = (
   let contents: any = {
     __type: "ReceiptIpFilter",
     Cidr: undefined,
-    Policy: undefined
+    Policy: undefined,
   };
   if (output["Cidr"] !== undefined) {
     contents.Cidr = output["Cidr"];
@@ -11279,7 +11279,7 @@ const deserializeAws_queryReceiptRule = (
     Name: undefined,
     Recipients: undefined,
     ScanEnabled: undefined,
-    TlsPolicy: undefined
+    TlsPolicy: undefined,
   };
   if (output.Actions === "") {
     contents.Actions = [];
@@ -11335,7 +11335,7 @@ const deserializeAws_queryReceiptRuleSetMetadata = (
   let contents: any = {
     __type: "ReceiptRuleSetMetadata",
     CreatedTimestamp: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["CreatedTimestamp"] !== undefined) {
     contents.CreatedTimestamp = new Date(output["CreatedTimestamp"]);
@@ -11384,7 +11384,7 @@ const deserializeAws_queryReorderReceiptRuleSetResponse = (
   context: __SerdeContext
 ): ReorderReceiptRuleSetResponse => {
   let contents: any = {
-    __type: "ReorderReceiptRuleSetResponse"
+    __type: "ReorderReceiptRuleSetResponse",
   };
   return contents;
 };
@@ -11397,7 +11397,7 @@ const deserializeAws_queryReputationOptions = (
     __type: "ReputationOptions",
     LastFreshStart: undefined,
     ReputationMetricsEnabled: undefined,
-    SendingEnabled: undefined
+    SendingEnabled: undefined,
   };
   if (output["LastFreshStart"] !== undefined) {
     contents.LastFreshStart = new Date(output["LastFreshStart"]);
@@ -11419,7 +11419,7 @@ const deserializeAws_queryRuleDoesNotExistException = (
   let contents: any = {
     __type: "RuleDoesNotExistException",
     Name: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -11437,7 +11437,7 @@ const deserializeAws_queryRuleSetDoesNotExistException = (
   let contents: any = {
     __type: "RuleSetDoesNotExistException",
     Name: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -11457,7 +11457,7 @@ const deserializeAws_queryS3Action = (
     BucketName: undefined,
     KmsKeyArn: undefined,
     ObjectKeyPrefix: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["BucketName"] !== undefined) {
     contents.BucketName = output["BucketName"];
@@ -11481,7 +11481,7 @@ const deserializeAws_querySNSAction = (
   let contents: any = {
     __type: "SNSAction",
     Encoding: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["Encoding"] !== undefined) {
     contents.Encoding = output["Encoding"];
@@ -11498,7 +11498,7 @@ const deserializeAws_querySNSDestination = (
 ): SNSDestination => {
   let contents: any = {
     __type: "SNSDestination",
-    TopicARN: undefined
+    TopicARN: undefined,
   };
   if (output["TopicARN"] !== undefined) {
     contents.TopicARN = output["TopicARN"];
@@ -11512,7 +11512,7 @@ const deserializeAws_querySendBounceResponse = (
 ): SendBounceResponse => {
   let contents: any = {
     __type: "SendBounceResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -11526,7 +11526,7 @@ const deserializeAws_querySendBulkTemplatedEmailResponse = (
 ): SendBulkTemplatedEmailResponse => {
   let contents: any = {
     __type: "SendBulkTemplatedEmailResponse",
-    Status: undefined
+    Status: undefined,
   };
   if (output.Status === "") {
     contents.Status = [];
@@ -11553,7 +11553,7 @@ const deserializeAws_querySendCustomVerificationEmailResponse = (
 ): SendCustomVerificationEmailResponse => {
   let contents: any = {
     __type: "SendCustomVerificationEmailResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -11571,7 +11571,7 @@ const deserializeAws_querySendDataPoint = (
     Complaints: undefined,
     DeliveryAttempts: undefined,
     Rejects: undefined,
-    Timestamp: undefined
+    Timestamp: undefined,
   };
   if (output["Bounces"] !== undefined) {
     contents.Bounces = parseInt(output["Bounces"]);
@@ -11608,7 +11608,7 @@ const deserializeAws_querySendEmailResponse = (
 ): SendEmailResponse => {
   let contents: any = {
     __type: "SendEmailResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -11622,7 +11622,7 @@ const deserializeAws_querySendRawEmailResponse = (
 ): SendRawEmailResponse => {
   let contents: any = {
     __type: "SendRawEmailResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -11636,7 +11636,7 @@ const deserializeAws_querySendTemplatedEmailResponse = (
 ): SendTemplatedEmailResponse => {
   let contents: any = {
     __type: "SendTemplatedEmailResponse",
-    MessageId: undefined
+    MessageId: undefined,
   };
   if (output["MessageId"] !== undefined) {
     contents.MessageId = output["MessageId"];
@@ -11649,7 +11649,7 @@ const deserializeAws_querySetActiveReceiptRuleSetResponse = (
   context: __SerdeContext
 ): SetActiveReceiptRuleSetResponse => {
   let contents: any = {
-    __type: "SetActiveReceiptRuleSetResponse"
+    __type: "SetActiveReceiptRuleSetResponse",
   };
   return contents;
 };
@@ -11659,7 +11659,7 @@ const deserializeAws_querySetIdentityDkimEnabledResponse = (
   context: __SerdeContext
 ): SetIdentityDkimEnabledResponse => {
   let contents: any = {
-    __type: "SetIdentityDkimEnabledResponse"
+    __type: "SetIdentityDkimEnabledResponse",
   };
   return contents;
 };
@@ -11669,7 +11669,7 @@ const deserializeAws_querySetIdentityFeedbackForwardingEnabledResponse = (
   context: __SerdeContext
 ): SetIdentityFeedbackForwardingEnabledResponse => {
   let contents: any = {
-    __type: "SetIdentityFeedbackForwardingEnabledResponse"
+    __type: "SetIdentityFeedbackForwardingEnabledResponse",
   };
   return contents;
 };
@@ -11679,7 +11679,7 @@ const deserializeAws_querySetIdentityHeadersInNotificationsEnabledResponse = (
   context: __SerdeContext
 ): SetIdentityHeadersInNotificationsEnabledResponse => {
   let contents: any = {
-    __type: "SetIdentityHeadersInNotificationsEnabledResponse"
+    __type: "SetIdentityHeadersInNotificationsEnabledResponse",
   };
   return contents;
 };
@@ -11689,7 +11689,7 @@ const deserializeAws_querySetIdentityMailFromDomainResponse = (
   context: __SerdeContext
 ): SetIdentityMailFromDomainResponse => {
   let contents: any = {
-    __type: "SetIdentityMailFromDomainResponse"
+    __type: "SetIdentityMailFromDomainResponse",
   };
   return contents;
 };
@@ -11699,7 +11699,7 @@ const deserializeAws_querySetIdentityNotificationTopicResponse = (
   context: __SerdeContext
 ): SetIdentityNotificationTopicResponse => {
   let contents: any = {
-    __type: "SetIdentityNotificationTopicResponse"
+    __type: "SetIdentityNotificationTopicResponse",
   };
   return contents;
 };
@@ -11709,7 +11709,7 @@ const deserializeAws_querySetReceiptRulePositionResponse = (
   context: __SerdeContext
 ): SetReceiptRulePositionResponse => {
   let contents: any = {
-    __type: "SetReceiptRulePositionResponse"
+    __type: "SetReceiptRulePositionResponse",
   };
   return contents;
 };
@@ -11721,7 +11721,7 @@ const deserializeAws_queryStopAction = (
   let contents: any = {
     __type: "StopAction",
     Scope: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["Scope"] !== undefined) {
     contents.Scope = output["Scope"];
@@ -11741,7 +11741,7 @@ const deserializeAws_queryTemplate = (
     HtmlPart: undefined,
     SubjectPart: undefined,
     TemplateName: undefined,
-    TextPart: undefined
+    TextPart: undefined,
   };
   if (output["HtmlPart"] !== undefined) {
     contents.HtmlPart = output["HtmlPart"];
@@ -11765,7 +11765,7 @@ const deserializeAws_queryTemplateDoesNotExistException = (
   let contents: any = {
     __type: "TemplateDoesNotExistException",
     TemplateName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["TemplateName"] !== undefined) {
     contents.TemplateName = output["TemplateName"];
@@ -11783,7 +11783,7 @@ const deserializeAws_queryTemplateMetadata = (
   let contents: any = {
     __type: "TemplateMetadata",
     CreatedTimestamp: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["CreatedTimestamp"] !== undefined) {
     contents.CreatedTimestamp = new Date(output["CreatedTimestamp"]);
@@ -11811,7 +11811,7 @@ const deserializeAws_queryTestRenderTemplateResponse = (
 ): TestRenderTemplateResponse => {
   let contents: any = {
     __type: "TestRenderTemplateResponse",
-    RenderedTemplate: undefined
+    RenderedTemplate: undefined,
   };
   if (output["RenderedTemplate"] !== undefined) {
     contents.RenderedTemplate = output["RenderedTemplate"];
@@ -11825,7 +11825,7 @@ const deserializeAws_queryTrackingOptions = (
 ): TrackingOptions => {
   let contents: any = {
     __type: "TrackingOptions",
-    CustomRedirectDomain: undefined
+    CustomRedirectDomain: undefined,
   };
   if (output["CustomRedirectDomain"] !== undefined) {
     contents.CustomRedirectDomain = output["CustomRedirectDomain"];
@@ -11840,7 +11840,7 @@ const deserializeAws_queryTrackingOptionsAlreadyExistsException = (
   let contents: any = {
     __type: "TrackingOptionsAlreadyExistsException",
     ConfigurationSetName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -11858,7 +11858,7 @@ const deserializeAws_queryTrackingOptionsDoesNotExistException = (
   let contents: any = {
     __type: "TrackingOptionsDoesNotExistException",
     ConfigurationSetName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output["ConfigurationSetName"] !== undefined) {
     contents.ConfigurationSetName = output["ConfigurationSetName"];
@@ -11874,7 +11874,7 @@ const deserializeAws_queryUpdateConfigurationSetEventDestinationResponse = (
   context: __SerdeContext
 ): UpdateConfigurationSetEventDestinationResponse => {
   let contents: any = {
-    __type: "UpdateConfigurationSetEventDestinationResponse"
+    __type: "UpdateConfigurationSetEventDestinationResponse",
   };
   return contents;
 };
@@ -11884,7 +11884,7 @@ const deserializeAws_queryUpdateConfigurationSetTrackingOptionsResponse = (
   context: __SerdeContext
 ): UpdateConfigurationSetTrackingOptionsResponse => {
   let contents: any = {
-    __type: "UpdateConfigurationSetTrackingOptionsResponse"
+    __type: "UpdateConfigurationSetTrackingOptionsResponse",
   };
   return contents;
 };
@@ -11894,7 +11894,7 @@ const deserializeAws_queryUpdateReceiptRuleResponse = (
   context: __SerdeContext
 ): UpdateReceiptRuleResponse => {
   let contents: any = {
-    __type: "UpdateReceiptRuleResponse"
+    __type: "UpdateReceiptRuleResponse",
   };
   return contents;
 };
@@ -11904,7 +11904,7 @@ const deserializeAws_queryUpdateTemplateResponse = (
   context: __SerdeContext
 ): UpdateTemplateResponse => {
   let contents: any = {
-    __type: "UpdateTemplateResponse"
+    __type: "UpdateTemplateResponse",
   };
   return contents;
 };
@@ -11940,7 +11940,7 @@ const deserializeAws_queryVerifyDomainDkimResponse = (
 ): VerifyDomainDkimResponse => {
   let contents: any = {
     __type: "VerifyDomainDkimResponse",
-    DkimTokens: undefined
+    DkimTokens: undefined,
   };
   if (output.DkimTokens === "") {
     contents.DkimTokens = [];
@@ -11967,7 +11967,7 @@ const deserializeAws_queryVerifyDomainIdentityResponse = (
 ): VerifyDomainIdentityResponse => {
   let contents: any = {
     __type: "VerifyDomainIdentityResponse",
-    VerificationToken: undefined
+    VerificationToken: undefined,
   };
   if (output["VerificationToken"] !== undefined) {
     contents.VerificationToken = output["VerificationToken"];
@@ -11980,7 +11980,7 @@ const deserializeAws_queryVerifyEmailIdentityResponse = (
   context: __SerdeContext
 ): VerifyEmailIdentityResponse => {
   let contents: any = {
-    __type: "VerifyEmailIdentityResponse"
+    __type: "VerifyEmailIdentityResponse",
   };
   return contents;
 };
@@ -11992,7 +11992,7 @@ const deserializeAws_queryWorkmailAction = (
   let contents: any = {
     __type: "WorkmailAction",
     OrganizationArn: undefined,
-    TopicArn: undefined
+    TopicArn: undefined,
   };
   if (output["OrganizationArn"] !== undefined) {
     contents.OrganizationArn = output["OrganizationArn"];
@@ -12006,7 +12006,7 @@ const deserializeAws_queryWorkmailAction = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -12027,7 +12027,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -12040,11 +12040,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -12065,13 +12065,13 @@ const decodeEscapedXML = (str: string) => {
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       const parsedObj = xmlParse(encoded, {
         attributeNamePrefix: "",
         ignoreAttributes: false,
         parseNodeValue: false,
-        tagValueProcessor: (val, tagName) => decodeEscapedXML(val)
+        tagValueProcessor: (val, tagName) => decodeEscapedXML(val),
       });
       const textNodeName = "#text";
       const key = Object.keys(parsedObj)[0];
@@ -12089,7 +12089,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
 const buildFormUrlencodedString = (entries: any): string => {
   return Object.keys(entries)
     .map(
-      key =>
+      (key) =>
         __extendedEncodeURIComponent(key) +
         "=" +
         __extendedEncodeURIComponent(entries[key])

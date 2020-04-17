@@ -1,14 +1,14 @@
 import {
   CreateHomeRegionControlCommandInput,
-  CreateHomeRegionControlCommandOutput
+  CreateHomeRegionControlCommandOutput,
 } from "../commands/CreateHomeRegionControlCommand";
 import {
   DescribeHomeRegionControlsCommandInput,
-  DescribeHomeRegionControlsCommandOutput
+  DescribeHomeRegionControlsCommandOutput,
 } from "../commands/DescribeHomeRegionControlsCommand";
 import {
   GetHomeRegionCommandInput,
-  GetHomeRegionCommandOutput
+  GetHomeRegionCommandOutput,
 } from "../commands/GetHomeRegionCommand";
 import {
   AccessDeniedException,
@@ -23,11 +23,11 @@ import {
   InternalServerError,
   InvalidInputException,
   ServiceUnavailableException,
-  Target
+  Target,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -35,7 +35,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CreateHomeRegionControlCommand(
@@ -98,7 +98,7 @@ export async function deserializeAws_json1_1CreateHomeRegionControlCommand(
   const response: CreateHomeRegionControlCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateHomeRegionControlResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -109,7 +109,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
 ): Promise<CreateHomeRegionControlCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -125,7 +125,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DryRunOperation":
@@ -136,7 +136,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -147,7 +147,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -158,7 +158,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -169,7 +169,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -180,7 +180,7 @@ async function deserializeAws_json1_1CreateHomeRegionControlCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -208,7 +208,7 @@ export async function deserializeAws_json1_1DescribeHomeRegionControlsCommand(
   const response: DescribeHomeRegionControlsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeHomeRegionControlsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -219,7 +219,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
 ): Promise<DescribeHomeRegionControlsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -235,7 +235,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -246,7 +246,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -257,7 +257,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -268,7 +268,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -279,7 +279,7 @@ async function deserializeAws_json1_1DescribeHomeRegionControlsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -301,7 +301,7 @@ export async function deserializeAws_json1_1GetHomeRegionCommand(
   const response: GetHomeRegionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetHomeRegionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -312,7 +312,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
 ): Promise<GetHomeRegionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -328,7 +328,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -339,7 +339,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -350,7 +350,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -361,7 +361,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -372,7 +372,7 @@ async function deserializeAws_json1_1GetHomeRegionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -394,7 +394,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -412,7 +412,7 @@ const deserializeAws_json1_1DryRunOperationResponse = async (
     name: "DryRunOperation",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -430,7 +430,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -448,7 +448,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -466,7 +466,7 @@ const deserializeAws_json1_1ServiceUnavailableExceptionResponse = async (
     name: "ServiceUnavailableException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -539,7 +539,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -553,7 +553,7 @@ const deserializeAws_json1_1CreateHomeRegionControlResult = (
 ): CreateHomeRegionControlResult => {
   let contents: any = {
     __type: "CreateHomeRegionControlResult",
-    HomeRegionControl: undefined
+    HomeRegionControl: undefined,
   };
   if (
     output.HomeRegionControl !== undefined &&
@@ -574,7 +574,7 @@ const deserializeAws_json1_1DescribeHomeRegionControlsResult = (
   let contents: any = {
     __type: "DescribeHomeRegionControlsResult",
     HomeRegionControls: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.HomeRegionControls !== undefined &&
@@ -597,7 +597,7 @@ const deserializeAws_json1_1DryRunOperation = (
 ): DryRunOperation => {
   let contents: any = {
     __type: "DryRunOperation",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -611,7 +611,7 @@ const deserializeAws_json1_1GetHomeRegionResult = (
 ): GetHomeRegionResult => {
   let contents: any = {
     __type: "GetHomeRegionResult",
-    HomeRegion: undefined
+    HomeRegion: undefined,
   };
   if (output.HomeRegion !== undefined && output.HomeRegion !== null) {
     contents.HomeRegion = output.HomeRegion;
@@ -628,7 +628,7 @@ const deserializeAws_json1_1HomeRegionControl = (
     ControlId: undefined,
     HomeRegion: undefined,
     RequestedTime: undefined,
-    Target: undefined
+    Target: undefined,
   };
   if (output.ControlId !== undefined && output.ControlId !== null) {
     contents.ControlId = output.ControlId;
@@ -660,7 +660,7 @@ const deserializeAws_json1_1InternalServerError = (
 ): InternalServerError => {
   let contents: any = {
     __type: "InternalServerError",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -674,7 +674,7 @@ const deserializeAws_json1_1InvalidInputException = (
 ): InvalidInputException => {
   let contents: any = {
     __type: "InvalidInputException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -688,7 +688,7 @@ const deserializeAws_json1_1ServiceUnavailableException = (
 ): ServiceUnavailableException => {
   let contents: any = {
     __type: "ServiceUnavailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -703,7 +703,7 @@ const deserializeAws_json1_1Target = (
   let contents: any = {
     __type: "Target",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -717,7 +717,7 @@ const deserializeAws_json1_1Target = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -738,7 +738,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -751,11 +751,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -767,7 +767,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

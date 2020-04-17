@@ -1,118 +1,118 @@
 import {
   BatchCheckLayerAvailabilityCommandInput,
-  BatchCheckLayerAvailabilityCommandOutput
+  BatchCheckLayerAvailabilityCommandOutput,
 } from "../commands/BatchCheckLayerAvailabilityCommand";
 import {
   BatchDeleteImageCommandInput,
-  BatchDeleteImageCommandOutput
+  BatchDeleteImageCommandOutput,
 } from "../commands/BatchDeleteImageCommand";
 import {
   BatchGetImageCommandInput,
-  BatchGetImageCommandOutput
+  BatchGetImageCommandOutput,
 } from "../commands/BatchGetImageCommand";
 import {
   CompleteLayerUploadCommandInput,
-  CompleteLayerUploadCommandOutput
+  CompleteLayerUploadCommandOutput,
 } from "../commands/CompleteLayerUploadCommand";
 import {
   CreateRepositoryCommandInput,
-  CreateRepositoryCommandOutput
+  CreateRepositoryCommandOutput,
 } from "../commands/CreateRepositoryCommand";
 import {
   DeleteLifecyclePolicyCommandInput,
-  DeleteLifecyclePolicyCommandOutput
+  DeleteLifecyclePolicyCommandOutput,
 } from "../commands/DeleteLifecyclePolicyCommand";
 import {
   DeleteRepositoryCommandInput,
-  DeleteRepositoryCommandOutput
+  DeleteRepositoryCommandOutput,
 } from "../commands/DeleteRepositoryCommand";
 import {
   DeleteRepositoryPolicyCommandInput,
-  DeleteRepositoryPolicyCommandOutput
+  DeleteRepositoryPolicyCommandOutput,
 } from "../commands/DeleteRepositoryPolicyCommand";
 import {
   DescribeImageScanFindingsCommandInput,
-  DescribeImageScanFindingsCommandOutput
+  DescribeImageScanFindingsCommandOutput,
 } from "../commands/DescribeImageScanFindingsCommand";
 import {
   DescribeImagesCommandInput,
-  DescribeImagesCommandOutput
+  DescribeImagesCommandOutput,
 } from "../commands/DescribeImagesCommand";
 import {
   DescribeRepositoriesCommandInput,
-  DescribeRepositoriesCommandOutput
+  DescribeRepositoriesCommandOutput,
 } from "../commands/DescribeRepositoriesCommand";
 import {
   GetAuthorizationTokenCommandInput,
-  GetAuthorizationTokenCommandOutput
+  GetAuthorizationTokenCommandOutput,
 } from "../commands/GetAuthorizationTokenCommand";
 import {
   GetDownloadUrlForLayerCommandInput,
-  GetDownloadUrlForLayerCommandOutput
+  GetDownloadUrlForLayerCommandOutput,
 } from "../commands/GetDownloadUrlForLayerCommand";
 import {
   GetLifecyclePolicyCommandInput,
-  GetLifecyclePolicyCommandOutput
+  GetLifecyclePolicyCommandOutput,
 } from "../commands/GetLifecyclePolicyCommand";
 import {
   GetLifecyclePolicyPreviewCommandInput,
-  GetLifecyclePolicyPreviewCommandOutput
+  GetLifecyclePolicyPreviewCommandOutput,
 } from "../commands/GetLifecyclePolicyPreviewCommand";
 import {
   GetRepositoryPolicyCommandInput,
-  GetRepositoryPolicyCommandOutput
+  GetRepositoryPolicyCommandOutput,
 } from "../commands/GetRepositoryPolicyCommand";
 import {
   InitiateLayerUploadCommandInput,
-  InitiateLayerUploadCommandOutput
+  InitiateLayerUploadCommandOutput,
 } from "../commands/InitiateLayerUploadCommand";
 import {
   ListImagesCommandInput,
-  ListImagesCommandOutput
+  ListImagesCommandOutput,
 } from "../commands/ListImagesCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   PutImageCommandInput,
-  PutImageCommandOutput
+  PutImageCommandOutput,
 } from "../commands/PutImageCommand";
 import {
   PutImageScanningConfigurationCommandInput,
-  PutImageScanningConfigurationCommandOutput
+  PutImageScanningConfigurationCommandOutput,
 } from "../commands/PutImageScanningConfigurationCommand";
 import {
   PutImageTagMutabilityCommandInput,
-  PutImageTagMutabilityCommandOutput
+  PutImageTagMutabilityCommandOutput,
 } from "../commands/PutImageTagMutabilityCommand";
 import {
   PutLifecyclePolicyCommandInput,
-  PutLifecyclePolicyCommandOutput
+  PutLifecyclePolicyCommandOutput,
 } from "../commands/PutLifecyclePolicyCommand";
 import {
   SetRepositoryPolicyCommandInput,
-  SetRepositoryPolicyCommandOutput
+  SetRepositoryPolicyCommandOutput,
 } from "../commands/SetRepositoryPolicyCommand";
 import {
   StartImageScanCommandInput,
-  StartImageScanCommandOutput
+  StartImageScanCommandOutput,
 } from "../commands/StartImageScanCommand";
 import {
   StartLifecyclePolicyPreviewCommandInput,
-  StartLifecyclePolicyPreviewCommandOutput
+  StartLifecyclePolicyPreviewCommandOutput,
 } from "../commands/StartLifecyclePolicyPreviewCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UploadLayerPartCommandInput,
-  UploadLayerPartCommandOutput
+  UploadLayerPartCommandOutput,
 } from "../commands/UploadLayerPartCommand";
 import {
   Attribute,
@@ -217,11 +217,11 @@ import {
   UntagResourceResponse,
   UploadLayerPartRequest,
   UploadLayerPartResponse,
-  UploadNotFoundException
+  UploadNotFoundException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -229,7 +229,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1BatchCheckLayerAvailabilityCommand(
@@ -677,7 +677,7 @@ export async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommand(
   const response: BatchCheckLayerAvailabilityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchCheckLayerAvailabilityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -688,7 +688,7 @@ async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommandError(
 ): Promise<BatchCheckLayerAvailabilityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -704,7 +704,7 @@ async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -715,7 +715,7 @@ async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -726,7 +726,7 @@ async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -737,7 +737,7 @@ async function deserializeAws_json1_1BatchCheckLayerAvailabilityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -759,7 +759,7 @@ export async function deserializeAws_json1_1BatchDeleteImageCommand(
   const response: BatchDeleteImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchDeleteImageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -770,7 +770,7 @@ async function deserializeAws_json1_1BatchDeleteImageCommandError(
 ): Promise<BatchDeleteImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -786,7 +786,7 @@ async function deserializeAws_json1_1BatchDeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -797,7 +797,7 @@ async function deserializeAws_json1_1BatchDeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -808,7 +808,7 @@ async function deserializeAws_json1_1BatchDeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -819,7 +819,7 @@ async function deserializeAws_json1_1BatchDeleteImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -841,7 +841,7 @@ export async function deserializeAws_json1_1BatchGetImageCommand(
   const response: BatchGetImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchGetImageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -852,7 +852,7 @@ async function deserializeAws_json1_1BatchGetImageCommandError(
 ): Promise<BatchGetImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -868,7 +868,7 @@ async function deserializeAws_json1_1BatchGetImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1BatchGetImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -890,7 +890,7 @@ async function deserializeAws_json1_1BatchGetImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -901,7 +901,7 @@ async function deserializeAws_json1_1BatchGetImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -926,7 +926,7 @@ export async function deserializeAws_json1_1CompleteLayerUploadCommand(
   const response: CompleteLayerUploadCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CompleteLayerUploadResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -937,7 +937,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
 ): Promise<CompleteLayerUploadCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -953,7 +953,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLayerException":
@@ -964,7 +964,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -975,7 +975,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LayerAlreadyExistsException":
@@ -986,7 +986,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LayerPartTooSmallException":
@@ -997,7 +997,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1008,7 +1008,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1019,7 +1019,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UploadNotFoundException":
@@ -1030,7 +1030,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1041,7 +1041,7 @@ async function deserializeAws_json1_1CompleteLayerUploadCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1063,7 +1063,7 @@ export async function deserializeAws_json1_1CreateRepositoryCommand(
   const response: CreateRepositoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRepositoryResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1074,7 +1074,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
 ): Promise<CreateRepositoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1090,7 +1090,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -1101,7 +1101,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1112,7 +1112,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryAlreadyExistsException":
@@ -1123,7 +1123,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1134,7 +1134,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1145,7 +1145,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1156,7 +1156,7 @@ async function deserializeAws_json1_1CreateRepositoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1181,7 +1181,7 @@ export async function deserializeAws_json1_1DeleteLifecyclePolicyCommand(
   const response: DeleteLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLifecyclePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1192,7 +1192,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
 ): Promise<DeleteLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1208,7 +1208,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecyclePolicyNotFoundException":
@@ -1219,7 +1219,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1230,7 +1230,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1241,7 +1241,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1252,7 +1252,7 @@ async function deserializeAws_json1_1DeleteLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1274,7 +1274,7 @@ export async function deserializeAws_json1_1DeleteRepositoryCommand(
   const response: DeleteRepositoryCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRepositoryResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1285,7 +1285,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
 ): Promise<DeleteRepositoryCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1301,7 +1301,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotEmptyException":
@@ -1312,7 +1312,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1323,7 +1323,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1334,7 +1334,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1345,7 +1345,7 @@ async function deserializeAws_json1_1DeleteRepositoryCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1373,7 +1373,7 @@ export async function deserializeAws_json1_1DeleteRepositoryPolicyCommand(
   const response: DeleteRepositoryPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRepositoryPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1384,7 +1384,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
 ): Promise<DeleteRepositoryPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1400,7 +1400,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1411,7 +1411,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryPolicyNotFoundException":
@@ -1422,7 +1422,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1433,7 +1433,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1444,7 +1444,7 @@ async function deserializeAws_json1_1DeleteRepositoryPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1472,7 +1472,7 @@ export async function deserializeAws_json1_1DescribeImageScanFindingsCommand(
   const response: DescribeImageScanFindingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeImageScanFindingsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1483,7 +1483,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
 ): Promise<DescribeImageScanFindingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1499,7 +1499,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1510,7 +1510,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1521,7 +1521,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScanNotFoundException":
@@ -1532,7 +1532,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1543,7 +1543,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1554,7 +1554,7 @@ async function deserializeAws_json1_1DescribeImageScanFindingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1576,7 +1576,7 @@ export async function deserializeAws_json1_1DescribeImagesCommand(
   const response: DescribeImagesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeImagesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1587,7 +1587,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
 ): Promise<DescribeImagesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1603,7 +1603,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1614,7 +1614,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1625,7 +1625,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1636,7 +1636,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1647,7 +1647,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1672,7 +1672,7 @@ export async function deserializeAws_json1_1DescribeRepositoriesCommand(
   const response: DescribeRepositoriesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeRepositoriesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1683,7 +1683,7 @@ async function deserializeAws_json1_1DescribeRepositoriesCommandError(
 ): Promise<DescribeRepositoriesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1699,7 +1699,7 @@ async function deserializeAws_json1_1DescribeRepositoriesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1710,7 +1710,7 @@ async function deserializeAws_json1_1DescribeRepositoriesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1721,7 +1721,7 @@ async function deserializeAws_json1_1DescribeRepositoriesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1732,7 +1732,7 @@ async function deserializeAws_json1_1DescribeRepositoriesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1757,7 +1757,7 @@ export async function deserializeAws_json1_1GetAuthorizationTokenCommand(
   const response: GetAuthorizationTokenCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAuthorizationTokenResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1768,7 +1768,7 @@ async function deserializeAws_json1_1GetAuthorizationTokenCommandError(
 ): Promise<GetAuthorizationTokenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1784,7 +1784,7 @@ async function deserializeAws_json1_1GetAuthorizationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1795,7 +1795,7 @@ async function deserializeAws_json1_1GetAuthorizationTokenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1806,7 +1806,7 @@ async function deserializeAws_json1_1GetAuthorizationTokenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1834,7 +1834,7 @@ export async function deserializeAws_json1_1GetDownloadUrlForLayerCommand(
   const response: GetDownloadUrlForLayerCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDownloadUrlForLayerResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1845,7 +1845,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
 ): Promise<GetDownloadUrlForLayerCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1861,7 +1861,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LayerInaccessibleException":
@@ -1872,7 +1872,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LayersNotFoundException":
@@ -1883,7 +1883,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1894,7 +1894,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -1905,7 +1905,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1916,7 +1916,7 @@ async function deserializeAws_json1_1GetDownloadUrlForLayerCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1941,7 +1941,7 @@ export async function deserializeAws_json1_1GetLifecyclePolicyCommand(
   const response: GetLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLifecyclePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1952,7 +1952,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
 ): Promise<GetLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1968,7 +1968,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecyclePolicyNotFoundException":
@@ -1979,7 +1979,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -1990,7 +1990,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2001,7 +2001,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2012,7 +2012,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2040,7 +2040,7 @@ export async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommand(
   const response: GetLifecyclePolicyPreviewCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLifecyclePolicyPreviewResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2051,7 +2051,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
 ): Promise<GetLifecyclePolicyPreviewCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2067,7 +2067,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecyclePolicyPreviewNotFoundException":
@@ -2078,7 +2078,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2089,7 +2089,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2100,7 +2100,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2111,7 +2111,7 @@ async function deserializeAws_json1_1GetLifecyclePolicyPreviewCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2136,7 +2136,7 @@ export async function deserializeAws_json1_1GetRepositoryPolicyCommand(
   const response: GetRepositoryPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRepositoryPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2147,7 +2147,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
 ): Promise<GetRepositoryPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2163,7 +2163,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2174,7 +2174,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryPolicyNotFoundException":
@@ -2185,7 +2185,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2196,7 +2196,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2207,7 +2207,7 @@ async function deserializeAws_json1_1GetRepositoryPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2232,7 +2232,7 @@ export async function deserializeAws_json1_1InitiateLayerUploadCommand(
   const response: InitiateLayerUploadCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InitiateLayerUploadResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2243,7 +2243,7 @@ async function deserializeAws_json1_1InitiateLayerUploadCommandError(
 ): Promise<InitiateLayerUploadCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2259,7 +2259,7 @@ async function deserializeAws_json1_1InitiateLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2270,7 +2270,7 @@ async function deserializeAws_json1_1InitiateLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2281,7 +2281,7 @@ async function deserializeAws_json1_1InitiateLayerUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2292,7 +2292,7 @@ async function deserializeAws_json1_1InitiateLayerUploadCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2314,7 +2314,7 @@ export async function deserializeAws_json1_1ListImagesCommand(
   const response: ListImagesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListImagesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2325,7 +2325,7 @@ async function deserializeAws_json1_1ListImagesCommandError(
 ): Promise<ListImagesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2341,7 +2341,7 @@ async function deserializeAws_json1_1ListImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2352,7 +2352,7 @@ async function deserializeAws_json1_1ListImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2363,7 +2363,7 @@ async function deserializeAws_json1_1ListImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2374,7 +2374,7 @@ async function deserializeAws_json1_1ListImagesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2399,7 +2399,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2410,7 +2410,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2426,7 +2426,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2437,7 +2437,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2448,7 +2448,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2459,7 +2459,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2481,7 +2481,7 @@ export async function deserializeAws_json1_1PutImageCommand(
   const response: PutImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutImageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2492,7 +2492,7 @@ async function deserializeAws_json1_1PutImageCommandError(
 ): Promise<PutImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2508,7 +2508,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ImageTagAlreadyExistsException":
@@ -2519,7 +2519,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2530,7 +2530,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LayersNotFoundException":
@@ -2541,7 +2541,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2552,7 +2552,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2563,7 +2563,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2574,7 +2574,7 @@ async function deserializeAws_json1_1PutImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2585,7 +2585,7 @@ async function deserializeAws_json1_1PutImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2613,7 +2613,7 @@ export async function deserializeAws_json1_1PutImageScanningConfigurationCommand
   const response: PutImageScanningConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutImageScanningConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2624,7 +2624,7 @@ async function deserializeAws_json1_1PutImageScanningConfigurationCommandError(
 ): Promise<PutImageScanningConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2640,7 +2640,7 @@ async function deserializeAws_json1_1PutImageScanningConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2651,7 +2651,7 @@ async function deserializeAws_json1_1PutImageScanningConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2662,7 +2662,7 @@ async function deserializeAws_json1_1PutImageScanningConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2673,7 +2673,7 @@ async function deserializeAws_json1_1PutImageScanningConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2698,7 +2698,7 @@ export async function deserializeAws_json1_1PutImageTagMutabilityCommand(
   const response: PutImageTagMutabilityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutImageTagMutabilityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2709,7 +2709,7 @@ async function deserializeAws_json1_1PutImageTagMutabilityCommandError(
 ): Promise<PutImageTagMutabilityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2725,7 +2725,7 @@ async function deserializeAws_json1_1PutImageTagMutabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2736,7 +2736,7 @@ async function deserializeAws_json1_1PutImageTagMutabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2747,7 +2747,7 @@ async function deserializeAws_json1_1PutImageTagMutabilityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2758,7 +2758,7 @@ async function deserializeAws_json1_1PutImageTagMutabilityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2783,7 +2783,7 @@ export async function deserializeAws_json1_1PutLifecyclePolicyCommand(
   const response: PutLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutLifecyclePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2794,7 +2794,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
 ): Promise<PutLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2810,7 +2810,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2821,7 +2821,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2832,7 +2832,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2843,7 +2843,7 @@ async function deserializeAws_json1_1PutLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2868,7 +2868,7 @@ export async function deserializeAws_json1_1SetRepositoryPolicyCommand(
   const response: SetRepositoryPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetRepositoryPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2879,7 +2879,7 @@ async function deserializeAws_json1_1SetRepositoryPolicyCommandError(
 ): Promise<SetRepositoryPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2895,7 +2895,7 @@ async function deserializeAws_json1_1SetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2906,7 +2906,7 @@ async function deserializeAws_json1_1SetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -2917,7 +2917,7 @@ async function deserializeAws_json1_1SetRepositoryPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2928,7 +2928,7 @@ async function deserializeAws_json1_1SetRepositoryPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2950,7 +2950,7 @@ export async function deserializeAws_json1_1StartImageScanCommand(
   const response: StartImageScanCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartImageScanResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2961,7 +2961,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
 ): Promise<StartImageScanCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2977,7 +2977,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -2988,7 +2988,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -2999,7 +2999,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -3010,7 +3010,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3021,7 +3021,7 @@ async function deserializeAws_json1_1StartImageScanCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3049,7 +3049,7 @@ export async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommand(
   const response: StartLifecyclePolicyPreviewCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartLifecyclePolicyPreviewResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3060,7 +3060,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
 ): Promise<StartLifecyclePolicyPreviewCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3076,7 +3076,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecyclePolicyNotFoundException":
@@ -3087,7 +3087,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LifecyclePolicyPreviewInProgressException":
@@ -3098,7 +3098,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -3109,7 +3109,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -3120,7 +3120,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3131,7 +3131,7 @@ async function deserializeAws_json1_1StartLifecyclePolicyPreviewCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3153,7 +3153,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3164,7 +3164,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3180,7 +3180,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -3191,7 +3191,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -3202,7 +3202,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -3213,7 +3213,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -3224,7 +3224,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3235,7 +3235,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3257,7 +3257,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3268,7 +3268,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3284,7 +3284,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagParameterException":
@@ -3295,7 +3295,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -3306,7 +3306,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -3317,7 +3317,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -3328,7 +3328,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3339,7 +3339,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3361,7 +3361,7 @@ export async function deserializeAws_json1_1UploadLayerPartCommand(
   const response: UploadLayerPartCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UploadLayerPartResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3372,7 +3372,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
 ): Promise<UploadLayerPartCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3388,7 +3388,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -3399,7 +3399,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -3410,7 +3410,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RepositoryNotFoundException":
@@ -3421,7 +3421,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServerException":
@@ -3432,7 +3432,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UploadNotFoundException":
@@ -3443,7 +3443,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3454,7 +3454,7 @@ async function deserializeAws_json1_1UploadLayerPartCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3476,7 +3476,7 @@ const deserializeAws_json1_1EmptyUploadExceptionResponse = async (
     name: "EmptyUploadException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3494,7 +3494,7 @@ const deserializeAws_json1_1ImageAlreadyExistsExceptionResponse = async (
     name: "ImageAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3512,7 +3512,7 @@ const deserializeAws_json1_1ImageNotFoundExceptionResponse = async (
     name: "ImageNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3530,7 +3530,7 @@ const deserializeAws_json1_1ImageTagAlreadyExistsExceptionResponse = async (
     name: "ImageTagAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3548,7 +3548,7 @@ const deserializeAws_json1_1InvalidLayerExceptionResponse = async (
     name: "InvalidLayerException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3566,7 +3566,7 @@ const deserializeAws_json1_1InvalidLayerPartExceptionResponse = async (
     name: "InvalidLayerPartException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3584,7 +3584,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3602,7 +3602,7 @@ const deserializeAws_json1_1InvalidTagParameterExceptionResponse = async (
     name: "InvalidTagParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3620,7 +3620,7 @@ const deserializeAws_json1_1LayerAlreadyExistsExceptionResponse = async (
     name: "LayerAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3638,7 +3638,7 @@ const deserializeAws_json1_1LayerInaccessibleExceptionResponse = async (
     name: "LayerInaccessibleException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3656,7 +3656,7 @@ const deserializeAws_json1_1LayerPartTooSmallExceptionResponse = async (
     name: "LayerPartTooSmallException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3674,7 +3674,7 @@ const deserializeAws_json1_1LayersNotFoundExceptionResponse = async (
     name: "LayersNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3692,7 +3692,7 @@ const deserializeAws_json1_1LifecyclePolicyNotFoundExceptionResponse = async (
     name: "LifecyclePolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3710,7 +3710,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewInProgressExceptionResponse = 
     name: "LifecyclePolicyPreviewInProgressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3728,7 +3728,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewNotFoundExceptionResponse = as
     name: "LifecyclePolicyPreviewNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3746,7 +3746,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3764,7 +3764,7 @@ const deserializeAws_json1_1RepositoryAlreadyExistsExceptionResponse = async (
     name: "RepositoryAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3782,7 +3782,7 @@ const deserializeAws_json1_1RepositoryNotEmptyExceptionResponse = async (
     name: "RepositoryNotEmptyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3800,7 +3800,7 @@ const deserializeAws_json1_1RepositoryNotFoundExceptionResponse = async (
     name: "RepositoryNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3818,7 +3818,7 @@ const deserializeAws_json1_1RepositoryPolicyNotFoundExceptionResponse = async (
     name: "RepositoryPolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3836,7 +3836,7 @@ const deserializeAws_json1_1ScanNotFoundExceptionResponse = async (
     name: "ScanNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3854,7 +3854,7 @@ const deserializeAws_json1_1ServerExceptionResponse = async (
     name: "ServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3872,7 +3872,7 @@ const deserializeAws_json1_1TooManyTagsExceptionResponse = async (
     name: "TooManyTagsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3890,7 +3890,7 @@ const deserializeAws_json1_1UploadNotFoundExceptionResponse = async (
     name: "UploadNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4635,7 +4635,7 @@ const deserializeAws_json1_1Attribute = (
   let contents: any = {
     __type: "Attribute",
     key: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.key !== undefined && output.key !== null) {
     contents.key = output.key;
@@ -4663,7 +4663,7 @@ const deserializeAws_json1_1AuthorizationData = (
     __type: "AuthorizationData",
     authorizationToken: undefined,
     expiresAt: undefined,
-    proxyEndpoint: undefined
+    proxyEndpoint: undefined,
   };
   if (
     output.authorizationToken !== undefined &&
@@ -4696,7 +4696,7 @@ const deserializeAws_json1_1BatchCheckLayerAvailabilityResponse = (
   let contents: any = {
     __type: "BatchCheckLayerAvailabilityResponse",
     failures: undefined,
-    layers: undefined
+    layers: undefined,
   };
   if (output.failures !== undefined && output.failures !== null) {
     contents.failures = deserializeAws_json1_1LayerFailureList(
@@ -4717,7 +4717,7 @@ const deserializeAws_json1_1BatchDeleteImageResponse = (
   let contents: any = {
     __type: "BatchDeleteImageResponse",
     failures: undefined,
-    imageIds: undefined
+    imageIds: undefined,
   };
   if (output.failures !== undefined && output.failures !== null) {
     contents.failures = deserializeAws_json1_1ImageFailureList(
@@ -4741,7 +4741,7 @@ const deserializeAws_json1_1BatchGetImageResponse = (
   let contents: any = {
     __type: "BatchGetImageResponse",
     failures: undefined,
-    images: undefined
+    images: undefined,
   };
   if (output.failures !== undefined && output.failures !== null) {
     contents.failures = deserializeAws_json1_1ImageFailureList(
@@ -4764,7 +4764,7 @@ const deserializeAws_json1_1CompleteLayerUploadResponse = (
     layerDigest: undefined,
     registryId: undefined,
     repositoryName: undefined,
-    uploadId: undefined
+    uploadId: undefined,
   };
   if (output.layerDigest !== undefined && output.layerDigest !== null) {
     contents.layerDigest = output.layerDigest;
@@ -4787,7 +4787,7 @@ const deserializeAws_json1_1CreateRepositoryResponse = (
 ): CreateRepositoryResponse => {
   let contents: any = {
     __type: "CreateRepositoryResponse",
-    repository: undefined
+    repository: undefined,
   };
   if (output.repository !== undefined && output.repository !== null) {
     contents.repository = deserializeAws_json1_1Repository(
@@ -4807,7 +4807,7 @@ const deserializeAws_json1_1DeleteLifecyclePolicyResponse = (
     lastEvaluatedAt: undefined,
     lifecyclePolicyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.lastEvaluatedAt !== undefined && output.lastEvaluatedAt !== null) {
     contents.lastEvaluatedAt = new Date(
@@ -4837,7 +4837,7 @@ const deserializeAws_json1_1DeleteRepositoryPolicyResponse = (
     __type: "DeleteRepositoryPolicyResponse",
     policyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.policyText !== undefined && output.policyText !== null) {
     contents.policyText = output.policyText;
@@ -4857,7 +4857,7 @@ const deserializeAws_json1_1DeleteRepositoryResponse = (
 ): DeleteRepositoryResponse => {
   let contents: any = {
     __type: "DeleteRepositoryResponse",
-    repository: undefined
+    repository: undefined,
   };
   if (output.repository !== undefined && output.repository !== null) {
     contents.repository = deserializeAws_json1_1Repository(
@@ -4879,7 +4879,7 @@ const deserializeAws_json1_1DescribeImageScanFindingsResponse = (
     imageScanStatus: undefined,
     nextToken: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.imageId !== undefined && output.imageId !== null) {
     contents.imageId = deserializeAws_json1_1ImageIdentifier(
@@ -4921,7 +4921,7 @@ const deserializeAws_json1_1DescribeImagesResponse = (
   let contents: any = {
     __type: "DescribeImagesResponse",
     imageDetails: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.imageDetails !== undefined && output.imageDetails !== null) {
     contents.imageDetails = deserializeAws_json1_1ImageDetailList(
@@ -4942,7 +4942,7 @@ const deserializeAws_json1_1DescribeRepositoriesResponse = (
   let contents: any = {
     __type: "DescribeRepositoriesResponse",
     nextToken: undefined,
-    repositories: undefined
+    repositories: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -4962,7 +4962,7 @@ const deserializeAws_json1_1EmptyUploadException = (
 ): EmptyUploadException => {
   let contents: any = {
     __type: "EmptyUploadException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -4975,7 +4975,7 @@ const deserializeAws_json1_1FindingSeverityCounts = (
   context: __SerdeContext
 ): { [key: string]: number } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -4987,7 +4987,7 @@ const deserializeAws_json1_1GetAuthorizationTokenResponse = (
 ): GetAuthorizationTokenResponse => {
   let contents: any = {
     __type: "GetAuthorizationTokenResponse",
-    authorizationData: undefined
+    authorizationData: undefined,
   };
   if (
     output.authorizationData !== undefined &&
@@ -5008,7 +5008,7 @@ const deserializeAws_json1_1GetDownloadUrlForLayerResponse = (
   let contents: any = {
     __type: "GetDownloadUrlForLayerResponse",
     downloadUrl: undefined,
-    layerDigest: undefined
+    layerDigest: undefined,
   };
   if (output.downloadUrl !== undefined && output.downloadUrl !== null) {
     contents.downloadUrl = output.downloadUrl;
@@ -5031,7 +5031,7 @@ const deserializeAws_json1_1GetLifecyclePolicyPreviewResponse = (
     registryId: undefined,
     repositoryName: undefined,
     status: undefined,
-    summary: undefined
+    summary: undefined,
   };
   if (
     output.lifecyclePolicyText !== undefined &&
@@ -5075,7 +5075,7 @@ const deserializeAws_json1_1GetLifecyclePolicyResponse = (
     lastEvaluatedAt: undefined,
     lifecyclePolicyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.lastEvaluatedAt !== undefined && output.lastEvaluatedAt !== null) {
     contents.lastEvaluatedAt = new Date(
@@ -5105,7 +5105,7 @@ const deserializeAws_json1_1GetRepositoryPolicyResponse = (
     __type: "GetRepositoryPolicyResponse",
     policyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.policyText !== undefined && output.policyText !== null) {
     contents.policyText = output.policyText;
@@ -5128,7 +5128,7 @@ const deserializeAws_json1_1Image = (
     imageId: undefined,
     imageManifest: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.imageId !== undefined && output.imageId !== null) {
     contents.imageId = deserializeAws_json1_1ImageIdentifier(
@@ -5154,7 +5154,7 @@ const deserializeAws_json1_1ImageAlreadyExistsException = (
 ): ImageAlreadyExistsException => {
   let contents: any = {
     __type: "ImageAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5175,7 +5175,7 @@ const deserializeAws_json1_1ImageDetail = (
     imageSizeInBytes: undefined,
     imageTags: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.imageDigest !== undefined && output.imageDigest !== null) {
     contents.imageDigest = output.imageDigest;
@@ -5236,7 +5236,7 @@ const deserializeAws_json1_1ImageFailure = (
     __type: "ImageFailure",
     failureCode: undefined,
     failureReason: undefined,
-    imageId: undefined
+    imageId: undefined,
   };
   if (output.failureCode !== undefined && output.failureCode !== null) {
     contents.failureCode = output.failureCode;
@@ -5269,7 +5269,7 @@ const deserializeAws_json1_1ImageIdentifier = (
   let contents: any = {
     __type: "ImageIdentifier",
     imageDigest: undefined,
-    imageTag: undefined
+    imageTag: undefined,
   };
   if (output.imageDigest !== undefined && output.imageDigest !== null) {
     contents.imageDigest = output.imageDigest;
@@ -5304,7 +5304,7 @@ const deserializeAws_json1_1ImageNotFoundException = (
 ): ImageNotFoundException => {
   let contents: any = {
     __type: "ImageNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5322,7 +5322,7 @@ const deserializeAws_json1_1ImageScanFinding = (
     description: undefined,
     name: undefined,
     severity: undefined,
-    uri: undefined
+    uri: undefined,
   };
   if (output.attributes !== undefined && output.attributes !== null) {
     contents.attributes = deserializeAws_json1_1AttributeList(
@@ -5363,7 +5363,7 @@ const deserializeAws_json1_1ImageScanFindings = (
     findingSeverityCounts: undefined,
     findings: undefined,
     imageScanCompletedAt: undefined,
-    vulnerabilitySourceUpdatedAt: undefined
+    vulnerabilitySourceUpdatedAt: undefined,
   };
   if (
     output.findingSeverityCounts !== undefined &&
@@ -5407,7 +5407,7 @@ const deserializeAws_json1_1ImageScanFindingsSummary = (
     __type: "ImageScanFindingsSummary",
     findingSeverityCounts: undefined,
     imageScanCompletedAt: undefined,
-    vulnerabilitySourceUpdatedAt: undefined
+    vulnerabilitySourceUpdatedAt: undefined,
   };
   if (
     output.findingSeverityCounts !== undefined &&
@@ -5444,7 +5444,7 @@ const deserializeAws_json1_1ImageScanStatus = (
   let contents: any = {
     __type: "ImageScanStatus",
     description: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.description !== undefined && output.description !== null) {
     contents.description = output.description;
@@ -5461,7 +5461,7 @@ const deserializeAws_json1_1ImageScanningConfiguration = (
 ): ImageScanningConfiguration => {
   let contents: any = {
     __type: "ImageScanningConfiguration",
-    scanOnPush: undefined
+    scanOnPush: undefined,
   };
   if (output.scanOnPush !== undefined && output.scanOnPush !== null) {
     contents.scanOnPush = output.scanOnPush;
@@ -5475,7 +5475,7 @@ const deserializeAws_json1_1ImageTagAlreadyExistsException = (
 ): ImageTagAlreadyExistsException => {
   let contents: any = {
     __type: "ImageTagAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5497,7 +5497,7 @@ const deserializeAws_json1_1InitiateLayerUploadResponse = (
   let contents: any = {
     __type: "InitiateLayerUploadResponse",
     partSize: undefined,
-    uploadId: undefined
+    uploadId: undefined,
   };
   if (output.partSize !== undefined && output.partSize !== null) {
     contents.partSize = output.partSize;
@@ -5514,7 +5514,7 @@ const deserializeAws_json1_1InvalidLayerException = (
 ): InvalidLayerException => {
   let contents: any = {
     __type: "InvalidLayerException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5532,7 +5532,7 @@ const deserializeAws_json1_1InvalidLayerPartException = (
     message: undefined,
     registryId: undefined,
     repositoryName: undefined,
-    uploadId: undefined
+    uploadId: undefined,
   };
   if (
     output.lastValidByteReceived !== undefined &&
@@ -5561,7 +5561,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5575,7 +5575,7 @@ const deserializeAws_json1_1InvalidTagParameterException = (
 ): InvalidTagParameterException => {
   let contents: any = {
     __type: "InvalidTagParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5592,7 +5592,7 @@ const deserializeAws_json1_1Layer = (
     layerAvailability: undefined,
     layerDigest: undefined,
     layerSize: undefined,
-    mediaType: undefined
+    mediaType: undefined,
   };
   if (
     output.layerAvailability !== undefined &&
@@ -5618,7 +5618,7 @@ const deserializeAws_json1_1LayerAlreadyExistsException = (
 ): LayerAlreadyExistsException => {
   let contents: any = {
     __type: "LayerAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5634,7 +5634,7 @@ const deserializeAws_json1_1LayerFailure = (
     __type: "LayerFailure",
     failureCode: undefined,
     failureReason: undefined,
-    layerDigest: undefined
+    layerDigest: undefined,
   };
   if (output.failureCode !== undefined && output.failureCode !== null) {
     contents.failureCode = output.failureCode;
@@ -5663,7 +5663,7 @@ const deserializeAws_json1_1LayerInaccessibleException = (
 ): LayerInaccessibleException => {
   let contents: any = {
     __type: "LayerInaccessibleException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5686,7 +5686,7 @@ const deserializeAws_json1_1LayerPartTooSmallException = (
 ): LayerPartTooSmallException => {
   let contents: any = {
     __type: "LayerPartTooSmallException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5700,7 +5700,7 @@ const deserializeAws_json1_1LayersNotFoundException = (
 ): LayersNotFoundException => {
   let contents: any = {
     __type: "LayersNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5714,7 +5714,7 @@ const deserializeAws_json1_1LifecyclePolicyNotFoundException = (
 ): LifecyclePolicyNotFoundException => {
   let contents: any = {
     __type: "LifecyclePolicyNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5728,7 +5728,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewInProgressException = (
 ): LifecyclePolicyPreviewInProgressException => {
   let contents: any = {
     __type: "LifecyclePolicyPreviewInProgressException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5742,7 +5742,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewNotFoundException = (
 ): LifecyclePolicyPreviewNotFoundException => {
   let contents: any = {
     __type: "LifecyclePolicyPreviewNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5760,7 +5760,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewResult = (
     appliedRulePriority: undefined,
     imageDigest: undefined,
     imagePushedAt: undefined,
-    imageTags: undefined
+    imageTags: undefined,
   };
   if (output.action !== undefined && output.action !== null) {
     contents.action = deserializeAws_json1_1LifecyclePolicyRuleAction(
@@ -5804,7 +5804,7 @@ const deserializeAws_json1_1LifecyclePolicyPreviewSummary = (
 ): LifecyclePolicyPreviewSummary => {
   let contents: any = {
     __type: "LifecyclePolicyPreviewSummary",
-    expiringImageTotalCount: undefined
+    expiringImageTotalCount: undefined,
   };
   if (
     output.expiringImageTotalCount !== undefined &&
@@ -5821,7 +5821,7 @@ const deserializeAws_json1_1LifecyclePolicyRuleAction = (
 ): LifecyclePolicyRuleAction => {
   let contents: any = {
     __type: "LifecyclePolicyRuleAction",
-    type: undefined
+    type: undefined,
   };
   if (output.type !== undefined && output.type !== null) {
     contents.type = output.type;
@@ -5835,7 +5835,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -5850,7 +5850,7 @@ const deserializeAws_json1_1ListImagesResponse = (
   let contents: any = {
     __type: "ListImagesResponse",
     imageIds: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.imageIds !== undefined && output.imageIds !== null) {
     contents.imageIds = deserializeAws_json1_1ImageIdentifierList(
@@ -5870,7 +5870,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   if (output.tags !== undefined && output.tags !== null) {
     contents.tags = deserializeAws_json1_1TagList(output.tags, context);
@@ -5884,7 +5884,7 @@ const deserializeAws_json1_1PutImageResponse = (
 ): PutImageResponse => {
   let contents: any = {
     __type: "PutImageResponse",
-    image: undefined
+    image: undefined,
   };
   if (output.image !== undefined && output.image !== null) {
     contents.image = deserializeAws_json1_1Image(output.image, context);
@@ -5900,7 +5900,7 @@ const deserializeAws_json1_1PutImageScanningConfigurationResponse = (
     __type: "PutImageScanningConfigurationResponse",
     imageScanningConfiguration: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (
     output.imageScanningConfiguration !== undefined &&
@@ -5928,7 +5928,7 @@ const deserializeAws_json1_1PutImageTagMutabilityResponse = (
     __type: "PutImageTagMutabilityResponse",
     imageTagMutability: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (
     output.imageTagMutability !== undefined &&
@@ -5953,7 +5953,7 @@ const deserializeAws_json1_1PutLifecyclePolicyResponse = (
     __type: "PutLifecyclePolicyResponse",
     lifecyclePolicyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (
     output.lifecyclePolicyText !== undefined &&
@@ -5982,7 +5982,7 @@ const deserializeAws_json1_1Repository = (
     registryId: undefined,
     repositoryArn: undefined,
     repositoryName: undefined,
-    repositoryUri: undefined
+    repositoryUri: undefined,
   };
   if (output.createdAt !== undefined && output.createdAt !== null) {
     contents.createdAt = new Date(Math.round(output.createdAt * 1000));
@@ -6023,7 +6023,7 @@ const deserializeAws_json1_1RepositoryAlreadyExistsException = (
 ): RepositoryAlreadyExistsException => {
   let contents: any = {
     __type: "RepositoryAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6046,7 +6046,7 @@ const deserializeAws_json1_1RepositoryNotEmptyException = (
 ): RepositoryNotEmptyException => {
   let contents: any = {
     __type: "RepositoryNotEmptyException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6060,7 +6060,7 @@ const deserializeAws_json1_1RepositoryNotFoundException = (
 ): RepositoryNotFoundException => {
   let contents: any = {
     __type: "RepositoryNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6074,7 +6074,7 @@ const deserializeAws_json1_1RepositoryPolicyNotFoundException = (
 ): RepositoryPolicyNotFoundException => {
   let contents: any = {
     __type: "RepositoryPolicyNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6088,7 +6088,7 @@ const deserializeAws_json1_1ScanNotFoundException = (
 ): ScanNotFoundException => {
   let contents: any = {
     __type: "ScanNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6102,7 +6102,7 @@ const deserializeAws_json1_1ServerException = (
 ): ServerException => {
   let contents: any = {
     __type: "ServerException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6118,7 +6118,7 @@ const deserializeAws_json1_1SetRepositoryPolicyResponse = (
     __type: "SetRepositoryPolicyResponse",
     policyText: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.policyText !== undefined && output.policyText !== null) {
     contents.policyText = output.policyText;
@@ -6141,7 +6141,7 @@ const deserializeAws_json1_1StartImageScanResponse = (
     imageId: undefined,
     imageScanStatus: undefined,
     registryId: undefined,
-    repositoryName: undefined
+    repositoryName: undefined,
   };
   if (output.imageId !== undefined && output.imageId !== null) {
     contents.imageId = deserializeAws_json1_1ImageIdentifier(
@@ -6173,7 +6173,7 @@ const deserializeAws_json1_1StartLifecyclePolicyPreviewResponse = (
     lifecyclePolicyText: undefined,
     registryId: undefined,
     repositoryName: undefined,
-    status: undefined
+    status: undefined,
   };
   if (
     output.lifecyclePolicyText !== undefined &&
@@ -6200,7 +6200,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -6225,7 +6225,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -6236,7 +6236,7 @@ const deserializeAws_json1_1TooManyTagsException = (
 ): TooManyTagsException => {
   let contents: any = {
     __type: "TooManyTagsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6249,7 +6249,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -6263,7 +6263,7 @@ const deserializeAws_json1_1UploadLayerPartResponse = (
     lastByteReceived: undefined,
     registryId: undefined,
     repositoryName: undefined,
-    uploadId: undefined
+    uploadId: undefined,
   };
   if (
     output.lastByteReceived !== undefined &&
@@ -6289,7 +6289,7 @@ const deserializeAws_json1_1UploadNotFoundException = (
 ): UploadNotFoundException => {
   let contents: any = {
     __type: "UploadNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -6300,7 +6300,7 @@ const deserializeAws_json1_1UploadNotFoundException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6321,7 +6321,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -6334,11 +6334,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -6350,7 +6350,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

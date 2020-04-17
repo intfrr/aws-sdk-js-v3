@@ -1,18 +1,18 @@
 import {
   GetRoleCredentialsCommandInput,
-  GetRoleCredentialsCommandOutput
+  GetRoleCredentialsCommandOutput,
 } from "../commands/GetRoleCredentialsCommand";
 import {
   ListAccountRolesCommandInput,
-  ListAccountRolesCommandOutput
+  ListAccountRolesCommandOutput,
 } from "../commands/ListAccountRolesCommand";
 import {
   ListAccountsCommandInput,
-  ListAccountsCommandOutput
+  ListAccountsCommandOutput,
 } from "../commands/ListAccountsCommand";
 import {
   LogoutCommandInput,
-  LogoutCommandOutput
+  LogoutCommandOutput,
 } from "../commands/LogoutCommand";
 import {
   AccountInfo,
@@ -21,21 +21,21 @@ import {
   RoleCredentials,
   RoleInfo,
   TooManyRequestsException,
-  UnauthorizedException
+  UnauthorizedException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1GetRoleCredentialsCommand(
@@ -57,13 +57,13 @@ export async function serializeAws_restJson1_1GetRoleCredentialsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -89,13 +89,13 @@ export async function serializeAws_restJson1_1ListAccountRolesCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -118,13 +118,13 @@ export async function serializeAws_restJson1_1ListAccountsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -140,12 +140,12 @@ export async function serializeAws_restJson1_1LogoutCommand(
   let resolvedPath = "/logout";
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -162,7 +162,7 @@ export async function deserializeAws_restJson1_1GetRoleCredentialsCommand(
   const contents: GetRoleCredentialsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRoleCredentialsResponse",
-    roleCredentials: undefined
+    roleCredentials: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.roleCredentials !== undefined && data.roleCredentials !== null) {
@@ -180,7 +180,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
 ): Promise<GetRoleCredentialsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -194,7 +194,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -205,7 +205,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -216,7 +216,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -227,7 +227,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -238,7 +238,7 @@ async function deserializeAws_restJson1_1GetRoleCredentialsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -261,7 +261,7 @@ export async function deserializeAws_restJson1_1ListAccountRolesCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListAccountRolesResponse",
     nextToken: undefined,
-    roleList: undefined
+    roleList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -282,7 +282,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
 ): Promise<ListAccountRolesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -296,7 +296,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -307,7 +307,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -318,7 +318,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -329,7 +329,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -340,7 +340,7 @@ async function deserializeAws_restJson1_1ListAccountRolesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -360,7 +360,7 @@ export async function deserializeAws_restJson1_1ListAccountsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListAccountsResponse",
     accountList: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.accountList !== undefined && data.accountList !== null) {
@@ -381,7 +381,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
 ): Promise<ListAccountsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -395,7 +395,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -406,7 +406,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -417,7 +417,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -428,7 +428,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -439,7 +439,7 @@ async function deserializeAws_restJson1_1ListAccountsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -456,7 +456,7 @@ export async function deserializeAws_restJson1_1LogoutCommand(
     return deserializeAws_restJson1_1LogoutCommandError(output, context);
   }
   const contents: LogoutCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -468,7 +468,7 @@ async function deserializeAws_restJson1_1LogoutCommandError(
 ): Promise<LogoutCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -482,7 +482,7 @@ async function deserializeAws_restJson1_1LogoutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -493,7 +493,7 @@ async function deserializeAws_restJson1_1LogoutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedException":
@@ -504,7 +504,7 @@ async function deserializeAws_restJson1_1LogoutCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -515,7 +515,7 @@ async function deserializeAws_restJson1_1LogoutCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -532,7 +532,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -549,7 +549,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -566,7 +566,7 @@ const deserializeAws_restJson1_1TooManyRequestsExceptionResponse = async (
     name: "TooManyRequestsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -583,7 +583,7 @@ const deserializeAws_restJson1_1UnauthorizedExceptionResponse = async (
     name: "UnauthorizedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -600,7 +600,7 @@ const deserializeAws_restJson1_1AccountInfo = (
     __type: "AccountInfo",
     accountId: undefined,
     accountName: undefined,
-    emailAddress: undefined
+    emailAddress: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -632,7 +632,7 @@ const deserializeAws_restJson1_1RoleCredentials = (
     accessKeyId: undefined,
     expiration: undefined,
     secretAccessKey: undefined,
-    sessionToken: undefined
+    sessionToken: undefined,
   };
   if (output.accessKeyId !== undefined && output.accessKeyId !== null) {
     contents.accessKeyId = output.accessKeyId;
@@ -656,7 +656,7 @@ const deserializeAws_restJson1_1RoleInfo = (
   let contents: any = {
     __type: "RoleInfo",
     accountId: undefined,
-    roleName: undefined
+    roleName: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -679,7 +679,7 @@ const deserializeAws_restJson1_1RoleListType = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -700,13 +700,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -719,7 +719,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

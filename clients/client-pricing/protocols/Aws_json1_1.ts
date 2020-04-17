@@ -1,14 +1,14 @@
 import {
   DescribeServicesCommandInput,
-  DescribeServicesCommandOutput
+  DescribeServicesCommandOutput,
 } from "../commands/DescribeServicesCommand";
 import {
   GetAttributeValuesCommandInput,
-  GetAttributeValuesCommandOutput
+  GetAttributeValuesCommandOutput,
 } from "../commands/GetAttributeValuesCommand";
 import {
   GetProductsCommandInput,
-  GetProductsCommandOutput
+  GetProductsCommandOutput,
 } from "../commands/GetProductsCommand";
 import {
   AttributeValue,
@@ -24,22 +24,22 @@ import {
   InvalidNextTokenException,
   InvalidParameterException,
   NotFoundException,
-  Service
+  Service,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   LazyJsonString as __LazyJsonString,
-  SmithyException as __SmithyException
+  SmithyException as __SmithyException,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1DescribeServicesCommand(
@@ -95,7 +95,7 @@ export async function deserializeAws_json1_1DescribeServicesCommand(
   const response: DescribeServicesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeServicesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -106,7 +106,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
 ): Promise<DescribeServicesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -122,7 +122,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -133,7 +133,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -144,7 +144,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -155,7 +155,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -166,7 +166,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -177,7 +177,7 @@ async function deserializeAws_json1_1DescribeServicesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -202,7 +202,7 @@ export async function deserializeAws_json1_1GetAttributeValuesCommand(
   const response: GetAttributeValuesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetAttributeValuesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -213,7 +213,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
 ): Promise<GetAttributeValuesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -229,7 +229,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -240,7 +240,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -251,7 +251,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -262,7 +262,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -273,7 +273,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -284,7 +284,7 @@ async function deserializeAws_json1_1GetAttributeValuesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -306,7 +306,7 @@ export async function deserializeAws_json1_1GetProductsCommand(
   const response: GetProductsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetProductsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -317,7 +317,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
 ): Promise<GetProductsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -333,7 +333,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalErrorException":
@@ -344,7 +344,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNextTokenException":
@@ -355,7 +355,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -366,7 +366,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotFoundException":
@@ -377,7 +377,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -388,7 +388,7 @@ async function deserializeAws_json1_1GetProductsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -410,7 +410,7 @@ const deserializeAws_json1_1ExpiredNextTokenExceptionResponse = async (
     name: "ExpiredNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -428,7 +428,7 @@ const deserializeAws_json1_1InternalErrorExceptionResponse = async (
     name: "InternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -446,7 +446,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -464,7 +464,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -482,7 +482,7 @@ const deserializeAws_json1_1NotFoundExceptionResponse = async (
     name: "NotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -591,7 +591,7 @@ const deserializeAws_json1_1AttributeValue = (
 ): AttributeValue => {
   let contents: any = {
     __type: "AttributeValue",
-    Value: undefined
+    Value: undefined,
   };
   if (output.Value !== undefined && output.Value !== null) {
     contents.Value = output.Value;
@@ -616,7 +616,7 @@ const deserializeAws_json1_1DescribeServicesResponse = (
     __type: "DescribeServicesResponse",
     FormatVersion: undefined,
     NextToken: undefined,
-    Services: undefined
+    Services: undefined,
   };
   if (output.FormatVersion !== undefined && output.FormatVersion !== null) {
     contents.FormatVersion = output.FormatVersion;
@@ -639,7 +639,7 @@ const deserializeAws_json1_1ExpiredNextTokenException = (
 ): ExpiredNextTokenException => {
   let contents: any = {
     __type: "ExpiredNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -654,7 +654,7 @@ const deserializeAws_json1_1GetAttributeValuesResponse = (
   let contents: any = {
     __type: "GetAttributeValuesResponse",
     AttributeValues: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.AttributeValues !== undefined && output.AttributeValues !== null) {
     contents.AttributeValues = deserializeAws_json1_1AttributeValueList(
@@ -676,7 +676,7 @@ const deserializeAws_json1_1GetProductsResponse = (
     __type: "GetProductsResponse",
     FormatVersion: undefined,
     NextToken: undefined,
-    PriceList: undefined
+    PriceList: undefined,
   };
   if (output.FormatVersion !== undefined && output.FormatVersion !== null) {
     contents.FormatVersion = output.FormatVersion;
@@ -699,7 +699,7 @@ const deserializeAws_json1_1InternalErrorException = (
 ): InternalErrorException => {
   let contents: any = {
     __type: "InternalErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -713,7 +713,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -727,7 +727,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -741,7 +741,7 @@ const deserializeAws_json1_1NotFoundException = (
 ): NotFoundException => {
   let contents: any = {
     __type: "NotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -763,7 +763,7 @@ const deserializeAws_json1_1Service = (
   let contents: any = {
     __type: "Service",
     AttributeNames: undefined,
-    ServiceCode: undefined
+    ServiceCode: undefined,
   };
   if (output.AttributeNames !== undefined && output.AttributeNames !== null) {
     contents.AttributeNames = deserializeAws_json1_1AttributeNameList(
@@ -789,7 +789,7 @@ const deserializeAws_json1_1ServiceList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -810,7 +810,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -823,11 +823,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -839,7 +839,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

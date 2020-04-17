@@ -1,182 +1,182 @@
 import {
   CreateCloudFrontOriginAccessIdentityCommandInput,
-  CreateCloudFrontOriginAccessIdentityCommandOutput
+  CreateCloudFrontOriginAccessIdentityCommandOutput,
 } from "../commands/CreateCloudFrontOriginAccessIdentityCommand";
 import {
   CreateDistributionCommandInput,
-  CreateDistributionCommandOutput
+  CreateDistributionCommandOutput,
 } from "../commands/CreateDistributionCommand";
 import {
   CreateDistributionWithTagsCommandInput,
-  CreateDistributionWithTagsCommandOutput
+  CreateDistributionWithTagsCommandOutput,
 } from "../commands/CreateDistributionWithTagsCommand";
 import {
   CreateFieldLevelEncryptionConfigCommandInput,
-  CreateFieldLevelEncryptionConfigCommandOutput
+  CreateFieldLevelEncryptionConfigCommandOutput,
 } from "../commands/CreateFieldLevelEncryptionConfigCommand";
 import {
   CreateFieldLevelEncryptionProfileCommandInput,
-  CreateFieldLevelEncryptionProfileCommandOutput
+  CreateFieldLevelEncryptionProfileCommandOutput,
 } from "../commands/CreateFieldLevelEncryptionProfileCommand";
 import {
   CreateInvalidationCommandInput,
-  CreateInvalidationCommandOutput
+  CreateInvalidationCommandOutput,
 } from "../commands/CreateInvalidationCommand";
 import {
   CreatePublicKeyCommandInput,
-  CreatePublicKeyCommandOutput
+  CreatePublicKeyCommandOutput,
 } from "../commands/CreatePublicKeyCommand";
 import {
   CreateStreamingDistributionCommandInput,
-  CreateStreamingDistributionCommandOutput
+  CreateStreamingDistributionCommandOutput,
 } from "../commands/CreateStreamingDistributionCommand";
 import {
   CreateStreamingDistributionWithTagsCommandInput,
-  CreateStreamingDistributionWithTagsCommandOutput
+  CreateStreamingDistributionWithTagsCommandOutput,
 } from "../commands/CreateStreamingDistributionWithTagsCommand";
 import {
   DeleteCloudFrontOriginAccessIdentityCommandInput,
-  DeleteCloudFrontOriginAccessIdentityCommandOutput
+  DeleteCloudFrontOriginAccessIdentityCommandOutput,
 } from "../commands/DeleteCloudFrontOriginAccessIdentityCommand";
 import {
   DeleteDistributionCommandInput,
-  DeleteDistributionCommandOutput
+  DeleteDistributionCommandOutput,
 } from "../commands/DeleteDistributionCommand";
 import {
   DeleteFieldLevelEncryptionConfigCommandInput,
-  DeleteFieldLevelEncryptionConfigCommandOutput
+  DeleteFieldLevelEncryptionConfigCommandOutput,
 } from "../commands/DeleteFieldLevelEncryptionConfigCommand";
 import {
   DeleteFieldLevelEncryptionProfileCommandInput,
-  DeleteFieldLevelEncryptionProfileCommandOutput
+  DeleteFieldLevelEncryptionProfileCommandOutput,
 } from "../commands/DeleteFieldLevelEncryptionProfileCommand";
 import {
   DeletePublicKeyCommandInput,
-  DeletePublicKeyCommandOutput
+  DeletePublicKeyCommandOutput,
 } from "../commands/DeletePublicKeyCommand";
 import {
   DeleteStreamingDistributionCommandInput,
-  DeleteStreamingDistributionCommandOutput
+  DeleteStreamingDistributionCommandOutput,
 } from "../commands/DeleteStreamingDistributionCommand";
 import {
   GetCloudFrontOriginAccessIdentityCommandInput,
-  GetCloudFrontOriginAccessIdentityCommandOutput
+  GetCloudFrontOriginAccessIdentityCommandOutput,
 } from "../commands/GetCloudFrontOriginAccessIdentityCommand";
 import {
   GetCloudFrontOriginAccessIdentityConfigCommandInput,
-  GetCloudFrontOriginAccessIdentityConfigCommandOutput
+  GetCloudFrontOriginAccessIdentityConfigCommandOutput,
 } from "../commands/GetCloudFrontOriginAccessIdentityConfigCommand";
 import {
   GetDistributionCommandInput,
-  GetDistributionCommandOutput
+  GetDistributionCommandOutput,
 } from "../commands/GetDistributionCommand";
 import {
   GetDistributionConfigCommandInput,
-  GetDistributionConfigCommandOutput
+  GetDistributionConfigCommandOutput,
 } from "../commands/GetDistributionConfigCommand";
 import {
   GetFieldLevelEncryptionCommandInput,
-  GetFieldLevelEncryptionCommandOutput
+  GetFieldLevelEncryptionCommandOutput,
 } from "../commands/GetFieldLevelEncryptionCommand";
 import {
   GetFieldLevelEncryptionConfigCommandInput,
-  GetFieldLevelEncryptionConfigCommandOutput
+  GetFieldLevelEncryptionConfigCommandOutput,
 } from "../commands/GetFieldLevelEncryptionConfigCommand";
 import {
   GetFieldLevelEncryptionProfileCommandInput,
-  GetFieldLevelEncryptionProfileCommandOutput
+  GetFieldLevelEncryptionProfileCommandOutput,
 } from "../commands/GetFieldLevelEncryptionProfileCommand";
 import {
   GetFieldLevelEncryptionProfileConfigCommandInput,
-  GetFieldLevelEncryptionProfileConfigCommandOutput
+  GetFieldLevelEncryptionProfileConfigCommandOutput,
 } from "../commands/GetFieldLevelEncryptionProfileConfigCommand";
 import {
   GetInvalidationCommandInput,
-  GetInvalidationCommandOutput
+  GetInvalidationCommandOutput,
 } from "../commands/GetInvalidationCommand";
 import {
   GetPublicKeyCommandInput,
-  GetPublicKeyCommandOutput
+  GetPublicKeyCommandOutput,
 } from "../commands/GetPublicKeyCommand";
 import {
   GetPublicKeyConfigCommandInput,
-  GetPublicKeyConfigCommandOutput
+  GetPublicKeyConfigCommandOutput,
 } from "../commands/GetPublicKeyConfigCommand";
 import {
   GetStreamingDistributionCommandInput,
-  GetStreamingDistributionCommandOutput
+  GetStreamingDistributionCommandOutput,
 } from "../commands/GetStreamingDistributionCommand";
 import {
   GetStreamingDistributionConfigCommandInput,
-  GetStreamingDistributionConfigCommandOutput
+  GetStreamingDistributionConfigCommandOutput,
 } from "../commands/GetStreamingDistributionConfigCommand";
 import {
   ListCloudFrontOriginAccessIdentitiesCommandInput,
-  ListCloudFrontOriginAccessIdentitiesCommandOutput
+  ListCloudFrontOriginAccessIdentitiesCommandOutput,
 } from "../commands/ListCloudFrontOriginAccessIdentitiesCommand";
 import {
   ListDistributionsByWebACLIdCommandInput,
-  ListDistributionsByWebACLIdCommandOutput
+  ListDistributionsByWebACLIdCommandOutput,
 } from "../commands/ListDistributionsByWebACLIdCommand";
 import {
   ListDistributionsCommandInput,
-  ListDistributionsCommandOutput
+  ListDistributionsCommandOutput,
 } from "../commands/ListDistributionsCommand";
 import {
   ListFieldLevelEncryptionConfigsCommandInput,
-  ListFieldLevelEncryptionConfigsCommandOutput
+  ListFieldLevelEncryptionConfigsCommandOutput,
 } from "../commands/ListFieldLevelEncryptionConfigsCommand";
 import {
   ListFieldLevelEncryptionProfilesCommandInput,
-  ListFieldLevelEncryptionProfilesCommandOutput
+  ListFieldLevelEncryptionProfilesCommandOutput,
 } from "../commands/ListFieldLevelEncryptionProfilesCommand";
 import {
   ListInvalidationsCommandInput,
-  ListInvalidationsCommandOutput
+  ListInvalidationsCommandOutput,
 } from "../commands/ListInvalidationsCommand";
 import {
   ListPublicKeysCommandInput,
-  ListPublicKeysCommandOutput
+  ListPublicKeysCommandOutput,
 } from "../commands/ListPublicKeysCommand";
 import {
   ListStreamingDistributionsCommandInput,
-  ListStreamingDistributionsCommandOutput
+  ListStreamingDistributionsCommandOutput,
 } from "../commands/ListStreamingDistributionsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateCloudFrontOriginAccessIdentityCommandInput,
-  UpdateCloudFrontOriginAccessIdentityCommandOutput
+  UpdateCloudFrontOriginAccessIdentityCommandOutput,
 } from "../commands/UpdateCloudFrontOriginAccessIdentityCommand";
 import {
   UpdateDistributionCommandInput,
-  UpdateDistributionCommandOutput
+  UpdateDistributionCommandOutput,
 } from "../commands/UpdateDistributionCommand";
 import {
   UpdateFieldLevelEncryptionConfigCommandInput,
-  UpdateFieldLevelEncryptionConfigCommandOutput
+  UpdateFieldLevelEncryptionConfigCommandOutput,
 } from "../commands/UpdateFieldLevelEncryptionConfigCommand";
 import {
   UpdateFieldLevelEncryptionProfileCommandInput,
-  UpdateFieldLevelEncryptionProfileCommandOutput
+  UpdateFieldLevelEncryptionProfileCommandOutput,
 } from "../commands/UpdateFieldLevelEncryptionProfileCommand";
 import {
   UpdatePublicKeyCommandInput,
-  UpdatePublicKeyCommandOutput
+  UpdatePublicKeyCommandOutput,
 } from "../commands/UpdatePublicKeyCommand";
 import {
   UpdateStreamingDistributionCommandInput,
-  UpdateStreamingDistributionCommandOutput
+  UpdateStreamingDistributionCommandOutput,
 } from "../commands/UpdateStreamingDistributionCommand";
 import {
   AccessDenied,
@@ -343,25 +343,25 @@ import {
   TooManyTrustedSigners,
   TrustedSignerDoesNotExist,
   TrustedSigners,
-  ViewerCertificate
+  ViewerCertificate,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import {
   XmlNode as __XmlNode,
-  XmlText as __XmlText
+  XmlText as __XmlText,
 } from "@aws-sdk/xml-builder";
 import { parse as xmlParse } from "fast-xml-parser";
 
@@ -387,12 +387,12 @@ export async function serializeAws_restXmlCreateCloudFrontOriginAccessIdentityCo
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -418,12 +418,12 @@ export async function serializeAws_restXmlCreateDistributionCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -435,7 +435,7 @@ export async function serializeAws_restXmlCreateDistributionWithTagsCommand(
   headers["Content-Type"] = "application/xml";
   let resolvedPath = "/2019-03-26/distribution";
   const query: any = {
-    WithTags: ""
+    WithTags: "",
   };
   let body: any;
   let contents: any;
@@ -452,13 +452,13 @@ export async function serializeAws_restXmlCreateDistributionWithTagsCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -484,12 +484,12 @@ export async function serializeAws_restXmlCreateFieldLevelEncryptionConfigComman
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -515,12 +515,12 @@ export async function serializeAws_restXmlCreateFieldLevelEncryptionProfileComma
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -560,12 +560,12 @@ export async function serializeAws_restXmlCreateInvalidationCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -591,12 +591,12 @@ export async function serializeAws_restXmlCreatePublicKeyCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -622,12 +622,12 @@ export async function serializeAws_restXmlCreateStreamingDistributionCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -639,7 +639,7 @@ export async function serializeAws_restXmlCreateStreamingDistributionWithTagsCom
   headers["Content-Type"] = "application/xml";
   let resolvedPath = "/2019-03-26/streaming-distribution";
   const query: any = {
-    WithTags: ""
+    WithTags: "",
   };
   let body: any;
   let contents: any;
@@ -656,13 +656,13 @@ export async function serializeAws_restXmlCreateStreamingDistributionWithTagsCom
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -690,12 +690,12 @@ export async function serializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCo
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -723,12 +723,12 @@ export async function serializeAws_restXmlDeleteDistributionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -756,12 +756,12 @@ export async function serializeAws_restXmlDeleteFieldLevelEncryptionConfigComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -789,12 +789,12 @@ export async function serializeAws_restXmlDeleteFieldLevelEncryptionProfileComma
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -822,12 +822,12 @@ export async function serializeAws_restXmlDeletePublicKeyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -855,12 +855,12 @@ export async function serializeAws_restXmlDeleteStreamingDistributionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -885,12 +885,12 @@ export async function serializeAws_restXmlGetCloudFrontOriginAccessIdentityComma
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -916,12 +916,12 @@ export async function serializeAws_restXmlGetCloudFrontOriginAccessIdentityConfi
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -946,12 +946,12 @@ export async function serializeAws_restXmlGetDistributionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -976,12 +976,12 @@ export async function serializeAws_restXmlGetDistributionConfigCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1006,12 +1006,12 @@ export async function serializeAws_restXmlGetFieldLevelEncryptionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1036,12 +1036,12 @@ export async function serializeAws_restXmlGetFieldLevelEncryptionConfigCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1066,12 +1066,12 @@ export async function serializeAws_restXmlGetFieldLevelEncryptionProfileCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1096,12 +1096,12 @@ export async function serializeAws_restXmlGetFieldLevelEncryptionProfileConfigCo
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1141,12 +1141,12 @@ export async function serializeAws_restXmlGetInvalidationCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1171,12 +1171,12 @@ export async function serializeAws_restXmlGetPublicKeyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1201,12 +1201,12 @@ export async function serializeAws_restXmlGetPublicKeyConfigCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1231,12 +1231,12 @@ export async function serializeAws_restXmlGetStreamingDistributionCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1261,12 +1261,12 @@ export async function serializeAws_restXmlGetStreamingDistributionConfigCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1286,13 +1286,13 @@ export async function serializeAws_restXmlListCloudFrontOriginAccessIdentitiesCo
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1312,13 +1312,13 @@ export async function serializeAws_restXmlListDistributionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1350,13 +1350,13 @@ export async function serializeAws_restXmlListDistributionsByWebACLIdCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1376,13 +1376,13 @@ export async function serializeAws_restXmlListFieldLevelEncryptionConfigsCommand
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1402,13 +1402,13 @@ export async function serializeAws_restXmlListFieldLevelEncryptionProfilesComman
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1442,13 +1442,13 @@ export async function serializeAws_restXmlListInvalidationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1468,13 +1468,13 @@ export async function serializeAws_restXmlListPublicKeysCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1494,13 +1494,13 @@ export async function serializeAws_restXmlListStreamingDistributionsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1517,13 +1517,13 @@ export async function serializeAws_restXmlListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1535,7 +1535,7 @@ export async function serializeAws_restXmlTagResourceCommand(
   headers["Content-Type"] = "application/xml";
   let resolvedPath = "/2019-03-26/tagging";
   const query: any = {
-    Operation: "Tag"
+    Operation: "Tag",
   };
   if (input.Resource !== undefined) {
     query["Resource"] = input.Resource;
@@ -1552,13 +1552,13 @@ export async function serializeAws_restXmlTagResourceCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1570,7 +1570,7 @@ export async function serializeAws_restXmlUntagResourceCommand(
   headers["Content-Type"] = "application/xml";
   let resolvedPath = "/2019-03-26/tagging";
   const query: any = {
-    Operation: "Untag"
+    Operation: "Untag",
   };
   if (input.Resource !== undefined) {
     query["Resource"] = input.Resource;
@@ -1587,13 +1587,13 @@ export async function serializeAws_restXmlUntagResourceCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1635,12 +1635,12 @@ export async function serializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCo
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1681,12 +1681,12 @@ export async function serializeAws_restXmlUpdateDistributionCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1727,12 +1727,12 @@ export async function serializeAws_restXmlUpdateFieldLevelEncryptionConfigComman
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1773,12 +1773,12 @@ export async function serializeAws_restXmlUpdateFieldLevelEncryptionProfileComma
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1819,12 +1819,12 @@ export async function serializeAws_restXmlUpdatePublicKeyCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1865,12 +1865,12 @@ export async function serializeAws_restXmlUpdateStreamingDistributionCommand(
     body += contents.toString();
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1889,7 +1889,7 @@ export async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentity
     __type: "CreateCloudFrontOriginAccessIdentityResult",
     CloudFrontOriginAccessIdentity: undefined,
     ETag: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -1911,7 +1911,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
 ): Promise<CreateCloudFrontOriginAccessIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1925,7 +1925,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -1936,7 +1936,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -1947,7 +1947,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -1958,7 +1958,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCloudFrontOriginAccessIdentities":
@@ -1969,7 +1969,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1981,7 +1981,7 @@ async function deserializeAws_restXmlCreateCloudFrontOriginAccessIdentityCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2005,7 +2005,7 @@ export async function deserializeAws_restXmlCreateDistributionCommand(
     __type: "CreateDistributionResult",
     Distribution: undefined,
     ETag: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -2024,7 +2024,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
 ): Promise<CreateDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2038,7 +2038,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -2049,7 +2049,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DistributionAlreadyExists":
@@ -2060,7 +2060,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior":
@@ -2071,7 +2071,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -2082,7 +2082,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -2093,7 +2093,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDefaultRootObject":
@@ -2104,7 +2104,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidErrorCode":
@@ -2115,7 +2115,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidForwardCookies":
@@ -2126,7 +2126,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGeoRestrictionParameter":
@@ -2137,7 +2137,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHeadersForS3Origin":
@@ -2148,7 +2148,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLambdaFunctionAssociation":
@@ -2159,7 +2159,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLocationCode":
@@ -2170,7 +2170,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidMinimumProtocolVersion":
@@ -2181,7 +2181,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOrigin":
@@ -2192,7 +2192,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -2203,7 +2203,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginKeepaliveTimeout":
@@ -2214,7 +2214,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginReadTimeout":
@@ -2225,7 +2225,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidProtocolSettings":
@@ -2236,7 +2236,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidQueryStringParameters":
@@ -2247,7 +2247,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRelativePath":
@@ -2258,7 +2258,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequiredProtocol":
@@ -2269,7 +2269,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResponseCode":
@@ -2280,7 +2280,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTTLOrder":
@@ -2291,7 +2291,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidViewerCertificate":
@@ -2302,7 +2302,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidWebACLId":
@@ -2313,7 +2313,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -2324,7 +2324,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -2335,7 +2335,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchOrigin":
@@ -2346,7 +2346,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCacheBehaviors":
@@ -2357,7 +2357,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCertificates":
@@ -2368,7 +2368,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCookieNamesInWhiteList":
@@ -2379,7 +2379,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionCNAMEs":
@@ -2390,7 +2390,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributions":
@@ -2401,7 +2401,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsAssociatedToFieldLevelEncryptionConfig":
@@ -2412,7 +2412,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsWithLambdaAssociations":
@@ -2423,7 +2423,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyHeadersInForwardedValues":
@@ -2434,7 +2434,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyLambdaFunctionAssociations":
@@ -2445,7 +2445,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginCustomHeaders":
@@ -2456,7 +2456,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginGroupsPerDistribution":
@@ -2467,7 +2467,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOrigins":
@@ -2478,7 +2478,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyQueryStringParameters":
@@ -2489,7 +2489,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -2500,7 +2500,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -2511,7 +2511,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2523,7 +2523,7 @@ async function deserializeAws_restXmlCreateDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2547,7 +2547,7 @@ export async function deserializeAws_restXmlCreateDistributionWithTagsCommand(
     __type: "CreateDistributionWithTagsResult",
     Distribution: undefined,
     ETag: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -2566,7 +2566,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
 ): Promise<CreateDistributionWithTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2580,7 +2580,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -2591,7 +2591,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DistributionAlreadyExists":
@@ -2602,7 +2602,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior":
@@ -2613,7 +2613,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -2624,7 +2624,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -2635,7 +2635,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDefaultRootObject":
@@ -2646,7 +2646,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidErrorCode":
@@ -2657,7 +2657,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidForwardCookies":
@@ -2668,7 +2668,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGeoRestrictionParameter":
@@ -2679,7 +2679,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHeadersForS3Origin":
@@ -2690,7 +2690,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLambdaFunctionAssociation":
@@ -2701,7 +2701,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLocationCode":
@@ -2712,7 +2712,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidMinimumProtocolVersion":
@@ -2723,7 +2723,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOrigin":
@@ -2734,7 +2734,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -2745,7 +2745,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginKeepaliveTimeout":
@@ -2756,7 +2756,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginReadTimeout":
@@ -2767,7 +2767,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidProtocolSettings":
@@ -2778,7 +2778,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidQueryStringParameters":
@@ -2789,7 +2789,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRelativePath":
@@ -2800,7 +2800,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequiredProtocol":
@@ -2811,7 +2811,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResponseCode":
@@ -2822,7 +2822,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTTLOrder":
@@ -2833,7 +2833,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagging":
@@ -2844,7 +2844,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidViewerCertificate":
@@ -2855,7 +2855,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidWebACLId":
@@ -2866,7 +2866,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -2877,7 +2877,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -2888,7 +2888,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchOrigin":
@@ -2899,7 +2899,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCacheBehaviors":
@@ -2910,7 +2910,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCertificates":
@@ -2921,7 +2921,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCookieNamesInWhiteList":
@@ -2932,7 +2932,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionCNAMEs":
@@ -2943,7 +2943,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributions":
@@ -2954,7 +2954,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsAssociatedToFieldLevelEncryptionConfig":
@@ -2965,7 +2965,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsWithLambdaAssociations":
@@ -2976,7 +2976,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyHeadersInForwardedValues":
@@ -2987,7 +2987,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyLambdaFunctionAssociations":
@@ -2998,7 +2998,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginCustomHeaders":
@@ -3009,7 +3009,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginGroupsPerDistribution":
@@ -3020,7 +3020,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOrigins":
@@ -3031,7 +3031,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyQueryStringParameters":
@@ -3042,7 +3042,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -3053,7 +3053,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -3064,7 +3064,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3076,7 +3076,7 @@ async function deserializeAws_restXmlCreateDistributionWithTagsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3100,7 +3100,7 @@ export async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigComm
     __type: "CreateFieldLevelEncryptionConfigResult",
     ETag: undefined,
     FieldLevelEncryption: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -3122,7 +3122,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
 ): Promise<CreateFieldLevelEncryptionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3136,7 +3136,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -3147,7 +3147,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -3158,7 +3158,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -3169,7 +3169,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "QueryArgProfileEmpty":
@@ -3180,7 +3180,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionConfigs":
@@ -3191,7 +3191,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionContentTypeProfiles":
@@ -3202,7 +3202,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionQueryArgProfiles":
@@ -3213,7 +3213,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3225,7 +3225,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionConfigCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3249,7 +3249,7 @@ export async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCom
     __type: "CreateFieldLevelEncryptionProfileResult",
     ETag: undefined,
     FieldLevelEncryptionProfile: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -3271,7 +3271,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
 ): Promise<CreateFieldLevelEncryptionProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3285,7 +3285,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FieldLevelEncryptionProfileSizeExceeded":
@@ -3296,7 +3296,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -3307,7 +3307,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -3318,7 +3318,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -3329,7 +3329,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionEncryptionEntities":
@@ -3340,7 +3340,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionFieldPatterns":
@@ -3351,7 +3351,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionProfiles":
@@ -3362,7 +3362,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3374,7 +3374,7 @@ async function deserializeAws_restXmlCreateFieldLevelEncryptionProfileCommandErr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3397,7 +3397,7 @@ export async function deserializeAws_restXmlCreateInvalidationCommand(
     $metadata: deserializeMetadata(output),
     __type: "CreateInvalidationResult",
     Invalidation: undefined,
-    Location: undefined
+    Location: undefined,
   };
   if (output.headers["location"] !== undefined) {
     contents.Location = output.headers["location"];
@@ -3413,7 +3413,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
 ): Promise<CreateInvalidationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3427,7 +3427,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BatchTooLarge":
@@ -3438,7 +3438,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -3449,7 +3449,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -3460,7 +3460,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -3471,7 +3471,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -3482,7 +3482,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyInvalidationsInProgress":
@@ -3493,7 +3493,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3505,7 +3505,7 @@ async function deserializeAws_restXmlCreateInvalidationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3526,7 +3526,7 @@ export async function deserializeAws_restXmlCreatePublicKeyCommand(
     __type: "CreatePublicKeyResult",
     ETag: undefined,
     Location: undefined,
-    PublicKey: undefined
+    PublicKey: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -3545,7 +3545,7 @@ async function deserializeAws_restXmlCreatePublicKeyCommandError(
 ): Promise<CreatePublicKeyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3559,7 +3559,7 @@ async function deserializeAws_restXmlCreatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PublicKeyAlreadyExists":
@@ -3570,7 +3570,7 @@ async function deserializeAws_restXmlCreatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyPublicKeys":
@@ -3581,7 +3581,7 @@ async function deserializeAws_restXmlCreatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3593,7 +3593,7 @@ async function deserializeAws_restXmlCreatePublicKeyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3617,7 +3617,7 @@ export async function deserializeAws_restXmlCreateStreamingDistributionCommand(
     __type: "CreateStreamingDistributionResult",
     ETag: undefined,
     Location: undefined,
-    StreamingDistribution: undefined
+    StreamingDistribution: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -3639,7 +3639,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
 ): Promise<CreateStreamingDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3653,7 +3653,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -3664,7 +3664,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -3675,7 +3675,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -3686,7 +3686,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOrigin":
@@ -3697,7 +3697,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -3708,7 +3708,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -3719,7 +3719,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StreamingDistributionAlreadyExists":
@@ -3730,7 +3730,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyStreamingDistributionCNAMEs":
@@ -3741,7 +3741,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyStreamingDistributions":
@@ -3752,7 +3752,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -3763,7 +3763,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -3774,7 +3774,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3786,7 +3786,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3810,7 +3810,7 @@ export async function deserializeAws_restXmlCreateStreamingDistributionWithTagsC
     __type: "CreateStreamingDistributionWithTagsResult",
     ETag: undefined,
     Location: undefined,
-    StreamingDistribution: undefined
+    StreamingDistribution: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -3832,7 +3832,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
 ): Promise<CreateStreamingDistributionWithTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3846,7 +3846,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -3857,7 +3857,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -3868,7 +3868,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -3879,7 +3879,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOrigin":
@@ -3890,7 +3890,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -3901,7 +3901,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagging":
@@ -3912,7 +3912,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -3923,7 +3923,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StreamingDistributionAlreadyExists":
@@ -3934,7 +3934,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyStreamingDistributionCNAMEs":
@@ -3945,7 +3945,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyStreamingDistributions":
@@ -3956,7 +3956,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -3967,7 +3967,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -3978,7 +3978,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3990,7 +3990,7 @@ async function deserializeAws_restXmlCreateStreamingDistributionWithTagsCommandE
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4010,7 +4010,7 @@ export async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentity
     );
   }
   const contents: DeleteCloudFrontOriginAccessIdentityCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4022,7 +4022,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
 ): Promise<DeleteCloudFrontOriginAccessIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4036,7 +4036,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CloudFrontOriginAccessIdentityInUse":
@@ -4047,7 +4047,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4058,7 +4058,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchCloudFrontOriginAccessIdentity":
@@ -4069,7 +4069,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4080,7 +4080,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4092,7 +4092,7 @@ async function deserializeAws_restXmlDeleteCloudFrontOriginAccessIdentityCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4112,7 +4112,7 @@ export async function deserializeAws_restXmlDeleteDistributionCommand(
     );
   }
   const contents: DeleteDistributionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4124,7 +4124,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
 ): Promise<DeleteDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4138,7 +4138,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DistributionNotDisabled":
@@ -4149,7 +4149,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4160,7 +4160,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -4171,7 +4171,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4182,7 +4182,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4194,7 +4194,7 @@ async function deserializeAws_restXmlDeleteDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4214,7 +4214,7 @@ export async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigComm
     );
   }
   const contents: DeleteFieldLevelEncryptionConfigCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4226,7 +4226,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
 ): Promise<DeleteFieldLevelEncryptionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4240,7 +4240,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FieldLevelEncryptionConfigInUse":
@@ -4251,7 +4251,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4262,7 +4262,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -4273,7 +4273,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4284,7 +4284,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4296,7 +4296,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionConfigCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4316,7 +4316,7 @@ export async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCom
     );
   }
   const contents: DeleteFieldLevelEncryptionProfileCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4328,7 +4328,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
 ): Promise<DeleteFieldLevelEncryptionProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4342,7 +4342,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FieldLevelEncryptionProfileInUse":
@@ -4353,7 +4353,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4364,7 +4364,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -4375,7 +4375,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4386,7 +4386,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4398,7 +4398,7 @@ async function deserializeAws_restXmlDeleteFieldLevelEncryptionProfileCommandErr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4415,7 +4415,7 @@ export async function deserializeAws_restXmlDeletePublicKeyCommand(
     return deserializeAws_restXmlDeletePublicKeyCommandError(output, context);
   }
   const contents: DeletePublicKeyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4427,7 +4427,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
 ): Promise<DeletePublicKeyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4441,7 +4441,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4452,7 +4452,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -4463,7 +4463,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4474,7 +4474,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PublicKeyInUse":
@@ -4485,7 +4485,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4497,7 +4497,7 @@ async function deserializeAws_restXmlDeletePublicKeyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4517,7 +4517,7 @@ export async function deserializeAws_restXmlDeleteStreamingDistributionCommand(
     );
   }
   const contents: DeleteStreamingDistributionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4529,7 +4529,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
 ): Promise<DeleteStreamingDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4543,7 +4543,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -4554,7 +4554,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchStreamingDistribution":
@@ -4565,7 +4565,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -4576,7 +4576,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "StreamingDistributionNotDisabled":
@@ -4587,7 +4587,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4599,7 +4599,7 @@ async function deserializeAws_restXmlDeleteStreamingDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4622,7 +4622,7 @@ export async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCom
     $metadata: deserializeMetadata(output),
     __type: "GetCloudFrontOriginAccessIdentityResult",
     CloudFrontOriginAccessIdentity: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -4641,7 +4641,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCommandErr
 ): Promise<GetCloudFrontOriginAccessIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4655,7 +4655,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchCloudFrontOriginAccessIdentity":
@@ -4666,7 +4666,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4678,7 +4678,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCommandErr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4701,7 +4701,7 @@ export async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityCon
     $metadata: deserializeMetadata(output),
     __type: "GetCloudFrontOriginAccessIdentityConfigResult",
     CloudFrontOriginAccessIdentityConfig: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -4720,7 +4720,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityConfigComm
 ): Promise<GetCloudFrontOriginAccessIdentityConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4734,7 +4734,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityConfigComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchCloudFrontOriginAccessIdentity":
@@ -4745,7 +4745,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityConfigComm
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4757,7 +4757,7 @@ async function deserializeAws_restXmlGetCloudFrontOriginAccessIdentityConfigComm
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4777,7 +4777,7 @@ export async function deserializeAws_restXmlGetDistributionCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetDistributionResult",
     Distribution: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -4793,7 +4793,7 @@ async function deserializeAws_restXmlGetDistributionCommandError(
 ): Promise<GetDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4807,7 +4807,7 @@ async function deserializeAws_restXmlGetDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -4818,7 +4818,7 @@ async function deserializeAws_restXmlGetDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4830,7 +4830,7 @@ async function deserializeAws_restXmlGetDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4853,7 +4853,7 @@ export async function deserializeAws_restXmlGetDistributionConfigCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetDistributionConfigResult",
     DistributionConfig: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -4872,7 +4872,7 @@ async function deserializeAws_restXmlGetDistributionConfigCommandError(
 ): Promise<GetDistributionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4886,7 +4886,7 @@ async function deserializeAws_restXmlGetDistributionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -4897,7 +4897,7 @@ async function deserializeAws_restXmlGetDistributionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4909,7 +4909,7 @@ async function deserializeAws_restXmlGetDistributionConfigCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4932,7 +4932,7 @@ export async function deserializeAws_restXmlGetFieldLevelEncryptionCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetFieldLevelEncryptionResult",
     ETag: undefined,
-    FieldLevelEncryption: undefined
+    FieldLevelEncryption: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -4951,7 +4951,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionCommandError(
 ): Promise<GetFieldLevelEncryptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4965,7 +4965,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -4976,7 +4976,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4988,7 +4988,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5011,7 +5011,7 @@ export async function deserializeAws_restXmlGetFieldLevelEncryptionConfigCommand
     $metadata: deserializeMetadata(output),
     __type: "GetFieldLevelEncryptionConfigResult",
     ETag: undefined,
-    FieldLevelEncryptionConfig: undefined
+    FieldLevelEncryptionConfig: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5030,7 +5030,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionConfigCommandError(
 ): Promise<GetFieldLevelEncryptionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5044,7 +5044,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -5055,7 +5055,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5067,7 +5067,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionConfigCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5090,7 +5090,7 @@ export async function deserializeAws_restXmlGetFieldLevelEncryptionProfileComman
     $metadata: deserializeMetadata(output),
     __type: "GetFieldLevelEncryptionProfileResult",
     ETag: undefined,
-    FieldLevelEncryptionProfile: undefined
+    FieldLevelEncryptionProfile: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5109,7 +5109,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileCommandError(
 ): Promise<GetFieldLevelEncryptionProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5123,7 +5123,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -5134,7 +5134,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5146,7 +5146,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5169,7 +5169,7 @@ export async function deserializeAws_restXmlGetFieldLevelEncryptionProfileConfig
     $metadata: deserializeMetadata(output),
     __type: "GetFieldLevelEncryptionProfileConfigResult",
     ETag: undefined,
-    FieldLevelEncryptionProfileConfig: undefined
+    FieldLevelEncryptionProfileConfig: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5188,7 +5188,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileConfigCommand
 ): Promise<GetFieldLevelEncryptionProfileConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5202,7 +5202,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileConfigCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -5213,7 +5213,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileConfigCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5225,7 +5225,7 @@ async function deserializeAws_restXmlGetFieldLevelEncryptionProfileConfigCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5244,7 +5244,7 @@ export async function deserializeAws_restXmlGetInvalidationCommand(
   const contents: GetInvalidationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetInvalidationResult",
-    Invalidation: undefined
+    Invalidation: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.Invalidation = deserializeAws_restXmlInvalidation(data, context);
@@ -5257,7 +5257,7 @@ async function deserializeAws_restXmlGetInvalidationCommandError(
 ): Promise<GetInvalidationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5271,7 +5271,7 @@ async function deserializeAws_restXmlGetInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -5282,7 +5282,7 @@ async function deserializeAws_restXmlGetInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchInvalidation":
@@ -5293,7 +5293,7 @@ async function deserializeAws_restXmlGetInvalidationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5305,7 +5305,7 @@ async function deserializeAws_restXmlGetInvalidationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5325,7 +5325,7 @@ export async function deserializeAws_restXmlGetPublicKeyCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetPublicKeyResult",
     ETag: undefined,
-    PublicKey: undefined
+    PublicKey: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5341,7 +5341,7 @@ async function deserializeAws_restXmlGetPublicKeyCommandError(
 ): Promise<GetPublicKeyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5355,7 +5355,7 @@ async function deserializeAws_restXmlGetPublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -5366,7 +5366,7 @@ async function deserializeAws_restXmlGetPublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5378,7 +5378,7 @@ async function deserializeAws_restXmlGetPublicKeyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5401,7 +5401,7 @@ export async function deserializeAws_restXmlGetPublicKeyConfigCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetPublicKeyConfigResult",
     ETag: undefined,
-    PublicKeyConfig: undefined
+    PublicKeyConfig: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5420,7 +5420,7 @@ async function deserializeAws_restXmlGetPublicKeyConfigCommandError(
 ): Promise<GetPublicKeyConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5434,7 +5434,7 @@ async function deserializeAws_restXmlGetPublicKeyConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -5445,7 +5445,7 @@ async function deserializeAws_restXmlGetPublicKeyConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5457,7 +5457,7 @@ async function deserializeAws_restXmlGetPublicKeyConfigCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5480,7 +5480,7 @@ export async function deserializeAws_restXmlGetStreamingDistributionCommand(
     $metadata: deserializeMetadata(output),
     __type: "GetStreamingDistributionResult",
     ETag: undefined,
-    StreamingDistribution: undefined
+    StreamingDistribution: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5499,7 +5499,7 @@ async function deserializeAws_restXmlGetStreamingDistributionCommandError(
 ): Promise<GetStreamingDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5513,7 +5513,7 @@ async function deserializeAws_restXmlGetStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchStreamingDistribution":
@@ -5524,7 +5524,7 @@ async function deserializeAws_restXmlGetStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5536,7 +5536,7 @@ async function deserializeAws_restXmlGetStreamingDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5559,7 +5559,7 @@ export async function deserializeAws_restXmlGetStreamingDistributionConfigComman
     $metadata: deserializeMetadata(output),
     __type: "GetStreamingDistributionConfigResult",
     ETag: undefined,
-    StreamingDistributionConfig: undefined
+    StreamingDistributionConfig: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -5578,7 +5578,7 @@ async function deserializeAws_restXmlGetStreamingDistributionConfigCommandError(
 ): Promise<GetStreamingDistributionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5592,7 +5592,7 @@ async function deserializeAws_restXmlGetStreamingDistributionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchStreamingDistribution":
@@ -5603,7 +5603,7 @@ async function deserializeAws_restXmlGetStreamingDistributionConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5615,7 +5615,7 @@ async function deserializeAws_restXmlGetStreamingDistributionConfigCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5637,7 +5637,7 @@ export async function deserializeAws_restXmlListCloudFrontOriginAccessIdentities
   const contents: ListCloudFrontOriginAccessIdentitiesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCloudFrontOriginAccessIdentitiesResult",
-    CloudFrontOriginAccessIdentityList: undefined
+    CloudFrontOriginAccessIdentityList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.CloudFrontOriginAccessIdentityList = deserializeAws_restXmlCloudFrontOriginAccessIdentityList(
@@ -5653,7 +5653,7 @@ async function deserializeAws_restXmlListCloudFrontOriginAccessIdentitiesCommand
 ): Promise<ListCloudFrontOriginAccessIdentitiesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5667,7 +5667,7 @@ async function deserializeAws_restXmlListCloudFrontOriginAccessIdentitiesCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5679,7 +5679,7 @@ async function deserializeAws_restXmlListCloudFrontOriginAccessIdentitiesCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5698,7 +5698,7 @@ export async function deserializeAws_restXmlListDistributionsCommand(
   const contents: ListDistributionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDistributionsResult",
-    DistributionList: undefined
+    DistributionList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.DistributionList = deserializeAws_restXmlDistributionList(
@@ -5714,7 +5714,7 @@ async function deserializeAws_restXmlListDistributionsCommandError(
 ): Promise<ListDistributionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5728,7 +5728,7 @@ async function deserializeAws_restXmlListDistributionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5740,7 +5740,7 @@ async function deserializeAws_restXmlListDistributionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5762,7 +5762,7 @@ export async function deserializeAws_restXmlListDistributionsByWebACLIdCommand(
   const contents: ListDistributionsByWebACLIdCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListDistributionsByWebACLIdResult",
-    DistributionList: undefined
+    DistributionList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.DistributionList = deserializeAws_restXmlDistributionList(
@@ -5778,7 +5778,7 @@ async function deserializeAws_restXmlListDistributionsByWebACLIdCommandError(
 ): Promise<ListDistributionsByWebACLIdCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5792,7 +5792,7 @@ async function deserializeAws_restXmlListDistributionsByWebACLIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidWebACLId":
@@ -5803,7 +5803,7 @@ async function deserializeAws_restXmlListDistributionsByWebACLIdCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5815,7 +5815,7 @@ async function deserializeAws_restXmlListDistributionsByWebACLIdCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5837,7 +5837,7 @@ export async function deserializeAws_restXmlListFieldLevelEncryptionConfigsComma
   const contents: ListFieldLevelEncryptionConfigsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListFieldLevelEncryptionConfigsResult",
-    FieldLevelEncryptionList: undefined
+    FieldLevelEncryptionList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.FieldLevelEncryptionList = deserializeAws_restXmlFieldLevelEncryptionList(
@@ -5853,7 +5853,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionConfigsCommandError
 ): Promise<ListFieldLevelEncryptionConfigsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5867,7 +5867,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionConfigsCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5879,7 +5879,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionConfigsCommandError
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5901,7 +5901,7 @@ export async function deserializeAws_restXmlListFieldLevelEncryptionProfilesComm
   const contents: ListFieldLevelEncryptionProfilesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListFieldLevelEncryptionProfilesResult",
-    FieldLevelEncryptionProfileList: undefined
+    FieldLevelEncryptionProfileList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.FieldLevelEncryptionProfileList = deserializeAws_restXmlFieldLevelEncryptionProfileList(
@@ -5917,7 +5917,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionProfilesCommandErro
 ): Promise<ListFieldLevelEncryptionProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5931,7 +5931,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionProfilesCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5943,7 +5943,7 @@ async function deserializeAws_restXmlListFieldLevelEncryptionProfilesCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5962,7 +5962,7 @@ export async function deserializeAws_restXmlListInvalidationsCommand(
   const contents: ListInvalidationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListInvalidationsResult",
-    InvalidationList: undefined
+    InvalidationList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.InvalidationList = deserializeAws_restXmlInvalidationList(
@@ -5978,7 +5978,7 @@ async function deserializeAws_restXmlListInvalidationsCommandError(
 ): Promise<ListInvalidationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5992,7 +5992,7 @@ async function deserializeAws_restXmlListInvalidationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6003,7 +6003,7 @@ async function deserializeAws_restXmlListInvalidationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -6014,7 +6014,7 @@ async function deserializeAws_restXmlListInvalidationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6026,7 +6026,7 @@ async function deserializeAws_restXmlListInvalidationsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6045,7 +6045,7 @@ export async function deserializeAws_restXmlListPublicKeysCommand(
   const contents: ListPublicKeysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPublicKeysResult",
-    PublicKeyList: undefined
+    PublicKeyList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.PublicKeyList = deserializeAws_restXmlPublicKeyList(data, context);
@@ -6058,7 +6058,7 @@ async function deserializeAws_restXmlListPublicKeysCommandError(
 ): Promise<ListPublicKeysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6072,7 +6072,7 @@ async function deserializeAws_restXmlListPublicKeysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6084,7 +6084,7 @@ async function deserializeAws_restXmlListPublicKeysCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6106,7 +6106,7 @@ export async function deserializeAws_restXmlListStreamingDistributionsCommand(
   const contents: ListStreamingDistributionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListStreamingDistributionsResult",
-    StreamingDistributionList: undefined
+    StreamingDistributionList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.StreamingDistributionList = deserializeAws_restXmlStreamingDistributionList(
@@ -6122,7 +6122,7 @@ async function deserializeAws_restXmlListStreamingDistributionsCommandError(
 ): Promise<ListStreamingDistributionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6136,7 +6136,7 @@ async function deserializeAws_restXmlListStreamingDistributionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6148,7 +6148,7 @@ async function deserializeAws_restXmlListStreamingDistributionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6170,7 +6170,7 @@ export async function deserializeAws_restXmlListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResult",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.Tags = deserializeAws_restXmlTags(data, context);
@@ -6183,7 +6183,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6197,7 +6197,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6208,7 +6208,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagging":
@@ -6219,7 +6219,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchResource":
@@ -6230,7 +6230,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6242,7 +6242,7 @@ async function deserializeAws_restXmlListTagsForResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6259,7 +6259,7 @@ export async function deserializeAws_restXmlTagResourceCommand(
     return deserializeAws_restXmlTagResourceCommandError(output, context);
   }
   const contents: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -6271,7 +6271,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6285,7 +6285,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6296,7 +6296,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagging":
@@ -6307,7 +6307,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchResource":
@@ -6318,7 +6318,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6330,7 +6330,7 @@ async function deserializeAws_restXmlTagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6347,7 +6347,7 @@ export async function deserializeAws_restXmlUntagResourceCommand(
     return deserializeAws_restXmlUntagResourceCommandError(output, context);
   }
   const contents: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -6359,7 +6359,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6373,7 +6373,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6384,7 +6384,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagging":
@@ -6395,7 +6395,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchResource":
@@ -6406,7 +6406,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6418,7 +6418,7 @@ async function deserializeAws_restXmlUntagResourceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6441,7 +6441,7 @@ export async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentity
     $metadata: deserializeMetadata(output),
     __type: "UpdateCloudFrontOriginAccessIdentityResult",
     CloudFrontOriginAccessIdentity: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -6460,7 +6460,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
 ): Promise<UpdateCloudFrontOriginAccessIdentityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6474,7 +6474,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -6485,7 +6485,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -6496,7 +6496,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6507,7 +6507,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -6518,7 +6518,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -6529,7 +6529,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchCloudFrontOriginAccessIdentity":
@@ -6540,7 +6540,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -6551,7 +6551,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6563,7 +6563,7 @@ async function deserializeAws_restXmlUpdateCloudFrontOriginAccessIdentityCommand
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6586,7 +6586,7 @@ export async function deserializeAws_restXmlUpdateDistributionCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateDistributionResult",
     Distribution: undefined,
-    ETag: undefined
+    ETag: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -6602,7 +6602,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
 ): Promise<UpdateDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6616,7 +6616,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -6627,7 +6627,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior":
@@ -6638,7 +6638,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -6649,7 +6649,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -6660,7 +6660,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -6671,7 +6671,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDefaultRootObject":
@@ -6682,7 +6682,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidErrorCode":
@@ -6693,7 +6693,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidForwardCookies":
@@ -6704,7 +6704,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGeoRestrictionParameter":
@@ -6715,7 +6715,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHeadersForS3Origin":
@@ -6726,7 +6726,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -6737,7 +6737,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLambdaFunctionAssociation":
@@ -6748,7 +6748,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidLocationCode":
@@ -6759,7 +6759,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidMinimumProtocolVersion":
@@ -6770,7 +6770,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -6781,7 +6781,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginKeepaliveTimeout":
@@ -6792,7 +6792,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginReadTimeout":
@@ -6803,7 +6803,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidQueryStringParameters":
@@ -6814,7 +6814,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRelativePath":
@@ -6825,7 +6825,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequiredProtocol":
@@ -6836,7 +6836,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidResponseCode":
@@ -6847,7 +6847,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTTLOrder":
@@ -6858,7 +6858,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidViewerCertificate":
@@ -6869,7 +6869,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidWebACLId":
@@ -6880,7 +6880,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -6891,7 +6891,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchDistribution":
@@ -6902,7 +6902,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -6913,7 +6913,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchOrigin":
@@ -6924,7 +6924,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -6935,7 +6935,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCacheBehaviors":
@@ -6946,7 +6946,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCertificates":
@@ -6957,7 +6957,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyCookieNamesInWhiteList":
@@ -6968,7 +6968,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionCNAMEs":
@@ -6979,7 +6979,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsAssociatedToFieldLevelEncryptionConfig":
@@ -6990,7 +6990,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyDistributionsWithLambdaAssociations":
@@ -7001,7 +7001,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyHeadersInForwardedValues":
@@ -7012,7 +7012,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyLambdaFunctionAssociations":
@@ -7023,7 +7023,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginCustomHeaders":
@@ -7034,7 +7034,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOriginGroupsPerDistribution":
@@ -7045,7 +7045,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyOrigins":
@@ -7056,7 +7056,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyQueryStringParameters":
@@ -7067,7 +7067,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -7078,7 +7078,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -7089,7 +7089,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7101,7 +7101,7 @@ async function deserializeAws_restXmlUpdateDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7124,7 +7124,7 @@ export async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigComm
     $metadata: deserializeMetadata(output),
     __type: "UpdateFieldLevelEncryptionConfigResult",
     ETag: undefined,
-    FieldLevelEncryption: undefined
+    FieldLevelEncryption: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -7143,7 +7143,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
 ): Promise<UpdateFieldLevelEncryptionConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7157,7 +7157,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -7168,7 +7168,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -7179,7 +7179,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -7190,7 +7190,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -7201,7 +7201,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionConfig":
@@ -7212,7 +7212,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -7223,7 +7223,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -7234,7 +7234,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "QueryArgProfileEmpty":
@@ -7245,7 +7245,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionContentTypeProfiles":
@@ -7256,7 +7256,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionQueryArgProfiles":
@@ -7267,7 +7267,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7279,7 +7279,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionConfigCommandErro
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7302,7 +7302,7 @@ export async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCom
     $metadata: deserializeMetadata(output),
     __type: "UpdateFieldLevelEncryptionProfileResult",
     ETag: undefined,
-    FieldLevelEncryptionProfile: undefined
+    FieldLevelEncryptionProfile: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -7321,7 +7321,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
 ): Promise<UpdateFieldLevelEncryptionProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7335,7 +7335,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FieldLevelEncryptionProfileAlreadyExists":
@@ -7346,7 +7346,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FieldLevelEncryptionProfileSizeExceeded":
@@ -7357,7 +7357,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -7368,7 +7368,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -7379,7 +7379,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -7390,7 +7390,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -7401,7 +7401,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchFieldLevelEncryptionProfile":
@@ -7412,7 +7412,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -7423,7 +7423,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -7434,7 +7434,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionEncryptionEntities":
@@ -7445,7 +7445,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyFieldLevelEncryptionFieldPatterns":
@@ -7456,7 +7456,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7468,7 +7468,7 @@ async function deserializeAws_restXmlUpdateFieldLevelEncryptionProfileCommandErr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7488,7 +7488,7 @@ export async function deserializeAws_restXmlUpdatePublicKeyCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdatePublicKeyResult",
     ETag: undefined,
-    PublicKey: undefined
+    PublicKey: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -7504,7 +7504,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
 ): Promise<UpdatePublicKeyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7518,7 +7518,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CannotChangeImmutablePublicKeyFields":
@@ -7529,7 +7529,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -7540,7 +7540,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -7551,7 +7551,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -7562,7 +7562,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchPublicKey":
@@ -7573,7 +7573,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -7584,7 +7584,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7596,7 +7596,7 @@ async function deserializeAws_restXmlUpdatePublicKeyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7619,7 +7619,7 @@ export async function deserializeAws_restXmlUpdateStreamingDistributionCommand(
     $metadata: deserializeMetadata(output),
     __type: "UpdateStreamingDistributionResult",
     ETag: undefined,
-    StreamingDistribution: undefined
+    StreamingDistribution: undefined,
   };
   if (output.headers["etag"] !== undefined) {
     contents.ETag = output.headers["etag"];
@@ -7638,7 +7638,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
 ): Promise<UpdateStreamingDistributionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7652,7 +7652,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CNAMEAlreadyExists":
@@ -7663,7 +7663,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IllegalUpdate":
@@ -7674,7 +7674,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InconsistentQuantities":
@@ -7685,7 +7685,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidArgument":
@@ -7696,7 +7696,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidIfMatchVersion":
@@ -7707,7 +7707,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidOriginAccessIdentity":
@@ -7718,7 +7718,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingBody":
@@ -7729,7 +7729,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NoSuchStreamingDistribution":
@@ -7740,7 +7740,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PreconditionFailed":
@@ -7751,7 +7751,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyStreamingDistributionCNAMEs":
@@ -7762,7 +7762,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTrustedSigners":
@@ -7773,7 +7773,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrustedSignerDoesNotExist":
@@ -7784,7 +7784,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7796,7 +7796,7 @@ async function deserializeAws_restXmlUpdateStreamingDistributionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7813,7 +7813,7 @@ const deserializeAws_restXmlAccessDeniedResponse = async (
     name: "AccessDenied",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7830,7 +7830,7 @@ const deserializeAws_restXmlBatchTooLargeResponse = async (
     name: "BatchTooLarge",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7847,7 +7847,7 @@ const deserializeAws_restXmlCNAMEAlreadyExistsResponse = async (
     name: "CNAMEAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7864,7 +7864,7 @@ const deserializeAws_restXmlCannotChangeImmutablePublicKeyFieldsResponse = async
     name: "CannotChangeImmutablePublicKeyFields",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7881,7 +7881,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentityAlreadyExistsResponse 
     name: "CloudFrontOriginAccessIdentityAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7898,7 +7898,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentityInUseResponse = async 
     name: "CloudFrontOriginAccessIdentityInUse",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7915,7 +7915,7 @@ const deserializeAws_restXmlDistributionAlreadyExistsResponse = async (
     name: "DistributionAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7932,7 +7932,7 @@ const deserializeAws_restXmlDistributionNotDisabledResponse = async (
     name: "DistributionNotDisabled",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7949,7 +7949,7 @@ const deserializeAws_restXmlFieldLevelEncryptionConfigAlreadyExistsResponse = as
     name: "FieldLevelEncryptionConfigAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7966,7 +7966,7 @@ const deserializeAws_restXmlFieldLevelEncryptionConfigInUseResponse = async (
     name: "FieldLevelEncryptionConfigInUse",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -7983,7 +7983,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileAlreadyExistsResponse = a
     name: "FieldLevelEncryptionProfileAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8000,7 +8000,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileInUseResponse = async (
     name: "FieldLevelEncryptionProfileInUse",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8017,7 +8017,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileSizeExceededResponse = as
     name: "FieldLevelEncryptionProfileSizeExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8034,7 +8034,7 @@ const deserializeAws_restXmlIllegalFieldLevelEncryptionConfigAssociationWithCach
     name: "IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8051,7 +8051,7 @@ const deserializeAws_restXmlIllegalUpdateResponse = async (
     name: "IllegalUpdate",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8068,7 +8068,7 @@ const deserializeAws_restXmlInconsistentQuantitiesResponse = async (
     name: "InconsistentQuantities",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8085,7 +8085,7 @@ const deserializeAws_restXmlInvalidArgumentResponse = async (
     name: "InvalidArgument",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8102,7 +8102,7 @@ const deserializeAws_restXmlInvalidDefaultRootObjectResponse = async (
     name: "InvalidDefaultRootObject",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8119,7 +8119,7 @@ const deserializeAws_restXmlInvalidErrorCodeResponse = async (
     name: "InvalidErrorCode",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8136,7 +8136,7 @@ const deserializeAws_restXmlInvalidForwardCookiesResponse = async (
     name: "InvalidForwardCookies",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8153,7 +8153,7 @@ const deserializeAws_restXmlInvalidGeoRestrictionParameterResponse = async (
     name: "InvalidGeoRestrictionParameter",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8170,7 +8170,7 @@ const deserializeAws_restXmlInvalidHeadersForS3OriginResponse = async (
     name: "InvalidHeadersForS3Origin",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8187,7 +8187,7 @@ const deserializeAws_restXmlInvalidIfMatchVersionResponse = async (
     name: "InvalidIfMatchVersion",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8204,7 +8204,7 @@ const deserializeAws_restXmlInvalidLambdaFunctionAssociationResponse = async (
     name: "InvalidLambdaFunctionAssociation",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8221,7 +8221,7 @@ const deserializeAws_restXmlInvalidLocationCodeResponse = async (
     name: "InvalidLocationCode",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8238,7 +8238,7 @@ const deserializeAws_restXmlInvalidMinimumProtocolVersionResponse = async (
     name: "InvalidMinimumProtocolVersion",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8255,7 +8255,7 @@ const deserializeAws_restXmlInvalidOriginResponse = async (
     name: "InvalidOrigin",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8272,7 +8272,7 @@ const deserializeAws_restXmlInvalidOriginAccessIdentityResponse = async (
     name: "InvalidOriginAccessIdentity",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8289,7 +8289,7 @@ const deserializeAws_restXmlInvalidOriginKeepaliveTimeoutResponse = async (
     name: "InvalidOriginKeepaliveTimeout",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8306,7 +8306,7 @@ const deserializeAws_restXmlInvalidOriginReadTimeoutResponse = async (
     name: "InvalidOriginReadTimeout",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8323,7 +8323,7 @@ const deserializeAws_restXmlInvalidProtocolSettingsResponse = async (
     name: "InvalidProtocolSettings",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8340,7 +8340,7 @@ const deserializeAws_restXmlInvalidQueryStringParametersResponse = async (
     name: "InvalidQueryStringParameters",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8357,7 +8357,7 @@ const deserializeAws_restXmlInvalidRelativePathResponse = async (
     name: "InvalidRelativePath",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8374,7 +8374,7 @@ const deserializeAws_restXmlInvalidRequiredProtocolResponse = async (
     name: "InvalidRequiredProtocol",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8391,7 +8391,7 @@ const deserializeAws_restXmlInvalidResponseCodeResponse = async (
     name: "InvalidResponseCode",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8408,7 +8408,7 @@ const deserializeAws_restXmlInvalidTTLOrderResponse = async (
     name: "InvalidTTLOrder",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8425,7 +8425,7 @@ const deserializeAws_restXmlInvalidTaggingResponse = async (
     name: "InvalidTagging",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8442,7 +8442,7 @@ const deserializeAws_restXmlInvalidViewerCertificateResponse = async (
     name: "InvalidViewerCertificate",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8459,7 +8459,7 @@ const deserializeAws_restXmlInvalidWebACLIdResponse = async (
     name: "InvalidWebACLId",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8476,7 +8476,7 @@ const deserializeAws_restXmlMissingBodyResponse = async (
     name: "MissingBody",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8493,7 +8493,7 @@ const deserializeAws_restXmlNoSuchCloudFrontOriginAccessIdentityResponse = async
     name: "NoSuchCloudFrontOriginAccessIdentity",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8510,7 +8510,7 @@ const deserializeAws_restXmlNoSuchDistributionResponse = async (
     name: "NoSuchDistribution",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8527,7 +8527,7 @@ const deserializeAws_restXmlNoSuchFieldLevelEncryptionConfigResponse = async (
     name: "NoSuchFieldLevelEncryptionConfig",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8544,7 +8544,7 @@ const deserializeAws_restXmlNoSuchFieldLevelEncryptionProfileResponse = async (
     name: "NoSuchFieldLevelEncryptionProfile",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8561,7 +8561,7 @@ const deserializeAws_restXmlNoSuchInvalidationResponse = async (
     name: "NoSuchInvalidation",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8578,7 +8578,7 @@ const deserializeAws_restXmlNoSuchOriginResponse = async (
     name: "NoSuchOrigin",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8595,7 +8595,7 @@ const deserializeAws_restXmlNoSuchPublicKeyResponse = async (
     name: "NoSuchPublicKey",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8612,7 +8612,7 @@ const deserializeAws_restXmlNoSuchResourceResponse = async (
     name: "NoSuchResource",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8629,7 +8629,7 @@ const deserializeAws_restXmlNoSuchStreamingDistributionResponse = async (
     name: "NoSuchStreamingDistribution",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8646,7 +8646,7 @@ const deserializeAws_restXmlPreconditionFailedResponse = async (
     name: "PreconditionFailed",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8663,7 +8663,7 @@ const deserializeAws_restXmlPublicKeyAlreadyExistsResponse = async (
     name: "PublicKeyAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8680,7 +8680,7 @@ const deserializeAws_restXmlPublicKeyInUseResponse = async (
     name: "PublicKeyInUse",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8697,7 +8697,7 @@ const deserializeAws_restXmlQueryArgProfileEmptyResponse = async (
     name: "QueryArgProfileEmpty",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8714,7 +8714,7 @@ const deserializeAws_restXmlStreamingDistributionAlreadyExistsResponse = async (
     name: "StreamingDistributionAlreadyExists",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8731,7 +8731,7 @@ const deserializeAws_restXmlStreamingDistributionNotDisabledResponse = async (
     name: "StreamingDistributionNotDisabled",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8748,7 +8748,7 @@ const deserializeAws_restXmlTooManyCacheBehaviorsResponse = async (
     name: "TooManyCacheBehaviors",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8765,7 +8765,7 @@ const deserializeAws_restXmlTooManyCertificatesResponse = async (
     name: "TooManyCertificates",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8782,7 +8782,7 @@ const deserializeAws_restXmlTooManyCloudFrontOriginAccessIdentitiesResponse = as
     name: "TooManyCloudFrontOriginAccessIdentities",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8799,7 +8799,7 @@ const deserializeAws_restXmlTooManyCookieNamesInWhiteListResponse = async (
     name: "TooManyCookieNamesInWhiteList",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8816,7 +8816,7 @@ const deserializeAws_restXmlTooManyDistributionCNAMEsResponse = async (
     name: "TooManyDistributionCNAMEs",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8833,7 +8833,7 @@ const deserializeAws_restXmlTooManyDistributionsResponse = async (
     name: "TooManyDistributions",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8850,7 +8850,7 @@ const deserializeAws_restXmlTooManyDistributionsAssociatedToFieldLevelEncryption
     name: "TooManyDistributionsAssociatedToFieldLevelEncryptionConfig",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8867,7 +8867,7 @@ const deserializeAws_restXmlTooManyDistributionsWithLambdaAssociationsResponse =
     name: "TooManyDistributionsWithLambdaAssociations",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8884,7 +8884,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionConfigsResponse = async (
     name: "TooManyFieldLevelEncryptionConfigs",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8901,7 +8901,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionContentTypeProfilesRespon
     name: "TooManyFieldLevelEncryptionContentTypeProfiles",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8918,7 +8918,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionEncryptionEntitiesRespons
     name: "TooManyFieldLevelEncryptionEncryptionEntities",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8935,7 +8935,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionFieldPatternsResponse = a
     name: "TooManyFieldLevelEncryptionFieldPatterns",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8952,7 +8952,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionProfilesResponse = async 
     name: "TooManyFieldLevelEncryptionProfiles",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8969,7 +8969,7 @@ const deserializeAws_restXmlTooManyFieldLevelEncryptionQueryArgProfilesResponse 
     name: "TooManyFieldLevelEncryptionQueryArgProfiles",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -8986,7 +8986,7 @@ const deserializeAws_restXmlTooManyHeadersInForwardedValuesResponse = async (
     name: "TooManyHeadersInForwardedValues",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9003,7 +9003,7 @@ const deserializeAws_restXmlTooManyInvalidationsInProgressResponse = async (
     name: "TooManyInvalidationsInProgress",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9020,7 +9020,7 @@ const deserializeAws_restXmlTooManyLambdaFunctionAssociationsResponse = async (
     name: "TooManyLambdaFunctionAssociations",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9037,7 +9037,7 @@ const deserializeAws_restXmlTooManyOriginCustomHeadersResponse = async (
     name: "TooManyOriginCustomHeaders",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9054,7 +9054,7 @@ const deserializeAws_restXmlTooManyOriginGroupsPerDistributionResponse = async (
     name: "TooManyOriginGroupsPerDistribution",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9071,7 +9071,7 @@ const deserializeAws_restXmlTooManyOriginsResponse = async (
     name: "TooManyOrigins",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9088,7 +9088,7 @@ const deserializeAws_restXmlTooManyPublicKeysResponse = async (
     name: "TooManyPublicKeys",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9105,7 +9105,7 @@ const deserializeAws_restXmlTooManyQueryStringParametersResponse = async (
     name: "TooManyQueryStringParameters",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9122,7 +9122,7 @@ const deserializeAws_restXmlTooManyStreamingDistributionCNAMEsResponse = async (
     name: "TooManyStreamingDistributionCNAMEs",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9139,7 +9139,7 @@ const deserializeAws_restXmlTooManyStreamingDistributionsResponse = async (
     name: "TooManyStreamingDistributions",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9156,7 +9156,7 @@ const deserializeAws_restXmlTooManyTrustedSignersResponse = async (
     name: "TooManyTrustedSigners",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -9173,7 +9173,7 @@ const deserializeAws_restXmlTrustedSignerDoesNotExistResponse = async (
     name: "TrustedSignerDoesNotExist",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body.Error;
   if (data["Message"] !== undefined) {
@@ -11267,7 +11267,7 @@ const deserializeAws_restXmlActiveTrustedSigners = (
     __type: "ActiveTrustedSigners",
     Enabled: undefined,
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["Enabled"] !== undefined) {
     contents.Enabled = output["Enabled"] == "true";
@@ -11298,7 +11298,7 @@ const deserializeAws_restXmlAliasICPRecordal = (
   let contents: any = {
     __type: "AliasICPRecordal",
     CNAME: undefined,
-    ICPRecordalStatus: undefined
+    ICPRecordalStatus: undefined,
   };
   if (output["CNAME"] !== undefined) {
     contents.CNAME = output["CNAME"];
@@ -11338,7 +11338,7 @@ const deserializeAws_restXmlAliases = (
   let contents: any = {
     __type: "Aliases",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11364,7 +11364,7 @@ const deserializeAws_restXmlAllowedMethods = (
     __type: "AllowedMethods",
     CachedMethods: undefined,
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["CachedMethods"] !== undefined) {
     contents.CachedMethods = deserializeAws_restXmlCachedMethods(
@@ -11420,7 +11420,7 @@ const deserializeAws_restXmlCacheBehavior = (
     SmoothStreaming: undefined,
     TargetOriginId: undefined,
     TrustedSigners: undefined,
-    ViewerProtocolPolicy: undefined
+    ViewerProtocolPolicy: undefined,
   };
   if (output["AllowedMethods"] !== undefined) {
     contents.AllowedMethods = deserializeAws_restXmlAllowedMethods(
@@ -11494,7 +11494,7 @@ const deserializeAws_restXmlCacheBehaviors = (
   let contents: any = {
     __type: "CacheBehaviors",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11525,7 +11525,7 @@ const deserializeAws_restXmlCachedMethods = (
   let contents: any = {
     __type: "CachedMethods",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11554,7 +11554,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentity = (
     __type: "CloudFrontOriginAccessIdentity",
     CloudFrontOriginAccessIdentityConfig: undefined,
     Id: undefined,
-    S3CanonicalUserId: undefined
+    S3CanonicalUserId: undefined,
   };
   if (output["CloudFrontOriginAccessIdentityConfig"] !== undefined) {
     contents.CloudFrontOriginAccessIdentityConfig = deserializeAws_restXmlCloudFrontOriginAccessIdentityConfig(
@@ -11578,7 +11578,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentityConfig = (
   let contents: any = {
     __type: "CloudFrontOriginAccessIdentityConfig",
     CallerReference: undefined,
-    Comment: undefined
+    Comment: undefined,
   };
   if (output["CallerReference"] !== undefined) {
     contents.CallerReference = output["CallerReference"];
@@ -11600,7 +11600,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentityList = (
     Marker: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["IsTruncated"] !== undefined) {
     contents.IsTruncated = output["IsTruncated"] == "true";
@@ -11644,7 +11644,7 @@ const deserializeAws_restXmlCloudFrontOriginAccessIdentitySummary = (
     __type: "CloudFrontOriginAccessIdentitySummary",
     Comment: undefined,
     Id: undefined,
-    S3CanonicalUserId: undefined
+    S3CanonicalUserId: undefined,
   };
   if (output["Comment"] !== undefined) {
     contents.Comment = output["Comment"];
@@ -11682,7 +11682,7 @@ const deserializeAws_restXmlContentTypeProfile = (
     __type: "ContentTypeProfile",
     ContentType: undefined,
     Format: undefined,
-    ProfileId: undefined
+    ProfileId: undefined,
   };
   if (output["ContentType"] !== undefined) {
     contents.ContentType = output["ContentType"];
@@ -11703,7 +11703,7 @@ const deserializeAws_restXmlContentTypeProfileConfig = (
   let contents: any = {
     __type: "ContentTypeProfileConfig",
     ContentTypeProfiles: undefined,
-    ForwardWhenContentTypeIsUnknown: undefined
+    ForwardWhenContentTypeIsUnknown: undefined,
   };
   if (output["ContentTypeProfiles"] !== undefined) {
     contents.ContentTypeProfiles = deserializeAws_restXmlContentTypeProfiles(
@@ -11736,7 +11736,7 @@ const deserializeAws_restXmlContentTypeProfiles = (
   let contents: any = {
     __type: "ContentTypeProfiles",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11778,7 +11778,7 @@ const deserializeAws_restXmlCookieNames = (
   let contents: any = {
     __type: "CookieNames",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11803,7 +11803,7 @@ const deserializeAws_restXmlCookiePreference = (
   let contents: any = {
     __type: "CookiePreference",
     Forward: undefined,
-    WhitelistedNames: undefined
+    WhitelistedNames: undefined,
   };
   if (output["Forward"] !== undefined) {
     contents.Forward = output["Forward"];
@@ -11826,7 +11826,7 @@ const deserializeAws_restXmlCustomErrorResponse = (
     ErrorCachingMinTTL: undefined,
     ErrorCode: undefined,
     ResponseCode: undefined,
-    ResponsePagePath: undefined
+    ResponsePagePath: undefined,
   };
   if (output["ErrorCachingMinTTL"] !== undefined) {
     contents.ErrorCachingMinTTL = parseInt(output["ErrorCachingMinTTL"]);
@@ -11861,7 +11861,7 @@ const deserializeAws_restXmlCustomErrorResponses = (
   let contents: any = {
     __type: "CustomErrorResponses",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11892,7 +11892,7 @@ const deserializeAws_restXmlCustomHeaders = (
   let contents: any = {
     __type: "CustomHeaders",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -11927,7 +11927,7 @@ const deserializeAws_restXmlCustomOriginConfig = (
     OriginKeepaliveTimeout: undefined,
     OriginProtocolPolicy: undefined,
     OriginReadTimeout: undefined,
-    OriginSslProtocols: undefined
+    OriginSslProtocols: undefined,
   };
   if (output["HTTPPort"] !== undefined) {
     contents.HTTPPort = parseInt(output["HTTPPort"]);
@@ -11972,7 +11972,7 @@ const deserializeAws_restXmlDefaultCacheBehavior = (
     SmoothStreaming: undefined,
     TargetOriginId: undefined,
     TrustedSigners: undefined,
-    ViewerProtocolPolicy: undefined
+    ViewerProtocolPolicy: undefined,
   };
   if (output["AllowedMethods"] !== undefined) {
     contents.AllowedMethods = deserializeAws_restXmlAllowedMethods(
@@ -12039,7 +12039,7 @@ const deserializeAws_restXmlDistribution = (
     Id: undefined,
     InProgressInvalidationBatches: undefined,
     LastModifiedTime: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["ARN"] !== undefined) {
     contents.ARN = output["ARN"];
@@ -12114,7 +12114,7 @@ const deserializeAws_restXmlDistributionConfig = (
     PriceClass: undefined,
     Restrictions: undefined,
     ViewerCertificate: undefined,
-    WebACLId: undefined
+    WebACLId: undefined,
   };
   if (output["Aliases"] !== undefined) {
     contents.Aliases = deserializeAws_restXmlAliases(
@@ -12208,7 +12208,7 @@ const deserializeAws_restXmlDistributionList = (
     Marker: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["IsTruncated"] !== undefined) {
     contents.IsTruncated = output["IsTruncated"] == "true";
@@ -12269,7 +12269,7 @@ const deserializeAws_restXmlDistributionSummary = (
     Restrictions: undefined,
     Status: undefined,
     ViewerCertificate: undefined,
-    WebACLId: undefined
+    WebACLId: undefined,
   };
   if (output["ARN"] !== undefined) {
     contents.ARN = output["ARN"];
@@ -12389,7 +12389,7 @@ const deserializeAws_restXmlEncryptionEntities = (
   let contents: any = {
     __type: "EncryptionEntities",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12421,7 +12421,7 @@ const deserializeAws_restXmlEncryptionEntity = (
     __type: "EncryptionEntity",
     FieldPatterns: undefined,
     ProviderId: undefined,
-    PublicKeyId: undefined
+    PublicKeyId: undefined,
   };
   if (output["FieldPatterns"] !== undefined) {
     contents.FieldPatterns = deserializeAws_restXmlFieldPatterns(
@@ -12457,7 +12457,7 @@ const deserializeAws_restXmlFieldLevelEncryption = (
     __type: "FieldLevelEncryption",
     FieldLevelEncryptionConfig: undefined,
     Id: undefined,
-    LastModifiedTime: undefined
+    LastModifiedTime: undefined,
   };
   if (output["FieldLevelEncryptionConfig"] !== undefined) {
     contents.FieldLevelEncryptionConfig = deserializeAws_restXmlFieldLevelEncryptionConfig(
@@ -12483,7 +12483,7 @@ const deserializeAws_restXmlFieldLevelEncryptionConfig = (
     CallerReference: undefined,
     Comment: undefined,
     ContentTypeProfileConfig: undefined,
-    QueryArgProfileConfig: undefined
+    QueryArgProfileConfig: undefined,
   };
   if (output["CallerReference"] !== undefined) {
     contents.CallerReference = output["CallerReference"];
@@ -12515,7 +12515,7 @@ const deserializeAws_restXmlFieldLevelEncryptionList = (
     Items: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12553,7 +12553,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfile = (
     __type: "FieldLevelEncryptionProfile",
     FieldLevelEncryptionProfileConfig: undefined,
     Id: undefined,
-    LastModifiedTime: undefined
+    LastModifiedTime: undefined,
   };
   if (output["FieldLevelEncryptionProfileConfig"] !== undefined) {
     contents.FieldLevelEncryptionProfileConfig = deserializeAws_restXmlFieldLevelEncryptionProfileConfig(
@@ -12579,7 +12579,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileConfig = (
     CallerReference: undefined,
     Comment: undefined,
     EncryptionEntities: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["CallerReference"] !== undefined) {
     contents.CallerReference = output["CallerReference"];
@@ -12608,7 +12608,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileList = (
     Items: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12648,7 +12648,7 @@ const deserializeAws_restXmlFieldLevelEncryptionProfileSummary = (
     EncryptionEntities: undefined,
     Id: undefined,
     LastModifiedTime: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["Comment"] !== undefined) {
     contents.Comment = output["Comment"];
@@ -12694,7 +12694,7 @@ const deserializeAws_restXmlFieldLevelEncryptionSummary = (
     ContentTypeProfileConfig: undefined,
     Id: undefined,
     LastModifiedTime: undefined,
-    QueryArgProfileConfig: undefined
+    QueryArgProfileConfig: undefined,
   };
   if (output["Comment"] !== undefined) {
     contents.Comment = output["Comment"];
@@ -12751,7 +12751,7 @@ const deserializeAws_restXmlFieldPatterns = (
   let contents: any = {
     __type: "FieldPatterns",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12784,7 +12784,7 @@ const deserializeAws_restXmlForwardedValues = (
     Cookies: undefined,
     Headers: undefined,
     QueryString: undefined,
-    QueryStringCacheKeys: undefined
+    QueryStringCacheKeys: undefined,
   };
   if (output["Cookies"] !== undefined) {
     contents.Cookies = deserializeAws_restXmlCookiePreference(
@@ -12818,7 +12818,7 @@ const deserializeAws_restXmlGeoRestriction = (
     __type: "GeoRestriction",
     Items: undefined,
     Quantity: undefined,
-    RestrictionType: undefined
+    RestrictionType: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12860,7 +12860,7 @@ const deserializeAws_restXmlHeaders = (
   let contents: any = {
     __type: "Headers",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -12887,7 +12887,7 @@ const deserializeAws_restXmlInvalidation = (
     CreateTime: undefined,
     Id: undefined,
     InvalidationBatch: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["CreateTime"] !== undefined) {
     contents.CreateTime = new Date(output["CreateTime"]);
@@ -12914,7 +12914,7 @@ const deserializeAws_restXmlInvalidationBatch = (
   let contents: any = {
     __type: "InvalidationBatch",
     CallerReference: undefined,
-    Paths: undefined
+    Paths: undefined,
   };
   if (output["CallerReference"] !== undefined) {
     contents.CallerReference = output["CallerReference"];
@@ -12936,7 +12936,7 @@ const deserializeAws_restXmlInvalidationList = (
     Marker: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["IsTruncated"] !== undefined) {
     contents.IsTruncated = output["IsTruncated"] == "true";
@@ -12980,7 +12980,7 @@ const deserializeAws_restXmlInvalidationSummary = (
     __type: "InvalidationSummary",
     CreateTime: undefined,
     Id: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["CreateTime"] !== undefined) {
     contents.CreateTime = new Date(output["CreateTime"]);
@@ -13023,7 +13023,7 @@ const deserializeAws_restXmlKeyPairIds = (
   let contents: any = {
     __type: "KeyPairIds",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13052,7 +13052,7 @@ const deserializeAws_restXmlLambdaFunctionAssociation = (
     __type: "LambdaFunctionAssociation",
     EventType: undefined,
     IncludeBody: undefined,
-    LambdaFunctionARN: undefined
+    LambdaFunctionARN: undefined,
   };
   if (output["EventType"] !== undefined) {
     contents.EventType = output["EventType"];
@@ -13086,7 +13086,7 @@ const deserializeAws_restXmlLambdaFunctionAssociations = (
   let contents: any = {
     __type: "LambdaFunctionAssociations",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13130,7 +13130,7 @@ const deserializeAws_restXmlLoggingConfig = (
     Bucket: undefined,
     Enabled: undefined,
     IncludeCookies: undefined,
-    Prefix: undefined
+    Prefix: undefined,
   };
   if (output["Bucket"] !== undefined) {
     contents.Bucket = output["Bucket"];
@@ -13169,7 +13169,7 @@ const deserializeAws_restXmlOrigin = (
     DomainName: undefined,
     Id: undefined,
     OriginPath: undefined,
-    S3OriginConfig: undefined
+    S3OriginConfig: undefined,
   };
   if (output["CustomHeaders"] !== undefined) {
     contents.CustomHeaders = deserializeAws_restXmlCustomHeaders(
@@ -13208,7 +13208,7 @@ const deserializeAws_restXmlOriginCustomHeader = (
   let contents: any = {
     __type: "OriginCustomHeader",
     HeaderName: undefined,
-    HeaderValue: undefined
+    HeaderValue: undefined,
   };
   if (output["HeaderName"] !== undefined) {
     contents.HeaderName = output["HeaderName"];
@@ -13238,7 +13238,7 @@ const deserializeAws_restXmlOriginGroup = (
     __type: "OriginGroup",
     FailoverCriteria: undefined,
     Id: undefined,
-    Members: undefined
+    Members: undefined,
   };
   if (output["FailoverCriteria"] !== undefined) {
     contents.FailoverCriteria = deserializeAws_restXmlOriginGroupFailoverCriteria(
@@ -13264,7 +13264,7 @@ const deserializeAws_restXmlOriginGroupFailoverCriteria = (
 ): OriginGroupFailoverCriteria => {
   let contents: any = {
     __type: "OriginGroupFailoverCriteria",
-    StatusCodes: undefined
+    StatusCodes: undefined,
   };
   if (output["StatusCodes"] !== undefined) {
     contents.StatusCodes = deserializeAws_restXmlStatusCodes(
@@ -13292,7 +13292,7 @@ const deserializeAws_restXmlOriginGroupMember = (
 ): OriginGroupMember => {
   let contents: any = {
     __type: "OriginGroupMember",
-    OriginId: undefined
+    OriginId: undefined,
   };
   if (output["OriginId"] !== undefined) {
     contents.OriginId = output["OriginId"];
@@ -13318,7 +13318,7 @@ const deserializeAws_restXmlOriginGroupMembers = (
   let contents: any = {
     __type: "OriginGroupMembers",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13349,7 +13349,7 @@ const deserializeAws_restXmlOriginGroups = (
   let contents: any = {
     __type: "OriginGroups",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13391,7 +13391,7 @@ const deserializeAws_restXmlOriginSslProtocols = (
   let contents: any = {
     __type: "OriginSslProtocols",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13422,7 +13422,7 @@ const deserializeAws_restXmlOrigins = (
   let contents: any = {
     __type: "Origins",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13461,7 +13461,7 @@ const deserializeAws_restXmlPaths = (
   let contents: any = {
     __type: "Paths",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13487,7 +13487,7 @@ const deserializeAws_restXmlPublicKey = (
     __type: "PublicKey",
     CreatedTime: undefined,
     Id: undefined,
-    PublicKeyConfig: undefined
+    PublicKeyConfig: undefined,
   };
   if (output["CreatedTime"] !== undefined) {
     contents.CreatedTime = new Date(output["CreatedTime"]);
@@ -13513,7 +13513,7 @@ const deserializeAws_restXmlPublicKeyConfig = (
     CallerReference: undefined,
     Comment: undefined,
     EncodedKey: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["CallerReference"] !== undefined) {
     contents.CallerReference = output["CallerReference"];
@@ -13539,7 +13539,7 @@ const deserializeAws_restXmlPublicKeyList = (
     Items: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13579,7 +13579,7 @@ const deserializeAws_restXmlPublicKeySummary = (
     CreatedTime: undefined,
     EncodedKey: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output["Comment"] !== undefined) {
     contents.Comment = output["Comment"];
@@ -13617,7 +13617,7 @@ const deserializeAws_restXmlQueryArgProfile = (
   let contents: any = {
     __type: "QueryArgProfile",
     ProfileId: undefined,
-    QueryArg: undefined
+    QueryArg: undefined,
   };
   if (output["ProfileId"] !== undefined) {
     contents.ProfileId = output["ProfileId"];
@@ -13635,7 +13635,7 @@ const deserializeAws_restXmlQueryArgProfileConfig = (
   let contents: any = {
     __type: "QueryArgProfileConfig",
     ForwardWhenQueryArgProfileIsUnknown: undefined,
-    QueryArgProfiles: undefined
+    QueryArgProfiles: undefined,
   };
   if (output["ForwardWhenQueryArgProfileIsUnknown"] !== undefined) {
     contents.ForwardWhenQueryArgProfileIsUnknown =
@@ -13668,7 +13668,7 @@ const deserializeAws_restXmlQueryArgProfiles = (
   let contents: any = {
     __type: "QueryArgProfiles",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13699,7 +13699,7 @@ const deserializeAws_restXmlQueryStringCacheKeys = (
   let contents: any = {
     __type: "QueryStringCacheKeys",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13737,7 +13737,7 @@ const deserializeAws_restXmlRestrictions = (
 ): Restrictions => {
   let contents: any = {
     __type: "Restrictions",
-    GeoRestriction: undefined
+    GeoRestriction: undefined,
   };
   if (output["GeoRestriction"] !== undefined) {
     contents.GeoRestriction = deserializeAws_restXmlGeoRestriction(
@@ -13755,7 +13755,7 @@ const deserializeAws_restXmlS3Origin = (
   let contents: any = {
     __type: "S3Origin",
     DomainName: undefined,
-    OriginAccessIdentity: undefined
+    OriginAccessIdentity: undefined,
   };
   if (output["DomainName"] !== undefined) {
     contents.DomainName = output["DomainName"];
@@ -13772,7 +13772,7 @@ const deserializeAws_restXmlS3OriginConfig = (
 ): S3OriginConfig => {
   let contents: any = {
     __type: "S3OriginConfig",
-    OriginAccessIdentity: undefined
+    OriginAccessIdentity: undefined,
   };
   if (output["OriginAccessIdentity"] !== undefined) {
     contents.OriginAccessIdentity = output["OriginAccessIdentity"];
@@ -13787,7 +13787,7 @@ const deserializeAws_restXmlSigner = (
   let contents: any = {
     __type: "Signer",
     AwsAccountNumber: undefined,
-    KeyPairIds: undefined
+    KeyPairIds: undefined,
   };
   if (output["AwsAccountNumber"] !== undefined) {
     contents.AwsAccountNumber = output["AwsAccountNumber"];
@@ -13841,7 +13841,7 @@ const deserializeAws_restXmlStatusCodes = (
   let contents: any = {
     __type: "StatusCodes",
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -13874,7 +13874,7 @@ const deserializeAws_restXmlStreamingDistribution = (
     Id: undefined,
     LastModifiedTime: undefined,
     Status: undefined,
-    StreamingDistributionConfig: undefined
+    StreamingDistributionConfig: undefined,
   };
   if (output["ARN"] !== undefined) {
     contents.ARN = output["ARN"];
@@ -13919,7 +13919,7 @@ const deserializeAws_restXmlStreamingDistributionConfig = (
     Logging: undefined,
     PriceClass: undefined,
     S3Origin: undefined,
-    TrustedSigners: undefined
+    TrustedSigners: undefined,
   };
   if (output["Aliases"] !== undefined) {
     contents.Aliases = deserializeAws_restXmlAliases(
@@ -13971,7 +13971,7 @@ const deserializeAws_restXmlStreamingDistributionList = (
     Marker: undefined,
     MaxItems: undefined,
     NextMarker: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["IsTruncated"] !== undefined) {
     contents.IsTruncated = output["IsTruncated"] == "true";
@@ -14023,7 +14023,7 @@ const deserializeAws_restXmlStreamingDistributionSummary = (
     PriceClass: undefined,
     S3Origin: undefined,
     Status: undefined,
-    TrustedSigners: undefined
+    TrustedSigners: undefined,
   };
   if (output["ARN"] !== undefined) {
     contents.ARN = output["ARN"];
@@ -14091,7 +14091,7 @@ const deserializeAws_restXmlStreamingLoggingConfig = (
     __type: "StreamingLoggingConfig",
     Bucket: undefined,
     Enabled: undefined,
-    Prefix: undefined
+    Prefix: undefined,
   };
   if (output["Bucket"] !== undefined) {
     contents.Bucket = output["Bucket"];
@@ -14112,7 +14112,7 @@ const deserializeAws_restXmlTag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Key"] !== undefined) {
     contents.Key = output["Key"];
@@ -14140,7 +14140,7 @@ const deserializeAws_restXmlTags = (
 ): Tags => {
   let contents: any = {
     __type: "Tags",
-    Items: undefined
+    Items: undefined,
   };
   if (output.Items === "") {
     contents.Items = [];
@@ -14163,7 +14163,7 @@ const deserializeAws_restXmlTrustedSigners = (
     __type: "TrustedSigners",
     Enabled: undefined,
     Items: undefined,
-    Quantity: undefined
+    Quantity: undefined,
   };
   if (output["Enabled"] !== undefined) {
     contents.Enabled = output["Enabled"] == "true";
@@ -14202,7 +14202,7 @@ const deserializeAws_restXmlViewerCertificate = (
     CloudFrontDefaultCertificate: undefined,
     IAMCertificateId: undefined,
     MinimumProtocolVersion: undefined,
-    SSLSupportMethod: undefined
+    SSLSupportMethod: undefined,
   };
   if (output["ACMCertificateArn"] !== undefined) {
     contents.ACMCertificateArn = output["ACMCertificateArn"];
@@ -14232,7 +14232,7 @@ const deserializeAws_restXmlViewerCertificate = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -14253,7 +14253,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -14268,13 +14268,13 @@ const decodeEscapedXML = (str: string) => {
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       const parsedObj = xmlParse(encoded, {
         attributeNamePrefix: "",
         ignoreAttributes: false,
         parseNodeValue: false,
-        tagValueProcessor: (val, tagName) => decodeEscapedXML(val)
+        tagValueProcessor: (val, tagName) => decodeEscapedXML(val),
       });
       const textNodeName = "#text";
       const key = Object.keys(parsedObj)[0];

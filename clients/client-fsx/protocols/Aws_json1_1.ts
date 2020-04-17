@@ -1,58 +1,58 @@
 import {
   CancelDataRepositoryTaskCommandInput,
-  CancelDataRepositoryTaskCommandOutput
+  CancelDataRepositoryTaskCommandOutput,
 } from "../commands/CancelDataRepositoryTaskCommand";
 import {
   CreateBackupCommandInput,
-  CreateBackupCommandOutput
+  CreateBackupCommandOutput,
 } from "../commands/CreateBackupCommand";
 import {
   CreateDataRepositoryTaskCommandInput,
-  CreateDataRepositoryTaskCommandOutput
+  CreateDataRepositoryTaskCommandOutput,
 } from "../commands/CreateDataRepositoryTaskCommand";
 import {
   CreateFileSystemCommandInput,
-  CreateFileSystemCommandOutput
+  CreateFileSystemCommandOutput,
 } from "../commands/CreateFileSystemCommand";
 import {
   CreateFileSystemFromBackupCommandInput,
-  CreateFileSystemFromBackupCommandOutput
+  CreateFileSystemFromBackupCommandOutput,
 } from "../commands/CreateFileSystemFromBackupCommand";
 import {
   DeleteBackupCommandInput,
-  DeleteBackupCommandOutput
+  DeleteBackupCommandOutput,
 } from "../commands/DeleteBackupCommand";
 import {
   DeleteFileSystemCommandInput,
-  DeleteFileSystemCommandOutput
+  DeleteFileSystemCommandOutput,
 } from "../commands/DeleteFileSystemCommand";
 import {
   DescribeBackupsCommandInput,
-  DescribeBackupsCommandOutput
+  DescribeBackupsCommandOutput,
 } from "../commands/DescribeBackupsCommand";
 import {
   DescribeDataRepositoryTasksCommandInput,
-  DescribeDataRepositoryTasksCommandOutput
+  DescribeDataRepositoryTasksCommandOutput,
 } from "../commands/DescribeDataRepositoryTasksCommand";
 import {
   DescribeFileSystemsCommandInput,
-  DescribeFileSystemsCommandOutput
+  DescribeFileSystemsCommandOutput,
 } from "../commands/DescribeFileSystemsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateFileSystemCommandInput,
-  UpdateFileSystemCommandOutput
+  UpdateFileSystemCommandOutput,
 } from "../commands/UpdateFileSystemCommand";
 import {
   ActiveDirectoryBackupAttributes,
@@ -127,11 +127,11 @@ import {
   UpdateFileSystemRequest,
   UpdateFileSystemResponse,
   UpdateFileSystemWindowsConfiguration,
-  WindowsFileSystemConfiguration
+  WindowsFileSystemConfiguration,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -139,7 +139,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -360,7 +360,7 @@ export async function deserializeAws_json1_1CancelDataRepositoryTaskCommand(
   const response: CancelDataRepositoryTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelDataRepositoryTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -371,7 +371,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
 ): Promise<CancelDataRepositoryTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -387,7 +387,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataRepositoryTaskEnded":
@@ -398,7 +398,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataRepositoryTaskNotFound":
@@ -409,7 +409,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -420,7 +420,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperation":
@@ -431,7 +431,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -442,7 +442,7 @@ async function deserializeAws_json1_1CancelDataRepositoryTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -464,7 +464,7 @@ export async function deserializeAws_json1_1CreateBackupCommand(
   const response: CreateBackupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateBackupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -475,7 +475,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
 ): Promise<CreateBackupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -491,7 +491,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -502,7 +502,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -513,7 +513,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -524,7 +524,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -535,7 +535,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceLimitExceeded":
@@ -546,7 +546,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperation":
@@ -557,7 +557,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -568,7 +568,7 @@ async function deserializeAws_json1_1CreateBackupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -596,7 +596,7 @@ export async function deserializeAws_json1_1CreateDataRepositoryTaskCommand(
   const response: CreateDataRepositoryTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDataRepositoryTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -607,7 +607,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
 ): Promise<CreateDataRepositoryTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -623,7 +623,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataRepositoryTaskExecuting":
@@ -634,7 +634,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -645,7 +645,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -656,7 +656,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -667,7 +667,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceLimitExceeded":
@@ -678,7 +678,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperation":
@@ -689,7 +689,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -700,7 +700,7 @@ async function deserializeAws_json1_1CreateDataRepositoryTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -722,7 +722,7 @@ export async function deserializeAws_json1_1CreateFileSystemCommand(
   const response: CreateFileSystemCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateFileSystemResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -733,7 +733,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
 ): Promise<CreateFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -749,7 +749,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -760,7 +760,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -771,7 +771,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -782,7 +782,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidExportPath":
@@ -793,7 +793,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidImportPath":
@@ -804,7 +804,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNetworkSettings":
@@ -815,7 +815,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingFileSystemConfiguration":
@@ -826,7 +826,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceLimitExceeded":
@@ -837,7 +837,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -848,7 +848,7 @@ async function deserializeAws_json1_1CreateFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -876,7 +876,7 @@ export async function deserializeAws_json1_1CreateFileSystemFromBackupCommand(
   const response: CreateFileSystemFromBackupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateFileSystemFromBackupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -887,7 +887,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
 ): Promise<CreateFileSystemFromBackupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -903,7 +903,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BackupNotFound":
@@ -914,7 +914,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -925,7 +925,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -936,7 +936,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -947,7 +947,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidNetworkSettings":
@@ -958,7 +958,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingFileSystemConfiguration":
@@ -969,7 +969,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceLimitExceeded":
@@ -980,7 +980,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -991,7 +991,7 @@ async function deserializeAws_json1_1CreateFileSystemFromBackupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1013,7 +1013,7 @@ export async function deserializeAws_json1_1DeleteBackupCommand(
   const response: DeleteBackupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteBackupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1024,7 +1024,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
 ): Promise<DeleteBackupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1040,7 +1040,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BackupNotFound":
@@ -1051,7 +1051,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BackupRestoring":
@@ -1062,7 +1062,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -1073,7 +1073,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -1084,7 +1084,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1095,7 +1095,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1106,7 +1106,7 @@ async function deserializeAws_json1_1DeleteBackupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1128,7 +1128,7 @@ export async function deserializeAws_json1_1DeleteFileSystemCommand(
   const response: DeleteFileSystemCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteFileSystemResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1139,7 +1139,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
 ): Promise<DeleteFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1155,7 +1155,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1166,7 +1166,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -1177,7 +1177,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1188,7 +1188,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceLimitExceeded":
@@ -1199,7 +1199,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1210,7 +1210,7 @@ async function deserializeAws_json1_1DeleteFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1232,7 +1232,7 @@ export async function deserializeAws_json1_1DescribeBackupsCommand(
   const response: DescribeBackupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBackupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1243,7 +1243,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
 ): Promise<DescribeBackupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1259,7 +1259,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "BadRequest":
@@ -1270,7 +1270,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1281,7 +1281,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1292,7 +1292,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1303,7 +1303,7 @@ async function deserializeAws_json1_1DescribeBackupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1331,7 +1331,7 @@ export async function deserializeAws_json1_1DescribeDataRepositoryTasksCommand(
   const response: DescribeDataRepositoryTasksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDataRepositoryTasksResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1342,7 +1342,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
 ): Promise<DescribeDataRepositoryTasksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1358,7 +1358,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DataRepositoryTaskNotFound":
@@ -1369,7 +1369,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1380,7 +1380,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1391,7 +1391,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1402,7 +1402,7 @@ async function deserializeAws_json1_1DescribeDataRepositoryTasksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1427,7 +1427,7 @@ export async function deserializeAws_json1_1DescribeFileSystemsCommand(
   const response: DescribeFileSystemsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeFileSystemsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1438,7 +1438,7 @@ async function deserializeAws_json1_1DescribeFileSystemsCommandError(
 ): Promise<DescribeFileSystemsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1454,7 +1454,7 @@ async function deserializeAws_json1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1465,7 +1465,7 @@ async function deserializeAws_json1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1476,7 +1476,7 @@ async function deserializeAws_json1_1DescribeFileSystemsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1487,7 +1487,7 @@ async function deserializeAws_json1_1DescribeFileSystemsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1512,7 +1512,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1523,7 +1523,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1539,7 +1539,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1550,7 +1550,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotServiceResourceError":
@@ -1561,7 +1561,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceDoesNotSupportTagging":
@@ -1572,7 +1572,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -1583,7 +1583,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1594,7 +1594,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1616,7 +1616,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1627,7 +1627,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1643,7 +1643,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1654,7 +1654,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotServiceResourceError":
@@ -1665,7 +1665,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceDoesNotSupportTagging":
@@ -1676,7 +1676,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -1687,7 +1687,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1698,7 +1698,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1720,7 +1720,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1731,7 +1731,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1747,7 +1747,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1758,7 +1758,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NotServiceResourceError":
@@ -1769,7 +1769,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceDoesNotSupportTagging":
@@ -1780,7 +1780,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFound":
@@ -1791,7 +1791,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1802,7 +1802,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1824,7 +1824,7 @@ export async function deserializeAws_json1_1UpdateFileSystemCommand(
   const response: UpdateFileSystemCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateFileSystemResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1835,7 +1835,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
 ): Promise<UpdateFileSystemCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1851,7 +1851,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FileSystemNotFound":
@@ -1862,7 +1862,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleParameterError":
@@ -1873,7 +1873,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -1884,7 +1884,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingFileSystemConfiguration":
@@ -1895,7 +1895,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperation":
@@ -1906,7 +1906,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1917,7 +1917,7 @@ async function deserializeAws_json1_1UpdateFileSystemCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1939,7 +1939,7 @@ const deserializeAws_json1_1ActiveDirectoryErrorResponse = async (
     name: "ActiveDirectoryError",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1957,7 +1957,7 @@ const deserializeAws_json1_1BackupInProgressResponse = async (
     name: "BackupInProgress",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1972,7 +1972,7 @@ const deserializeAws_json1_1BackupNotFoundResponse = async (
     name: "BackupNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1990,7 +1990,7 @@ const deserializeAws_json1_1BackupRestoringResponse = async (
     name: "BackupRestoring",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2005,7 +2005,7 @@ const deserializeAws_json1_1BadRequestResponse = async (
     name: "BadRequest",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2023,7 +2023,7 @@ const deserializeAws_json1_1DataRepositoryTaskEndedResponse = async (
     name: "DataRepositoryTaskEnded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2041,7 +2041,7 @@ const deserializeAws_json1_1DataRepositoryTaskExecutingResponse = async (
     name: "DataRepositoryTaskExecuting",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2059,7 +2059,7 @@ const deserializeAws_json1_1DataRepositoryTaskNotFoundResponse = async (
     name: "DataRepositoryTaskNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2077,7 +2077,7 @@ const deserializeAws_json1_1FileSystemNotFoundResponse = async (
     name: "FileSystemNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2095,7 +2095,7 @@ const deserializeAws_json1_1IncompatibleParameterErrorResponse = async (
     name: "IncompatibleParameterError",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2113,7 +2113,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2131,7 +2131,7 @@ const deserializeAws_json1_1InvalidExportPathResponse = async (
     name: "InvalidExportPath",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2149,7 +2149,7 @@ const deserializeAws_json1_1InvalidImportPathResponse = async (
     name: "InvalidImportPath",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2167,7 +2167,7 @@ const deserializeAws_json1_1InvalidNetworkSettingsResponse = async (
     name: "InvalidNetworkSettings",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2185,7 +2185,7 @@ const deserializeAws_json1_1MissingFileSystemConfigurationResponse = async (
     name: "MissingFileSystemConfiguration",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2203,7 +2203,7 @@ const deserializeAws_json1_1NotServiceResourceErrorResponse = async (
     name: "NotServiceResourceError",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2221,7 +2221,7 @@ const deserializeAws_json1_1ResourceDoesNotSupportTaggingResponse = async (
     name: "ResourceDoesNotSupportTagging",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2239,7 +2239,7 @@ const deserializeAws_json1_1ResourceNotFoundResponse = async (
     name: "ResourceNotFound",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2257,7 +2257,7 @@ const deserializeAws_json1_1ServiceLimitExceededResponse = async (
     name: "ServiceLimitExceeded",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2275,7 +2275,7 @@ const deserializeAws_json1_1UnsupportedOperationResponse = async (
     name: "UnsupportedOperation",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3003,7 +3003,7 @@ const deserializeAws_json1_1ActiveDirectoryBackupAttributes = (
   let contents: any = {
     __type: "ActiveDirectoryBackupAttributes",
     ActiveDirectoryId: undefined,
-    DomainName: undefined
+    DomainName: undefined,
   };
   if (
     output.ActiveDirectoryId !== undefined &&
@@ -3025,7 +3025,7 @@ const deserializeAws_json1_1ActiveDirectoryError = (
     __type: "ActiveDirectoryError",
     ActiveDirectoryId: undefined,
     Message: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (
     output.ActiveDirectoryId !== undefined &&
@@ -3058,7 +3058,7 @@ const deserializeAws_json1_1Backup = (
     ProgressPercent: undefined,
     ResourceARN: undefined,
     Tags: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.BackupId !== undefined && output.BackupId !== null) {
     contents.BackupId = output.BackupId;
@@ -3114,7 +3114,7 @@ const deserializeAws_json1_1BackupFailureDetails = (
 ): BackupFailureDetails => {
   let contents: any = {
     __type: "BackupFailureDetails",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3128,7 +3128,7 @@ const deserializeAws_json1_1BackupInProgress = (
 ): BackupInProgress => {
   let contents: any = {
     __type: "BackupInProgress",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3142,7 +3142,7 @@ const deserializeAws_json1_1BackupNotFound = (
 ): BackupNotFound => {
   let contents: any = {
     __type: "BackupNotFound",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3157,7 +3157,7 @@ const deserializeAws_json1_1BackupRestoring = (
   let contents: any = {
     __type: "BackupRestoring",
     FileSystemId: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.FileSystemId !== undefined && output.FileSystemId !== null) {
     contents.FileSystemId = output.FileSystemId;
@@ -3183,7 +3183,7 @@ const deserializeAws_json1_1BadRequest = (
 ): BadRequest => {
   let contents: any = {
     __type: "BadRequest",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3198,7 +3198,7 @@ const deserializeAws_json1_1CancelDataRepositoryTaskResponse = (
   let contents: any = {
     __type: "CancelDataRepositoryTaskResponse",
     Lifecycle: undefined,
-    TaskId: undefined
+    TaskId: undefined,
   };
   if (output.Lifecycle !== undefined && output.Lifecycle !== null) {
     contents.Lifecycle = output.Lifecycle;
@@ -3218,7 +3218,7 @@ const deserializeAws_json1_1CompletionReport = (
     Enabled: undefined,
     Format: undefined,
     Path: undefined,
-    Scope: undefined
+    Scope: undefined,
   };
   if (output.Enabled !== undefined && output.Enabled !== null) {
     contents.Enabled = output.Enabled;
@@ -3241,7 +3241,7 @@ const deserializeAws_json1_1CreateBackupResponse = (
 ): CreateBackupResponse => {
   let contents: any = {
     __type: "CreateBackupResponse",
-    Backup: undefined
+    Backup: undefined,
   };
   if (output.Backup !== undefined && output.Backup !== null) {
     contents.Backup = deserializeAws_json1_1Backup(output.Backup, context);
@@ -3255,7 +3255,7 @@ const deserializeAws_json1_1CreateDataRepositoryTaskResponse = (
 ): CreateDataRepositoryTaskResponse => {
   let contents: any = {
     __type: "CreateDataRepositoryTaskResponse",
-    DataRepositoryTask: undefined
+    DataRepositoryTask: undefined,
   };
   if (
     output.DataRepositoryTask !== undefined &&
@@ -3275,7 +3275,7 @@ const deserializeAws_json1_1CreateFileSystemFromBackupResponse = (
 ): CreateFileSystemFromBackupResponse => {
   let contents: any = {
     __type: "CreateFileSystemFromBackupResponse",
-    FileSystem: undefined
+    FileSystem: undefined,
   };
   if (output.FileSystem !== undefined && output.FileSystem !== null) {
     contents.FileSystem = deserializeAws_json1_1FileSystem(
@@ -3292,7 +3292,7 @@ const deserializeAws_json1_1CreateFileSystemResponse = (
 ): CreateFileSystemResponse => {
   let contents: any = {
     __type: "CreateFileSystemResponse",
-    FileSystem: undefined
+    FileSystem: undefined,
   };
   if (output.FileSystem !== undefined && output.FileSystem !== null) {
     contents.FileSystem = deserializeAws_json1_1FileSystem(
@@ -3311,7 +3311,7 @@ const deserializeAws_json1_1DataRepositoryConfiguration = (
     __type: "DataRepositoryConfiguration",
     ExportPath: undefined,
     ImportPath: undefined,
-    ImportedFileChunkSize: undefined
+    ImportedFileChunkSize: undefined,
   };
   if (output.ExportPath !== undefined && output.ExportPath !== null) {
     contents.ExportPath = output.ExportPath;
@@ -3346,7 +3346,7 @@ const deserializeAws_json1_1DataRepositoryTask = (
     Status: undefined,
     Tags: undefined,
     TaskId: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3408,7 +3408,7 @@ const deserializeAws_json1_1DataRepositoryTaskEnded = (
 ): DataRepositoryTaskEnded => {
   let contents: any = {
     __type: "DataRepositoryTaskEnded",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3422,7 +3422,7 @@ const deserializeAws_json1_1DataRepositoryTaskExecuting = (
 ): DataRepositoryTaskExecuting => {
   let contents: any = {
     __type: "DataRepositoryTaskExecuting",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3436,7 +3436,7 @@ const deserializeAws_json1_1DataRepositoryTaskFailureDetails = (
 ): DataRepositoryTaskFailureDetails => {
   let contents: any = {
     __type: "DataRepositoryTaskFailureDetails",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3450,7 +3450,7 @@ const deserializeAws_json1_1DataRepositoryTaskNotFound = (
 ): DataRepositoryTaskNotFound => {
   let contents: any = {
     __type: "DataRepositoryTaskNotFound",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3474,7 +3474,7 @@ const deserializeAws_json1_1DataRepositoryTaskStatus = (
     FailedCount: undefined,
     LastUpdatedTime: undefined,
     SucceededCount: undefined,
-    TotalCount: undefined
+    TotalCount: undefined,
   };
   if (output.FailedCount !== undefined && output.FailedCount !== null) {
     contents.FailedCount = output.FailedCount;
@@ -3509,7 +3509,7 @@ const deserializeAws_json1_1DeleteBackupResponse = (
   let contents: any = {
     __type: "DeleteBackupResponse",
     BackupId: undefined,
-    Lifecycle: undefined
+    Lifecycle: undefined,
   };
   if (output.BackupId !== undefined && output.BackupId !== null) {
     contents.BackupId = output.BackupId;
@@ -3528,7 +3528,7 @@ const deserializeAws_json1_1DeleteFileSystemResponse = (
     __type: "DeleteFileSystemResponse",
     FileSystemId: undefined,
     Lifecycle: undefined,
-    WindowsResponse: undefined
+    WindowsResponse: undefined,
   };
   if (output.FileSystemId !== undefined && output.FileSystemId !== null) {
     contents.FileSystemId = output.FileSystemId;
@@ -3552,7 +3552,7 @@ const deserializeAws_json1_1DeleteFileSystemWindowsResponse = (
   let contents: any = {
     __type: "DeleteFileSystemWindowsResponse",
     FinalBackupId: undefined,
-    FinalBackupTags: undefined
+    FinalBackupTags: undefined,
   };
   if (output.FinalBackupId !== undefined && output.FinalBackupId !== null) {
     contents.FinalBackupId = output.FinalBackupId;
@@ -3573,7 +3573,7 @@ const deserializeAws_json1_1DescribeBackupsResponse = (
   let contents: any = {
     __type: "DescribeBackupsResponse",
     Backups: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Backups !== undefined && output.Backups !== null) {
     contents.Backups = deserializeAws_json1_1Backups(output.Backups, context);
@@ -3591,7 +3591,7 @@ const deserializeAws_json1_1DescribeDataRepositoryTasksResponse = (
   let contents: any = {
     __type: "DescribeDataRepositoryTasksResponse",
     DataRepositoryTasks: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.DataRepositoryTasks !== undefined &&
@@ -3615,7 +3615,7 @@ const deserializeAws_json1_1DescribeFileSystemsResponse = (
   let contents: any = {
     __type: "DescribeFileSystemsResponse",
     FileSystems: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.FileSystems !== undefined && output.FileSystems !== null) {
     contents.FileSystems = deserializeAws_json1_1FileSystems(
@@ -3657,7 +3657,7 @@ const deserializeAws_json1_1FileSystem = (
     SubnetIds: undefined,
     Tags: undefined,
     VpcId: undefined,
-    WindowsConfiguration: undefined
+    WindowsConfiguration: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3740,7 +3740,7 @@ const deserializeAws_json1_1FileSystemFailureDetails = (
 ): FileSystemFailureDetails => {
   let contents: any = {
     __type: "FileSystemFailureDetails",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3761,7 +3761,7 @@ const deserializeAws_json1_1FileSystemNotFound = (
 ): FileSystemNotFound => {
   let contents: any = {
     __type: "FileSystemNotFound",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3785,7 +3785,7 @@ const deserializeAws_json1_1IncompatibleParameterError = (
   let contents: any = {
     __type: "IncompatibleParameterError",
     Message: undefined,
-    Parameter: undefined
+    Parameter: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3802,7 +3802,7 @@ const deserializeAws_json1_1InternalServerError = (
 ): InternalServerError => {
   let contents: any = {
     __type: "InternalServerError",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3816,7 +3816,7 @@ const deserializeAws_json1_1InvalidExportPath = (
 ): InvalidExportPath => {
   let contents: any = {
     __type: "InvalidExportPath",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3830,7 +3830,7 @@ const deserializeAws_json1_1InvalidImportPath = (
 ): InvalidImportPath => {
   let contents: any = {
     __type: "InvalidImportPath",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3846,7 +3846,7 @@ const deserializeAws_json1_1InvalidNetworkSettings = (
     __type: "InvalidNetworkSettings",
     InvalidSecurityGroupId: undefined,
     InvalidSubnetId: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (
     output.InvalidSecurityGroupId !== undefined &&
@@ -3870,7 +3870,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
   let contents: any = {
     __type: "ListTagsForResourceResponse",
     NextToken: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -3888,7 +3888,7 @@ const deserializeAws_json1_1LustreFileSystemConfiguration = (
   let contents: any = {
     __type: "LustreFileSystemConfiguration",
     DataRepositoryConfiguration: undefined,
-    WeeklyMaintenanceStartTime: undefined
+    WeeklyMaintenanceStartTime: undefined,
   };
   if (
     output.DataRepositoryConfiguration !== undefined &&
@@ -3914,7 +3914,7 @@ const deserializeAws_json1_1MissingFileSystemConfiguration = (
 ): MissingFileSystemConfiguration => {
   let contents: any = {
     __type: "MissingFileSystemConfiguration",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3936,7 +3936,7 @@ const deserializeAws_json1_1NotServiceResourceError = (
   let contents: any = {
     __type: "NotServiceResourceError",
     Message: undefined,
-    ResourceARN: undefined
+    ResourceARN: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3954,7 +3954,7 @@ const deserializeAws_json1_1ResourceDoesNotSupportTagging = (
   let contents: any = {
     __type: "ResourceDoesNotSupportTagging",
     Message: undefined,
-    ResourceARN: undefined
+    ResourceARN: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3972,7 +3972,7 @@ const deserializeAws_json1_1ResourceNotFound = (
   let contents: any = {
     __type: "ResourceNotFound",
     Message: undefined,
-    ResourceARN: undefined
+    ResourceARN: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -3993,7 +3993,7 @@ const deserializeAws_json1_1SelfManagedActiveDirectoryAttributes = (
     DomainName: undefined,
     FileSystemAdministratorsGroup: undefined,
     OrganizationalUnitDistinguishedName: undefined,
-    UserName: undefined
+    UserName: undefined,
   };
   if (output.DnsIps !== undefined && output.DnsIps !== null) {
     contents.DnsIps = deserializeAws_json1_1DnsIps(output.DnsIps, context);
@@ -4028,7 +4028,7 @@ const deserializeAws_json1_1ServiceLimitExceeded = (
   let contents: any = {
     __type: "ServiceLimitExceeded",
     Limit: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Limit !== undefined && output.Limit !== null) {
     contents.Limit = output.Limit;
@@ -4053,7 +4053,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -4069,7 +4069,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -4089,7 +4089,7 @@ const deserializeAws_json1_1UnsupportedOperation = (
 ): UnsupportedOperation => {
   let contents: any = {
     __type: "UnsupportedOperation",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -4102,7 +4102,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -4113,7 +4113,7 @@ const deserializeAws_json1_1UpdateFileSystemResponse = (
 ): UpdateFileSystemResponse => {
   let contents: any = {
     __type: "UpdateFileSystemResponse",
-    FileSystem: undefined
+    FileSystem: undefined,
   };
   if (output.FileSystem !== undefined && output.FileSystem !== null) {
     contents.FileSystem = deserializeAws_json1_1FileSystem(
@@ -4141,7 +4141,7 @@ const deserializeAws_json1_1WindowsFileSystemConfiguration = (
     RemoteAdministrationEndpoint: undefined,
     SelfManagedActiveDirectoryConfiguration: undefined,
     ThroughputCapacity: undefined,
-    WeeklyMaintenanceStartTime: undefined
+    WeeklyMaintenanceStartTime: undefined,
   };
   if (
     output.ActiveDirectoryId !== undefined &&
@@ -4225,7 +4225,7 @@ const deserializeAws_json1_1WindowsFileSystemConfiguration = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4246,7 +4246,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -4259,11 +4259,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -4275,7 +4275,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

@@ -1,26 +1,26 @@
 import {
   GetPersonalizedRankingCommandInput,
-  GetPersonalizedRankingCommandOutput
+  GetPersonalizedRankingCommandOutput,
 } from "../commands/GetPersonalizedRankingCommand";
 import {
   GetRecommendationsCommandInput,
-  GetRecommendationsCommandOutput
+  GetRecommendationsCommandOutput,
 } from "../commands/GetRecommendationsCommand";
 import {
   InvalidInputException,
   PredictedItem,
-  ResourceNotFoundException
+  ResourceNotFoundException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1GetPersonalizedRankingCommand(
@@ -52,12 +52,12 @@ export async function serializeAws_restJson1_1GetPersonalizedRankingCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -90,12 +90,12 @@ export async function serializeAws_restJson1_1GetRecommendationsCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -112,7 +112,7 @@ export async function deserializeAws_restJson1_1GetPersonalizedRankingCommand(
   const contents: GetPersonalizedRankingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetPersonalizedRankingResponse",
-    personalizedRanking: undefined
+    personalizedRanking: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -133,7 +133,7 @@ async function deserializeAws_restJson1_1GetPersonalizedRankingCommandError(
 ): Promise<GetPersonalizedRankingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -147,7 +147,7 @@ async function deserializeAws_restJson1_1GetPersonalizedRankingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -158,7 +158,7 @@ async function deserializeAws_restJson1_1GetPersonalizedRankingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -169,7 +169,7 @@ async function deserializeAws_restJson1_1GetPersonalizedRankingCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -191,7 +191,7 @@ export async function deserializeAws_restJson1_1GetRecommendationsCommand(
   const contents: GetRecommendationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRecommendationsResponse",
-    itemList: undefined
+    itemList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.itemList !== undefined && data.itemList !== null) {
@@ -209,7 +209,7 @@ async function deserializeAws_restJson1_1GetRecommendationsCommandError(
 ): Promise<GetRecommendationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -223,7 +223,7 @@ async function deserializeAws_restJson1_1GetRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -234,7 +234,7 @@ async function deserializeAws_restJson1_1GetRecommendationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -245,7 +245,7 @@ async function deserializeAws_restJson1_1GetRecommendationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -262,7 +262,7 @@ const deserializeAws_restJson1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -279,7 +279,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -293,7 +293,7 @@ const serializeAws_restJson1_1Context = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -325,7 +325,7 @@ const deserializeAws_restJson1_1PredictedItem = (
 ): PredictedItem => {
   let contents: any = {
     __type: "PredictedItem",
-    itemId: undefined
+    itemId: undefined,
   };
   if (output.itemId !== undefined && output.itemId !== null) {
     contents.itemId = output.itemId;
@@ -336,7 +336,7 @@ const deserializeAws_restJson1_1PredictedItem = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -357,13 +357,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -376,7 +376,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

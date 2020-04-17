@@ -1,110 +1,110 @@
 import {
   CancelTaskExecutionCommandInput,
-  CancelTaskExecutionCommandOutput
+  CancelTaskExecutionCommandOutput,
 } from "../commands/CancelTaskExecutionCommand";
 import {
   CreateAgentCommandInput,
-  CreateAgentCommandOutput
+  CreateAgentCommandOutput,
 } from "../commands/CreateAgentCommand";
 import {
   CreateLocationEfsCommandInput,
-  CreateLocationEfsCommandOutput
+  CreateLocationEfsCommandOutput,
 } from "../commands/CreateLocationEfsCommand";
 import {
   CreateLocationNfsCommandInput,
-  CreateLocationNfsCommandOutput
+  CreateLocationNfsCommandOutput,
 } from "../commands/CreateLocationNfsCommand";
 import {
   CreateLocationS3CommandInput,
-  CreateLocationS3CommandOutput
+  CreateLocationS3CommandOutput,
 } from "../commands/CreateLocationS3Command";
 import {
   CreateLocationSmbCommandInput,
-  CreateLocationSmbCommandOutput
+  CreateLocationSmbCommandOutput,
 } from "../commands/CreateLocationSmbCommand";
 import {
   CreateTaskCommandInput,
-  CreateTaskCommandOutput
+  CreateTaskCommandOutput,
 } from "../commands/CreateTaskCommand";
 import {
   DeleteAgentCommandInput,
-  DeleteAgentCommandOutput
+  DeleteAgentCommandOutput,
 } from "../commands/DeleteAgentCommand";
 import {
   DeleteLocationCommandInput,
-  DeleteLocationCommandOutput
+  DeleteLocationCommandOutput,
 } from "../commands/DeleteLocationCommand";
 import {
   DeleteTaskCommandInput,
-  DeleteTaskCommandOutput
+  DeleteTaskCommandOutput,
 } from "../commands/DeleteTaskCommand";
 import {
   DescribeAgentCommandInput,
-  DescribeAgentCommandOutput
+  DescribeAgentCommandOutput,
 } from "../commands/DescribeAgentCommand";
 import {
   DescribeLocationEfsCommandInput,
-  DescribeLocationEfsCommandOutput
+  DescribeLocationEfsCommandOutput,
 } from "../commands/DescribeLocationEfsCommand";
 import {
   DescribeLocationNfsCommandInput,
-  DescribeLocationNfsCommandOutput
+  DescribeLocationNfsCommandOutput,
 } from "../commands/DescribeLocationNfsCommand";
 import {
   DescribeLocationS3CommandInput,
-  DescribeLocationS3CommandOutput
+  DescribeLocationS3CommandOutput,
 } from "../commands/DescribeLocationS3Command";
 import {
   DescribeLocationSmbCommandInput,
-  DescribeLocationSmbCommandOutput
+  DescribeLocationSmbCommandOutput,
 } from "../commands/DescribeLocationSmbCommand";
 import {
   DescribeTaskCommandInput,
-  DescribeTaskCommandOutput
+  DescribeTaskCommandOutput,
 } from "../commands/DescribeTaskCommand";
 import {
   DescribeTaskExecutionCommandInput,
-  DescribeTaskExecutionCommandOutput
+  DescribeTaskExecutionCommandOutput,
 } from "../commands/DescribeTaskExecutionCommand";
 import {
   ListAgentsCommandInput,
-  ListAgentsCommandOutput
+  ListAgentsCommandOutput,
 } from "../commands/ListAgentsCommand";
 import {
   ListLocationsCommandInput,
-  ListLocationsCommandOutput
+  ListLocationsCommandOutput,
 } from "../commands/ListLocationsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListTaskExecutionsCommandInput,
-  ListTaskExecutionsCommandOutput
+  ListTaskExecutionsCommandOutput,
 } from "../commands/ListTaskExecutionsCommand";
 import {
   ListTasksCommandInput,
-  ListTasksCommandOutput
+  ListTasksCommandOutput,
 } from "../commands/ListTasksCommand";
 import {
   StartTaskExecutionCommandInput,
-  StartTaskExecutionCommandOutput
+  StartTaskExecutionCommandOutput,
 } from "../commands/StartTaskExecutionCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateAgentCommandInput,
-  UpdateAgentCommandOutput
+  UpdateAgentCommandOutput,
 } from "../commands/UpdateAgentCommand";
 import {
   UpdateTaskCommandInput,
-  UpdateTaskCommandOutput
+  UpdateTaskCommandOutput,
 } from "../commands/UpdateTaskCommand";
 import {
   AgentListEntry,
@@ -177,11 +177,11 @@ import {
   UpdateAgentRequest,
   UpdateAgentResponse,
   UpdateTaskRequest,
-  UpdateTaskResponse
+  UpdateTaskResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -189,7 +189,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1CancelTaskExecutionCommand(
@@ -568,7 +568,7 @@ export async function deserializeAws_json1_1CancelTaskExecutionCommand(
   const response: CancelTaskExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelTaskExecutionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -579,7 +579,7 @@ async function deserializeAws_json1_1CancelTaskExecutionCommandError(
 ): Promise<CancelTaskExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -595,7 +595,7 @@ async function deserializeAws_json1_1CancelTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -606,7 +606,7 @@ async function deserializeAws_json1_1CancelTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -617,7 +617,7 @@ async function deserializeAws_json1_1CancelTaskExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -639,7 +639,7 @@ export async function deserializeAws_json1_1CreateAgentCommand(
   const response: CreateAgentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateAgentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -650,7 +650,7 @@ async function deserializeAws_json1_1CreateAgentCommandError(
 ): Promise<CreateAgentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -666,7 +666,7 @@ async function deserializeAws_json1_1CreateAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -677,7 +677,7 @@ async function deserializeAws_json1_1CreateAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -688,7 +688,7 @@ async function deserializeAws_json1_1CreateAgentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -710,7 +710,7 @@ export async function deserializeAws_json1_1CreateLocationEfsCommand(
   const response: CreateLocationEfsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLocationEfsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -721,7 +721,7 @@ async function deserializeAws_json1_1CreateLocationEfsCommandError(
 ): Promise<CreateLocationEfsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -737,7 +737,7 @@ async function deserializeAws_json1_1CreateLocationEfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -748,7 +748,7 @@ async function deserializeAws_json1_1CreateLocationEfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -759,7 +759,7 @@ async function deserializeAws_json1_1CreateLocationEfsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -781,7 +781,7 @@ export async function deserializeAws_json1_1CreateLocationNfsCommand(
   const response: CreateLocationNfsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLocationNfsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -792,7 +792,7 @@ async function deserializeAws_json1_1CreateLocationNfsCommandError(
 ): Promise<CreateLocationNfsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -808,7 +808,7 @@ async function deserializeAws_json1_1CreateLocationNfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -819,7 +819,7 @@ async function deserializeAws_json1_1CreateLocationNfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -830,7 +830,7 @@ async function deserializeAws_json1_1CreateLocationNfsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -852,7 +852,7 @@ export async function deserializeAws_json1_1CreateLocationS3Command(
   const response: CreateLocationS3CommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLocationS3Response",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -863,7 +863,7 @@ async function deserializeAws_json1_1CreateLocationS3CommandError(
 ): Promise<CreateLocationS3CommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1CreateLocationS3CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -890,7 +890,7 @@ async function deserializeAws_json1_1CreateLocationS3CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -901,7 +901,7 @@ async function deserializeAws_json1_1CreateLocationS3CommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -923,7 +923,7 @@ export async function deserializeAws_json1_1CreateLocationSmbCommand(
   const response: CreateLocationSmbCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLocationSmbResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -934,7 +934,7 @@ async function deserializeAws_json1_1CreateLocationSmbCommandError(
 ): Promise<CreateLocationSmbCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -950,7 +950,7 @@ async function deserializeAws_json1_1CreateLocationSmbCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -961,7 +961,7 @@ async function deserializeAws_json1_1CreateLocationSmbCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -972,7 +972,7 @@ async function deserializeAws_json1_1CreateLocationSmbCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -994,7 +994,7 @@ export async function deserializeAws_json1_1CreateTaskCommand(
   const response: CreateTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1005,7 +1005,7 @@ async function deserializeAws_json1_1CreateTaskCommandError(
 ): Promise<CreateTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1021,7 +1021,7 @@ async function deserializeAws_json1_1CreateTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1032,7 +1032,7 @@ async function deserializeAws_json1_1CreateTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1043,7 +1043,7 @@ async function deserializeAws_json1_1CreateTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1065,7 +1065,7 @@ export async function deserializeAws_json1_1DeleteAgentCommand(
   const response: DeleteAgentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteAgentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1076,7 +1076,7 @@ async function deserializeAws_json1_1DeleteAgentCommandError(
 ): Promise<DeleteAgentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1092,7 +1092,7 @@ async function deserializeAws_json1_1DeleteAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1103,7 +1103,7 @@ async function deserializeAws_json1_1DeleteAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1114,7 +1114,7 @@ async function deserializeAws_json1_1DeleteAgentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1136,7 +1136,7 @@ export async function deserializeAws_json1_1DeleteLocationCommand(
   const response: DeleteLocationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLocationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1147,7 +1147,7 @@ async function deserializeAws_json1_1DeleteLocationCommandError(
 ): Promise<DeleteLocationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1163,7 +1163,7 @@ async function deserializeAws_json1_1DeleteLocationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1174,7 +1174,7 @@ async function deserializeAws_json1_1DeleteLocationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1185,7 +1185,7 @@ async function deserializeAws_json1_1DeleteLocationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1207,7 +1207,7 @@ export async function deserializeAws_json1_1DeleteTaskCommand(
   const response: DeleteTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1218,7 +1218,7 @@ async function deserializeAws_json1_1DeleteTaskCommandError(
 ): Promise<DeleteTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1234,7 +1234,7 @@ async function deserializeAws_json1_1DeleteTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1245,7 +1245,7 @@ async function deserializeAws_json1_1DeleteTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1256,7 +1256,7 @@ async function deserializeAws_json1_1DeleteTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1278,7 +1278,7 @@ export async function deserializeAws_json1_1DescribeAgentCommand(
   const response: DescribeAgentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAgentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1289,7 +1289,7 @@ async function deserializeAws_json1_1DescribeAgentCommandError(
 ): Promise<DescribeAgentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1305,7 +1305,7 @@ async function deserializeAws_json1_1DescribeAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1316,7 +1316,7 @@ async function deserializeAws_json1_1DescribeAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1327,7 +1327,7 @@ async function deserializeAws_json1_1DescribeAgentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1352,7 +1352,7 @@ export async function deserializeAws_json1_1DescribeLocationEfsCommand(
   const response: DescribeLocationEfsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeLocationEfsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1363,7 +1363,7 @@ async function deserializeAws_json1_1DescribeLocationEfsCommandError(
 ): Promise<DescribeLocationEfsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1379,7 +1379,7 @@ async function deserializeAws_json1_1DescribeLocationEfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1390,7 +1390,7 @@ async function deserializeAws_json1_1DescribeLocationEfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1401,7 +1401,7 @@ async function deserializeAws_json1_1DescribeLocationEfsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1426,7 +1426,7 @@ export async function deserializeAws_json1_1DescribeLocationNfsCommand(
   const response: DescribeLocationNfsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeLocationNfsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1437,7 +1437,7 @@ async function deserializeAws_json1_1DescribeLocationNfsCommandError(
 ): Promise<DescribeLocationNfsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1453,7 +1453,7 @@ async function deserializeAws_json1_1DescribeLocationNfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1464,7 +1464,7 @@ async function deserializeAws_json1_1DescribeLocationNfsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1475,7 +1475,7 @@ async function deserializeAws_json1_1DescribeLocationNfsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1500,7 +1500,7 @@ export async function deserializeAws_json1_1DescribeLocationS3Command(
   const response: DescribeLocationS3CommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeLocationS3Response",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1511,7 +1511,7 @@ async function deserializeAws_json1_1DescribeLocationS3CommandError(
 ): Promise<DescribeLocationS3CommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1527,7 +1527,7 @@ async function deserializeAws_json1_1DescribeLocationS3CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1538,7 +1538,7 @@ async function deserializeAws_json1_1DescribeLocationS3CommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1549,7 +1549,7 @@ async function deserializeAws_json1_1DescribeLocationS3CommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1574,7 +1574,7 @@ export async function deserializeAws_json1_1DescribeLocationSmbCommand(
   const response: DescribeLocationSmbCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeLocationSmbResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1585,7 +1585,7 @@ async function deserializeAws_json1_1DescribeLocationSmbCommandError(
 ): Promise<DescribeLocationSmbCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1601,7 +1601,7 @@ async function deserializeAws_json1_1DescribeLocationSmbCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1612,7 +1612,7 @@ async function deserializeAws_json1_1DescribeLocationSmbCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1623,7 +1623,7 @@ async function deserializeAws_json1_1DescribeLocationSmbCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1645,7 +1645,7 @@ export async function deserializeAws_json1_1DescribeTaskCommand(
   const response: DescribeTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1656,7 +1656,7 @@ async function deserializeAws_json1_1DescribeTaskCommandError(
 ): Promise<DescribeTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1672,7 +1672,7 @@ async function deserializeAws_json1_1DescribeTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1683,7 +1683,7 @@ async function deserializeAws_json1_1DescribeTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1694,7 +1694,7 @@ async function deserializeAws_json1_1DescribeTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1719,7 +1719,7 @@ export async function deserializeAws_json1_1DescribeTaskExecutionCommand(
   const response: DescribeTaskExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTaskExecutionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1730,7 +1730,7 @@ async function deserializeAws_json1_1DescribeTaskExecutionCommandError(
 ): Promise<DescribeTaskExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1746,7 +1746,7 @@ async function deserializeAws_json1_1DescribeTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1757,7 +1757,7 @@ async function deserializeAws_json1_1DescribeTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1768,7 +1768,7 @@ async function deserializeAws_json1_1DescribeTaskExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1790,7 +1790,7 @@ export async function deserializeAws_json1_1ListAgentsCommand(
   const response: ListAgentsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAgentsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1801,7 +1801,7 @@ async function deserializeAws_json1_1ListAgentsCommandError(
 ): Promise<ListAgentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1817,7 +1817,7 @@ async function deserializeAws_json1_1ListAgentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1828,7 +1828,7 @@ async function deserializeAws_json1_1ListAgentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1839,7 +1839,7 @@ async function deserializeAws_json1_1ListAgentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1861,7 +1861,7 @@ export async function deserializeAws_json1_1ListLocationsCommand(
   const response: ListLocationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListLocationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1872,7 +1872,7 @@ async function deserializeAws_json1_1ListLocationsCommandError(
 ): Promise<ListLocationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1888,7 +1888,7 @@ async function deserializeAws_json1_1ListLocationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1899,7 +1899,7 @@ async function deserializeAws_json1_1ListLocationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1910,7 +1910,7 @@ async function deserializeAws_json1_1ListLocationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1935,7 +1935,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1946,7 +1946,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1962,7 +1962,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -1973,7 +1973,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1984,7 +1984,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2009,7 +2009,7 @@ export async function deserializeAws_json1_1ListTaskExecutionsCommand(
   const response: ListTaskExecutionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTaskExecutionsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2020,7 +2020,7 @@ async function deserializeAws_json1_1ListTaskExecutionsCommandError(
 ): Promise<ListTaskExecutionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2036,7 +2036,7 @@ async function deserializeAws_json1_1ListTaskExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2047,7 +2047,7 @@ async function deserializeAws_json1_1ListTaskExecutionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2058,7 +2058,7 @@ async function deserializeAws_json1_1ListTaskExecutionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2080,7 +2080,7 @@ export async function deserializeAws_json1_1ListTasksCommand(
   const response: ListTasksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTasksResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2091,7 +2091,7 @@ async function deserializeAws_json1_1ListTasksCommandError(
 ): Promise<ListTasksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2107,7 +2107,7 @@ async function deserializeAws_json1_1ListTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2118,7 +2118,7 @@ async function deserializeAws_json1_1ListTasksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2129,7 +2129,7 @@ async function deserializeAws_json1_1ListTasksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2154,7 +2154,7 @@ export async function deserializeAws_json1_1StartTaskExecutionCommand(
   const response: StartTaskExecutionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartTaskExecutionResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2165,7 +2165,7 @@ async function deserializeAws_json1_1StartTaskExecutionCommandError(
 ): Promise<StartTaskExecutionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2181,7 +2181,7 @@ async function deserializeAws_json1_1StartTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2192,7 +2192,7 @@ async function deserializeAws_json1_1StartTaskExecutionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2203,7 +2203,7 @@ async function deserializeAws_json1_1StartTaskExecutionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2225,7 +2225,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2236,7 +2236,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2252,7 +2252,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2263,7 +2263,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2274,7 +2274,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2296,7 +2296,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2307,7 +2307,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2323,7 +2323,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2334,7 +2334,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2345,7 +2345,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2367,7 +2367,7 @@ export async function deserializeAws_json1_1UpdateAgentCommand(
   const response: UpdateAgentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateAgentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2378,7 +2378,7 @@ async function deserializeAws_json1_1UpdateAgentCommandError(
 ): Promise<UpdateAgentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2394,7 +2394,7 @@ async function deserializeAws_json1_1UpdateAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2405,7 +2405,7 @@ async function deserializeAws_json1_1UpdateAgentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2416,7 +2416,7 @@ async function deserializeAws_json1_1UpdateAgentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2438,7 +2438,7 @@ export async function deserializeAws_json1_1UpdateTaskCommand(
   const response: UpdateTaskCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateTaskResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2449,7 +2449,7 @@ async function deserializeAws_json1_1UpdateTaskCommandError(
 ): Promise<UpdateTaskCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2465,7 +2465,7 @@ async function deserializeAws_json1_1UpdateTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -2476,7 +2476,7 @@ async function deserializeAws_json1_1UpdateTaskCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2487,7 +2487,7 @@ async function deserializeAws_json1_1UpdateTaskCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2509,7 +2509,7 @@ const deserializeAws_json1_1InternalExceptionResponse = async (
     name: "InternalException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2527,7 +2527,7 @@ const deserializeAws_json1_1InvalidRequestExceptionResponse = async (
     name: "InvalidRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -3261,7 +3261,7 @@ const deserializeAws_json1_1AgentListEntry = (
     __type: "AgentListEntry",
     AgentArn: undefined,
     Name: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.AgentArn !== undefined && output.AgentArn !== null) {
     contents.AgentArn = output.AgentArn;
@@ -3280,7 +3280,7 @@ const deserializeAws_json1_1CancelTaskExecutionResponse = (
   context: __SerdeContext
 ): CancelTaskExecutionResponse => {
   let contents: any = {
-    __type: "CancelTaskExecutionResponse"
+    __type: "CancelTaskExecutionResponse",
   };
   return contents;
 };
@@ -3291,7 +3291,7 @@ const deserializeAws_json1_1CreateAgentResponse = (
 ): CreateAgentResponse => {
   let contents: any = {
     __type: "CreateAgentResponse",
-    AgentArn: undefined
+    AgentArn: undefined,
   };
   if (output.AgentArn !== undefined && output.AgentArn !== null) {
     contents.AgentArn = output.AgentArn;
@@ -3305,7 +3305,7 @@ const deserializeAws_json1_1CreateLocationEfsResponse = (
 ): CreateLocationEfsResponse => {
   let contents: any = {
     __type: "CreateLocationEfsResponse",
-    LocationArn: undefined
+    LocationArn: undefined,
   };
   if (output.LocationArn !== undefined && output.LocationArn !== null) {
     contents.LocationArn = output.LocationArn;
@@ -3319,7 +3319,7 @@ const deserializeAws_json1_1CreateLocationNfsResponse = (
 ): CreateLocationNfsResponse => {
   let contents: any = {
     __type: "CreateLocationNfsResponse",
-    LocationArn: undefined
+    LocationArn: undefined,
   };
   if (output.LocationArn !== undefined && output.LocationArn !== null) {
     contents.LocationArn = output.LocationArn;
@@ -3333,7 +3333,7 @@ const deserializeAws_json1_1CreateLocationS3Response = (
 ): CreateLocationS3Response => {
   let contents: any = {
     __type: "CreateLocationS3Response",
-    LocationArn: undefined
+    LocationArn: undefined,
   };
   if (output.LocationArn !== undefined && output.LocationArn !== null) {
     contents.LocationArn = output.LocationArn;
@@ -3347,7 +3347,7 @@ const deserializeAws_json1_1CreateLocationSmbResponse = (
 ): CreateLocationSmbResponse => {
   let contents: any = {
     __type: "CreateLocationSmbResponse",
-    LocationArn: undefined
+    LocationArn: undefined,
   };
   if (output.LocationArn !== undefined && output.LocationArn !== null) {
     contents.LocationArn = output.LocationArn;
@@ -3361,7 +3361,7 @@ const deserializeAws_json1_1CreateTaskResponse = (
 ): CreateTaskResponse => {
   let contents: any = {
     __type: "CreateTaskResponse",
-    TaskArn: undefined
+    TaskArn: undefined,
   };
   if (output.TaskArn !== undefined && output.TaskArn !== null) {
     contents.TaskArn = output.TaskArn;
@@ -3374,7 +3374,7 @@ const deserializeAws_json1_1DeleteAgentResponse = (
   context: __SerdeContext
 ): DeleteAgentResponse => {
   let contents: any = {
-    __type: "DeleteAgentResponse"
+    __type: "DeleteAgentResponse",
   };
   return contents;
 };
@@ -3384,7 +3384,7 @@ const deserializeAws_json1_1DeleteLocationResponse = (
   context: __SerdeContext
 ): DeleteLocationResponse => {
   let contents: any = {
-    __type: "DeleteLocationResponse"
+    __type: "DeleteLocationResponse",
   };
   return contents;
 };
@@ -3394,7 +3394,7 @@ const deserializeAws_json1_1DeleteTaskResponse = (
   context: __SerdeContext
 ): DeleteTaskResponse => {
   let contents: any = {
-    __type: "DeleteTaskResponse"
+    __type: "DeleteTaskResponse",
   };
   return contents;
 };
@@ -3411,7 +3411,7 @@ const deserializeAws_json1_1DescribeAgentResponse = (
     LastConnectionTime: undefined,
     Name: undefined,
     PrivateLinkConfig: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.AgentArn !== undefined && output.AgentArn !== null) {
     contents.AgentArn = output.AgentArn;
@@ -3457,7 +3457,7 @@ const deserializeAws_json1_1DescribeLocationEfsResponse = (
     CreationTime: undefined,
     Ec2Config: undefined,
     LocationArn: undefined,
-    LocationUri: undefined
+    LocationUri: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3487,7 +3487,7 @@ const deserializeAws_json1_1DescribeLocationNfsResponse = (
     LocationArn: undefined,
     LocationUri: undefined,
     MountOptions: undefined,
-    OnPremConfig: undefined
+    OnPremConfig: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3523,7 +3523,7 @@ const deserializeAws_json1_1DescribeLocationS3Response = (
     LocationArn: undefined,
     LocationUri: undefined,
     S3Config: undefined,
-    S3StorageClass: undefined
+    S3StorageClass: undefined,
   };
   if (output.CreationTime !== undefined && output.CreationTime !== null) {
     contents.CreationTime = new Date(Math.round(output.CreationTime * 1000));
@@ -3558,7 +3558,7 @@ const deserializeAws_json1_1DescribeLocationSmbResponse = (
     LocationArn: undefined,
     LocationUri: undefined,
     MountOptions: undefined,
-    User: undefined
+    User: undefined,
   };
   if (output.AgentArns !== undefined && output.AgentArns !== null) {
     contents.AgentArns = deserializeAws_json1_1AgentArnList(
@@ -3607,7 +3607,7 @@ const deserializeAws_json1_1DescribeTaskExecutionResponse = (
     Result: undefined,
     StartTime: undefined,
     Status: undefined,
-    TaskExecutionArn: undefined
+    TaskExecutionArn: undefined,
   };
   if (
     output.BytesTransferred !== undefined &&
@@ -3692,7 +3692,7 @@ const deserializeAws_json1_1DescribeTaskResponse = (
     SourceLocationArn: undefined,
     SourceNetworkInterfaceArns: undefined,
     Status: undefined,
-    TaskArn: undefined
+    TaskArn: undefined,
   };
   if (
     output.CloudWatchLogGroupArn !== undefined &&
@@ -3786,7 +3786,7 @@ const deserializeAws_json1_1Ec2Config = (
   let contents: any = {
     __type: "Ec2Config",
     SecurityGroupArns: undefined,
-    SubnetArn: undefined
+    SubnetArn: undefined,
   };
   if (
     output.SecurityGroupArns !== undefined &&
@@ -3826,7 +3826,7 @@ const deserializeAws_json1_1FilterRule = (
   let contents: any = {
     __type: "FilterRule",
     FilterType: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.FilterType !== undefined && output.FilterType !== null) {
     contents.FilterType = output.FilterType;
@@ -3844,7 +3844,7 @@ const deserializeAws_json1_1InternalException = (
   let contents: any = {
     __type: "InternalException",
     errorCode: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -3862,7 +3862,7 @@ const deserializeAws_json1_1InvalidRequestException = (
   let contents: any = {
     __type: "InvalidRequestException",
     errorCode: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -3880,7 +3880,7 @@ const deserializeAws_json1_1ListAgentsResponse = (
   let contents: any = {
     __type: "ListAgentsResponse",
     Agents: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Agents !== undefined && output.Agents !== null) {
     contents.Agents = deserializeAws_json1_1AgentList(output.Agents, context);
@@ -3898,7 +3898,7 @@ const deserializeAws_json1_1ListLocationsResponse = (
   let contents: any = {
     __type: "ListLocationsResponse",
     Locations: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Locations !== undefined && output.Locations !== null) {
     contents.Locations = deserializeAws_json1_1LocationList(
@@ -3919,7 +3919,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
   let contents: any = {
     __type: "ListTagsForResourceResponse",
     NextToken: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -3937,7 +3937,7 @@ const deserializeAws_json1_1ListTaskExecutionsResponse = (
   let contents: any = {
     __type: "ListTaskExecutionsResponse",
     NextToken: undefined,
-    TaskExecutions: undefined
+    TaskExecutions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -3958,7 +3958,7 @@ const deserializeAws_json1_1ListTasksResponse = (
   let contents: any = {
     __type: "ListTasksResponse",
     NextToken: undefined,
-    Tasks: undefined
+    Tasks: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -3985,7 +3985,7 @@ const deserializeAws_json1_1LocationListEntry = (
   let contents: any = {
     __type: "LocationListEntry",
     LocationArn: undefined,
-    LocationUri: undefined
+    LocationUri: undefined,
   };
   if (output.LocationArn !== undefined && output.LocationArn !== null) {
     contents.LocationArn = output.LocationArn;
@@ -4002,7 +4002,7 @@ const deserializeAws_json1_1NfsMountOptions = (
 ): NfsMountOptions => {
   let contents: any = {
     __type: "NfsMountOptions",
-    Version: undefined
+    Version: undefined,
   };
   if (output.Version !== undefined && output.Version !== null) {
     contents.Version = output.Version;
@@ -4016,7 +4016,7 @@ const deserializeAws_json1_1OnPremConfig = (
 ): OnPremConfig => {
   let contents: any = {
     __type: "OnPremConfig",
-    AgentArns: undefined
+    AgentArns: undefined,
   };
   if (output.AgentArns !== undefined && output.AgentArns !== null) {
     contents.AgentArns = deserializeAws_json1_1AgentArnList(
@@ -4043,7 +4043,7 @@ const deserializeAws_json1_1Options = (
     PreserveDevices: undefined,
     TaskQueueing: undefined,
     Uid: undefined,
-    VerifyMode: undefined
+    VerifyMode: undefined,
   };
   if (output.Atime !== undefined && output.Atime !== null) {
     contents.Atime = output.Atime;
@@ -4110,7 +4110,7 @@ const deserializeAws_json1_1PrivateLinkConfig = (
     PrivateLinkEndpoint: undefined,
     SecurityGroupArns: undefined,
     SubnetArns: undefined,
-    VpcEndpointId: undefined
+    VpcEndpointId: undefined,
   };
   if (
     output.PrivateLinkEndpoint !== undefined &&
@@ -4145,7 +4145,7 @@ const deserializeAws_json1_1S3Config = (
 ): S3Config => {
   let contents: any = {
     __type: "S3Config",
-    BucketAccessRoleArn: undefined
+    BucketAccessRoleArn: undefined,
   };
   if (
     output.BucketAccessRoleArn !== undefined &&
@@ -4162,7 +4162,7 @@ const deserializeAws_json1_1SmbMountOptions = (
 ): SmbMountOptions => {
   let contents: any = {
     __type: "SmbMountOptions",
-    Version: undefined
+    Version: undefined,
   };
   if (output.Version !== undefined && output.Version !== null) {
     contents.Version = output.Version;
@@ -4183,7 +4183,7 @@ const deserializeAws_json1_1StartTaskExecutionResponse = (
 ): StartTaskExecutionResponse => {
   let contents: any = {
     __type: "StartTaskExecutionResponse",
-    TaskExecutionArn: undefined
+    TaskExecutionArn: undefined,
   };
   if (
     output.TaskExecutionArn !== undefined &&
@@ -4210,7 +4210,7 @@ const deserializeAws_json1_1TagListEntry = (
   let contents: any = {
     __type: "TagListEntry",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -4226,7 +4226,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -4247,7 +4247,7 @@ const deserializeAws_json1_1TaskExecutionListEntry = (
   let contents: any = {
     __type: "TaskExecutionListEntry",
     Status: undefined,
-    TaskExecutionArn: undefined
+    TaskExecutionArn: undefined,
   };
   if (output.Status !== undefined && output.Status !== null) {
     contents.Status = output.Status;
@@ -4275,7 +4275,7 @@ const deserializeAws_json1_1TaskExecutionResultDetail = (
     TransferDuration: undefined,
     TransferStatus: undefined,
     VerifyDuration: undefined,
-    VerifyStatus: undefined
+    VerifyStatus: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -4327,7 +4327,7 @@ const deserializeAws_json1_1TaskListEntry = (
     __type: "TaskListEntry",
     Name: undefined,
     Status: undefined,
-    TaskArn: undefined
+    TaskArn: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -4347,7 +4347,7 @@ const deserializeAws_json1_1TaskSchedule = (
 ): TaskSchedule => {
   let contents: any = {
     __type: "TaskSchedule",
-    ScheduleExpression: undefined
+    ScheduleExpression: undefined,
   };
   if (
     output.ScheduleExpression !== undefined &&
@@ -4363,7 +4363,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -4373,7 +4373,7 @@ const deserializeAws_json1_1UpdateAgentResponse = (
   context: __SerdeContext
 ): UpdateAgentResponse => {
   let contents: any = {
-    __type: "UpdateAgentResponse"
+    __type: "UpdateAgentResponse",
   };
   return contents;
 };
@@ -4383,7 +4383,7 @@ const deserializeAws_json1_1UpdateTaskResponse = (
   context: __SerdeContext
 ): UpdateTaskResponse => {
   let contents: any = {
-    __type: "UpdateTaskResponse"
+    __type: "UpdateTaskResponse",
   };
   return contents;
 };
@@ -4391,7 +4391,7 @@ const deserializeAws_json1_1UpdateTaskResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -4412,7 +4412,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -4425,11 +4425,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -4441,7 +4441,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

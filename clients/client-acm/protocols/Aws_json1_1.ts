@@ -1,54 +1,54 @@
 import {
   AddTagsToCertificateCommandInput,
-  AddTagsToCertificateCommandOutput
+  AddTagsToCertificateCommandOutput,
 } from "../commands/AddTagsToCertificateCommand";
 import {
   DeleteCertificateCommandInput,
-  DeleteCertificateCommandOutput
+  DeleteCertificateCommandOutput,
 } from "../commands/DeleteCertificateCommand";
 import {
   DescribeCertificateCommandInput,
-  DescribeCertificateCommandOutput
+  DescribeCertificateCommandOutput,
 } from "../commands/DescribeCertificateCommand";
 import {
   ExportCertificateCommandInput,
-  ExportCertificateCommandOutput
+  ExportCertificateCommandOutput,
 } from "../commands/ExportCertificateCommand";
 import {
   GetCertificateCommandInput,
-  GetCertificateCommandOutput
+  GetCertificateCommandOutput,
 } from "../commands/GetCertificateCommand";
 import {
   ImportCertificateCommandInput,
-  ImportCertificateCommandOutput
+  ImportCertificateCommandOutput,
 } from "../commands/ImportCertificateCommand";
 import {
   ListCertificatesCommandInput,
-  ListCertificatesCommandOutput
+  ListCertificatesCommandOutput,
 } from "../commands/ListCertificatesCommand";
 import {
   ListTagsForCertificateCommandInput,
-  ListTagsForCertificateCommandOutput
+  ListTagsForCertificateCommandOutput,
 } from "../commands/ListTagsForCertificateCommand";
 import {
   RemoveTagsFromCertificateCommandInput,
-  RemoveTagsFromCertificateCommandOutput
+  RemoveTagsFromCertificateCommandOutput,
 } from "../commands/RemoveTagsFromCertificateCommand";
 import {
   RenewCertificateCommandInput,
-  RenewCertificateCommandOutput
+  RenewCertificateCommandOutput,
 } from "../commands/RenewCertificateCommand";
 import {
   RequestCertificateCommandInput,
-  RequestCertificateCommandOutput
+  RequestCertificateCommandOutput,
 } from "../commands/RequestCertificateCommand";
 import {
   ResendValidationEmailCommandInput,
-  ResendValidationEmailCommandOutput
+  ResendValidationEmailCommandOutput,
 } from "../commands/ResendValidationEmailCommand";
 import {
   UpdateCertificateOptionsCommandInput,
-  UpdateCertificateOptionsCommandOutput
+  UpdateCertificateOptionsCommandOutput,
 } from "../commands/UpdateCertificateOptionsCommand";
 import {
   AddTagsToCertificateRequest,
@@ -97,11 +97,11 @@ import {
   Tag,
   TagPolicyException,
   TooManyTagsException,
-  UpdateCertificateOptionsRequest
+  UpdateCertificateOptionsRequest,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -109,7 +109,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AddTagsToCertificateCommand(
@@ -306,7 +306,7 @@ export async function deserializeAws_json1_1AddTagsToCertificateCommand(
   }
   await collectBody(output.body, context);
   const response: AddTagsToCertificateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -317,7 +317,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
 ): Promise<AddTagsToCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -333,7 +333,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -344,7 +344,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -355,7 +355,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -366,7 +366,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -377,7 +377,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -388,7 +388,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -399,7 +399,7 @@ async function deserializeAws_json1_1AddTagsToCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -417,7 +417,7 @@ export async function deserializeAws_json1_1DeleteCertificateCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteCertificateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -428,7 +428,7 @@ async function deserializeAws_json1_1DeleteCertificateCommandError(
 ): Promise<DeleteCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -444,7 +444,7 @@ async function deserializeAws_json1_1DeleteCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -455,7 +455,7 @@ async function deserializeAws_json1_1DeleteCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -466,7 +466,7 @@ async function deserializeAws_json1_1DeleteCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -477,7 +477,7 @@ async function deserializeAws_json1_1DeleteCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -502,7 +502,7 @@ export async function deserializeAws_json1_1DescribeCertificateCommand(
   const response: DescribeCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -513,7 +513,7 @@ async function deserializeAws_json1_1DescribeCertificateCommandError(
 ): Promise<DescribeCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -529,7 +529,7 @@ async function deserializeAws_json1_1DescribeCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -540,7 +540,7 @@ async function deserializeAws_json1_1DescribeCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -551,7 +551,7 @@ async function deserializeAws_json1_1DescribeCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -573,7 +573,7 @@ export async function deserializeAws_json1_1ExportCertificateCommand(
   const response: ExportCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ExportCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -584,7 +584,7 @@ async function deserializeAws_json1_1ExportCertificateCommandError(
 ): Promise<ExportCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -600,7 +600,7 @@ async function deserializeAws_json1_1ExportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestInProgressException":
@@ -611,7 +611,7 @@ async function deserializeAws_json1_1ExportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -622,7 +622,7 @@ async function deserializeAws_json1_1ExportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -633,7 +633,7 @@ async function deserializeAws_json1_1ExportCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -655,7 +655,7 @@ export async function deserializeAws_json1_1GetCertificateCommand(
   const response: GetCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -666,7 +666,7 @@ async function deserializeAws_json1_1GetCertificateCommandError(
 ): Promise<GetCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -682,7 +682,7 @@ async function deserializeAws_json1_1GetCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestInProgressException":
@@ -693,7 +693,7 @@ async function deserializeAws_json1_1GetCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -704,7 +704,7 @@ async function deserializeAws_json1_1GetCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -715,7 +715,7 @@ async function deserializeAws_json1_1GetCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -737,7 +737,7 @@ export async function deserializeAws_json1_1ImportCertificateCommand(
   const response: ImportCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ImportCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -748,7 +748,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
 ): Promise<ImportCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -764,7 +764,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -775,7 +775,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -786,7 +786,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -797,7 +797,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -808,7 +808,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -819,7 +819,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -830,7 +830,7 @@ async function deserializeAws_json1_1ImportCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -852,7 +852,7 @@ export async function deserializeAws_json1_1ListCertificatesCommand(
   const response: ListCertificatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCertificatesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -863,7 +863,7 @@ async function deserializeAws_json1_1ListCertificatesCommandError(
 ): Promise<ListCertificatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -879,7 +879,7 @@ async function deserializeAws_json1_1ListCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -890,7 +890,7 @@ async function deserializeAws_json1_1ListCertificatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -918,7 +918,7 @@ export async function deserializeAws_json1_1ListTagsForCertificateCommand(
   const response: ListTagsForCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -929,7 +929,7 @@ async function deserializeAws_json1_1ListTagsForCertificateCommandError(
 ): Promise<ListTagsForCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -945,7 +945,7 @@ async function deserializeAws_json1_1ListTagsForCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -956,7 +956,7 @@ async function deserializeAws_json1_1ListTagsForCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -967,7 +967,7 @@ async function deserializeAws_json1_1ListTagsForCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -988,7 +988,7 @@ export async function deserializeAws_json1_1RemoveTagsFromCertificateCommand(
   }
   await collectBody(output.body, context);
   const response: RemoveTagsFromCertificateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -999,7 +999,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
 ): Promise<RemoveTagsFromCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1015,7 +1015,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1026,7 +1026,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -1037,7 +1037,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1048,7 +1048,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -1059,7 +1059,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1070,7 +1070,7 @@ async function deserializeAws_json1_1RemoveTagsFromCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1088,7 +1088,7 @@ export async function deserializeAws_json1_1RenewCertificateCommand(
   }
   await collectBody(output.body, context);
   const response: RenewCertificateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1099,7 +1099,7 @@ async function deserializeAws_json1_1RenewCertificateCommandError(
 ): Promise<RenewCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1115,7 +1115,7 @@ async function deserializeAws_json1_1RenewCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1126,7 +1126,7 @@ async function deserializeAws_json1_1RenewCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1137,7 +1137,7 @@ async function deserializeAws_json1_1RenewCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1162,7 +1162,7 @@ export async function deserializeAws_json1_1RequestCertificateCommand(
   const response: RequestCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RequestCertificateResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1173,7 +1173,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
 ): Promise<RequestCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1189,7 +1189,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDomainValidationOptionsException":
@@ -1200,7 +1200,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterException":
@@ -1211,7 +1211,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagException":
@@ -1222,7 +1222,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1233,7 +1233,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagPolicyException":
@@ -1244,7 +1244,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyTagsException":
@@ -1255,7 +1255,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1266,7 +1266,7 @@ async function deserializeAws_json1_1RequestCertificateCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1287,7 +1287,7 @@ export async function deserializeAws_json1_1ResendValidationEmailCommand(
   }
   await collectBody(output.body, context);
   const response: ResendValidationEmailCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1298,7 +1298,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
 ): Promise<ResendValidationEmailCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1314,7 +1314,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidDomainValidationOptionsException":
@@ -1325,7 +1325,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateException":
@@ -1336,7 +1336,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1347,7 +1347,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1358,7 +1358,7 @@ async function deserializeAws_json1_1ResendValidationEmailCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1379,7 +1379,7 @@ export async function deserializeAws_json1_1UpdateCertificateOptionsCommand(
   }
   await collectBody(output.body, context);
   const response: UpdateCertificateOptionsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1390,7 +1390,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
 ): Promise<UpdateCertificateOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1406,7 +1406,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidStateException":
@@ -1417,7 +1417,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1428,7 +1428,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1439,7 +1439,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1450,7 +1450,7 @@ async function deserializeAws_json1_1UpdateCertificateOptionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1472,7 +1472,7 @@ const deserializeAws_json1_1InvalidArgsExceptionResponse = async (
     name: "InvalidArgsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1490,7 +1490,7 @@ const deserializeAws_json1_1InvalidArnExceptionResponse = async (
     name: "InvalidArnException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1508,7 +1508,7 @@ const deserializeAws_json1_1InvalidDomainValidationOptionsExceptionResponse = as
     name: "InvalidDomainValidationOptionsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1526,7 +1526,7 @@ const deserializeAws_json1_1InvalidParameterExceptionResponse = async (
     name: "InvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1544,7 +1544,7 @@ const deserializeAws_json1_1InvalidStateExceptionResponse = async (
     name: "InvalidStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1562,7 +1562,7 @@ const deserializeAws_json1_1InvalidTagExceptionResponse = async (
     name: "InvalidTagException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1580,7 +1580,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1598,7 +1598,7 @@ const deserializeAws_json1_1RequestInProgressExceptionResponse = async (
     name: "RequestInProgressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1616,7 +1616,7 @@ const deserializeAws_json1_1ResourceInUseExceptionResponse = async (
     name: "ResourceInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1634,7 +1634,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1652,7 +1652,7 @@ const deserializeAws_json1_1TagPolicyExceptionResponse = async (
     name: "TagPolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1670,7 +1670,7 @@ const deserializeAws_json1_1TooManyTagsExceptionResponse = async (
     name: "TooManyTagsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2073,7 +2073,7 @@ const deserializeAws_json1_1CertificateDetail = (
     Status: undefined,
     Subject: undefined,
     SubjectAlternativeNames: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -2201,7 +2201,7 @@ const deserializeAws_json1_1CertificateOptions = (
 ): CertificateOptions => {
   let contents: any = {
     __type: "CertificateOptions",
-    CertificateTransparencyLoggingPreference: undefined
+    CertificateTransparencyLoggingPreference: undefined,
   };
   if (
     output.CertificateTransparencyLoggingPreference !== undefined &&
@@ -2220,7 +2220,7 @@ const deserializeAws_json1_1CertificateSummary = (
   let contents: any = {
     __type: "CertificateSummary",
     CertificateArn: undefined,
-    DomainName: undefined
+    DomainName: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -2246,7 +2246,7 @@ const deserializeAws_json1_1DescribeCertificateResponse = (
 ): DescribeCertificateResponse => {
   let contents: any = {
     __type: "DescribeCertificateResponse",
-    Certificate: undefined
+    Certificate: undefined,
   };
   if (output.Certificate !== undefined && output.Certificate !== null) {
     contents.Certificate = deserializeAws_json1_1CertificateDetail(
@@ -2275,7 +2275,7 @@ const deserializeAws_json1_1DomainValidation = (
     ValidationDomain: undefined,
     ValidationEmails: undefined,
     ValidationMethod: undefined,
-    ValidationStatus: undefined
+    ValidationStatus: undefined,
   };
   if (output.DomainName !== undefined && output.DomainName !== null) {
     contents.DomainName = output.DomainName;
@@ -2333,7 +2333,7 @@ const deserializeAws_json1_1ExportCertificateResponse = (
     __type: "ExportCertificateResponse",
     Certificate: undefined,
     CertificateChain: undefined,
-    PrivateKey: undefined
+    PrivateKey: undefined,
   };
   if (output.Certificate !== undefined && output.Certificate !== null) {
     contents.Certificate = output.Certificate;
@@ -2357,7 +2357,7 @@ const deserializeAws_json1_1ExtendedKeyUsage = (
   let contents: any = {
     __type: "ExtendedKeyUsage",
     Name: undefined,
-    OID: undefined
+    OID: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -2384,7 +2384,7 @@ const deserializeAws_json1_1GetCertificateResponse = (
   let contents: any = {
     __type: "GetCertificateResponse",
     Certificate: undefined,
-    CertificateChain: undefined
+    CertificateChain: undefined,
   };
   if (output.Certificate !== undefined && output.Certificate !== null) {
     contents.Certificate = output.Certificate;
@@ -2404,7 +2404,7 @@ const deserializeAws_json1_1ImportCertificateResponse = (
 ): ImportCertificateResponse => {
   let contents: any = {
     __type: "ImportCertificateResponse",
-    CertificateArn: undefined
+    CertificateArn: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -2425,7 +2425,7 @@ const deserializeAws_json1_1InvalidArgsException = (
 ): InvalidArgsException => {
   let contents: any = {
     __type: "InvalidArgsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2439,7 +2439,7 @@ const deserializeAws_json1_1InvalidArnException = (
 ): InvalidArnException => {
   let contents: any = {
     __type: "InvalidArnException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2453,7 +2453,7 @@ const deserializeAws_json1_1InvalidDomainValidationOptionsException = (
 ): InvalidDomainValidationOptionsException => {
   let contents: any = {
     __type: "InvalidDomainValidationOptionsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2467,7 +2467,7 @@ const deserializeAws_json1_1InvalidParameterException = (
 ): InvalidParameterException => {
   let contents: any = {
     __type: "InvalidParameterException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2481,7 +2481,7 @@ const deserializeAws_json1_1InvalidStateException = (
 ): InvalidStateException => {
   let contents: any = {
     __type: "InvalidStateException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2495,7 +2495,7 @@ const deserializeAws_json1_1InvalidTagException = (
 ): InvalidTagException => {
   let contents: any = {
     __type: "InvalidTagException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2509,7 +2509,7 @@ const deserializeAws_json1_1KeyUsage = (
 ): KeyUsage => {
   let contents: any = {
     __type: "KeyUsage",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -2532,7 +2532,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2547,7 +2547,7 @@ const deserializeAws_json1_1ListCertificatesResponse = (
   let contents: any = {
     __type: "ListCertificatesResponse",
     CertificateSummaryList: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.CertificateSummaryList !== undefined &&
@@ -2570,7 +2570,7 @@ const deserializeAws_json1_1ListTagsForCertificateResponse = (
 ): ListTagsForCertificateResponse => {
   let contents: any = {
     __type: "ListTagsForCertificateResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags !== undefined && output.Tags !== null) {
     contents.Tags = deserializeAws_json1_1TagList(output.Tags, context);
@@ -2587,7 +2587,7 @@ const deserializeAws_json1_1RenewalSummary = (
     DomainValidationOptions: undefined,
     RenewalStatus: undefined,
     RenewalStatusReason: undefined,
-    UpdatedAt: undefined
+    UpdatedAt: undefined,
   };
   if (
     output.DomainValidationOptions !== undefined &&
@@ -2619,7 +2619,7 @@ const deserializeAws_json1_1RequestCertificateResponse = (
 ): RequestCertificateResponse => {
   let contents: any = {
     __type: "RequestCertificateResponse",
-    CertificateArn: undefined
+    CertificateArn: undefined,
   };
   if (output.CertificateArn !== undefined && output.CertificateArn !== null) {
     contents.CertificateArn = output.CertificateArn;
@@ -2633,7 +2633,7 @@ const deserializeAws_json1_1RequestInProgressException = (
 ): RequestInProgressException => {
   let contents: any = {
     __type: "RequestInProgressException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2647,7 +2647,7 @@ const deserializeAws_json1_1ResourceInUseException = (
 ): ResourceInUseException => {
   let contents: any = {
     __type: "ResourceInUseException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2661,7 +2661,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2677,7 +2677,7 @@ const deserializeAws_json1_1ResourceRecord = (
     __type: "ResourceRecord",
     Name: undefined,
     Type: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -2698,7 +2698,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -2724,7 +2724,7 @@ const deserializeAws_json1_1TagPolicyException = (
 ): TagPolicyException => {
   let contents: any = {
     __type: "TagPolicyException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2738,7 +2738,7 @@ const deserializeAws_json1_1TooManyTagsException = (
 ): TooManyTagsException => {
   let contents: any = {
     __type: "TooManyTagsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2756,7 +2756,7 @@ const deserializeAws_json1_1ValidationEmailList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -2777,7 +2777,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -2790,11 +2790,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -2806,7 +2806,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

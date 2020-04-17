@@ -1,190 +1,190 @@
 import {
   AcceptHandshakeCommandInput,
-  AcceptHandshakeCommandOutput
+  AcceptHandshakeCommandOutput,
 } from "../commands/AcceptHandshakeCommand";
 import {
   AttachPolicyCommandInput,
-  AttachPolicyCommandOutput
+  AttachPolicyCommandOutput,
 } from "../commands/AttachPolicyCommand";
 import {
   CancelHandshakeCommandInput,
-  CancelHandshakeCommandOutput
+  CancelHandshakeCommandOutput,
 } from "../commands/CancelHandshakeCommand";
 import {
   CreateAccountCommandInput,
-  CreateAccountCommandOutput
+  CreateAccountCommandOutput,
 } from "../commands/CreateAccountCommand";
 import {
   CreateGovCloudAccountCommandInput,
-  CreateGovCloudAccountCommandOutput
+  CreateGovCloudAccountCommandOutput,
 } from "../commands/CreateGovCloudAccountCommand";
 import {
   CreateOrganizationCommandInput,
-  CreateOrganizationCommandOutput
+  CreateOrganizationCommandOutput,
 } from "../commands/CreateOrganizationCommand";
 import {
   CreateOrganizationalUnitCommandInput,
-  CreateOrganizationalUnitCommandOutput
+  CreateOrganizationalUnitCommandOutput,
 } from "../commands/CreateOrganizationalUnitCommand";
 import {
   CreatePolicyCommandInput,
-  CreatePolicyCommandOutput
+  CreatePolicyCommandOutput,
 } from "../commands/CreatePolicyCommand";
 import {
   DeclineHandshakeCommandInput,
-  DeclineHandshakeCommandOutput
+  DeclineHandshakeCommandOutput,
 } from "../commands/DeclineHandshakeCommand";
 import {
   DeleteOrganizationCommandInput,
-  DeleteOrganizationCommandOutput
+  DeleteOrganizationCommandOutput,
 } from "../commands/DeleteOrganizationCommand";
 import {
   DeleteOrganizationalUnitCommandInput,
-  DeleteOrganizationalUnitCommandOutput
+  DeleteOrganizationalUnitCommandOutput,
 } from "../commands/DeleteOrganizationalUnitCommand";
 import {
   DeletePolicyCommandInput,
-  DeletePolicyCommandOutput
+  DeletePolicyCommandOutput,
 } from "../commands/DeletePolicyCommand";
 import {
   DescribeAccountCommandInput,
-  DescribeAccountCommandOutput
+  DescribeAccountCommandOutput,
 } from "../commands/DescribeAccountCommand";
 import {
   DescribeCreateAccountStatusCommandInput,
-  DescribeCreateAccountStatusCommandOutput
+  DescribeCreateAccountStatusCommandOutput,
 } from "../commands/DescribeCreateAccountStatusCommand";
 import {
   DescribeEffectivePolicyCommandInput,
-  DescribeEffectivePolicyCommandOutput
+  DescribeEffectivePolicyCommandOutput,
 } from "../commands/DescribeEffectivePolicyCommand";
 import {
   DescribeHandshakeCommandInput,
-  DescribeHandshakeCommandOutput
+  DescribeHandshakeCommandOutput,
 } from "../commands/DescribeHandshakeCommand";
 import {
   DescribeOrganizationCommandInput,
-  DescribeOrganizationCommandOutput
+  DescribeOrganizationCommandOutput,
 } from "../commands/DescribeOrganizationCommand";
 import {
   DescribeOrganizationalUnitCommandInput,
-  DescribeOrganizationalUnitCommandOutput
+  DescribeOrganizationalUnitCommandOutput,
 } from "../commands/DescribeOrganizationalUnitCommand";
 import {
   DescribePolicyCommandInput,
-  DescribePolicyCommandOutput
+  DescribePolicyCommandOutput,
 } from "../commands/DescribePolicyCommand";
 import {
   DetachPolicyCommandInput,
-  DetachPolicyCommandOutput
+  DetachPolicyCommandOutput,
 } from "../commands/DetachPolicyCommand";
 import {
   DisableAWSServiceAccessCommandInput,
-  DisableAWSServiceAccessCommandOutput
+  DisableAWSServiceAccessCommandOutput,
 } from "../commands/DisableAWSServiceAccessCommand";
 import {
   DisablePolicyTypeCommandInput,
-  DisablePolicyTypeCommandOutput
+  DisablePolicyTypeCommandOutput,
 } from "../commands/DisablePolicyTypeCommand";
 import {
   EnableAWSServiceAccessCommandInput,
-  EnableAWSServiceAccessCommandOutput
+  EnableAWSServiceAccessCommandOutput,
 } from "../commands/EnableAWSServiceAccessCommand";
 import {
   EnableAllFeaturesCommandInput,
-  EnableAllFeaturesCommandOutput
+  EnableAllFeaturesCommandOutput,
 } from "../commands/EnableAllFeaturesCommand";
 import {
   EnablePolicyTypeCommandInput,
-  EnablePolicyTypeCommandOutput
+  EnablePolicyTypeCommandOutput,
 } from "../commands/EnablePolicyTypeCommand";
 import {
   InviteAccountToOrganizationCommandInput,
-  InviteAccountToOrganizationCommandOutput
+  InviteAccountToOrganizationCommandOutput,
 } from "../commands/InviteAccountToOrganizationCommand";
 import {
   LeaveOrganizationCommandInput,
-  LeaveOrganizationCommandOutput
+  LeaveOrganizationCommandOutput,
 } from "../commands/LeaveOrganizationCommand";
 import {
   ListAWSServiceAccessForOrganizationCommandInput,
-  ListAWSServiceAccessForOrganizationCommandOutput
+  ListAWSServiceAccessForOrganizationCommandOutput,
 } from "../commands/ListAWSServiceAccessForOrganizationCommand";
 import {
   ListAccountsCommandInput,
-  ListAccountsCommandOutput
+  ListAccountsCommandOutput,
 } from "../commands/ListAccountsCommand";
 import {
   ListAccountsForParentCommandInput,
-  ListAccountsForParentCommandOutput
+  ListAccountsForParentCommandOutput,
 } from "../commands/ListAccountsForParentCommand";
 import {
   ListChildrenCommandInput,
-  ListChildrenCommandOutput
+  ListChildrenCommandOutput,
 } from "../commands/ListChildrenCommand";
 import {
   ListCreateAccountStatusCommandInput,
-  ListCreateAccountStatusCommandOutput
+  ListCreateAccountStatusCommandOutput,
 } from "../commands/ListCreateAccountStatusCommand";
 import {
   ListHandshakesForAccountCommandInput,
-  ListHandshakesForAccountCommandOutput
+  ListHandshakesForAccountCommandOutput,
 } from "../commands/ListHandshakesForAccountCommand";
 import {
   ListHandshakesForOrganizationCommandInput,
-  ListHandshakesForOrganizationCommandOutput
+  ListHandshakesForOrganizationCommandOutput,
 } from "../commands/ListHandshakesForOrganizationCommand";
 import {
   ListOrganizationalUnitsForParentCommandInput,
-  ListOrganizationalUnitsForParentCommandOutput
+  ListOrganizationalUnitsForParentCommandOutput,
 } from "../commands/ListOrganizationalUnitsForParentCommand";
 import {
   ListParentsCommandInput,
-  ListParentsCommandOutput
+  ListParentsCommandOutput,
 } from "../commands/ListParentsCommand";
 import {
   ListPoliciesCommandInput,
-  ListPoliciesCommandOutput
+  ListPoliciesCommandOutput,
 } from "../commands/ListPoliciesCommand";
 import {
   ListPoliciesForTargetCommandInput,
-  ListPoliciesForTargetCommandOutput
+  ListPoliciesForTargetCommandOutput,
 } from "../commands/ListPoliciesForTargetCommand";
 import {
   ListRootsCommandInput,
-  ListRootsCommandOutput
+  ListRootsCommandOutput,
 } from "../commands/ListRootsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListTargetsForPolicyCommandInput,
-  ListTargetsForPolicyCommandOutput
+  ListTargetsForPolicyCommandOutput,
 } from "../commands/ListTargetsForPolicyCommand";
 import {
   MoveAccountCommandInput,
-  MoveAccountCommandOutput
+  MoveAccountCommandOutput,
 } from "../commands/MoveAccountCommand";
 import {
   RemoveAccountFromOrganizationCommandInput,
-  RemoveAccountFromOrganizationCommandOutput
+  RemoveAccountFromOrganizationCommandOutput,
 } from "../commands/RemoveAccountFromOrganizationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateOrganizationalUnitCommandInput,
-  UpdateOrganizationalUnitCommandOutput
+  UpdateOrganizationalUnitCommandOutput,
 } from "../commands/UpdateOrganizationalUnitCommand";
 import {
   UpdatePolicyCommandInput,
-  UpdatePolicyCommandOutput
+  UpdatePolicyCommandOutput,
 } from "../commands/UpdatePolicyCommand";
 import {
   AWSOrganizationsNotInUseException,
@@ -326,11 +326,11 @@ import {
   UpdateOrganizationalUnitRequest,
   UpdateOrganizationalUnitResponse,
   UpdatePolicyRequest,
-  UpdatePolicyResponse
+  UpdatePolicyResponse,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -338,7 +338,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AcceptHandshakeCommand(
@@ -1006,7 +1006,7 @@ export async function deserializeAws_json1_1AcceptHandshakeCommand(
   const response: AcceptHandshakeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AcceptHandshakeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1017,7 +1017,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
 ): Promise<AcceptHandshakeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1033,7 +1033,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1044,7 +1044,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedForDependencyException":
@@ -1055,7 +1055,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1066,7 +1066,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeAlreadyInStateException":
@@ -1077,7 +1077,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeConstraintViolationException":
@@ -1088,7 +1088,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeNotFoundException":
@@ -1099,7 +1099,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHandshakeTransitionException":
@@ -1110,7 +1110,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1121,7 +1121,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1132,7 +1132,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1143,7 +1143,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1154,7 +1154,7 @@ async function deserializeAws_json1_1AcceptHandshakeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1172,7 +1172,7 @@ export async function deserializeAws_json1_1AttachPolicyCommand(
   }
   await collectBody(output.body, context);
   const response: AttachPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -1183,7 +1183,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
 ): Promise<AttachPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1199,7 +1199,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1210,7 +1210,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1221,7 +1221,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -1232,7 +1232,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicatePolicyAttachmentException":
@@ -1243,7 +1243,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1254,7 +1254,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyChangesInProgressException":
@@ -1265,7 +1265,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -1276,7 +1276,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyTypeNotEnabledException":
@@ -1287,7 +1287,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1298,7 +1298,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -1309,7 +1309,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1320,7 +1320,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -1331,7 +1331,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1342,7 +1342,7 @@ async function deserializeAws_json1_1AttachPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1364,7 +1364,7 @@ export async function deserializeAws_json1_1CancelHandshakeCommand(
   const response: CancelHandshakeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelHandshakeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1375,7 +1375,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
 ): Promise<CancelHandshakeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1391,7 +1391,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1402,7 +1402,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeAlreadyInStateException":
@@ -1413,7 +1413,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeNotFoundException":
@@ -1424,7 +1424,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHandshakeTransitionException":
@@ -1435,7 +1435,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1446,7 +1446,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1457,7 +1457,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1468,7 +1468,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1479,7 +1479,7 @@ async function deserializeAws_json1_1CancelHandshakeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1501,7 +1501,7 @@ export async function deserializeAws_json1_1CreateAccountCommand(
   const response: CreateAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateAccountResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1512,7 +1512,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
 ): Promise<CreateAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1528,7 +1528,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1539,7 +1539,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1550,7 +1550,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -1561,7 +1561,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FinalizingOrganizationException":
@@ -1572,7 +1572,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1583,7 +1583,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1594,7 +1594,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1605,7 +1605,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -1616,7 +1616,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1627,7 +1627,7 @@ async function deserializeAws_json1_1CreateAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1652,7 +1652,7 @@ export async function deserializeAws_json1_1CreateGovCloudAccountCommand(
   const response: CreateGovCloudAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateGovCloudAccountResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1663,7 +1663,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
 ): Promise<CreateGovCloudAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1679,7 +1679,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1690,7 +1690,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1701,7 +1701,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -1712,7 +1712,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FinalizingOrganizationException":
@@ -1723,7 +1723,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1734,7 +1734,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1745,7 +1745,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1756,7 +1756,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -1767,7 +1767,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1778,7 +1778,7 @@ async function deserializeAws_json1_1CreateGovCloudAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1803,7 +1803,7 @@ export async function deserializeAws_json1_1CreateOrganizationCommand(
   const response: CreateOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1814,7 +1814,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
 ): Promise<CreateOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1830,7 +1830,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedForDependencyException":
@@ -1841,7 +1841,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AlreadyInOrganizationException":
@@ -1852,7 +1852,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1863,7 +1863,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -1874,7 +1874,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -1885,7 +1885,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -1896,7 +1896,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -1907,7 +1907,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1918,7 +1918,7 @@ async function deserializeAws_json1_1CreateOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1946,7 +1946,7 @@ export async function deserializeAws_json1_1CreateOrganizationalUnitCommand(
   const response: CreateOrganizationalUnitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateOrganizationalUnitResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1957,7 +1957,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
 ): Promise<CreateOrganizationalUnitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1973,7 +1973,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -1984,7 +1984,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -1995,7 +1995,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -2006,7 +2006,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateOrganizationalUnitException":
@@ -2017,7 +2017,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2028,7 +2028,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ParentNotFoundException":
@@ -2039,7 +2039,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2050,7 +2050,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2061,7 +2061,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2072,7 +2072,7 @@ async function deserializeAws_json1_1CreateOrganizationalUnitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2094,7 +2094,7 @@ export async function deserializeAws_json1_1CreatePolicyCommand(
   const response: CreatePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreatePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2105,7 +2105,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
 ): Promise<CreatePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2121,7 +2121,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2132,7 +2132,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2143,7 +2143,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -2154,7 +2154,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicatePolicyException":
@@ -2165,7 +2165,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2176,7 +2176,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedPolicyDocumentException":
@@ -2187,7 +2187,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyTypeNotAvailableForOrganizationException":
@@ -2198,7 +2198,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2209,7 +2209,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2220,7 +2220,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -2231,7 +2231,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2242,7 +2242,7 @@ async function deserializeAws_json1_1CreatePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2264,7 +2264,7 @@ export async function deserializeAws_json1_1DeclineHandshakeCommand(
   const response: DeclineHandshakeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeclineHandshakeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2275,7 +2275,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
 ): Promise<DeclineHandshakeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2291,7 +2291,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2302,7 +2302,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeAlreadyInStateException":
@@ -2313,7 +2313,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeNotFoundException":
@@ -2324,7 +2324,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHandshakeTransitionException":
@@ -2335,7 +2335,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2346,7 +2346,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2357,7 +2357,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2368,7 +2368,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2379,7 +2379,7 @@ async function deserializeAws_json1_1DeclineHandshakeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2400,7 +2400,7 @@ export async function deserializeAws_json1_1DeleteOrganizationCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteOrganizationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2411,7 +2411,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
 ): Promise<DeleteOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2427,7 +2427,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2438,7 +2438,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2449,7 +2449,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2460,7 +2460,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationNotEmptyException":
@@ -2471,7 +2471,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2482,7 +2482,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2493,7 +2493,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2504,7 +2504,7 @@ async function deserializeAws_json1_1DeleteOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2525,7 +2525,7 @@ export async function deserializeAws_json1_1DeleteOrganizationalUnitCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteOrganizationalUnitCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2536,7 +2536,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
 ): Promise<DeleteOrganizationalUnitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2552,7 +2552,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2563,7 +2563,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2574,7 +2574,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2585,7 +2585,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationalUnitNotEmptyException":
@@ -2596,7 +2596,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationalUnitNotFoundException":
@@ -2607,7 +2607,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2618,7 +2618,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2629,7 +2629,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2640,7 +2640,7 @@ async function deserializeAws_json1_1DeleteOrganizationalUnitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2658,7 +2658,7 @@ export async function deserializeAws_json1_1DeletePolicyCommand(
   }
   await collectBody(output.body, context);
   const response: DeletePolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -2669,7 +2669,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
 ): Promise<DeletePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2685,7 +2685,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2696,7 +2696,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -2707,7 +2707,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2718,7 +2718,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyInUseException":
@@ -2729,7 +2729,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -2740,7 +2740,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2751,7 +2751,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2762,7 +2762,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -2773,7 +2773,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2784,7 +2784,7 @@ async function deserializeAws_json1_1DeletePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2806,7 +2806,7 @@ export async function deserializeAws_json1_1DescribeAccountCommand(
   const response: DescribeAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAccountResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2817,7 +2817,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
 ): Promise<DescribeAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2833,7 +2833,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2844,7 +2844,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountNotFoundException":
@@ -2855,7 +2855,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2866,7 +2866,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2877,7 +2877,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -2888,7 +2888,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2899,7 +2899,7 @@ async function deserializeAws_json1_1DescribeAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2927,7 +2927,7 @@ export async function deserializeAws_json1_1DescribeCreateAccountStatusCommand(
   const response: DescribeCreateAccountStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCreateAccountStatusResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2938,7 +2938,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
 ): Promise<DescribeCreateAccountStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2954,7 +2954,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -2965,7 +2965,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CreateAccountStatusNotFoundException":
@@ -2976,7 +2976,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -2987,7 +2987,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -2998,7 +2998,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3009,7 +3009,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -3020,7 +3020,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3031,7 +3031,7 @@ async function deserializeAws_json1_1DescribeCreateAccountStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3059,7 +3059,7 @@ export async function deserializeAws_json1_1DescribeEffectivePolicyCommand(
   const response: DescribeEffectivePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeEffectivePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3070,7 +3070,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
 ): Promise<DescribeEffectivePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3086,7 +3086,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3097,7 +3097,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -3108,7 +3108,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "EffectivePolicyNotFoundException":
@@ -3119,7 +3119,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3130,7 +3130,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3141,7 +3141,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -3152,7 +3152,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3163,7 +3163,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -3174,7 +3174,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3185,7 +3185,7 @@ async function deserializeAws_json1_1DescribeEffectivePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3207,7 +3207,7 @@ export async function deserializeAws_json1_1DescribeHandshakeCommand(
   const response: DescribeHandshakeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeHandshakeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3218,7 +3218,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
 ): Promise<DescribeHandshakeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3234,7 +3234,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -3245,7 +3245,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeNotFoundException":
@@ -3256,7 +3256,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3267,7 +3267,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3278,7 +3278,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3289,7 +3289,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3300,7 +3300,7 @@ async function deserializeAws_json1_1DescribeHandshakeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3325,7 +3325,7 @@ export async function deserializeAws_json1_1DescribeOrganizationCommand(
   const response: DescribeOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3336,7 +3336,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
 ): Promise<DescribeOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3352,7 +3352,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3363,7 +3363,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -3374,7 +3374,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3385,7 +3385,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3396,7 +3396,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3407,7 +3407,7 @@ async function deserializeAws_json1_1DescribeOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3435,7 +3435,7 @@ export async function deserializeAws_json1_1DescribeOrganizationalUnitCommand(
   const response: DescribeOrganizationalUnitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeOrganizationalUnitResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3446,7 +3446,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
 ): Promise<DescribeOrganizationalUnitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3462,7 +3462,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3473,7 +3473,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3484,7 +3484,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationalUnitNotFoundException":
@@ -3495,7 +3495,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3506,7 +3506,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3517,7 +3517,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3528,7 +3528,7 @@ async function deserializeAws_json1_1DescribeOrganizationalUnitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3550,7 +3550,7 @@ export async function deserializeAws_json1_1DescribePolicyCommand(
   const response: DescribePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3561,7 +3561,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
 ): Promise<DescribePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3577,7 +3577,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3588,7 +3588,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3599,7 +3599,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -3610,7 +3610,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3621,7 +3621,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3632,7 +3632,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -3643,7 +3643,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3654,7 +3654,7 @@ async function deserializeAws_json1_1DescribePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3672,7 +3672,7 @@ export async function deserializeAws_json1_1DetachPolicyCommand(
   }
   await collectBody(output.body, context);
   const response: DetachPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3683,7 +3683,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
 ): Promise<DetachPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3699,7 +3699,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3710,7 +3710,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -3721,7 +3721,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -3732,7 +3732,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3743,7 +3743,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyChangesInProgressException":
@@ -3754,7 +3754,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotAttachedException":
@@ -3765,7 +3765,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -3776,7 +3776,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3787,7 +3787,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -3798,7 +3798,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3809,7 +3809,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -3820,7 +3820,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3831,7 +3831,7 @@ async function deserializeAws_json1_1DetachPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3852,7 +3852,7 @@ export async function deserializeAws_json1_1DisableAWSServiceAccessCommand(
   }
   await collectBody(output.body, context);
   const response: DisableAWSServiceAccessCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -3863,7 +3863,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
 ): Promise<DisableAWSServiceAccessCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3879,7 +3879,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -3890,7 +3890,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -3901,7 +3901,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -3912,7 +3912,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -3923,7 +3923,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -3934,7 +3934,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -3945,7 +3945,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3956,7 +3956,7 @@ async function deserializeAws_json1_1DisableAWSServiceAccessCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3978,7 +3978,7 @@ export async function deserializeAws_json1_1DisablePolicyTypeCommand(
   const response: DisablePolicyTypeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisablePolicyTypeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3989,7 +3989,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
 ): Promise<DisablePolicyTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4005,7 +4005,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4016,7 +4016,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4027,7 +4027,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -4038,7 +4038,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4049,7 +4049,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyChangesInProgressException":
@@ -4060,7 +4060,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyTypeNotEnabledException":
@@ -4071,7 +4071,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RootNotFoundException":
@@ -4082,7 +4082,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4093,7 +4093,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4104,7 +4104,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -4115,7 +4115,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4126,7 +4126,7 @@ async function deserializeAws_json1_1DisablePolicyTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4147,7 +4147,7 @@ export async function deserializeAws_json1_1EnableAWSServiceAccessCommand(
   }
   await collectBody(output.body, context);
   const response: EnableAWSServiceAccessCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4158,7 +4158,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
 ): Promise<EnableAWSServiceAccessCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4174,7 +4174,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4185,7 +4185,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4196,7 +4196,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -4207,7 +4207,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4218,7 +4218,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4229,7 +4229,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4240,7 +4240,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4251,7 +4251,7 @@ async function deserializeAws_json1_1EnableAWSServiceAccessCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4273,7 +4273,7 @@ export async function deserializeAws_json1_1EnableAllFeaturesCommand(
   const response: EnableAllFeaturesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableAllFeaturesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4284,7 +4284,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
 ): Promise<EnableAllFeaturesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4300,7 +4300,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4311,7 +4311,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4322,7 +4322,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeConstraintViolationException":
@@ -4333,7 +4333,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4344,7 +4344,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4355,7 +4355,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4366,7 +4366,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4377,7 +4377,7 @@ async function deserializeAws_json1_1EnableAllFeaturesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4399,7 +4399,7 @@ export async function deserializeAws_json1_1EnablePolicyTypeCommand(
   const response: EnablePolicyTypeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnablePolicyTypeResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4410,7 +4410,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
 ): Promise<EnablePolicyTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4426,7 +4426,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4437,7 +4437,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4448,7 +4448,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -4459,7 +4459,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4470,7 +4470,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyChangesInProgressException":
@@ -4481,7 +4481,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyTypeAlreadyEnabledException":
@@ -4492,7 +4492,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyTypeNotAvailableForOrganizationException":
@@ -4503,7 +4503,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RootNotFoundException":
@@ -4514,7 +4514,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4525,7 +4525,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4536,7 +4536,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -4547,7 +4547,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4558,7 +4558,7 @@ async function deserializeAws_json1_1EnablePolicyTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4586,7 +4586,7 @@ export async function deserializeAws_json1_1InviteAccountToOrganizationCommand(
   const response: InviteAccountToOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InviteAccountToOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4597,7 +4597,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
 ): Promise<InviteAccountToOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4613,7 +4613,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4624,7 +4624,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountOwnerNotVerifiedException":
@@ -4635,7 +4635,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4646,7 +4646,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateHandshakeException":
@@ -4657,7 +4657,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "FinalizingOrganizationException":
@@ -4668,7 +4668,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HandshakeConstraintViolationException":
@@ -4679,7 +4679,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4690,7 +4690,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4701,7 +4701,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4712,7 +4712,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4723,7 +4723,7 @@ async function deserializeAws_json1_1InviteAccountToOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4741,7 +4741,7 @@ export async function deserializeAws_json1_1LeaveOrganizationCommand(
   }
   await collectBody(output.body, context);
   const response: LeaveOrganizationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4752,7 +4752,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
 ): Promise<LeaveOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4768,7 +4768,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4779,7 +4779,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountNotFoundException":
@@ -4790,7 +4790,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -4801,7 +4801,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -4812,7 +4812,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4823,7 +4823,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MasterCannotLeaveOrganizationException":
@@ -4834,7 +4834,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4845,7 +4845,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4856,7 +4856,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4867,7 +4867,7 @@ async function deserializeAws_json1_1LeaveOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4895,7 +4895,7 @@ export async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationC
   const response: ListAWSServiceAccessForOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAWSServiceAccessForOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4906,7 +4906,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
 ): Promise<ListAWSServiceAccessForOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4922,7 +4922,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -4933,7 +4933,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -4944,7 +4944,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -4955,7 +4955,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -4966,7 +4966,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -4977,7 +4977,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4988,7 +4988,7 @@ async function deserializeAws_json1_1ListAWSServiceAccessForOrganizationCommandE
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5010,7 +5010,7 @@ export async function deserializeAws_json1_1ListAccountsCommand(
   const response: ListAccountsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAccountsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5021,7 +5021,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
 ): Promise<ListAccountsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5037,7 +5037,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5048,7 +5048,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5059,7 +5059,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5070,7 +5070,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5081,7 +5081,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5092,7 +5092,7 @@ async function deserializeAws_json1_1ListAccountsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5117,7 +5117,7 @@ export async function deserializeAws_json1_1ListAccountsForParentCommand(
   const response: ListAccountsForParentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAccountsForParentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5128,7 +5128,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
 ): Promise<ListAccountsForParentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5144,7 +5144,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5155,7 +5155,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5166,7 +5166,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ParentNotFoundException":
@@ -5177,7 +5177,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5188,7 +5188,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5199,7 +5199,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5210,7 +5210,7 @@ async function deserializeAws_json1_1ListAccountsForParentCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5232,7 +5232,7 @@ export async function deserializeAws_json1_1ListChildrenCommand(
   const response: ListChildrenCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListChildrenResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5243,7 +5243,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
 ): Promise<ListChildrenCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5259,7 +5259,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5270,7 +5270,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5281,7 +5281,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ParentNotFoundException":
@@ -5292,7 +5292,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5303,7 +5303,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5314,7 +5314,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5325,7 +5325,7 @@ async function deserializeAws_json1_1ListChildrenCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5353,7 +5353,7 @@ export async function deserializeAws_json1_1ListCreateAccountStatusCommand(
   const response: ListCreateAccountStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListCreateAccountStatusResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5364,7 +5364,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
 ): Promise<ListCreateAccountStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5380,7 +5380,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5391,7 +5391,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5402,7 +5402,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5413,7 +5413,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5424,7 +5424,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -5435,7 +5435,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5446,7 +5446,7 @@ async function deserializeAws_json1_1ListCreateAccountStatusCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5474,7 +5474,7 @@ export async function deserializeAws_json1_1ListHandshakesForAccountCommand(
   const response: ListHandshakesForAccountCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListHandshakesForAccountResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5485,7 +5485,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
 ): Promise<ListHandshakesForAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5501,7 +5501,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -5512,7 +5512,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5523,7 +5523,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5534,7 +5534,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5545,7 +5545,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5556,7 +5556,7 @@ async function deserializeAws_json1_1ListHandshakesForAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5584,7 +5584,7 @@ export async function deserializeAws_json1_1ListHandshakesForOrganizationCommand
   const response: ListHandshakesForOrganizationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListHandshakesForOrganizationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5595,7 +5595,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
 ): Promise<ListHandshakesForOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5611,7 +5611,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5622,7 +5622,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -5633,7 +5633,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5644,7 +5644,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5655,7 +5655,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5666,7 +5666,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5677,7 +5677,7 @@ async function deserializeAws_json1_1ListHandshakesForOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5705,7 +5705,7 @@ export async function deserializeAws_json1_1ListOrganizationalUnitsForParentComm
   const response: ListOrganizationalUnitsForParentCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListOrganizationalUnitsForParentResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5716,7 +5716,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
 ): Promise<ListOrganizationalUnitsForParentCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5732,7 +5732,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5743,7 +5743,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5754,7 +5754,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ParentNotFoundException":
@@ -5765,7 +5765,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5776,7 +5776,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5787,7 +5787,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5798,7 +5798,7 @@ async function deserializeAws_json1_1ListOrganizationalUnitsForParentCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5820,7 +5820,7 @@ export async function deserializeAws_json1_1ListParentsCommand(
   const response: ListParentsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListParentsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5831,7 +5831,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
 ): Promise<ListParentsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5847,7 +5847,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5858,7 +5858,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ChildNotFoundException":
@@ -5869,7 +5869,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5880,7 +5880,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5891,7 +5891,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -5902,7 +5902,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5913,7 +5913,7 @@ async function deserializeAws_json1_1ListParentsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5935,7 +5935,7 @@ export async function deserializeAws_json1_1ListPoliciesCommand(
   const response: ListPoliciesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPoliciesResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5946,7 +5946,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
 ): Promise<ListPoliciesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5962,7 +5962,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -5973,7 +5973,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -5984,7 +5984,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -5995,7 +5995,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6006,7 +6006,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -6017,7 +6017,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6028,7 +6028,7 @@ async function deserializeAws_json1_1ListPoliciesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6053,7 +6053,7 @@ export async function deserializeAws_json1_1ListPoliciesForTargetCommand(
   const response: ListPoliciesForTargetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListPoliciesForTargetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6064,7 +6064,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
 ): Promise<ListPoliciesForTargetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6080,7 +6080,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6091,7 +6091,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6102,7 +6102,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6113,7 +6113,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -6124,7 +6124,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6135,7 +6135,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -6146,7 +6146,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6157,7 +6157,7 @@ async function deserializeAws_json1_1ListPoliciesForTargetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6179,7 +6179,7 @@ export async function deserializeAws_json1_1ListRootsCommand(
   const response: ListRootsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListRootsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6190,7 +6190,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
 ): Promise<ListRootsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6206,7 +6206,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6217,7 +6217,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6228,7 +6228,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6239,7 +6239,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6250,7 +6250,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6261,7 +6261,7 @@ async function deserializeAws_json1_1ListRootsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6286,7 +6286,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6297,7 +6297,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6313,7 +6313,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6324,7 +6324,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6335,7 +6335,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6346,7 +6346,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -6357,7 +6357,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6368,7 +6368,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6379,7 +6379,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6404,7 +6404,7 @@ export async function deserializeAws_json1_1ListTargetsForPolicyCommand(
   const response: ListTargetsForPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTargetsForPolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6415,7 +6415,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
 ): Promise<ListTargetsForPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6431,7 +6431,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6442,7 +6442,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6453,7 +6453,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -6464,7 +6464,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6475,7 +6475,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6486,7 +6486,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -6497,7 +6497,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6508,7 +6508,7 @@ async function deserializeAws_json1_1ListTargetsForPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6526,7 +6526,7 @@ export async function deserializeAws_json1_1MoveAccountCommand(
   }
   await collectBody(output.body, context);
   const response: MoveAccountCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6537,7 +6537,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
 ): Promise<MoveAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6553,7 +6553,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6564,7 +6564,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountNotFoundException":
@@ -6575,7 +6575,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -6586,7 +6586,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DestinationParentNotFoundException":
@@ -6597,7 +6597,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateAccountException":
@@ -6608,7 +6608,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6619,7 +6619,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6630,7 +6630,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SourceParentNotFoundException":
@@ -6641,7 +6641,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6652,7 +6652,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6663,7 +6663,7 @@ async function deserializeAws_json1_1MoveAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6684,7 +6684,7 @@ export async function deserializeAws_json1_1RemoveAccountFromOrganizationCommand
   }
   await collectBody(output.body, context);
   const response: RemoveAccountFromOrganizationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6695,7 +6695,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
 ): Promise<RemoveAccountFromOrganizationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6711,7 +6711,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6722,7 +6722,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccountNotFoundException":
@@ -6733,7 +6733,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -6744,7 +6744,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -6755,7 +6755,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6766,7 +6766,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MasterCannotLeaveOrganizationException":
@@ -6777,7 +6777,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6788,7 +6788,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6799,7 +6799,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6810,7 +6810,7 @@ async function deserializeAws_json1_1RemoveAccountFromOrganizationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6828,7 +6828,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   }
   await collectBody(output.body, context);
   const response: TagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6839,7 +6839,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6855,7 +6855,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6866,7 +6866,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -6877,7 +6877,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -6888,7 +6888,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -6899,7 +6899,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -6910,7 +6910,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -6921,7 +6921,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -6932,7 +6932,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6943,7 +6943,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6961,7 +6961,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   }
   await collectBody(output.body, context);
   const response: UntagResourceCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -6972,7 +6972,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6988,7 +6988,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -6999,7 +6999,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -7010,7 +7010,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -7021,7 +7021,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7032,7 +7032,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7043,7 +7043,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TargetNotFoundException":
@@ -7054,7 +7054,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -7065,7 +7065,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7076,7 +7076,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7104,7 +7104,7 @@ export async function deserializeAws_json1_1UpdateOrganizationalUnitCommand(
   const response: UpdateOrganizationalUnitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateOrganizationalUnitResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7115,7 +7115,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
 ): Promise<UpdateOrganizationalUnitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7131,7 +7131,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -7142,7 +7142,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -7153,7 +7153,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicateOrganizationalUnitException":
@@ -7164,7 +7164,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7175,7 +7175,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OrganizationalUnitNotFoundException":
@@ -7186,7 +7186,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7197,7 +7197,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -7208,7 +7208,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7219,7 +7219,7 @@ async function deserializeAws_json1_1UpdateOrganizationalUnitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7241,7 +7241,7 @@ export async function deserializeAws_json1_1UpdatePolicyCommand(
   const response: UpdatePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdatePolicyResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7252,7 +7252,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
 ): Promise<UpdatePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7268,7 +7268,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AccessDeniedException":
@@ -7279,7 +7279,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConcurrentModificationException":
@@ -7290,7 +7290,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ConstraintViolationException":
@@ -7301,7 +7301,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DuplicatePolicyException":
@@ -7312,7 +7312,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -7323,7 +7323,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MalformedPolicyDocumentException":
@@ -7334,7 +7334,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyChangesInProgressException":
@@ -7345,7 +7345,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyNotFoundException":
@@ -7356,7 +7356,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceException":
@@ -7367,7 +7367,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TooManyRequestsException":
@@ -7378,7 +7378,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedAPIEndpointException":
@@ -7389,7 +7389,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7400,7 +7400,7 @@ async function deserializeAws_json1_1UpdatePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7422,7 +7422,7 @@ const deserializeAws_json1_1AWSOrganizationsNotInUseExceptionResponse = async (
     name: "AWSOrganizationsNotInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7440,7 +7440,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7458,7 +7458,7 @@ const deserializeAws_json1_1AccessDeniedForDependencyExceptionResponse = async (
     name: "AccessDeniedForDependencyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7476,7 +7476,7 @@ const deserializeAws_json1_1AccountNotFoundExceptionResponse = async (
     name: "AccountNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7494,7 +7494,7 @@ const deserializeAws_json1_1AccountOwnerNotVerifiedExceptionResponse = async (
     name: "AccountOwnerNotVerifiedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7512,7 +7512,7 @@ const deserializeAws_json1_1AlreadyInOrganizationExceptionResponse = async (
     name: "AlreadyInOrganizationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7530,7 +7530,7 @@ const deserializeAws_json1_1ChildNotFoundExceptionResponse = async (
     name: "ChildNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7548,7 +7548,7 @@ const deserializeAws_json1_1ConcurrentModificationExceptionResponse = async (
     name: "ConcurrentModificationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7566,7 +7566,7 @@ const deserializeAws_json1_1ConstraintViolationExceptionResponse = async (
     name: "ConstraintViolationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7584,7 +7584,7 @@ const deserializeAws_json1_1CreateAccountStatusNotFoundExceptionResponse = async
     name: "CreateAccountStatusNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7602,7 +7602,7 @@ const deserializeAws_json1_1DestinationParentNotFoundExceptionResponse = async (
     name: "DestinationParentNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7620,7 +7620,7 @@ const deserializeAws_json1_1DuplicateAccountExceptionResponse = async (
     name: "DuplicateAccountException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7638,7 +7638,7 @@ const deserializeAws_json1_1DuplicateHandshakeExceptionResponse = async (
     name: "DuplicateHandshakeException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7656,7 +7656,7 @@ const deserializeAws_json1_1DuplicateOrganizationalUnitExceptionResponse = async
     name: "DuplicateOrganizationalUnitException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7674,7 +7674,7 @@ const deserializeAws_json1_1DuplicatePolicyAttachmentExceptionResponse = async (
     name: "DuplicatePolicyAttachmentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7692,7 +7692,7 @@ const deserializeAws_json1_1DuplicatePolicyExceptionResponse = async (
     name: "DuplicatePolicyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7710,7 +7710,7 @@ const deserializeAws_json1_1EffectivePolicyNotFoundExceptionResponse = async (
     name: "EffectivePolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7728,7 +7728,7 @@ const deserializeAws_json1_1FinalizingOrganizationExceptionResponse = async (
     name: "FinalizingOrganizationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7746,7 +7746,7 @@ const deserializeAws_json1_1HandshakeAlreadyInStateExceptionResponse = async (
     name: "HandshakeAlreadyInStateException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7764,7 +7764,7 @@ const deserializeAws_json1_1HandshakeConstraintViolationExceptionResponse = asyn
     name: "HandshakeConstraintViolationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7782,7 +7782,7 @@ const deserializeAws_json1_1HandshakeNotFoundExceptionResponse = async (
     name: "HandshakeNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7800,7 +7800,7 @@ const deserializeAws_json1_1InvalidHandshakeTransitionExceptionResponse = async 
     name: "InvalidHandshakeTransitionException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7818,7 +7818,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7836,7 +7836,7 @@ const deserializeAws_json1_1MalformedPolicyDocumentExceptionResponse = async (
     name: "MalformedPolicyDocumentException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7854,7 +7854,7 @@ const deserializeAws_json1_1MasterCannotLeaveOrganizationExceptionResponse = asy
     name: "MasterCannotLeaveOrganizationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7872,7 +7872,7 @@ const deserializeAws_json1_1OrganizationNotEmptyExceptionResponse = async (
     name: "OrganizationNotEmptyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7890,7 +7890,7 @@ const deserializeAws_json1_1OrganizationalUnitNotEmptyExceptionResponse = async 
     name: "OrganizationalUnitNotEmptyException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7908,7 +7908,7 @@ const deserializeAws_json1_1OrganizationalUnitNotFoundExceptionResponse = async 
     name: "OrganizationalUnitNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7926,7 +7926,7 @@ const deserializeAws_json1_1ParentNotFoundExceptionResponse = async (
     name: "ParentNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7944,7 +7944,7 @@ const deserializeAws_json1_1PolicyChangesInProgressExceptionResponse = async (
     name: "PolicyChangesInProgressException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7962,7 +7962,7 @@ const deserializeAws_json1_1PolicyInUseExceptionResponse = async (
     name: "PolicyInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7980,7 +7980,7 @@ const deserializeAws_json1_1PolicyNotAttachedExceptionResponse = async (
     name: "PolicyNotAttachedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7998,7 +7998,7 @@ const deserializeAws_json1_1PolicyNotFoundExceptionResponse = async (
     name: "PolicyNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8016,7 +8016,7 @@ const deserializeAws_json1_1PolicyTypeAlreadyEnabledExceptionResponse = async (
     name: "PolicyTypeAlreadyEnabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8034,7 +8034,7 @@ const deserializeAws_json1_1PolicyTypeNotAvailableForOrganizationExceptionRespon
     name: "PolicyTypeNotAvailableForOrganizationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8052,7 +8052,7 @@ const deserializeAws_json1_1PolicyTypeNotEnabledExceptionResponse = async (
     name: "PolicyTypeNotEnabledException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8070,7 +8070,7 @@ const deserializeAws_json1_1RootNotFoundExceptionResponse = async (
     name: "RootNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8088,7 +8088,7 @@ const deserializeAws_json1_1ServiceExceptionResponse = async (
     name: "ServiceException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8106,7 +8106,7 @@ const deserializeAws_json1_1SourceParentNotFoundExceptionResponse = async (
     name: "SourceParentNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8124,7 +8124,7 @@ const deserializeAws_json1_1TargetNotFoundExceptionResponse = async (
     name: "TargetNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8142,7 +8142,7 @@ const deserializeAws_json1_1TooManyRequestsExceptionResponse = async (
     name: "TooManyRequestsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8160,7 +8160,7 @@ const deserializeAws_json1_1UnsupportedAPIEndpointExceptionResponse = async (
     name: "UnsupportedAPIEndpointException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8886,7 +8886,7 @@ const deserializeAws_json1_1AWSOrganizationsNotInUseException = (
 ): AWSOrganizationsNotInUseException => {
   let contents: any = {
     __type: "AWSOrganizationsNotInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8900,7 +8900,7 @@ const deserializeAws_json1_1AcceptHandshakeResponse = (
 ): AcceptHandshakeResponse => {
   let contents: any = {
     __type: "AcceptHandshakeResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -8917,7 +8917,7 @@ const deserializeAws_json1_1AccessDeniedException = (
 ): AccessDeniedException => {
   let contents: any = {
     __type: "AccessDeniedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8932,7 +8932,7 @@ const deserializeAws_json1_1AccessDeniedForDependencyException = (
   let contents: any = {
     __type: "AccessDeniedForDependencyException",
     Message: undefined,
-    Reason: undefined
+    Reason: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8955,7 +8955,7 @@ const deserializeAws_json1_1Account = (
     JoinedMethod: undefined,
     JoinedTimestamp: undefined,
     Name: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -8989,7 +8989,7 @@ const deserializeAws_json1_1AccountNotFoundException = (
 ): AccountNotFoundException => {
   let contents: any = {
     __type: "AccountNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9003,7 +9003,7 @@ const deserializeAws_json1_1AccountOwnerNotVerifiedException = (
 ): AccountOwnerNotVerifiedException => {
   let contents: any = {
     __type: "AccountOwnerNotVerifiedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9026,7 +9026,7 @@ const deserializeAws_json1_1AlreadyInOrganizationException = (
 ): AlreadyInOrganizationException => {
   let contents: any = {
     __type: "AlreadyInOrganizationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9040,7 +9040,7 @@ const deserializeAws_json1_1CancelHandshakeResponse = (
 ): CancelHandshakeResponse => {
   let contents: any = {
     __type: "CancelHandshakeResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -9058,7 +9058,7 @@ const deserializeAws_json1_1Child = (
   let contents: any = {
     __type: "Child",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -9075,7 +9075,7 @@ const deserializeAws_json1_1ChildNotFoundException = (
 ): ChildNotFoundException => {
   let contents: any = {
     __type: "ChildNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9098,7 +9098,7 @@ const deserializeAws_json1_1ConcurrentModificationException = (
 ): ConcurrentModificationException => {
   let contents: any = {
     __type: "ConcurrentModificationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9113,7 +9113,7 @@ const deserializeAws_json1_1ConstraintViolationException = (
   let contents: any = {
     __type: "ConstraintViolationException",
     Message: undefined,
-    Reason: undefined
+    Reason: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9130,7 +9130,7 @@ const deserializeAws_json1_1CreateAccountResponse = (
 ): CreateAccountResponse => {
   let contents: any = {
     __type: "CreateAccountResponse",
-    CreateAccountStatus: undefined
+    CreateAccountStatus: undefined,
   };
   if (
     output.CreateAccountStatus !== undefined &&
@@ -9157,7 +9157,7 @@ const deserializeAws_json1_1CreateAccountStatus = (
     GovCloudAccountId: undefined,
     Id: undefined,
     RequestedTimestamp: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.AccountId !== undefined && output.AccountId !== null) {
     contents.AccountId = output.AccountId;
@@ -9205,7 +9205,7 @@ const deserializeAws_json1_1CreateAccountStatusNotFoundException = (
 ): CreateAccountStatusNotFoundException => {
   let contents: any = {
     __type: "CreateAccountStatusNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9228,7 +9228,7 @@ const deserializeAws_json1_1CreateGovCloudAccountResponse = (
 ): CreateGovCloudAccountResponse => {
   let contents: any = {
     __type: "CreateGovCloudAccountResponse",
-    CreateAccountStatus: undefined
+    CreateAccountStatus: undefined,
   };
   if (
     output.CreateAccountStatus !== undefined &&
@@ -9248,7 +9248,7 @@ const deserializeAws_json1_1CreateOrganizationResponse = (
 ): CreateOrganizationResponse => {
   let contents: any = {
     __type: "CreateOrganizationResponse",
-    Organization: undefined
+    Organization: undefined,
   };
   if (output.Organization !== undefined && output.Organization !== null) {
     contents.Organization = deserializeAws_json1_1Organization(
@@ -9265,7 +9265,7 @@ const deserializeAws_json1_1CreateOrganizationalUnitResponse = (
 ): CreateOrganizationalUnitResponse => {
   let contents: any = {
     __type: "CreateOrganizationalUnitResponse",
-    OrganizationalUnit: undefined
+    OrganizationalUnit: undefined,
   };
   if (
     output.OrganizationalUnit !== undefined &&
@@ -9285,7 +9285,7 @@ const deserializeAws_json1_1CreatePolicyResponse = (
 ): CreatePolicyResponse => {
   let contents: any = {
     __type: "CreatePolicyResponse",
-    Policy: undefined
+    Policy: undefined,
   };
   if (output.Policy !== undefined && output.Policy !== null) {
     contents.Policy = deserializeAws_json1_1Policy(output.Policy, context);
@@ -9299,7 +9299,7 @@ const deserializeAws_json1_1DeclineHandshakeResponse = (
 ): DeclineHandshakeResponse => {
   let contents: any = {
     __type: "DeclineHandshakeResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -9316,7 +9316,7 @@ const deserializeAws_json1_1DescribeAccountResponse = (
 ): DescribeAccountResponse => {
   let contents: any = {
     __type: "DescribeAccountResponse",
-    Account: undefined
+    Account: undefined,
   };
   if (output.Account !== undefined && output.Account !== null) {
     contents.Account = deserializeAws_json1_1Account(output.Account, context);
@@ -9330,7 +9330,7 @@ const deserializeAws_json1_1DescribeCreateAccountStatusResponse = (
 ): DescribeCreateAccountStatusResponse => {
   let contents: any = {
     __type: "DescribeCreateAccountStatusResponse",
-    CreateAccountStatus: undefined
+    CreateAccountStatus: undefined,
   };
   if (
     output.CreateAccountStatus !== undefined &&
@@ -9350,7 +9350,7 @@ const deserializeAws_json1_1DescribeEffectivePolicyResponse = (
 ): DescribeEffectivePolicyResponse => {
   let contents: any = {
     __type: "DescribeEffectivePolicyResponse",
-    EffectivePolicy: undefined
+    EffectivePolicy: undefined,
   };
   if (output.EffectivePolicy !== undefined && output.EffectivePolicy !== null) {
     contents.EffectivePolicy = deserializeAws_json1_1EffectivePolicy(
@@ -9367,7 +9367,7 @@ const deserializeAws_json1_1DescribeHandshakeResponse = (
 ): DescribeHandshakeResponse => {
   let contents: any = {
     __type: "DescribeHandshakeResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -9384,7 +9384,7 @@ const deserializeAws_json1_1DescribeOrganizationResponse = (
 ): DescribeOrganizationResponse => {
   let contents: any = {
     __type: "DescribeOrganizationResponse",
-    Organization: undefined
+    Organization: undefined,
   };
   if (output.Organization !== undefined && output.Organization !== null) {
     contents.Organization = deserializeAws_json1_1Organization(
@@ -9401,7 +9401,7 @@ const deserializeAws_json1_1DescribeOrganizationalUnitResponse = (
 ): DescribeOrganizationalUnitResponse => {
   let contents: any = {
     __type: "DescribeOrganizationalUnitResponse",
-    OrganizationalUnit: undefined
+    OrganizationalUnit: undefined,
   };
   if (
     output.OrganizationalUnit !== undefined &&
@@ -9421,7 +9421,7 @@ const deserializeAws_json1_1DescribePolicyResponse = (
 ): DescribePolicyResponse => {
   let contents: any = {
     __type: "DescribePolicyResponse",
-    Policy: undefined
+    Policy: undefined,
   };
   if (output.Policy !== undefined && output.Policy !== null) {
     contents.Policy = deserializeAws_json1_1Policy(output.Policy, context);
@@ -9435,7 +9435,7 @@ const deserializeAws_json1_1DestinationParentNotFoundException = (
 ): DestinationParentNotFoundException => {
   let contents: any = {
     __type: "DestinationParentNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9449,7 +9449,7 @@ const deserializeAws_json1_1DisablePolicyTypeResponse = (
 ): DisablePolicyTypeResponse => {
   let contents: any = {
     __type: "DisablePolicyTypeResponse",
-    Root: undefined
+    Root: undefined,
   };
   if (output.Root !== undefined && output.Root !== null) {
     contents.Root = deserializeAws_json1_1Root(output.Root, context);
@@ -9463,7 +9463,7 @@ const deserializeAws_json1_1DuplicateAccountException = (
 ): DuplicateAccountException => {
   let contents: any = {
     __type: "DuplicateAccountException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9477,7 +9477,7 @@ const deserializeAws_json1_1DuplicateHandshakeException = (
 ): DuplicateHandshakeException => {
   let contents: any = {
     __type: "DuplicateHandshakeException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9491,7 +9491,7 @@ const deserializeAws_json1_1DuplicateOrganizationalUnitException = (
 ): DuplicateOrganizationalUnitException => {
   let contents: any = {
     __type: "DuplicateOrganizationalUnitException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9505,7 +9505,7 @@ const deserializeAws_json1_1DuplicatePolicyAttachmentException = (
 ): DuplicatePolicyAttachmentException => {
   let contents: any = {
     __type: "DuplicatePolicyAttachmentException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9519,7 +9519,7 @@ const deserializeAws_json1_1DuplicatePolicyException = (
 ): DuplicatePolicyException => {
   let contents: any = {
     __type: "DuplicatePolicyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9536,7 +9536,7 @@ const deserializeAws_json1_1EffectivePolicy = (
     LastUpdatedTimestamp: undefined,
     PolicyContent: undefined,
     PolicyType: undefined,
-    TargetId: undefined
+    TargetId: undefined,
   };
   if (
     output.LastUpdatedTimestamp !== undefined &&
@@ -9564,7 +9564,7 @@ const deserializeAws_json1_1EffectivePolicyNotFoundException = (
 ): EffectivePolicyNotFoundException => {
   let contents: any = {
     __type: "EffectivePolicyNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9578,7 +9578,7 @@ const deserializeAws_json1_1EnableAllFeaturesResponse = (
 ): EnableAllFeaturesResponse => {
   let contents: any = {
     __type: "EnableAllFeaturesResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -9595,7 +9595,7 @@ const deserializeAws_json1_1EnablePolicyTypeResponse = (
 ): EnablePolicyTypeResponse => {
   let contents: any = {
     __type: "EnablePolicyTypeResponse",
-    Root: undefined
+    Root: undefined,
   };
   if (output.Root !== undefined && output.Root !== null) {
     contents.Root = deserializeAws_json1_1Root(output.Root, context);
@@ -9610,7 +9610,7 @@ const deserializeAws_json1_1EnabledServicePrincipal = (
   let contents: any = {
     __type: "EnabledServicePrincipal",
     DateEnabled: undefined,
-    ServicePrincipal: undefined
+    ServicePrincipal: undefined,
   };
   if (output.DateEnabled !== undefined && output.DateEnabled !== null) {
     contents.DateEnabled = new Date(Math.round(output.DateEnabled * 1000));
@@ -9639,7 +9639,7 @@ const deserializeAws_json1_1FinalizingOrganizationException = (
 ): FinalizingOrganizationException => {
   let contents: any = {
     __type: "FinalizingOrganizationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9660,7 +9660,7 @@ const deserializeAws_json1_1Handshake = (
     Parties: undefined,
     RequestedTimestamp: undefined,
     Resources: undefined,
-    State: undefined
+    State: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = output.Action;
@@ -9711,7 +9711,7 @@ const deserializeAws_json1_1HandshakeAlreadyInStateException = (
 ): HandshakeAlreadyInStateException => {
   let contents: any = {
     __type: "HandshakeAlreadyInStateException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9726,7 +9726,7 @@ const deserializeAws_json1_1HandshakeConstraintViolationException = (
   let contents: any = {
     __type: "HandshakeConstraintViolationException",
     Message: undefined,
-    Reason: undefined
+    Reason: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9743,7 +9743,7 @@ const deserializeAws_json1_1HandshakeNotFoundException = (
 ): HandshakeNotFoundException => {
   let contents: any = {
     __type: "HandshakeNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9767,7 +9767,7 @@ const deserializeAws_json1_1HandshakeParty = (
   let contents: any = {
     __type: "HandshakeParty",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -9786,7 +9786,7 @@ const deserializeAws_json1_1HandshakeResource = (
     __type: "HandshakeResource",
     Resources: undefined,
     Type: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Resources !== undefined && output.Resources !== null) {
     contents.Resources = deserializeAws_json1_1HandshakeResources(
@@ -9827,7 +9827,7 @@ const deserializeAws_json1_1InvalidHandshakeTransitionException = (
 ): InvalidHandshakeTransitionException => {
   let contents: any = {
     __type: "InvalidHandshakeTransitionException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9842,7 +9842,7 @@ const deserializeAws_json1_1InvalidInputException = (
   let contents: any = {
     __type: "InvalidInputException",
     Message: undefined,
-    Reason: undefined
+    Reason: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -9859,7 +9859,7 @@ const deserializeAws_json1_1InviteAccountToOrganizationResponse = (
 ): InviteAccountToOrganizationResponse => {
   let contents: any = {
     __type: "InviteAccountToOrganizationResponse",
-    Handshake: undefined
+    Handshake: undefined,
   };
   if (output.Handshake !== undefined && output.Handshake !== null) {
     contents.Handshake = deserializeAws_json1_1Handshake(
@@ -9877,7 +9877,7 @@ const deserializeAws_json1_1ListAWSServiceAccessForOrganizationResponse = (
   let contents: any = {
     __type: "ListAWSServiceAccessForOrganizationResponse",
     EnabledServicePrincipals: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.EnabledServicePrincipals !== undefined &&
@@ -9901,7 +9901,7 @@ const deserializeAws_json1_1ListAccountsForParentResponse = (
   let contents: any = {
     __type: "ListAccountsForParentResponse",
     Accounts: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Accounts !== undefined && output.Accounts !== null) {
     contents.Accounts = deserializeAws_json1_1Accounts(
@@ -9922,7 +9922,7 @@ const deserializeAws_json1_1ListAccountsResponse = (
   let contents: any = {
     __type: "ListAccountsResponse",
     Accounts: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Accounts !== undefined && output.Accounts !== null) {
     contents.Accounts = deserializeAws_json1_1Accounts(
@@ -9943,7 +9943,7 @@ const deserializeAws_json1_1ListChildrenResponse = (
   let contents: any = {
     __type: "ListChildrenResponse",
     Children: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Children !== undefined && output.Children !== null) {
     contents.Children = deserializeAws_json1_1Children(
@@ -9964,7 +9964,7 @@ const deserializeAws_json1_1ListCreateAccountStatusResponse = (
   let contents: any = {
     __type: "ListCreateAccountStatusResponse",
     CreateAccountStatuses: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.CreateAccountStatuses !== undefined &&
@@ -9988,7 +9988,7 @@ const deserializeAws_json1_1ListHandshakesForAccountResponse = (
   let contents: any = {
     __type: "ListHandshakesForAccountResponse",
     Handshakes: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Handshakes !== undefined && output.Handshakes !== null) {
     contents.Handshakes = deserializeAws_json1_1Handshakes(
@@ -10009,7 +10009,7 @@ const deserializeAws_json1_1ListHandshakesForOrganizationResponse = (
   let contents: any = {
     __type: "ListHandshakesForOrganizationResponse",
     Handshakes: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Handshakes !== undefined && output.Handshakes !== null) {
     contents.Handshakes = deserializeAws_json1_1Handshakes(
@@ -10030,7 +10030,7 @@ const deserializeAws_json1_1ListOrganizationalUnitsForParentResponse = (
   let contents: any = {
     __type: "ListOrganizationalUnitsForParentResponse",
     NextToken: undefined,
-    OrganizationalUnits: undefined
+    OrganizationalUnits: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10054,7 +10054,7 @@ const deserializeAws_json1_1ListParentsResponse = (
   let contents: any = {
     __type: "ListParentsResponse",
     NextToken: undefined,
-    Parents: undefined
+    Parents: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10072,7 +10072,7 @@ const deserializeAws_json1_1ListPoliciesForTargetResponse = (
   let contents: any = {
     __type: "ListPoliciesForTargetResponse",
     NextToken: undefined,
-    Policies: undefined
+    Policies: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10093,7 +10093,7 @@ const deserializeAws_json1_1ListPoliciesResponse = (
   let contents: any = {
     __type: "ListPoliciesResponse",
     NextToken: undefined,
-    Policies: undefined
+    Policies: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10114,7 +10114,7 @@ const deserializeAws_json1_1ListRootsResponse = (
   let contents: any = {
     __type: "ListRootsResponse",
     NextToken: undefined,
-    Roots: undefined
+    Roots: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10132,7 +10132,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
   let contents: any = {
     __type: "ListTagsForResourceResponse",
     NextToken: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10150,7 +10150,7 @@ const deserializeAws_json1_1ListTargetsForPolicyResponse = (
   let contents: any = {
     __type: "ListTargetsForPolicyResponse",
     NextToken: undefined,
-    Targets: undefined
+    Targets: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -10170,7 +10170,7 @@ const deserializeAws_json1_1MalformedPolicyDocumentException = (
 ): MalformedPolicyDocumentException => {
   let contents: any = {
     __type: "MalformedPolicyDocumentException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10184,7 +10184,7 @@ const deserializeAws_json1_1MasterCannotLeaveOrganizationException = (
 ): MasterCannotLeaveOrganizationException => {
   let contents: any = {
     __type: "MasterCannotLeaveOrganizationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10204,7 +10204,7 @@ const deserializeAws_json1_1Organization = (
     Id: undefined,
     MasterAccountArn: undefined,
     MasterAccountEmail: undefined,
-    MasterAccountId: undefined
+    MasterAccountId: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -10248,7 +10248,7 @@ const deserializeAws_json1_1OrganizationNotEmptyException = (
 ): OrganizationNotEmptyException => {
   let contents: any = {
     __type: "OrganizationNotEmptyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10264,7 +10264,7 @@ const deserializeAws_json1_1OrganizationalUnit = (
     __type: "OrganizationalUnit",
     Arn: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -10284,7 +10284,7 @@ const deserializeAws_json1_1OrganizationalUnitNotEmptyException = (
 ): OrganizationalUnitNotEmptyException => {
   let contents: any = {
     __type: "OrganizationalUnitNotEmptyException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10298,7 +10298,7 @@ const deserializeAws_json1_1OrganizationalUnitNotFoundException = (
 ): OrganizationalUnitNotFoundException => {
   let contents: any = {
     __type: "OrganizationalUnitNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10322,7 +10322,7 @@ const deserializeAws_json1_1Parent = (
   let contents: any = {
     __type: "Parent",
     Id: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Id !== undefined && output.Id !== null) {
     contents.Id = output.Id;
@@ -10339,7 +10339,7 @@ const deserializeAws_json1_1ParentNotFoundException = (
 ): ParentNotFoundException => {
   let contents: any = {
     __type: "ParentNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10372,7 +10372,7 @@ const deserializeAws_json1_1Policy = (
   let contents: any = {
     __type: "Policy",
     Content: undefined,
-    PolicySummary: undefined
+    PolicySummary: undefined,
   };
   if (output.Content !== undefined && output.Content !== null) {
     contents.Content = output.Content;
@@ -10392,7 +10392,7 @@ const deserializeAws_json1_1PolicyChangesInProgressException = (
 ): PolicyChangesInProgressException => {
   let contents: any = {
     __type: "PolicyChangesInProgressException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10406,7 +10406,7 @@ const deserializeAws_json1_1PolicyInUseException = (
 ): PolicyInUseException => {
   let contents: any = {
     __type: "PolicyInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10420,7 +10420,7 @@ const deserializeAws_json1_1PolicyNotAttachedException = (
 ): PolicyNotAttachedException => {
   let contents: any = {
     __type: "PolicyNotAttachedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10434,7 +10434,7 @@ const deserializeAws_json1_1PolicyNotFoundException = (
 ): PolicyNotFoundException => {
   let contents: any = {
     __type: "PolicyNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10453,7 +10453,7 @@ const deserializeAws_json1_1PolicySummary = (
     Description: undefined,
     Id: undefined,
     Name: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -10485,7 +10485,7 @@ const deserializeAws_json1_1PolicyTargetSummary = (
     Arn: undefined,
     Name: undefined,
     TargetId: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -10517,7 +10517,7 @@ const deserializeAws_json1_1PolicyTypeAlreadyEnabledException = (
 ): PolicyTypeAlreadyEnabledException => {
   let contents: any = {
     __type: "PolicyTypeAlreadyEnabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10531,7 +10531,7 @@ const deserializeAws_json1_1PolicyTypeNotAvailableForOrganizationException = (
 ): PolicyTypeNotAvailableForOrganizationException => {
   let contents: any = {
     __type: "PolicyTypeNotAvailableForOrganizationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10545,7 +10545,7 @@ const deserializeAws_json1_1PolicyTypeNotEnabledException = (
 ): PolicyTypeNotEnabledException => {
   let contents: any = {
     __type: "PolicyTypeNotEnabledException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10560,7 +10560,7 @@ const deserializeAws_json1_1PolicyTypeSummary = (
   let contents: any = {
     __type: "PolicyTypeSummary",
     Status: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Status !== undefined && output.Status !== null) {
     contents.Status = output.Status;
@@ -10589,7 +10589,7 @@ const deserializeAws_json1_1Root = (
     Arn: undefined,
     Id: undefined,
     Name: undefined,
-    PolicyTypes: undefined
+    PolicyTypes: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -10615,7 +10615,7 @@ const deserializeAws_json1_1RootNotFoundException = (
 ): RootNotFoundException => {
   let contents: any = {
     __type: "RootNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10638,7 +10638,7 @@ const deserializeAws_json1_1ServiceException = (
 ): ServiceException => {
   let contents: any = {
     __type: "ServiceException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10652,7 +10652,7 @@ const deserializeAws_json1_1SourceParentNotFoundException = (
 ): SourceParentNotFoundException => {
   let contents: any = {
     __type: "SourceParentNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10667,7 +10667,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -10693,7 +10693,7 @@ const deserializeAws_json1_1TargetNotFoundException = (
 ): TargetNotFoundException => {
   let contents: any = {
     __type: "TargetNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10708,7 +10708,7 @@ const deserializeAws_json1_1TooManyRequestsException = (
   let contents: any = {
     __type: "TooManyRequestsException",
     Message: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10725,7 +10725,7 @@ const deserializeAws_json1_1UnsupportedAPIEndpointException = (
 ): UnsupportedAPIEndpointException => {
   let contents: any = {
     __type: "UnsupportedAPIEndpointException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -10739,7 +10739,7 @@ const deserializeAws_json1_1UpdateOrganizationalUnitResponse = (
 ): UpdateOrganizationalUnitResponse => {
   let contents: any = {
     __type: "UpdateOrganizationalUnitResponse",
-    OrganizationalUnit: undefined
+    OrganizationalUnit: undefined,
   };
   if (
     output.OrganizationalUnit !== undefined &&
@@ -10759,7 +10759,7 @@ const deserializeAws_json1_1UpdatePolicyResponse = (
 ): UpdatePolicyResponse => {
   let contents: any = {
     __type: "UpdatePolicyResponse",
-    Policy: undefined
+    Policy: undefined,
   };
   if (output.Policy !== undefined && output.Policy !== null) {
     contents.Policy = deserializeAws_json1_1Policy(output.Policy, context);
@@ -10770,7 +10770,7 @@ const deserializeAws_json1_1UpdatePolicyResponse = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -10791,7 +10791,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -10804,11 +10804,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -10820,7 +10820,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

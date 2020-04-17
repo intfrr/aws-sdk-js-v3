@@ -1,346 +1,346 @@
 import {
   AcceptReservedNodeExchangeCommandInput,
-  AcceptReservedNodeExchangeCommandOutput
+  AcceptReservedNodeExchangeCommandOutput,
 } from "../commands/AcceptReservedNodeExchangeCommand";
 import {
   AuthorizeClusterSecurityGroupIngressCommandInput,
-  AuthorizeClusterSecurityGroupIngressCommandOutput
+  AuthorizeClusterSecurityGroupIngressCommandOutput,
 } from "../commands/AuthorizeClusterSecurityGroupIngressCommand";
 import {
   AuthorizeSnapshotAccessCommandInput,
-  AuthorizeSnapshotAccessCommandOutput
+  AuthorizeSnapshotAccessCommandOutput,
 } from "../commands/AuthorizeSnapshotAccessCommand";
 import {
   BatchDeleteClusterSnapshotsCommandInput,
-  BatchDeleteClusterSnapshotsCommandOutput
+  BatchDeleteClusterSnapshotsCommandOutput,
 } from "../commands/BatchDeleteClusterSnapshotsCommand";
 import {
   BatchModifyClusterSnapshotsCommandInput,
-  BatchModifyClusterSnapshotsCommandOutput
+  BatchModifyClusterSnapshotsCommandOutput,
 } from "../commands/BatchModifyClusterSnapshotsCommand";
 import {
   CancelResizeCommandInput,
-  CancelResizeCommandOutput
+  CancelResizeCommandOutput,
 } from "../commands/CancelResizeCommand";
 import {
   CopyClusterSnapshotCommandInput,
-  CopyClusterSnapshotCommandOutput
+  CopyClusterSnapshotCommandOutput,
 } from "../commands/CopyClusterSnapshotCommand";
 import {
   CreateClusterCommandInput,
-  CreateClusterCommandOutput
+  CreateClusterCommandOutput,
 } from "../commands/CreateClusterCommand";
 import {
   CreateClusterParameterGroupCommandInput,
-  CreateClusterParameterGroupCommandOutput
+  CreateClusterParameterGroupCommandOutput,
 } from "../commands/CreateClusterParameterGroupCommand";
 import {
   CreateClusterSecurityGroupCommandInput,
-  CreateClusterSecurityGroupCommandOutput
+  CreateClusterSecurityGroupCommandOutput,
 } from "../commands/CreateClusterSecurityGroupCommand";
 import {
   CreateClusterSnapshotCommandInput,
-  CreateClusterSnapshotCommandOutput
+  CreateClusterSnapshotCommandOutput,
 } from "../commands/CreateClusterSnapshotCommand";
 import {
   CreateClusterSubnetGroupCommandInput,
-  CreateClusterSubnetGroupCommandOutput
+  CreateClusterSubnetGroupCommandOutput,
 } from "../commands/CreateClusterSubnetGroupCommand";
 import {
   CreateEventSubscriptionCommandInput,
-  CreateEventSubscriptionCommandOutput
+  CreateEventSubscriptionCommandOutput,
 } from "../commands/CreateEventSubscriptionCommand";
 import {
   CreateHsmClientCertificateCommandInput,
-  CreateHsmClientCertificateCommandOutput
+  CreateHsmClientCertificateCommandOutput,
 } from "../commands/CreateHsmClientCertificateCommand";
 import {
   CreateHsmConfigurationCommandInput,
-  CreateHsmConfigurationCommandOutput
+  CreateHsmConfigurationCommandOutput,
 } from "../commands/CreateHsmConfigurationCommand";
 import {
   CreateScheduledActionCommandInput,
-  CreateScheduledActionCommandOutput
+  CreateScheduledActionCommandOutput,
 } from "../commands/CreateScheduledActionCommand";
 import {
   CreateSnapshotCopyGrantCommandInput,
-  CreateSnapshotCopyGrantCommandOutput
+  CreateSnapshotCopyGrantCommandOutput,
 } from "../commands/CreateSnapshotCopyGrantCommand";
 import {
   CreateSnapshotScheduleCommandInput,
-  CreateSnapshotScheduleCommandOutput
+  CreateSnapshotScheduleCommandOutput,
 } from "../commands/CreateSnapshotScheduleCommand";
 import {
   CreateTagsCommandInput,
-  CreateTagsCommandOutput
+  CreateTagsCommandOutput,
 } from "../commands/CreateTagsCommand";
 import {
   DeleteClusterCommandInput,
-  DeleteClusterCommandOutput
+  DeleteClusterCommandOutput,
 } from "../commands/DeleteClusterCommand";
 import {
   DeleteClusterParameterGroupCommandInput,
-  DeleteClusterParameterGroupCommandOutput
+  DeleteClusterParameterGroupCommandOutput,
 } from "../commands/DeleteClusterParameterGroupCommand";
 import {
   DeleteClusterSecurityGroupCommandInput,
-  DeleteClusterSecurityGroupCommandOutput
+  DeleteClusterSecurityGroupCommandOutput,
 } from "../commands/DeleteClusterSecurityGroupCommand";
 import {
   DeleteClusterSnapshotCommandInput,
-  DeleteClusterSnapshotCommandOutput
+  DeleteClusterSnapshotCommandOutput,
 } from "../commands/DeleteClusterSnapshotCommand";
 import {
   DeleteClusterSubnetGroupCommandInput,
-  DeleteClusterSubnetGroupCommandOutput
+  DeleteClusterSubnetGroupCommandOutput,
 } from "../commands/DeleteClusterSubnetGroupCommand";
 import {
   DeleteEventSubscriptionCommandInput,
-  DeleteEventSubscriptionCommandOutput
+  DeleteEventSubscriptionCommandOutput,
 } from "../commands/DeleteEventSubscriptionCommand";
 import {
   DeleteHsmClientCertificateCommandInput,
-  DeleteHsmClientCertificateCommandOutput
+  DeleteHsmClientCertificateCommandOutput,
 } from "../commands/DeleteHsmClientCertificateCommand";
 import {
   DeleteHsmConfigurationCommandInput,
-  DeleteHsmConfigurationCommandOutput
+  DeleteHsmConfigurationCommandOutput,
 } from "../commands/DeleteHsmConfigurationCommand";
 import {
   DeleteScheduledActionCommandInput,
-  DeleteScheduledActionCommandOutput
+  DeleteScheduledActionCommandOutput,
 } from "../commands/DeleteScheduledActionCommand";
 import {
   DeleteSnapshotCopyGrantCommandInput,
-  DeleteSnapshotCopyGrantCommandOutput
+  DeleteSnapshotCopyGrantCommandOutput,
 } from "../commands/DeleteSnapshotCopyGrantCommand";
 import {
   DeleteSnapshotScheduleCommandInput,
-  DeleteSnapshotScheduleCommandOutput
+  DeleteSnapshotScheduleCommandOutput,
 } from "../commands/DeleteSnapshotScheduleCommand";
 import {
   DeleteTagsCommandInput,
-  DeleteTagsCommandOutput
+  DeleteTagsCommandOutput,
 } from "../commands/DeleteTagsCommand";
 import {
   DescribeAccountAttributesCommandInput,
-  DescribeAccountAttributesCommandOutput
+  DescribeAccountAttributesCommandOutput,
 } from "../commands/DescribeAccountAttributesCommand";
 import {
   DescribeClusterDbRevisionsCommandInput,
-  DescribeClusterDbRevisionsCommandOutput
+  DescribeClusterDbRevisionsCommandOutput,
 } from "../commands/DescribeClusterDbRevisionsCommand";
 import {
   DescribeClusterParameterGroupsCommandInput,
-  DescribeClusterParameterGroupsCommandOutput
+  DescribeClusterParameterGroupsCommandOutput,
 } from "../commands/DescribeClusterParameterGroupsCommand";
 import {
   DescribeClusterParametersCommandInput,
-  DescribeClusterParametersCommandOutput
+  DescribeClusterParametersCommandOutput,
 } from "../commands/DescribeClusterParametersCommand";
 import {
   DescribeClusterSecurityGroupsCommandInput,
-  DescribeClusterSecurityGroupsCommandOutput
+  DescribeClusterSecurityGroupsCommandOutput,
 } from "../commands/DescribeClusterSecurityGroupsCommand";
 import {
   DescribeClusterSnapshotsCommandInput,
-  DescribeClusterSnapshotsCommandOutput
+  DescribeClusterSnapshotsCommandOutput,
 } from "../commands/DescribeClusterSnapshotsCommand";
 import {
   DescribeClusterSubnetGroupsCommandInput,
-  DescribeClusterSubnetGroupsCommandOutput
+  DescribeClusterSubnetGroupsCommandOutput,
 } from "../commands/DescribeClusterSubnetGroupsCommand";
 import {
   DescribeClusterTracksCommandInput,
-  DescribeClusterTracksCommandOutput
+  DescribeClusterTracksCommandOutput,
 } from "../commands/DescribeClusterTracksCommand";
 import {
   DescribeClusterVersionsCommandInput,
-  DescribeClusterVersionsCommandOutput
+  DescribeClusterVersionsCommandOutput,
 } from "../commands/DescribeClusterVersionsCommand";
 import {
   DescribeClustersCommandInput,
-  DescribeClustersCommandOutput
+  DescribeClustersCommandOutput,
 } from "../commands/DescribeClustersCommand";
 import {
   DescribeDefaultClusterParametersCommandInput,
-  DescribeDefaultClusterParametersCommandOutput
+  DescribeDefaultClusterParametersCommandOutput,
 } from "../commands/DescribeDefaultClusterParametersCommand";
 import {
   DescribeEventCategoriesCommandInput,
-  DescribeEventCategoriesCommandOutput
+  DescribeEventCategoriesCommandOutput,
 } from "../commands/DescribeEventCategoriesCommand";
 import {
   DescribeEventSubscriptionsCommandInput,
-  DescribeEventSubscriptionsCommandOutput
+  DescribeEventSubscriptionsCommandOutput,
 } from "../commands/DescribeEventSubscriptionsCommand";
 import {
   DescribeEventsCommandInput,
-  DescribeEventsCommandOutput
+  DescribeEventsCommandOutput,
 } from "../commands/DescribeEventsCommand";
 import {
   DescribeHsmClientCertificatesCommandInput,
-  DescribeHsmClientCertificatesCommandOutput
+  DescribeHsmClientCertificatesCommandOutput,
 } from "../commands/DescribeHsmClientCertificatesCommand";
 import {
   DescribeHsmConfigurationsCommandInput,
-  DescribeHsmConfigurationsCommandOutput
+  DescribeHsmConfigurationsCommandOutput,
 } from "../commands/DescribeHsmConfigurationsCommand";
 import {
   DescribeLoggingStatusCommandInput,
-  DescribeLoggingStatusCommandOutput
+  DescribeLoggingStatusCommandOutput,
 } from "../commands/DescribeLoggingStatusCommand";
 import {
   DescribeNodeConfigurationOptionsCommandInput,
-  DescribeNodeConfigurationOptionsCommandOutput
+  DescribeNodeConfigurationOptionsCommandOutput,
 } from "../commands/DescribeNodeConfigurationOptionsCommand";
 import {
   DescribeOrderableClusterOptionsCommandInput,
-  DescribeOrderableClusterOptionsCommandOutput
+  DescribeOrderableClusterOptionsCommandOutput,
 } from "../commands/DescribeOrderableClusterOptionsCommand";
 import {
   DescribeReservedNodeOfferingsCommandInput,
-  DescribeReservedNodeOfferingsCommandOutput
+  DescribeReservedNodeOfferingsCommandOutput,
 } from "../commands/DescribeReservedNodeOfferingsCommand";
 import {
   DescribeReservedNodesCommandInput,
-  DescribeReservedNodesCommandOutput
+  DescribeReservedNodesCommandOutput,
 } from "../commands/DescribeReservedNodesCommand";
 import {
   DescribeResizeCommandInput,
-  DescribeResizeCommandOutput
+  DescribeResizeCommandOutput,
 } from "../commands/DescribeResizeCommand";
 import {
   DescribeScheduledActionsCommandInput,
-  DescribeScheduledActionsCommandOutput
+  DescribeScheduledActionsCommandOutput,
 } from "../commands/DescribeScheduledActionsCommand";
 import {
   DescribeSnapshotCopyGrantsCommandInput,
-  DescribeSnapshotCopyGrantsCommandOutput
+  DescribeSnapshotCopyGrantsCommandOutput,
 } from "../commands/DescribeSnapshotCopyGrantsCommand";
 import {
   DescribeSnapshotSchedulesCommandInput,
-  DescribeSnapshotSchedulesCommandOutput
+  DescribeSnapshotSchedulesCommandOutput,
 } from "../commands/DescribeSnapshotSchedulesCommand";
 import {
   DescribeStorageCommandInput,
-  DescribeStorageCommandOutput
+  DescribeStorageCommandOutput,
 } from "../commands/DescribeStorageCommand";
 import {
   DescribeTableRestoreStatusCommandInput,
-  DescribeTableRestoreStatusCommandOutput
+  DescribeTableRestoreStatusCommandOutput,
 } from "../commands/DescribeTableRestoreStatusCommand";
 import {
   DescribeTagsCommandInput,
-  DescribeTagsCommandOutput
+  DescribeTagsCommandOutput,
 } from "../commands/DescribeTagsCommand";
 import {
   DisableLoggingCommandInput,
-  DisableLoggingCommandOutput
+  DisableLoggingCommandOutput,
 } from "../commands/DisableLoggingCommand";
 import {
   DisableSnapshotCopyCommandInput,
-  DisableSnapshotCopyCommandOutput
+  DisableSnapshotCopyCommandOutput,
 } from "../commands/DisableSnapshotCopyCommand";
 import {
   EnableLoggingCommandInput,
-  EnableLoggingCommandOutput
+  EnableLoggingCommandOutput,
 } from "../commands/EnableLoggingCommand";
 import {
   EnableSnapshotCopyCommandInput,
-  EnableSnapshotCopyCommandOutput
+  EnableSnapshotCopyCommandOutput,
 } from "../commands/EnableSnapshotCopyCommand";
 import {
   GetClusterCredentialsCommandInput,
-  GetClusterCredentialsCommandOutput
+  GetClusterCredentialsCommandOutput,
 } from "../commands/GetClusterCredentialsCommand";
 import {
   GetReservedNodeExchangeOfferingsCommandInput,
-  GetReservedNodeExchangeOfferingsCommandOutput
+  GetReservedNodeExchangeOfferingsCommandOutput,
 } from "../commands/GetReservedNodeExchangeOfferingsCommand";
 import {
   ModifyClusterCommandInput,
-  ModifyClusterCommandOutput
+  ModifyClusterCommandOutput,
 } from "../commands/ModifyClusterCommand";
 import {
   ModifyClusterDbRevisionCommandInput,
-  ModifyClusterDbRevisionCommandOutput
+  ModifyClusterDbRevisionCommandOutput,
 } from "../commands/ModifyClusterDbRevisionCommand";
 import {
   ModifyClusterIamRolesCommandInput,
-  ModifyClusterIamRolesCommandOutput
+  ModifyClusterIamRolesCommandOutput,
 } from "../commands/ModifyClusterIamRolesCommand";
 import {
   ModifyClusterMaintenanceCommandInput,
-  ModifyClusterMaintenanceCommandOutput
+  ModifyClusterMaintenanceCommandOutput,
 } from "../commands/ModifyClusterMaintenanceCommand";
 import {
   ModifyClusterParameterGroupCommandInput,
-  ModifyClusterParameterGroupCommandOutput
+  ModifyClusterParameterGroupCommandOutput,
 } from "../commands/ModifyClusterParameterGroupCommand";
 import {
   ModifyClusterSnapshotCommandInput,
-  ModifyClusterSnapshotCommandOutput
+  ModifyClusterSnapshotCommandOutput,
 } from "../commands/ModifyClusterSnapshotCommand";
 import {
   ModifyClusterSnapshotScheduleCommandInput,
-  ModifyClusterSnapshotScheduleCommandOutput
+  ModifyClusterSnapshotScheduleCommandOutput,
 } from "../commands/ModifyClusterSnapshotScheduleCommand";
 import {
   ModifyClusterSubnetGroupCommandInput,
-  ModifyClusterSubnetGroupCommandOutput
+  ModifyClusterSubnetGroupCommandOutput,
 } from "../commands/ModifyClusterSubnetGroupCommand";
 import {
   ModifyEventSubscriptionCommandInput,
-  ModifyEventSubscriptionCommandOutput
+  ModifyEventSubscriptionCommandOutput,
 } from "../commands/ModifyEventSubscriptionCommand";
 import {
   ModifyScheduledActionCommandInput,
-  ModifyScheduledActionCommandOutput
+  ModifyScheduledActionCommandOutput,
 } from "../commands/ModifyScheduledActionCommand";
 import {
   ModifySnapshotCopyRetentionPeriodCommandInput,
-  ModifySnapshotCopyRetentionPeriodCommandOutput
+  ModifySnapshotCopyRetentionPeriodCommandOutput,
 } from "../commands/ModifySnapshotCopyRetentionPeriodCommand";
 import {
   ModifySnapshotScheduleCommandInput,
-  ModifySnapshotScheduleCommandOutput
+  ModifySnapshotScheduleCommandOutput,
 } from "../commands/ModifySnapshotScheduleCommand";
 import {
   PurchaseReservedNodeOfferingCommandInput,
-  PurchaseReservedNodeOfferingCommandOutput
+  PurchaseReservedNodeOfferingCommandOutput,
 } from "../commands/PurchaseReservedNodeOfferingCommand";
 import {
   RebootClusterCommandInput,
-  RebootClusterCommandOutput
+  RebootClusterCommandOutput,
 } from "../commands/RebootClusterCommand";
 import {
   ResetClusterParameterGroupCommandInput,
-  ResetClusterParameterGroupCommandOutput
+  ResetClusterParameterGroupCommandOutput,
 } from "../commands/ResetClusterParameterGroupCommand";
 import {
   ResizeClusterCommandInput,
-  ResizeClusterCommandOutput
+  ResizeClusterCommandOutput,
 } from "../commands/ResizeClusterCommand";
 import {
   RestoreFromClusterSnapshotCommandInput,
-  RestoreFromClusterSnapshotCommandOutput
+  RestoreFromClusterSnapshotCommandOutput,
 } from "../commands/RestoreFromClusterSnapshotCommand";
 import {
   RestoreTableFromClusterSnapshotCommandInput,
-  RestoreTableFromClusterSnapshotCommandOutput
+  RestoreTableFromClusterSnapshotCommandOutput,
 } from "../commands/RestoreTableFromClusterSnapshotCommand";
 import {
   RevokeClusterSecurityGroupIngressCommandInput,
-  RevokeClusterSecurityGroupIngressCommandOutput
+  RevokeClusterSecurityGroupIngressCommandOutput,
 } from "../commands/RevokeClusterSecurityGroupIngressCommand";
 import {
   RevokeSnapshotAccessCommandInput,
-  RevokeSnapshotAccessCommandOutput
+  RevokeSnapshotAccessCommandOutput,
 } from "../commands/RevokeSnapshotAccessCommand";
 import {
   RotateEncryptionKeyCommandInput,
-  RotateEncryptionKeyCommandOutput
+  RotateEncryptionKeyCommandOutput,
 } from "../commands/RotateEncryptionKeyCommand";
 import {
   AcceptReservedNodeExchangeInputMessage,
@@ -656,22 +656,22 @@ import {
   UnsupportedOperationFault,
   UnsupportedOptionFault,
   UpdateTarget,
-  VpcSecurityGroupMembership
+  VpcSecurityGroupMembership,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { parse as xmlParse } from "fast-xml-parser";
 
@@ -689,7 +689,7 @@ export async function serializeAws_queryAcceptReservedNodeExchangeCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "AcceptReservedNodeExchange",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -708,7 +708,7 @@ export async function serializeAws_queryAuthorizeClusterSecurityGroupIngressComm
   body = buildFormUrlencodedString({
     ...entries,
     Action: "AuthorizeClusterSecurityGroupIngress",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -727,7 +727,7 @@ export async function serializeAws_queryAuthorizeSnapshotAccessCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "AuthorizeSnapshotAccess",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -746,7 +746,7 @@ export async function serializeAws_queryBatchDeleteClusterSnapshotsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "BatchDeleteClusterSnapshots",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -765,7 +765,7 @@ export async function serializeAws_queryBatchModifyClusterSnapshotsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "BatchModifyClusterSnapshots",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -781,7 +781,7 @@ export async function serializeAws_queryCancelResizeCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CancelResize",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -797,7 +797,7 @@ export async function serializeAws_queryCopyClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CopyClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -813,7 +813,7 @@ export async function serializeAws_queryCreateClusterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateCluster",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -832,7 +832,7 @@ export async function serializeAws_queryCreateClusterParameterGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateClusterParameterGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -851,7 +851,7 @@ export async function serializeAws_queryCreateClusterSecurityGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateClusterSecurityGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -870,7 +870,7 @@ export async function serializeAws_queryCreateClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -889,7 +889,7 @@ export async function serializeAws_queryCreateClusterSubnetGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateClusterSubnetGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -908,7 +908,7 @@ export async function serializeAws_queryCreateEventSubscriptionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateEventSubscription",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -927,7 +927,7 @@ export async function serializeAws_queryCreateHsmClientCertificateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateHsmClientCertificate",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -946,7 +946,7 @@ export async function serializeAws_queryCreateHsmConfigurationCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateHsmConfiguration",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -965,7 +965,7 @@ export async function serializeAws_queryCreateScheduledActionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateScheduledAction",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -984,7 +984,7 @@ export async function serializeAws_queryCreateSnapshotCopyGrantCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateSnapshotCopyGrant",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1003,7 +1003,7 @@ export async function serializeAws_queryCreateSnapshotScheduleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateSnapshotSchedule",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1019,7 +1019,7 @@ export async function serializeAws_queryCreateTagsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "CreateTags",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1035,7 +1035,7 @@ export async function serializeAws_queryDeleteClusterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteCluster",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1054,7 +1054,7 @@ export async function serializeAws_queryDeleteClusterParameterGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteClusterParameterGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1073,7 +1073,7 @@ export async function serializeAws_queryDeleteClusterSecurityGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteClusterSecurityGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1092,7 +1092,7 @@ export async function serializeAws_queryDeleteClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1111,7 +1111,7 @@ export async function serializeAws_queryDeleteClusterSubnetGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteClusterSubnetGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1130,7 +1130,7 @@ export async function serializeAws_queryDeleteEventSubscriptionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteEventSubscription",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1149,7 +1149,7 @@ export async function serializeAws_queryDeleteHsmClientCertificateCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteHsmClientCertificate",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1168,7 +1168,7 @@ export async function serializeAws_queryDeleteHsmConfigurationCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteHsmConfiguration",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1187,7 +1187,7 @@ export async function serializeAws_queryDeleteScheduledActionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteScheduledAction",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1206,7 +1206,7 @@ export async function serializeAws_queryDeleteSnapshotCopyGrantCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteSnapshotCopyGrant",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1225,7 +1225,7 @@ export async function serializeAws_queryDeleteSnapshotScheduleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteSnapshotSchedule",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1241,7 +1241,7 @@ export async function serializeAws_queryDeleteTagsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DeleteTags",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1260,7 +1260,7 @@ export async function serializeAws_queryDescribeAccountAttributesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeAccountAttributes",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1279,7 +1279,7 @@ export async function serializeAws_queryDescribeClusterDbRevisionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterDbRevisions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1298,7 +1298,7 @@ export async function serializeAws_queryDescribeClusterParameterGroupsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterParameterGroups",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1317,7 +1317,7 @@ export async function serializeAws_queryDescribeClusterParametersCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterParameters",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1336,7 +1336,7 @@ export async function serializeAws_queryDescribeClusterSecurityGroupsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterSecurityGroups",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1355,7 +1355,7 @@ export async function serializeAws_queryDescribeClusterSnapshotsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterSnapshots",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1374,7 +1374,7 @@ export async function serializeAws_queryDescribeClusterSubnetGroupsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterSubnetGroups",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1393,7 +1393,7 @@ export async function serializeAws_queryDescribeClusterTracksCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterTracks",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1412,7 +1412,7 @@ export async function serializeAws_queryDescribeClusterVersionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusterVersions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1428,7 +1428,7 @@ export async function serializeAws_queryDescribeClustersCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeClusters",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1447,7 +1447,7 @@ export async function serializeAws_queryDescribeDefaultClusterParametersCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeDefaultClusterParameters",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1466,7 +1466,7 @@ export async function serializeAws_queryDescribeEventCategoriesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeEventCategories",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1485,7 +1485,7 @@ export async function serializeAws_queryDescribeEventSubscriptionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeEventSubscriptions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1501,7 +1501,7 @@ export async function serializeAws_queryDescribeEventsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeEvents",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1520,7 +1520,7 @@ export async function serializeAws_queryDescribeHsmClientCertificatesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeHsmClientCertificates",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1539,7 +1539,7 @@ export async function serializeAws_queryDescribeHsmConfigurationsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeHsmConfigurations",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1558,7 +1558,7 @@ export async function serializeAws_queryDescribeLoggingStatusCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeLoggingStatus",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1577,7 +1577,7 @@ export async function serializeAws_queryDescribeNodeConfigurationOptionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeNodeConfigurationOptions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1596,7 +1596,7 @@ export async function serializeAws_queryDescribeOrderableClusterOptionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeOrderableClusterOptions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1615,7 +1615,7 @@ export async function serializeAws_queryDescribeReservedNodeOfferingsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeReservedNodeOfferings",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1634,7 +1634,7 @@ export async function serializeAws_queryDescribeReservedNodesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeReservedNodes",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1650,7 +1650,7 @@ export async function serializeAws_queryDescribeResizeCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeResize",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1669,7 +1669,7 @@ export async function serializeAws_queryDescribeScheduledActionsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeScheduledActions",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1688,7 +1688,7 @@ export async function serializeAws_queryDescribeSnapshotCopyGrantsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeSnapshotCopyGrants",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1707,7 +1707,7 @@ export async function serializeAws_queryDescribeSnapshotSchedulesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeSnapshotSchedules",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1720,7 +1720,7 @@ export async function serializeAws_queryDescribeStorageCommand(
   headers["Content-Type"] = "application/x-www-form-urlencoded";
   const body = buildFormUrlencodedString({
     Action: "DescribeStorage",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1739,7 +1739,7 @@ export async function serializeAws_queryDescribeTableRestoreStatusCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeTableRestoreStatus",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1755,7 +1755,7 @@ export async function serializeAws_queryDescribeTagsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DescribeTags",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1771,7 +1771,7 @@ export async function serializeAws_queryDisableLoggingCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DisableLogging",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1787,7 +1787,7 @@ export async function serializeAws_queryDisableSnapshotCopyCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "DisableSnapshotCopy",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1803,7 +1803,7 @@ export async function serializeAws_queryEnableLoggingCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "EnableLogging",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1819,7 +1819,7 @@ export async function serializeAws_queryEnableSnapshotCopyCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "EnableSnapshotCopy",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1838,7 +1838,7 @@ export async function serializeAws_queryGetClusterCredentialsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetClusterCredentials",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1857,7 +1857,7 @@ export async function serializeAws_queryGetReservedNodeExchangeOfferingsCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "GetReservedNodeExchangeOfferings",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1873,7 +1873,7 @@ export async function serializeAws_queryModifyClusterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyCluster",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1892,7 +1892,7 @@ export async function serializeAws_queryModifyClusterDbRevisionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterDbRevision",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1911,7 +1911,7 @@ export async function serializeAws_queryModifyClusterIamRolesCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterIamRoles",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1930,7 +1930,7 @@ export async function serializeAws_queryModifyClusterMaintenanceCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterMaintenance",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1949,7 +1949,7 @@ export async function serializeAws_queryModifyClusterParameterGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterParameterGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1968,7 +1968,7 @@ export async function serializeAws_queryModifyClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -1987,7 +1987,7 @@ export async function serializeAws_queryModifyClusterSnapshotScheduleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterSnapshotSchedule",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2006,7 +2006,7 @@ export async function serializeAws_queryModifyClusterSubnetGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyClusterSubnetGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2025,7 +2025,7 @@ export async function serializeAws_queryModifyEventSubscriptionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyEventSubscription",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2044,7 +2044,7 @@ export async function serializeAws_queryModifyScheduledActionCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifyScheduledAction",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2063,7 +2063,7 @@ export async function serializeAws_queryModifySnapshotCopyRetentionPeriodCommand
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifySnapshotCopyRetentionPeriod",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2082,7 +2082,7 @@ export async function serializeAws_queryModifySnapshotScheduleCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ModifySnapshotSchedule",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2101,7 +2101,7 @@ export async function serializeAws_queryPurchaseReservedNodeOfferingCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "PurchaseReservedNodeOffering",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2117,7 +2117,7 @@ export async function serializeAws_queryRebootClusterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RebootCluster",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2136,7 +2136,7 @@ export async function serializeAws_queryResetClusterParameterGroupCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ResetClusterParameterGroup",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2152,7 +2152,7 @@ export async function serializeAws_queryResizeClusterCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "ResizeCluster",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2171,7 +2171,7 @@ export async function serializeAws_queryRestoreFromClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RestoreFromClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2190,7 +2190,7 @@ export async function serializeAws_queryRestoreTableFromClusterSnapshotCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RestoreTableFromClusterSnapshot",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2209,7 +2209,7 @@ export async function serializeAws_queryRevokeClusterSecurityGroupIngressCommand
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RevokeClusterSecurityGroupIngress",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2225,7 +2225,7 @@ export async function serializeAws_queryRevokeSnapshotAccessCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RevokeSnapshotAccess",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2241,7 +2241,7 @@ export async function serializeAws_queryRotateEncryptionKeyCommand(
   body = buildFormUrlencodedString({
     ...entries,
     Action: "RotateEncryptionKey",
-    Version: "2012-12-01"
+    Version: "2012-12-01",
   });
   return buildHttpRpcRequest(context, headers, "/", undefined, body);
 }
@@ -2265,7 +2265,7 @@ export async function deserializeAws_queryAcceptReservedNodeExchangeCommand(
   const response: AcceptReservedNodeExchangeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AcceptReservedNodeExchangeOutputMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2276,7 +2276,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
 ): Promise<AcceptReservedNodeExchangeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2290,7 +2290,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidReservedNodeStateFault":
@@ -2301,7 +2301,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeAlreadyExistsFault":
@@ -2312,7 +2312,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeAlreadyMigratedFault":
@@ -2323,7 +2323,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeNotFoundFault":
@@ -2334,7 +2334,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeOfferingNotFoundFault":
@@ -2345,7 +2345,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -2356,7 +2356,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2368,7 +2368,7 @@ async function deserializeAws_queryAcceptReservedNodeExchangeCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2396,7 +2396,7 @@ export async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCo
   const response: AuthorizeClusterSecurityGroupIngressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AuthorizeClusterSecurityGroupIngressResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2407,7 +2407,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
 ): Promise<AuthorizeClusterSecurityGroupIngressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2421,7 +2421,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationQuotaExceededFault":
@@ -2432,7 +2432,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupNotFoundFault":
@@ -2443,7 +2443,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSecurityGroupStateFault":
@@ -2454,7 +2454,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2466,7 +2466,7 @@ async function deserializeAws_queryAuthorizeClusterSecurityGroupIngressCommandEr
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2494,7 +2494,7 @@ export async function deserializeAws_queryAuthorizeSnapshotAccessCommand(
   const response: AuthorizeSnapshotAccessCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AuthorizeSnapshotAccessResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2505,7 +2505,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
 ): Promise<AuthorizeSnapshotAccessCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2519,7 +2519,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationQuotaExceededFault":
@@ -2530,7 +2530,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -2541,7 +2541,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -2552,7 +2552,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -2563,7 +2563,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -2574,7 +2574,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2586,7 +2586,7 @@ async function deserializeAws_queryAuthorizeSnapshotAccessCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2614,7 +2614,7 @@ export async function deserializeAws_queryBatchDeleteClusterSnapshotsCommand(
   const response: BatchDeleteClusterSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchDeleteClusterSnapshotsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2625,7 +2625,7 @@ async function deserializeAws_queryBatchDeleteClusterSnapshotsCommandError(
 ): Promise<BatchDeleteClusterSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2639,7 +2639,7 @@ async function deserializeAws_queryBatchDeleteClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2651,7 +2651,7 @@ async function deserializeAws_queryBatchDeleteClusterSnapshotsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2679,7 +2679,7 @@ export async function deserializeAws_queryBatchModifyClusterSnapshotsCommand(
   const response: BatchModifyClusterSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchModifyClusterSnapshotsOutputMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2690,7 +2690,7 @@ async function deserializeAws_queryBatchModifyClusterSnapshotsCommandError(
 ): Promise<BatchModifyClusterSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2704,7 +2704,7 @@ async function deserializeAws_queryBatchModifyClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -2715,7 +2715,7 @@ async function deserializeAws_queryBatchModifyClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2727,7 +2727,7 @@ async function deserializeAws_queryBatchModifyClusterSnapshotsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2752,7 +2752,7 @@ export async function deserializeAws_queryCancelResizeCommand(
   const response: CancelResizeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResizeProgressMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2763,7 +2763,7 @@ async function deserializeAws_queryCancelResizeCommandError(
 ): Promise<CancelResizeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2777,7 +2777,7 @@ async function deserializeAws_queryCancelResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -2788,7 +2788,7 @@ async function deserializeAws_queryCancelResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResizeNotFoundFault":
@@ -2799,7 +2799,7 @@ async function deserializeAws_queryCancelResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -2810,7 +2810,7 @@ async function deserializeAws_queryCancelResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2822,7 +2822,7 @@ async function deserializeAws_queryCancelResizeCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2847,7 +2847,7 @@ export async function deserializeAws_queryCopyClusterSnapshotCommand(
   const response: CopyClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CopyClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2858,7 +2858,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
 ): Promise<CopyClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2872,7 +2872,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -2883,7 +2883,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotQuotaExceededFault":
@@ -2894,7 +2894,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -2905,7 +2905,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -2916,7 +2916,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2928,7 +2928,7 @@ async function deserializeAws_queryCopyClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2953,7 +2953,7 @@ export async function deserializeAws_queryCreateClusterCommand(
   const response: CreateClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2964,7 +2964,7 @@ async function deserializeAws_queryCreateClusterCommandError(
 ): Promise<CreateClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2978,7 +2978,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterParameterGroupNotFoundFault":
@@ -2989,7 +2989,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterQuotaExceededFault":
@@ -3000,7 +3000,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupNotFoundFault":
@@ -3011,7 +3011,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSubnetGroupNotFoundFault":
@@ -3022,7 +3022,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -3033,7 +3033,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmClientCertificateNotFoundFault":
@@ -3044,7 +3044,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmConfigurationNotFoundFault":
@@ -3055,7 +3055,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientClusterCapacityFault":
@@ -3066,7 +3066,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSubnetGroupStateFault":
@@ -3077,7 +3077,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterTrackFault":
@@ -3088,7 +3088,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidElasticIpFault":
@@ -3099,7 +3099,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -3110,7 +3110,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSubnet":
@@ -3121,7 +3121,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3132,7 +3132,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidVPCNetworkStateFault":
@@ -3143,7 +3143,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -3154,7 +3154,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesPerClusterLimitExceededFault":
@@ -3165,7 +3165,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesQuotaExceededFault":
@@ -3176,7 +3176,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleNotFoundFault":
@@ -3187,7 +3187,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3198,7 +3198,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -3209,7 +3209,7 @@ async function deserializeAws_queryCreateClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3221,7 +3221,7 @@ async function deserializeAws_queryCreateClusterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3249,7 +3249,7 @@ export async function deserializeAws_queryCreateClusterParameterGroupCommand(
   const response: CreateClusterParameterGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterParameterGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3260,7 +3260,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
 ): Promise<CreateClusterParameterGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3274,7 +3274,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterParameterGroupQuotaExceededFault":
@@ -3285,7 +3285,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3296,7 +3296,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3307,7 +3307,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3319,7 +3319,7 @@ async function deserializeAws_queryCreateClusterParameterGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3347,7 +3347,7 @@ export async function deserializeAws_queryCreateClusterSecurityGroupCommand(
   const response: CreateClusterSecurityGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterSecurityGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3358,7 +3358,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
 ): Promise<CreateClusterSecurityGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3372,7 +3372,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupQuotaExceededFault":
@@ -3383,7 +3383,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3394,7 +3394,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3405,7 +3405,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3417,7 +3417,7 @@ async function deserializeAws_queryCreateClusterSecurityGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3445,7 +3445,7 @@ export async function deserializeAws_queryCreateClusterSnapshotCommand(
   const response: CreateClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3456,7 +3456,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
 ): Promise<CreateClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3470,7 +3470,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotAlreadyExistsFault":
@@ -3481,7 +3481,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotQuotaExceededFault":
@@ -3492,7 +3492,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -3503,7 +3503,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -3514,7 +3514,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3525,7 +3525,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3536,7 +3536,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3548,7 +3548,7 @@ async function deserializeAws_queryCreateClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3576,7 +3576,7 @@ export async function deserializeAws_queryCreateClusterSubnetGroupCommand(
   const response: CreateClusterSubnetGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateClusterSubnetGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3587,7 +3587,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
 ): Promise<CreateClusterSubnetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3601,7 +3601,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSubnetGroupQuotaExceededFault":
@@ -3612,7 +3612,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSubnetQuotaExceededFault":
@@ -3623,7 +3623,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -3634,7 +3634,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSubnet":
@@ -3645,7 +3645,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3656,7 +3656,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3667,7 +3667,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -3678,7 +3678,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3690,7 +3690,7 @@ async function deserializeAws_queryCreateClusterSubnetGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3718,7 +3718,7 @@ export async function deserializeAws_queryCreateEventSubscriptionCommand(
   const response: CreateEventSubscriptionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateEventSubscriptionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3729,7 +3729,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
 ): Promise<CreateEventSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3743,7 +3743,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3754,7 +3754,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSInvalidTopicFault":
@@ -3765,7 +3765,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSNoAuthorizationFault":
@@ -3776,7 +3776,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSTopicArnNotFoundFault":
@@ -3787,7 +3787,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SourceNotFoundFault":
@@ -3798,7 +3798,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionAlreadyExistFault":
@@ -3809,7 +3809,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionCategoryNotFoundFault":
@@ -3820,7 +3820,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionEventIdNotFoundFault":
@@ -3831,7 +3831,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionSeverityNotFoundFault":
@@ -3842,7 +3842,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3853,7 +3853,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3865,7 +3865,7 @@ async function deserializeAws_queryCreateEventSubscriptionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3893,7 +3893,7 @@ export async function deserializeAws_queryCreateHsmClientCertificateCommand(
   const response: CreateHsmClientCertificateCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateHsmClientCertificateResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3904,7 +3904,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
 ): Promise<CreateHsmClientCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3918,7 +3918,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmClientCertificateQuotaExceededFault":
@@ -3929,7 +3929,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -3940,7 +3940,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -3951,7 +3951,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3963,7 +3963,7 @@ async function deserializeAws_queryCreateHsmClientCertificateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3991,7 +3991,7 @@ export async function deserializeAws_queryCreateHsmConfigurationCommand(
   const response: CreateHsmConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateHsmConfigurationResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4002,7 +4002,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
 ): Promise<CreateHsmConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4016,7 +4016,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmConfigurationQuotaExceededFault":
@@ -4027,7 +4027,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -4038,7 +4038,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -4049,7 +4049,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4061,7 +4061,7 @@ async function deserializeAws_queryCreateHsmConfigurationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4089,7 +4089,7 @@ export async function deserializeAws_queryCreateScheduledActionCommand(
   const response: CreateScheduledActionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ScheduledAction",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4100,7 +4100,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
 ): Promise<CreateScheduledActionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4114,7 +4114,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidScheduledActionFault":
@@ -4125,7 +4125,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduledActionAlreadyExistsFault":
@@ -4136,7 +4136,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduledActionQuotaExceededFault":
@@ -4147,7 +4147,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduledActionTypeUnsupportedFault":
@@ -4158,7 +4158,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -4169,7 +4169,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4181,7 +4181,7 @@ async function deserializeAws_queryCreateScheduledActionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4209,7 +4209,7 @@ export async function deserializeAws_queryCreateSnapshotCopyGrantCommand(
   const response: CreateSnapshotCopyGrantCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSnapshotCopyGrantResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4220,7 +4220,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
 ): Promise<CreateSnapshotCopyGrantCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4234,7 +4234,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -4245,7 +4245,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -4256,7 +4256,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyGrantAlreadyExistsFault":
@@ -4267,7 +4267,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyGrantQuotaExceededFault":
@@ -4278,7 +4278,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -4289,7 +4289,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4301,7 +4301,7 @@ async function deserializeAws_queryCreateSnapshotCopyGrantCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4329,7 +4329,7 @@ export async function deserializeAws_queryCreateSnapshotScheduleCommand(
   const response: CreateSnapshotScheduleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SnapshotSchedule",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4340,7 +4340,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
 ): Promise<CreateSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4354,7 +4354,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduleDefinitionTypeUnsupportedFault":
@@ -4365,7 +4365,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleAlreadyExistsFault":
@@ -4376,7 +4376,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleQuotaExceededFault":
@@ -4387,7 +4387,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -4398,7 +4398,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4410,7 +4410,7 @@ async function deserializeAws_queryCreateSnapshotScheduleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4428,7 +4428,7 @@ export async function deserializeAws_queryCreateTagsCommand(
   }
   await collectBody(output.body, context);
   const response: CreateTagsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4439,7 +4439,7 @@ async function deserializeAws_queryCreateTagsCommandError(
 ): Promise<CreateTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4453,7 +4453,7 @@ async function deserializeAws_queryCreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundFault":
@@ -4464,7 +4464,7 @@ async function deserializeAws_queryCreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -4475,7 +4475,7 @@ async function deserializeAws_queryCreateTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4487,7 +4487,7 @@ async function deserializeAws_queryCreateTagsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4512,7 +4512,7 @@ export async function deserializeAws_queryDeleteClusterCommand(
   const response: DeleteClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4523,7 +4523,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
 ): Promise<DeleteClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4537,7 +4537,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotAlreadyExistsFault":
@@ -4548,7 +4548,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotQuotaExceededFault":
@@ -4559,7 +4559,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -4570,7 +4570,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -4581,7 +4581,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4593,7 +4593,7 @@ async function deserializeAws_queryDeleteClusterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4614,7 +4614,7 @@ export async function deserializeAws_queryDeleteClusterParameterGroupCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteClusterParameterGroupCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4625,7 +4625,7 @@ async function deserializeAws_queryDeleteClusterParameterGroupCommandError(
 ): Promise<DeleteClusterParameterGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4639,7 +4639,7 @@ async function deserializeAws_queryDeleteClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterParameterGroupStateFault":
@@ -4650,7 +4650,7 @@ async function deserializeAws_queryDeleteClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4662,7 +4662,7 @@ async function deserializeAws_queryDeleteClusterParameterGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4683,7 +4683,7 @@ export async function deserializeAws_queryDeleteClusterSecurityGroupCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteClusterSecurityGroupCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4694,7 +4694,7 @@ async function deserializeAws_queryDeleteClusterSecurityGroupCommandError(
 ): Promise<DeleteClusterSecurityGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4708,7 +4708,7 @@ async function deserializeAws_queryDeleteClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSecurityGroupStateFault":
@@ -4719,7 +4719,7 @@ async function deserializeAws_queryDeleteClusterSecurityGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4731,7 +4731,7 @@ async function deserializeAws_queryDeleteClusterSecurityGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4759,7 +4759,7 @@ export async function deserializeAws_queryDeleteClusterSnapshotCommand(
   const response: DeleteClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4770,7 +4770,7 @@ async function deserializeAws_queryDeleteClusterSnapshotCommandError(
 ): Promise<DeleteClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4784,7 +4784,7 @@ async function deserializeAws_queryDeleteClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -4795,7 +4795,7 @@ async function deserializeAws_queryDeleteClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4807,7 +4807,7 @@ async function deserializeAws_queryDeleteClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4828,7 +4828,7 @@ export async function deserializeAws_queryDeleteClusterSubnetGroupCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteClusterSubnetGroupCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4839,7 +4839,7 @@ async function deserializeAws_queryDeleteClusterSubnetGroupCommandError(
 ): Promise<DeleteClusterSubnetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4853,7 +4853,7 @@ async function deserializeAws_queryDeleteClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSubnetGroupStateFault":
@@ -4864,7 +4864,7 @@ async function deserializeAws_queryDeleteClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSubnetStateFault":
@@ -4875,7 +4875,7 @@ async function deserializeAws_queryDeleteClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4887,7 +4887,7 @@ async function deserializeAws_queryDeleteClusterSubnetGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4908,7 +4908,7 @@ export async function deserializeAws_queryDeleteEventSubscriptionCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteEventSubscriptionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4919,7 +4919,7 @@ async function deserializeAws_queryDeleteEventSubscriptionCommandError(
 ): Promise<DeleteEventSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4933,7 +4933,7 @@ async function deserializeAws_queryDeleteEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionNotFoundFault":
@@ -4944,7 +4944,7 @@ async function deserializeAws_queryDeleteEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4956,7 +4956,7 @@ async function deserializeAws_queryDeleteEventSubscriptionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4977,7 +4977,7 @@ export async function deserializeAws_queryDeleteHsmClientCertificateCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteHsmClientCertificateCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -4988,7 +4988,7 @@ async function deserializeAws_queryDeleteHsmClientCertificateCommandError(
 ): Promise<DeleteHsmClientCertificateCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5002,7 +5002,7 @@ async function deserializeAws_queryDeleteHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHsmClientCertificateStateFault":
@@ -5013,7 +5013,7 @@ async function deserializeAws_queryDeleteHsmClientCertificateCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5025,7 +5025,7 @@ async function deserializeAws_queryDeleteHsmClientCertificateCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5046,7 +5046,7 @@ export async function deserializeAws_queryDeleteHsmConfigurationCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteHsmConfigurationCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5057,7 +5057,7 @@ async function deserializeAws_queryDeleteHsmConfigurationCommandError(
 ): Promise<DeleteHsmConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5071,7 +5071,7 @@ async function deserializeAws_queryDeleteHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidHsmConfigurationStateFault":
@@ -5082,7 +5082,7 @@ async function deserializeAws_queryDeleteHsmConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5094,7 +5094,7 @@ async function deserializeAws_queryDeleteHsmConfigurationCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5115,7 +5115,7 @@ export async function deserializeAws_queryDeleteScheduledActionCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteScheduledActionCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5126,7 +5126,7 @@ async function deserializeAws_queryDeleteScheduledActionCommandError(
 ): Promise<DeleteScheduledActionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5140,7 +5140,7 @@ async function deserializeAws_queryDeleteScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -5151,7 +5151,7 @@ async function deserializeAws_queryDeleteScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5163,7 +5163,7 @@ async function deserializeAws_queryDeleteScheduledActionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5184,7 +5184,7 @@ export async function deserializeAws_queryDeleteSnapshotCopyGrantCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteSnapshotCopyGrantCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5195,7 +5195,7 @@ async function deserializeAws_queryDeleteSnapshotCopyGrantCommandError(
 ): Promise<DeleteSnapshotCopyGrantCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5209,7 +5209,7 @@ async function deserializeAws_queryDeleteSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyGrantNotFoundFault":
@@ -5220,7 +5220,7 @@ async function deserializeAws_queryDeleteSnapshotCopyGrantCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5232,7 +5232,7 @@ async function deserializeAws_queryDeleteSnapshotCopyGrantCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5253,7 +5253,7 @@ export async function deserializeAws_queryDeleteSnapshotScheduleCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteSnapshotScheduleCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5264,7 +5264,7 @@ async function deserializeAws_queryDeleteSnapshotScheduleCommandError(
 ): Promise<DeleteSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5278,7 +5278,7 @@ async function deserializeAws_queryDeleteSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleNotFoundFault":
@@ -5289,7 +5289,7 @@ async function deserializeAws_queryDeleteSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5301,7 +5301,7 @@ async function deserializeAws_queryDeleteSnapshotScheduleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5319,7 +5319,7 @@ export async function deserializeAws_queryDeleteTagsCommand(
   }
   await collectBody(output.body, context);
   const response: DeleteTagsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -5330,7 +5330,7 @@ async function deserializeAws_queryDeleteTagsCommandError(
 ): Promise<DeleteTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5344,7 +5344,7 @@ async function deserializeAws_queryDeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundFault":
@@ -5355,7 +5355,7 @@ async function deserializeAws_queryDeleteTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5367,7 +5367,7 @@ async function deserializeAws_queryDeleteTagsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5395,7 +5395,7 @@ export async function deserializeAws_queryDescribeAccountAttributesCommand(
   const response: DescribeAccountAttributesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AccountAttributeList",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5406,7 +5406,7 @@ async function deserializeAws_queryDescribeAccountAttributesCommandError(
 ): Promise<DescribeAccountAttributesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5421,7 +5421,7 @@ async function deserializeAws_queryDescribeAccountAttributesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5449,7 +5449,7 @@ export async function deserializeAws_queryDescribeClusterDbRevisionsCommand(
   const response: DescribeClusterDbRevisionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterDbRevisionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5460,7 +5460,7 @@ async function deserializeAws_queryDescribeClusterDbRevisionsCommandError(
 ): Promise<DescribeClusterDbRevisionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5474,7 +5474,7 @@ async function deserializeAws_queryDescribeClusterDbRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -5485,7 +5485,7 @@ async function deserializeAws_queryDescribeClusterDbRevisionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5497,7 +5497,7 @@ async function deserializeAws_queryDescribeClusterDbRevisionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5525,7 +5525,7 @@ export async function deserializeAws_queryDescribeClusterParameterGroupsCommand(
   const response: DescribeClusterParameterGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterParameterGroupsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5536,7 +5536,7 @@ async function deserializeAws_queryDescribeClusterParameterGroupsCommandError(
 ): Promise<DescribeClusterParameterGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5550,7 +5550,7 @@ async function deserializeAws_queryDescribeClusterParameterGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -5561,7 +5561,7 @@ async function deserializeAws_queryDescribeClusterParameterGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5573,7 +5573,7 @@ async function deserializeAws_queryDescribeClusterParameterGroupsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5601,7 +5601,7 @@ export async function deserializeAws_queryDescribeClusterParametersCommand(
   const response: DescribeClusterParametersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterParameterGroupDetails",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5612,7 +5612,7 @@ async function deserializeAws_queryDescribeClusterParametersCommandError(
 ): Promise<DescribeClusterParametersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5626,7 +5626,7 @@ async function deserializeAws_queryDescribeClusterParametersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5638,7 +5638,7 @@ async function deserializeAws_queryDescribeClusterParametersCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5666,7 +5666,7 @@ export async function deserializeAws_queryDescribeClusterSecurityGroupsCommand(
   const response: DescribeClusterSecurityGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterSecurityGroupMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5677,7 +5677,7 @@ async function deserializeAws_queryDescribeClusterSecurityGroupsCommandError(
 ): Promise<DescribeClusterSecurityGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5691,7 +5691,7 @@ async function deserializeAws_queryDescribeClusterSecurityGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -5702,7 +5702,7 @@ async function deserializeAws_queryDescribeClusterSecurityGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5714,7 +5714,7 @@ async function deserializeAws_queryDescribeClusterSecurityGroupsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5742,7 +5742,7 @@ export async function deserializeAws_queryDescribeClusterSnapshotsCommand(
   const response: DescribeClusterSnapshotsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SnapshotMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5753,7 +5753,7 @@ async function deserializeAws_queryDescribeClusterSnapshotsCommandError(
 ): Promise<DescribeClusterSnapshotsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5767,7 +5767,7 @@ async function deserializeAws_queryDescribeClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -5778,7 +5778,7 @@ async function deserializeAws_queryDescribeClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -5789,7 +5789,7 @@ async function deserializeAws_queryDescribeClusterSnapshotsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5801,7 +5801,7 @@ async function deserializeAws_queryDescribeClusterSnapshotsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5829,7 +5829,7 @@ export async function deserializeAws_queryDescribeClusterSubnetGroupsCommand(
   const response: DescribeClusterSubnetGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterSubnetGroupMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5840,7 +5840,7 @@ async function deserializeAws_queryDescribeClusterSubnetGroupsCommandError(
 ): Promise<DescribeClusterSubnetGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5854,7 +5854,7 @@ async function deserializeAws_queryDescribeClusterSubnetGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -5865,7 +5865,7 @@ async function deserializeAws_queryDescribeClusterSubnetGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5877,7 +5877,7 @@ async function deserializeAws_queryDescribeClusterSubnetGroupsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5905,7 +5905,7 @@ export async function deserializeAws_queryDescribeClusterTracksCommand(
   const response: DescribeClusterTracksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TrackListMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5916,7 +5916,7 @@ async function deserializeAws_queryDescribeClusterTracksCommandError(
 ): Promise<DescribeClusterTracksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5930,7 +5930,7 @@ async function deserializeAws_queryDescribeClusterTracksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -5941,7 +5941,7 @@ async function deserializeAws_queryDescribeClusterTracksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5953,7 +5953,7 @@ async function deserializeAws_queryDescribeClusterTracksCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5981,7 +5981,7 @@ export async function deserializeAws_queryDescribeClusterVersionsCommand(
   const response: DescribeClusterVersionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterVersionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5992,7 +5992,7 @@ async function deserializeAws_queryDescribeClusterVersionsCommandError(
 ): Promise<DescribeClusterVersionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6007,7 +6007,7 @@ async function deserializeAws_queryDescribeClusterVersionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6032,7 +6032,7 @@ export async function deserializeAws_queryDescribeClustersCommand(
   const response: DescribeClustersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClustersMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6043,7 +6043,7 @@ async function deserializeAws_queryDescribeClustersCommandError(
 ): Promise<DescribeClustersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6057,7 +6057,7 @@ async function deserializeAws_queryDescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -6068,7 +6068,7 @@ async function deserializeAws_queryDescribeClustersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6080,7 +6080,7 @@ async function deserializeAws_queryDescribeClustersCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6108,7 +6108,7 @@ export async function deserializeAws_queryDescribeDefaultClusterParametersComman
   const response: DescribeDefaultClusterParametersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDefaultClusterParametersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6119,7 +6119,7 @@ async function deserializeAws_queryDescribeDefaultClusterParametersCommandError(
 ): Promise<DescribeDefaultClusterParametersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6134,7 +6134,7 @@ async function deserializeAws_queryDescribeDefaultClusterParametersCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6162,7 +6162,7 @@ export async function deserializeAws_queryDescribeEventCategoriesCommand(
   const response: DescribeEventCategoriesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EventCategoriesMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6173,7 +6173,7 @@ async function deserializeAws_queryDescribeEventCategoriesCommandError(
 ): Promise<DescribeEventCategoriesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6188,7 +6188,7 @@ async function deserializeAws_queryDescribeEventCategoriesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6216,7 +6216,7 @@ export async function deserializeAws_queryDescribeEventSubscriptionsCommand(
   const response: DescribeEventSubscriptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EventSubscriptionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6227,7 +6227,7 @@ async function deserializeAws_queryDescribeEventSubscriptionsCommandError(
 ): Promise<DescribeEventSubscriptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6241,7 +6241,7 @@ async function deserializeAws_queryDescribeEventSubscriptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionNotFoundFault":
@@ -6252,7 +6252,7 @@ async function deserializeAws_queryDescribeEventSubscriptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6264,7 +6264,7 @@ async function deserializeAws_queryDescribeEventSubscriptionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6289,7 +6289,7 @@ export async function deserializeAws_queryDescribeEventsCommand(
   const response: DescribeEventsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EventsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6300,7 +6300,7 @@ async function deserializeAws_queryDescribeEventsCommandError(
 ): Promise<DescribeEventsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6315,7 +6315,7 @@ async function deserializeAws_queryDescribeEventsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6343,7 +6343,7 @@ export async function deserializeAws_queryDescribeHsmClientCertificatesCommand(
   const response: DescribeHsmClientCertificatesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "HsmClientCertificateMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6354,7 +6354,7 @@ async function deserializeAws_queryDescribeHsmClientCertificatesCommandError(
 ): Promise<DescribeHsmClientCertificatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6368,7 +6368,7 @@ async function deserializeAws_queryDescribeHsmClientCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -6379,7 +6379,7 @@ async function deserializeAws_queryDescribeHsmClientCertificatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6391,7 +6391,7 @@ async function deserializeAws_queryDescribeHsmClientCertificatesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6419,7 +6419,7 @@ export async function deserializeAws_queryDescribeHsmConfigurationsCommand(
   const response: DescribeHsmConfigurationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "HsmConfigurationMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6430,7 +6430,7 @@ async function deserializeAws_queryDescribeHsmConfigurationsCommandError(
 ): Promise<DescribeHsmConfigurationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6444,7 +6444,7 @@ async function deserializeAws_queryDescribeHsmConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -6455,7 +6455,7 @@ async function deserializeAws_queryDescribeHsmConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6467,7 +6467,7 @@ async function deserializeAws_queryDescribeHsmConfigurationsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6495,7 +6495,7 @@ export async function deserializeAws_queryDescribeLoggingStatusCommand(
   const response: DescribeLoggingStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LoggingStatus",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6506,7 +6506,7 @@ async function deserializeAws_queryDescribeLoggingStatusCommandError(
 ): Promise<DescribeLoggingStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6520,7 +6520,7 @@ async function deserializeAws_queryDescribeLoggingStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6532,7 +6532,7 @@ async function deserializeAws_queryDescribeLoggingStatusCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6560,7 +6560,7 @@ export async function deserializeAws_queryDescribeNodeConfigurationOptionsComman
   const response: DescribeNodeConfigurationOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "NodeConfigurationOptionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6571,7 +6571,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
 ): Promise<DescribeNodeConfigurationOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6585,7 +6585,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterNotFoundFault":
@@ -6596,7 +6596,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -6607,7 +6607,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -6618,7 +6618,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6630,7 +6630,7 @@ async function deserializeAws_queryDescribeNodeConfigurationOptionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6658,7 +6658,7 @@ export async function deserializeAws_queryDescribeOrderableClusterOptionsCommand
   const response: DescribeOrderableClusterOptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "OrderableClusterOptionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6669,7 +6669,7 @@ async function deserializeAws_queryDescribeOrderableClusterOptionsCommandError(
 ): Promise<DescribeOrderableClusterOptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6684,7 +6684,7 @@ async function deserializeAws_queryDescribeOrderableClusterOptionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6712,7 +6712,7 @@ export async function deserializeAws_queryDescribeReservedNodeOfferingsCommand(
   const response: DescribeReservedNodeOfferingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReservedNodeOfferingsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6723,7 +6723,7 @@ async function deserializeAws_queryDescribeReservedNodeOfferingsCommandError(
 ): Promise<DescribeReservedNodeOfferingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6737,7 +6737,7 @@ async function deserializeAws_queryDescribeReservedNodeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeOfferingNotFoundFault":
@@ -6748,7 +6748,7 @@ async function deserializeAws_queryDescribeReservedNodeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -6759,7 +6759,7 @@ async function deserializeAws_queryDescribeReservedNodeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6771,7 +6771,7 @@ async function deserializeAws_queryDescribeReservedNodeOfferingsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6799,7 +6799,7 @@ export async function deserializeAws_queryDescribeReservedNodesCommand(
   const response: DescribeReservedNodesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ReservedNodesMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6810,7 +6810,7 @@ async function deserializeAws_queryDescribeReservedNodesCommandError(
 ): Promise<DescribeReservedNodesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6824,7 +6824,7 @@ async function deserializeAws_queryDescribeReservedNodesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeNotFoundFault":
@@ -6835,7 +6835,7 @@ async function deserializeAws_queryDescribeReservedNodesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6847,7 +6847,7 @@ async function deserializeAws_queryDescribeReservedNodesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6872,7 +6872,7 @@ export async function deserializeAws_queryDescribeResizeCommand(
   const response: DescribeResizeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResizeProgressMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6883,7 +6883,7 @@ async function deserializeAws_queryDescribeResizeCommandError(
 ): Promise<DescribeResizeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6897,7 +6897,7 @@ async function deserializeAws_queryDescribeResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResizeNotFoundFault":
@@ -6908,7 +6908,7 @@ async function deserializeAws_queryDescribeResizeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6920,7 +6920,7 @@ async function deserializeAws_queryDescribeResizeCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6948,7 +6948,7 @@ export async function deserializeAws_queryDescribeScheduledActionsCommand(
   const response: DescribeScheduledActionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ScheduledActionsMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6959,7 +6959,7 @@ async function deserializeAws_queryDescribeScheduledActionsCommandError(
 ): Promise<DescribeScheduledActionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6973,7 +6973,7 @@ async function deserializeAws_queryDescribeScheduledActionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -6984,7 +6984,7 @@ async function deserializeAws_queryDescribeScheduledActionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6996,7 +6996,7 @@ async function deserializeAws_queryDescribeScheduledActionsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7024,7 +7024,7 @@ export async function deserializeAws_queryDescribeSnapshotCopyGrantsCommand(
   const response: DescribeSnapshotCopyGrantsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SnapshotCopyGrantMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7035,7 +7035,7 @@ async function deserializeAws_queryDescribeSnapshotCopyGrantsCommandError(
 ): Promise<DescribeSnapshotCopyGrantsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7049,7 +7049,7 @@ async function deserializeAws_queryDescribeSnapshotCopyGrantsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyGrantNotFoundFault":
@@ -7060,7 +7060,7 @@ async function deserializeAws_queryDescribeSnapshotCopyGrantsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7072,7 +7072,7 @@ async function deserializeAws_queryDescribeSnapshotCopyGrantsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7100,7 +7100,7 @@ export async function deserializeAws_queryDescribeSnapshotSchedulesCommand(
   const response: DescribeSnapshotSchedulesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSnapshotSchedulesOutputMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7111,7 +7111,7 @@ async function deserializeAws_queryDescribeSnapshotSchedulesCommandError(
 ): Promise<DescribeSnapshotSchedulesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7126,7 +7126,7 @@ async function deserializeAws_queryDescribeSnapshotSchedulesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7151,7 +7151,7 @@ export async function deserializeAws_queryDescribeStorageCommand(
   const response: DescribeStorageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CustomerStorageMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7162,7 +7162,7 @@ async function deserializeAws_queryDescribeStorageCommandError(
 ): Promise<DescribeStorageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7177,7 +7177,7 @@ async function deserializeAws_queryDescribeStorageCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7205,7 +7205,7 @@ export async function deserializeAws_queryDescribeTableRestoreStatusCommand(
   const response: DescribeTableRestoreStatusCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TableRestoreStatusMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7216,7 +7216,7 @@ async function deserializeAws_queryDescribeTableRestoreStatusCommandError(
 ): Promise<DescribeTableRestoreStatusCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7230,7 +7230,7 @@ async function deserializeAws_queryDescribeTableRestoreStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TableRestoreNotFoundFault":
@@ -7241,7 +7241,7 @@ async function deserializeAws_queryDescribeTableRestoreStatusCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7253,7 +7253,7 @@ async function deserializeAws_queryDescribeTableRestoreStatusCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7278,7 +7278,7 @@ export async function deserializeAws_queryDescribeTagsCommand(
   const response: DescribeTagsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TaggedResourceListMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7289,7 +7289,7 @@ async function deserializeAws_queryDescribeTagsCommandError(
 ): Promise<DescribeTagsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7303,7 +7303,7 @@ async function deserializeAws_queryDescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundFault":
@@ -7314,7 +7314,7 @@ async function deserializeAws_queryDescribeTagsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7326,7 +7326,7 @@ async function deserializeAws_queryDescribeTagsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7351,7 +7351,7 @@ export async function deserializeAws_queryDisableLoggingCommand(
   const response: DisableLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LoggingStatus",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7362,7 +7362,7 @@ async function deserializeAws_queryDisableLoggingCommandError(
 ): Promise<DisableLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7376,7 +7376,7 @@ async function deserializeAws_queryDisableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7388,7 +7388,7 @@ async function deserializeAws_queryDisableLoggingCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7413,7 +7413,7 @@ export async function deserializeAws_queryDisableSnapshotCopyCommand(
   const response: DisableSnapshotCopyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisableSnapshotCopyResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7424,7 +7424,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
 ): Promise<DisableSnapshotCopyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7438,7 +7438,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -7449,7 +7449,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyAlreadyDisabledFault":
@@ -7460,7 +7460,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -7471,7 +7471,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7483,7 +7483,7 @@ async function deserializeAws_queryDisableSnapshotCopyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7508,7 +7508,7 @@ export async function deserializeAws_queryEnableLoggingCommand(
   const response: EnableLoggingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "LoggingStatus",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7519,7 +7519,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
 ): Promise<EnableLoggingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7533,7 +7533,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterNotFoundFault":
@@ -7544,7 +7544,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientS3BucketPolicyFault":
@@ -7555,7 +7555,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3BucketNameFault":
@@ -7566,7 +7566,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidS3KeyPrefixFault":
@@ -7577,7 +7577,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7589,7 +7589,7 @@ async function deserializeAws_queryEnableLoggingCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7614,7 +7614,7 @@ export async function deserializeAws_queryEnableSnapshotCopyCommand(
   const response: EnableSnapshotCopyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableSnapshotCopyResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7625,7 +7625,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
 ): Promise<EnableSnapshotCopyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7639,7 +7639,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "CopyToRegionDisabledFault":
@@ -7650,7 +7650,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -7661,7 +7661,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleOrderableOptions":
@@ -7672,7 +7672,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -7683,7 +7683,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -7694,7 +7694,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -7705,7 +7705,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyAlreadyEnabledFault":
@@ -7716,7 +7716,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyGrantNotFoundFault":
@@ -7727,7 +7727,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -7738,7 +7738,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnknownSnapshotCopyRegionFault":
@@ -7749,7 +7749,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7761,7 +7761,7 @@ async function deserializeAws_queryEnableSnapshotCopyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7789,7 +7789,7 @@ export async function deserializeAws_queryGetClusterCredentialsCommand(
   const response: GetClusterCredentialsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterCredentials",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7800,7 +7800,7 @@ async function deserializeAws_queryGetClusterCredentialsCommandError(
 ): Promise<GetClusterCredentialsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7814,7 +7814,7 @@ async function deserializeAws_queryGetClusterCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -7825,7 +7825,7 @@ async function deserializeAws_queryGetClusterCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7837,7 +7837,7 @@ async function deserializeAws_queryGetClusterCredentialsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7865,7 +7865,7 @@ export async function deserializeAws_queryGetReservedNodeExchangeOfferingsComman
   const response: GetReservedNodeExchangeOfferingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetReservedNodeExchangeOfferingsOutputMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7876,7 +7876,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
 ): Promise<GetReservedNodeExchangeOfferingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7890,7 +7890,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidReservedNodeStateFault":
@@ -7901,7 +7901,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeAlreadyMigratedFault":
@@ -7912,7 +7912,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeNotFoundFault":
@@ -7923,7 +7923,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeOfferingNotFoundFault":
@@ -7934,7 +7934,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -7945,7 +7945,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7957,7 +7957,7 @@ async function deserializeAws_queryGetReservedNodeExchangeOfferingsCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7982,7 +7982,7 @@ export async function deserializeAws_queryModifyClusterCommand(
   const response: ModifyClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7993,7 +7993,7 @@ async function deserializeAws_queryModifyClusterCommandError(
 ): Promise<ModifyClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8007,7 +8007,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterNotFoundFault":
@@ -8018,7 +8018,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterParameterGroupNotFoundFault":
@@ -8029,7 +8029,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupNotFoundFault":
@@ -8040,7 +8040,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -8051,7 +8051,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmClientCertificateNotFoundFault":
@@ -8062,7 +8062,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmConfigurationNotFoundFault":
@@ -8073,7 +8073,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientClusterCapacityFault":
@@ -8084,7 +8084,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSecurityGroupStateFault":
@@ -8095,7 +8095,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -8106,7 +8106,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterTrackFault":
@@ -8117,7 +8117,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidElasticIpFault":
@@ -8128,7 +8128,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -8139,7 +8139,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -8150,7 +8150,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesPerClusterLimitExceededFault":
@@ -8161,7 +8161,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesQuotaExceededFault":
@@ -8172,7 +8172,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TableLimitExceededFault":
@@ -8183,7 +8183,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -8194,7 +8194,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOptionFault":
@@ -8205,7 +8205,7 @@ async function deserializeAws_queryModifyClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8217,7 +8217,7 @@ async function deserializeAws_queryModifyClusterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8245,7 +8245,7 @@ export async function deserializeAws_queryModifyClusterDbRevisionCommand(
   const response: ModifyClusterDbRevisionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterDbRevisionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8256,7 +8256,7 @@ async function deserializeAws_queryModifyClusterDbRevisionCommandError(
 ): Promise<ModifyClusterDbRevisionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8270,7 +8270,7 @@ async function deserializeAws_queryModifyClusterDbRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterOnLatestRevisionFault":
@@ -8281,7 +8281,7 @@ async function deserializeAws_queryModifyClusterDbRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -8292,7 +8292,7 @@ async function deserializeAws_queryModifyClusterDbRevisionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8304,7 +8304,7 @@ async function deserializeAws_queryModifyClusterDbRevisionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8332,7 +8332,7 @@ export async function deserializeAws_queryModifyClusterIamRolesCommand(
   const response: ModifyClusterIamRolesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterIamRolesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8343,7 +8343,7 @@ async function deserializeAws_queryModifyClusterIamRolesCommandError(
 ): Promise<ModifyClusterIamRolesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8357,7 +8357,7 @@ async function deserializeAws_queryModifyClusterIamRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -8368,7 +8368,7 @@ async function deserializeAws_queryModifyClusterIamRolesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8380,7 +8380,7 @@ async function deserializeAws_queryModifyClusterIamRolesCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8408,7 +8408,7 @@ export async function deserializeAws_queryModifyClusterMaintenanceCommand(
   const response: ModifyClusterMaintenanceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterMaintenanceResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8419,7 +8419,7 @@ async function deserializeAws_queryModifyClusterMaintenanceCommandError(
 ): Promise<ModifyClusterMaintenanceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8433,7 +8433,7 @@ async function deserializeAws_queryModifyClusterMaintenanceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8445,7 +8445,7 @@ async function deserializeAws_queryModifyClusterMaintenanceCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8473,7 +8473,7 @@ export async function deserializeAws_queryModifyClusterParameterGroupCommand(
   const response: ModifyClusterParameterGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterParameterGroupNameMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8484,7 +8484,7 @@ async function deserializeAws_queryModifyClusterParameterGroupCommandError(
 ): Promise<ModifyClusterParameterGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8498,7 +8498,7 @@ async function deserializeAws_queryModifyClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterParameterGroupStateFault":
@@ -8509,7 +8509,7 @@ async function deserializeAws_queryModifyClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8521,7 +8521,7 @@ async function deserializeAws_queryModifyClusterParameterGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8549,7 +8549,7 @@ export async function deserializeAws_queryModifyClusterSnapshotCommand(
   const response: ModifyClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8560,7 +8560,7 @@ async function deserializeAws_queryModifyClusterSnapshotCommandError(
 ): Promise<ModifyClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8574,7 +8574,7 @@ async function deserializeAws_queryModifyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -8585,7 +8585,7 @@ async function deserializeAws_queryModifyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -8596,7 +8596,7 @@ async function deserializeAws_queryModifyClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8608,7 +8608,7 @@ async function deserializeAws_queryModifyClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8629,7 +8629,7 @@ export async function deserializeAws_queryModifyClusterSnapshotScheduleCommand(
   }
   await collectBody(output.body, context);
   const response: ModifyClusterSnapshotScheduleCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -8640,7 +8640,7 @@ async function deserializeAws_queryModifyClusterSnapshotScheduleCommandError(
 ): Promise<ModifyClusterSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8654,7 +8654,7 @@ async function deserializeAws_queryModifyClusterSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotScheduleStateFault":
@@ -8665,7 +8665,7 @@ async function deserializeAws_queryModifyClusterSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleNotFoundFault":
@@ -8676,7 +8676,7 @@ async function deserializeAws_queryModifyClusterSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8688,7 +8688,7 @@ async function deserializeAws_queryModifyClusterSnapshotScheduleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8716,7 +8716,7 @@ export async function deserializeAws_queryModifyClusterSubnetGroupCommand(
   const response: ModifyClusterSubnetGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyClusterSubnetGroupResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8727,7 +8727,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
 ): Promise<ModifyClusterSubnetGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8741,7 +8741,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSubnetQuotaExceededFault":
@@ -8752,7 +8752,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -8763,7 +8763,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSubnet":
@@ -8774,7 +8774,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubnetAlreadyInUse":
@@ -8785,7 +8785,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -8796,7 +8796,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8808,7 +8808,7 @@ async function deserializeAws_queryModifyClusterSubnetGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8836,7 +8836,7 @@ export async function deserializeAws_queryModifyEventSubscriptionCommand(
   const response: ModifyEventSubscriptionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifyEventSubscriptionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -8847,7 +8847,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
 ): Promise<ModifyEventSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -8861,7 +8861,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSInvalidTopicFault":
@@ -8872,7 +8872,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSNoAuthorizationFault":
@@ -8883,7 +8883,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SNSTopicArnNotFoundFault":
@@ -8894,7 +8894,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SourceNotFoundFault":
@@ -8905,7 +8905,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionCategoryNotFoundFault":
@@ -8916,7 +8916,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionEventIdNotFoundFault":
@@ -8927,7 +8927,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionNotFoundFault":
@@ -8938,7 +8938,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SubscriptionSeverityNotFoundFault":
@@ -8949,7 +8949,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -8961,7 +8961,7 @@ async function deserializeAws_queryModifyEventSubscriptionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -8989,7 +8989,7 @@ export async function deserializeAws_queryModifyScheduledActionCommand(
   const response: ModifyScheduledActionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ScheduledAction",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9000,7 +9000,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
 ): Promise<ModifyScheduledActionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9014,7 +9014,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidScheduledActionFault":
@@ -9025,7 +9025,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduledActionNotFoundFault":
@@ -9036,7 +9036,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ScheduledActionTypeUnsupportedFault":
@@ -9047,7 +9047,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -9058,7 +9058,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9070,7 +9070,7 @@ async function deserializeAws_queryModifyScheduledActionCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9098,7 +9098,7 @@ export async function deserializeAws_queryModifySnapshotCopyRetentionPeriodComma
   const response: ModifySnapshotCopyRetentionPeriodCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ModifySnapshotCopyRetentionPeriodResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9109,7 +9109,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
 ): Promise<ModifySnapshotCopyRetentionPeriodCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9123,7 +9123,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -9134,7 +9134,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRetentionPeriodFault":
@@ -9145,7 +9145,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotCopyDisabledFault":
@@ -9156,7 +9156,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -9167,7 +9167,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9179,7 +9179,7 @@ async function deserializeAws_queryModifySnapshotCopyRetentionPeriodCommandError
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9207,7 +9207,7 @@ export async function deserializeAws_queryModifySnapshotScheduleCommand(
   const response: ModifySnapshotScheduleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SnapshotSchedule",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9218,7 +9218,7 @@ async function deserializeAws_queryModifySnapshotScheduleCommandError(
 ): Promise<ModifySnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9232,7 +9232,7 @@ async function deserializeAws_queryModifySnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleNotFoundFault":
@@ -9243,7 +9243,7 @@ async function deserializeAws_queryModifySnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleUpdateInProgressFault":
@@ -9254,7 +9254,7 @@ async function deserializeAws_queryModifySnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9266,7 +9266,7 @@ async function deserializeAws_queryModifySnapshotScheduleCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9294,7 +9294,7 @@ export async function deserializeAws_queryPurchaseReservedNodeOfferingCommand(
   const response: PurchaseReservedNodeOfferingCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PurchaseReservedNodeOfferingResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9305,7 +9305,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
 ): Promise<PurchaseReservedNodeOfferingCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9319,7 +9319,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeOfferingNotFoundFault":
@@ -9330,7 +9330,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ReservedNodeQuotaExceededFault":
@@ -9341,7 +9341,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -9352,7 +9352,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9364,7 +9364,7 @@ async function deserializeAws_queryPurchaseReservedNodeOfferingCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9389,7 +9389,7 @@ export async function deserializeAws_queryRebootClusterCommand(
   const response: RebootClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RebootClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9400,7 +9400,7 @@ async function deserializeAws_queryRebootClusterCommandError(
 ): Promise<RebootClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9414,7 +9414,7 @@ async function deserializeAws_queryRebootClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -9425,7 +9425,7 @@ async function deserializeAws_queryRebootClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9437,7 +9437,7 @@ async function deserializeAws_queryRebootClusterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9465,7 +9465,7 @@ export async function deserializeAws_queryResetClusterParameterGroupCommand(
   const response: ResetClusterParameterGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ClusterParameterGroupNameMessage",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9476,7 +9476,7 @@ async function deserializeAws_queryResetClusterParameterGroupCommandError(
 ): Promise<ResetClusterParameterGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9490,7 +9490,7 @@ async function deserializeAws_queryResetClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterParameterGroupStateFault":
@@ -9501,7 +9501,7 @@ async function deserializeAws_queryResetClusterParameterGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9513,7 +9513,7 @@ async function deserializeAws_queryResetClusterParameterGroupCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9538,7 +9538,7 @@ export async function deserializeAws_queryResizeClusterCommand(
   const response: ResizeClusterCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResizeClusterResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9549,7 +9549,7 @@ async function deserializeAws_queryResizeClusterCommandError(
 ): Promise<ResizeClusterCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9563,7 +9563,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientClusterCapacityFault":
@@ -9574,7 +9574,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -9585,7 +9585,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -9596,7 +9596,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesPerClusterLimitExceededFault":
@@ -9607,7 +9607,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesQuotaExceededFault":
@@ -9618,7 +9618,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -9629,7 +9629,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -9640,7 +9640,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOptionFault":
@@ -9651,7 +9651,7 @@ async function deserializeAws_queryResizeClusterCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9663,7 +9663,7 @@ async function deserializeAws_queryResizeClusterCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -9691,7 +9691,7 @@ export async function deserializeAws_queryRestoreFromClusterSnapshotCommand(
   const response: RestoreFromClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RestoreFromClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -9702,7 +9702,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
 ): Promise<RestoreFromClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -9716,7 +9716,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterAlreadyExistsFault":
@@ -9727,7 +9727,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterParameterGroupNotFoundFault":
@@ -9738,7 +9738,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterQuotaExceededFault":
@@ -9749,7 +9749,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupNotFoundFault":
@@ -9760,7 +9760,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -9771,7 +9771,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSubnetGroupNotFoundFault":
@@ -9782,7 +9782,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -9793,7 +9793,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmClientCertificateNotFoundFault":
@@ -9804,7 +9804,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "HsmConfigurationNotFoundFault":
@@ -9815,7 +9815,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InsufficientClusterCapacityFault":
@@ -9826,7 +9826,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -9837,7 +9837,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSubnetGroupStateFault":
@@ -9848,7 +9848,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterTrackFault":
@@ -9859,7 +9859,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidElasticIpFault":
@@ -9870,7 +9870,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRestoreFault":
@@ -9881,7 +9881,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidSubnet":
@@ -9892,7 +9892,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTagFault":
@@ -9903,7 +9903,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidVPCNetworkStateFault":
@@ -9914,7 +9914,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededFault":
@@ -9925,7 +9925,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesPerClusterLimitExceededFault":
@@ -9936,7 +9936,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "NumberOfNodesQuotaExceededFault":
@@ -9947,7 +9947,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "SnapshotScheduleNotFoundFault":
@@ -9958,7 +9958,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TagLimitExceededFault":
@@ -9969,7 +9969,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnauthorizedOperation":
@@ -9980,7 +9980,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -9992,7 +9992,7 @@ async function deserializeAws_queryRestoreFromClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10020,7 +10020,7 @@ export async function deserializeAws_queryRestoreTableFromClusterSnapshotCommand
   const response: RestoreTableFromClusterSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RestoreTableFromClusterSnapshotResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10031,7 +10031,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
 ): Promise<RestoreTableFromClusterSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10045,7 +10045,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -10056,7 +10056,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InProgressTableRestoreQuotaExceededFault":
@@ -10067,7 +10067,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSnapshotStateFault":
@@ -10078,7 +10078,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -10089,7 +10089,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidTableRestoreArgumentFault":
@@ -10100,7 +10100,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "UnsupportedOperationFault":
@@ -10111,7 +10111,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10123,7 +10123,7 @@ async function deserializeAws_queryRestoreTableFromClusterSnapshotCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10151,7 +10151,7 @@ export async function deserializeAws_queryRevokeClusterSecurityGroupIngressComma
   const response: RevokeClusterSecurityGroupIngressCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RevokeClusterSecurityGroupIngressResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10162,7 +10162,7 @@ async function deserializeAws_queryRevokeClusterSecurityGroupIngressCommandError
 ): Promise<RevokeClusterSecurityGroupIngressCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10176,7 +10176,7 @@ async function deserializeAws_queryRevokeClusterSecurityGroupIngressCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSecurityGroupNotFoundFault":
@@ -10187,7 +10187,7 @@ async function deserializeAws_queryRevokeClusterSecurityGroupIngressCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterSecurityGroupStateFault":
@@ -10198,7 +10198,7 @@ async function deserializeAws_queryRevokeClusterSecurityGroupIngressCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10210,7 +10210,7 @@ async function deserializeAws_queryRevokeClusterSecurityGroupIngressCommandError
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10238,7 +10238,7 @@ export async function deserializeAws_queryRevokeSnapshotAccessCommand(
   const response: RevokeSnapshotAccessCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RevokeSnapshotAccessResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10249,7 +10249,7 @@ async function deserializeAws_queryRevokeSnapshotAccessCommandError(
 ): Promise<RevokeSnapshotAccessCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10263,7 +10263,7 @@ async function deserializeAws_queryRevokeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "AuthorizationNotFoundFault":
@@ -10274,7 +10274,7 @@ async function deserializeAws_queryRevokeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ClusterSnapshotNotFoundFault":
@@ -10285,7 +10285,7 @@ async function deserializeAws_queryRevokeSnapshotAccessCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10297,7 +10297,7 @@ async function deserializeAws_queryRevokeSnapshotAccessCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10322,7 +10322,7 @@ export async function deserializeAws_queryRotateEncryptionKeyCommand(
   const response: RotateEncryptionKeyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RotateEncryptionKeyResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -10333,7 +10333,7 @@ async function deserializeAws_queryRotateEncryptionKeyCommandError(
 ): Promise<RotateEncryptionKeyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -10347,7 +10347,7 @@ async function deserializeAws_queryRotateEncryptionKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "DependentServiceRequestThrottlingFault":
@@ -10358,7 +10358,7 @@ async function deserializeAws_queryRotateEncryptionKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidClusterStateFault":
@@ -10369,7 +10369,7 @@ async function deserializeAws_queryRotateEncryptionKeyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -10381,7 +10381,7 @@ async function deserializeAws_queryRotateEncryptionKeyCommandError(
         message:
           parsedBody.Error.message || parsedBody.Error.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -10403,7 +10403,7 @@ const deserializeAws_queryAccessToSnapshotDeniedFaultResponse = async (
     name: "AccessToSnapshotDeniedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10421,7 +10421,7 @@ const deserializeAws_queryAuthorizationAlreadyExistsFaultResponse = async (
     name: "AuthorizationAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10439,7 +10439,7 @@ const deserializeAws_queryAuthorizationNotFoundFaultResponse = async (
     name: "AuthorizationNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10457,7 +10457,7 @@ const deserializeAws_queryAuthorizationQuotaExceededFaultResponse = async (
     name: "AuthorizationQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10475,7 +10475,7 @@ const deserializeAws_queryBatchDeleteRequestSizeExceededFaultResponse = async (
     name: "BatchDeleteRequestSizeExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10493,7 +10493,7 @@ const deserializeAws_queryBatchModifyClusterSnapshotsLimitExceededFaultResponse 
     name: "BatchModifyClusterSnapshotsLimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10511,7 +10511,7 @@ const deserializeAws_queryBucketNotFoundFaultResponse = async (
     name: "BucketNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10529,7 +10529,7 @@ const deserializeAws_queryClusterAlreadyExistsFaultResponse = async (
     name: "ClusterAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10547,7 +10547,7 @@ const deserializeAws_queryClusterNotFoundFaultResponse = async (
     name: "ClusterNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10565,7 +10565,7 @@ const deserializeAws_queryClusterOnLatestRevisionFaultResponse = async (
     name: "ClusterOnLatestRevisionFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10583,7 +10583,7 @@ const deserializeAws_queryClusterParameterGroupAlreadyExistsFaultResponse = asyn
     name: "ClusterParameterGroupAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10601,7 +10601,7 @@ const deserializeAws_queryClusterParameterGroupNotFoundFaultResponse = async (
     name: "ClusterParameterGroupNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10619,7 +10619,7 @@ const deserializeAws_queryClusterParameterGroupQuotaExceededFaultResponse = asyn
     name: "ClusterParameterGroupQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10637,7 +10637,7 @@ const deserializeAws_queryClusterQuotaExceededFaultResponse = async (
     name: "ClusterQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10655,7 +10655,7 @@ const deserializeAws_queryClusterSecurityGroupAlreadyExistsFaultResponse = async
     name: "ClusterSecurityGroupAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10673,7 +10673,7 @@ const deserializeAws_queryClusterSecurityGroupNotFoundFaultResponse = async (
     name: "ClusterSecurityGroupNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10691,7 +10691,7 @@ const deserializeAws_queryClusterSecurityGroupQuotaExceededFaultResponse = async
     name: "ClusterSecurityGroupQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10709,7 +10709,7 @@ const deserializeAws_queryClusterSnapshotAlreadyExistsFaultResponse = async (
     name: "ClusterSnapshotAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10727,7 +10727,7 @@ const deserializeAws_queryClusterSnapshotNotFoundFaultResponse = async (
     name: "ClusterSnapshotNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10745,7 +10745,7 @@ const deserializeAws_queryClusterSnapshotQuotaExceededFaultResponse = async (
     name: "ClusterSnapshotQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10763,7 +10763,7 @@ const deserializeAws_queryClusterSubnetGroupAlreadyExistsFaultResponse = async (
     name: "ClusterSubnetGroupAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10781,7 +10781,7 @@ const deserializeAws_queryClusterSubnetGroupNotFoundFaultResponse = async (
     name: "ClusterSubnetGroupNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10799,7 +10799,7 @@ const deserializeAws_queryClusterSubnetGroupQuotaExceededFaultResponse = async (
     name: "ClusterSubnetGroupQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10817,7 +10817,7 @@ const deserializeAws_queryClusterSubnetQuotaExceededFaultResponse = async (
     name: "ClusterSubnetQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10835,7 +10835,7 @@ const deserializeAws_queryCopyToRegionDisabledFaultResponse = async (
     name: "CopyToRegionDisabledFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10853,7 +10853,7 @@ const deserializeAws_queryDependentServiceRequestThrottlingFaultResponse = async
     name: "DependentServiceRequestThrottlingFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10871,7 +10871,7 @@ const deserializeAws_queryDependentServiceUnavailableFaultResponse = async (
     name: "DependentServiceUnavailableFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10889,7 +10889,7 @@ const deserializeAws_queryEventSubscriptionQuotaExceededFaultResponse = async (
     name: "EventSubscriptionQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10907,7 +10907,7 @@ const deserializeAws_queryHsmClientCertificateAlreadyExistsFaultResponse = async
     name: "HsmClientCertificateAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10925,7 +10925,7 @@ const deserializeAws_queryHsmClientCertificateNotFoundFaultResponse = async (
     name: "HsmClientCertificateNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10943,7 +10943,7 @@ const deserializeAws_queryHsmClientCertificateQuotaExceededFaultResponse = async
     name: "HsmClientCertificateQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10961,7 +10961,7 @@ const deserializeAws_queryHsmConfigurationAlreadyExistsFaultResponse = async (
     name: "HsmConfigurationAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10979,7 +10979,7 @@ const deserializeAws_queryHsmConfigurationNotFoundFaultResponse = async (
     name: "HsmConfigurationNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -10997,7 +10997,7 @@ const deserializeAws_queryHsmConfigurationQuotaExceededFaultResponse = async (
     name: "HsmConfigurationQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11015,7 +11015,7 @@ const deserializeAws_queryInProgressTableRestoreQuotaExceededFaultResponse = asy
     name: "InProgressTableRestoreQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11033,7 +11033,7 @@ const deserializeAws_queryIncompatibleOrderableOptionsResponse = async (
     name: "IncompatibleOrderableOptions",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11051,7 +11051,7 @@ const deserializeAws_queryInsufficientClusterCapacityFaultResponse = async (
     name: "InsufficientClusterCapacityFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11069,7 +11069,7 @@ const deserializeAws_queryInsufficientS3BucketPolicyFaultResponse = async (
     name: "InsufficientS3BucketPolicyFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11087,7 +11087,7 @@ const deserializeAws_queryInvalidClusterParameterGroupStateFaultResponse = async
     name: "InvalidClusterParameterGroupStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11105,7 +11105,7 @@ const deserializeAws_queryInvalidClusterSecurityGroupStateFaultResponse = async 
     name: "InvalidClusterSecurityGroupStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11123,7 +11123,7 @@ const deserializeAws_queryInvalidClusterSnapshotScheduleStateFaultResponse = asy
     name: "InvalidClusterSnapshotScheduleStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11141,7 +11141,7 @@ const deserializeAws_queryInvalidClusterSnapshotStateFaultResponse = async (
     name: "InvalidClusterSnapshotStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11159,7 +11159,7 @@ const deserializeAws_queryInvalidClusterStateFaultResponse = async (
     name: "InvalidClusterStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11177,7 +11177,7 @@ const deserializeAws_queryInvalidClusterSubnetGroupStateFaultResponse = async (
     name: "InvalidClusterSubnetGroupStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11195,7 +11195,7 @@ const deserializeAws_queryInvalidClusterSubnetStateFaultResponse = async (
     name: "InvalidClusterSubnetStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11213,7 +11213,7 @@ const deserializeAws_queryInvalidClusterTrackFaultResponse = async (
     name: "InvalidClusterTrackFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11231,7 +11231,7 @@ const deserializeAws_queryInvalidElasticIpFaultResponse = async (
     name: "InvalidElasticIpFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11249,7 +11249,7 @@ const deserializeAws_queryInvalidHsmClientCertificateStateFaultResponse = async 
     name: "InvalidHsmClientCertificateStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11267,7 +11267,7 @@ const deserializeAws_queryInvalidHsmConfigurationStateFaultResponse = async (
     name: "InvalidHsmConfigurationStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11285,7 +11285,7 @@ const deserializeAws_queryInvalidReservedNodeStateFaultResponse = async (
     name: "InvalidReservedNodeStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11303,7 +11303,7 @@ const deserializeAws_queryInvalidRestoreFaultResponse = async (
     name: "InvalidRestoreFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11321,7 +11321,7 @@ const deserializeAws_queryInvalidRetentionPeriodFaultResponse = async (
     name: "InvalidRetentionPeriodFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11339,7 +11339,7 @@ const deserializeAws_queryInvalidS3BucketNameFaultResponse = async (
     name: "InvalidS3BucketNameFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11357,7 +11357,7 @@ const deserializeAws_queryInvalidS3KeyPrefixFaultResponse = async (
     name: "InvalidS3KeyPrefixFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11375,7 +11375,7 @@ const deserializeAws_queryInvalidScheduleFaultResponse = async (
     name: "InvalidScheduleFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11393,7 +11393,7 @@ const deserializeAws_queryInvalidScheduledActionFaultResponse = async (
     name: "InvalidScheduledActionFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11411,7 +11411,7 @@ const deserializeAws_queryInvalidSnapshotCopyGrantStateFaultResponse = async (
     name: "InvalidSnapshotCopyGrantStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11429,7 +11429,7 @@ const deserializeAws_queryInvalidSubnetResponse = async (
     name: "InvalidSubnet",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11447,7 +11447,7 @@ const deserializeAws_queryInvalidSubscriptionStateFaultResponse = async (
     name: "InvalidSubscriptionStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11465,7 +11465,7 @@ const deserializeAws_queryInvalidTableRestoreArgumentFaultResponse = async (
     name: "InvalidTableRestoreArgumentFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11483,7 +11483,7 @@ const deserializeAws_queryInvalidTagFaultResponse = async (
     name: "InvalidTagFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11501,7 +11501,7 @@ const deserializeAws_queryInvalidVPCNetworkStateFaultResponse = async (
     name: "InvalidVPCNetworkStateFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11519,7 +11519,7 @@ const deserializeAws_queryLimitExceededFaultResponse = async (
     name: "LimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11537,7 +11537,7 @@ const deserializeAws_queryNumberOfNodesPerClusterLimitExceededFaultResponse = as
     name: "NumberOfNodesPerClusterLimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11555,7 +11555,7 @@ const deserializeAws_queryNumberOfNodesQuotaExceededFaultResponse = async (
     name: "NumberOfNodesQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11573,7 +11573,7 @@ const deserializeAws_queryReservedNodeAlreadyExistsFaultResponse = async (
     name: "ReservedNodeAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11591,7 +11591,7 @@ const deserializeAws_queryReservedNodeAlreadyMigratedFaultResponse = async (
     name: "ReservedNodeAlreadyMigratedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11609,7 +11609,7 @@ const deserializeAws_queryReservedNodeNotFoundFaultResponse = async (
     name: "ReservedNodeNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11627,7 +11627,7 @@ const deserializeAws_queryReservedNodeOfferingNotFoundFaultResponse = async (
     name: "ReservedNodeOfferingNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11645,7 +11645,7 @@ const deserializeAws_queryReservedNodeQuotaExceededFaultResponse = async (
     name: "ReservedNodeQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11663,7 +11663,7 @@ const deserializeAws_queryResizeNotFoundFaultResponse = async (
     name: "ResizeNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11681,7 +11681,7 @@ const deserializeAws_queryResourceNotFoundFaultResponse = async (
     name: "ResourceNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11699,7 +11699,7 @@ const deserializeAws_querySNSInvalidTopicFaultResponse = async (
     name: "SNSInvalidTopicFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11717,7 +11717,7 @@ const deserializeAws_querySNSNoAuthorizationFaultResponse = async (
     name: "SNSNoAuthorizationFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11735,7 +11735,7 @@ const deserializeAws_querySNSTopicArnNotFoundFaultResponse = async (
     name: "SNSTopicArnNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11753,7 +11753,7 @@ const deserializeAws_queryScheduleDefinitionTypeUnsupportedFaultResponse = async
     name: "ScheduleDefinitionTypeUnsupportedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11771,7 +11771,7 @@ const deserializeAws_queryScheduledActionAlreadyExistsFaultResponse = async (
     name: "ScheduledActionAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11789,7 +11789,7 @@ const deserializeAws_queryScheduledActionNotFoundFaultResponse = async (
     name: "ScheduledActionNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11807,7 +11807,7 @@ const deserializeAws_queryScheduledActionQuotaExceededFaultResponse = async (
     name: "ScheduledActionQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11825,7 +11825,7 @@ const deserializeAws_queryScheduledActionTypeUnsupportedFaultResponse = async (
     name: "ScheduledActionTypeUnsupportedFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11843,7 +11843,7 @@ const deserializeAws_querySnapshotCopyAlreadyDisabledFaultResponse = async (
     name: "SnapshotCopyAlreadyDisabledFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11861,7 +11861,7 @@ const deserializeAws_querySnapshotCopyAlreadyEnabledFaultResponse = async (
     name: "SnapshotCopyAlreadyEnabledFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11879,7 +11879,7 @@ const deserializeAws_querySnapshotCopyDisabledFaultResponse = async (
     name: "SnapshotCopyDisabledFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11897,7 +11897,7 @@ const deserializeAws_querySnapshotCopyGrantAlreadyExistsFaultResponse = async (
     name: "SnapshotCopyGrantAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11915,7 +11915,7 @@ const deserializeAws_querySnapshotCopyGrantNotFoundFaultResponse = async (
     name: "SnapshotCopyGrantNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11933,7 +11933,7 @@ const deserializeAws_querySnapshotCopyGrantQuotaExceededFaultResponse = async (
     name: "SnapshotCopyGrantQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11951,7 +11951,7 @@ const deserializeAws_querySnapshotScheduleAlreadyExistsFaultResponse = async (
     name: "SnapshotScheduleAlreadyExistsFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11969,7 +11969,7 @@ const deserializeAws_querySnapshotScheduleNotFoundFaultResponse = async (
     name: "SnapshotScheduleNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -11987,7 +11987,7 @@ const deserializeAws_querySnapshotScheduleQuotaExceededFaultResponse = async (
     name: "SnapshotScheduleQuotaExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12005,7 +12005,7 @@ const deserializeAws_querySnapshotScheduleUpdateInProgressFaultResponse = async 
     name: "SnapshotScheduleUpdateInProgressFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12023,7 +12023,7 @@ const deserializeAws_querySourceNotFoundFaultResponse = async (
     name: "SourceNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12041,7 +12041,7 @@ const deserializeAws_querySubnetAlreadyInUseResponse = async (
     name: "SubnetAlreadyInUse",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12059,7 +12059,7 @@ const deserializeAws_querySubscriptionAlreadyExistFaultResponse = async (
     name: "SubscriptionAlreadyExistFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12077,7 +12077,7 @@ const deserializeAws_querySubscriptionCategoryNotFoundFaultResponse = async (
     name: "SubscriptionCategoryNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12095,7 +12095,7 @@ const deserializeAws_querySubscriptionEventIdNotFoundFaultResponse = async (
     name: "SubscriptionEventIdNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12113,7 +12113,7 @@ const deserializeAws_querySubscriptionNotFoundFaultResponse = async (
     name: "SubscriptionNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12131,7 +12131,7 @@ const deserializeAws_querySubscriptionSeverityNotFoundFaultResponse = async (
     name: "SubscriptionSeverityNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12149,7 +12149,7 @@ const deserializeAws_queryTableLimitExceededFaultResponse = async (
     name: "TableLimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12167,7 +12167,7 @@ const deserializeAws_queryTableRestoreNotFoundFaultResponse = async (
     name: "TableRestoreNotFoundFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12185,7 +12185,7 @@ const deserializeAws_queryTagLimitExceededFaultResponse = async (
     name: "TagLimitExceededFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12203,7 +12203,7 @@ const deserializeAws_queryUnauthorizedOperationResponse = async (
     name: "UnauthorizedOperation",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12221,7 +12221,7 @@ const deserializeAws_queryUnknownSnapshotCopyRegionFaultResponse = async (
     name: "UnknownSnapshotCopyRegionFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12239,7 +12239,7 @@ const deserializeAws_queryUnsupportedOperationFaultResponse = async (
     name: "UnsupportedOperationFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12257,7 +12257,7 @@ const deserializeAws_queryUnsupportedOptionFaultResponse = async (
     name: "UnsupportedOptionFault",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -12337,7 +12337,7 @@ const serializeAws_queryBatchDeleteClusterSnapshotsRequest = (
       input.Identifiers,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Identifiers.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12362,7 +12362,7 @@ const serializeAws_queryBatchModifyClusterSnapshotsMessage = (
       input.SnapshotIdentifierList,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SnapshotIdentifierList.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12445,7 +12445,7 @@ const serializeAws_queryCreateClusterMessage = (
       input.ClusterSecurityGroups,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ClusterSecurityGroups.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12483,7 +12483,7 @@ const serializeAws_queryCreateClusterMessage = (
       input.IamRoles,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `IamRoles.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12524,7 +12524,7 @@ const serializeAws_queryCreateClusterMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12534,7 +12534,7 @@ const serializeAws_queryCreateClusterMessage = (
       input.VpcSecurityGroupIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `VpcSecurityGroupIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12558,7 +12558,7 @@ const serializeAws_queryCreateClusterParameterGroupMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12579,7 +12579,7 @@ const serializeAws_queryCreateClusterSecurityGroupMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12604,7 +12604,7 @@ const serializeAws_queryCreateClusterSnapshotMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12628,14 +12628,14 @@ const serializeAws_queryCreateClusterSubnetGroupMessage = (
       input.SubnetIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SubnetIds.${key}`;
       entries[loc] = memberEntries[key];
     });
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12656,7 +12656,7 @@ const serializeAws_queryCreateEventSubscriptionMessage = (
       input.EventCategories,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `EventCategories.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12672,7 +12672,7 @@ const serializeAws_queryCreateEventSubscriptionMessage = (
       input.SourceIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SourceIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12685,7 +12685,7 @@ const serializeAws_queryCreateEventSubscriptionMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12704,7 +12704,7 @@ const serializeAws_queryCreateHsmClientCertificateMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12737,7 +12737,7 @@ const serializeAws_queryCreateHsmConfigurationMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12776,7 +12776,7 @@ const serializeAws_queryCreateScheduledActionMessage = (
       input.TargetAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TargetAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12797,7 +12797,7 @@ const serializeAws_queryCreateSnapshotCopyGrantMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12821,7 +12821,7 @@ const serializeAws_queryCreateSnapshotScheduleMessage = (
       input.ScheduleDefinitions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ScheduleDefinitions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12834,7 +12834,7 @@ const serializeAws_queryCreateSnapshotScheduleMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12852,7 +12852,7 @@ const serializeAws_queryCreateTagsMessage = (
   }
   if (input.Tags !== undefined) {
     const memberEntries = serializeAws_queryTagList(input.Tags, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Tags.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -12942,7 +12942,7 @@ const serializeAws_queryDeleteClusterSnapshotMessageList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`DeleteClusterSnapshotMessage.${counter}.${key}`] =
         memberEntries[key];
     });
@@ -13039,7 +13039,7 @@ const serializeAws_queryDeleteTagsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13057,7 +13057,7 @@ const serializeAws_queryDescribeAccountAttributesMessage = (
       input.AttributeNames,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AttributeNames.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13098,7 +13098,7 @@ const serializeAws_queryDescribeClusterParameterGroupsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13108,7 +13108,7 @@ const serializeAws_queryDescribeClusterParameterGroupsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13152,7 +13152,7 @@ const serializeAws_queryDescribeClusterSecurityGroupsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13162,7 +13162,7 @@ const serializeAws_queryDescribeClusterSecurityGroupsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13204,7 +13204,7 @@ const serializeAws_queryDescribeClusterSnapshotsMessage = (
       input.SortingEntities,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SortingEntities.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13214,7 +13214,7 @@ const serializeAws_queryDescribeClusterSnapshotsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13224,7 +13224,7 @@ const serializeAws_queryDescribeClusterSnapshotsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13248,7 +13248,7 @@ const serializeAws_queryDescribeClusterSubnetGroupsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13258,7 +13258,7 @@ const serializeAws_queryDescribeClusterSubnetGroupsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13319,7 +13319,7 @@ const serializeAws_queryDescribeClustersMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13329,7 +13329,7 @@ const serializeAws_queryDescribeClustersMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13381,7 +13381,7 @@ const serializeAws_queryDescribeEventSubscriptionsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13391,7 +13391,7 @@ const serializeAws_queryDescribeEventSubscriptionsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13445,7 +13445,7 @@ const serializeAws_queryDescribeHsmClientCertificatesMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13455,7 +13455,7 @@ const serializeAws_queryDescribeHsmClientCertificatesMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13479,7 +13479,7 @@ const serializeAws_queryDescribeHsmConfigurationsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13489,7 +13489,7 @@ const serializeAws_queryDescribeHsmConfigurationsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13524,7 +13524,7 @@ const serializeAws_queryDescribeNodeConfigurationOptionsMessage = (
       input.Filters,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Filter.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13625,7 +13625,7 @@ const serializeAws_queryDescribeScheduledActionsMessage = (
       input.Filters,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Filters.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13664,7 +13664,7 @@ const serializeAws_queryDescribeSnapshotCopyGrantsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13674,7 +13674,7 @@ const serializeAws_queryDescribeSnapshotCopyGrantsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13701,7 +13701,7 @@ const serializeAws_queryDescribeSnapshotSchedulesMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13711,7 +13711,7 @@ const serializeAws_queryDescribeSnapshotSchedulesMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13758,7 +13758,7 @@ const serializeAws_queryDescribeTagsMessage = (
   }
   if (input.TagKeys !== undefined) {
     const memberEntries = serializeAws_queryTagKeyList(input.TagKeys, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagKeys.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13768,7 +13768,7 @@ const serializeAws_queryDescribeTagsMessage = (
       input.TagValues,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TagValues.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13868,7 +13868,7 @@ const serializeAws_queryGetClusterCredentialsMessage = (
       input.DbGroups,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `DbGroups.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13939,7 +13939,7 @@ const serializeAws_queryModifyClusterIamRolesMessage = (
       input.AddIamRoles,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `AddIamRoles.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -13952,7 +13952,7 @@ const serializeAws_queryModifyClusterIamRolesMessage = (
       input.RemoveIamRoles,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `RemoveIamRoles.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14011,7 +14011,7 @@ const serializeAws_queryModifyClusterMessage = (
       input.ClusterSecurityGroups,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ClusterSecurityGroups.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14071,7 +14071,7 @@ const serializeAws_queryModifyClusterMessage = (
       input.VpcSecurityGroupIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `VpcSecurityGroupIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14092,7 +14092,7 @@ const serializeAws_queryModifyClusterParameterGroupMessage = (
       input.Parameters,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Parameters.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14151,7 +14151,7 @@ const serializeAws_queryModifyClusterSubnetGroupMessage = (
       input.SubnetIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SubnetIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14172,7 +14172,7 @@ const serializeAws_queryModifyEventSubscriptionMessage = (
       input.EventCategories,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `EventCategories.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14188,7 +14188,7 @@ const serializeAws_queryModifyEventSubscriptionMessage = (
       input.SourceIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `SourceIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14233,7 +14233,7 @@ const serializeAws_queryModifyScheduledActionMessage = (
       input.TargetAction,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `TargetAction.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14268,7 +14268,7 @@ const serializeAws_queryModifySnapshotScheduleMessage = (
       input.ScheduleDefinitions,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ScheduleDefinitions.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14295,7 +14295,7 @@ const serializeAws_queryNodeConfigurationOptionsFilter = (
       input.Values,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Value.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14314,7 +14314,7 @@ const serializeAws_queryNodeConfigurationOptionsFilterList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`NodeConfigurationOptionsFilter.${counter}.${key}`] =
         memberEntries[key];
     });
@@ -14366,7 +14366,7 @@ const serializeAws_queryParametersList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryParameter(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`Parameter.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -14412,7 +14412,7 @@ const serializeAws_queryResetClusterParameterGroupMessage = (
       input.Parameters,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Parameters.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14475,7 +14475,7 @@ const serializeAws_queryRestoreFromClusterSnapshotMessage = (
       input.ClusterSecurityGroups,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ClusterSecurityGroups.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14501,7 +14501,7 @@ const serializeAws_queryRestoreFromClusterSnapshotMessage = (
       input.IamRoles,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `IamRoles.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14548,7 +14548,7 @@ const serializeAws_queryRestoreFromClusterSnapshotMessage = (
       input.VpcSecurityGroupIds,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `VpcSecurityGroupIds.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14662,7 +14662,7 @@ const serializeAws_queryScheduledActionFilter = (
       input.Values,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `Values.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14681,7 +14681,7 @@ const serializeAws_queryScheduledActionFilterList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`ScheduledActionFilter.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -14699,7 +14699,7 @@ const serializeAws_queryScheduledActionType = (
       input.ResizeCluster,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       const loc = `ResizeCluster.${key}`;
       entries[loc] = memberEntries[key];
     });
@@ -14745,7 +14745,7 @@ const serializeAws_querySnapshotSortingEntityList = (
       entry,
       context
     );
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`SnapshotSortingEntity.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -14811,7 +14811,7 @@ const serializeAws_queryTagList = (
   let counter = 1;
   for (let entry of input) {
     const memberEntries = serializeAws_queryTag(entry, context);
-    Object.keys(memberEntries).forEach(key => {
+    Object.keys(memberEntries).forEach((key) => {
       entries[`Tag.${counter}.${key}`] = memberEntries[key];
     });
     counter++;
@@ -14864,7 +14864,7 @@ const deserializeAws_queryAccessToSnapshotDeniedFault = (
 ): AccessToSnapshotDeniedFault => {
   let contents: any = {
     __type: "AccessToSnapshotDeniedFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14878,7 +14878,7 @@ const deserializeAws_queryAuthorizationAlreadyExistsFault = (
 ): AuthorizationAlreadyExistsFault => {
   let contents: any = {
     __type: "AuthorizationAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14892,7 +14892,7 @@ const deserializeAws_queryAuthorizationNotFoundFault = (
 ): AuthorizationNotFoundFault => {
   let contents: any = {
     __type: "AuthorizationNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14906,7 +14906,7 @@ const deserializeAws_queryAuthorizationQuotaExceededFault = (
 ): AuthorizationQuotaExceededFault => {
   let contents: any = {
     __type: "AuthorizationQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14920,7 +14920,7 @@ const deserializeAws_queryBatchDeleteRequestSizeExceededFault = (
 ): BatchDeleteRequestSizeExceededFault => {
   let contents: any = {
     __type: "BatchDeleteRequestSizeExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14934,7 +14934,7 @@ const deserializeAws_queryBatchModifyClusterSnapshotsLimitExceededFault = (
 ): BatchModifyClusterSnapshotsLimitExceededFault => {
   let contents: any = {
     __type: "BatchModifyClusterSnapshotsLimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14948,7 +14948,7 @@ const deserializeAws_queryBucketNotFoundFault = (
 ): BucketNotFoundFault => {
   let contents: any = {
     __type: "BucketNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14962,7 +14962,7 @@ const deserializeAws_queryClusterAlreadyExistsFault = (
 ): ClusterAlreadyExistsFault => {
   let contents: any = {
     __type: "ClusterAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14976,7 +14976,7 @@ const deserializeAws_queryClusterNotFoundFault = (
 ): ClusterNotFoundFault => {
   let contents: any = {
     __type: "ClusterNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -14990,7 +14990,7 @@ const deserializeAws_queryClusterOnLatestRevisionFault = (
 ): ClusterOnLatestRevisionFault => {
   let contents: any = {
     __type: "ClusterOnLatestRevisionFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15004,7 +15004,7 @@ const deserializeAws_queryClusterParameterGroupAlreadyExistsFault = (
 ): ClusterParameterGroupAlreadyExistsFault => {
   let contents: any = {
     __type: "ClusterParameterGroupAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15018,7 +15018,7 @@ const deserializeAws_queryClusterParameterGroupNotFoundFault = (
 ): ClusterParameterGroupNotFoundFault => {
   let contents: any = {
     __type: "ClusterParameterGroupNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15032,7 +15032,7 @@ const deserializeAws_queryClusterParameterGroupQuotaExceededFault = (
 ): ClusterParameterGroupQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterParameterGroupQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15046,7 +15046,7 @@ const deserializeAws_queryClusterQuotaExceededFault = (
 ): ClusterQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15060,7 +15060,7 @@ const deserializeAws_queryClusterSecurityGroupAlreadyExistsFault = (
 ): ClusterSecurityGroupAlreadyExistsFault => {
   let contents: any = {
     __type: "ClusterSecurityGroupAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15074,7 +15074,7 @@ const deserializeAws_queryClusterSecurityGroupNotFoundFault = (
 ): ClusterSecurityGroupNotFoundFault => {
   let contents: any = {
     __type: "ClusterSecurityGroupNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15088,7 +15088,7 @@ const deserializeAws_queryClusterSecurityGroupQuotaExceededFault = (
 ): ClusterSecurityGroupQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterSecurityGroupQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15102,7 +15102,7 @@ const deserializeAws_queryClusterSnapshotAlreadyExistsFault = (
 ): ClusterSnapshotAlreadyExistsFault => {
   let contents: any = {
     __type: "ClusterSnapshotAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15116,7 +15116,7 @@ const deserializeAws_queryClusterSnapshotNotFoundFault = (
 ): ClusterSnapshotNotFoundFault => {
   let contents: any = {
     __type: "ClusterSnapshotNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15130,7 +15130,7 @@ const deserializeAws_queryClusterSnapshotQuotaExceededFault = (
 ): ClusterSnapshotQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterSnapshotQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15144,7 +15144,7 @@ const deserializeAws_queryClusterSubnetGroupAlreadyExistsFault = (
 ): ClusterSubnetGroupAlreadyExistsFault => {
   let contents: any = {
     __type: "ClusterSubnetGroupAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15158,7 +15158,7 @@ const deserializeAws_queryClusterSubnetGroupNotFoundFault = (
 ): ClusterSubnetGroupNotFoundFault => {
   let contents: any = {
     __type: "ClusterSubnetGroupNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15172,7 +15172,7 @@ const deserializeAws_queryClusterSubnetGroupQuotaExceededFault = (
 ): ClusterSubnetGroupQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterSubnetGroupQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15186,7 +15186,7 @@ const deserializeAws_queryClusterSubnetQuotaExceededFault = (
 ): ClusterSubnetQuotaExceededFault => {
   let contents: any = {
     __type: "ClusterSubnetQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15200,7 +15200,7 @@ const deserializeAws_queryCopyToRegionDisabledFault = (
 ): CopyToRegionDisabledFault => {
   let contents: any = {
     __type: "CopyToRegionDisabledFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15214,7 +15214,7 @@ const deserializeAws_queryDependentServiceRequestThrottlingFault = (
 ): DependentServiceRequestThrottlingFault => {
   let contents: any = {
     __type: "DependentServiceRequestThrottlingFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15228,7 +15228,7 @@ const deserializeAws_queryDependentServiceUnavailableFault = (
 ): DependentServiceUnavailableFault => {
   let contents: any = {
     __type: "DependentServiceUnavailableFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15242,7 +15242,7 @@ const deserializeAws_queryEventSubscriptionQuotaExceededFault = (
 ): EventSubscriptionQuotaExceededFault => {
   let contents: any = {
     __type: "EventSubscriptionQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15256,7 +15256,7 @@ const deserializeAws_queryHsmClientCertificateAlreadyExistsFault = (
 ): HsmClientCertificateAlreadyExistsFault => {
   let contents: any = {
     __type: "HsmClientCertificateAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15270,7 +15270,7 @@ const deserializeAws_queryHsmClientCertificateNotFoundFault = (
 ): HsmClientCertificateNotFoundFault => {
   let contents: any = {
     __type: "HsmClientCertificateNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15284,7 +15284,7 @@ const deserializeAws_queryHsmClientCertificateQuotaExceededFault = (
 ): HsmClientCertificateQuotaExceededFault => {
   let contents: any = {
     __type: "HsmClientCertificateQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15298,7 +15298,7 @@ const deserializeAws_queryHsmConfigurationAlreadyExistsFault = (
 ): HsmConfigurationAlreadyExistsFault => {
   let contents: any = {
     __type: "HsmConfigurationAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15312,7 +15312,7 @@ const deserializeAws_queryHsmConfigurationNotFoundFault = (
 ): HsmConfigurationNotFoundFault => {
   let contents: any = {
     __type: "HsmConfigurationNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15326,7 +15326,7 @@ const deserializeAws_queryHsmConfigurationQuotaExceededFault = (
 ): HsmConfigurationQuotaExceededFault => {
   let contents: any = {
     __type: "HsmConfigurationQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15340,7 +15340,7 @@ const deserializeAws_queryInProgressTableRestoreQuotaExceededFault = (
 ): InProgressTableRestoreQuotaExceededFault => {
   let contents: any = {
     __type: "InProgressTableRestoreQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15354,7 +15354,7 @@ const deserializeAws_queryIncompatibleOrderableOptions = (
 ): IncompatibleOrderableOptions => {
   let contents: any = {
     __type: "IncompatibleOrderableOptions",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15368,7 +15368,7 @@ const deserializeAws_queryInsufficientClusterCapacityFault = (
 ): InsufficientClusterCapacityFault => {
   let contents: any = {
     __type: "InsufficientClusterCapacityFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15382,7 +15382,7 @@ const deserializeAws_queryInsufficientS3BucketPolicyFault = (
 ): InsufficientS3BucketPolicyFault => {
   let contents: any = {
     __type: "InsufficientS3BucketPolicyFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15396,7 +15396,7 @@ const deserializeAws_queryInvalidClusterParameterGroupStateFault = (
 ): InvalidClusterParameterGroupStateFault => {
   let contents: any = {
     __type: "InvalidClusterParameterGroupStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15410,7 +15410,7 @@ const deserializeAws_queryInvalidClusterSecurityGroupStateFault = (
 ): InvalidClusterSecurityGroupStateFault => {
   let contents: any = {
     __type: "InvalidClusterSecurityGroupStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15424,7 +15424,7 @@ const deserializeAws_queryInvalidClusterSnapshotScheduleStateFault = (
 ): InvalidClusterSnapshotScheduleStateFault => {
   let contents: any = {
     __type: "InvalidClusterSnapshotScheduleStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15438,7 +15438,7 @@ const deserializeAws_queryInvalidClusterSnapshotStateFault = (
 ): InvalidClusterSnapshotStateFault => {
   let contents: any = {
     __type: "InvalidClusterSnapshotStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15452,7 +15452,7 @@ const deserializeAws_queryInvalidClusterStateFault = (
 ): InvalidClusterStateFault => {
   let contents: any = {
     __type: "InvalidClusterStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15466,7 +15466,7 @@ const deserializeAws_queryInvalidClusterSubnetGroupStateFault = (
 ): InvalidClusterSubnetGroupStateFault => {
   let contents: any = {
     __type: "InvalidClusterSubnetGroupStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15480,7 +15480,7 @@ const deserializeAws_queryInvalidClusterSubnetStateFault = (
 ): InvalidClusterSubnetStateFault => {
   let contents: any = {
     __type: "InvalidClusterSubnetStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15494,7 +15494,7 @@ const deserializeAws_queryInvalidClusterTrackFault = (
 ): InvalidClusterTrackFault => {
   let contents: any = {
     __type: "InvalidClusterTrackFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15508,7 +15508,7 @@ const deserializeAws_queryInvalidElasticIpFault = (
 ): InvalidElasticIpFault => {
   let contents: any = {
     __type: "InvalidElasticIpFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15522,7 +15522,7 @@ const deserializeAws_queryInvalidHsmClientCertificateStateFault = (
 ): InvalidHsmClientCertificateStateFault => {
   let contents: any = {
     __type: "InvalidHsmClientCertificateStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15536,7 +15536,7 @@ const deserializeAws_queryInvalidHsmConfigurationStateFault = (
 ): InvalidHsmConfigurationStateFault => {
   let contents: any = {
     __type: "InvalidHsmConfigurationStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15550,7 +15550,7 @@ const deserializeAws_queryInvalidReservedNodeStateFault = (
 ): InvalidReservedNodeStateFault => {
   let contents: any = {
     __type: "InvalidReservedNodeStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15564,7 +15564,7 @@ const deserializeAws_queryInvalidRestoreFault = (
 ): InvalidRestoreFault => {
   let contents: any = {
     __type: "InvalidRestoreFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15578,7 +15578,7 @@ const deserializeAws_queryInvalidRetentionPeriodFault = (
 ): InvalidRetentionPeriodFault => {
   let contents: any = {
     __type: "InvalidRetentionPeriodFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15592,7 +15592,7 @@ const deserializeAws_queryInvalidS3BucketNameFault = (
 ): InvalidS3BucketNameFault => {
   let contents: any = {
     __type: "InvalidS3BucketNameFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15606,7 +15606,7 @@ const deserializeAws_queryInvalidS3KeyPrefixFault = (
 ): InvalidS3KeyPrefixFault => {
   let contents: any = {
     __type: "InvalidS3KeyPrefixFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15620,7 +15620,7 @@ const deserializeAws_queryInvalidScheduleFault = (
 ): InvalidScheduleFault => {
   let contents: any = {
     __type: "InvalidScheduleFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15634,7 +15634,7 @@ const deserializeAws_queryInvalidScheduledActionFault = (
 ): InvalidScheduledActionFault => {
   let contents: any = {
     __type: "InvalidScheduledActionFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15648,7 +15648,7 @@ const deserializeAws_queryInvalidSnapshotCopyGrantStateFault = (
 ): InvalidSnapshotCopyGrantStateFault => {
   let contents: any = {
     __type: "InvalidSnapshotCopyGrantStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15662,7 +15662,7 @@ const deserializeAws_queryInvalidSubnet = (
 ): InvalidSubnet => {
   let contents: any = {
     __type: "InvalidSubnet",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15676,7 +15676,7 @@ const deserializeAws_queryInvalidSubscriptionStateFault = (
 ): InvalidSubscriptionStateFault => {
   let contents: any = {
     __type: "InvalidSubscriptionStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15690,7 +15690,7 @@ const deserializeAws_queryInvalidTableRestoreArgumentFault = (
 ): InvalidTableRestoreArgumentFault => {
   let contents: any = {
     __type: "InvalidTableRestoreArgumentFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15704,7 +15704,7 @@ const deserializeAws_queryInvalidTagFault = (
 ): InvalidTagFault => {
   let contents: any = {
     __type: "InvalidTagFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15718,7 +15718,7 @@ const deserializeAws_queryInvalidVPCNetworkStateFault = (
 ): InvalidVPCNetworkStateFault => {
   let contents: any = {
     __type: "InvalidVPCNetworkStateFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15732,7 +15732,7 @@ const deserializeAws_queryLimitExceededFault = (
 ): LimitExceededFault => {
   let contents: any = {
     __type: "LimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15746,7 +15746,7 @@ const deserializeAws_queryNumberOfNodesPerClusterLimitExceededFault = (
 ): NumberOfNodesPerClusterLimitExceededFault => {
   let contents: any = {
     __type: "NumberOfNodesPerClusterLimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15760,7 +15760,7 @@ const deserializeAws_queryNumberOfNodesQuotaExceededFault = (
 ): NumberOfNodesQuotaExceededFault => {
   let contents: any = {
     __type: "NumberOfNodesQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15774,7 +15774,7 @@ const deserializeAws_queryReservedNodeAlreadyExistsFault = (
 ): ReservedNodeAlreadyExistsFault => {
   let contents: any = {
     __type: "ReservedNodeAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15788,7 +15788,7 @@ const deserializeAws_queryReservedNodeAlreadyMigratedFault = (
 ): ReservedNodeAlreadyMigratedFault => {
   let contents: any = {
     __type: "ReservedNodeAlreadyMigratedFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15802,7 +15802,7 @@ const deserializeAws_queryReservedNodeNotFoundFault = (
 ): ReservedNodeNotFoundFault => {
   let contents: any = {
     __type: "ReservedNodeNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15816,7 +15816,7 @@ const deserializeAws_queryReservedNodeOfferingNotFoundFault = (
 ): ReservedNodeOfferingNotFoundFault => {
   let contents: any = {
     __type: "ReservedNodeOfferingNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15830,7 +15830,7 @@ const deserializeAws_queryReservedNodeQuotaExceededFault = (
 ): ReservedNodeQuotaExceededFault => {
   let contents: any = {
     __type: "ReservedNodeQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15844,7 +15844,7 @@ const deserializeAws_queryResizeNotFoundFault = (
 ): ResizeNotFoundFault => {
   let contents: any = {
     __type: "ResizeNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15858,7 +15858,7 @@ const deserializeAws_queryResourceNotFoundFault = (
 ): ResourceNotFoundFault => {
   let contents: any = {
     __type: "ResourceNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15872,7 +15872,7 @@ const deserializeAws_querySNSInvalidTopicFault = (
 ): SNSInvalidTopicFault => {
   let contents: any = {
     __type: "SNSInvalidTopicFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15886,7 +15886,7 @@ const deserializeAws_querySNSNoAuthorizationFault = (
 ): SNSNoAuthorizationFault => {
   let contents: any = {
     __type: "SNSNoAuthorizationFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15900,7 +15900,7 @@ const deserializeAws_querySNSTopicArnNotFoundFault = (
 ): SNSTopicArnNotFoundFault => {
   let contents: any = {
     __type: "SNSTopicArnNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15914,7 +15914,7 @@ const deserializeAws_queryScheduleDefinitionTypeUnsupportedFault = (
 ): ScheduleDefinitionTypeUnsupportedFault => {
   let contents: any = {
     __type: "ScheduleDefinitionTypeUnsupportedFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15928,7 +15928,7 @@ const deserializeAws_queryScheduledActionAlreadyExistsFault = (
 ): ScheduledActionAlreadyExistsFault => {
   let contents: any = {
     __type: "ScheduledActionAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15942,7 +15942,7 @@ const deserializeAws_queryScheduledActionNotFoundFault = (
 ): ScheduledActionNotFoundFault => {
   let contents: any = {
     __type: "ScheduledActionNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15956,7 +15956,7 @@ const deserializeAws_queryScheduledActionQuotaExceededFault = (
 ): ScheduledActionQuotaExceededFault => {
   let contents: any = {
     __type: "ScheduledActionQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15970,7 +15970,7 @@ const deserializeAws_queryScheduledActionTypeUnsupportedFault = (
 ): ScheduledActionTypeUnsupportedFault => {
   let contents: any = {
     __type: "ScheduledActionTypeUnsupportedFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15984,7 +15984,7 @@ const deserializeAws_querySnapshotCopyAlreadyDisabledFault = (
 ): SnapshotCopyAlreadyDisabledFault => {
   let contents: any = {
     __type: "SnapshotCopyAlreadyDisabledFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -15998,7 +15998,7 @@ const deserializeAws_querySnapshotCopyAlreadyEnabledFault = (
 ): SnapshotCopyAlreadyEnabledFault => {
   let contents: any = {
     __type: "SnapshotCopyAlreadyEnabledFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16012,7 +16012,7 @@ const deserializeAws_querySnapshotCopyDisabledFault = (
 ): SnapshotCopyDisabledFault => {
   let contents: any = {
     __type: "SnapshotCopyDisabledFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16026,7 +16026,7 @@ const deserializeAws_querySnapshotCopyGrantAlreadyExistsFault = (
 ): SnapshotCopyGrantAlreadyExistsFault => {
   let contents: any = {
     __type: "SnapshotCopyGrantAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16040,7 +16040,7 @@ const deserializeAws_querySnapshotCopyGrantNotFoundFault = (
 ): SnapshotCopyGrantNotFoundFault => {
   let contents: any = {
     __type: "SnapshotCopyGrantNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16054,7 +16054,7 @@ const deserializeAws_querySnapshotCopyGrantQuotaExceededFault = (
 ): SnapshotCopyGrantQuotaExceededFault => {
   let contents: any = {
     __type: "SnapshotCopyGrantQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16068,7 +16068,7 @@ const deserializeAws_querySnapshotScheduleAlreadyExistsFault = (
 ): SnapshotScheduleAlreadyExistsFault => {
   let contents: any = {
     __type: "SnapshotScheduleAlreadyExistsFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16082,7 +16082,7 @@ const deserializeAws_querySnapshotScheduleNotFoundFault = (
 ): SnapshotScheduleNotFoundFault => {
   let contents: any = {
     __type: "SnapshotScheduleNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16096,7 +16096,7 @@ const deserializeAws_querySnapshotScheduleQuotaExceededFault = (
 ): SnapshotScheduleQuotaExceededFault => {
   let contents: any = {
     __type: "SnapshotScheduleQuotaExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16110,7 +16110,7 @@ const deserializeAws_querySnapshotScheduleUpdateInProgressFault = (
 ): SnapshotScheduleUpdateInProgressFault => {
   let contents: any = {
     __type: "SnapshotScheduleUpdateInProgressFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16124,7 +16124,7 @@ const deserializeAws_querySourceNotFoundFault = (
 ): SourceNotFoundFault => {
   let contents: any = {
     __type: "SourceNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16138,7 +16138,7 @@ const deserializeAws_querySubnetAlreadyInUse = (
 ): SubnetAlreadyInUse => {
   let contents: any = {
     __type: "SubnetAlreadyInUse",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16152,7 +16152,7 @@ const deserializeAws_querySubscriptionAlreadyExistFault = (
 ): SubscriptionAlreadyExistFault => {
   let contents: any = {
     __type: "SubscriptionAlreadyExistFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16166,7 +16166,7 @@ const deserializeAws_querySubscriptionCategoryNotFoundFault = (
 ): SubscriptionCategoryNotFoundFault => {
   let contents: any = {
     __type: "SubscriptionCategoryNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16180,7 +16180,7 @@ const deserializeAws_querySubscriptionEventIdNotFoundFault = (
 ): SubscriptionEventIdNotFoundFault => {
   let contents: any = {
     __type: "SubscriptionEventIdNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16194,7 +16194,7 @@ const deserializeAws_querySubscriptionNotFoundFault = (
 ): SubscriptionNotFoundFault => {
   let contents: any = {
     __type: "SubscriptionNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16208,7 +16208,7 @@ const deserializeAws_querySubscriptionSeverityNotFoundFault = (
 ): SubscriptionSeverityNotFoundFault => {
   let contents: any = {
     __type: "SubscriptionSeverityNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16222,7 +16222,7 @@ const deserializeAws_queryTableLimitExceededFault = (
 ): TableLimitExceededFault => {
   let contents: any = {
     __type: "TableLimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16236,7 +16236,7 @@ const deserializeAws_queryTableRestoreNotFoundFault = (
 ): TableRestoreNotFoundFault => {
   let contents: any = {
     __type: "TableRestoreNotFoundFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16250,7 +16250,7 @@ const deserializeAws_queryTagLimitExceededFault = (
 ): TagLimitExceededFault => {
   let contents: any = {
     __type: "TagLimitExceededFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16264,7 +16264,7 @@ const deserializeAws_queryUnauthorizedOperation = (
 ): UnauthorizedOperation => {
   let contents: any = {
     __type: "UnauthorizedOperation",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16278,7 +16278,7 @@ const deserializeAws_queryUnknownSnapshotCopyRegionFault = (
 ): UnknownSnapshotCopyRegionFault => {
   let contents: any = {
     __type: "UnknownSnapshotCopyRegionFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16292,7 +16292,7 @@ const deserializeAws_queryUnsupportedOperationFault = (
 ): UnsupportedOperationFault => {
   let contents: any = {
     __type: "UnsupportedOperationFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16306,7 +16306,7 @@ const deserializeAws_queryUnsupportedOptionFault = (
 ): UnsupportedOptionFault => {
   let contents: any = {
     __type: "UnsupportedOptionFault",
-    message: undefined
+    message: undefined,
   };
   if (output["message"] !== undefined) {
     contents.message = output["message"];
@@ -16320,7 +16320,7 @@ const deserializeAws_queryAcceptReservedNodeExchangeOutputMessage = (
 ): AcceptReservedNodeExchangeOutputMessage => {
   let contents: any = {
     __type: "AcceptReservedNodeExchangeOutputMessage",
-    ExchangedReservedNode: undefined
+    ExchangedReservedNode: undefined,
   };
   if (output["ExchangedReservedNode"] !== undefined) {
     contents.ExchangedReservedNode = deserializeAws_queryReservedNode(
@@ -16338,7 +16338,7 @@ const deserializeAws_queryAccountAttribute = (
   let contents: any = {
     __type: "AccountAttribute",
     AttributeName: undefined,
-    AttributeValues: undefined
+    AttributeValues: undefined,
   };
   if (output["AttributeName"] !== undefined) {
     contents.AttributeName = output["AttributeName"];
@@ -16368,7 +16368,7 @@ const deserializeAws_queryAccountAttributeList = (
 ): AccountAttributeList => {
   let contents: any = {
     __type: "AccountAttributeList",
-    AccountAttributes: undefined
+    AccountAttributes: undefined,
   };
   if (output.AccountAttributes === "") {
     contents.AccountAttributes = [];
@@ -16396,7 +16396,7 @@ const deserializeAws_queryAccountWithRestoreAccess = (
   let contents: any = {
     __type: "AccountWithRestoreAccess",
     AccountAlias: undefined,
-    AccountId: undefined
+    AccountId: undefined,
   };
   if (output["AccountAlias"] !== undefined) {
     contents.AccountAlias = output["AccountAlias"];
@@ -16459,7 +16459,7 @@ const deserializeAws_queryAttributeValueTarget = (
 ): AttributeValueTarget => {
   let contents: any = {
     __type: "AttributeValueTarget",
-    AttributeValue: undefined
+    AttributeValue: undefined,
   };
   if (output["AttributeValue"] !== undefined) {
     contents.AttributeValue = output["AttributeValue"];
@@ -16473,7 +16473,7 @@ const deserializeAws_queryAuthorizeClusterSecurityGroupIngressResult = (
 ): AuthorizeClusterSecurityGroupIngressResult => {
   let contents: any = {
     __type: "AuthorizeClusterSecurityGroupIngressResult",
-    ClusterSecurityGroup: undefined
+    ClusterSecurityGroup: undefined,
   };
   if (output["ClusterSecurityGroup"] !== undefined) {
     contents.ClusterSecurityGroup = deserializeAws_queryClusterSecurityGroup(
@@ -16490,7 +16490,7 @@ const deserializeAws_queryAuthorizeSnapshotAccessResult = (
 ): AuthorizeSnapshotAccessResult => {
   let contents: any = {
     __type: "AuthorizeSnapshotAccessResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -16508,7 +16508,7 @@ const deserializeAws_queryAvailabilityZone = (
   let contents: any = {
     __type: "AvailabilityZone",
     Name: undefined,
-    SupportedPlatforms: undefined
+    SupportedPlatforms: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -16550,7 +16550,7 @@ const deserializeAws_queryBatchDeleteClusterSnapshotsResult = (
   let contents: any = {
     __type: "BatchDeleteClusterSnapshotsResult",
     Errors: undefined,
-    Resources: undefined
+    Resources: undefined,
   };
   if (output.Errors === "") {
     contents.Errors = [];
@@ -16594,7 +16594,7 @@ const deserializeAws_queryBatchModifyClusterSnapshotsOutputMessage = (
   let contents: any = {
     __type: "BatchModifyClusterSnapshotsOutputMessage",
     Errors: undefined,
-    Resources: undefined
+    Resources: undefined,
   };
   if (output.Errors === "") {
     contents.Errors = [];
@@ -16704,7 +16704,7 @@ const deserializeAws_queryCluster = (
     SnapshotScheduleState: undefined,
     Tags: undefined,
     VpcId: undefined,
-    VpcSecurityGroups: undefined
+    VpcSecurityGroups: undefined,
   };
   if (output["AllowVersionUpgrade"] !== undefined) {
     contents.AllowVersionUpgrade = output["AllowVersionUpgrade"] == "true";
@@ -16989,7 +16989,7 @@ const deserializeAws_queryClusterAssociatedToSchedule = (
   let contents: any = {
     __type: "ClusterAssociatedToSchedule",
     ClusterIdentifier: undefined,
-    ScheduleAssociationState: undefined
+    ScheduleAssociationState: undefined,
   };
   if (output["ClusterIdentifier"] !== undefined) {
     contents.ClusterIdentifier = output["ClusterIdentifier"];
@@ -17008,7 +17008,7 @@ const deserializeAws_queryClusterCredentials = (
     __type: "ClusterCredentials",
     DbPassword: undefined,
     DbUser: undefined,
-    Expiration: undefined
+    Expiration: undefined,
   };
   if (output["DbPassword"] !== undefined) {
     contents.DbPassword = output["DbPassword"];
@@ -17031,7 +17031,7 @@ const deserializeAws_queryClusterDbRevision = (
     ClusterIdentifier: undefined,
     CurrentDatabaseRevision: undefined,
     DatabaseRevisionReleaseDate: undefined,
-    RevisionTargets: undefined
+    RevisionTargets: undefined,
   };
   if (output["ClusterIdentifier"] !== undefined) {
     contents.ClusterIdentifier = output["ClusterIdentifier"];
@@ -17081,7 +17081,7 @@ const deserializeAws_queryClusterDbRevisionsMessage = (
   let contents: any = {
     __type: "ClusterDbRevisionsMessage",
     ClusterDbRevisions: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.ClusterDbRevisions === "") {
     contents.ClusterDbRevisions = [];
@@ -17112,7 +17112,7 @@ const deserializeAws_queryClusterIamRole = (
   let contents: any = {
     __type: "ClusterIamRole",
     ApplyStatus: undefined,
-    IamRoleArn: undefined
+    IamRoleArn: undefined,
   };
   if (output["ApplyStatus"] !== undefined) {
     contents.ApplyStatus = output["ApplyStatus"];
@@ -17153,7 +17153,7 @@ const deserializeAws_queryClusterNode = (
     __type: "ClusterNode",
     NodeRole: undefined,
     PrivateIPAddress: undefined,
-    PublicIPAddress: undefined
+    PublicIPAddress: undefined,
   };
   if (output["NodeRole"] !== undefined) {
     contents.NodeRole = output["NodeRole"];
@@ -17187,7 +17187,7 @@ const deserializeAws_queryClusterParameterGroup = (
     Description: undefined,
     ParameterGroupFamily: undefined,
     ParameterGroupName: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["Description"] !== undefined) {
     contents.Description = output["Description"];
@@ -17218,7 +17218,7 @@ const deserializeAws_queryClusterParameterGroupDetails = (
   let contents: any = {
     __type: "ClusterParameterGroupDetails",
     Marker: undefined,
-    Parameters: undefined
+    Parameters: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -17249,7 +17249,7 @@ const deserializeAws_queryClusterParameterGroupNameMessage = (
   let contents: any = {
     __type: "ClusterParameterGroupNameMessage",
     ParameterGroupName: undefined,
-    ParameterGroupStatus: undefined
+    ParameterGroupStatus: undefined,
   };
   if (output["ParameterGroupName"] !== undefined) {
     contents.ParameterGroupName = output["ParameterGroupName"];
@@ -17268,7 +17268,7 @@ const deserializeAws_queryClusterParameterGroupStatus = (
     __type: "ClusterParameterGroupStatus",
     ClusterParameterStatusList: undefined,
     ParameterApplyStatus: undefined,
-    ParameterGroupName: undefined
+    ParameterGroupName: undefined,
   };
   if (output.ClusterParameterStatusList === "") {
     contents.ClusterParameterStatusList = [];
@@ -17315,7 +17315,7 @@ const deserializeAws_queryClusterParameterGroupsMessage = (
   let contents: any = {
     __type: "ClusterParameterGroupsMessage",
     Marker: undefined,
-    ParameterGroups: undefined
+    ParameterGroups: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -17347,7 +17347,7 @@ const deserializeAws_queryClusterParameterStatus = (
     __type: "ClusterParameterStatus",
     ParameterApplyErrorDescription: undefined,
     ParameterApplyStatus: undefined,
-    ParameterName: undefined
+    ParameterName: undefined,
   };
   if (output["ParameterApplyErrorDescription"] !== undefined) {
     contents.ParameterApplyErrorDescription =
@@ -17383,7 +17383,7 @@ const deserializeAws_queryClusterSecurityGroup = (
     Description: undefined,
     EC2SecurityGroups: undefined,
     IPRanges: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["ClusterSecurityGroupName"] !== undefined) {
     contents.ClusterSecurityGroupName = output["ClusterSecurityGroupName"];
@@ -17440,7 +17440,7 @@ const deserializeAws_queryClusterSecurityGroupMembership = (
   let contents: any = {
     __type: "ClusterSecurityGroupMembership",
     ClusterSecurityGroupName: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["ClusterSecurityGroupName"] !== undefined) {
     contents.ClusterSecurityGroupName = output["ClusterSecurityGroupName"];
@@ -17471,7 +17471,7 @@ const deserializeAws_queryClusterSecurityGroupMessage = (
   let contents: any = {
     __type: "ClusterSecurityGroupMessage",
     ClusterSecurityGroups: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.ClusterSecurityGroups === "") {
     contents.ClusterSecurityGroups = [];
@@ -17515,7 +17515,7 @@ const deserializeAws_queryClusterSnapshotCopyStatus = (
     DestinationRegion: undefined,
     ManualSnapshotRetentionPeriod: undefined,
     RetentionPeriod: undefined,
-    SnapshotCopyGrantName: undefined
+    SnapshotCopyGrantName: undefined,
   };
   if (output["DestinationRegion"] !== undefined) {
     contents.DestinationRegion = output["DestinationRegion"];
@@ -17545,7 +17545,7 @@ const deserializeAws_queryClusterSubnetGroup = (
     SubnetGroupStatus: undefined,
     Subnets: undefined,
     Tags: undefined,
-    VpcId: undefined
+    VpcId: undefined,
   };
   if (output["ClusterSubnetGroupName"] !== undefined) {
     contents.ClusterSubnetGroupName = output["ClusterSubnetGroupName"];
@@ -17592,7 +17592,7 @@ const deserializeAws_queryClusterSubnetGroupMessage = (
   let contents: any = {
     __type: "ClusterSubnetGroupMessage",
     ClusterSubnetGroups: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.ClusterSubnetGroups === "") {
     contents.ClusterSubnetGroups = [];
@@ -17635,7 +17635,7 @@ const deserializeAws_queryClusterVersion = (
     __type: "ClusterVersion",
     ClusterParameterGroupFamily: undefined,
     ClusterVersion: undefined,
-    Description: undefined
+    Description: undefined,
   };
   if (output["ClusterParameterGroupFamily"] !== undefined) {
     contents.ClusterParameterGroupFamily =
@@ -17668,7 +17668,7 @@ const deserializeAws_queryClusterVersionsMessage = (
   let contents: any = {
     __type: "ClusterVersionsMessage",
     ClusterVersions: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.ClusterVersions === "") {
     contents.ClusterVersions = [];
@@ -17699,7 +17699,7 @@ const deserializeAws_queryClustersMessage = (
   let contents: any = {
     __type: "ClustersMessage",
     Clusters: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.Clusters === "") {
     contents.Clusters = [];
@@ -17726,7 +17726,7 @@ const deserializeAws_queryCopyClusterSnapshotResult = (
 ): CopyClusterSnapshotResult => {
   let contents: any = {
     __type: "CopyClusterSnapshotResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -17743,7 +17743,7 @@ const deserializeAws_queryCreateClusterParameterGroupResult = (
 ): CreateClusterParameterGroupResult => {
   let contents: any = {
     __type: "CreateClusterParameterGroupResult",
-    ClusterParameterGroup: undefined
+    ClusterParameterGroup: undefined,
   };
   if (output["ClusterParameterGroup"] !== undefined) {
     contents.ClusterParameterGroup = deserializeAws_queryClusterParameterGroup(
@@ -17760,7 +17760,7 @@ const deserializeAws_queryCreateClusterResult = (
 ): CreateClusterResult => {
   let contents: any = {
     __type: "CreateClusterResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -17774,7 +17774,7 @@ const deserializeAws_queryCreateClusterSecurityGroupResult = (
 ): CreateClusterSecurityGroupResult => {
   let contents: any = {
     __type: "CreateClusterSecurityGroupResult",
-    ClusterSecurityGroup: undefined
+    ClusterSecurityGroup: undefined,
   };
   if (output["ClusterSecurityGroup"] !== undefined) {
     contents.ClusterSecurityGroup = deserializeAws_queryClusterSecurityGroup(
@@ -17791,7 +17791,7 @@ const deserializeAws_queryCreateClusterSnapshotResult = (
 ): CreateClusterSnapshotResult => {
   let contents: any = {
     __type: "CreateClusterSnapshotResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -17808,7 +17808,7 @@ const deserializeAws_queryCreateClusterSubnetGroupResult = (
 ): CreateClusterSubnetGroupResult => {
   let contents: any = {
     __type: "CreateClusterSubnetGroupResult",
-    ClusterSubnetGroup: undefined
+    ClusterSubnetGroup: undefined,
   };
   if (output["ClusterSubnetGroup"] !== undefined) {
     contents.ClusterSubnetGroup = deserializeAws_queryClusterSubnetGroup(
@@ -17825,7 +17825,7 @@ const deserializeAws_queryCreateEventSubscriptionResult = (
 ): CreateEventSubscriptionResult => {
   let contents: any = {
     __type: "CreateEventSubscriptionResult",
-    EventSubscription: undefined
+    EventSubscription: undefined,
   };
   if (output["EventSubscription"] !== undefined) {
     contents.EventSubscription = deserializeAws_queryEventSubscription(
@@ -17842,7 +17842,7 @@ const deserializeAws_queryCreateHsmClientCertificateResult = (
 ): CreateHsmClientCertificateResult => {
   let contents: any = {
     __type: "CreateHsmClientCertificateResult",
-    HsmClientCertificate: undefined
+    HsmClientCertificate: undefined,
   };
   if (output["HsmClientCertificate"] !== undefined) {
     contents.HsmClientCertificate = deserializeAws_queryHsmClientCertificate(
@@ -17859,7 +17859,7 @@ const deserializeAws_queryCreateHsmConfigurationResult = (
 ): CreateHsmConfigurationResult => {
   let contents: any = {
     __type: "CreateHsmConfigurationResult",
-    HsmConfiguration: undefined
+    HsmConfiguration: undefined,
   };
   if (output["HsmConfiguration"] !== undefined) {
     contents.HsmConfiguration = deserializeAws_queryHsmConfiguration(
@@ -17876,7 +17876,7 @@ const deserializeAws_queryCreateSnapshotCopyGrantResult = (
 ): CreateSnapshotCopyGrantResult => {
   let contents: any = {
     __type: "CreateSnapshotCopyGrantResult",
-    SnapshotCopyGrant: undefined
+    SnapshotCopyGrant: undefined,
   };
   if (output["SnapshotCopyGrant"] !== undefined) {
     contents.SnapshotCopyGrant = deserializeAws_querySnapshotCopyGrant(
@@ -17894,7 +17894,7 @@ const deserializeAws_queryCustomerStorageMessage = (
   let contents: any = {
     __type: "CustomerStorageMessage",
     TotalBackupSizeInMegaBytes: undefined,
-    TotalProvisionedStorageInMegaBytes: undefined
+    TotalProvisionedStorageInMegaBytes: undefined,
   };
   if (output["TotalBackupSizeInMegaBytes"] !== undefined) {
     contents.TotalBackupSizeInMegaBytes = parseFloat(
@@ -17920,7 +17920,7 @@ const deserializeAws_queryDataTransferProgress = (
     ElapsedTimeInSeconds: undefined,
     EstimatedTimeToCompletionInSeconds: undefined,
     Status: undefined,
-    TotalDataInMegaBytes: undefined
+    TotalDataInMegaBytes: undefined,
   };
   if (output["CurrentRateInMegaBytesPerSecond"] !== undefined) {
     contents.CurrentRateInMegaBytesPerSecond = parseFloat(
@@ -17957,7 +17957,7 @@ const deserializeAws_queryDefaultClusterParameters = (
     __type: "DefaultClusterParameters",
     Marker: undefined,
     ParameterGroupFamily: undefined,
-    Parameters: undefined
+    Parameters: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -17992,7 +17992,7 @@ const deserializeAws_queryDeferredMaintenanceWindow = (
     __type: "DeferredMaintenanceWindow",
     DeferMaintenanceEndTime: undefined,
     DeferMaintenanceIdentifier: undefined,
-    DeferMaintenanceStartTime: undefined
+    DeferMaintenanceStartTime: undefined,
   };
   if (output["DeferMaintenanceEndTime"] !== undefined) {
     contents.DeferMaintenanceEndTime = new Date(
@@ -18029,7 +18029,7 @@ const deserializeAws_queryDeleteClusterResult = (
 ): DeleteClusterResult => {
   let contents: any = {
     __type: "DeleteClusterResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18043,7 +18043,7 @@ const deserializeAws_queryDeleteClusterSnapshotResult = (
 ): DeleteClusterSnapshotResult => {
   let contents: any = {
     __type: "DeleteClusterSnapshotResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -18060,7 +18060,7 @@ const deserializeAws_queryDescribeDefaultClusterParametersResult = (
 ): DescribeDefaultClusterParametersResult => {
   let contents: any = {
     __type: "DescribeDefaultClusterParametersResult",
-    DefaultClusterParameters: undefined
+    DefaultClusterParameters: undefined,
   };
   if (output["DefaultClusterParameters"] !== undefined) {
     contents.DefaultClusterParameters = deserializeAws_queryDefaultClusterParameters(
@@ -18078,7 +18078,7 @@ const deserializeAws_queryDescribeSnapshotSchedulesOutputMessage = (
   let contents: any = {
     __type: "DescribeSnapshotSchedulesOutputMessage",
     Marker: undefined,
-    SnapshotSchedules: undefined
+    SnapshotSchedules: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -18108,7 +18108,7 @@ const deserializeAws_queryDisableSnapshotCopyResult = (
 ): DisableSnapshotCopyResult => {
   let contents: any = {
     __type: "DisableSnapshotCopyResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18125,7 +18125,7 @@ const deserializeAws_queryEC2SecurityGroup = (
     EC2SecurityGroupName: undefined,
     EC2SecurityGroupOwnerId: undefined,
     Status: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["EC2SecurityGroupName"] !== undefined) {
     contents.EC2SecurityGroupName = output["EC2SecurityGroupName"];
@@ -18167,7 +18167,7 @@ const deserializeAws_queryElasticIpStatus = (
   let contents: any = {
     __type: "ElasticIpStatus",
     ElasticIp: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["ElasticIp"] !== undefined) {
     contents.ElasticIp = output["ElasticIp"];
@@ -18195,7 +18195,7 @@ const deserializeAws_queryEnableSnapshotCopyResult = (
 ): EnableSnapshotCopyResult => {
   let contents: any = {
     __type: "EnableSnapshotCopyResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18210,7 +18210,7 @@ const deserializeAws_queryEndpoint = (
   let contents: any = {
     __type: "Endpoint",
     Address: undefined,
-    Port: undefined
+    Port: undefined,
   };
   if (output["Address"] !== undefined) {
     contents.Address = output["Address"];
@@ -18233,7 +18233,7 @@ const deserializeAws_queryEvent = (
     Message: undefined,
     Severity: undefined,
     SourceIdentifier: undefined,
-    SourceType: undefined
+    SourceType: undefined,
   };
   if (output["Date"] !== undefined) {
     contents.Date = new Date(output["Date"]);
@@ -18290,7 +18290,7 @@ const deserializeAws_queryEventCategoriesMap = (
   let contents: any = {
     __type: "EventCategoriesMap",
     Events: undefined,
-    SourceType: undefined
+    SourceType: undefined,
   };
   if (output.Events === "") {
     contents.Events = [];
@@ -18331,7 +18331,7 @@ const deserializeAws_queryEventCategoriesMessage = (
 ): EventCategoriesMessage => {
   let contents: any = {
     __type: "EventCategoriesMessage",
-    EventCategoriesMapList: undefined
+    EventCategoriesMapList: undefined,
   };
   if (output.EventCategoriesMapList === "") {
     contents.EventCategoriesMapList = [];
@@ -18361,7 +18361,7 @@ const deserializeAws_queryEventInfoMap = (
     EventCategories: undefined,
     EventDescription: undefined,
     EventId: undefined,
-    Severity: undefined
+    Severity: undefined,
   };
   if (output.EventCategories === "") {
     contents.EventCategories = [];
@@ -18429,7 +18429,7 @@ const deserializeAws_queryEventSubscription = (
     SourceType: undefined,
     Status: undefined,
     SubscriptionCreationTime: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["CustSubscriptionId"] !== undefined) {
     contents.CustSubscriptionId = output["CustSubscriptionId"];
@@ -18520,7 +18520,7 @@ const deserializeAws_queryEventSubscriptionsMessage = (
   let contents: any = {
     __type: "EventSubscriptionsMessage",
     EventSubscriptionsList: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.EventSubscriptionsList === "") {
     contents.EventSubscriptionsList = [];
@@ -18551,7 +18551,7 @@ const deserializeAws_queryEventsMessage = (
   let contents: any = {
     __type: "EventsMessage",
     Events: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.Events === "") {
     contents.Events = [];
@@ -18579,7 +18579,7 @@ const deserializeAws_queryGetReservedNodeExchangeOfferingsOutputMessage = (
   let contents: any = {
     __type: "GetReservedNodeExchangeOfferingsOutputMessage",
     Marker: undefined,
-    ReservedNodeOfferings: undefined
+    ReservedNodeOfferings: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -18611,7 +18611,7 @@ const deserializeAws_queryHsmClientCertificate = (
     __type: "HsmClientCertificate",
     HsmClientCertificateIdentifier: undefined,
     HsmClientCertificatePublicKey: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["HsmClientCertificateIdentifier"] !== undefined) {
     contents.HsmClientCertificateIdentifier =
@@ -18652,7 +18652,7 @@ const deserializeAws_queryHsmClientCertificateMessage = (
   let contents: any = {
     __type: "HsmClientCertificateMessage",
     HsmClientCertificates: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.HsmClientCertificates === "") {
     contents.HsmClientCertificates = [];
@@ -18686,7 +18686,7 @@ const deserializeAws_queryHsmConfiguration = (
     HsmConfigurationIdentifier: undefined,
     HsmIpAddress: undefined,
     HsmPartitionName: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["Description"] !== undefined) {
     contents.Description = output["Description"];
@@ -18731,7 +18731,7 @@ const deserializeAws_queryHsmConfigurationMessage = (
   let contents: any = {
     __type: "HsmConfigurationMessage",
     HsmConfigurations: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.HsmConfigurations === "") {
     contents.HsmConfigurations = [];
@@ -18763,7 +18763,7 @@ const deserializeAws_queryHsmStatus = (
     __type: "HsmStatus",
     HsmClientCertificateIdentifier: undefined,
     HsmConfigurationIdentifier: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["HsmClientCertificateIdentifier"] !== undefined) {
     contents.HsmClientCertificateIdentifier =
@@ -18786,7 +18786,7 @@ const deserializeAws_queryIPRange = (
     __type: "IPRange",
     CIDRIP: undefined,
     Status: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["CIDRIP"] !== undefined) {
     contents.CIDRIP = output["CIDRIP"];
@@ -18862,7 +18862,7 @@ const deserializeAws_queryLoggingStatus = (
     LastFailureTime: undefined,
     LastSuccessfulDeliveryTime: undefined,
     LoggingEnabled: undefined,
-    S3KeyPrefix: undefined
+    S3KeyPrefix: undefined,
   };
   if (output["BucketName"] !== undefined) {
     contents.BucketName = output["BucketName"];
@@ -18895,7 +18895,7 @@ const deserializeAws_queryMaintenanceTrack = (
     __type: "MaintenanceTrack",
     DatabaseVersion: undefined,
     MaintenanceTrackName: undefined,
-    UpdateTargets: undefined
+    UpdateTargets: undefined,
   };
   if (output["DatabaseVersion"] !== undefined) {
     contents.DatabaseVersion = output["DatabaseVersion"];
@@ -18928,7 +18928,7 @@ const deserializeAws_queryModifyClusterDbRevisionResult = (
 ): ModifyClusterDbRevisionResult => {
   let contents: any = {
     __type: "ModifyClusterDbRevisionResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18942,7 +18942,7 @@ const deserializeAws_queryModifyClusterIamRolesResult = (
 ): ModifyClusterIamRolesResult => {
   let contents: any = {
     __type: "ModifyClusterIamRolesResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18956,7 +18956,7 @@ const deserializeAws_queryModifyClusterMaintenanceResult = (
 ): ModifyClusterMaintenanceResult => {
   let contents: any = {
     __type: "ModifyClusterMaintenanceResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18970,7 +18970,7 @@ const deserializeAws_queryModifyClusterResult = (
 ): ModifyClusterResult => {
   let contents: any = {
     __type: "ModifyClusterResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -18984,7 +18984,7 @@ const deserializeAws_queryModifyClusterSnapshotResult = (
 ): ModifyClusterSnapshotResult => {
   let contents: any = {
     __type: "ModifyClusterSnapshotResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -19001,7 +19001,7 @@ const deserializeAws_queryModifyClusterSubnetGroupResult = (
 ): ModifyClusterSubnetGroupResult => {
   let contents: any = {
     __type: "ModifyClusterSubnetGroupResult",
-    ClusterSubnetGroup: undefined
+    ClusterSubnetGroup: undefined,
   };
   if (output["ClusterSubnetGroup"] !== undefined) {
     contents.ClusterSubnetGroup = deserializeAws_queryClusterSubnetGroup(
@@ -19018,7 +19018,7 @@ const deserializeAws_queryModifyEventSubscriptionResult = (
 ): ModifyEventSubscriptionResult => {
   let contents: any = {
     __type: "ModifyEventSubscriptionResult",
-    EventSubscription: undefined
+    EventSubscription: undefined,
   };
   if (output["EventSubscription"] !== undefined) {
     contents.EventSubscription = deserializeAws_queryEventSubscription(
@@ -19035,7 +19035,7 @@ const deserializeAws_queryModifySnapshotCopyRetentionPeriodResult = (
 ): ModifySnapshotCopyRetentionPeriodResult => {
   let contents: any = {
     __type: "ModifySnapshotCopyRetentionPeriodResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -19052,7 +19052,7 @@ const deserializeAws_queryNodeConfigurationOption = (
     EstimatedDiskUtilizationPercent: undefined,
     Mode: undefined,
     NodeType: undefined,
-    NumberOfNodes: undefined
+    NumberOfNodes: undefined,
   };
   if (output["EstimatedDiskUtilizationPercent"] !== undefined) {
     contents.EstimatedDiskUtilizationPercent = parseFloat(
@@ -19089,7 +19089,7 @@ const deserializeAws_queryNodeConfigurationOptionsMessage = (
   let contents: any = {
     __type: "NodeConfigurationOptionsMessage",
     Marker: undefined,
-    NodeConfigurationOptionList: undefined
+    NodeConfigurationOptionList: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -19125,7 +19125,7 @@ const deserializeAws_queryOrderableClusterOption = (
     AvailabilityZones: undefined,
     ClusterType: undefined,
     ClusterVersion: undefined,
-    NodeType: undefined
+    NodeType: undefined,
   };
   if (output.AvailabilityZones === "") {
     contents.AvailabilityZones = [];
@@ -19173,7 +19173,7 @@ const deserializeAws_queryOrderableClusterOptionsMessage = (
   let contents: any = {
     __type: "OrderableClusterOptionsMessage",
     Marker: undefined,
-    OrderableClusterOptions: undefined
+    OrderableClusterOptions: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -19212,7 +19212,7 @@ const deserializeAws_queryParameter = (
     MinimumEngineVersion: undefined,
     ParameterName: undefined,
     ParameterValue: undefined,
-    Source: undefined
+    Source: undefined,
   };
   if (output["AllowedValues"] !== undefined) {
     contents.AllowedValues = output["AllowedValues"];
@@ -19293,7 +19293,7 @@ const deserializeAws_queryPendingModifiedValues = (
     MasterUserPassword: undefined,
     NodeType: undefined,
     NumberOfNodes: undefined,
-    PubliclyAccessible: undefined
+    PubliclyAccessible: undefined,
   };
   if (output["AutomatedSnapshotRetentionPeriod"] !== undefined) {
     contents.AutomatedSnapshotRetentionPeriod = parseInt(
@@ -19339,7 +19339,7 @@ const deserializeAws_queryPurchaseReservedNodeOfferingResult = (
 ): PurchaseReservedNodeOfferingResult => {
   let contents: any = {
     __type: "PurchaseReservedNodeOfferingResult",
-    ReservedNode: undefined
+    ReservedNode: undefined,
   };
   if (output["ReservedNode"] !== undefined) {
     contents.ReservedNode = deserializeAws_queryReservedNode(
@@ -19356,7 +19356,7 @@ const deserializeAws_queryRebootClusterResult = (
 ): RebootClusterResult => {
   let contents: any = {
     __type: "RebootClusterResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -19371,7 +19371,7 @@ const deserializeAws_queryRecurringCharge = (
   let contents: any = {
     __type: "RecurringCharge",
     RecurringChargeAmount: undefined,
-    RecurringChargeFrequency: undefined
+    RecurringChargeFrequency: undefined,
   };
   if (output["RecurringChargeAmount"] !== undefined) {
     contents.RecurringChargeAmount = parseFloat(
@@ -19413,7 +19413,7 @@ const deserializeAws_queryReservedNode = (
     ReservedNodeOfferingType: undefined,
     StartTime: undefined,
     State: undefined,
-    UsagePrice: undefined
+    UsagePrice: undefined,
   };
   if (output["CurrencyCode"] !== undefined) {
     contents.CurrencyCode = output["CurrencyCode"];
@@ -19495,7 +19495,7 @@ const deserializeAws_queryReservedNodeOffering = (
     RecurringCharges: undefined,
     ReservedNodeOfferingId: undefined,
     ReservedNodeOfferingType: undefined,
-    UsagePrice: undefined
+    UsagePrice: undefined,
   };
   if (output["CurrencyCode"] !== undefined) {
     contents.CurrencyCode = output["CurrencyCode"];
@@ -19558,7 +19558,7 @@ const deserializeAws_queryReservedNodeOfferingsMessage = (
   let contents: any = {
     __type: "ReservedNodeOfferingsMessage",
     Marker: undefined,
-    ReservedNodeOfferings: undefined
+    ReservedNodeOfferings: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -19589,7 +19589,7 @@ const deserializeAws_queryReservedNodesMessage = (
   let contents: any = {
     __type: "ReservedNodesMessage",
     Marker: undefined,
-    ReservedNodes: undefined
+    ReservedNodes: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -19623,7 +19623,7 @@ const deserializeAws_queryResizeClusterMessage = (
     ClusterIdentifier: undefined,
     ClusterType: undefined,
     NodeType: undefined,
-    NumberOfNodes: undefined
+    NumberOfNodes: undefined,
   };
   if (output["Classic"] !== undefined) {
     contents.Classic = output["Classic"] == "true";
@@ -19649,7 +19649,7 @@ const deserializeAws_queryResizeClusterResult = (
 ): ResizeClusterResult => {
   let contents: any = {
     __type: "ResizeClusterResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -19664,7 +19664,7 @@ const deserializeAws_queryResizeInfo = (
   let contents: any = {
     __type: "ResizeInfo",
     AllowCancelResize: undefined,
-    ResizeType: undefined
+    ResizeType: undefined,
   };
   if (output["AllowCancelResize"] !== undefined) {
     contents.AllowCancelResize = output["AllowCancelResize"] == "true";
@@ -19696,7 +19696,7 @@ const deserializeAws_queryResizeProgressMessage = (
     TargetEncryptionType: undefined,
     TargetNodeType: undefined,
     TargetNumberOfNodes: undefined,
-    TotalResizeDataInMegaBytes: undefined
+    TotalResizeDataInMegaBytes: undefined,
   };
   if (output["AvgResizeRateInMegaBytesPerSecond"] !== undefined) {
     contents.AvgResizeRateInMegaBytesPerSecond = parseFloat(
@@ -19813,7 +19813,7 @@ const deserializeAws_queryRestoreFromClusterSnapshotResult = (
 ): RestoreFromClusterSnapshotResult => {
   let contents: any = {
     __type: "RestoreFromClusterSnapshotResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -19832,7 +19832,7 @@ const deserializeAws_queryRestoreStatus = (
     EstimatedTimeToCompletionInSeconds: undefined,
     ProgressInMegaBytes: undefined,
     SnapshotSizeInMegaBytes: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output["CurrentRestoreRateInMegaBytesPerSecond"] !== undefined) {
     contents.CurrentRestoreRateInMegaBytesPerSecond = parseFloat(
@@ -19867,7 +19867,7 @@ const deserializeAws_queryRestoreTableFromClusterSnapshotResult = (
 ): RestoreTableFromClusterSnapshotResult => {
   let contents: any = {
     __type: "RestoreTableFromClusterSnapshotResult",
-    TableRestoreStatus: undefined
+    TableRestoreStatus: undefined,
   };
   if (output["TableRestoreStatus"] !== undefined) {
     contents.TableRestoreStatus = deserializeAws_queryTableRestoreStatus(
@@ -19886,7 +19886,7 @@ const deserializeAws_queryRevisionTarget = (
     __type: "RevisionTarget",
     DatabaseRevision: undefined,
     DatabaseRevisionReleaseDate: undefined,
-    Description: undefined
+    Description: undefined,
   };
   if (output["DatabaseRevision"] !== undefined) {
     contents.DatabaseRevision = output["DatabaseRevision"];
@@ -19919,7 +19919,7 @@ const deserializeAws_queryRevokeClusterSecurityGroupIngressResult = (
 ): RevokeClusterSecurityGroupIngressResult => {
   let contents: any = {
     __type: "RevokeClusterSecurityGroupIngressResult",
-    ClusterSecurityGroup: undefined
+    ClusterSecurityGroup: undefined,
   };
   if (output["ClusterSecurityGroup"] !== undefined) {
     contents.ClusterSecurityGroup = deserializeAws_queryClusterSecurityGroup(
@@ -19936,7 +19936,7 @@ const deserializeAws_queryRevokeSnapshotAccessResult = (
 ): RevokeSnapshotAccessResult => {
   let contents: any = {
     __type: "RevokeSnapshotAccessResult",
-    Snapshot: undefined
+    Snapshot: undefined,
   };
   if (output["Snapshot"] !== undefined) {
     contents.Snapshot = deserializeAws_querySnapshot(
@@ -19953,7 +19953,7 @@ const deserializeAws_queryRotateEncryptionKeyResult = (
 ): RotateEncryptionKeyResult => {
   let contents: any = {
     __type: "RotateEncryptionKeyResult",
-    Cluster: undefined
+    Cluster: undefined,
   };
   if (output["Cluster"] !== undefined) {
     contents.Cluster = deserializeAws_queryCluster(output["Cluster"], context);
@@ -19986,7 +19986,7 @@ const deserializeAws_queryScheduledAction = (
     ScheduledActionName: undefined,
     StartTime: undefined,
     State: undefined,
-    TargetAction: undefined
+    TargetAction: undefined,
   };
   if (output["EndTime"] !== undefined) {
     contents.EndTime = new Date(output["EndTime"]);
@@ -20062,7 +20062,7 @@ const deserializeAws_queryScheduledActionType = (
 ): ScheduledActionType => {
   let contents: any = {
     __type: "ScheduledActionType",
-    ResizeCluster: undefined
+    ResizeCluster: undefined,
   };
   if (output["ResizeCluster"] !== undefined) {
     contents.ResizeCluster = deserializeAws_queryResizeClusterMessage(
@@ -20080,7 +20080,7 @@ const deserializeAws_queryScheduledActionsMessage = (
   let contents: any = {
     __type: "ScheduledActionsMessage",
     Marker: undefined,
-    ScheduledActions: undefined
+    ScheduledActions: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -20153,7 +20153,7 @@ const deserializeAws_querySnapshot = (
     Status: undefined,
     Tags: undefined,
     TotalBackupSizeInMegaBytes: undefined,
-    VpcId: undefined
+    VpcId: undefined,
   };
   if (output.AccountsWithRestoreAccess === "") {
     contents.AccountsWithRestoreAccess = [];
@@ -20316,7 +20316,7 @@ const deserializeAws_querySnapshotCopyGrant = (
     __type: "SnapshotCopyGrant",
     KmsKeyId: undefined,
     SnapshotCopyGrantName: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["KmsKeyId"] !== undefined) {
     contents.KmsKeyId = output["KmsKeyId"];
@@ -20355,7 +20355,7 @@ const deserializeAws_querySnapshotCopyGrantMessage = (
   let contents: any = {
     __type: "SnapshotCopyGrantMessage",
     Marker: undefined,
-    SnapshotCopyGrants: undefined
+    SnapshotCopyGrants: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -20388,7 +20388,7 @@ const deserializeAws_querySnapshotErrorMessage = (
     FailureCode: undefined,
     FailureReason: undefined,
     SnapshotClusterIdentifier: undefined,
-    SnapshotIdentifier: undefined
+    SnapshotIdentifier: undefined,
   };
   if (output["FailureCode"] !== undefined) {
     contents.FailureCode = output["FailureCode"];
@@ -20434,7 +20434,7 @@ const deserializeAws_querySnapshotMessage = (
   let contents: any = {
     __type: "SnapshotMessage",
     Marker: undefined,
-    Snapshots: undefined
+    Snapshots: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -20467,7 +20467,7 @@ const deserializeAws_querySnapshotSchedule = (
     ScheduleDefinitions: undefined,
     ScheduleDescription: undefined,
     ScheduleIdentifier: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output["AssociatedClusterCount"] !== undefined) {
     contents.AssociatedClusterCount = parseInt(
@@ -20572,7 +20572,7 @@ const deserializeAws_querySubnet = (
     __type: "Subnet",
     SubnetAvailabilityZone: undefined,
     SubnetIdentifier: undefined,
-    SubnetStatus: undefined
+    SubnetStatus: undefined,
   };
   if (output["SubnetAvailabilityZone"] !== undefined) {
     contents.SubnetAvailabilityZone = deserializeAws_queryAvailabilityZone(
@@ -20606,7 +20606,7 @@ const deserializeAws_querySupportedOperation = (
 ): SupportedOperation => {
   let contents: any = {
     __type: "SupportedOperation",
-    OperationName: undefined
+    OperationName: undefined,
   };
   if (output["OperationName"] !== undefined) {
     contents.OperationName = output["OperationName"];
@@ -20631,7 +20631,7 @@ const deserializeAws_querySupportedPlatform = (
 ): SupportedPlatform => {
   let contents: any = {
     __type: "SupportedPlatform",
-    Name: undefined
+    Name: undefined,
   };
   if (output["Name"] !== undefined) {
     contents.Name = output["Name"];
@@ -20669,7 +20669,7 @@ const deserializeAws_queryTableRestoreStatus = (
     TableRestoreRequestId: undefined,
     TargetDatabaseName: undefined,
     TargetSchemaName: undefined,
-    TotalDataInMegaBytes: undefined
+    TotalDataInMegaBytes: undefined,
   };
   if (output["ClusterIdentifier"] !== undefined) {
     contents.ClusterIdentifier = output["ClusterIdentifier"];
@@ -20734,7 +20734,7 @@ const deserializeAws_queryTableRestoreStatusMessage = (
   let contents: any = {
     __type: "TableRestoreStatusMessage",
     Marker: undefined,
-    TableRestoreStatusDetails: undefined
+    TableRestoreStatusDetails: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -20762,7 +20762,7 @@ const deserializeAws_queryTag = (output: any, context: __SerdeContext): Tag => {
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output["Key"] !== undefined) {
     contents.Key = output["Key"];
@@ -20792,7 +20792,7 @@ const deserializeAws_queryTaggedResource = (
     __type: "TaggedResource",
     ResourceName: undefined,
     ResourceType: undefined,
-    Tag: undefined
+    Tag: undefined,
   };
   if (output["ResourceName"] !== undefined) {
     contents.ResourceName = output["ResourceName"];
@@ -20824,7 +20824,7 @@ const deserializeAws_queryTaggedResourceListMessage = (
   let contents: any = {
     __type: "TaggedResourceListMessage",
     Marker: undefined,
-    TaggedResources: undefined
+    TaggedResources: undefined,
   };
   if (output["Marker"] !== undefined) {
     contents.Marker = output["Marker"];
@@ -20866,7 +20866,7 @@ const deserializeAws_queryTrackListMessage = (
   let contents: any = {
     __type: "TrackListMessage",
     MaintenanceTracks: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.MaintenanceTracks === "") {
     contents.MaintenanceTracks = [];
@@ -20898,7 +20898,7 @@ const deserializeAws_queryUpdateTarget = (
     __type: "UpdateTarget",
     DatabaseVersion: undefined,
     MaintenanceTrackName: undefined,
-    SupportedOperations: undefined
+    SupportedOperations: undefined,
   };
   if (output["DatabaseVersion"] !== undefined) {
     contents.DatabaseVersion = output["DatabaseVersion"];
@@ -20932,7 +20932,7 @@ const deserializeAws_queryVpcSecurityGroupMembership = (
   let contents: any = {
     __type: "VpcSecurityGroupMembership",
     Status: undefined,
-    VpcSecurityGroupId: undefined
+    VpcSecurityGroupId: undefined,
   };
   if (output["Status"] !== undefined) {
     contents.Status = output["Status"];
@@ -20959,7 +20959,7 @@ const deserializeAws_queryVpcSecurityGroupMembershipList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -20980,7 +20980,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -20993,11 +20993,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -21018,13 +21018,13 @@ const decodeEscapedXML = (str: string) => {
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       const parsedObj = xmlParse(encoded, {
         attributeNamePrefix: "",
         ignoreAttributes: false,
         parseNodeValue: false,
-        tagValueProcessor: (val, tagName) => decodeEscapedXML(val)
+        tagValueProcessor: (val, tagName) => decodeEscapedXML(val),
       });
       const textNodeName = "#text";
       const key = Object.keys(parsedObj)[0];
@@ -21042,7 +21042,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
 const buildFormUrlencodedString = (entries: any): string => {
   return Object.keys(entries)
     .map(
-      key =>
+      (key) =>
         __extendedEncodeURIComponent(key) +
         "=" +
         __extendedEncodeURIComponent(entries[key])

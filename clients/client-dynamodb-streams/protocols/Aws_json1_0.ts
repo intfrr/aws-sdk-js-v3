@@ -1,18 +1,18 @@
 import {
   DescribeStreamCommandInput,
-  DescribeStreamCommandOutput
+  DescribeStreamCommandOutput,
 } from "../commands/DescribeStreamCommand";
 import {
   GetRecordsCommandInput,
-  GetRecordsCommandOutput
+  GetRecordsCommandOutput,
 } from "../commands/GetRecordsCommand";
 import {
   GetShardIteratorCommandInput,
-  GetShardIteratorCommandOutput
+  GetShardIteratorCommandOutput,
 } from "../commands/GetShardIteratorCommand";
 import {
   ListStreamsCommandInput,
-  ListStreamsCommandOutput
+  ListStreamsCommandOutput,
 } from "../commands/ListStreamsCommand";
 import {
   AttributeValue,
@@ -36,11 +36,11 @@ import {
   StreamRecord,
   TrimmedDataAccessException,
   _Record,
-  _Stream
+  _Stream,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -48,7 +48,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_0DescribeStreamCommand(
@@ -116,7 +116,7 @@ export async function deserializeAws_json1_0DescribeStreamCommand(
   const response: DescribeStreamCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStreamOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -127,7 +127,7 @@ async function deserializeAws_json1_0DescribeStreamCommandError(
 ): Promise<DescribeStreamCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -143,7 +143,7 @@ async function deserializeAws_json1_0DescribeStreamCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -154,7 +154,7 @@ async function deserializeAws_json1_0DescribeStreamCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -165,7 +165,7 @@ async function deserializeAws_json1_0DescribeStreamCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -187,7 +187,7 @@ export async function deserializeAws_json1_0GetRecordsCommand(
   const response: GetRecordsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRecordsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -198,7 +198,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
 ): Promise<GetRecordsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -214,7 +214,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TrimmedDataAccessException":
@@ -225,7 +225,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -236,7 +236,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -247,7 +247,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -258,7 +258,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -269,7 +269,7 @@ async function deserializeAws_json1_0GetRecordsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -291,7 +291,7 @@ export async function deserializeAws_json1_0GetShardIteratorCommand(
   const response: GetShardIteratorCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetShardIteratorOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -302,7 +302,7 @@ async function deserializeAws_json1_0GetShardIteratorCommandError(
 ): Promise<GetShardIteratorCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -318,7 +318,7 @@ async function deserializeAws_json1_0GetShardIteratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalServerError":
@@ -329,7 +329,7 @@ async function deserializeAws_json1_0GetShardIteratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -340,7 +340,7 @@ async function deserializeAws_json1_0GetShardIteratorCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -351,7 +351,7 @@ async function deserializeAws_json1_0GetShardIteratorCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -373,7 +373,7 @@ export async function deserializeAws_json1_0ListStreamsCommand(
   const response: ListStreamsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListStreamsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -384,7 +384,7 @@ async function deserializeAws_json1_0ListStreamsCommandError(
 ): Promise<ListStreamsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -400,7 +400,7 @@ async function deserializeAws_json1_0ListStreamsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -411,7 +411,7 @@ async function deserializeAws_json1_0ListStreamsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -422,7 +422,7 @@ async function deserializeAws_json1_0ListStreamsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -444,7 +444,7 @@ const deserializeAws_json1_0ExpiredIteratorExceptionResponse = async (
     name: "ExpiredIteratorException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -462,7 +462,7 @@ const deserializeAws_json1_0TrimmedDataAccessExceptionResponse = async (
     name: "TrimmedDataAccessException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -480,7 +480,7 @@ const deserializeAws_json1_0InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -498,7 +498,7 @@ const deserializeAws_json1_0LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -516,7 +516,7 @@ const deserializeAws_json1_0ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -595,7 +595,7 @@ const deserializeAws_json1_0DescribeStreamOutput = (
 ): DescribeStreamOutput => {
   let contents: any = {
     __type: "DescribeStreamOutput",
-    StreamDescription: undefined
+    StreamDescription: undefined,
   };
   if (
     output.StreamDescription !== undefined &&
@@ -615,7 +615,7 @@ const deserializeAws_json1_0ExpiredIteratorException = (
 ): ExpiredIteratorException => {
   let contents: any = {
     __type: "ExpiredIteratorException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -630,7 +630,7 @@ const deserializeAws_json1_0GetRecordsOutput = (
   let contents: any = {
     __type: "GetRecordsOutput",
     NextShardIterator: undefined,
-    Records: undefined
+    Records: undefined,
   };
   if (
     output.NextShardIterator !== undefined &&
@@ -653,7 +653,7 @@ const deserializeAws_json1_0GetShardIteratorOutput = (
 ): GetShardIteratorOutput => {
   let contents: any = {
     __type: "GetShardIteratorOutput",
-    ShardIterator: undefined
+    ShardIterator: undefined,
   };
   if (output.ShardIterator !== undefined && output.ShardIterator !== null) {
     contents.ShardIterator = output.ShardIterator;
@@ -668,7 +668,7 @@ const deserializeAws_json1_0Identity = (
   let contents: any = {
     __type: "Identity",
     PrincipalId: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.PrincipalId !== undefined && output.PrincipalId !== null) {
     contents.PrincipalId = output.PrincipalId;
@@ -686,7 +686,7 @@ const deserializeAws_json1_0ListStreamsOutput = (
   let contents: any = {
     __type: "ListStreamsOutput",
     LastEvaluatedStreamArn: undefined,
-    Streams: undefined
+    Streams: undefined,
   };
   if (
     output.LastEvaluatedStreamArn !== undefined &&
@@ -715,7 +715,7 @@ const deserializeAws_json1_0_Record = (
     eventName: undefined,
     eventSource: undefined,
     eventVersion: undefined,
-    userIdentity: undefined
+    userIdentity: undefined,
   };
   if (output.awsRegion !== undefined && output.awsRegion !== null) {
     contents.awsRegion = output.awsRegion;
@@ -763,7 +763,7 @@ const deserializeAws_json1_0SequenceNumberRange = (
   let contents: any = {
     __type: "SequenceNumberRange",
     EndingSequenceNumber: undefined,
-    StartingSequenceNumber: undefined
+    StartingSequenceNumber: undefined,
   };
   if (
     output.EndingSequenceNumber !== undefined &&
@@ -788,7 +788,7 @@ const deserializeAws_json1_0Shard = (
     __type: "Shard",
     ParentShardId: undefined,
     SequenceNumberRange: undefined,
-    ShardId: undefined
+    ShardId: undefined,
   };
   if (output.ParentShardId !== undefined && output.ParentShardId !== null) {
     contents.ParentShardId = output.ParentShardId;
@@ -825,7 +825,7 @@ const deserializeAws_json1_0_Stream = (
     __type: "Stream",
     StreamArn: undefined,
     StreamLabel: undefined,
-    TableName: undefined
+    TableName: undefined,
   };
   if (output.StreamArn !== undefined && output.StreamArn !== null) {
     contents.StreamArn = output.StreamArn;
@@ -853,7 +853,7 @@ const deserializeAws_json1_0StreamDescription = (
     StreamLabel: undefined,
     StreamStatus: undefined,
     StreamViewType: undefined,
-    TableName: undefined
+    TableName: undefined,
   };
   if (
     output.CreationRequestDateTime !== undefined &&
@@ -920,7 +920,7 @@ const deserializeAws_json1_0StreamRecord = (
     OldImage: undefined,
     SequenceNumber: undefined,
     SizeBytes: undefined,
-    StreamViewType: undefined
+    StreamViewType: undefined,
   };
   if (
     output.ApproximateCreationDateTime !== undefined &&
@@ -963,7 +963,7 @@ const deserializeAws_json1_0TrimmedDataAccessException = (
 ): TrimmedDataAccessException => {
   let contents: any = {
     __type: "TrimmedDataAccessException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -976,7 +976,7 @@ const deserializeAws_json1_0AttributeMap = (
   context: __SerdeContext
 ): { [key: string]: AttributeValue } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_0AttributeValue(output[key], context);
   });
   return mapParams;
@@ -997,7 +997,7 @@ const deserializeAws_json1_0AttributeValue = (
     NS: undefined,
     NULL: undefined,
     S: undefined,
-    SS: undefined
+    SS: undefined,
   };
   if (output.B !== undefined && output.B !== null) {
     contents.B = context.base64Decoder(output.B);
@@ -1054,7 +1054,7 @@ const deserializeAws_json1_0InternalServerError = (
 ): InternalServerError => {
   let contents: any = {
     __type: "InternalServerError",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1078,7 +1078,7 @@ const deserializeAws_json1_0KeySchemaElement = (
   let contents: any = {
     __type: "KeySchemaElement",
     AttributeName: undefined,
-    KeyType: undefined
+    KeyType: undefined,
   };
   if (output.AttributeName !== undefined && output.AttributeName !== null) {
     contents.AttributeName = output.AttributeName;
@@ -1095,7 +1095,7 @@ const deserializeAws_json1_0LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1117,7 +1117,7 @@ const deserializeAws_json1_0MapAttributeValue = (
   context: __SerdeContext
 ): { [key: string]: AttributeValue } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = deserializeAws_json1_0AttributeValue(output[key], context);
   });
   return mapParams;
@@ -1136,7 +1136,7 @@ const deserializeAws_json1_0ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1154,7 +1154,7 @@ const deserializeAws_json1_0StringSetAttributeValue = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1175,7 +1175,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -1188,11 +1188,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -1204,7 +1204,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

@@ -1,30 +1,30 @@
 import {
   AssociateMemberAccountCommandInput,
-  AssociateMemberAccountCommandOutput
+  AssociateMemberAccountCommandOutput,
 } from "../commands/AssociateMemberAccountCommand";
 import {
   AssociateS3ResourcesCommandInput,
-  AssociateS3ResourcesCommandOutput
+  AssociateS3ResourcesCommandOutput,
 } from "../commands/AssociateS3ResourcesCommand";
 import {
   DisassociateMemberAccountCommandInput,
-  DisassociateMemberAccountCommandOutput
+  DisassociateMemberAccountCommandOutput,
 } from "../commands/DisassociateMemberAccountCommand";
 import {
   DisassociateS3ResourcesCommandInput,
-  DisassociateS3ResourcesCommandOutput
+  DisassociateS3ResourcesCommandOutput,
 } from "../commands/DisassociateS3ResourcesCommand";
 import {
   ListMemberAccountsCommandInput,
-  ListMemberAccountsCommandOutput
+  ListMemberAccountsCommandOutput,
 } from "../commands/ListMemberAccountsCommand";
 import {
   ListS3ResourcesCommandInput,
-  ListS3ResourcesCommandOutput
+  ListS3ResourcesCommandOutput,
 } from "../commands/ListS3ResourcesCommand";
 import {
   UpdateS3ResourcesCommandInput,
-  UpdateS3ResourcesCommandOutput
+  UpdateS3ResourcesCommandOutput,
 } from "../commands/UpdateS3ResourcesCommand";
 import {
   AccessDeniedException,
@@ -49,11 +49,11 @@ import {
   S3ResourceClassification,
   S3ResourceClassificationUpdate,
   UpdateS3ResourcesRequest,
-  UpdateS3ResourcesResult
+  UpdateS3ResourcesResult,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -61,7 +61,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateMemberAccountCommand(
@@ -174,7 +174,7 @@ export async function deserializeAws_json1_1AssociateMemberAccountCommand(
   }
   await collectBody(output.body, context);
   const response: AssociateMemberAccountCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -185,7 +185,7 @@ async function deserializeAws_json1_1AssociateMemberAccountCommandError(
 ): Promise<AssociateMemberAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -201,7 +201,7 @@ async function deserializeAws_json1_1AssociateMemberAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -212,7 +212,7 @@ async function deserializeAws_json1_1AssociateMemberAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -223,7 +223,7 @@ async function deserializeAws_json1_1AssociateMemberAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -234,7 +234,7 @@ async function deserializeAws_json1_1AssociateMemberAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -259,7 +259,7 @@ export async function deserializeAws_json1_1AssociateS3ResourcesCommand(
   const response: AssociateS3ResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateS3ResourcesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -270,7 +270,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
 ): Promise<AssociateS3ResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -286,7 +286,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalException":
@@ -297,7 +297,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -308,7 +308,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -319,7 +319,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -330,7 +330,7 @@ async function deserializeAws_json1_1AssociateS3ResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -351,7 +351,7 @@ export async function deserializeAws_json1_1DisassociateMemberAccountCommand(
   }
   await collectBody(output.body, context);
   const response: DisassociateMemberAccountCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   return Promise.resolve(response);
 }
@@ -362,7 +362,7 @@ async function deserializeAws_json1_1DisassociateMemberAccountCommandError(
 ): Promise<DisassociateMemberAccountCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -378,7 +378,7 @@ async function deserializeAws_json1_1DisassociateMemberAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -389,7 +389,7 @@ async function deserializeAws_json1_1DisassociateMemberAccountCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -400,7 +400,7 @@ async function deserializeAws_json1_1DisassociateMemberAccountCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -425,7 +425,7 @@ export async function deserializeAws_json1_1DisassociateS3ResourcesCommand(
   const response: DisassociateS3ResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateS3ResourcesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -436,7 +436,7 @@ async function deserializeAws_json1_1DisassociateS3ResourcesCommandError(
 ): Promise<DisassociateS3ResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -452,7 +452,7 @@ async function deserializeAws_json1_1DisassociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalException":
@@ -463,7 +463,7 @@ async function deserializeAws_json1_1DisassociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -474,7 +474,7 @@ async function deserializeAws_json1_1DisassociateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -485,7 +485,7 @@ async function deserializeAws_json1_1DisassociateS3ResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -510,7 +510,7 @@ export async function deserializeAws_json1_1ListMemberAccountsCommand(
   const response: ListMemberAccountsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListMemberAccountsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -521,7 +521,7 @@ async function deserializeAws_json1_1ListMemberAccountsCommandError(
 ): Promise<ListMemberAccountsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -537,7 +537,7 @@ async function deserializeAws_json1_1ListMemberAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -548,7 +548,7 @@ async function deserializeAws_json1_1ListMemberAccountsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -559,7 +559,7 @@ async function deserializeAws_json1_1ListMemberAccountsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -581,7 +581,7 @@ export async function deserializeAws_json1_1ListS3ResourcesCommand(
   const response: ListS3ResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListS3ResourcesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -592,7 +592,7 @@ async function deserializeAws_json1_1ListS3ResourcesCommandError(
 ): Promise<ListS3ResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -608,7 +608,7 @@ async function deserializeAws_json1_1ListS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalException":
@@ -619,7 +619,7 @@ async function deserializeAws_json1_1ListS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -630,7 +630,7 @@ async function deserializeAws_json1_1ListS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -641,7 +641,7 @@ async function deserializeAws_json1_1ListS3ResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -663,7 +663,7 @@ export async function deserializeAws_json1_1UpdateS3ResourcesCommand(
   const response: UpdateS3ResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateS3ResourcesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -674,7 +674,7 @@ async function deserializeAws_json1_1UpdateS3ResourcesCommandError(
 ): Promise<UpdateS3ResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -690,7 +690,7 @@ async function deserializeAws_json1_1UpdateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InternalException":
@@ -701,7 +701,7 @@ async function deserializeAws_json1_1UpdateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidInputException":
@@ -712,7 +712,7 @@ async function deserializeAws_json1_1UpdateS3ResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -723,7 +723,7 @@ async function deserializeAws_json1_1UpdateS3ResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -745,7 +745,7 @@ const deserializeAws_json1_1AccessDeniedExceptionResponse = async (
     name: "AccessDeniedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -763,7 +763,7 @@ const deserializeAws_json1_1InternalExceptionResponse = async (
     name: "InternalException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -781,7 +781,7 @@ const deserializeAws_json1_1InvalidInputExceptionResponse = async (
     name: "InvalidInputException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -799,7 +799,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -1036,7 +1036,7 @@ const deserializeAws_json1_1AccessDeniedException = (
   let contents: any = {
     __type: "AccessDeniedException",
     message: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -1053,7 +1053,7 @@ const deserializeAws_json1_1AssociateS3ResourcesResult = (
 ): AssociateS3ResourcesResult => {
   let contents: any = {
     __type: "AssociateS3ResourcesResult",
-    failedS3Resources: undefined
+    failedS3Resources: undefined,
   };
   if (
     output.failedS3Resources !== undefined &&
@@ -1074,7 +1074,7 @@ const deserializeAws_json1_1ClassificationType = (
   let contents: any = {
     __type: "ClassificationType",
     continuous: undefined,
-    oneTime: undefined
+    oneTime: undefined,
   };
   if (output.continuous !== undefined && output.continuous !== null) {
     contents.continuous = output.continuous;
@@ -1091,7 +1091,7 @@ const deserializeAws_json1_1DisassociateS3ResourcesResult = (
 ): DisassociateS3ResourcesResult => {
   let contents: any = {
     __type: "DisassociateS3ResourcesResult",
-    failedS3Resources: undefined
+    failedS3Resources: undefined,
   };
   if (
     output.failedS3Resources !== undefined &&
@@ -1113,7 +1113,7 @@ const deserializeAws_json1_1FailedS3Resource = (
     __type: "FailedS3Resource",
     errorCode: undefined,
     errorMessage: undefined,
-    failedItem: undefined
+    failedItem: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -1146,7 +1146,7 @@ const deserializeAws_json1_1InternalException = (
   let contents: any = {
     __type: "InternalException",
     errorCode: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -1165,7 +1165,7 @@ const deserializeAws_json1_1InvalidInputException = (
     __type: "InvalidInputException",
     errorCode: undefined,
     fieldName: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -1187,7 +1187,7 @@ const deserializeAws_json1_1LimitExceededException = (
     __type: "LimitExceededException",
     errorCode: undefined,
     message: undefined,
-    resourceType: undefined
+    resourceType: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -1208,7 +1208,7 @@ const deserializeAws_json1_1ListMemberAccountsResult = (
   let contents: any = {
     __type: "ListMemberAccountsResult",
     memberAccounts: undefined,
-    nextToken: undefined
+    nextToken: undefined,
   };
   if (output.memberAccounts !== undefined && output.memberAccounts !== null) {
     contents.memberAccounts = deserializeAws_json1_1MemberAccounts(
@@ -1229,7 +1229,7 @@ const deserializeAws_json1_1ListS3ResourcesResult = (
   let contents: any = {
     __type: "ListS3ResourcesResult",
     nextToken: undefined,
-    s3Resources: undefined
+    s3Resources: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -1249,7 +1249,7 @@ const deserializeAws_json1_1MemberAccount = (
 ): MemberAccount => {
   let contents: any = {
     __type: "MemberAccount",
-    accountId: undefined
+    accountId: undefined,
   };
   if (output.accountId !== undefined && output.accountId !== null) {
     contents.accountId = output.accountId;
@@ -1273,7 +1273,7 @@ const deserializeAws_json1_1S3Resource = (
   let contents: any = {
     __type: "S3Resource",
     bucketName: undefined,
-    prefix: undefined
+    prefix: undefined,
   };
   if (output.bucketName !== undefined && output.bucketName !== null) {
     contents.bucketName = output.bucketName;
@@ -1292,7 +1292,7 @@ const deserializeAws_json1_1S3ResourceClassification = (
     __type: "S3ResourceClassification",
     bucketName: undefined,
     classificationType: undefined,
-    prefix: undefined
+    prefix: undefined,
   };
   if (output.bucketName !== undefined && output.bucketName !== null) {
     contents.bucketName = output.bucketName;
@@ -1327,7 +1327,7 @@ const deserializeAws_json1_1UpdateS3ResourcesResult = (
 ): UpdateS3ResourcesResult => {
   let contents: any = {
     __type: "UpdateS3ResourcesResult",
-    failedS3Resources: undefined
+    failedS3Resources: undefined,
   };
   if (
     output.failedS3Resources !== undefined &&
@@ -1344,7 +1344,7 @@ const deserializeAws_json1_1UpdateS3ResourcesResult = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1365,7 +1365,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -1378,11 +1378,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -1394,7 +1394,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

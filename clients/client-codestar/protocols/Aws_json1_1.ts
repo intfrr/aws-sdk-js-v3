@@ -1,74 +1,74 @@
 import {
   AssociateTeamMemberCommandInput,
-  AssociateTeamMemberCommandOutput
+  AssociateTeamMemberCommandOutput,
 } from "../commands/AssociateTeamMemberCommand";
 import {
   CreateProjectCommandInput,
-  CreateProjectCommandOutput
+  CreateProjectCommandOutput,
 } from "../commands/CreateProjectCommand";
 import {
   CreateUserProfileCommandInput,
-  CreateUserProfileCommandOutput
+  CreateUserProfileCommandOutput,
 } from "../commands/CreateUserProfileCommand";
 import {
   DeleteProjectCommandInput,
-  DeleteProjectCommandOutput
+  DeleteProjectCommandOutput,
 } from "../commands/DeleteProjectCommand";
 import {
   DeleteUserProfileCommandInput,
-  DeleteUserProfileCommandOutput
+  DeleteUserProfileCommandOutput,
 } from "../commands/DeleteUserProfileCommand";
 import {
   DescribeProjectCommandInput,
-  DescribeProjectCommandOutput
+  DescribeProjectCommandOutput,
 } from "../commands/DescribeProjectCommand";
 import {
   DescribeUserProfileCommandInput,
-  DescribeUserProfileCommandOutput
+  DescribeUserProfileCommandOutput,
 } from "../commands/DescribeUserProfileCommand";
 import {
   DisassociateTeamMemberCommandInput,
-  DisassociateTeamMemberCommandOutput
+  DisassociateTeamMemberCommandOutput,
 } from "../commands/DisassociateTeamMemberCommand";
 import {
   ListProjectsCommandInput,
-  ListProjectsCommandOutput
+  ListProjectsCommandOutput,
 } from "../commands/ListProjectsCommand";
 import {
   ListResourcesCommandInput,
-  ListResourcesCommandOutput
+  ListResourcesCommandOutput,
 } from "../commands/ListResourcesCommand";
 import {
   ListTagsForProjectCommandInput,
-  ListTagsForProjectCommandOutput
+  ListTagsForProjectCommandOutput,
 } from "../commands/ListTagsForProjectCommand";
 import {
   ListTeamMembersCommandInput,
-  ListTeamMembersCommandOutput
+  ListTeamMembersCommandOutput,
 } from "../commands/ListTeamMembersCommand";
 import {
   ListUserProfilesCommandInput,
-  ListUserProfilesCommandOutput
+  ListUserProfilesCommandOutput,
 } from "../commands/ListUserProfilesCommand";
 import {
   TagProjectCommandInput,
-  TagProjectCommandOutput
+  TagProjectCommandOutput,
 } from "../commands/TagProjectCommand";
 import {
   UntagProjectCommandInput,
-  UntagProjectCommandOutput
+  UntagProjectCommandOutput,
 } from "../commands/UntagProjectCommand";
 import {
   UpdateProjectCommandInput,
-  UpdateProjectCommandOutput
+  UpdateProjectCommandOutput,
 } from "../commands/UpdateProjectCommand";
 import {
   UpdateTeamMemberCommandInput,
-  UpdateTeamMemberCommandOutput
+  UpdateTeamMemberCommandOutput,
 } from "../commands/UpdateTeamMemberCommand";
 import {
   UpdateUserProfileCommandInput,
-  UpdateUserProfileCommandOutput
+  UpdateUserProfileCommandOutput,
 } from "../commands/UpdateUserProfileCommand";
 import {
   AssociateTeamMemberRequest,
@@ -132,11 +132,11 @@ import {
   UserProfileAlreadyExistsException,
   UserProfileNotFoundException,
   UserProfileSummary,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -144,7 +144,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateTeamMemberCommand(
@@ -413,7 +413,7 @@ export async function deserializeAws_json1_1AssociateTeamMemberCommand(
   const response: AssociateTeamMemberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateTeamMemberResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -424,7 +424,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
 ): Promise<AssociateTeamMemberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -440,7 +440,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -451,7 +451,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -462,7 +462,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectConfigurationException":
@@ -473,7 +473,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -484,7 +484,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TeamMemberAlreadyAssociatedException":
@@ -495,7 +495,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -506,7 +506,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -517,7 +517,7 @@ async function deserializeAws_json1_1AssociateTeamMemberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -539,7 +539,7 @@ export async function deserializeAws_json1_1CreateProjectCommand(
   const response: CreateProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -550,7 +550,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
 ): Promise<CreateProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -566,7 +566,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -577,7 +577,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -588,7 +588,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectAlreadyExistsException":
@@ -599,7 +599,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectConfigurationException":
@@ -610,7 +610,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectCreationFailedException":
@@ -621,7 +621,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -632,7 +632,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -643,7 +643,7 @@ async function deserializeAws_json1_1CreateProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -665,7 +665,7 @@ export async function deserializeAws_json1_1CreateUserProfileCommand(
   const response: CreateUserProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateUserProfileResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -676,7 +676,7 @@ async function deserializeAws_json1_1CreateUserProfileCommandError(
 ): Promise<CreateUserProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -692,7 +692,7 @@ async function deserializeAws_json1_1CreateUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -703,7 +703,7 @@ async function deserializeAws_json1_1CreateUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -714,7 +714,7 @@ async function deserializeAws_json1_1CreateUserProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -736,7 +736,7 @@ export async function deserializeAws_json1_1DeleteProjectCommand(
   const response: DeleteProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -747,7 +747,7 @@ async function deserializeAws_json1_1DeleteProjectCommandError(
 ): Promise<DeleteProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -763,7 +763,7 @@ async function deserializeAws_json1_1DeleteProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -774,7 +774,7 @@ async function deserializeAws_json1_1DeleteProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -785,7 +785,7 @@ async function deserializeAws_json1_1DeleteProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -796,7 +796,7 @@ async function deserializeAws_json1_1DeleteProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -818,7 +818,7 @@ export async function deserializeAws_json1_1DeleteUserProfileCommand(
   const response: DeleteUserProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteUserProfileResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -829,7 +829,7 @@ async function deserializeAws_json1_1DeleteUserProfileCommandError(
 ): Promise<DeleteUserProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -845,7 +845,7 @@ async function deserializeAws_json1_1DeleteUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -856,7 +856,7 @@ async function deserializeAws_json1_1DeleteUserProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -878,7 +878,7 @@ export async function deserializeAws_json1_1DescribeProjectCommand(
   const response: DescribeProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -889,7 +889,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
 ): Promise<DescribeProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -905,7 +905,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -916,7 +916,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectConfigurationException":
@@ -927,7 +927,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -938,7 +938,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -949,7 +949,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -960,7 +960,7 @@ async function deserializeAws_json1_1DescribeProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -985,7 +985,7 @@ export async function deserializeAws_json1_1DescribeUserProfileCommand(
   const response: DescribeUserProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserProfileResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -996,7 +996,7 @@ async function deserializeAws_json1_1DescribeUserProfileCommandError(
 ): Promise<DescribeUserProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1012,7 +1012,7 @@ async function deserializeAws_json1_1DescribeUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1023,7 +1023,7 @@ async function deserializeAws_json1_1DescribeUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1034,7 +1034,7 @@ async function deserializeAws_json1_1DescribeUserProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1059,7 +1059,7 @@ export async function deserializeAws_json1_1DisassociateTeamMemberCommand(
   const response: DisassociateTeamMemberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateTeamMemberResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1070,7 +1070,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
 ): Promise<DisassociateTeamMemberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1086,7 +1086,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -1097,7 +1097,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1108,7 +1108,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1119,7 +1119,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1130,7 +1130,7 @@ async function deserializeAws_json1_1DisassociateTeamMemberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1152,7 +1152,7 @@ export async function deserializeAws_json1_1ListProjectsCommand(
   const response: ListProjectsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListProjectsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1163,7 +1163,7 @@ async function deserializeAws_json1_1ListProjectsCommandError(
 ): Promise<ListProjectsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1179,7 +1179,7 @@ async function deserializeAws_json1_1ListProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1190,7 +1190,7 @@ async function deserializeAws_json1_1ListProjectsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1201,7 +1201,7 @@ async function deserializeAws_json1_1ListProjectsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1223,7 +1223,7 @@ export async function deserializeAws_json1_1ListResourcesCommand(
   const response: ListResourcesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListResourcesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1234,7 +1234,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
 ): Promise<ListResourcesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1250,7 +1250,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1261,7 +1261,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1272,7 +1272,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1283,7 +1283,7 @@ async function deserializeAws_json1_1ListResourcesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1308,7 +1308,7 @@ export async function deserializeAws_json1_1ListTagsForProjectCommand(
   const response: ListTagsForProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1319,7 +1319,7 @@ async function deserializeAws_json1_1ListTagsForProjectCommandError(
 ): Promise<ListTagsForProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1335,7 +1335,7 @@ async function deserializeAws_json1_1ListTagsForProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1346,7 +1346,7 @@ async function deserializeAws_json1_1ListTagsForProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1357,7 +1357,7 @@ async function deserializeAws_json1_1ListTagsForProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1368,7 +1368,7 @@ async function deserializeAws_json1_1ListTagsForProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1390,7 +1390,7 @@ export async function deserializeAws_json1_1ListTeamMembersCommand(
   const response: ListTeamMembersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTeamMembersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1401,7 +1401,7 @@ async function deserializeAws_json1_1ListTeamMembersCommandError(
 ): Promise<ListTeamMembersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1417,7 +1417,7 @@ async function deserializeAws_json1_1ListTeamMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1428,7 +1428,7 @@ async function deserializeAws_json1_1ListTeamMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1439,7 +1439,7 @@ async function deserializeAws_json1_1ListTeamMembersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1450,7 +1450,7 @@ async function deserializeAws_json1_1ListTeamMembersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1472,7 +1472,7 @@ export async function deserializeAws_json1_1ListUserProfilesCommand(
   const response: ListUserProfilesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListUserProfilesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1483,7 +1483,7 @@ async function deserializeAws_json1_1ListUserProfilesCommandError(
 ): Promise<ListUserProfilesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1499,7 +1499,7 @@ async function deserializeAws_json1_1ListUserProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1510,7 +1510,7 @@ async function deserializeAws_json1_1ListUserProfilesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1521,7 +1521,7 @@ async function deserializeAws_json1_1ListUserProfilesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1543,7 +1543,7 @@ export async function deserializeAws_json1_1TagProjectCommand(
   const response: TagProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1554,7 +1554,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
 ): Promise<TagProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1570,7 +1570,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1581,7 +1581,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1592,7 +1592,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1603,7 +1603,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1614,7 +1614,7 @@ async function deserializeAws_json1_1TagProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1636,7 +1636,7 @@ export async function deserializeAws_json1_1UntagProjectCommand(
   const response: UntagProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1647,7 +1647,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
 ): Promise<UntagProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1663,7 +1663,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1674,7 +1674,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1685,7 +1685,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1696,7 +1696,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1707,7 +1707,7 @@ async function deserializeAws_json1_1UntagProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1729,7 +1729,7 @@ export async function deserializeAws_json1_1UpdateProjectCommand(
   const response: UpdateProjectCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateProjectResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1740,7 +1740,7 @@ async function deserializeAws_json1_1UpdateProjectCommandError(
 ): Promise<UpdateProjectCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1756,7 +1756,7 @@ async function deserializeAws_json1_1UpdateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1767,7 +1767,7 @@ async function deserializeAws_json1_1UpdateProjectCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1778,7 +1778,7 @@ async function deserializeAws_json1_1UpdateProjectCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1800,7 +1800,7 @@ export async function deserializeAws_json1_1UpdateTeamMemberCommand(
   const response: UpdateTeamMemberCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateTeamMemberResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1811,7 +1811,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
 ): Promise<UpdateTeamMemberCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1827,7 +1827,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidServiceRoleException":
@@ -1838,7 +1838,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1849,7 +1849,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectConfigurationException":
@@ -1860,7 +1860,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ProjectNotFoundException":
@@ -1871,7 +1871,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "TeamMemberNotFoundException":
@@ -1882,7 +1882,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1893,7 +1893,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1904,7 +1904,7 @@ async function deserializeAws_json1_1UpdateTeamMemberCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1926,7 +1926,7 @@ export async function deserializeAws_json1_1UpdateUserProfileCommand(
   const response: UpdateUserProfileCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateUserProfileResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1937,7 +1937,7 @@ async function deserializeAws_json1_1UpdateUserProfileCommandError(
 ): Promise<UpdateUserProfileCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1953,7 +1953,7 @@ async function deserializeAws_json1_1UpdateUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1964,7 +1964,7 @@ async function deserializeAws_json1_1UpdateUserProfileCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1975,7 +1975,7 @@ async function deserializeAws_json1_1UpdateUserProfileCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1997,7 +1997,7 @@ const deserializeAws_json1_1ConcurrentModificationExceptionResponse = async (
     name: "ConcurrentModificationException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2015,7 +2015,7 @@ const deserializeAws_json1_1InvalidNextTokenExceptionResponse = async (
     name: "InvalidNextTokenException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2033,7 +2033,7 @@ const deserializeAws_json1_1InvalidServiceRoleExceptionResponse = async (
     name: "InvalidServiceRoleException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2051,7 +2051,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2069,7 +2069,7 @@ const deserializeAws_json1_1ProjectAlreadyExistsExceptionResponse = async (
     name: "ProjectAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2087,7 +2087,7 @@ const deserializeAws_json1_1ProjectConfigurationExceptionResponse = async (
     name: "ProjectConfigurationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2105,7 +2105,7 @@ const deserializeAws_json1_1ProjectCreationFailedExceptionResponse = async (
     name: "ProjectCreationFailedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2123,7 +2123,7 @@ const deserializeAws_json1_1ProjectNotFoundExceptionResponse = async (
     name: "ProjectNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2141,7 +2141,7 @@ const deserializeAws_json1_1TeamMemberAlreadyAssociatedExceptionResponse = async
     name: "TeamMemberAlreadyAssociatedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2159,7 +2159,7 @@ const deserializeAws_json1_1TeamMemberNotFoundExceptionResponse = async (
     name: "TeamMemberNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2177,7 +2177,7 @@ const deserializeAws_json1_1UserProfileAlreadyExistsExceptionResponse = async (
     name: "UserProfileAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2195,7 +2195,7 @@ const deserializeAws_json1_1UserProfileNotFoundExceptionResponse = async (
     name: "UserProfileNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2213,7 +2213,7 @@ const deserializeAws_json1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -2585,7 +2585,7 @@ const serializeAws_json1_1Tags = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -2596,7 +2596,7 @@ const serializeAws_json1_1TemplateParameterMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -2713,7 +2713,7 @@ const deserializeAws_json1_1AssociateTeamMemberResult = (
 ): AssociateTeamMemberResult => {
   let contents: any = {
     __type: "AssociateTeamMemberResult",
-    clientRequestToken: undefined
+    clientRequestToken: undefined,
   };
   if (
     output.clientRequestToken !== undefined &&
@@ -2730,7 +2730,7 @@ const deserializeAws_json1_1ConcurrentModificationException = (
 ): ConcurrentModificationException => {
   let contents: any = {
     __type: "ConcurrentModificationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2747,7 +2747,7 @@ const deserializeAws_json1_1CreateProjectResult = (
     arn: undefined,
     clientRequestToken: undefined,
     id: undefined,
-    projectTemplateId: undefined
+    projectTemplateId: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -2781,7 +2781,7 @@ const deserializeAws_json1_1CreateUserProfileResult = (
     emailAddress: undefined,
     lastModifiedTimestamp: undefined,
     sshPublicKey: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (
     output.createdTimestamp !== undefined &&
@@ -2821,7 +2821,7 @@ const deserializeAws_json1_1DeleteProjectResult = (
   let contents: any = {
     __type: "DeleteProjectResult",
     projectArn: undefined,
-    stackId: undefined
+    stackId: undefined,
   };
   if (output.projectArn !== undefined && output.projectArn !== null) {
     contents.projectArn = output.projectArn;
@@ -2838,7 +2838,7 @@ const deserializeAws_json1_1DeleteUserProfileResult = (
 ): DeleteUserProfileResult => {
   let contents: any = {
     __type: "DeleteUserProfileResult",
-    userArn: undefined
+    userArn: undefined,
   };
   if (output.userArn !== undefined && output.userArn !== null) {
     contents.userArn = output.userArn;
@@ -2860,7 +2860,7 @@ const deserializeAws_json1_1DescribeProjectResult = (
     name: undefined,
     projectTemplateId: undefined,
     stackId: undefined,
-    status: undefined
+    status: undefined,
   };
   if (output.arn !== undefined && output.arn !== null) {
     contents.arn = output.arn;
@@ -2917,7 +2917,7 @@ const deserializeAws_json1_1DescribeUserProfileResult = (
     emailAddress: undefined,
     lastModifiedTimestamp: undefined,
     sshPublicKey: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (
     output.createdTimestamp !== undefined &&
@@ -2955,7 +2955,7 @@ const deserializeAws_json1_1DisassociateTeamMemberResult = (
   context: __SerdeContext
 ): DisassociateTeamMemberResult => {
   let contents: any = {
-    __type: "DisassociateTeamMemberResult"
+    __type: "DisassociateTeamMemberResult",
   };
   return contents;
 };
@@ -2966,7 +2966,7 @@ const deserializeAws_json1_1InvalidNextTokenException = (
 ): InvalidNextTokenException => {
   let contents: any = {
     __type: "InvalidNextTokenException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2980,7 +2980,7 @@ const deserializeAws_json1_1InvalidServiceRoleException = (
 ): InvalidServiceRoleException => {
   let contents: any = {
     __type: "InvalidServiceRoleException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -2994,7 +2994,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3009,7 +3009,7 @@ const deserializeAws_json1_1ListProjectsResult = (
   let contents: any = {
     __type: "ListProjectsResult",
     nextToken: undefined,
-    projects: undefined
+    projects: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -3030,7 +3030,7 @@ const deserializeAws_json1_1ListResourcesResult = (
   let contents: any = {
     __type: "ListResourcesResult",
     nextToken: undefined,
-    resources: undefined
+    resources: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -3051,7 +3051,7 @@ const deserializeAws_json1_1ListTagsForProjectResult = (
   let contents: any = {
     __type: "ListTagsForProjectResult",
     nextToken: undefined,
-    tags: undefined
+    tags: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -3069,7 +3069,7 @@ const deserializeAws_json1_1ListTeamMembersResult = (
   let contents: any = {
     __type: "ListTeamMembersResult",
     nextToken: undefined,
-    teamMembers: undefined
+    teamMembers: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -3090,7 +3090,7 @@ const deserializeAws_json1_1ListUserProfilesResult = (
   let contents: any = {
     __type: "ListUserProfilesResult",
     nextToken: undefined,
-    userProfiles: undefined
+    userProfiles: undefined,
   };
   if (output.nextToken !== undefined && output.nextToken !== null) {
     contents.nextToken = output.nextToken;
@@ -3110,7 +3110,7 @@ const deserializeAws_json1_1ProjectAlreadyExistsException = (
 ): ProjectAlreadyExistsException => {
   let contents: any = {
     __type: "ProjectAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3124,7 +3124,7 @@ const deserializeAws_json1_1ProjectConfigurationException = (
 ): ProjectConfigurationException => {
   let contents: any = {
     __type: "ProjectConfigurationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3138,7 +3138,7 @@ const deserializeAws_json1_1ProjectCreationFailedException = (
 ): ProjectCreationFailedException => {
   let contents: any = {
     __type: "ProjectCreationFailedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3152,7 +3152,7 @@ const deserializeAws_json1_1ProjectNotFoundException = (
 ): ProjectNotFoundException => {
   let contents: any = {
     __type: "ProjectNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3167,7 +3167,7 @@ const deserializeAws_json1_1ProjectStatus = (
   let contents: any = {
     __type: "ProjectStatus",
     reason: undefined,
-    state: undefined
+    state: undefined,
   };
   if (output.reason !== undefined && output.reason !== null) {
     contents.reason = output.reason;
@@ -3185,7 +3185,7 @@ const deserializeAws_json1_1ProjectSummary = (
   let contents: any = {
     __type: "ProjectSummary",
     projectArn: undefined,
-    projectId: undefined
+    projectId: undefined,
   };
   if (output.projectArn !== undefined && output.projectArn !== null) {
     contents.projectArn = output.projectArn;
@@ -3211,7 +3211,7 @@ const deserializeAws_json1_1Resource = (
 ): Resource => {
   let contents: any = {
     __type: "Resource",
-    id: undefined
+    id: undefined,
   };
   if (output.id !== undefined && output.id !== null) {
     contents.id = output.id;
@@ -3234,7 +3234,7 @@ const deserializeAws_json1_1TagProjectResult = (
 ): TagProjectResult => {
   let contents: any = {
     __type: "TagProjectResult",
-    tags: undefined
+    tags: undefined,
   };
   if (output.tags !== undefined && output.tags !== null) {
     contents.tags = deserializeAws_json1_1Tags(output.tags, context);
@@ -3247,7 +3247,7 @@ const deserializeAws_json1_1Tags = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -3261,7 +3261,7 @@ const deserializeAws_json1_1TeamMember = (
     __type: "TeamMember",
     projectRole: undefined,
     remoteAccessAllowed: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (output.projectRole !== undefined && output.projectRole !== null) {
     contents.projectRole = output.projectRole;
@@ -3284,7 +3284,7 @@ const deserializeAws_json1_1TeamMemberAlreadyAssociatedException = (
 ): TeamMemberAlreadyAssociatedException => {
   let contents: any = {
     __type: "TeamMemberAlreadyAssociatedException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3298,7 +3298,7 @@ const deserializeAws_json1_1TeamMemberNotFoundException = (
 ): TeamMemberNotFoundException => {
   let contents: any = {
     __type: "TeamMemberNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3320,7 +3320,7 @@ const deserializeAws_json1_1UntagProjectResult = (
   context: __SerdeContext
 ): UntagProjectResult => {
   let contents: any = {
-    __type: "UntagProjectResult"
+    __type: "UntagProjectResult",
   };
   return contents;
 };
@@ -3330,7 +3330,7 @@ const deserializeAws_json1_1UpdateProjectResult = (
   context: __SerdeContext
 ): UpdateProjectResult => {
   let contents: any = {
-    __type: "UpdateProjectResult"
+    __type: "UpdateProjectResult",
   };
   return contents;
 };
@@ -3343,7 +3343,7 @@ const deserializeAws_json1_1UpdateTeamMemberResult = (
     __type: "UpdateTeamMemberResult",
     projectRole: undefined,
     remoteAccessAllowed: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (output.projectRole !== undefined && output.projectRole !== null) {
     contents.projectRole = output.projectRole;
@@ -3371,7 +3371,7 @@ const deserializeAws_json1_1UpdateUserProfileResult = (
     emailAddress: undefined,
     lastModifiedTimestamp: undefined,
     sshPublicKey: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (
     output.createdTimestamp !== undefined &&
@@ -3410,7 +3410,7 @@ const deserializeAws_json1_1UserProfileAlreadyExistsException = (
 ): UserProfileAlreadyExistsException => {
   let contents: any = {
     __type: "UserProfileAlreadyExistsException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3424,7 +3424,7 @@ const deserializeAws_json1_1UserProfileNotFoundException = (
 ): UserProfileNotFoundException => {
   let contents: any = {
     __type: "UserProfileNotFoundException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3441,7 +3441,7 @@ const deserializeAws_json1_1UserProfileSummary = (
     displayName: undefined,
     emailAddress: undefined,
     sshPublicKey: undefined,
-    userArn: undefined
+    userArn: undefined,
   };
   if (output.displayName !== undefined && output.displayName !== null) {
     contents.displayName = output.displayName;
@@ -3473,7 +3473,7 @@ const deserializeAws_json1_1ValidationException = (
 ): ValidationException => {
   let contents: any = {
     __type: "ValidationException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -3484,7 +3484,7 @@ const deserializeAws_json1_1ValidationException = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -3505,7 +3505,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -3518,11 +3518,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -3534,7 +3534,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

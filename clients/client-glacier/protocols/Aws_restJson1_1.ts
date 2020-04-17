@@ -1,134 +1,134 @@
 import {
   AbortMultipartUploadCommandInput,
-  AbortMultipartUploadCommandOutput
+  AbortMultipartUploadCommandOutput,
 } from "../commands/AbortMultipartUploadCommand";
 import {
   AbortVaultLockCommandInput,
-  AbortVaultLockCommandOutput
+  AbortVaultLockCommandOutput,
 } from "../commands/AbortVaultLockCommand";
 import {
   AddTagsToVaultCommandInput,
-  AddTagsToVaultCommandOutput
+  AddTagsToVaultCommandOutput,
 } from "../commands/AddTagsToVaultCommand";
 import {
   CompleteMultipartUploadCommandInput,
-  CompleteMultipartUploadCommandOutput
+  CompleteMultipartUploadCommandOutput,
 } from "../commands/CompleteMultipartUploadCommand";
 import {
   CompleteVaultLockCommandInput,
-  CompleteVaultLockCommandOutput
+  CompleteVaultLockCommandOutput,
 } from "../commands/CompleteVaultLockCommand";
 import {
   CreateVaultCommandInput,
-  CreateVaultCommandOutput
+  CreateVaultCommandOutput,
 } from "../commands/CreateVaultCommand";
 import {
   DeleteArchiveCommandInput,
-  DeleteArchiveCommandOutput
+  DeleteArchiveCommandOutput,
 } from "../commands/DeleteArchiveCommand";
 import {
   DeleteVaultAccessPolicyCommandInput,
-  DeleteVaultAccessPolicyCommandOutput
+  DeleteVaultAccessPolicyCommandOutput,
 } from "../commands/DeleteVaultAccessPolicyCommand";
 import {
   DeleteVaultCommandInput,
-  DeleteVaultCommandOutput
+  DeleteVaultCommandOutput,
 } from "../commands/DeleteVaultCommand";
 import {
   DeleteVaultNotificationsCommandInput,
-  DeleteVaultNotificationsCommandOutput
+  DeleteVaultNotificationsCommandOutput,
 } from "../commands/DeleteVaultNotificationsCommand";
 import {
   DescribeJobCommandInput,
-  DescribeJobCommandOutput
+  DescribeJobCommandOutput,
 } from "../commands/DescribeJobCommand";
 import {
   DescribeVaultCommandInput,
-  DescribeVaultCommandOutput
+  DescribeVaultCommandOutput,
 } from "../commands/DescribeVaultCommand";
 import {
   GetDataRetrievalPolicyCommandInput,
-  GetDataRetrievalPolicyCommandOutput
+  GetDataRetrievalPolicyCommandOutput,
 } from "../commands/GetDataRetrievalPolicyCommand";
 import {
   GetJobOutputCommandInput,
-  GetJobOutputCommandOutput
+  GetJobOutputCommandOutput,
 } from "../commands/GetJobOutputCommand";
 import {
   GetVaultAccessPolicyCommandInput,
-  GetVaultAccessPolicyCommandOutput
+  GetVaultAccessPolicyCommandOutput,
 } from "../commands/GetVaultAccessPolicyCommand";
 import {
   GetVaultLockCommandInput,
-  GetVaultLockCommandOutput
+  GetVaultLockCommandOutput,
 } from "../commands/GetVaultLockCommand";
 import {
   GetVaultNotificationsCommandInput,
-  GetVaultNotificationsCommandOutput
+  GetVaultNotificationsCommandOutput,
 } from "../commands/GetVaultNotificationsCommand";
 import {
   InitiateJobCommandInput,
-  InitiateJobCommandOutput
+  InitiateJobCommandOutput,
 } from "../commands/InitiateJobCommand";
 import {
   InitiateMultipartUploadCommandInput,
-  InitiateMultipartUploadCommandOutput
+  InitiateMultipartUploadCommandOutput,
 } from "../commands/InitiateMultipartUploadCommand";
 import {
   InitiateVaultLockCommandInput,
-  InitiateVaultLockCommandOutput
+  InitiateVaultLockCommandOutput,
 } from "../commands/InitiateVaultLockCommand";
 import {
   ListJobsCommandInput,
-  ListJobsCommandOutput
+  ListJobsCommandOutput,
 } from "../commands/ListJobsCommand";
 import {
   ListMultipartUploadsCommandInput,
-  ListMultipartUploadsCommandOutput
+  ListMultipartUploadsCommandOutput,
 } from "../commands/ListMultipartUploadsCommand";
 import {
   ListPartsCommandInput,
-  ListPartsCommandOutput
+  ListPartsCommandOutput,
 } from "../commands/ListPartsCommand";
 import {
   ListProvisionedCapacityCommandInput,
-  ListProvisionedCapacityCommandOutput
+  ListProvisionedCapacityCommandOutput,
 } from "../commands/ListProvisionedCapacityCommand";
 import {
   ListTagsForVaultCommandInput,
-  ListTagsForVaultCommandOutput
+  ListTagsForVaultCommandOutput,
 } from "../commands/ListTagsForVaultCommand";
 import {
   ListVaultsCommandInput,
-  ListVaultsCommandOutput
+  ListVaultsCommandOutput,
 } from "../commands/ListVaultsCommand";
 import {
   PurchaseProvisionedCapacityCommandInput,
-  PurchaseProvisionedCapacityCommandOutput
+  PurchaseProvisionedCapacityCommandOutput,
 } from "../commands/PurchaseProvisionedCapacityCommand";
 import {
   RemoveTagsFromVaultCommandInput,
-  RemoveTagsFromVaultCommandOutput
+  RemoveTagsFromVaultCommandOutput,
 } from "../commands/RemoveTagsFromVaultCommand";
 import {
   SetDataRetrievalPolicyCommandInput,
-  SetDataRetrievalPolicyCommandOutput
+  SetDataRetrievalPolicyCommandOutput,
 } from "../commands/SetDataRetrievalPolicyCommand";
 import {
   SetVaultAccessPolicyCommandInput,
-  SetVaultAccessPolicyCommandOutput
+  SetVaultAccessPolicyCommandOutput,
 } from "../commands/SetVaultAccessPolicyCommand";
 import {
   SetVaultNotificationsCommandInput,
-  SetVaultNotificationsCommandOutput
+  SetVaultNotificationsCommandOutput,
 } from "../commands/SetVaultNotificationsCommand";
 import {
   UploadArchiveCommandInput,
-  UploadArchiveCommandOutput
+  UploadArchiveCommandOutput,
 } from "../commands/UploadArchiveCommand";
 import {
   UploadMultipartPartCommandInput,
-  UploadMultipartPartCommandOutput
+  UploadMultipartPartCommandOutput,
 } from "../commands/UploadMultipartPartCommand";
 import {
   CSVInput,
@@ -161,21 +161,21 @@ import {
   UploadListElement,
   VaultAccessPolicy,
   VaultLockPolicy,
-  VaultNotificationConfig
+  VaultNotificationConfig,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1AbortMultipartUploadCommand(
@@ -224,12 +224,12 @@ export async function serializeAws_restJson1_1AbortMultipartUploadCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -266,12 +266,12 @@ export async function serializeAws_restJson1_1AbortVaultLockCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -307,7 +307,7 @@ export async function serializeAws_restJson1_1AddTagsToVaultCommand(
     throw new Error("No value provided for input HTTP label: vaultName.");
   }
   const query: any = {
-    operation: "add"
+    operation: "add",
   };
   let body: any;
   const bodyParams: any = {};
@@ -316,13 +316,13 @@ export async function serializeAws_restJson1_1AddTagsToVaultCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -378,12 +378,12 @@ export async function serializeAws_restJson1_1CompleteMultipartUploadCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -432,12 +432,12 @@ export async function serializeAws_restJson1_1CompleteVaultLockCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -474,12 +474,12 @@ export async function serializeAws_restJson1_1CreateVaultCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -528,12 +528,12 @@ export async function serializeAws_restJson1_1DeleteArchiveCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -570,12 +570,12 @@ export async function serializeAws_restJson1_1DeleteVaultCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -612,12 +612,12 @@ export async function serializeAws_restJson1_1DeleteVaultAccessPolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -655,12 +655,12 @@ export async function serializeAws_restJson1_1DeleteVaultNotificationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -709,12 +709,12 @@ export async function serializeAws_restJson1_1DescribeJobCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -751,12 +751,12 @@ export async function serializeAws_restJson1_1DescribeVaultCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -781,12 +781,12 @@ export async function serializeAws_restJson1_1GetDataRetrievalPolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -838,12 +838,12 @@ export async function serializeAws_restJson1_1GetJobOutputCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -880,12 +880,12 @@ export async function serializeAws_restJson1_1GetVaultAccessPolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -922,12 +922,12 @@ export async function serializeAws_restJson1_1GetVaultLockCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -965,12 +965,12 @@ export async function serializeAws_restJson1_1GetVaultNotificationsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1014,12 +1014,12 @@ export async function serializeAws_restJson1_1InitiateJobCommand(
   }
   body = JSON.stringify(body);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1062,12 +1062,12 @@ export async function serializeAws_restJson1_1InitiateMultipartUploadCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1111,12 +1111,12 @@ export async function serializeAws_restJson1_1InitiateVaultLockCommand(
   }
   body = JSON.stringify(body);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1166,13 +1166,13 @@ export async function serializeAws_restJson1_1ListJobsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1216,13 +1216,13 @@ export async function serializeAws_restJson1_1ListMultipartUploadsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1279,13 +1279,13 @@ export async function serializeAws_restJson1_1ListPartsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1310,12 +1310,12 @@ export async function serializeAws_restJson1_1ListProvisionedCapacityCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1352,12 +1352,12 @@ export async function serializeAws_restJson1_1ListTagsForVaultCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1389,13 +1389,13 @@ export async function serializeAws_restJson1_1ListVaultsCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1420,12 +1420,12 @@ export async function serializeAws_restJson1_1PurchaseProvisionedCapacityCommand
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1461,7 +1461,7 @@ export async function serializeAws_restJson1_1RemoveTagsFromVaultCommand(
     throw new Error("No value provided for input HTTP label: vaultName.");
   }
   const query: any = {
-    operation: "remove"
+    operation: "remove",
   };
   let body: any;
   const bodyParams: any = {};
@@ -1473,13 +1473,13 @@ export async function serializeAws_restJson1_1RemoveTagsFromVaultCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1512,12 +1512,12 @@ export async function serializeAws_restJson1_1SetDataRetrievalPolicyCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1561,12 +1561,12 @@ export async function serializeAws_restJson1_1SetVaultAccessPolicyCommand(
   }
   body = JSON.stringify(body);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1614,12 +1614,12 @@ export async function serializeAws_restJson1_1SetVaultNotificationsCommand(
   }
   body = JSON.stringify(body);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1665,12 +1665,12 @@ export async function serializeAws_restJson1_1UploadArchiveCommand(
     body = input.body;
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1729,12 +1729,12 @@ export async function serializeAws_restJson1_1UploadMultipartPartCommand(
     body = input.body;
   }
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PUT",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -1749,7 +1749,7 @@ export async function deserializeAws_restJson1_1AbortMultipartUploadCommand(
     );
   }
   const contents: AbortMultipartUploadCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1761,7 +1761,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
 ): Promise<AbortMultipartUploadCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1775,7 +1775,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -1786,7 +1786,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1797,7 +1797,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1808,7 +1808,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1819,7 +1819,7 @@ async function deserializeAws_restJson1_1AbortMultipartUploadCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1839,7 +1839,7 @@ export async function deserializeAws_restJson1_1AbortVaultLockCommand(
     );
   }
   const contents: AbortVaultLockCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1851,7 +1851,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
 ): Promise<AbortVaultLockCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1865,7 +1865,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -1876,7 +1876,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1887,7 +1887,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1898,7 +1898,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1909,7 +1909,7 @@ async function deserializeAws_restJson1_1AbortVaultLockCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1929,7 +1929,7 @@ export async function deserializeAws_restJson1_1AddTagsToVaultCommand(
     );
   }
   const contents: AddTagsToVaultCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1941,7 +1941,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
 ): Promise<AddTagsToVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1955,7 +1955,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1966,7 +1966,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -1977,7 +1977,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1988,7 +1988,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -1999,7 +1999,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2010,7 +2010,7 @@ async function deserializeAws_restJson1_1AddTagsToVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2034,7 +2034,7 @@ export async function deserializeAws_restJson1_1CompleteMultipartUploadCommand(
     __type: "ArchiveCreationOutput",
     archiveId: undefined,
     checksum: undefined,
-    location: undefined
+    location: undefined,
   };
   if (output.headers["x-amz-archive-id"] !== undefined) {
     contents.archiveId = output.headers["x-amz-archive-id"];
@@ -2055,7 +2055,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
 ): Promise<CompleteMultipartUploadCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2069,7 +2069,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2080,7 +2080,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2091,7 +2091,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2102,7 +2102,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2113,7 +2113,7 @@ async function deserializeAws_restJson1_1CompleteMultipartUploadCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2133,7 +2133,7 @@ export async function deserializeAws_restJson1_1CompleteVaultLockCommand(
     );
   }
   const contents: CompleteVaultLockCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2145,7 +2145,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
 ): Promise<CompleteVaultLockCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2159,7 +2159,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2170,7 +2170,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2181,7 +2181,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2192,7 +2192,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2203,7 +2203,7 @@ async function deserializeAws_restJson1_1CompleteVaultLockCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2222,7 +2222,7 @@ export async function deserializeAws_restJson1_1CreateVaultCommand(
   const contents: CreateVaultCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateVaultOutput",
-    location: undefined
+    location: undefined,
   };
   if (output.headers["location"] !== undefined) {
     contents.location = output.headers["location"];
@@ -2237,7 +2237,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
 ): Promise<CreateVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2251,7 +2251,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2262,7 +2262,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2273,7 +2273,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2284,7 +2284,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2295,7 +2295,7 @@ async function deserializeAws_restJson1_1CreateVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2312,7 +2312,7 @@ export async function deserializeAws_restJson1_1DeleteArchiveCommand(
     return deserializeAws_restJson1_1DeleteArchiveCommandError(output, context);
   }
   const contents: DeleteArchiveCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2324,7 +2324,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
 ): Promise<DeleteArchiveCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2338,7 +2338,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2349,7 +2349,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2360,7 +2360,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2371,7 +2371,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2382,7 +2382,7 @@ async function deserializeAws_restJson1_1DeleteArchiveCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2399,7 +2399,7 @@ export async function deserializeAws_restJson1_1DeleteVaultCommand(
     return deserializeAws_restJson1_1DeleteVaultCommandError(output, context);
   }
   const contents: DeleteVaultCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2411,7 +2411,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
 ): Promise<DeleteVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2425,7 +2425,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2436,7 +2436,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2447,7 +2447,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2458,7 +2458,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2469,7 +2469,7 @@ async function deserializeAws_restJson1_1DeleteVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2489,7 +2489,7 @@ export async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommand(
     );
   }
   const contents: DeleteVaultAccessPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2501,7 +2501,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
 ): Promise<DeleteVaultAccessPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2515,7 +2515,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2526,7 +2526,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2537,7 +2537,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2548,7 +2548,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2559,7 +2559,7 @@ async function deserializeAws_restJson1_1DeleteVaultAccessPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2579,7 +2579,7 @@ export async function deserializeAws_restJson1_1DeleteVaultNotificationsCommand(
     );
   }
   const contents: DeleteVaultNotificationsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -2591,7 +2591,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
 ): Promise<DeleteVaultNotificationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2605,7 +2605,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2616,7 +2616,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2627,7 +2627,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2638,7 +2638,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2649,7 +2649,7 @@ async function deserializeAws_restJson1_1DeleteVaultNotificationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2688,7 +2688,7 @@ export async function deserializeAws_restJson1_1DescribeJobCommand(
     StatusCode: undefined,
     StatusMessage: undefined,
     Tier: undefined,
-    VaultARN: undefined
+    VaultARN: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Action !== undefined && data.Action !== null) {
@@ -2787,7 +2787,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
 ): Promise<DescribeJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2801,7 +2801,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2812,7 +2812,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2823,7 +2823,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2834,7 +2834,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2845,7 +2845,7 @@ async function deserializeAws_restJson1_1DescribeJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2869,7 +2869,7 @@ export async function deserializeAws_restJson1_1DescribeVaultCommand(
     NumberOfArchives: undefined,
     SizeInBytes: undefined,
     VaultARN: undefined,
-    VaultName: undefined
+    VaultName: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.CreationDate !== undefined && data.CreationDate !== null) {
@@ -2899,7 +2899,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
 ): Promise<DescribeVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2913,7 +2913,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -2924,7 +2924,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2935,7 +2935,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -2946,7 +2946,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2957,7 +2957,7 @@ async function deserializeAws_restJson1_1DescribeVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2979,7 +2979,7 @@ export async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommand(
   const contents: GetDataRetrievalPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetDataRetrievalPolicyOutput",
-    Policy: undefined
+    Policy: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Policy !== undefined && data.Policy !== null) {
@@ -2997,7 +2997,7 @@ async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommandError(
 ): Promise<GetDataRetrievalPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3011,7 +3011,7 @@ async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3022,7 +3022,7 @@ async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3033,7 +3033,7 @@ async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3044,7 +3044,7 @@ async function deserializeAws_restJson1_1GetDataRetrievalPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3068,7 +3068,7 @@ export async function deserializeAws_restJson1_1GetJobOutputCommand(
     body: undefined,
     checksum: undefined,
     contentRange: undefined,
-    contentType: undefined
+    contentType: undefined,
   };
   if (output.headers["accept-ranges"] !== undefined) {
     contents.acceptRanges = output.headers["accept-ranges"];
@@ -3096,7 +3096,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
 ): Promise<GetJobOutputCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3110,7 +3110,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3121,7 +3121,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3132,7 +3132,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3143,7 +3143,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3154,7 +3154,7 @@ async function deserializeAws_restJson1_1GetJobOutputCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3176,7 +3176,7 @@ export async function deserializeAws_restJson1_1GetVaultAccessPolicyCommand(
   const contents: GetVaultAccessPolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetVaultAccessPolicyOutput",
-    policy: undefined
+    policy: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.policy = deserializeAws_restJson1_1VaultAccessPolicy(data, context);
@@ -3189,7 +3189,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
 ): Promise<GetVaultAccessPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3203,7 +3203,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3214,7 +3214,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3225,7 +3225,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3236,7 +3236,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3247,7 +3247,7 @@ async function deserializeAws_restJson1_1GetVaultAccessPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3269,7 +3269,7 @@ export async function deserializeAws_restJson1_1GetVaultLockCommand(
     CreationDate: undefined,
     ExpirationDate: undefined,
     Policy: undefined,
-    State: undefined
+    State: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.CreationDate !== undefined && data.CreationDate !== null) {
@@ -3293,7 +3293,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
 ): Promise<GetVaultLockCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3307,7 +3307,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3318,7 +3318,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3329,7 +3329,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3340,7 +3340,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3351,7 +3351,7 @@ async function deserializeAws_restJson1_1GetVaultLockCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3373,7 +3373,7 @@ export async function deserializeAws_restJson1_1GetVaultNotificationsCommand(
   const contents: GetVaultNotificationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetVaultNotificationsOutput",
-    vaultNotificationConfig: undefined
+    vaultNotificationConfig: undefined,
   };
   const data: any = await parseBody(output.body, context);
   contents.vaultNotificationConfig = deserializeAws_restJson1_1VaultNotificationConfig(
@@ -3389,7 +3389,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
 ): Promise<GetVaultNotificationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3403,7 +3403,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3414,7 +3414,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3425,7 +3425,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3436,7 +3436,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3447,7 +3447,7 @@ async function deserializeAws_restJson1_1GetVaultNotificationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3468,7 +3468,7 @@ export async function deserializeAws_restJson1_1InitiateJobCommand(
     __type: "InitiateJobOutput",
     jobId: undefined,
     jobOutputPath: undefined,
-    location: undefined
+    location: undefined,
   };
   if (output.headers["x-amz-job-id"] !== undefined) {
     contents.jobId = output.headers["x-amz-job-id"];
@@ -3489,7 +3489,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
 ): Promise<InitiateJobCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3503,7 +3503,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterValueException":
@@ -3514,7 +3514,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3525,7 +3525,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "PolicyEnforcedException":
@@ -3536,7 +3536,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3547,7 +3547,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3558,7 +3558,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3569,7 +3569,7 @@ async function deserializeAws_restJson1_1InitiateJobCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3592,7 +3592,7 @@ export async function deserializeAws_restJson1_1InitiateMultipartUploadCommand(
     $metadata: deserializeMetadata(output),
     __type: "InitiateMultipartUploadOutput",
     location: undefined,
-    uploadId: undefined
+    uploadId: undefined,
   };
   if (output.headers["location"] !== undefined) {
     contents.location = output.headers["location"];
@@ -3610,7 +3610,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
 ): Promise<InitiateMultipartUploadCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3624,7 +3624,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3635,7 +3635,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3646,7 +3646,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3657,7 +3657,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3668,7 +3668,7 @@ async function deserializeAws_restJson1_1InitiateMultipartUploadCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3690,7 +3690,7 @@ export async function deserializeAws_restJson1_1InitiateVaultLockCommand(
   const contents: InitiateVaultLockCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "InitiateVaultLockOutput",
-    lockId: undefined
+    lockId: undefined,
   };
   if (output.headers["x-amz-lock-id"] !== undefined) {
     contents.lockId = output.headers["x-amz-lock-id"];
@@ -3705,7 +3705,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
 ): Promise<InitiateVaultLockCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3719,7 +3719,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3730,7 +3730,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3741,7 +3741,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3752,7 +3752,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3763,7 +3763,7 @@ async function deserializeAws_restJson1_1InitiateVaultLockCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3783,7 +3783,7 @@ export async function deserializeAws_restJson1_1ListJobsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListJobsOutput",
     JobList: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.JobList !== undefined && data.JobList !== null) {
@@ -3801,7 +3801,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
 ): Promise<ListJobsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3815,7 +3815,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3826,7 +3826,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3837,7 +3837,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3848,7 +3848,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3859,7 +3859,7 @@ async function deserializeAws_restJson1_1ListJobsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3882,7 +3882,7 @@ export async function deserializeAws_restJson1_1ListMultipartUploadsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListMultipartUploadsOutput",
     Marker: undefined,
-    UploadsList: undefined
+    UploadsList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Marker !== undefined && data.Marker !== null) {
@@ -3903,7 +3903,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
 ): Promise<ListMultipartUploadsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3917,7 +3917,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -3928,7 +3928,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3939,7 +3939,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -3950,7 +3950,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3961,7 +3961,7 @@ async function deserializeAws_restJson1_1ListMultipartUploadsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3986,7 +3986,7 @@ export async function deserializeAws_restJson1_1ListPartsCommand(
     MultipartUploadId: undefined,
     PartSizeInBytes: undefined,
     Parts: undefined,
-    VaultARN: undefined
+    VaultARN: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -4022,7 +4022,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
 ): Promise<ListPartsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4036,7 +4036,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4047,7 +4047,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4058,7 +4058,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4069,7 +4069,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4080,7 +4080,7 @@ async function deserializeAws_restJson1_1ListPartsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4102,7 +4102,7 @@ export async function deserializeAws_restJson1_1ListProvisionedCapacityCommand(
   const contents: ListProvisionedCapacityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListProvisionedCapacityOutput",
-    ProvisionedCapacityList: undefined
+    ProvisionedCapacityList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (
@@ -4123,7 +4123,7 @@ async function deserializeAws_restJson1_1ListProvisionedCapacityCommandError(
 ): Promise<ListProvisionedCapacityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4137,7 +4137,7 @@ async function deserializeAws_restJson1_1ListProvisionedCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4148,7 +4148,7 @@ async function deserializeAws_restJson1_1ListProvisionedCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4159,7 +4159,7 @@ async function deserializeAws_restJson1_1ListProvisionedCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4170,7 +4170,7 @@ async function deserializeAws_restJson1_1ListProvisionedCapacityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4192,7 +4192,7 @@ export async function deserializeAws_restJson1_1ListTagsForVaultCommand(
   const contents: ListTagsForVaultCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForVaultOutput",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Tags !== undefined && data.Tags !== null) {
@@ -4207,7 +4207,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
 ): Promise<ListTagsForVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4221,7 +4221,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4232,7 +4232,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4243,7 +4243,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4254,7 +4254,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4265,7 +4265,7 @@ async function deserializeAws_restJson1_1ListTagsForVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4285,7 +4285,7 @@ export async function deserializeAws_restJson1_1ListVaultsCommand(
     $metadata: deserializeMetadata(output),
     __type: "ListVaultsOutput",
     Marker: undefined,
-    VaultList: undefined
+    VaultList: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Marker !== undefined && data.Marker !== null) {
@@ -4306,7 +4306,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
 ): Promise<ListVaultsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4320,7 +4320,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4331,7 +4331,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4342,7 +4342,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4353,7 +4353,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4364,7 +4364,7 @@ async function deserializeAws_restJson1_1ListVaultsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4386,7 +4386,7 @@ export async function deserializeAws_restJson1_1PurchaseProvisionedCapacityComma
   const contents: PurchaseProvisionedCapacityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PurchaseProvisionedCapacityOutput",
-    capacityId: undefined
+    capacityId: undefined,
   };
   if (output.headers["x-amz-capacity-id"] !== undefined) {
     contents.capacityId = output.headers["x-amz-capacity-id"];
@@ -4401,7 +4401,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
 ): Promise<PurchaseProvisionedCapacityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4415,7 +4415,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -4426,7 +4426,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4437,7 +4437,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4448,7 +4448,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4459,7 +4459,7 @@ async function deserializeAws_restJson1_1PurchaseProvisionedCapacityCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4479,7 +4479,7 @@ export async function deserializeAws_restJson1_1RemoveTagsFromVaultCommand(
     );
   }
   const contents: RemoveTagsFromVaultCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4491,7 +4491,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
 ): Promise<RemoveTagsFromVaultCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4505,7 +4505,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4516,7 +4516,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4527,7 +4527,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4538,7 +4538,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4549,7 +4549,7 @@ async function deserializeAws_restJson1_1RemoveTagsFromVaultCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4569,7 +4569,7 @@ export async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommand(
     );
   }
   const contents: SetDataRetrievalPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4581,7 +4581,7 @@ async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommandError(
 ): Promise<SetDataRetrievalPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4595,7 +4595,7 @@ async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4606,7 +4606,7 @@ async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4617,7 +4617,7 @@ async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4628,7 +4628,7 @@ async function deserializeAws_restJson1_1SetDataRetrievalPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4648,7 +4648,7 @@ export async function deserializeAws_restJson1_1SetVaultAccessPolicyCommand(
     );
   }
   const contents: SetVaultAccessPolicyCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4660,7 +4660,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
 ): Promise<SetVaultAccessPolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4674,7 +4674,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4685,7 +4685,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4696,7 +4696,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4707,7 +4707,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4718,7 +4718,7 @@ async function deserializeAws_restJson1_1SetVaultAccessPolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4738,7 +4738,7 @@ export async function deserializeAws_restJson1_1SetVaultNotificationsCommand(
     );
   }
   const contents: SetVaultNotificationsCommandOutput = {
-    $metadata: deserializeMetadata(output)
+    $metadata: deserializeMetadata(output),
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -4750,7 +4750,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
 ): Promise<SetVaultNotificationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4764,7 +4764,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4775,7 +4775,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4786,7 +4786,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4797,7 +4797,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4808,7 +4808,7 @@ async function deserializeAws_restJson1_1SetVaultNotificationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4829,7 +4829,7 @@ export async function deserializeAws_restJson1_1UploadArchiveCommand(
     __type: "ArchiveCreationOutput",
     archiveId: undefined,
     checksum: undefined,
-    location: undefined
+    location: undefined,
   };
   if (output.headers["x-amz-archive-id"] !== undefined) {
     contents.archiveId = output.headers["x-amz-archive-id"];
@@ -4850,7 +4850,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
 ): Promise<UploadArchiveCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4864,7 +4864,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4875,7 +4875,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestTimeoutException":
@@ -4886,7 +4886,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4897,7 +4897,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -4908,7 +4908,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4919,7 +4919,7 @@ async function deserializeAws_restJson1_1UploadArchiveCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4941,7 +4941,7 @@ export async function deserializeAws_restJson1_1UploadMultipartPartCommand(
   const contents: UploadMultipartPartCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UploadMultipartPartOutput",
-    checksum: undefined
+    checksum: undefined,
   };
   if (output.headers["x-amz-sha256-tree-hash"] !== undefined) {
     contents.checksum = output.headers["x-amz-sha256-tree-hash"];
@@ -4956,7 +4956,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
 ): Promise<UploadMultipartPartCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4970,7 +4970,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "MissingParameterValueException":
@@ -4981,7 +4981,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "RequestTimeoutException":
@@ -4992,7 +4992,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -5003,7 +5003,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableException":
@@ -5014,7 +5014,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5025,7 +5025,7 @@ async function deserializeAws_restJson1_1UploadMultipartPartCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5044,7 +5044,7 @@ const deserializeAws_restJson1_1InsufficientCapacityExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5069,7 +5069,7 @@ const deserializeAws_restJson1_1InvalidParameterValueExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5094,7 +5094,7 @@ const deserializeAws_restJson1_1LimitExceededExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5119,7 +5119,7 @@ const deserializeAws_restJson1_1MissingParameterValueExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5144,7 +5144,7 @@ const deserializeAws_restJson1_1PolicyEnforcedExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5169,7 +5169,7 @@ const deserializeAws_restJson1_1RequestTimeoutExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5194,7 +5194,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5219,7 +5219,7 @@ const deserializeAws_restJson1_1ServiceUnavailableExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     code: undefined,
     message: undefined,
-    type: undefined
+    type: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.code !== undefined && data.code !== null) {
@@ -5465,7 +5465,7 @@ const serializeAws_restJson1_1hashmap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -5606,7 +5606,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -5671,7 +5671,7 @@ const deserializeAws_restJson1_1CSVInput = (
     FileHeaderInfo: undefined,
     QuoteCharacter: undefined,
     QuoteEscapeCharacter: undefined,
-    RecordDelimiter: undefined
+    RecordDelimiter: undefined,
   };
   if (output.Comments !== undefined && output.Comments !== null) {
     contents.Comments = output.Comments;
@@ -5707,7 +5707,7 @@ const deserializeAws_restJson1_1CSVOutput = (
     QuoteCharacter: undefined,
     QuoteEscapeCharacter: undefined,
     QuoteFields: undefined,
-    RecordDelimiter: undefined
+    RecordDelimiter: undefined,
   };
   if (output.FieldDelimiter !== undefined && output.FieldDelimiter !== null) {
     contents.FieldDelimiter = output.FieldDelimiter;
@@ -5738,7 +5738,7 @@ const deserializeAws_restJson1_1Encryption = (
     __type: "Encryption",
     EncryptionType: undefined,
     KMSContext: undefined,
-    KMSKeyId: undefined
+    KMSKeyId: undefined,
   };
   if (output.EncryptionType !== undefined && output.EncryptionType !== null) {
     contents.EncryptionType = output.EncryptionType;
@@ -5778,7 +5778,7 @@ const deserializeAws_restJson1_1GlacierJobDescription = (
     StatusCode: undefined,
     StatusMessage: undefined,
     Tier: undefined,
-    VaultARN: undefined
+    VaultARN: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = output.Action;
@@ -5880,7 +5880,7 @@ const deserializeAws_restJson1_1Grant = (
   let contents: any = {
     __type: "Grant",
     Grantee: undefined,
-    Permission: undefined
+    Permission: undefined,
   };
   if (output.Grantee !== undefined && output.Grantee !== null) {
     contents.Grantee = deserializeAws_restJson1_1Grantee(
@@ -5904,7 +5904,7 @@ const deserializeAws_restJson1_1Grantee = (
     EmailAddress: undefined,
     ID: undefined,
     Type: undefined,
-    URI: undefined
+    URI: undefined,
   };
   if (output.DisplayName !== undefined && output.DisplayName !== null) {
     contents.DisplayName = output.DisplayName;
@@ -5930,7 +5930,7 @@ const deserializeAws_restJson1_1InputSerialization = (
 ): InputSerialization => {
   let contents: any = {
     __type: "InputSerialization",
-    csv: undefined
+    csv: undefined,
   };
   if (output.csv !== undefined && output.csv !== null) {
     contents.csv = deserializeAws_restJson1_1CSVInput(output.csv, context);
@@ -5948,7 +5948,7 @@ const deserializeAws_restJson1_1InventoryRetrievalJobDescription = (
     Format: undefined,
     Limit: undefined,
     Marker: undefined,
-    StartDate: undefined
+    StartDate: undefined,
   };
   if (output.EndDate !== undefined && output.EndDate !== null) {
     contents.EndDate = output.EndDate;
@@ -5974,7 +5974,7 @@ const deserializeAws_restJson1_1OutputLocation = (
 ): OutputLocation => {
   let contents: any = {
     __type: "OutputLocation",
-    S3: undefined
+    S3: undefined,
   };
   if (output.S3 !== undefined && output.S3 !== null) {
     contents.S3 = deserializeAws_restJson1_1S3Location(output.S3, context);
@@ -5988,7 +5988,7 @@ const deserializeAws_restJson1_1OutputSerialization = (
 ): OutputSerialization => {
   let contents: any = {
     __type: "OutputSerialization",
-    csv: undefined
+    csv: undefined,
   };
   if (output.csv !== undefined && output.csv !== null) {
     contents.csv = deserializeAws_restJson1_1CSVOutput(output.csv, context);
@@ -6009,7 +6009,7 @@ const deserializeAws_restJson1_1S3Location = (
     Prefix: undefined,
     StorageClass: undefined,
     Tagging: undefined,
-    UserMetadata: undefined
+    UserMetadata: undefined,
   };
   if (
     output.AccessControlList !== undefined &&
@@ -6062,7 +6062,7 @@ const deserializeAws_restJson1_1SelectParameters = (
     Expression: undefined,
     ExpressionType: undefined,
     InputSerialization: undefined,
-    OutputSerialization: undefined
+    OutputSerialization: undefined,
   };
   if (output.Expression !== undefined && output.Expression !== null) {
     contents.Expression = output.Expression;
@@ -6096,7 +6096,7 @@ const deserializeAws_restJson1_1hashmap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -6108,7 +6108,7 @@ const deserializeAws_restJson1_1DataRetrievalPolicy = (
 ): DataRetrievalPolicy => {
   let contents: any = {
     __type: "DataRetrievalPolicy",
-    Rules: undefined
+    Rules: undefined,
   };
   if (output.Rules !== undefined && output.Rules !== null) {
     contents.Rules = deserializeAws_restJson1_1DataRetrievalRulesList(
@@ -6126,7 +6126,7 @@ const deserializeAws_restJson1_1DataRetrievalRule = (
   let contents: any = {
     __type: "DataRetrievalRule",
     BytesPerHour: undefined,
-    Strategy: undefined
+    Strategy: undefined,
   };
   if (output.BytesPerHour !== undefined && output.BytesPerHour !== null) {
     contents.BytesPerHour = output.BytesPerHour;
@@ -6157,7 +6157,7 @@ const deserializeAws_restJson1_1DescribeVaultOutput = (
     NumberOfArchives: undefined,
     SizeInBytes: undefined,
     VaultARN: undefined,
-    VaultName: undefined
+    VaultName: undefined,
   };
   if (output.CreationDate !== undefined && output.CreationDate !== null) {
     contents.CreationDate = output.CreationDate;
@@ -6218,7 +6218,7 @@ const deserializeAws_restJson1_1PartListElement = (
   let contents: any = {
     __type: "PartListElement",
     RangeInBytes: undefined,
-    SHA256TreeHash: undefined
+    SHA256TreeHash: undefined,
   };
   if (output.RangeInBytes !== undefined && output.RangeInBytes !== null) {
     contents.RangeInBytes = output.RangeInBytes;
@@ -6237,7 +6237,7 @@ const deserializeAws_restJson1_1ProvisionedCapacityDescription = (
     __type: "ProvisionedCapacityDescription",
     CapacityId: undefined,
     ExpirationDate: undefined,
-    StartDate: undefined
+    StartDate: undefined,
   };
   if (output.CapacityId !== undefined && output.CapacityId !== null) {
     contents.CapacityId = output.CapacityId;
@@ -6265,7 +6265,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -6281,7 +6281,7 @@ const deserializeAws_restJson1_1UploadListElement = (
     CreationDate: undefined,
     MultipartUploadId: undefined,
     PartSizeInBytes: undefined,
-    VaultARN: undefined
+    VaultARN: undefined,
   };
   if (
     output.ArchiveDescription !== undefined &&
@@ -6322,7 +6322,7 @@ const deserializeAws_restJson1_1VaultAccessPolicy = (
 ): VaultAccessPolicy => {
   let contents: any = {
     __type: "VaultAccessPolicy",
-    Policy: undefined
+    Policy: undefined,
   };
   if (output.Policy !== undefined && output.Policy !== null) {
     contents.Policy = output.Policy;
@@ -6346,7 +6346,7 @@ const deserializeAws_restJson1_1VaultNotificationConfig = (
   let contents: any = {
     __type: "VaultNotificationConfig",
     Events: undefined,
-    SNSTopic: undefined
+    SNSTopic: undefined,
   };
   if (output.Events !== undefined && output.Events !== null) {
     contents.Events = deserializeAws_restJson1_1NotificationEventList(
@@ -6363,7 +6363,7 @@ const deserializeAws_restJson1_1VaultNotificationConfig = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -6384,13 +6384,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -6403,7 +6403,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

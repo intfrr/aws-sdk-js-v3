@@ -1,190 +1,190 @@
 import {
   AssociateFleetCommandInput,
-  AssociateFleetCommandOutput
+  AssociateFleetCommandOutput,
 } from "../commands/AssociateFleetCommand";
 import {
   BatchAssociateUserStackCommandInput,
-  BatchAssociateUserStackCommandOutput
+  BatchAssociateUserStackCommandOutput,
 } from "../commands/BatchAssociateUserStackCommand";
 import {
   BatchDisassociateUserStackCommandInput,
-  BatchDisassociateUserStackCommandOutput
+  BatchDisassociateUserStackCommandOutput,
 } from "../commands/BatchDisassociateUserStackCommand";
 import {
   CopyImageCommandInput,
-  CopyImageCommandOutput
+  CopyImageCommandOutput,
 } from "../commands/CopyImageCommand";
 import {
   CreateDirectoryConfigCommandInput,
-  CreateDirectoryConfigCommandOutput
+  CreateDirectoryConfigCommandOutput,
 } from "../commands/CreateDirectoryConfigCommand";
 import {
   CreateFleetCommandInput,
-  CreateFleetCommandOutput
+  CreateFleetCommandOutput,
 } from "../commands/CreateFleetCommand";
 import {
   CreateImageBuilderCommandInput,
-  CreateImageBuilderCommandOutput
+  CreateImageBuilderCommandOutput,
 } from "../commands/CreateImageBuilderCommand";
 import {
   CreateImageBuilderStreamingURLCommandInput,
-  CreateImageBuilderStreamingURLCommandOutput
+  CreateImageBuilderStreamingURLCommandOutput,
 } from "../commands/CreateImageBuilderStreamingURLCommand";
 import {
   CreateStackCommandInput,
-  CreateStackCommandOutput
+  CreateStackCommandOutput,
 } from "../commands/CreateStackCommand";
 import {
   CreateStreamingURLCommandInput,
-  CreateStreamingURLCommandOutput
+  CreateStreamingURLCommandOutput,
 } from "../commands/CreateStreamingURLCommand";
 import {
   CreateUsageReportSubscriptionCommandInput,
-  CreateUsageReportSubscriptionCommandOutput
+  CreateUsageReportSubscriptionCommandOutput,
 } from "../commands/CreateUsageReportSubscriptionCommand";
 import {
   CreateUserCommandInput,
-  CreateUserCommandOutput
+  CreateUserCommandOutput,
 } from "../commands/CreateUserCommand";
 import {
   DeleteDirectoryConfigCommandInput,
-  DeleteDirectoryConfigCommandOutput
+  DeleteDirectoryConfigCommandOutput,
 } from "../commands/DeleteDirectoryConfigCommand";
 import {
   DeleteFleetCommandInput,
-  DeleteFleetCommandOutput
+  DeleteFleetCommandOutput,
 } from "../commands/DeleteFleetCommand";
 import {
   DeleteImageBuilderCommandInput,
-  DeleteImageBuilderCommandOutput
+  DeleteImageBuilderCommandOutput,
 } from "../commands/DeleteImageBuilderCommand";
 import {
   DeleteImageCommandInput,
-  DeleteImageCommandOutput
+  DeleteImageCommandOutput,
 } from "../commands/DeleteImageCommand";
 import {
   DeleteImagePermissionsCommandInput,
-  DeleteImagePermissionsCommandOutput
+  DeleteImagePermissionsCommandOutput,
 } from "../commands/DeleteImagePermissionsCommand";
 import {
   DeleteStackCommandInput,
-  DeleteStackCommandOutput
+  DeleteStackCommandOutput,
 } from "../commands/DeleteStackCommand";
 import {
   DeleteUsageReportSubscriptionCommandInput,
-  DeleteUsageReportSubscriptionCommandOutput
+  DeleteUsageReportSubscriptionCommandOutput,
 } from "../commands/DeleteUsageReportSubscriptionCommand";
 import {
   DeleteUserCommandInput,
-  DeleteUserCommandOutput
+  DeleteUserCommandOutput,
 } from "../commands/DeleteUserCommand";
 import {
   DescribeDirectoryConfigsCommandInput,
-  DescribeDirectoryConfigsCommandOutput
+  DescribeDirectoryConfigsCommandOutput,
 } from "../commands/DescribeDirectoryConfigsCommand";
 import {
   DescribeFleetsCommandInput,
-  DescribeFleetsCommandOutput
+  DescribeFleetsCommandOutput,
 } from "../commands/DescribeFleetsCommand";
 import {
   DescribeImageBuildersCommandInput,
-  DescribeImageBuildersCommandOutput
+  DescribeImageBuildersCommandOutput,
 } from "../commands/DescribeImageBuildersCommand";
 import {
   DescribeImagePermissionsCommandInput,
-  DescribeImagePermissionsCommandOutput
+  DescribeImagePermissionsCommandOutput,
 } from "../commands/DescribeImagePermissionsCommand";
 import {
   DescribeImagesCommandInput,
-  DescribeImagesCommandOutput
+  DescribeImagesCommandOutput,
 } from "../commands/DescribeImagesCommand";
 import {
   DescribeSessionsCommandInput,
-  DescribeSessionsCommandOutput
+  DescribeSessionsCommandOutput,
 } from "../commands/DescribeSessionsCommand";
 import {
   DescribeStacksCommandInput,
-  DescribeStacksCommandOutput
+  DescribeStacksCommandOutput,
 } from "../commands/DescribeStacksCommand";
 import {
   DescribeUsageReportSubscriptionsCommandInput,
-  DescribeUsageReportSubscriptionsCommandOutput
+  DescribeUsageReportSubscriptionsCommandOutput,
 } from "../commands/DescribeUsageReportSubscriptionsCommand";
 import {
   DescribeUserStackAssociationsCommandInput,
-  DescribeUserStackAssociationsCommandOutput
+  DescribeUserStackAssociationsCommandOutput,
 } from "../commands/DescribeUserStackAssociationsCommand";
 import {
   DescribeUsersCommandInput,
-  DescribeUsersCommandOutput
+  DescribeUsersCommandOutput,
 } from "../commands/DescribeUsersCommand";
 import {
   DisableUserCommandInput,
-  DisableUserCommandOutput
+  DisableUserCommandOutput,
 } from "../commands/DisableUserCommand";
 import {
   DisassociateFleetCommandInput,
-  DisassociateFleetCommandOutput
+  DisassociateFleetCommandOutput,
 } from "../commands/DisassociateFleetCommand";
 import {
   EnableUserCommandInput,
-  EnableUserCommandOutput
+  EnableUserCommandOutput,
 } from "../commands/EnableUserCommand";
 import {
   ExpireSessionCommandInput,
-  ExpireSessionCommandOutput
+  ExpireSessionCommandOutput,
 } from "../commands/ExpireSessionCommand";
 import {
   ListAssociatedFleetsCommandInput,
-  ListAssociatedFleetsCommandOutput
+  ListAssociatedFleetsCommandOutput,
 } from "../commands/ListAssociatedFleetsCommand";
 import {
   ListAssociatedStacksCommandInput,
-  ListAssociatedStacksCommandOutput
+  ListAssociatedStacksCommandOutput,
 } from "../commands/ListAssociatedStacksCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   StartFleetCommandInput,
-  StartFleetCommandOutput
+  StartFleetCommandOutput,
 } from "../commands/StartFleetCommand";
 import {
   StartImageBuilderCommandInput,
-  StartImageBuilderCommandOutput
+  StartImageBuilderCommandOutput,
 } from "../commands/StartImageBuilderCommand";
 import {
   StopFleetCommandInput,
-  StopFleetCommandOutput
+  StopFleetCommandOutput,
 } from "../commands/StopFleetCommand";
 import {
   StopImageBuilderCommandInput,
-  StopImageBuilderCommandOutput
+  StopImageBuilderCommandOutput,
 } from "../commands/StopImageBuilderCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateDirectoryConfigCommandInput,
-  UpdateDirectoryConfigCommandOutput
+  UpdateDirectoryConfigCommandOutput,
 } from "../commands/UpdateDirectoryConfigCommand";
 import {
   UpdateFleetCommandInput,
-  UpdateFleetCommandOutput
+  UpdateFleetCommandOutput,
 } from "../commands/UpdateFleetCommand";
 import {
   UpdateImagePermissionsCommandInput,
-  UpdateImagePermissionsCommandOutput
+  UpdateImagePermissionsCommandOutput,
 } from "../commands/UpdateImagePermissionsCommand";
 import {
   UpdateStackCommandInput,
-  UpdateStackCommandOutput
+  UpdateStackCommandOutput,
 } from "../commands/UpdateStackCommand";
 import {
   AccessEndpoint,
@@ -323,11 +323,11 @@ import {
   UserSetting,
   UserStackAssociation,
   UserStackAssociationError,
-  VpcConfig
+  VpcConfig,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -335,7 +335,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateFleetCommand(
@@ -985,7 +985,7 @@ export async function deserializeAws_json1_1AssociateFleetCommand(
   const response: AssociateFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -996,7 +996,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
 ): Promise<AssociateFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1012,7 +1012,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -1023,7 +1023,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -1034,7 +1034,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1045,7 +1045,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1056,7 +1056,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1067,7 +1067,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1078,7 +1078,7 @@ async function deserializeAws_json1_1AssociateFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1103,7 +1103,7 @@ export async function deserializeAws_json1_1BatchAssociateUserStackCommand(
   const response: BatchAssociateUserStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchAssociateUserStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1114,7 +1114,7 @@ async function deserializeAws_json1_1BatchAssociateUserStackCommandError(
 ): Promise<BatchAssociateUserStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1130,7 +1130,7 @@ async function deserializeAws_json1_1BatchAssociateUserStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1141,7 +1141,7 @@ async function deserializeAws_json1_1BatchAssociateUserStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1169,7 +1169,7 @@ export async function deserializeAws_json1_1BatchDisassociateUserStackCommand(
   const response: BatchDisassociateUserStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "BatchDisassociateUserStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1180,7 +1180,7 @@ async function deserializeAws_json1_1BatchDisassociateUserStackCommandError(
 ): Promise<BatchDisassociateUserStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1196,7 +1196,7 @@ async function deserializeAws_json1_1BatchDisassociateUserStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1218,7 +1218,7 @@ export async function deserializeAws_json1_1CopyImageCommand(
   const response: CopyImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CopyImageResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1229,7 +1229,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
 ): Promise<CopyImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1245,7 +1245,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -1256,7 +1256,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1267,7 +1267,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1278,7 +1278,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -1289,7 +1289,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1300,7 +1300,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1311,7 +1311,7 @@ async function deserializeAws_json1_1CopyImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1336,7 +1336,7 @@ export async function deserializeAws_json1_1CreateDirectoryConfigCommand(
   const response: CreateDirectoryConfigCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateDirectoryConfigResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1347,7 +1347,7 @@ async function deserializeAws_json1_1CreateDirectoryConfigCommandError(
 ): Promise<CreateDirectoryConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1363,7 +1363,7 @@ async function deserializeAws_json1_1CreateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1374,7 +1374,7 @@ async function deserializeAws_json1_1CreateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1385,7 +1385,7 @@ async function deserializeAws_json1_1CreateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1396,7 +1396,7 @@ async function deserializeAws_json1_1CreateDirectoryConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1418,7 +1418,7 @@ export async function deserializeAws_json1_1CreateFleetCommand(
   const response: CreateFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1429,7 +1429,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
 ): Promise<CreateFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1445,7 +1445,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -1456,7 +1456,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -1467,7 +1467,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -1478,7 +1478,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -1489,7 +1489,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1500,7 +1500,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1511,7 +1511,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1522,7 +1522,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -1533,7 +1533,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1544,7 +1544,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1555,7 +1555,7 @@ async function deserializeAws_json1_1CreateFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1580,7 +1580,7 @@ export async function deserializeAws_json1_1CreateImageBuilderCommand(
   const response: CreateImageBuilderCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateImageBuilderResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1591,7 +1591,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
 ): Promise<CreateImageBuilderCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1607,7 +1607,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -1618,7 +1618,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -1629,7 +1629,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -1640,7 +1640,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -1651,7 +1651,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1662,7 +1662,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1673,7 +1673,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1684,7 +1684,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -1695,7 +1695,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1706,7 +1706,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1717,7 +1717,7 @@ async function deserializeAws_json1_1CreateImageBuilderCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1745,7 +1745,7 @@ export async function deserializeAws_json1_1CreateImageBuilderStreamingURLComman
   const response: CreateImageBuilderStreamingURLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateImageBuilderStreamingURLResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1756,7 +1756,7 @@ async function deserializeAws_json1_1CreateImageBuilderStreamingURLCommandError(
 ): Promise<CreateImageBuilderStreamingURLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1772,7 +1772,7 @@ async function deserializeAws_json1_1CreateImageBuilderStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1783,7 +1783,7 @@ async function deserializeAws_json1_1CreateImageBuilderStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1794,7 +1794,7 @@ async function deserializeAws_json1_1CreateImageBuilderStreamingURLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1816,7 +1816,7 @@ export async function deserializeAws_json1_1CreateStackCommand(
   const response: CreateStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1827,7 +1827,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
 ): Promise<CreateStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1843,7 +1843,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -1854,7 +1854,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -1865,7 +1865,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -1876,7 +1876,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -1887,7 +1887,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -1898,7 +1898,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1909,7 +1909,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1920,7 +1920,7 @@ async function deserializeAws_json1_1CreateStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1945,7 +1945,7 @@ export async function deserializeAws_json1_1CreateStreamingURLCommand(
   const response: CreateStreamingURLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateStreamingURLResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1956,7 +1956,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
 ): Promise<CreateStreamingURLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1972,7 +1972,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -1983,7 +1983,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -1994,7 +1994,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2005,7 +2005,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2016,7 +2016,7 @@ async function deserializeAws_json1_1CreateStreamingURLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2044,7 +2044,7 @@ export async function deserializeAws_json1_1CreateUsageReportSubscriptionCommand
   const response: CreateUsageReportSubscriptionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateUsageReportSubscriptionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2055,7 +2055,7 @@ async function deserializeAws_json1_1CreateUsageReportSubscriptionCommandError(
 ): Promise<CreateUsageReportSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2071,7 +2071,7 @@ async function deserializeAws_json1_1CreateUsageReportSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -2082,7 +2082,7 @@ async function deserializeAws_json1_1CreateUsageReportSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2093,7 +2093,7 @@ async function deserializeAws_json1_1CreateUsageReportSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2104,7 +2104,7 @@ async function deserializeAws_json1_1CreateUsageReportSubscriptionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2126,7 +2126,7 @@ export async function deserializeAws_json1_1CreateUserCommand(
   const response: CreateUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateUserResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2137,7 +2137,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
 ): Promise<CreateUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2153,7 +2153,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -2164,7 +2164,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -2175,7 +2175,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2186,7 +2186,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceAlreadyExistsException":
@@ -2197,7 +2197,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2208,7 +2208,7 @@ async function deserializeAws_json1_1CreateUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2233,7 +2233,7 @@ export async function deserializeAws_json1_1DeleteDirectoryConfigCommand(
   const response: DeleteDirectoryConfigCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteDirectoryConfigResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2244,7 +2244,7 @@ async function deserializeAws_json1_1DeleteDirectoryConfigCommandError(
 ): Promise<DeleteDirectoryConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2260,7 +2260,7 @@ async function deserializeAws_json1_1DeleteDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2271,7 +2271,7 @@ async function deserializeAws_json1_1DeleteDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2282,7 +2282,7 @@ async function deserializeAws_json1_1DeleteDirectoryConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2304,7 +2304,7 @@ export async function deserializeAws_json1_1DeleteFleetCommand(
   const response: DeleteFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2315,7 +2315,7 @@ async function deserializeAws_json1_1DeleteFleetCommandError(
 ): Promise<DeleteFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2331,7 +2331,7 @@ async function deserializeAws_json1_1DeleteFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -2342,7 +2342,7 @@ async function deserializeAws_json1_1DeleteFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2353,7 +2353,7 @@ async function deserializeAws_json1_1DeleteFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2364,7 +2364,7 @@ async function deserializeAws_json1_1DeleteFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2386,7 +2386,7 @@ export async function deserializeAws_json1_1DeleteImageCommand(
   const response: DeleteImageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteImageResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2397,7 +2397,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
 ): Promise<DeleteImageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2413,7 +2413,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2424,7 +2424,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -2435,7 +2435,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2446,7 +2446,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2457,7 +2457,7 @@ async function deserializeAws_json1_1DeleteImageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2482,7 +2482,7 @@ export async function deserializeAws_json1_1DeleteImageBuilderCommand(
   const response: DeleteImageBuilderCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteImageBuilderResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2493,7 +2493,7 @@ async function deserializeAws_json1_1DeleteImageBuilderCommandError(
 ): Promise<DeleteImageBuilderCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2509,7 +2509,7 @@ async function deserializeAws_json1_1DeleteImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -2520,7 +2520,7 @@ async function deserializeAws_json1_1DeleteImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2531,7 +2531,7 @@ async function deserializeAws_json1_1DeleteImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2542,7 +2542,7 @@ async function deserializeAws_json1_1DeleteImageBuilderCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2567,7 +2567,7 @@ export async function deserializeAws_json1_1DeleteImagePermissionsCommand(
   const response: DeleteImagePermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteImagePermissionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2578,7 +2578,7 @@ async function deserializeAws_json1_1DeleteImagePermissionsCommandError(
 ): Promise<DeleteImagePermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2594,7 +2594,7 @@ async function deserializeAws_json1_1DeleteImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2605,7 +2605,7 @@ async function deserializeAws_json1_1DeleteImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2616,7 +2616,7 @@ async function deserializeAws_json1_1DeleteImagePermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2638,7 +2638,7 @@ export async function deserializeAws_json1_1DeleteStackCommand(
   const response: DeleteStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2649,7 +2649,7 @@ async function deserializeAws_json1_1DeleteStackCommandError(
 ): Promise<DeleteStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2665,7 +2665,7 @@ async function deserializeAws_json1_1DeleteStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -2676,7 +2676,7 @@ async function deserializeAws_json1_1DeleteStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2687,7 +2687,7 @@ async function deserializeAws_json1_1DeleteStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2698,7 +2698,7 @@ async function deserializeAws_json1_1DeleteStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2726,7 +2726,7 @@ export async function deserializeAws_json1_1DeleteUsageReportSubscriptionCommand
   const response: DeleteUsageReportSubscriptionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteUsageReportSubscriptionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2737,7 +2737,7 @@ async function deserializeAws_json1_1DeleteUsageReportSubscriptionCommandError(
 ): Promise<DeleteUsageReportSubscriptionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2753,7 +2753,7 @@ async function deserializeAws_json1_1DeleteUsageReportSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -2764,7 +2764,7 @@ async function deserializeAws_json1_1DeleteUsageReportSubscriptionCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2775,7 +2775,7 @@ async function deserializeAws_json1_1DeleteUsageReportSubscriptionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2797,7 +2797,7 @@ export async function deserializeAws_json1_1DeleteUserCommand(
   const response: DeleteUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteUserResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2808,7 +2808,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
 ): Promise<DeleteUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2824,7 +2824,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2835,7 +2835,7 @@ async function deserializeAws_json1_1DeleteUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2863,7 +2863,7 @@ export async function deserializeAws_json1_1DescribeDirectoryConfigsCommand(
   const response: DescribeDirectoryConfigsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeDirectoryConfigsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2874,7 +2874,7 @@ async function deserializeAws_json1_1DescribeDirectoryConfigsCommandError(
 ): Promise<DescribeDirectoryConfigsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2890,7 +2890,7 @@ async function deserializeAws_json1_1DescribeDirectoryConfigsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2901,7 +2901,7 @@ async function deserializeAws_json1_1DescribeDirectoryConfigsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2923,7 +2923,7 @@ export async function deserializeAws_json1_1DescribeFleetsCommand(
   const response: DescribeFleetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeFleetsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2934,7 +2934,7 @@ async function deserializeAws_json1_1DescribeFleetsCommandError(
 ): Promise<DescribeFleetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2950,7 +2950,7 @@ async function deserializeAws_json1_1DescribeFleetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2961,7 +2961,7 @@ async function deserializeAws_json1_1DescribeFleetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2986,7 +2986,7 @@ export async function deserializeAws_json1_1DescribeImageBuildersCommand(
   const response: DescribeImageBuildersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeImageBuildersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2997,7 +2997,7 @@ async function deserializeAws_json1_1DescribeImageBuildersCommandError(
 ): Promise<DescribeImageBuildersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3013,7 +3013,7 @@ async function deserializeAws_json1_1DescribeImageBuildersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3024,7 +3024,7 @@ async function deserializeAws_json1_1DescribeImageBuildersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3052,7 +3052,7 @@ export async function deserializeAws_json1_1DescribeImagePermissionsCommand(
   const response: DescribeImagePermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeImagePermissionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3063,7 +3063,7 @@ async function deserializeAws_json1_1DescribeImagePermissionsCommandError(
 ): Promise<DescribeImagePermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3079,7 +3079,7 @@ async function deserializeAws_json1_1DescribeImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3090,7 +3090,7 @@ async function deserializeAws_json1_1DescribeImagePermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3112,7 +3112,7 @@ export async function deserializeAws_json1_1DescribeImagesCommand(
   const response: DescribeImagesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeImagesResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3123,7 +3123,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
 ): Promise<DescribeImagesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3139,7 +3139,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3150,7 +3150,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3161,7 +3161,7 @@ async function deserializeAws_json1_1DescribeImagesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3183,7 +3183,7 @@ export async function deserializeAws_json1_1DescribeSessionsCommand(
   const response: DescribeSessionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSessionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3194,7 +3194,7 @@ async function deserializeAws_json1_1DescribeSessionsCommandError(
 ): Promise<DescribeSessionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3210,7 +3210,7 @@ async function deserializeAws_json1_1DescribeSessionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3221,7 +3221,7 @@ async function deserializeAws_json1_1DescribeSessionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3243,7 +3243,7 @@ export async function deserializeAws_json1_1DescribeStacksCommand(
   const response: DescribeStacksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStacksResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3254,7 +3254,7 @@ async function deserializeAws_json1_1DescribeStacksCommandError(
 ): Promise<DescribeStacksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3270,7 +3270,7 @@ async function deserializeAws_json1_1DescribeStacksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3281,7 +3281,7 @@ async function deserializeAws_json1_1DescribeStacksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3309,7 +3309,7 @@ export async function deserializeAws_json1_1DescribeUsageReportSubscriptionsComm
   const response: DescribeUsageReportSubscriptionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUsageReportSubscriptionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3320,7 +3320,7 @@ async function deserializeAws_json1_1DescribeUsageReportSubscriptionsCommandErro
 ): Promise<DescribeUsageReportSubscriptionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3336,7 +3336,7 @@ async function deserializeAws_json1_1DescribeUsageReportSubscriptionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3347,7 +3347,7 @@ async function deserializeAws_json1_1DescribeUsageReportSubscriptionsCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3358,7 +3358,7 @@ async function deserializeAws_json1_1DescribeUsageReportSubscriptionsCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3386,7 +3386,7 @@ export async function deserializeAws_json1_1DescribeUserStackAssociationsCommand
   const response: DescribeUserStackAssociationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUserStackAssociationsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3397,7 +3397,7 @@ async function deserializeAws_json1_1DescribeUserStackAssociationsCommandError(
 ): Promise<DescribeUserStackAssociationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3413,7 +3413,7 @@ async function deserializeAws_json1_1DescribeUserStackAssociationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3424,7 +3424,7 @@ async function deserializeAws_json1_1DescribeUserStackAssociationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3446,7 +3446,7 @@ export async function deserializeAws_json1_1DescribeUsersCommand(
   const response: DescribeUsersCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUsersResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3457,7 +3457,7 @@ async function deserializeAws_json1_1DescribeUsersCommandError(
 ): Promise<DescribeUsersCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3473,7 +3473,7 @@ async function deserializeAws_json1_1DescribeUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3484,7 +3484,7 @@ async function deserializeAws_json1_1DescribeUsersCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3495,7 +3495,7 @@ async function deserializeAws_json1_1DescribeUsersCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3517,7 +3517,7 @@ export async function deserializeAws_json1_1DisableUserCommand(
   const response: DisableUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisableUserResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3528,7 +3528,7 @@ async function deserializeAws_json1_1DisableUserCommandError(
 ): Promise<DisableUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3544,7 +3544,7 @@ async function deserializeAws_json1_1DisableUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3555,7 +3555,7 @@ async function deserializeAws_json1_1DisableUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3577,7 +3577,7 @@ export async function deserializeAws_json1_1DisassociateFleetCommand(
   const response: DisassociateFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3588,7 +3588,7 @@ async function deserializeAws_json1_1DisassociateFleetCommandError(
 ): Promise<DisassociateFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3604,7 +3604,7 @@ async function deserializeAws_json1_1DisassociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -3615,7 +3615,7 @@ async function deserializeAws_json1_1DisassociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3626,7 +3626,7 @@ async function deserializeAws_json1_1DisassociateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3637,7 +3637,7 @@ async function deserializeAws_json1_1DisassociateFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3659,7 +3659,7 @@ export async function deserializeAws_json1_1EnableUserCommand(
   const response: EnableUserCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "EnableUserResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3670,7 +3670,7 @@ async function deserializeAws_json1_1EnableUserCommandError(
 ): Promise<EnableUserCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3686,7 +3686,7 @@ async function deserializeAws_json1_1EnableUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -3697,7 +3697,7 @@ async function deserializeAws_json1_1EnableUserCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3708,7 +3708,7 @@ async function deserializeAws_json1_1EnableUserCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3730,7 +3730,7 @@ export async function deserializeAws_json1_1ExpireSessionCommand(
   const response: ExpireSessionCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ExpireSessionResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3741,7 +3741,7 @@ async function deserializeAws_json1_1ExpireSessionCommandError(
 ): Promise<ExpireSessionCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3757,7 +3757,7 @@ async function deserializeAws_json1_1ExpireSessionCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3782,7 +3782,7 @@ export async function deserializeAws_json1_1ListAssociatedFleetsCommand(
   const response: ListAssociatedFleetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAssociatedFleetsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3793,7 +3793,7 @@ async function deserializeAws_json1_1ListAssociatedFleetsCommandError(
 ): Promise<ListAssociatedFleetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3809,7 +3809,7 @@ async function deserializeAws_json1_1ListAssociatedFleetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3834,7 +3834,7 @@ export async function deserializeAws_json1_1ListAssociatedStacksCommand(
   const response: ListAssociatedStacksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAssociatedStacksResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3845,7 +3845,7 @@ async function deserializeAws_json1_1ListAssociatedStacksCommandError(
 ): Promise<ListAssociatedStacksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3861,7 +3861,7 @@ async function deserializeAws_json1_1ListAssociatedStacksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3886,7 +3886,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3897,7 +3897,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3913,7 +3913,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3924,7 +3924,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3946,7 +3946,7 @@ export async function deserializeAws_json1_1StartFleetCommand(
   const response: StartFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3957,7 +3957,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
 ): Promise<StartFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3973,7 +3973,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -3984,7 +3984,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -3995,7 +3995,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -4006,7 +4006,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -4017,7 +4017,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -4028,7 +4028,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4039,7 +4039,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4050,7 +4050,7 @@ async function deserializeAws_json1_1StartFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4072,7 +4072,7 @@ export async function deserializeAws_json1_1StartImageBuilderCommand(
   const response: StartImageBuilderCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartImageBuilderResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4083,7 +4083,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
 ): Promise<StartImageBuilderCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4099,7 +4099,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -4110,7 +4110,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -4121,7 +4121,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -4132,7 +4132,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4143,7 +4143,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4154,7 +4154,7 @@ async function deserializeAws_json1_1StartImageBuilderCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4176,7 +4176,7 @@ export async function deserializeAws_json1_1StopFleetCommand(
   const response: StopFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4187,7 +4187,7 @@ async function deserializeAws_json1_1StopFleetCommandError(
 ): Promise<StopFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4203,7 +4203,7 @@ async function deserializeAws_json1_1StopFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4214,7 +4214,7 @@ async function deserializeAws_json1_1StopFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4225,7 +4225,7 @@ async function deserializeAws_json1_1StopFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4247,7 +4247,7 @@ export async function deserializeAws_json1_1StopImageBuilderCommand(
   const response: StopImageBuilderCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StopImageBuilderResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4258,7 +4258,7 @@ async function deserializeAws_json1_1StopImageBuilderCommandError(
 ): Promise<StopImageBuilderCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4274,7 +4274,7 @@ async function deserializeAws_json1_1StopImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -4285,7 +4285,7 @@ async function deserializeAws_json1_1StopImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4296,7 +4296,7 @@ async function deserializeAws_json1_1StopImageBuilderCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4307,7 +4307,7 @@ async function deserializeAws_json1_1StopImageBuilderCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4329,7 +4329,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4340,7 +4340,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4356,7 +4356,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -4367,7 +4367,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4378,7 +4378,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4389,7 +4389,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4411,7 +4411,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4422,7 +4422,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4438,7 +4438,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4449,7 +4449,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4474,7 +4474,7 @@ export async function deserializeAws_json1_1UpdateDirectoryConfigCommand(
   const response: UpdateDirectoryConfigCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateDirectoryConfigResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4485,7 +4485,7 @@ async function deserializeAws_json1_1UpdateDirectoryConfigCommandError(
 ): Promise<UpdateDirectoryConfigCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4501,7 +4501,7 @@ async function deserializeAws_json1_1UpdateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -4512,7 +4512,7 @@ async function deserializeAws_json1_1UpdateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4523,7 +4523,7 @@ async function deserializeAws_json1_1UpdateDirectoryConfigCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4534,7 +4534,7 @@ async function deserializeAws_json1_1UpdateDirectoryConfigCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4556,7 +4556,7 @@ export async function deserializeAws_json1_1UpdateFleetCommand(
   const response: UpdateFleetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateFleetResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4567,7 +4567,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
 ): Promise<UpdateFleetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4583,7 +4583,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -4594,7 +4594,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -4605,7 +4605,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -4616,7 +4616,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -4627,7 +4627,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -4638,7 +4638,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -4649,7 +4649,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -4660,7 +4660,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -4671,7 +4671,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4682,7 +4682,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4693,7 +4693,7 @@ async function deserializeAws_json1_1UpdateFleetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4718,7 +4718,7 @@ export async function deserializeAws_json1_1UpdateImagePermissionsCommand(
   const response: UpdateImagePermissionsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateImagePermissionsResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4729,7 +4729,7 @@ async function deserializeAws_json1_1UpdateImagePermissionsCommandError(
 ): Promise<UpdateImagePermissionsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4745,7 +4745,7 @@ async function deserializeAws_json1_1UpdateImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotAvailableException":
@@ -4756,7 +4756,7 @@ async function deserializeAws_json1_1UpdateImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4767,7 +4767,7 @@ async function deserializeAws_json1_1UpdateImagePermissionsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4778,7 +4778,7 @@ async function deserializeAws_json1_1UpdateImagePermissionsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4800,7 +4800,7 @@ export async function deserializeAws_json1_1UpdateStackCommand(
   const response: UpdateStackCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateStackResult",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4811,7 +4811,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
 ): Promise<UpdateStackCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4827,7 +4827,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "IncompatibleImageException":
@@ -4838,7 +4838,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidAccountStatusException":
@@ -4849,7 +4849,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidParameterCombinationException":
@@ -4860,7 +4860,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRoleException":
@@ -4871,7 +4871,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -4882,7 +4882,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "OperationNotPermittedException":
@@ -4893,7 +4893,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceInUseException":
@@ -4904,7 +4904,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -4915,7 +4915,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4926,7 +4926,7 @@ async function deserializeAws_json1_1UpdateStackCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4948,7 +4948,7 @@ const deserializeAws_json1_1ConcurrentModificationExceptionResponse = async (
     name: "ConcurrentModificationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4966,7 +4966,7 @@ const deserializeAws_json1_1IncompatibleImageExceptionResponse = async (
     name: "IncompatibleImageException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4984,7 +4984,7 @@ const deserializeAws_json1_1InvalidAccountStatusExceptionResponse = async (
     name: "InvalidAccountStatusException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5002,7 +5002,7 @@ const deserializeAws_json1_1InvalidParameterCombinationExceptionResponse = async
     name: "InvalidParameterCombinationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5020,7 +5020,7 @@ const deserializeAws_json1_1InvalidRoleExceptionResponse = async (
     name: "InvalidRoleException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5038,7 +5038,7 @@ const deserializeAws_json1_1LimitExceededExceptionResponse = async (
     name: "LimitExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5056,7 +5056,7 @@ const deserializeAws_json1_1OperationNotPermittedExceptionResponse = async (
     name: "OperationNotPermittedException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5074,7 +5074,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsExceptionResponse = async (
     name: "ResourceAlreadyExistsException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5092,7 +5092,7 @@ const deserializeAws_json1_1ResourceInUseExceptionResponse = async (
     name: "ResourceInUseException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5110,7 +5110,7 @@ const deserializeAws_json1_1ResourceNotAvailableExceptionResponse = async (
     name: "ResourceNotAvailableException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -5128,7 +5128,7 @@ const deserializeAws_json1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6174,7 +6174,7 @@ const serializeAws_json1_1Tags = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -6459,7 +6459,7 @@ const deserializeAws_json1_1AccessEndpoint = (
   let contents: any = {
     __type: "AccessEndpoint",
     EndpointType: undefined,
-    VpceId: undefined
+    VpceId: undefined,
   };
   if (output.EndpointType !== undefined && output.EndpointType !== null) {
     contents.EndpointType = output.EndpointType;
@@ -6491,7 +6491,7 @@ const deserializeAws_json1_1Application = (
     LaunchParameters: undefined,
     LaunchPath: undefined,
     Metadata: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.DisplayName !== undefined && output.DisplayName !== null) {
     contents.DisplayName = output.DisplayName;
@@ -6531,7 +6531,7 @@ const deserializeAws_json1_1ApplicationSettingsResponse = (
     __type: "ApplicationSettingsResponse",
     Enabled: undefined,
     S3BucketName: undefined,
-    SettingsGroup: undefined
+    SettingsGroup: undefined,
   };
   if (output.Enabled !== undefined && output.Enabled !== null) {
     contents.Enabled = output.Enabled;
@@ -6559,7 +6559,7 @@ const deserializeAws_json1_1AssociateFleetResult = (
   context: __SerdeContext
 ): AssociateFleetResult => {
   let contents: any = {
-    __type: "AssociateFleetResult"
+    __type: "AssociateFleetResult",
   };
   return contents;
 };
@@ -6570,7 +6570,7 @@ const deserializeAws_json1_1BatchAssociateUserStackResult = (
 ): BatchAssociateUserStackResult => {
   let contents: any = {
     __type: "BatchAssociateUserStackResult",
-    errors: undefined
+    errors: undefined,
   };
   if (output.errors !== undefined && output.errors !== null) {
     contents.errors = deserializeAws_json1_1UserStackAssociationErrorList(
@@ -6587,7 +6587,7 @@ const deserializeAws_json1_1BatchDisassociateUserStackResult = (
 ): BatchDisassociateUserStackResult => {
   let contents: any = {
     __type: "BatchDisassociateUserStackResult",
-    errors: undefined
+    errors: undefined,
   };
   if (output.errors !== undefined && output.errors !== null) {
     contents.errors = deserializeAws_json1_1UserStackAssociationErrorList(
@@ -6607,7 +6607,7 @@ const deserializeAws_json1_1ComputeCapacityStatus = (
     Available: undefined,
     Desired: undefined,
     InUse: undefined,
-    Running: undefined
+    Running: undefined,
   };
   if (output.Available !== undefined && output.Available !== null) {
     contents.Available = output.Available;
@@ -6630,7 +6630,7 @@ const deserializeAws_json1_1ConcurrentModificationException = (
 ): ConcurrentModificationException => {
   let contents: any = {
     __type: "ConcurrentModificationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -6644,7 +6644,7 @@ const deserializeAws_json1_1CopyImageResponse = (
 ): CopyImageResponse => {
   let contents: any = {
     __type: "CopyImageResponse",
-    DestinationImageName: undefined
+    DestinationImageName: undefined,
   };
   if (
     output.DestinationImageName !== undefined &&
@@ -6661,7 +6661,7 @@ const deserializeAws_json1_1CreateDirectoryConfigResult = (
 ): CreateDirectoryConfigResult => {
   let contents: any = {
     __type: "CreateDirectoryConfigResult",
-    DirectoryConfig: undefined
+    DirectoryConfig: undefined,
   };
   if (output.DirectoryConfig !== undefined && output.DirectoryConfig !== null) {
     contents.DirectoryConfig = deserializeAws_json1_1DirectoryConfig(
@@ -6678,7 +6678,7 @@ const deserializeAws_json1_1CreateFleetResult = (
 ): CreateFleetResult => {
   let contents: any = {
     __type: "CreateFleetResult",
-    Fleet: undefined
+    Fleet: undefined,
   };
   if (output.Fleet !== undefined && output.Fleet !== null) {
     contents.Fleet = deserializeAws_json1_1Fleet(output.Fleet, context);
@@ -6692,7 +6692,7 @@ const deserializeAws_json1_1CreateImageBuilderResult = (
 ): CreateImageBuilderResult => {
   let contents: any = {
     __type: "CreateImageBuilderResult",
-    ImageBuilder: undefined
+    ImageBuilder: undefined,
   };
   if (output.ImageBuilder !== undefined && output.ImageBuilder !== null) {
     contents.ImageBuilder = deserializeAws_json1_1ImageBuilder(
@@ -6710,7 +6710,7 @@ const deserializeAws_json1_1CreateImageBuilderStreamingURLResult = (
   let contents: any = {
     __type: "CreateImageBuilderStreamingURLResult",
     Expires: undefined,
-    StreamingURL: undefined
+    StreamingURL: undefined,
   };
   if (output.Expires !== undefined && output.Expires !== null) {
     contents.Expires = new Date(Math.round(output.Expires * 1000));
@@ -6727,7 +6727,7 @@ const deserializeAws_json1_1CreateStackResult = (
 ): CreateStackResult => {
   let contents: any = {
     __type: "CreateStackResult",
-    Stack: undefined
+    Stack: undefined,
   };
   if (output.Stack !== undefined && output.Stack !== null) {
     contents.Stack = deserializeAws_json1_1Stack(output.Stack, context);
@@ -6742,7 +6742,7 @@ const deserializeAws_json1_1CreateStreamingURLResult = (
   let contents: any = {
     __type: "CreateStreamingURLResult",
     Expires: undefined,
-    StreamingURL: undefined
+    StreamingURL: undefined,
   };
   if (output.Expires !== undefined && output.Expires !== null) {
     contents.Expires = new Date(Math.round(output.Expires * 1000));
@@ -6760,7 +6760,7 @@ const deserializeAws_json1_1CreateUsageReportSubscriptionResult = (
   let contents: any = {
     __type: "CreateUsageReportSubscriptionResult",
     S3BucketName: undefined,
-    Schedule: undefined
+    Schedule: undefined,
   };
   if (output.S3BucketName !== undefined && output.S3BucketName !== null) {
     contents.S3BucketName = output.S3BucketName;
@@ -6776,7 +6776,7 @@ const deserializeAws_json1_1CreateUserResult = (
   context: __SerdeContext
 ): CreateUserResult => {
   let contents: any = {
-    __type: "CreateUserResult"
+    __type: "CreateUserResult",
   };
   return contents;
 };
@@ -6786,7 +6786,7 @@ const deserializeAws_json1_1DeleteDirectoryConfigResult = (
   context: __SerdeContext
 ): DeleteDirectoryConfigResult => {
   let contents: any = {
-    __type: "DeleteDirectoryConfigResult"
+    __type: "DeleteDirectoryConfigResult",
   };
   return contents;
 };
@@ -6796,7 +6796,7 @@ const deserializeAws_json1_1DeleteFleetResult = (
   context: __SerdeContext
 ): DeleteFleetResult => {
   let contents: any = {
-    __type: "DeleteFleetResult"
+    __type: "DeleteFleetResult",
   };
   return contents;
 };
@@ -6807,7 +6807,7 @@ const deserializeAws_json1_1DeleteImageBuilderResult = (
 ): DeleteImageBuilderResult => {
   let contents: any = {
     __type: "DeleteImageBuilderResult",
-    ImageBuilder: undefined
+    ImageBuilder: undefined,
   };
   if (output.ImageBuilder !== undefined && output.ImageBuilder !== null) {
     contents.ImageBuilder = deserializeAws_json1_1ImageBuilder(
@@ -6823,7 +6823,7 @@ const deserializeAws_json1_1DeleteImagePermissionsResult = (
   context: __SerdeContext
 ): DeleteImagePermissionsResult => {
   let contents: any = {
-    __type: "DeleteImagePermissionsResult"
+    __type: "DeleteImagePermissionsResult",
   };
   return contents;
 };
@@ -6834,7 +6834,7 @@ const deserializeAws_json1_1DeleteImageResult = (
 ): DeleteImageResult => {
   let contents: any = {
     __type: "DeleteImageResult",
-    Image: undefined
+    Image: undefined,
   };
   if (output.Image !== undefined && output.Image !== null) {
     contents.Image = deserializeAws_json1_1Image(output.Image, context);
@@ -6847,7 +6847,7 @@ const deserializeAws_json1_1DeleteStackResult = (
   context: __SerdeContext
 ): DeleteStackResult => {
   let contents: any = {
-    __type: "DeleteStackResult"
+    __type: "DeleteStackResult",
   };
   return contents;
 };
@@ -6857,7 +6857,7 @@ const deserializeAws_json1_1DeleteUsageReportSubscriptionResult = (
   context: __SerdeContext
 ): DeleteUsageReportSubscriptionResult => {
   let contents: any = {
-    __type: "DeleteUsageReportSubscriptionResult"
+    __type: "DeleteUsageReportSubscriptionResult",
   };
   return contents;
 };
@@ -6867,7 +6867,7 @@ const deserializeAws_json1_1DeleteUserResult = (
   context: __SerdeContext
 ): DeleteUserResult => {
   let contents: any = {
-    __type: "DeleteUserResult"
+    __type: "DeleteUserResult",
   };
   return contents;
 };
@@ -6879,7 +6879,7 @@ const deserializeAws_json1_1DescribeDirectoryConfigsResult = (
   let contents: any = {
     __type: "DescribeDirectoryConfigsResult",
     DirectoryConfigs: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (
     output.DirectoryConfigs !== undefined &&
@@ -6903,7 +6903,7 @@ const deserializeAws_json1_1DescribeFleetsResult = (
   let contents: any = {
     __type: "DescribeFleetsResult",
     Fleets: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Fleets !== undefined && output.Fleets !== null) {
     contents.Fleets = deserializeAws_json1_1FleetList(output.Fleets, context);
@@ -6921,7 +6921,7 @@ const deserializeAws_json1_1DescribeImageBuildersResult = (
   let contents: any = {
     __type: "DescribeImageBuildersResult",
     ImageBuilders: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.ImageBuilders !== undefined && output.ImageBuilders !== null) {
     contents.ImageBuilders = deserializeAws_json1_1ImageBuilderList(
@@ -6943,7 +6943,7 @@ const deserializeAws_json1_1DescribeImagePermissionsResult = (
     __type: "DescribeImagePermissionsResult",
     Name: undefined,
     NextToken: undefined,
-    SharedImagePermissionsList: undefined
+    SharedImagePermissionsList: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -6970,7 +6970,7 @@ const deserializeAws_json1_1DescribeImagesResult = (
   let contents: any = {
     __type: "DescribeImagesResult",
     Images: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Images !== undefined && output.Images !== null) {
     contents.Images = deserializeAws_json1_1ImageList(output.Images, context);
@@ -6988,7 +6988,7 @@ const deserializeAws_json1_1DescribeSessionsResult = (
   let contents: any = {
     __type: "DescribeSessionsResult",
     NextToken: undefined,
-    Sessions: undefined
+    Sessions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -7009,7 +7009,7 @@ const deserializeAws_json1_1DescribeStacksResult = (
   let contents: any = {
     __type: "DescribeStacksResult",
     NextToken: undefined,
-    Stacks: undefined
+    Stacks: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -7027,7 +7027,7 @@ const deserializeAws_json1_1DescribeUsageReportSubscriptionsResult = (
   let contents: any = {
     __type: "DescribeUsageReportSubscriptionsResult",
     NextToken: undefined,
-    UsageReportSubscriptions: undefined
+    UsageReportSubscriptions: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -7051,7 +7051,7 @@ const deserializeAws_json1_1DescribeUserStackAssociationsResult = (
   let contents: any = {
     __type: "DescribeUserStackAssociationsResult",
     NextToken: undefined,
-    UserStackAssociations: undefined
+    UserStackAssociations: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -7075,7 +7075,7 @@ const deserializeAws_json1_1DescribeUsersResult = (
   let contents: any = {
     __type: "DescribeUsersResult",
     NextToken: undefined,
-    Users: undefined
+    Users: undefined,
   };
   if (output.NextToken !== undefined && output.NextToken !== null) {
     contents.NextToken = output.NextToken;
@@ -7095,7 +7095,7 @@ const deserializeAws_json1_1DirectoryConfig = (
     CreatedTime: undefined,
     DirectoryName: undefined,
     OrganizationalUnitDistinguishedNames: undefined,
-    ServiceAccountCredentials: undefined
+    ServiceAccountCredentials: undefined,
   };
   if (output.CreatedTime !== undefined && output.CreatedTime !== null) {
     contents.CreatedTime = new Date(Math.round(output.CreatedTime * 1000));
@@ -7138,7 +7138,7 @@ const deserializeAws_json1_1DisableUserResult = (
   context: __SerdeContext
 ): DisableUserResult => {
   let contents: any = {
-    __type: "DisableUserResult"
+    __type: "DisableUserResult",
   };
   return contents;
 };
@@ -7148,7 +7148,7 @@ const deserializeAws_json1_1DisassociateFleetResult = (
   context: __SerdeContext
 ): DisassociateFleetResult => {
   let contents: any = {
-    __type: "DisassociateFleetResult"
+    __type: "DisassociateFleetResult",
   };
   return contents;
 };
@@ -7160,7 +7160,7 @@ const deserializeAws_json1_1DomainJoinInfo = (
   let contents: any = {
     __type: "DomainJoinInfo",
     DirectoryName: undefined,
-    OrganizationalUnitDistinguishedName: undefined
+    OrganizationalUnitDistinguishedName: undefined,
   };
   if (output.DirectoryName !== undefined && output.DirectoryName !== null) {
     contents.DirectoryName = output.DirectoryName;
@@ -7194,7 +7194,7 @@ const deserializeAws_json1_1EnableUserResult = (
   context: __SerdeContext
 ): EnableUserResult => {
   let contents: any = {
-    __type: "EnableUserResult"
+    __type: "EnableUserResult",
   };
   return contents;
 };
@@ -7204,7 +7204,7 @@ const deserializeAws_json1_1ExpireSessionResult = (
   context: __SerdeContext
 ): ExpireSessionResult => {
   let contents: any = {
-    __type: "ExpireSessionResult"
+    __type: "ExpireSessionResult",
   };
   return contents;
 };
@@ -7233,7 +7233,7 @@ const deserializeAws_json1_1Fleet = (
     MaxUserDurationInSeconds: undefined,
     Name: undefined,
     State: undefined,
-    VpcConfig: undefined
+    VpcConfig: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -7330,7 +7330,7 @@ const deserializeAws_json1_1FleetError = (
   let contents: any = {
     __type: "FleetError",
     ErrorCode: undefined,
-    ErrorMessage: undefined
+    ErrorMessage: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -7380,7 +7380,7 @@ const deserializeAws_json1_1Image = (
     PublicBaseImageReleasedDate: undefined,
     State: undefined,
     StateChangeReason: undefined,
-    Visibility: undefined
+    Visibility: undefined,
   };
   if (output.Applications !== undefined && output.Applications !== null) {
     contents.Applications = deserializeAws_json1_1Applications(
@@ -7485,7 +7485,7 @@ const deserializeAws_json1_1ImageBuilder = (
     Platform: undefined,
     State: undefined,
     StateChangeReason: undefined,
-    VpcConfig: undefined
+    VpcConfig: undefined,
   };
   if (output.AccessEndpoints !== undefined && output.AccessEndpoints !== null) {
     contents.AccessEndpoints = deserializeAws_json1_1AccessEndpointList(
@@ -7593,7 +7593,7 @@ const deserializeAws_json1_1ImageBuilderStateChangeReason = (
   let contents: any = {
     __type: "ImageBuilderStateChangeReason",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -7620,7 +7620,7 @@ const deserializeAws_json1_1ImagePermissions = (
   let contents: any = {
     __type: "ImagePermissions",
     allowFleet: undefined,
-    allowImageBuilder: undefined
+    allowImageBuilder: undefined,
   };
   if (output.allowFleet !== undefined && output.allowFleet !== null) {
     contents.allowFleet = output.allowFleet;
@@ -7641,7 +7641,7 @@ const deserializeAws_json1_1ImageStateChangeReason = (
   let contents: any = {
     __type: "ImageStateChangeReason",
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   if (output.Code !== undefined && output.Code !== null) {
     contents.Code = output.Code;
@@ -7658,7 +7658,7 @@ const deserializeAws_json1_1IncompatibleImageException = (
 ): IncompatibleImageException => {
   let contents: any = {
     __type: "IncompatibleImageException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7672,7 +7672,7 @@ const deserializeAws_json1_1InvalidAccountStatusException = (
 ): InvalidAccountStatusException => {
   let contents: any = {
     __type: "InvalidAccountStatusException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7686,7 +7686,7 @@ const deserializeAws_json1_1InvalidParameterCombinationException = (
 ): InvalidParameterCombinationException => {
   let contents: any = {
     __type: "InvalidParameterCombinationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7700,7 +7700,7 @@ const deserializeAws_json1_1InvalidRoleException = (
 ): InvalidRoleException => {
   let contents: any = {
     __type: "InvalidRoleException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7715,7 +7715,7 @@ const deserializeAws_json1_1LastReportGenerationExecutionError = (
   let contents: any = {
     __type: "LastReportGenerationExecutionError",
     ErrorCode: undefined,
-    ErrorMessage: undefined
+    ErrorMessage: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -7741,7 +7741,7 @@ const deserializeAws_json1_1LimitExceededException = (
 ): LimitExceededException => {
   let contents: any = {
     __type: "LimitExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7756,7 +7756,7 @@ const deserializeAws_json1_1ListAssociatedFleetsResult = (
   let contents: any = {
     __type: "ListAssociatedFleetsResult",
     Names: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Names !== undefined && output.Names !== null) {
     contents.Names = deserializeAws_json1_1StringList(output.Names, context);
@@ -7774,7 +7774,7 @@ const deserializeAws_json1_1ListAssociatedStacksResult = (
   let contents: any = {
     __type: "ListAssociatedStacksResult",
     Names: undefined,
-    NextToken: undefined
+    NextToken: undefined,
   };
   if (output.Names !== undefined && output.Names !== null) {
     contents.Names = deserializeAws_json1_1StringList(output.Names, context);
@@ -7791,7 +7791,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
 ): ListTagsForResourceResponse => {
   let contents: any = {
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Tags !== undefined && output.Tags !== null) {
     contents.Tags = deserializeAws_json1_1Tags(output.Tags, context);
@@ -7804,7 +7804,7 @@ const deserializeAws_json1_1Metadata = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -7817,7 +7817,7 @@ const deserializeAws_json1_1NetworkAccessConfiguration = (
   let contents: any = {
     __type: "NetworkAccessConfiguration",
     EniId: undefined,
-    EniPrivateIpAddress: undefined
+    EniPrivateIpAddress: undefined,
   };
   if (output.EniId !== undefined && output.EniId !== null) {
     contents.EniId = output.EniId;
@@ -7837,7 +7837,7 @@ const deserializeAws_json1_1OperationNotPermittedException = (
 ): OperationNotPermittedException => {
   let contents: any = {
     __type: "OperationNotPermittedException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7858,7 +7858,7 @@ const deserializeAws_json1_1ResourceAlreadyExistsException = (
 ): ResourceAlreadyExistsException => {
   let contents: any = {
     __type: "ResourceAlreadyExistsException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7874,7 +7874,7 @@ const deserializeAws_json1_1ResourceError = (
     __type: "ResourceError",
     ErrorCode: undefined,
     ErrorMessage: undefined,
-    ErrorTimestamp: undefined
+    ErrorTimestamp: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -7905,7 +7905,7 @@ const deserializeAws_json1_1ResourceInUseException = (
 ): ResourceInUseException => {
   let contents: any = {
     __type: "ResourceInUseException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7919,7 +7919,7 @@ const deserializeAws_json1_1ResourceNotAvailableException = (
 ): ResourceNotAvailableException => {
   let contents: any = {
     __type: "ResourceNotAvailableException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7933,7 +7933,7 @@ const deserializeAws_json1_1ResourceNotFoundException = (
 ): ResourceNotFoundException => {
   let contents: any = {
     __type: "ResourceNotFoundException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -7955,7 +7955,7 @@ const deserializeAws_json1_1ServiceAccountCredentials = (
   let contents: any = {
     __type: "ServiceAccountCredentials",
     AccountName: undefined,
-    AccountPassword: undefined
+    AccountPassword: undefined,
   };
   if (output.AccountName !== undefined && output.AccountName !== null) {
     contents.AccountName = output.AccountName;
@@ -7981,7 +7981,7 @@ const deserializeAws_json1_1Session = (
     StackName: undefined,
     StartTime: undefined,
     State: undefined,
-    UserId: undefined
+    UserId: undefined,
   };
   if (
     output.AuthenticationType !== undefined &&
@@ -8046,7 +8046,7 @@ const deserializeAws_json1_1SharedImagePermissions = (
   let contents: any = {
     __type: "SharedImagePermissions",
     imagePermissions: undefined,
-    sharedAccountId: undefined
+    sharedAccountId: undefined,
   };
   if (
     output.imagePermissions !== undefined &&
@@ -8090,7 +8090,7 @@ const deserializeAws_json1_1Stack = (
     RedirectURL: undefined,
     StackErrors: undefined,
     StorageConnectors: undefined,
-    UserSettings: undefined
+    UserSettings: undefined,
   };
   if (output.AccessEndpoints !== undefined && output.AccessEndpoints !== null) {
     contents.AccessEndpoints = deserializeAws_json1_1AccessEndpointList(
@@ -8168,7 +8168,7 @@ const deserializeAws_json1_1StackError = (
   let contents: any = {
     __type: "StackError",
     ErrorCode: undefined,
-    ErrorMessage: undefined
+    ErrorMessage: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -8202,7 +8202,7 @@ const deserializeAws_json1_1StartFleetResult = (
   context: __SerdeContext
 ): StartFleetResult => {
   let contents: any = {
-    __type: "StartFleetResult"
+    __type: "StartFleetResult",
   };
   return contents;
 };
@@ -8213,7 +8213,7 @@ const deserializeAws_json1_1StartImageBuilderResult = (
 ): StartImageBuilderResult => {
   let contents: any = {
     __type: "StartImageBuilderResult",
-    ImageBuilder: undefined
+    ImageBuilder: undefined,
   };
   if (output.ImageBuilder !== undefined && output.ImageBuilder !== null) {
     contents.ImageBuilder = deserializeAws_json1_1ImageBuilder(
@@ -8229,7 +8229,7 @@ const deserializeAws_json1_1StopFleetResult = (
   context: __SerdeContext
 ): StopFleetResult => {
   let contents: any = {
-    __type: "StopFleetResult"
+    __type: "StopFleetResult",
   };
   return contents;
 };
@@ -8240,7 +8240,7 @@ const deserializeAws_json1_1StopImageBuilderResult = (
 ): StopImageBuilderResult => {
   let contents: any = {
     __type: "StopImageBuilderResult",
-    ImageBuilder: undefined
+    ImageBuilder: undefined,
   };
   if (output.ImageBuilder !== undefined && output.ImageBuilder !== null) {
     contents.ImageBuilder = deserializeAws_json1_1ImageBuilder(
@@ -8259,7 +8259,7 @@ const deserializeAws_json1_1StorageConnector = (
     __type: "StorageConnector",
     ConnectorType: undefined,
     Domains: undefined,
-    ResourceIdentifier: undefined
+    ResourceIdentifier: undefined,
   };
   if (output.ConnectorType !== undefined && output.ConnectorType !== null) {
     contents.ConnectorType = output.ConnectorType;
@@ -8307,7 +8307,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -8317,7 +8317,7 @@ const deserializeAws_json1_1Tags = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -8328,7 +8328,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -8339,7 +8339,7 @@ const deserializeAws_json1_1UpdateDirectoryConfigResult = (
 ): UpdateDirectoryConfigResult => {
   let contents: any = {
     __type: "UpdateDirectoryConfigResult",
-    DirectoryConfig: undefined
+    DirectoryConfig: undefined,
   };
   if (output.DirectoryConfig !== undefined && output.DirectoryConfig !== null) {
     contents.DirectoryConfig = deserializeAws_json1_1DirectoryConfig(
@@ -8356,7 +8356,7 @@ const deserializeAws_json1_1UpdateFleetResult = (
 ): UpdateFleetResult => {
   let contents: any = {
     __type: "UpdateFleetResult",
-    Fleet: undefined
+    Fleet: undefined,
   };
   if (output.Fleet !== undefined && output.Fleet !== null) {
     contents.Fleet = deserializeAws_json1_1Fleet(output.Fleet, context);
@@ -8369,7 +8369,7 @@ const deserializeAws_json1_1UpdateImagePermissionsResult = (
   context: __SerdeContext
 ): UpdateImagePermissionsResult => {
   let contents: any = {
-    __type: "UpdateImagePermissionsResult"
+    __type: "UpdateImagePermissionsResult",
   };
   return contents;
 };
@@ -8380,7 +8380,7 @@ const deserializeAws_json1_1UpdateStackResult = (
 ): UpdateStackResult => {
   let contents: any = {
     __type: "UpdateStackResult",
-    Stack: undefined
+    Stack: undefined,
   };
   if (output.Stack !== undefined && output.Stack !== null) {
     contents.Stack = deserializeAws_json1_1Stack(output.Stack, context);
@@ -8397,7 +8397,7 @@ const deserializeAws_json1_1UsageReportSubscription = (
     LastGeneratedReportDate: undefined,
     S3BucketName: undefined,
     Schedule: undefined,
-    SubscriptionErrors: undefined
+    SubscriptionErrors: undefined,
   };
   if (
     output.LastGeneratedReportDate !== undefined &&
@@ -8447,7 +8447,7 @@ const deserializeAws_json1_1User = (
     FirstName: undefined,
     LastName: undefined,
     Status: undefined,
-    UserName: undefined
+    UserName: undefined,
   };
   if (output.Arn !== undefined && output.Arn !== null) {
     contents.Arn = output.Arn;
@@ -8495,7 +8495,7 @@ const deserializeAws_json1_1UserSetting = (
   let contents: any = {
     __type: "UserSetting",
     Action: undefined,
-    Permission: undefined
+    Permission: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = output.Action;
@@ -8524,7 +8524,7 @@ const deserializeAws_json1_1UserStackAssociation = (
     AuthenticationType: undefined,
     SendEmailNotification: undefined,
     StackName: undefined,
-    UserName: undefined
+    UserName: undefined,
   };
   if (
     output.AuthenticationType !== undefined &&
@@ -8555,7 +8555,7 @@ const deserializeAws_json1_1UserStackAssociationError = (
     __type: "UserStackAssociationError",
     ErrorCode: undefined,
     ErrorMessage: undefined,
-    UserStackAssociation: undefined
+    UserStackAssociation: undefined,
   };
   if (output.ErrorCode !== undefined && output.ErrorCode !== null) {
     contents.ErrorCode = output.ErrorCode;
@@ -8600,7 +8600,7 @@ const deserializeAws_json1_1VpcConfig = (
   let contents: any = {
     __type: "VpcConfig",
     SecurityGroupIds: undefined,
-    SubnetIds: undefined
+    SubnetIds: undefined,
   };
   if (
     output.SecurityGroupIds !== undefined &&
@@ -8623,7 +8623,7 @@ const deserializeAws_json1_1VpcConfig = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -8644,7 +8644,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -8657,11 +8657,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -8673,7 +8673,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

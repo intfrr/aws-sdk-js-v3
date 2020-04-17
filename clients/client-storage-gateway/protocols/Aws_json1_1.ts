@@ -1,302 +1,302 @@
 import {
   ActivateGatewayCommandInput,
-  ActivateGatewayCommandOutput
+  ActivateGatewayCommandOutput,
 } from "../commands/ActivateGatewayCommand";
 import {
   AddCacheCommandInput,
-  AddCacheCommandOutput
+  AddCacheCommandOutput,
 } from "../commands/AddCacheCommand";
 import {
   AddTagsToResourceCommandInput,
-  AddTagsToResourceCommandOutput
+  AddTagsToResourceCommandOutput,
 } from "../commands/AddTagsToResourceCommand";
 import {
   AddUploadBufferCommandInput,
-  AddUploadBufferCommandOutput
+  AddUploadBufferCommandOutput,
 } from "../commands/AddUploadBufferCommand";
 import {
   AddWorkingStorageCommandInput,
-  AddWorkingStorageCommandOutput
+  AddWorkingStorageCommandOutput,
 } from "../commands/AddWorkingStorageCommand";
 import {
   AssignTapePoolCommandInput,
-  AssignTapePoolCommandOutput
+  AssignTapePoolCommandOutput,
 } from "../commands/AssignTapePoolCommand";
 import {
   AttachVolumeCommandInput,
-  AttachVolumeCommandOutput
+  AttachVolumeCommandOutput,
 } from "../commands/AttachVolumeCommand";
 import {
   CancelArchivalCommandInput,
-  CancelArchivalCommandOutput
+  CancelArchivalCommandOutput,
 } from "../commands/CancelArchivalCommand";
 import {
   CancelRetrievalCommandInput,
-  CancelRetrievalCommandOutput
+  CancelRetrievalCommandOutput,
 } from "../commands/CancelRetrievalCommand";
 import {
   CreateCachediSCSIVolumeCommandInput,
-  CreateCachediSCSIVolumeCommandOutput
+  CreateCachediSCSIVolumeCommandOutput,
 } from "../commands/CreateCachediSCSIVolumeCommand";
 import {
   CreateNFSFileShareCommandInput,
-  CreateNFSFileShareCommandOutput
+  CreateNFSFileShareCommandOutput,
 } from "../commands/CreateNFSFileShareCommand";
 import {
   CreateSMBFileShareCommandInput,
-  CreateSMBFileShareCommandOutput
+  CreateSMBFileShareCommandOutput,
 } from "../commands/CreateSMBFileShareCommand";
 import {
   CreateSnapshotCommandInput,
-  CreateSnapshotCommandOutput
+  CreateSnapshotCommandOutput,
 } from "../commands/CreateSnapshotCommand";
 import {
   CreateSnapshotFromVolumeRecoveryPointCommandInput,
-  CreateSnapshotFromVolumeRecoveryPointCommandOutput
+  CreateSnapshotFromVolumeRecoveryPointCommandOutput,
 } from "../commands/CreateSnapshotFromVolumeRecoveryPointCommand";
 import {
   CreateStorediSCSIVolumeCommandInput,
-  CreateStorediSCSIVolumeCommandOutput
+  CreateStorediSCSIVolumeCommandOutput,
 } from "../commands/CreateStorediSCSIVolumeCommand";
 import {
   CreateTapeWithBarcodeCommandInput,
-  CreateTapeWithBarcodeCommandOutput
+  CreateTapeWithBarcodeCommandOutput,
 } from "../commands/CreateTapeWithBarcodeCommand";
 import {
   CreateTapesCommandInput,
-  CreateTapesCommandOutput
+  CreateTapesCommandOutput,
 } from "../commands/CreateTapesCommand";
 import {
   DeleteBandwidthRateLimitCommandInput,
-  DeleteBandwidthRateLimitCommandOutput
+  DeleteBandwidthRateLimitCommandOutput,
 } from "../commands/DeleteBandwidthRateLimitCommand";
 import {
   DeleteChapCredentialsCommandInput,
-  DeleteChapCredentialsCommandOutput
+  DeleteChapCredentialsCommandOutput,
 } from "../commands/DeleteChapCredentialsCommand";
 import {
   DeleteFileShareCommandInput,
-  DeleteFileShareCommandOutput
+  DeleteFileShareCommandOutput,
 } from "../commands/DeleteFileShareCommand";
 import {
   DeleteGatewayCommandInput,
-  DeleteGatewayCommandOutput
+  DeleteGatewayCommandOutput,
 } from "../commands/DeleteGatewayCommand";
 import {
   DeleteSnapshotScheduleCommandInput,
-  DeleteSnapshotScheduleCommandOutput
+  DeleteSnapshotScheduleCommandOutput,
 } from "../commands/DeleteSnapshotScheduleCommand";
 import {
   DeleteTapeArchiveCommandInput,
-  DeleteTapeArchiveCommandOutput
+  DeleteTapeArchiveCommandOutput,
 } from "../commands/DeleteTapeArchiveCommand";
 import {
   DeleteTapeCommandInput,
-  DeleteTapeCommandOutput
+  DeleteTapeCommandOutput,
 } from "../commands/DeleteTapeCommand";
 import {
   DeleteVolumeCommandInput,
-  DeleteVolumeCommandOutput
+  DeleteVolumeCommandOutput,
 } from "../commands/DeleteVolumeCommand";
 import {
   DescribeAvailabilityMonitorTestCommandInput,
-  DescribeAvailabilityMonitorTestCommandOutput
+  DescribeAvailabilityMonitorTestCommandOutput,
 } from "../commands/DescribeAvailabilityMonitorTestCommand";
 import {
   DescribeBandwidthRateLimitCommandInput,
-  DescribeBandwidthRateLimitCommandOutput
+  DescribeBandwidthRateLimitCommandOutput,
 } from "../commands/DescribeBandwidthRateLimitCommand";
 import {
   DescribeCacheCommandInput,
-  DescribeCacheCommandOutput
+  DescribeCacheCommandOutput,
 } from "../commands/DescribeCacheCommand";
 import {
   DescribeCachediSCSIVolumesCommandInput,
-  DescribeCachediSCSIVolumesCommandOutput
+  DescribeCachediSCSIVolumesCommandOutput,
 } from "../commands/DescribeCachediSCSIVolumesCommand";
 import {
   DescribeChapCredentialsCommandInput,
-  DescribeChapCredentialsCommandOutput
+  DescribeChapCredentialsCommandOutput,
 } from "../commands/DescribeChapCredentialsCommand";
 import {
   DescribeGatewayInformationCommandInput,
-  DescribeGatewayInformationCommandOutput
+  DescribeGatewayInformationCommandOutput,
 } from "../commands/DescribeGatewayInformationCommand";
 import {
   DescribeMaintenanceStartTimeCommandInput,
-  DescribeMaintenanceStartTimeCommandOutput
+  DescribeMaintenanceStartTimeCommandOutput,
 } from "../commands/DescribeMaintenanceStartTimeCommand";
 import {
   DescribeNFSFileSharesCommandInput,
-  DescribeNFSFileSharesCommandOutput
+  DescribeNFSFileSharesCommandOutput,
 } from "../commands/DescribeNFSFileSharesCommand";
 import {
   DescribeSMBFileSharesCommandInput,
-  DescribeSMBFileSharesCommandOutput
+  DescribeSMBFileSharesCommandOutput,
 } from "../commands/DescribeSMBFileSharesCommand";
 import {
   DescribeSMBSettingsCommandInput,
-  DescribeSMBSettingsCommandOutput
+  DescribeSMBSettingsCommandOutput,
 } from "../commands/DescribeSMBSettingsCommand";
 import {
   DescribeSnapshotScheduleCommandInput,
-  DescribeSnapshotScheduleCommandOutput
+  DescribeSnapshotScheduleCommandOutput,
 } from "../commands/DescribeSnapshotScheduleCommand";
 import {
   DescribeStorediSCSIVolumesCommandInput,
-  DescribeStorediSCSIVolumesCommandOutput
+  DescribeStorediSCSIVolumesCommandOutput,
 } from "../commands/DescribeStorediSCSIVolumesCommand";
 import {
   DescribeTapeArchivesCommandInput,
-  DescribeTapeArchivesCommandOutput
+  DescribeTapeArchivesCommandOutput,
 } from "../commands/DescribeTapeArchivesCommand";
 import {
   DescribeTapeRecoveryPointsCommandInput,
-  DescribeTapeRecoveryPointsCommandOutput
+  DescribeTapeRecoveryPointsCommandOutput,
 } from "../commands/DescribeTapeRecoveryPointsCommand";
 import {
   DescribeTapesCommandInput,
-  DescribeTapesCommandOutput
+  DescribeTapesCommandOutput,
 } from "../commands/DescribeTapesCommand";
 import {
   DescribeUploadBufferCommandInput,
-  DescribeUploadBufferCommandOutput
+  DescribeUploadBufferCommandOutput,
 } from "../commands/DescribeUploadBufferCommand";
 import {
   DescribeVTLDevicesCommandInput,
-  DescribeVTLDevicesCommandOutput
+  DescribeVTLDevicesCommandOutput,
 } from "../commands/DescribeVTLDevicesCommand";
 import {
   DescribeWorkingStorageCommandInput,
-  DescribeWorkingStorageCommandOutput
+  DescribeWorkingStorageCommandOutput,
 } from "../commands/DescribeWorkingStorageCommand";
 import {
   DetachVolumeCommandInput,
-  DetachVolumeCommandOutput
+  DetachVolumeCommandOutput,
 } from "../commands/DetachVolumeCommand";
 import {
   DisableGatewayCommandInput,
-  DisableGatewayCommandOutput
+  DisableGatewayCommandOutput,
 } from "../commands/DisableGatewayCommand";
 import {
   JoinDomainCommandInput,
-  JoinDomainCommandOutput
+  JoinDomainCommandOutput,
 } from "../commands/JoinDomainCommand";
 import {
   ListFileSharesCommandInput,
-  ListFileSharesCommandOutput
+  ListFileSharesCommandOutput,
 } from "../commands/ListFileSharesCommand";
 import {
   ListGatewaysCommandInput,
-  ListGatewaysCommandOutput
+  ListGatewaysCommandOutput,
 } from "../commands/ListGatewaysCommand";
 import {
   ListLocalDisksCommandInput,
-  ListLocalDisksCommandOutput
+  ListLocalDisksCommandOutput,
 } from "../commands/ListLocalDisksCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListTapesCommandInput,
-  ListTapesCommandOutput
+  ListTapesCommandOutput,
 } from "../commands/ListTapesCommand";
 import {
   ListVolumeInitiatorsCommandInput,
-  ListVolumeInitiatorsCommandOutput
+  ListVolumeInitiatorsCommandOutput,
 } from "../commands/ListVolumeInitiatorsCommand";
 import {
   ListVolumeRecoveryPointsCommandInput,
-  ListVolumeRecoveryPointsCommandOutput
+  ListVolumeRecoveryPointsCommandOutput,
 } from "../commands/ListVolumeRecoveryPointsCommand";
 import {
   ListVolumesCommandInput,
-  ListVolumesCommandOutput
+  ListVolumesCommandOutput,
 } from "../commands/ListVolumesCommand";
 import {
   NotifyWhenUploadedCommandInput,
-  NotifyWhenUploadedCommandOutput
+  NotifyWhenUploadedCommandOutput,
 } from "../commands/NotifyWhenUploadedCommand";
 import {
   RefreshCacheCommandInput,
-  RefreshCacheCommandOutput
+  RefreshCacheCommandOutput,
 } from "../commands/RefreshCacheCommand";
 import {
   RemoveTagsFromResourceCommandInput,
-  RemoveTagsFromResourceCommandOutput
+  RemoveTagsFromResourceCommandOutput,
 } from "../commands/RemoveTagsFromResourceCommand";
 import {
   ResetCacheCommandInput,
-  ResetCacheCommandOutput
+  ResetCacheCommandOutput,
 } from "../commands/ResetCacheCommand";
 import {
   RetrieveTapeArchiveCommandInput,
-  RetrieveTapeArchiveCommandOutput
+  RetrieveTapeArchiveCommandOutput,
 } from "../commands/RetrieveTapeArchiveCommand";
 import {
   RetrieveTapeRecoveryPointCommandInput,
-  RetrieveTapeRecoveryPointCommandOutput
+  RetrieveTapeRecoveryPointCommandOutput,
 } from "../commands/RetrieveTapeRecoveryPointCommand";
 import {
   SetLocalConsolePasswordCommandInput,
-  SetLocalConsolePasswordCommandOutput
+  SetLocalConsolePasswordCommandOutput,
 } from "../commands/SetLocalConsolePasswordCommand";
 import {
   SetSMBGuestPasswordCommandInput,
-  SetSMBGuestPasswordCommandOutput
+  SetSMBGuestPasswordCommandOutput,
 } from "../commands/SetSMBGuestPasswordCommand";
 import {
   ShutdownGatewayCommandInput,
-  ShutdownGatewayCommandOutput
+  ShutdownGatewayCommandOutput,
 } from "../commands/ShutdownGatewayCommand";
 import {
   StartAvailabilityMonitorTestCommandInput,
-  StartAvailabilityMonitorTestCommandOutput
+  StartAvailabilityMonitorTestCommandOutput,
 } from "../commands/StartAvailabilityMonitorTestCommand";
 import {
   StartGatewayCommandInput,
-  StartGatewayCommandOutput
+  StartGatewayCommandOutput,
 } from "../commands/StartGatewayCommand";
 import {
   UpdateBandwidthRateLimitCommandInput,
-  UpdateBandwidthRateLimitCommandOutput
+  UpdateBandwidthRateLimitCommandOutput,
 } from "../commands/UpdateBandwidthRateLimitCommand";
 import {
   UpdateChapCredentialsCommandInput,
-  UpdateChapCredentialsCommandOutput
+  UpdateChapCredentialsCommandOutput,
 } from "../commands/UpdateChapCredentialsCommand";
 import {
   UpdateGatewayInformationCommandInput,
-  UpdateGatewayInformationCommandOutput
+  UpdateGatewayInformationCommandOutput,
 } from "../commands/UpdateGatewayInformationCommand";
 import {
   UpdateGatewaySoftwareNowCommandInput,
-  UpdateGatewaySoftwareNowCommandOutput
+  UpdateGatewaySoftwareNowCommandOutput,
 } from "../commands/UpdateGatewaySoftwareNowCommand";
 import {
   UpdateMaintenanceStartTimeCommandInput,
-  UpdateMaintenanceStartTimeCommandOutput
+  UpdateMaintenanceStartTimeCommandOutput,
 } from "../commands/UpdateMaintenanceStartTimeCommand";
 import {
   UpdateNFSFileShareCommandInput,
-  UpdateNFSFileShareCommandOutput
+  UpdateNFSFileShareCommandOutput,
 } from "../commands/UpdateNFSFileShareCommand";
 import {
   UpdateSMBFileShareCommandInput,
-  UpdateSMBFileShareCommandOutput
+  UpdateSMBFileShareCommandOutput,
 } from "../commands/UpdateSMBFileShareCommand";
 import {
   UpdateSMBSecurityStrategyCommandInput,
-  UpdateSMBSecurityStrategyCommandOutput
+  UpdateSMBSecurityStrategyCommandOutput,
 } from "../commands/UpdateSMBSecurityStrategyCommand";
 import {
   UpdateSnapshotScheduleCommandInput,
-  UpdateSnapshotScheduleCommandOutput
+  UpdateSnapshotScheduleCommandOutput,
 } from "../commands/UpdateSnapshotScheduleCommand";
 import {
   UpdateVTLDeviceTypeCommandInput,
-  UpdateVTLDeviceTypeCommandOutput
+  UpdateVTLDeviceTypeCommandOutput,
 } from "../commands/UpdateVTLDeviceTypeCommand";
 import {
   ActivateGatewayInput,
@@ -472,11 +472,11 @@ import {
   VTLDevice,
   VolumeInfo,
   VolumeRecoveryPointInfo,
-  VolumeiSCSIAttributes
+  VolumeiSCSIAttributes,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -484,7 +484,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1ActivateGatewayCommand(
@@ -1531,7 +1531,7 @@ export async function deserializeAws_json1_1ActivateGatewayCommand(
   const response: ActivateGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ActivateGatewayOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1542,7 +1542,7 @@ async function deserializeAws_json1_1ActivateGatewayCommandError(
 ): Promise<ActivateGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1558,7 +1558,7 @@ async function deserializeAws_json1_1ActivateGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1569,7 +1569,7 @@ async function deserializeAws_json1_1ActivateGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1580,7 +1580,7 @@ async function deserializeAws_json1_1ActivateGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1602,7 +1602,7 @@ export async function deserializeAws_json1_1AddCacheCommand(
   const response: AddCacheCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddCacheOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1613,7 +1613,7 @@ async function deserializeAws_json1_1AddCacheCommandError(
 ): Promise<AddCacheCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1629,7 +1629,7 @@ async function deserializeAws_json1_1AddCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1640,7 +1640,7 @@ async function deserializeAws_json1_1AddCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1651,7 +1651,7 @@ async function deserializeAws_json1_1AddCacheCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1673,7 +1673,7 @@ export async function deserializeAws_json1_1AddTagsToResourceCommand(
   const response: AddTagsToResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddTagsToResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1684,7 +1684,7 @@ async function deserializeAws_json1_1AddTagsToResourceCommandError(
 ): Promise<AddTagsToResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1700,7 +1700,7 @@ async function deserializeAws_json1_1AddTagsToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1711,7 +1711,7 @@ async function deserializeAws_json1_1AddTagsToResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1722,7 +1722,7 @@ async function deserializeAws_json1_1AddTagsToResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1744,7 +1744,7 @@ export async function deserializeAws_json1_1AddUploadBufferCommand(
   const response: AddUploadBufferCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddUploadBufferOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1755,7 +1755,7 @@ async function deserializeAws_json1_1AddUploadBufferCommandError(
 ): Promise<AddUploadBufferCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1771,7 +1771,7 @@ async function deserializeAws_json1_1AddUploadBufferCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1782,7 +1782,7 @@ async function deserializeAws_json1_1AddUploadBufferCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1793,7 +1793,7 @@ async function deserializeAws_json1_1AddUploadBufferCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1815,7 +1815,7 @@ export async function deserializeAws_json1_1AddWorkingStorageCommand(
   const response: AddWorkingStorageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AddWorkingStorageOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1826,7 +1826,7 @@ async function deserializeAws_json1_1AddWorkingStorageCommandError(
 ): Promise<AddWorkingStorageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1842,7 +1842,7 @@ async function deserializeAws_json1_1AddWorkingStorageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1853,7 +1853,7 @@ async function deserializeAws_json1_1AddWorkingStorageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1864,7 +1864,7 @@ async function deserializeAws_json1_1AddWorkingStorageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1886,7 +1886,7 @@ export async function deserializeAws_json1_1AssignTapePoolCommand(
   const response: AssignTapePoolCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssignTapePoolOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1897,7 +1897,7 @@ async function deserializeAws_json1_1AssignTapePoolCommandError(
 ): Promise<AssignTapePoolCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1913,7 +1913,7 @@ async function deserializeAws_json1_1AssignTapePoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1924,7 +1924,7 @@ async function deserializeAws_json1_1AssignTapePoolCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1935,7 +1935,7 @@ async function deserializeAws_json1_1AssignTapePoolCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1957,7 +1957,7 @@ export async function deserializeAws_json1_1AttachVolumeCommand(
   const response: AttachVolumeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AttachVolumeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1968,7 +1968,7 @@ async function deserializeAws_json1_1AttachVolumeCommandError(
 ): Promise<AttachVolumeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1984,7 +1984,7 @@ async function deserializeAws_json1_1AttachVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -1995,7 +1995,7 @@ async function deserializeAws_json1_1AttachVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2006,7 +2006,7 @@ async function deserializeAws_json1_1AttachVolumeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2028,7 +2028,7 @@ export async function deserializeAws_json1_1CancelArchivalCommand(
   const response: CancelArchivalCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelArchivalOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2039,7 +2039,7 @@ async function deserializeAws_json1_1CancelArchivalCommandError(
 ): Promise<CancelArchivalCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2055,7 +2055,7 @@ async function deserializeAws_json1_1CancelArchivalCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2066,7 +2066,7 @@ async function deserializeAws_json1_1CancelArchivalCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2077,7 +2077,7 @@ async function deserializeAws_json1_1CancelArchivalCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2099,7 +2099,7 @@ export async function deserializeAws_json1_1CancelRetrievalCommand(
   const response: CancelRetrievalCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CancelRetrievalOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2110,7 +2110,7 @@ async function deserializeAws_json1_1CancelRetrievalCommandError(
 ): Promise<CancelRetrievalCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2126,7 +2126,7 @@ async function deserializeAws_json1_1CancelRetrievalCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2137,7 +2137,7 @@ async function deserializeAws_json1_1CancelRetrievalCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2148,7 +2148,7 @@ async function deserializeAws_json1_1CancelRetrievalCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2173,7 +2173,7 @@ export async function deserializeAws_json1_1CreateCachediSCSIVolumeCommand(
   const response: CreateCachediSCSIVolumeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateCachediSCSIVolumeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2184,7 +2184,7 @@ async function deserializeAws_json1_1CreateCachediSCSIVolumeCommandError(
 ): Promise<CreateCachediSCSIVolumeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2200,7 +2200,7 @@ async function deserializeAws_json1_1CreateCachediSCSIVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2211,7 +2211,7 @@ async function deserializeAws_json1_1CreateCachediSCSIVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2222,7 +2222,7 @@ async function deserializeAws_json1_1CreateCachediSCSIVolumeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2247,7 +2247,7 @@ export async function deserializeAws_json1_1CreateNFSFileShareCommand(
   const response: CreateNFSFileShareCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateNFSFileShareOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2258,7 +2258,7 @@ async function deserializeAws_json1_1CreateNFSFileShareCommandError(
 ): Promise<CreateNFSFileShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2274,7 +2274,7 @@ async function deserializeAws_json1_1CreateNFSFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2285,7 +2285,7 @@ async function deserializeAws_json1_1CreateNFSFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2296,7 +2296,7 @@ async function deserializeAws_json1_1CreateNFSFileShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2321,7 +2321,7 @@ export async function deserializeAws_json1_1CreateSMBFileShareCommand(
   const response: CreateSMBFileShareCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSMBFileShareOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2332,7 +2332,7 @@ async function deserializeAws_json1_1CreateSMBFileShareCommandError(
 ): Promise<CreateSMBFileShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2348,7 +2348,7 @@ async function deserializeAws_json1_1CreateSMBFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2359,7 +2359,7 @@ async function deserializeAws_json1_1CreateSMBFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2370,7 +2370,7 @@ async function deserializeAws_json1_1CreateSMBFileShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2392,7 +2392,7 @@ export async function deserializeAws_json1_1CreateSnapshotCommand(
   const response: CreateSnapshotCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSnapshotOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2403,7 +2403,7 @@ async function deserializeAws_json1_1CreateSnapshotCommandError(
 ): Promise<CreateSnapshotCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2419,7 +2419,7 @@ async function deserializeAws_json1_1CreateSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2430,7 +2430,7 @@ async function deserializeAws_json1_1CreateSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -2441,7 +2441,7 @@ async function deserializeAws_json1_1CreateSnapshotCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2452,7 +2452,7 @@ async function deserializeAws_json1_1CreateSnapshotCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2480,7 +2480,7 @@ export async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPoin
   const response: CreateSnapshotFromVolumeRecoveryPointCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSnapshotFromVolumeRecoveryPointOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2491,7 +2491,7 @@ async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointComman
 ): Promise<CreateSnapshotFromVolumeRecoveryPointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2507,7 +2507,7 @@ async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2518,7 +2518,7 @@ async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceUnavailableError":
@@ -2529,7 +2529,7 @@ async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2540,7 +2540,7 @@ async function deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2565,7 +2565,7 @@ export async function deserializeAws_json1_1CreateStorediSCSIVolumeCommand(
   const response: CreateStorediSCSIVolumeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateStorediSCSIVolumeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2576,7 +2576,7 @@ async function deserializeAws_json1_1CreateStorediSCSIVolumeCommandError(
 ): Promise<CreateStorediSCSIVolumeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2592,7 +2592,7 @@ async function deserializeAws_json1_1CreateStorediSCSIVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2603,7 +2603,7 @@ async function deserializeAws_json1_1CreateStorediSCSIVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2614,7 +2614,7 @@ async function deserializeAws_json1_1CreateStorediSCSIVolumeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2639,7 +2639,7 @@ export async function deserializeAws_json1_1CreateTapeWithBarcodeCommand(
   const response: CreateTapeWithBarcodeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTapeWithBarcodeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2650,7 +2650,7 @@ async function deserializeAws_json1_1CreateTapeWithBarcodeCommandError(
 ): Promise<CreateTapeWithBarcodeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2666,7 +2666,7 @@ async function deserializeAws_json1_1CreateTapeWithBarcodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2677,7 +2677,7 @@ async function deserializeAws_json1_1CreateTapeWithBarcodeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2688,7 +2688,7 @@ async function deserializeAws_json1_1CreateTapeWithBarcodeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2710,7 +2710,7 @@ export async function deserializeAws_json1_1CreateTapesCommand(
   const response: CreateTapesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateTapesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2721,7 +2721,7 @@ async function deserializeAws_json1_1CreateTapesCommandError(
 ): Promise<CreateTapesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2737,7 +2737,7 @@ async function deserializeAws_json1_1CreateTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2748,7 +2748,7 @@ async function deserializeAws_json1_1CreateTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2759,7 +2759,7 @@ async function deserializeAws_json1_1CreateTapesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2787,7 +2787,7 @@ export async function deserializeAws_json1_1DeleteBandwidthRateLimitCommand(
   const response: DeleteBandwidthRateLimitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteBandwidthRateLimitOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2798,7 +2798,7 @@ async function deserializeAws_json1_1DeleteBandwidthRateLimitCommandError(
 ): Promise<DeleteBandwidthRateLimitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2814,7 +2814,7 @@ async function deserializeAws_json1_1DeleteBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2825,7 +2825,7 @@ async function deserializeAws_json1_1DeleteBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2836,7 +2836,7 @@ async function deserializeAws_json1_1DeleteBandwidthRateLimitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2861,7 +2861,7 @@ export async function deserializeAws_json1_1DeleteChapCredentialsCommand(
   const response: DeleteChapCredentialsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteChapCredentialsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2872,7 +2872,7 @@ async function deserializeAws_json1_1DeleteChapCredentialsCommandError(
 ): Promise<DeleteChapCredentialsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2888,7 +2888,7 @@ async function deserializeAws_json1_1DeleteChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2899,7 +2899,7 @@ async function deserializeAws_json1_1DeleteChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2910,7 +2910,7 @@ async function deserializeAws_json1_1DeleteChapCredentialsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2932,7 +2932,7 @@ export async function deserializeAws_json1_1DeleteFileShareCommand(
   const response: DeleteFileShareCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteFileShareOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2943,7 +2943,7 @@ async function deserializeAws_json1_1DeleteFileShareCommandError(
 ): Promise<DeleteFileShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2959,7 +2959,7 @@ async function deserializeAws_json1_1DeleteFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -2970,7 +2970,7 @@ async function deserializeAws_json1_1DeleteFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2981,7 +2981,7 @@ async function deserializeAws_json1_1DeleteFileShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3003,7 +3003,7 @@ export async function deserializeAws_json1_1DeleteGatewayCommand(
   const response: DeleteGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteGatewayOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3014,7 +3014,7 @@ async function deserializeAws_json1_1DeleteGatewayCommandError(
 ): Promise<DeleteGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3030,7 +3030,7 @@ async function deserializeAws_json1_1DeleteGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3041,7 +3041,7 @@ async function deserializeAws_json1_1DeleteGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3052,7 +3052,7 @@ async function deserializeAws_json1_1DeleteGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3077,7 +3077,7 @@ export async function deserializeAws_json1_1DeleteSnapshotScheduleCommand(
   const response: DeleteSnapshotScheduleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteSnapshotScheduleOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3088,7 +3088,7 @@ async function deserializeAws_json1_1DeleteSnapshotScheduleCommandError(
 ): Promise<DeleteSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3104,7 +3104,7 @@ async function deserializeAws_json1_1DeleteSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3115,7 +3115,7 @@ async function deserializeAws_json1_1DeleteSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3126,7 +3126,7 @@ async function deserializeAws_json1_1DeleteSnapshotScheduleCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3148,7 +3148,7 @@ export async function deserializeAws_json1_1DeleteTapeCommand(
   const response: DeleteTapeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTapeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3159,7 +3159,7 @@ async function deserializeAws_json1_1DeleteTapeCommandError(
 ): Promise<DeleteTapeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3175,7 +3175,7 @@ async function deserializeAws_json1_1DeleteTapeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3186,7 +3186,7 @@ async function deserializeAws_json1_1DeleteTapeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3197,7 +3197,7 @@ async function deserializeAws_json1_1DeleteTapeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3219,7 +3219,7 @@ export async function deserializeAws_json1_1DeleteTapeArchiveCommand(
   const response: DeleteTapeArchiveCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteTapeArchiveOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3230,7 +3230,7 @@ async function deserializeAws_json1_1DeleteTapeArchiveCommandError(
 ): Promise<DeleteTapeArchiveCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3246,7 +3246,7 @@ async function deserializeAws_json1_1DeleteTapeArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3257,7 +3257,7 @@ async function deserializeAws_json1_1DeleteTapeArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3268,7 +3268,7 @@ async function deserializeAws_json1_1DeleteTapeArchiveCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3290,7 +3290,7 @@ export async function deserializeAws_json1_1DeleteVolumeCommand(
   const response: DeleteVolumeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteVolumeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3301,7 +3301,7 @@ async function deserializeAws_json1_1DeleteVolumeCommandError(
 ): Promise<DeleteVolumeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3317,7 +3317,7 @@ async function deserializeAws_json1_1DeleteVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3328,7 +3328,7 @@ async function deserializeAws_json1_1DeleteVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3339,7 +3339,7 @@ async function deserializeAws_json1_1DeleteVolumeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3367,7 +3367,7 @@ export async function deserializeAws_json1_1DescribeAvailabilityMonitorTestComma
   const response: DescribeAvailabilityMonitorTestCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeAvailabilityMonitorTestOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3378,7 +3378,7 @@ async function deserializeAws_json1_1DescribeAvailabilityMonitorTestCommandError
 ): Promise<DescribeAvailabilityMonitorTestCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3394,7 +3394,7 @@ async function deserializeAws_json1_1DescribeAvailabilityMonitorTestCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3405,7 +3405,7 @@ async function deserializeAws_json1_1DescribeAvailabilityMonitorTestCommandError
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3416,7 +3416,7 @@ async function deserializeAws_json1_1DescribeAvailabilityMonitorTestCommandError
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3444,7 +3444,7 @@ export async function deserializeAws_json1_1DescribeBandwidthRateLimitCommand(
   const response: DescribeBandwidthRateLimitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeBandwidthRateLimitOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3455,7 +3455,7 @@ async function deserializeAws_json1_1DescribeBandwidthRateLimitCommandError(
 ): Promise<DescribeBandwidthRateLimitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3471,7 +3471,7 @@ async function deserializeAws_json1_1DescribeBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3482,7 +3482,7 @@ async function deserializeAws_json1_1DescribeBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3493,7 +3493,7 @@ async function deserializeAws_json1_1DescribeBandwidthRateLimitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3515,7 +3515,7 @@ export async function deserializeAws_json1_1DescribeCacheCommand(
   const response: DescribeCacheCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCacheOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3526,7 +3526,7 @@ async function deserializeAws_json1_1DescribeCacheCommandError(
 ): Promise<DescribeCacheCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3542,7 +3542,7 @@ async function deserializeAws_json1_1DescribeCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3553,7 +3553,7 @@ async function deserializeAws_json1_1DescribeCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3564,7 +3564,7 @@ async function deserializeAws_json1_1DescribeCacheCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3592,7 +3592,7 @@ export async function deserializeAws_json1_1DescribeCachediSCSIVolumesCommand(
   const response: DescribeCachediSCSIVolumesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeCachediSCSIVolumesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3603,7 +3603,7 @@ async function deserializeAws_json1_1DescribeCachediSCSIVolumesCommandError(
 ): Promise<DescribeCachediSCSIVolumesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3619,7 +3619,7 @@ async function deserializeAws_json1_1DescribeCachediSCSIVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3630,7 +3630,7 @@ async function deserializeAws_json1_1DescribeCachediSCSIVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3641,7 +3641,7 @@ async function deserializeAws_json1_1DescribeCachediSCSIVolumesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3666,7 +3666,7 @@ export async function deserializeAws_json1_1DescribeChapCredentialsCommand(
   const response: DescribeChapCredentialsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeChapCredentialsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3677,7 +3677,7 @@ async function deserializeAws_json1_1DescribeChapCredentialsCommandError(
 ): Promise<DescribeChapCredentialsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3693,7 +3693,7 @@ async function deserializeAws_json1_1DescribeChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3704,7 +3704,7 @@ async function deserializeAws_json1_1DescribeChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3715,7 +3715,7 @@ async function deserializeAws_json1_1DescribeChapCredentialsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3743,7 +3743,7 @@ export async function deserializeAws_json1_1DescribeGatewayInformationCommand(
   const response: DescribeGatewayInformationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeGatewayInformationOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3754,7 +3754,7 @@ async function deserializeAws_json1_1DescribeGatewayInformationCommandError(
 ): Promise<DescribeGatewayInformationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3770,7 +3770,7 @@ async function deserializeAws_json1_1DescribeGatewayInformationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3781,7 +3781,7 @@ async function deserializeAws_json1_1DescribeGatewayInformationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3792,7 +3792,7 @@ async function deserializeAws_json1_1DescribeGatewayInformationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3820,7 +3820,7 @@ export async function deserializeAws_json1_1DescribeMaintenanceStartTimeCommand(
   const response: DescribeMaintenanceStartTimeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeMaintenanceStartTimeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3831,7 +3831,7 @@ async function deserializeAws_json1_1DescribeMaintenanceStartTimeCommandError(
 ): Promise<DescribeMaintenanceStartTimeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3847,7 +3847,7 @@ async function deserializeAws_json1_1DescribeMaintenanceStartTimeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3858,7 +3858,7 @@ async function deserializeAws_json1_1DescribeMaintenanceStartTimeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3869,7 +3869,7 @@ async function deserializeAws_json1_1DescribeMaintenanceStartTimeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3894,7 +3894,7 @@ export async function deserializeAws_json1_1DescribeNFSFileSharesCommand(
   const response: DescribeNFSFileSharesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeNFSFileSharesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3905,7 +3905,7 @@ async function deserializeAws_json1_1DescribeNFSFileSharesCommandError(
 ): Promise<DescribeNFSFileSharesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3921,7 +3921,7 @@ async function deserializeAws_json1_1DescribeNFSFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -3932,7 +3932,7 @@ async function deserializeAws_json1_1DescribeNFSFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3943,7 +3943,7 @@ async function deserializeAws_json1_1DescribeNFSFileSharesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3968,7 +3968,7 @@ export async function deserializeAws_json1_1DescribeSMBFileSharesCommand(
   const response: DescribeSMBFileSharesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSMBFileSharesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3979,7 +3979,7 @@ async function deserializeAws_json1_1DescribeSMBFileSharesCommandError(
 ): Promise<DescribeSMBFileSharesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3995,7 +3995,7 @@ async function deserializeAws_json1_1DescribeSMBFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4006,7 +4006,7 @@ async function deserializeAws_json1_1DescribeSMBFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4017,7 +4017,7 @@ async function deserializeAws_json1_1DescribeSMBFileSharesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4042,7 +4042,7 @@ export async function deserializeAws_json1_1DescribeSMBSettingsCommand(
   const response: DescribeSMBSettingsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSMBSettingsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4053,7 +4053,7 @@ async function deserializeAws_json1_1DescribeSMBSettingsCommandError(
 ): Promise<DescribeSMBSettingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4069,7 +4069,7 @@ async function deserializeAws_json1_1DescribeSMBSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4080,7 +4080,7 @@ async function deserializeAws_json1_1DescribeSMBSettingsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4091,7 +4091,7 @@ async function deserializeAws_json1_1DescribeSMBSettingsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4119,7 +4119,7 @@ export async function deserializeAws_json1_1DescribeSnapshotScheduleCommand(
   const response: DescribeSnapshotScheduleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeSnapshotScheduleOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4130,7 +4130,7 @@ async function deserializeAws_json1_1DescribeSnapshotScheduleCommandError(
 ): Promise<DescribeSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4146,7 +4146,7 @@ async function deserializeAws_json1_1DescribeSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4157,7 +4157,7 @@ async function deserializeAws_json1_1DescribeSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4168,7 +4168,7 @@ async function deserializeAws_json1_1DescribeSnapshotScheduleCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4196,7 +4196,7 @@ export async function deserializeAws_json1_1DescribeStorediSCSIVolumesCommand(
   const response: DescribeStorediSCSIVolumesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeStorediSCSIVolumesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4207,7 +4207,7 @@ async function deserializeAws_json1_1DescribeStorediSCSIVolumesCommandError(
 ): Promise<DescribeStorediSCSIVolumesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4223,7 +4223,7 @@ async function deserializeAws_json1_1DescribeStorediSCSIVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4234,7 +4234,7 @@ async function deserializeAws_json1_1DescribeStorediSCSIVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4245,7 +4245,7 @@ async function deserializeAws_json1_1DescribeStorediSCSIVolumesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4270,7 +4270,7 @@ export async function deserializeAws_json1_1DescribeTapeArchivesCommand(
   const response: DescribeTapeArchivesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTapeArchivesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4281,7 +4281,7 @@ async function deserializeAws_json1_1DescribeTapeArchivesCommandError(
 ): Promise<DescribeTapeArchivesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4297,7 +4297,7 @@ async function deserializeAws_json1_1DescribeTapeArchivesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4308,7 +4308,7 @@ async function deserializeAws_json1_1DescribeTapeArchivesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4319,7 +4319,7 @@ async function deserializeAws_json1_1DescribeTapeArchivesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4347,7 +4347,7 @@ export async function deserializeAws_json1_1DescribeTapeRecoveryPointsCommand(
   const response: DescribeTapeRecoveryPointsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTapeRecoveryPointsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4358,7 +4358,7 @@ async function deserializeAws_json1_1DescribeTapeRecoveryPointsCommandError(
 ): Promise<DescribeTapeRecoveryPointsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4374,7 +4374,7 @@ async function deserializeAws_json1_1DescribeTapeRecoveryPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4385,7 +4385,7 @@ async function deserializeAws_json1_1DescribeTapeRecoveryPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4396,7 +4396,7 @@ async function deserializeAws_json1_1DescribeTapeRecoveryPointsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4418,7 +4418,7 @@ export async function deserializeAws_json1_1DescribeTapesCommand(
   const response: DescribeTapesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeTapesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4429,7 +4429,7 @@ async function deserializeAws_json1_1DescribeTapesCommandError(
 ): Promise<DescribeTapesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4445,7 +4445,7 @@ async function deserializeAws_json1_1DescribeTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4456,7 +4456,7 @@ async function deserializeAws_json1_1DescribeTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4467,7 +4467,7 @@ async function deserializeAws_json1_1DescribeTapesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4492,7 +4492,7 @@ export async function deserializeAws_json1_1DescribeUploadBufferCommand(
   const response: DescribeUploadBufferCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeUploadBufferOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4503,7 +4503,7 @@ async function deserializeAws_json1_1DescribeUploadBufferCommandError(
 ): Promise<DescribeUploadBufferCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4519,7 +4519,7 @@ async function deserializeAws_json1_1DescribeUploadBufferCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4530,7 +4530,7 @@ async function deserializeAws_json1_1DescribeUploadBufferCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4541,7 +4541,7 @@ async function deserializeAws_json1_1DescribeUploadBufferCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4566,7 +4566,7 @@ export async function deserializeAws_json1_1DescribeVTLDevicesCommand(
   const response: DescribeVTLDevicesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeVTLDevicesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4577,7 +4577,7 @@ async function deserializeAws_json1_1DescribeVTLDevicesCommandError(
 ): Promise<DescribeVTLDevicesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4593,7 +4593,7 @@ async function deserializeAws_json1_1DescribeVTLDevicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4604,7 +4604,7 @@ async function deserializeAws_json1_1DescribeVTLDevicesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4615,7 +4615,7 @@ async function deserializeAws_json1_1DescribeVTLDevicesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4640,7 +4640,7 @@ export async function deserializeAws_json1_1DescribeWorkingStorageCommand(
   const response: DescribeWorkingStorageCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeWorkingStorageOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4651,7 +4651,7 @@ async function deserializeAws_json1_1DescribeWorkingStorageCommandError(
 ): Promise<DescribeWorkingStorageCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4667,7 +4667,7 @@ async function deserializeAws_json1_1DescribeWorkingStorageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4678,7 +4678,7 @@ async function deserializeAws_json1_1DescribeWorkingStorageCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4689,7 +4689,7 @@ async function deserializeAws_json1_1DescribeWorkingStorageCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4711,7 +4711,7 @@ export async function deserializeAws_json1_1DetachVolumeCommand(
   const response: DetachVolumeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DetachVolumeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4722,7 +4722,7 @@ async function deserializeAws_json1_1DetachVolumeCommandError(
 ): Promise<DetachVolumeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4738,7 +4738,7 @@ async function deserializeAws_json1_1DetachVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4749,7 +4749,7 @@ async function deserializeAws_json1_1DetachVolumeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4760,7 +4760,7 @@ async function deserializeAws_json1_1DetachVolumeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4782,7 +4782,7 @@ export async function deserializeAws_json1_1DisableGatewayCommand(
   const response: DisableGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisableGatewayOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4793,7 +4793,7 @@ async function deserializeAws_json1_1DisableGatewayCommandError(
 ): Promise<DisableGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4809,7 +4809,7 @@ async function deserializeAws_json1_1DisableGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4820,7 +4820,7 @@ async function deserializeAws_json1_1DisableGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4831,7 +4831,7 @@ async function deserializeAws_json1_1DisableGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4853,7 +4853,7 @@ export async function deserializeAws_json1_1JoinDomainCommand(
   const response: JoinDomainCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "JoinDomainOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4864,7 +4864,7 @@ async function deserializeAws_json1_1JoinDomainCommandError(
 ): Promise<JoinDomainCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4880,7 +4880,7 @@ async function deserializeAws_json1_1JoinDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4891,7 +4891,7 @@ async function deserializeAws_json1_1JoinDomainCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4902,7 +4902,7 @@ async function deserializeAws_json1_1JoinDomainCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4924,7 +4924,7 @@ export async function deserializeAws_json1_1ListFileSharesCommand(
   const response: ListFileSharesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListFileSharesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4935,7 +4935,7 @@ async function deserializeAws_json1_1ListFileSharesCommandError(
 ): Promise<ListFileSharesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4951,7 +4951,7 @@ async function deserializeAws_json1_1ListFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -4962,7 +4962,7 @@ async function deserializeAws_json1_1ListFileSharesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4973,7 +4973,7 @@ async function deserializeAws_json1_1ListFileSharesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4995,7 +4995,7 @@ export async function deserializeAws_json1_1ListGatewaysCommand(
   const response: ListGatewaysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListGatewaysOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5006,7 +5006,7 @@ async function deserializeAws_json1_1ListGatewaysCommandError(
 ): Promise<ListGatewaysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5022,7 +5022,7 @@ async function deserializeAws_json1_1ListGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5033,7 +5033,7 @@ async function deserializeAws_json1_1ListGatewaysCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5044,7 +5044,7 @@ async function deserializeAws_json1_1ListGatewaysCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5066,7 +5066,7 @@ export async function deserializeAws_json1_1ListLocalDisksCommand(
   const response: ListLocalDisksCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListLocalDisksOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5077,7 +5077,7 @@ async function deserializeAws_json1_1ListLocalDisksCommandError(
 ): Promise<ListLocalDisksCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5093,7 +5093,7 @@ async function deserializeAws_json1_1ListLocalDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5104,7 +5104,7 @@ async function deserializeAws_json1_1ListLocalDisksCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5115,7 +5115,7 @@ async function deserializeAws_json1_1ListLocalDisksCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5140,7 +5140,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5151,7 +5151,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5167,7 +5167,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5178,7 +5178,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5189,7 +5189,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5211,7 +5211,7 @@ export async function deserializeAws_json1_1ListTapesCommand(
   const response: ListTapesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTapesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5222,7 +5222,7 @@ async function deserializeAws_json1_1ListTapesCommandError(
 ): Promise<ListTapesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5238,7 +5238,7 @@ async function deserializeAws_json1_1ListTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5249,7 +5249,7 @@ async function deserializeAws_json1_1ListTapesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5260,7 +5260,7 @@ async function deserializeAws_json1_1ListTapesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5285,7 +5285,7 @@ export async function deserializeAws_json1_1ListVolumeInitiatorsCommand(
   const response: ListVolumeInitiatorsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVolumeInitiatorsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5296,7 +5296,7 @@ async function deserializeAws_json1_1ListVolumeInitiatorsCommandError(
 ): Promise<ListVolumeInitiatorsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5312,7 +5312,7 @@ async function deserializeAws_json1_1ListVolumeInitiatorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5323,7 +5323,7 @@ async function deserializeAws_json1_1ListVolumeInitiatorsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5334,7 +5334,7 @@ async function deserializeAws_json1_1ListVolumeInitiatorsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5362,7 +5362,7 @@ export async function deserializeAws_json1_1ListVolumeRecoveryPointsCommand(
   const response: ListVolumeRecoveryPointsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVolumeRecoveryPointsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5373,7 +5373,7 @@ async function deserializeAws_json1_1ListVolumeRecoveryPointsCommandError(
 ): Promise<ListVolumeRecoveryPointsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5389,7 +5389,7 @@ async function deserializeAws_json1_1ListVolumeRecoveryPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5400,7 +5400,7 @@ async function deserializeAws_json1_1ListVolumeRecoveryPointsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5411,7 +5411,7 @@ async function deserializeAws_json1_1ListVolumeRecoveryPointsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5433,7 +5433,7 @@ export async function deserializeAws_json1_1ListVolumesCommand(
   const response: ListVolumesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListVolumesOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5444,7 +5444,7 @@ async function deserializeAws_json1_1ListVolumesCommandError(
 ): Promise<ListVolumesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5460,7 +5460,7 @@ async function deserializeAws_json1_1ListVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5471,7 +5471,7 @@ async function deserializeAws_json1_1ListVolumesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5482,7 +5482,7 @@ async function deserializeAws_json1_1ListVolumesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5507,7 +5507,7 @@ export async function deserializeAws_json1_1NotifyWhenUploadedCommand(
   const response: NotifyWhenUploadedCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "NotifyWhenUploadedOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5518,7 +5518,7 @@ async function deserializeAws_json1_1NotifyWhenUploadedCommandError(
 ): Promise<NotifyWhenUploadedCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5534,7 +5534,7 @@ async function deserializeAws_json1_1NotifyWhenUploadedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5545,7 +5545,7 @@ async function deserializeAws_json1_1NotifyWhenUploadedCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5556,7 +5556,7 @@ async function deserializeAws_json1_1NotifyWhenUploadedCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5578,7 +5578,7 @@ export async function deserializeAws_json1_1RefreshCacheCommand(
   const response: RefreshCacheCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RefreshCacheOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5589,7 +5589,7 @@ async function deserializeAws_json1_1RefreshCacheCommandError(
 ): Promise<RefreshCacheCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5605,7 +5605,7 @@ async function deserializeAws_json1_1RefreshCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5616,7 +5616,7 @@ async function deserializeAws_json1_1RefreshCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5627,7 +5627,7 @@ async function deserializeAws_json1_1RefreshCacheCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5652,7 +5652,7 @@ export async function deserializeAws_json1_1RemoveTagsFromResourceCommand(
   const response: RemoveTagsFromResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RemoveTagsFromResourceOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5663,7 +5663,7 @@ async function deserializeAws_json1_1RemoveTagsFromResourceCommandError(
 ): Promise<RemoveTagsFromResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5679,7 +5679,7 @@ async function deserializeAws_json1_1RemoveTagsFromResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5690,7 +5690,7 @@ async function deserializeAws_json1_1RemoveTagsFromResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5701,7 +5701,7 @@ async function deserializeAws_json1_1RemoveTagsFromResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5723,7 +5723,7 @@ export async function deserializeAws_json1_1ResetCacheCommand(
   const response: ResetCacheCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ResetCacheOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5734,7 +5734,7 @@ async function deserializeAws_json1_1ResetCacheCommandError(
 ): Promise<ResetCacheCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5750,7 +5750,7 @@ async function deserializeAws_json1_1ResetCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5761,7 +5761,7 @@ async function deserializeAws_json1_1ResetCacheCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5772,7 +5772,7 @@ async function deserializeAws_json1_1ResetCacheCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5797,7 +5797,7 @@ export async function deserializeAws_json1_1RetrieveTapeArchiveCommand(
   const response: RetrieveTapeArchiveCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RetrieveTapeArchiveOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5808,7 +5808,7 @@ async function deserializeAws_json1_1RetrieveTapeArchiveCommandError(
 ): Promise<RetrieveTapeArchiveCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5824,7 +5824,7 @@ async function deserializeAws_json1_1RetrieveTapeArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5835,7 +5835,7 @@ async function deserializeAws_json1_1RetrieveTapeArchiveCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5846,7 +5846,7 @@ async function deserializeAws_json1_1RetrieveTapeArchiveCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5874,7 +5874,7 @@ export async function deserializeAws_json1_1RetrieveTapeRecoveryPointCommand(
   const response: RetrieveTapeRecoveryPointCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "RetrieveTapeRecoveryPointOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5885,7 +5885,7 @@ async function deserializeAws_json1_1RetrieveTapeRecoveryPointCommandError(
 ): Promise<RetrieveTapeRecoveryPointCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5901,7 +5901,7 @@ async function deserializeAws_json1_1RetrieveTapeRecoveryPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5912,7 +5912,7 @@ async function deserializeAws_json1_1RetrieveTapeRecoveryPointCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5923,7 +5923,7 @@ async function deserializeAws_json1_1RetrieveTapeRecoveryPointCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -5948,7 +5948,7 @@ export async function deserializeAws_json1_1SetLocalConsolePasswordCommand(
   const response: SetLocalConsolePasswordCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetLocalConsolePasswordOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -5959,7 +5959,7 @@ async function deserializeAws_json1_1SetLocalConsolePasswordCommandError(
 ): Promise<SetLocalConsolePasswordCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -5975,7 +5975,7 @@ async function deserializeAws_json1_1SetLocalConsolePasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -5986,7 +5986,7 @@ async function deserializeAws_json1_1SetLocalConsolePasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -5997,7 +5997,7 @@ async function deserializeAws_json1_1SetLocalConsolePasswordCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6022,7 +6022,7 @@ export async function deserializeAws_json1_1SetSMBGuestPasswordCommand(
   const response: SetSMBGuestPasswordCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "SetSMBGuestPasswordOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6033,7 +6033,7 @@ async function deserializeAws_json1_1SetSMBGuestPasswordCommandError(
 ): Promise<SetSMBGuestPasswordCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6049,7 +6049,7 @@ async function deserializeAws_json1_1SetSMBGuestPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6060,7 +6060,7 @@ async function deserializeAws_json1_1SetSMBGuestPasswordCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6071,7 +6071,7 @@ async function deserializeAws_json1_1SetSMBGuestPasswordCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6093,7 +6093,7 @@ export async function deserializeAws_json1_1ShutdownGatewayCommand(
   const response: ShutdownGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ShutdownGatewayOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6104,7 +6104,7 @@ async function deserializeAws_json1_1ShutdownGatewayCommandError(
 ): Promise<ShutdownGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6120,7 +6120,7 @@ async function deserializeAws_json1_1ShutdownGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6131,7 +6131,7 @@ async function deserializeAws_json1_1ShutdownGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6142,7 +6142,7 @@ async function deserializeAws_json1_1ShutdownGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6170,7 +6170,7 @@ export async function deserializeAws_json1_1StartAvailabilityMonitorTestCommand(
   const response: StartAvailabilityMonitorTestCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartAvailabilityMonitorTestOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6181,7 +6181,7 @@ async function deserializeAws_json1_1StartAvailabilityMonitorTestCommandError(
 ): Promise<StartAvailabilityMonitorTestCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6197,7 +6197,7 @@ async function deserializeAws_json1_1StartAvailabilityMonitorTestCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6208,7 +6208,7 @@ async function deserializeAws_json1_1StartAvailabilityMonitorTestCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6219,7 +6219,7 @@ async function deserializeAws_json1_1StartAvailabilityMonitorTestCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6241,7 +6241,7 @@ export async function deserializeAws_json1_1StartGatewayCommand(
   const response: StartGatewayCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "StartGatewayOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6252,7 +6252,7 @@ async function deserializeAws_json1_1StartGatewayCommandError(
 ): Promise<StartGatewayCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6268,7 +6268,7 @@ async function deserializeAws_json1_1StartGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6279,7 +6279,7 @@ async function deserializeAws_json1_1StartGatewayCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6290,7 +6290,7 @@ async function deserializeAws_json1_1StartGatewayCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6318,7 +6318,7 @@ export async function deserializeAws_json1_1UpdateBandwidthRateLimitCommand(
   const response: UpdateBandwidthRateLimitCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateBandwidthRateLimitOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6329,7 +6329,7 @@ async function deserializeAws_json1_1UpdateBandwidthRateLimitCommandError(
 ): Promise<UpdateBandwidthRateLimitCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6345,7 +6345,7 @@ async function deserializeAws_json1_1UpdateBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6356,7 +6356,7 @@ async function deserializeAws_json1_1UpdateBandwidthRateLimitCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6367,7 +6367,7 @@ async function deserializeAws_json1_1UpdateBandwidthRateLimitCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6392,7 +6392,7 @@ export async function deserializeAws_json1_1UpdateChapCredentialsCommand(
   const response: UpdateChapCredentialsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateChapCredentialsOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6403,7 +6403,7 @@ async function deserializeAws_json1_1UpdateChapCredentialsCommandError(
 ): Promise<UpdateChapCredentialsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6419,7 +6419,7 @@ async function deserializeAws_json1_1UpdateChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6430,7 +6430,7 @@ async function deserializeAws_json1_1UpdateChapCredentialsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6441,7 +6441,7 @@ async function deserializeAws_json1_1UpdateChapCredentialsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6469,7 +6469,7 @@ export async function deserializeAws_json1_1UpdateGatewayInformationCommand(
   const response: UpdateGatewayInformationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateGatewayInformationOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6480,7 +6480,7 @@ async function deserializeAws_json1_1UpdateGatewayInformationCommandError(
 ): Promise<UpdateGatewayInformationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6496,7 +6496,7 @@ async function deserializeAws_json1_1UpdateGatewayInformationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6507,7 +6507,7 @@ async function deserializeAws_json1_1UpdateGatewayInformationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6518,7 +6518,7 @@ async function deserializeAws_json1_1UpdateGatewayInformationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6546,7 +6546,7 @@ export async function deserializeAws_json1_1UpdateGatewaySoftwareNowCommand(
   const response: UpdateGatewaySoftwareNowCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateGatewaySoftwareNowOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6557,7 +6557,7 @@ async function deserializeAws_json1_1UpdateGatewaySoftwareNowCommandError(
 ): Promise<UpdateGatewaySoftwareNowCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6573,7 +6573,7 @@ async function deserializeAws_json1_1UpdateGatewaySoftwareNowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6584,7 +6584,7 @@ async function deserializeAws_json1_1UpdateGatewaySoftwareNowCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6595,7 +6595,7 @@ async function deserializeAws_json1_1UpdateGatewaySoftwareNowCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6623,7 +6623,7 @@ export async function deserializeAws_json1_1UpdateMaintenanceStartTimeCommand(
   const response: UpdateMaintenanceStartTimeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateMaintenanceStartTimeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6634,7 +6634,7 @@ async function deserializeAws_json1_1UpdateMaintenanceStartTimeCommandError(
 ): Promise<UpdateMaintenanceStartTimeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6650,7 +6650,7 @@ async function deserializeAws_json1_1UpdateMaintenanceStartTimeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6661,7 +6661,7 @@ async function deserializeAws_json1_1UpdateMaintenanceStartTimeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6672,7 +6672,7 @@ async function deserializeAws_json1_1UpdateMaintenanceStartTimeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6697,7 +6697,7 @@ export async function deserializeAws_json1_1UpdateNFSFileShareCommand(
   const response: UpdateNFSFileShareCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateNFSFileShareOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6708,7 +6708,7 @@ async function deserializeAws_json1_1UpdateNFSFileShareCommandError(
 ): Promise<UpdateNFSFileShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6724,7 +6724,7 @@ async function deserializeAws_json1_1UpdateNFSFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6735,7 +6735,7 @@ async function deserializeAws_json1_1UpdateNFSFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6746,7 +6746,7 @@ async function deserializeAws_json1_1UpdateNFSFileShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6771,7 +6771,7 @@ export async function deserializeAws_json1_1UpdateSMBFileShareCommand(
   const response: UpdateSMBFileShareCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateSMBFileShareOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6782,7 +6782,7 @@ async function deserializeAws_json1_1UpdateSMBFileShareCommandError(
 ): Promise<UpdateSMBFileShareCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6798,7 +6798,7 @@ async function deserializeAws_json1_1UpdateSMBFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6809,7 +6809,7 @@ async function deserializeAws_json1_1UpdateSMBFileShareCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6820,7 +6820,7 @@ async function deserializeAws_json1_1UpdateSMBFileShareCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6848,7 +6848,7 @@ export async function deserializeAws_json1_1UpdateSMBSecurityStrategyCommand(
   const response: UpdateSMBSecurityStrategyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateSMBSecurityStrategyOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6859,7 +6859,7 @@ async function deserializeAws_json1_1UpdateSMBSecurityStrategyCommandError(
 ): Promise<UpdateSMBSecurityStrategyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6875,7 +6875,7 @@ async function deserializeAws_json1_1UpdateSMBSecurityStrategyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6886,7 +6886,7 @@ async function deserializeAws_json1_1UpdateSMBSecurityStrategyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6897,7 +6897,7 @@ async function deserializeAws_json1_1UpdateSMBSecurityStrategyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6922,7 +6922,7 @@ export async function deserializeAws_json1_1UpdateSnapshotScheduleCommand(
   const response: UpdateSnapshotScheduleCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateSnapshotScheduleOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -6933,7 +6933,7 @@ async function deserializeAws_json1_1UpdateSnapshotScheduleCommandError(
 ): Promise<UpdateSnapshotScheduleCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -6949,7 +6949,7 @@ async function deserializeAws_json1_1UpdateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -6960,7 +6960,7 @@ async function deserializeAws_json1_1UpdateSnapshotScheduleCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -6971,7 +6971,7 @@ async function deserializeAws_json1_1UpdateSnapshotScheduleCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -6996,7 +6996,7 @@ export async function deserializeAws_json1_1UpdateVTLDeviceTypeCommand(
   const response: UpdateVTLDeviceTypeCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateVTLDeviceTypeOutput",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -7007,7 +7007,7 @@ async function deserializeAws_json1_1UpdateVTLDeviceTypeCommandError(
 ): Promise<UpdateVTLDeviceTypeCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -7023,7 +7023,7 @@ async function deserializeAws_json1_1UpdateVTLDeviceTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidGatewayRequestException":
@@ -7034,7 +7034,7 @@ async function deserializeAws_json1_1UpdateVTLDeviceTypeCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -7045,7 +7045,7 @@ async function deserializeAws_json1_1UpdateVTLDeviceTypeCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -7067,7 +7067,7 @@ const deserializeAws_json1_1InternalServerErrorResponse = async (
     name: "InternalServerError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7085,7 +7085,7 @@ const deserializeAws_json1_1InvalidGatewayRequestExceptionResponse = async (
     name: "InvalidGatewayRequestException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -7103,7 +7103,7 @@ const deserializeAws_json1_1ServiceUnavailableErrorResponse = async (
     name: "ServiceUnavailableError",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -8635,7 +8635,7 @@ const deserializeAws_json1_1ActivateGatewayOutput = (
 ): ActivateGatewayOutput => {
   let contents: any = {
     __type: "ActivateGatewayOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -8649,7 +8649,7 @@ const deserializeAws_json1_1AddWorkingStorageOutput = (
 ): AddWorkingStorageOutput => {
   let contents: any = {
     __type: "AddWorkingStorageOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -8675,7 +8675,7 @@ const deserializeAws_json1_1ChapInfo = (
     InitiatorName: undefined,
     SecretToAuthenticateInitiator: undefined,
     SecretToAuthenticateTarget: undefined,
-    TargetARN: undefined
+    TargetARN: undefined,
   };
   if (output.InitiatorName !== undefined && output.InitiatorName !== null) {
     contents.InitiatorName = output.InitiatorName;
@@ -8706,7 +8706,7 @@ const deserializeAws_json1_1CreateSnapshotOutput = (
   let contents: any = {
     __type: "CreateSnapshotOutput",
     SnapshotId: undefined,
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.SnapshotId !== undefined && output.SnapshotId !== null) {
     contents.SnapshotId = output.SnapshotId;
@@ -8725,7 +8725,7 @@ const deserializeAws_json1_1CreateStorediSCSIVolumeOutput = (
     __type: "CreateStorediSCSIVolumeOutput",
     TargetARN: undefined,
     VolumeARN: undefined,
-    VolumeSizeInBytes: undefined
+    VolumeSizeInBytes: undefined,
   };
   if (output.TargetARN !== undefined && output.TargetARN !== null) {
     contents.TargetARN = output.TargetARN;
@@ -8748,7 +8748,7 @@ const deserializeAws_json1_1DeleteBandwidthRateLimitOutput = (
 ): DeleteBandwidthRateLimitOutput => {
   let contents: any = {
     __type: "DeleteBandwidthRateLimitOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -8763,7 +8763,7 @@ const deserializeAws_json1_1DeleteChapCredentialsOutput = (
   let contents: any = {
     __type: "DeleteChapCredentialsOutput",
     InitiatorName: undefined,
-    TargetARN: undefined
+    TargetARN: undefined,
   };
   if (output.InitiatorName !== undefined && output.InitiatorName !== null) {
     contents.InitiatorName = output.InitiatorName;
@@ -8780,7 +8780,7 @@ const deserializeAws_json1_1DeleteGatewayOutput = (
 ): DeleteGatewayOutput => {
   let contents: any = {
     __type: "DeleteGatewayOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -8794,7 +8794,7 @@ const deserializeAws_json1_1DeleteVolumeOutput = (
 ): DeleteVolumeOutput => {
   let contents: any = {
     __type: "DeleteVolumeOutput",
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.VolumeARN !== undefined && output.VolumeARN !== null) {
     contents.VolumeARN = output.VolumeARN;
@@ -8810,7 +8810,7 @@ const deserializeAws_json1_1DescribeBandwidthRateLimitOutput = (
     __type: "DescribeBandwidthRateLimitOutput",
     AverageDownloadRateLimitInBitsPerSec: undefined,
     AverageUploadRateLimitInBitsPerSec: undefined,
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (
     output.AverageDownloadRateLimitInBitsPerSec !== undefined &&
@@ -8838,7 +8838,7 @@ const deserializeAws_json1_1DescribeChapCredentialsOutput = (
 ): DescribeChapCredentialsOutput => {
   let contents: any = {
     __type: "DescribeChapCredentialsOutput",
-    ChapCredentials: undefined
+    ChapCredentials: undefined,
   };
   if (output.ChapCredentials !== undefined && output.ChapCredentials !== null) {
     contents.ChapCredentials = deserializeAws_json1_1ChapCredentials(
@@ -8858,7 +8858,7 @@ const deserializeAws_json1_1DescribeWorkingStorageOutput = (
     DiskIds: undefined,
     GatewayARN: undefined,
     WorkingStorageAllocatedInBytes: undefined,
-    WorkingStorageUsedInBytes: undefined
+    WorkingStorageUsedInBytes: undefined,
   };
   if (output.DiskIds !== undefined && output.DiskIds !== null) {
     contents.DiskIds = deserializeAws_json1_1DiskIds(output.DiskIds, context);
@@ -8905,7 +8905,7 @@ const deserializeAws_json1_1InternalServerError = (
   let contents: any = {
     __type: "InternalServerError",
     error: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.error !== undefined && output.error !== null) {
     contents.error = deserializeAws_json1_1StorageGatewayError(
@@ -8926,7 +8926,7 @@ const deserializeAws_json1_1InvalidGatewayRequestException = (
   let contents: any = {
     __type: "InvalidGatewayRequestException",
     error: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.error !== undefined && output.error !== null) {
     contents.error = deserializeAws_json1_1StorageGatewayError(
@@ -8948,7 +8948,7 @@ const deserializeAws_json1_1NetworkInterface = (
     __type: "NetworkInterface",
     Ipv4Address: undefined,
     Ipv6Address: undefined,
-    MacAddress: undefined
+    MacAddress: undefined,
   };
   if (output.Ipv4Address !== undefined && output.Ipv4Address !== null) {
     contents.Ipv4Address = output.Ipv4Address;
@@ -8969,7 +8969,7 @@ const deserializeAws_json1_1ServiceUnavailableError = (
   let contents: any = {
     __type: "ServiceUnavailableError",
     error: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.error !== undefined && output.error !== null) {
     contents.error = deserializeAws_json1_1StorageGatewayError(
@@ -8989,7 +8989,7 @@ const deserializeAws_json1_1ShutdownGatewayOutput = (
 ): ShutdownGatewayOutput => {
   let contents: any = {
     __type: "ShutdownGatewayOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9003,7 +9003,7 @@ const deserializeAws_json1_1StartGatewayOutput = (
 ): StartGatewayOutput => {
   let contents: any = {
     __type: "StartGatewayOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9018,7 +9018,7 @@ const deserializeAws_json1_1StorageGatewayError = (
   let contents: any = {
     __type: "StorageGatewayError",
     errorCode: undefined,
-    errorDetails: undefined
+    errorDetails: undefined,
   };
   if (output.errorCode !== undefined && output.errorCode !== null) {
     contents.errorCode = output.errorCode;
@@ -9038,7 +9038,7 @@ const deserializeAws_json1_1UpdateBandwidthRateLimitOutput = (
 ): UpdateBandwidthRateLimitOutput => {
   let contents: any = {
     __type: "UpdateBandwidthRateLimitOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9053,7 +9053,7 @@ const deserializeAws_json1_1UpdateChapCredentialsOutput = (
   let contents: any = {
     __type: "UpdateChapCredentialsOutput",
     InitiatorName: undefined,
-    TargetARN: undefined
+    TargetARN: undefined,
   };
   if (output.InitiatorName !== undefined && output.InitiatorName !== null) {
     contents.InitiatorName = output.InitiatorName;
@@ -9071,7 +9071,7 @@ const deserializeAws_json1_1UpdateGatewayInformationOutput = (
   let contents: any = {
     __type: "UpdateGatewayInformationOutput",
     GatewayARN: undefined,
-    GatewayName: undefined
+    GatewayName: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9088,7 +9088,7 @@ const deserializeAws_json1_1UpdateGatewaySoftwareNowOutput = (
 ): UpdateGatewaySoftwareNowOutput => {
   let contents: any = {
     __type: "UpdateGatewaySoftwareNowOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9102,7 +9102,7 @@ const deserializeAws_json1_1UpdateMaintenanceStartTimeOutput = (
 ): UpdateMaintenanceStartTimeOutput => {
   let contents: any = {
     __type: "UpdateMaintenanceStartTimeOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9116,7 +9116,7 @@ const deserializeAws_json1_1UpdateSnapshotScheduleOutput = (
 ): UpdateSnapshotScheduleOutput => {
   let contents: any = {
     __type: "UpdateSnapshotScheduleOutput",
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.VolumeARN !== undefined && output.VolumeARN !== null) {
     contents.VolumeARN = output.VolumeARN;
@@ -9134,7 +9134,7 @@ const deserializeAws_json1_1VolumeiSCSIAttributes = (
     LunNumber: undefined,
     NetworkInterfaceId: undefined,
     NetworkInterfacePort: undefined,
-    TargetARN: undefined
+    TargetARN: undefined,
   };
   if (output.ChapEnabled !== undefined && output.ChapEnabled !== null) {
     contents.ChapEnabled = output.ChapEnabled;
@@ -9165,7 +9165,7 @@ const deserializeAws_json1_1errorDetails = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -9177,7 +9177,7 @@ const deserializeAws_json1_1AddCacheOutput = (
 ): AddCacheOutput => {
   let contents: any = {
     __type: "AddCacheOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9191,7 +9191,7 @@ const deserializeAws_json1_1AddUploadBufferOutput = (
 ): AddUploadBufferOutput => {
   let contents: any = {
     __type: "AddUploadBufferOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9206,7 +9206,7 @@ const deserializeAws_json1_1CreateCachediSCSIVolumeOutput = (
   let contents: any = {
     __type: "CreateCachediSCSIVolumeOutput",
     TargetARN: undefined,
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.TargetARN !== undefined && output.TargetARN !== null) {
     contents.TargetARN = output.TargetARN;
@@ -9225,7 +9225,7 @@ const deserializeAws_json1_1CreateSnapshotFromVolumeRecoveryPointOutput = (
     __type: "CreateSnapshotFromVolumeRecoveryPointOutput",
     SnapshotId: undefined,
     VolumeARN: undefined,
-    VolumeRecoveryPointTime: undefined
+    VolumeRecoveryPointTime: undefined,
   };
   if (output.SnapshotId !== undefined && output.SnapshotId !== null) {
     contents.SnapshotId = output.SnapshotId;
@@ -9248,7 +9248,7 @@ const deserializeAws_json1_1DeleteSnapshotScheduleOutput = (
 ): DeleteSnapshotScheduleOutput => {
   let contents: any = {
     __type: "DeleteSnapshotScheduleOutput",
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.VolumeARN !== undefined && output.VolumeARN !== null) {
     contents.VolumeARN = output.VolumeARN;
@@ -9268,7 +9268,7 @@ const deserializeAws_json1_1DescribeCacheOutput = (
     CacheMissPercentage: undefined,
     CacheUsedPercentage: undefined,
     DiskIds: undefined,
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (
     output.CacheAllocatedInBytes !== undefined &&
@@ -9318,7 +9318,7 @@ const deserializeAws_json1_1DescribeUploadBufferOutput = (
     DiskIds: undefined,
     GatewayARN: undefined,
     UploadBufferAllocatedInBytes: undefined,
-    UploadBufferUsedInBytes: undefined
+    UploadBufferUsedInBytes: undefined,
   };
   if (output.DiskIds !== undefined && output.DiskIds !== null) {
     contents.DiskIds = deserializeAws_json1_1DiskIds(output.DiskIds, context);
@@ -9348,7 +9348,7 @@ const deserializeAws_json1_1ListVolumeRecoveryPointsOutput = (
   let contents: any = {
     __type: "ListVolumeRecoveryPointsOutput",
     GatewayARN: undefined,
-    VolumeRecoveryPointInfos: undefined
+    VolumeRecoveryPointInfos: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9374,7 +9374,7 @@ const deserializeAws_json1_1VolumeRecoveryPointInfo = (
     VolumeARN: undefined,
     VolumeRecoveryPointTime: undefined,
     VolumeSizeInBytes: undefined,
-    VolumeUsageInBytes: undefined
+    VolumeUsageInBytes: undefined,
   };
   if (output.VolumeARN !== undefined && output.VolumeARN !== null) {
     contents.VolumeARN = output.VolumeARN;
@@ -9415,7 +9415,7 @@ const deserializeAws_json1_1AddTagsToResourceOutput = (
 ): AddTagsToResourceOutput => {
   let contents: any = {
     __type: "AddTagsToResourceOutput",
-    ResourceARN: undefined
+    ResourceARN: undefined,
   };
   if (output.ResourceARN !== undefined && output.ResourceARN !== null) {
     contents.ResourceARN = output.ResourceARN;
@@ -9429,7 +9429,7 @@ const deserializeAws_json1_1AssignTapePoolOutput = (
 ): AssignTapePoolOutput => {
   let contents: any = {
     __type: "AssignTapePoolOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9444,7 +9444,7 @@ const deserializeAws_json1_1AttachVolumeOutput = (
   let contents: any = {
     __type: "AttachVolumeOutput",
     TargetARN: undefined,
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.TargetARN !== undefined && output.TargetARN !== null) {
     contents.TargetARN = output.TargetARN;
@@ -9473,7 +9473,7 @@ const deserializeAws_json1_1CachediSCSIVolume = (
     VolumeStatus: undefined,
     VolumeType: undefined,
     VolumeUsedInBytes: undefined,
-    VolumeiSCSIAttributes: undefined
+    VolumeiSCSIAttributes: undefined,
   };
   if (output.CreatedDate !== undefined && output.CreatedDate !== null) {
     contents.CreatedDate = new Date(Math.round(output.CreatedDate * 1000));
@@ -9550,7 +9550,7 @@ const deserializeAws_json1_1CancelArchivalOutput = (
 ): CancelArchivalOutput => {
   let contents: any = {
     __type: "CancelArchivalOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9564,7 +9564,7 @@ const deserializeAws_json1_1CancelRetrievalOutput = (
 ): CancelRetrievalOutput => {
   let contents: any = {
     __type: "CancelRetrievalOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9578,7 +9578,7 @@ const deserializeAws_json1_1CreateNFSFileShareOutput = (
 ): CreateNFSFileShareOutput => {
   let contents: any = {
     __type: "CreateNFSFileShareOutput",
-    FileShareARN: undefined
+    FileShareARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -9592,7 +9592,7 @@ const deserializeAws_json1_1CreateSMBFileShareOutput = (
 ): CreateSMBFileShareOutput => {
   let contents: any = {
     __type: "CreateSMBFileShareOutput",
-    FileShareARN: undefined
+    FileShareARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -9606,7 +9606,7 @@ const deserializeAws_json1_1CreateTapeWithBarcodeOutput = (
 ): CreateTapeWithBarcodeOutput => {
   let contents: any = {
     __type: "CreateTapeWithBarcodeOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9620,7 +9620,7 @@ const deserializeAws_json1_1CreateTapesOutput = (
 ): CreateTapesOutput => {
   let contents: any = {
     __type: "CreateTapesOutput",
-    TapeARNs: undefined
+    TapeARNs: undefined,
   };
   if (output.TapeARNs !== undefined && output.TapeARNs !== null) {
     contents.TapeARNs = deserializeAws_json1_1TapeARNs(
@@ -9637,7 +9637,7 @@ const deserializeAws_json1_1DeleteFileShareOutput = (
 ): DeleteFileShareOutput => {
   let contents: any = {
     __type: "DeleteFileShareOutput",
-    FileShareARN: undefined
+    FileShareARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -9651,7 +9651,7 @@ const deserializeAws_json1_1DeleteTapeArchiveOutput = (
 ): DeleteTapeArchiveOutput => {
   let contents: any = {
     __type: "DeleteTapeArchiveOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9665,7 +9665,7 @@ const deserializeAws_json1_1DeleteTapeOutput = (
 ): DeleteTapeOutput => {
   let contents: any = {
     __type: "DeleteTapeOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -9681,7 +9681,7 @@ const deserializeAws_json1_1DescribeAvailabilityMonitorTestOutput = (
     __type: "DescribeAvailabilityMonitorTestOutput",
     GatewayARN: undefined,
     StartTime: undefined,
-    Status: undefined
+    Status: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -9701,7 +9701,7 @@ const deserializeAws_json1_1DescribeCachediSCSIVolumesOutput = (
 ): DescribeCachediSCSIVolumesOutput => {
   let contents: any = {
     __type: "DescribeCachediSCSIVolumesOutput",
-    CachediSCSIVolumes: undefined
+    CachediSCSIVolumes: undefined,
   };
   if (
     output.CachediSCSIVolumes !== undefined &&
@@ -9735,7 +9735,7 @@ const deserializeAws_json1_1DescribeGatewayInformationOutput = (
     LastSoftwareUpdate: undefined,
     NextUpdateAvailabilityDate: undefined,
     Tags: undefined,
-    VPCEndpoint: undefined
+    VPCEndpoint: undefined,
   };
   if (
     output.CloudWatchLogGroupARN !== undefined &&
@@ -9814,7 +9814,7 @@ const deserializeAws_json1_1DescribeMaintenanceStartTimeOutput = (
     GatewayARN: undefined,
     HourOfDay: undefined,
     MinuteOfHour: undefined,
-    Timezone: undefined
+    Timezone: undefined,
   };
   if (output.DayOfMonth !== undefined && output.DayOfMonth !== null) {
     contents.DayOfMonth = output.DayOfMonth;
@@ -9843,7 +9843,7 @@ const deserializeAws_json1_1DescribeNFSFileSharesOutput = (
 ): DescribeNFSFileSharesOutput => {
   let contents: any = {
     __type: "DescribeNFSFileSharesOutput",
-    NFSFileShareInfoList: undefined
+    NFSFileShareInfoList: undefined,
   };
   if (
     output.NFSFileShareInfoList !== undefined &&
@@ -9863,7 +9863,7 @@ const deserializeAws_json1_1DescribeSMBFileSharesOutput = (
 ): DescribeSMBFileSharesOutput => {
   let contents: any = {
     __type: "DescribeSMBFileSharesOutput",
-    SMBFileShareInfoList: undefined
+    SMBFileShareInfoList: undefined,
   };
   if (
     output.SMBFileShareInfoList !== undefined &&
@@ -9887,7 +9887,7 @@ const deserializeAws_json1_1DescribeSMBSettingsOutput = (
     DomainName: undefined,
     GatewayARN: undefined,
     SMBGuestPasswordSet: undefined,
-    SMBSecurityStrategy: undefined
+    SMBSecurityStrategy: undefined,
   };
   if (
     output.ActiveDirectoryStatus !== undefined &&
@@ -9927,7 +9927,7 @@ const deserializeAws_json1_1DescribeSnapshotScheduleOutput = (
     StartAt: undefined,
     Tags: undefined,
     Timezone: undefined,
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.Description !== undefined && output.Description !== null) {
     contents.Description = output.Description;
@@ -9959,7 +9959,7 @@ const deserializeAws_json1_1DescribeStorediSCSIVolumesOutput = (
 ): DescribeStorediSCSIVolumesOutput => {
   let contents: any = {
     __type: "DescribeStorediSCSIVolumesOutput",
-    StorediSCSIVolumes: undefined
+    StorediSCSIVolumes: undefined,
   };
   if (
     output.StorediSCSIVolumes !== undefined &&
@@ -9980,7 +9980,7 @@ const deserializeAws_json1_1DescribeTapeArchivesOutput = (
   let contents: any = {
     __type: "DescribeTapeArchivesOutput",
     Marker: undefined,
-    TapeArchives: undefined
+    TapeArchives: undefined,
   };
   if (output.Marker !== undefined && output.Marker !== null) {
     contents.Marker = output.Marker;
@@ -10002,7 +10002,7 @@ const deserializeAws_json1_1DescribeTapeRecoveryPointsOutput = (
     __type: "DescribeTapeRecoveryPointsOutput",
     GatewayARN: undefined,
     Marker: undefined,
-    TapeRecoveryPointInfos: undefined
+    TapeRecoveryPointInfos: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10029,7 +10029,7 @@ const deserializeAws_json1_1DescribeTapesOutput = (
   let contents: any = {
     __type: "DescribeTapesOutput",
     Marker: undefined,
-    Tapes: undefined
+    Tapes: undefined,
   };
   if (output.Marker !== undefined && output.Marker !== null) {
     contents.Marker = output.Marker;
@@ -10048,7 +10048,7 @@ const deserializeAws_json1_1DescribeVTLDevicesOutput = (
     __type: "DescribeVTLDevicesOutput",
     GatewayARN: undefined,
     Marker: undefined,
-    VTLDevices: undefined
+    VTLDevices: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10071,7 +10071,7 @@ const deserializeAws_json1_1DetachVolumeOutput = (
 ): DetachVolumeOutput => {
   let contents: any = {
     __type: "DetachVolumeOutput",
-    VolumeARN: undefined
+    VolumeARN: undefined,
   };
   if (output.VolumeARN !== undefined && output.VolumeARN !== null) {
     contents.VolumeARN = output.VolumeARN;
@@ -10088,7 +10088,7 @@ const deserializeAws_json1_1DeviceiSCSIAttributes = (
     ChapEnabled: undefined,
     NetworkInterfaceId: undefined,
     NetworkInterfacePort: undefined,
-    TargetARN: undefined
+    TargetARN: undefined,
   };
   if (output.ChapEnabled !== undefined && output.ChapEnabled !== null) {
     contents.ChapEnabled = output.ChapEnabled;
@@ -10117,7 +10117,7 @@ const deserializeAws_json1_1DisableGatewayOutput = (
 ): DisableGatewayOutput => {
   let contents: any = {
     __type: "DisableGatewayOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10138,7 +10138,7 @@ const deserializeAws_json1_1Disk = (
     DiskNode: undefined,
     DiskPath: undefined,
     DiskSizeInBytes: undefined,
-    DiskStatus: undefined
+    DiskStatus: undefined,
   };
   if (
     output.DiskAllocationResource !== undefined &&
@@ -10212,7 +10212,7 @@ const deserializeAws_json1_1FileShareInfo = (
     FileShareId: undefined,
     FileShareStatus: undefined,
     FileShareType: undefined,
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -10260,7 +10260,7 @@ const deserializeAws_json1_1GatewayInfo = (
     GatewayId: undefined,
     GatewayName: undefined,
     GatewayOperationalState: undefined,
-    GatewayType: undefined
+    GatewayType: undefined,
   };
   if (output.Ec2InstanceId !== undefined && output.Ec2InstanceId !== null) {
     contents.Ec2InstanceId = output.Ec2InstanceId;
@@ -10315,7 +10315,7 @@ const deserializeAws_json1_1JoinDomainOutput = (
   let contents: any = {
     __type: "JoinDomainOutput",
     ActiveDirectoryStatus: undefined,
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (
     output.ActiveDirectoryStatus !== undefined &&
@@ -10337,7 +10337,7 @@ const deserializeAws_json1_1ListFileSharesOutput = (
     __type: "ListFileSharesOutput",
     FileShareInfoList: undefined,
     Marker: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   if (
     output.FileShareInfoList !== undefined &&
@@ -10364,7 +10364,7 @@ const deserializeAws_json1_1ListGatewaysOutput = (
   let contents: any = {
     __type: "ListGatewaysOutput",
     Gateways: undefined,
-    Marker: undefined
+    Marker: undefined,
   };
   if (output.Gateways !== undefined && output.Gateways !== null) {
     contents.Gateways = deserializeAws_json1_1Gateways(
@@ -10385,7 +10385,7 @@ const deserializeAws_json1_1ListLocalDisksOutput = (
   let contents: any = {
     __type: "ListLocalDisksOutput",
     Disks: undefined,
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.Disks !== undefined && output.Disks !== null) {
     contents.Disks = deserializeAws_json1_1Disks(output.Disks, context);
@@ -10404,7 +10404,7 @@ const deserializeAws_json1_1ListTagsForResourceOutput = (
     __type: "ListTagsForResourceOutput",
     Marker: undefined,
     ResourceARN: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Marker !== undefined && output.Marker !== null) {
     contents.Marker = output.Marker;
@@ -10425,7 +10425,7 @@ const deserializeAws_json1_1ListTapesOutput = (
   let contents: any = {
     __type: "ListTapesOutput",
     Marker: undefined,
-    TapeInfos: undefined
+    TapeInfos: undefined,
   };
   if (output.Marker !== undefined && output.Marker !== null) {
     contents.Marker = output.Marker;
@@ -10445,7 +10445,7 @@ const deserializeAws_json1_1ListVolumeInitiatorsOutput = (
 ): ListVolumeInitiatorsOutput => {
   let contents: any = {
     __type: "ListVolumeInitiatorsOutput",
-    Initiators: undefined
+    Initiators: undefined,
   };
   if (output.Initiators !== undefined && output.Initiators !== null) {
     contents.Initiators = deserializeAws_json1_1Initiators(
@@ -10464,7 +10464,7 @@ const deserializeAws_json1_1ListVolumesOutput = (
     __type: "ListVolumesOutput",
     GatewayARN: undefined,
     Marker: undefined,
-    VolumeInfos: undefined
+    VolumeInfos: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10490,7 +10490,7 @@ const deserializeAws_json1_1NFSFileShareDefaults = (
     DirectoryMode: undefined,
     FileMode: undefined,
     GroupId: undefined,
-    OwnerId: undefined
+    OwnerId: undefined,
   };
   if (output.DirectoryMode !== undefined && output.DirectoryMode !== null) {
     contents.DirectoryMode = output.DirectoryMode;
@@ -10530,7 +10530,7 @@ const deserializeAws_json1_1NFSFileShareInfo = (
     RequesterPays: undefined,
     Role: undefined,
     Squash: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.ClientList !== undefined && output.ClientList !== null) {
     contents.ClientList = deserializeAws_json1_1FileShareClientList(
@@ -10620,7 +10620,7 @@ const deserializeAws_json1_1NotifyWhenUploadedOutput = (
   let contents: any = {
     __type: "NotifyWhenUploadedOutput",
     FileShareARN: undefined,
-    NotificationId: undefined
+    NotificationId: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -10638,7 +10638,7 @@ const deserializeAws_json1_1RefreshCacheOutput = (
   let contents: any = {
     __type: "RefreshCacheOutput",
     FileShareARN: undefined,
-    NotificationId: undefined
+    NotificationId: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -10655,7 +10655,7 @@ const deserializeAws_json1_1RemoveTagsFromResourceOutput = (
 ): RemoveTagsFromResourceOutput => {
   let contents: any = {
     __type: "RemoveTagsFromResourceOutput",
-    ResourceARN: undefined
+    ResourceARN: undefined,
   };
   if (output.ResourceARN !== undefined && output.ResourceARN !== null) {
     contents.ResourceARN = output.ResourceARN;
@@ -10669,7 +10669,7 @@ const deserializeAws_json1_1ResetCacheOutput = (
 ): ResetCacheOutput => {
   let contents: any = {
     __type: "ResetCacheOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10683,7 +10683,7 @@ const deserializeAws_json1_1RetrieveTapeArchiveOutput = (
 ): RetrieveTapeArchiveOutput => {
   let contents: any = {
     __type: "RetrieveTapeArchiveOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -10697,7 +10697,7 @@ const deserializeAws_json1_1RetrieveTapeRecoveryPointOutput = (
 ): RetrieveTapeRecoveryPointOutput => {
   let contents: any = {
     __type: "RetrieveTapeRecoveryPointOutput",
-    TapeARN: undefined
+    TapeARN: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -10730,7 +10730,7 @@ const deserializeAws_json1_1SMBFileShareInfo = (
     Role: undefined,
     SMBACLEnabled: undefined,
     Tags: undefined,
-    ValidUserList: undefined
+    ValidUserList: undefined,
   };
   if (output.AdminUserList !== undefined && output.AdminUserList !== null) {
     contents.AdminUserList = deserializeAws_json1_1FileShareUserList(
@@ -10825,7 +10825,7 @@ const deserializeAws_json1_1SetLocalConsolePasswordOutput = (
 ): SetLocalConsolePasswordOutput => {
   let contents: any = {
     __type: "SetLocalConsolePasswordOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10839,7 +10839,7 @@ const deserializeAws_json1_1SetSMBGuestPasswordOutput = (
 ): SetSMBGuestPasswordOutput => {
   let contents: any = {
     __type: "SetSMBGuestPasswordOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10853,7 +10853,7 @@ const deserializeAws_json1_1StartAvailabilityMonitorTestOutput = (
 ): StartAvailabilityMonitorTestOutput => {
   let contents: any = {
     __type: "StartAvailabilityMonitorTestOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -10881,7 +10881,7 @@ const deserializeAws_json1_1StorediSCSIVolume = (
     VolumeStatus: undefined,
     VolumeType: undefined,
     VolumeUsedInBytes: undefined,
-    VolumeiSCSIAttributes: undefined
+    VolumeiSCSIAttributes: undefined,
   };
   if (output.CreatedDate !== undefined && output.CreatedDate !== null) {
     contents.CreatedDate = new Date(Math.round(output.CreatedDate * 1000));
@@ -10968,7 +10968,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -11003,7 +11003,7 @@ const deserializeAws_json1_1Tape = (
     TapeSizeInBytes: undefined,
     TapeStatus: undefined,
     TapeUsedInBytes: undefined,
-    VTLDevice: undefined
+    VTLDevice: undefined,
   };
   if (output.KMSKey !== undefined && output.KMSKey !== null) {
     contents.KMSKey = output.KMSKey;
@@ -11062,7 +11062,7 @@ const deserializeAws_json1_1TapeArchive = (
     TapeCreatedDate: undefined,
     TapeSizeInBytes: undefined,
     TapeStatus: undefined,
-    TapeUsedInBytes: undefined
+    TapeUsedInBytes: undefined,
   };
   if (output.CompletionTime !== undefined && output.CompletionTime !== null) {
     contents.CompletionTime = new Date(
@@ -11121,7 +11121,7 @@ const deserializeAws_json1_1TapeInfo = (
     TapeARN: undefined,
     TapeBarcode: undefined,
     TapeSizeInBytes: undefined,
-    TapeStatus: undefined
+    TapeStatus: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -11162,7 +11162,7 @@ const deserializeAws_json1_1TapeRecoveryPointInfo = (
     TapeARN: undefined,
     TapeRecoveryPointTime: undefined,
     TapeSizeInBytes: undefined,
-    TapeStatus: undefined
+    TapeStatus: undefined,
   };
   if (output.TapeARN !== undefined && output.TapeARN !== null) {
     contents.TapeARN = output.TapeARN;
@@ -11208,7 +11208,7 @@ const deserializeAws_json1_1UpdateNFSFileShareOutput = (
 ): UpdateNFSFileShareOutput => {
   let contents: any = {
     __type: "UpdateNFSFileShareOutput",
-    FileShareARN: undefined
+    FileShareARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -11222,7 +11222,7 @@ const deserializeAws_json1_1UpdateSMBFileShareOutput = (
 ): UpdateSMBFileShareOutput => {
   let contents: any = {
     __type: "UpdateSMBFileShareOutput",
-    FileShareARN: undefined
+    FileShareARN: undefined,
   };
   if (output.FileShareARN !== undefined && output.FileShareARN !== null) {
     contents.FileShareARN = output.FileShareARN;
@@ -11236,7 +11236,7 @@ const deserializeAws_json1_1UpdateSMBSecurityStrategyOutput = (
 ): UpdateSMBSecurityStrategyOutput => {
   let contents: any = {
     __type: "UpdateSMBSecurityStrategyOutput",
-    GatewayARN: undefined
+    GatewayARN: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -11250,7 +11250,7 @@ const deserializeAws_json1_1UpdateVTLDeviceTypeOutput = (
 ): UpdateVTLDeviceTypeOutput => {
   let contents: any = {
     __type: "UpdateVTLDeviceTypeOutput",
-    VTLDeviceARN: undefined
+    VTLDeviceARN: undefined,
   };
   if (output.VTLDeviceARN !== undefined && output.VTLDeviceARN !== null) {
     contents.VTLDeviceARN = output.VTLDeviceARN;
@@ -11268,7 +11268,7 @@ const deserializeAws_json1_1VTLDevice = (
     VTLDeviceARN: undefined,
     VTLDeviceProductIdentifier: undefined,
     VTLDeviceType: undefined,
-    VTLDeviceVendor: undefined
+    VTLDeviceVendor: undefined,
   };
   if (
     output.DeviceiSCSIAttributes !== undefined &&
@@ -11318,7 +11318,7 @@ const deserializeAws_json1_1VolumeInfo = (
     VolumeAttachmentStatus: undefined,
     VolumeId: undefined,
     VolumeSizeInBytes: undefined,
-    VolumeType: undefined
+    VolumeType: undefined,
   };
   if (output.GatewayARN !== undefined && output.GatewayARN !== null) {
     contents.GatewayARN = output.GatewayARN;
@@ -11362,7 +11362,7 @@ const deserializeAws_json1_1VolumeInfos = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -11383,7 +11383,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -11396,11 +11396,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -11412,7 +11412,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

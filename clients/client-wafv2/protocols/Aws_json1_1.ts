@@ -1,146 +1,146 @@
 import {
   AssociateWebACLCommandInput,
-  AssociateWebACLCommandOutput
+  AssociateWebACLCommandOutput,
 } from "../commands/AssociateWebACLCommand";
 import {
   CheckCapacityCommandInput,
-  CheckCapacityCommandOutput
+  CheckCapacityCommandOutput,
 } from "../commands/CheckCapacityCommand";
 import {
   CreateIPSetCommandInput,
-  CreateIPSetCommandOutput
+  CreateIPSetCommandOutput,
 } from "../commands/CreateIPSetCommand";
 import {
   CreateRegexPatternSetCommandInput,
-  CreateRegexPatternSetCommandOutput
+  CreateRegexPatternSetCommandOutput,
 } from "../commands/CreateRegexPatternSetCommand";
 import {
   CreateRuleGroupCommandInput,
-  CreateRuleGroupCommandOutput
+  CreateRuleGroupCommandOutput,
 } from "../commands/CreateRuleGroupCommand";
 import {
   CreateWebACLCommandInput,
-  CreateWebACLCommandOutput
+  CreateWebACLCommandOutput,
 } from "../commands/CreateWebACLCommand";
 import {
   DeleteIPSetCommandInput,
-  DeleteIPSetCommandOutput
+  DeleteIPSetCommandOutput,
 } from "../commands/DeleteIPSetCommand";
 import {
   DeleteLoggingConfigurationCommandInput,
-  DeleteLoggingConfigurationCommandOutput
+  DeleteLoggingConfigurationCommandOutput,
 } from "../commands/DeleteLoggingConfigurationCommand";
 import {
   DeleteRegexPatternSetCommandInput,
-  DeleteRegexPatternSetCommandOutput
+  DeleteRegexPatternSetCommandOutput,
 } from "../commands/DeleteRegexPatternSetCommand";
 import {
   DeleteRuleGroupCommandInput,
-  DeleteRuleGroupCommandOutput
+  DeleteRuleGroupCommandOutput,
 } from "../commands/DeleteRuleGroupCommand";
 import {
   DeleteWebACLCommandInput,
-  DeleteWebACLCommandOutput
+  DeleteWebACLCommandOutput,
 } from "../commands/DeleteWebACLCommand";
 import {
   DescribeManagedRuleGroupCommandInput,
-  DescribeManagedRuleGroupCommandOutput
+  DescribeManagedRuleGroupCommandOutput,
 } from "../commands/DescribeManagedRuleGroupCommand";
 import {
   DisassociateWebACLCommandInput,
-  DisassociateWebACLCommandOutput
+  DisassociateWebACLCommandOutput,
 } from "../commands/DisassociateWebACLCommand";
 import {
   GetIPSetCommandInput,
-  GetIPSetCommandOutput
+  GetIPSetCommandOutput,
 } from "../commands/GetIPSetCommand";
 import {
   GetLoggingConfigurationCommandInput,
-  GetLoggingConfigurationCommandOutput
+  GetLoggingConfigurationCommandOutput,
 } from "../commands/GetLoggingConfigurationCommand";
 import {
   GetRateBasedStatementManagedKeysCommandInput,
-  GetRateBasedStatementManagedKeysCommandOutput
+  GetRateBasedStatementManagedKeysCommandOutput,
 } from "../commands/GetRateBasedStatementManagedKeysCommand";
 import {
   GetRegexPatternSetCommandInput,
-  GetRegexPatternSetCommandOutput
+  GetRegexPatternSetCommandOutput,
 } from "../commands/GetRegexPatternSetCommand";
 import {
   GetRuleGroupCommandInput,
-  GetRuleGroupCommandOutput
+  GetRuleGroupCommandOutput,
 } from "../commands/GetRuleGroupCommand";
 import {
   GetSampledRequestsCommandInput,
-  GetSampledRequestsCommandOutput
+  GetSampledRequestsCommandOutput,
 } from "../commands/GetSampledRequestsCommand";
 import {
   GetWebACLCommandInput,
-  GetWebACLCommandOutput
+  GetWebACLCommandOutput,
 } from "../commands/GetWebACLCommand";
 import {
   GetWebACLForResourceCommandInput,
-  GetWebACLForResourceCommandOutput
+  GetWebACLForResourceCommandOutput,
 } from "../commands/GetWebACLForResourceCommand";
 import {
   ListAvailableManagedRuleGroupsCommandInput,
-  ListAvailableManagedRuleGroupsCommandOutput
+  ListAvailableManagedRuleGroupsCommandOutput,
 } from "../commands/ListAvailableManagedRuleGroupsCommand";
 import {
   ListIPSetsCommandInput,
-  ListIPSetsCommandOutput
+  ListIPSetsCommandOutput,
 } from "../commands/ListIPSetsCommand";
 import {
   ListLoggingConfigurationsCommandInput,
-  ListLoggingConfigurationsCommandOutput
+  ListLoggingConfigurationsCommandOutput,
 } from "../commands/ListLoggingConfigurationsCommand";
 import {
   ListRegexPatternSetsCommandInput,
-  ListRegexPatternSetsCommandOutput
+  ListRegexPatternSetsCommandOutput,
 } from "../commands/ListRegexPatternSetsCommand";
 import {
   ListResourcesForWebACLCommandInput,
-  ListResourcesForWebACLCommandOutput
+  ListResourcesForWebACLCommandOutput,
 } from "../commands/ListResourcesForWebACLCommand";
 import {
   ListRuleGroupsCommandInput,
-  ListRuleGroupsCommandOutput
+  ListRuleGroupsCommandOutput,
 } from "../commands/ListRuleGroupsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   ListWebACLsCommandInput,
-  ListWebACLsCommandOutput
+  ListWebACLsCommandOutput,
 } from "../commands/ListWebACLsCommand";
 import {
   PutLoggingConfigurationCommandInput,
-  PutLoggingConfigurationCommandOutput
+  PutLoggingConfigurationCommandOutput,
 } from "../commands/PutLoggingConfigurationCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateIPSetCommandInput,
-  UpdateIPSetCommandOutput
+  UpdateIPSetCommandOutput,
 } from "../commands/UpdateIPSetCommand";
 import {
   UpdateRegexPatternSetCommandInput,
-  UpdateRegexPatternSetCommandOutput
+  UpdateRegexPatternSetCommandOutput,
 } from "../commands/UpdateRegexPatternSetCommand";
 import {
   UpdateRuleGroupCommandInput,
-  UpdateRuleGroupCommandOutput
+  UpdateRuleGroupCommandOutput,
 } from "../commands/UpdateRuleGroupCommand";
 import {
   UpdateWebACLCommandInput,
-  UpdateWebACLCommandOutput
+  UpdateWebACLCommandOutput,
 } from "../commands/UpdateWebACLCommand";
 import {
   AllQueryArguments,
@@ -279,11 +279,11 @@ import {
   WAFUnavailableEntityException,
   WebACL,
   WebACLSummary,
-  XssMatchStatement
+  XssMatchStatement,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
@@ -291,7 +291,7 @@ import {
   HeaderBag as __HeaderBag,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_json1_1AssociateWebACLCommand(
@@ -795,7 +795,7 @@ export async function deserializeAws_json1_1AssociateWebACLCommand(
   const response: AssociateWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "AssociateWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -806,7 +806,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
 ): Promise<AssociateWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -822,7 +822,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -833,7 +833,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -844,7 +844,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -855,7 +855,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -866,7 +866,7 @@ async function deserializeAws_json1_1AssociateWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -888,7 +888,7 @@ export async function deserializeAws_json1_1CheckCapacityCommand(
   const response: CheckCapacityCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CheckCapacityResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -899,7 +899,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
 ): Promise<CheckCapacityCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -915,7 +915,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -926,7 +926,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidResourceException":
@@ -937,7 +937,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -948,7 +948,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -959,7 +959,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -970,7 +970,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -981,7 +981,7 @@ async function deserializeAws_json1_1CheckCapacityCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1003,7 +1003,7 @@ export async function deserializeAws_json1_1CreateIPSetCommand(
   const response: CreateIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateIPSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1014,7 +1014,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
 ): Promise<CreateIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1030,7 +1030,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -1041,7 +1041,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1052,7 +1052,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -1063,7 +1063,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1074,7 +1074,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1085,7 +1085,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1096,7 +1096,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1107,7 +1107,7 @@ async function deserializeAws_json1_1CreateIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1132,7 +1132,7 @@ export async function deserializeAws_json1_1CreateRegexPatternSetCommand(
   const response: CreateRegexPatternSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRegexPatternSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1143,7 +1143,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
 ): Promise<CreateRegexPatternSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1159,7 +1159,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -1170,7 +1170,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1181,7 +1181,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -1192,7 +1192,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1203,7 +1203,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1214,7 +1214,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1225,7 +1225,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1236,7 +1236,7 @@ async function deserializeAws_json1_1CreateRegexPatternSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1258,7 +1258,7 @@ export async function deserializeAws_json1_1CreateRuleGroupCommand(
   const response: CreateRuleGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateRuleGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1269,7 +1269,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
 ): Promise<CreateRuleGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1285,7 +1285,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -1296,7 +1296,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1307,7 +1307,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -1318,7 +1318,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1329,7 +1329,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1340,7 +1340,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1351,7 +1351,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -1362,7 +1362,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1373,7 +1373,7 @@ async function deserializeAws_json1_1CreateRuleGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1395,7 +1395,7 @@ export async function deserializeAws_json1_1CreateWebACLCommand(
   const response: CreateWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1406,7 +1406,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
 ): Promise<CreateWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1422,7 +1422,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -1433,7 +1433,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1444,7 +1444,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidResourceException":
@@ -1455,7 +1455,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -1466,7 +1466,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -1477,7 +1477,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1488,7 +1488,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1499,7 +1499,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1510,7 +1510,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -1521,7 +1521,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1532,7 +1532,7 @@ async function deserializeAws_json1_1CreateWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1554,7 +1554,7 @@ export async function deserializeAws_json1_1DeleteIPSetCommand(
   const response: DeleteIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteIPSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1565,7 +1565,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
 ): Promise<DeleteIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1581,7 +1581,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1592,7 +1592,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -1603,7 +1603,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1614,7 +1614,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1625,7 +1625,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1636,7 +1636,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1647,7 +1647,7 @@ async function deserializeAws_json1_1DeleteIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1675,7 +1675,7 @@ export async function deserializeAws_json1_1DeleteLoggingConfigurationCommand(
   const response: DeleteLoggingConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteLoggingConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1686,7 +1686,7 @@ async function deserializeAws_json1_1DeleteLoggingConfigurationCommandError(
 ): Promise<DeleteLoggingConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1702,7 +1702,7 @@ async function deserializeAws_json1_1DeleteLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -1713,7 +1713,7 @@ async function deserializeAws_json1_1DeleteLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1724,7 +1724,7 @@ async function deserializeAws_json1_1DeleteLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1735,7 +1735,7 @@ async function deserializeAws_json1_1DeleteLoggingConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1760,7 +1760,7 @@ export async function deserializeAws_json1_1DeleteRegexPatternSetCommand(
   const response: DeleteRegexPatternSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRegexPatternSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1771,7 +1771,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
 ): Promise<DeleteRegexPatternSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1787,7 +1787,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1798,7 +1798,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -1809,7 +1809,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1820,7 +1820,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1831,7 +1831,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1842,7 +1842,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1853,7 +1853,7 @@ async function deserializeAws_json1_1DeleteRegexPatternSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1875,7 +1875,7 @@ export async function deserializeAws_json1_1DeleteRuleGroupCommand(
   const response: DeleteRuleGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteRuleGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -1886,7 +1886,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
 ): Promise<DeleteRuleGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1902,7 +1902,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -1913,7 +1913,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -1924,7 +1924,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -1935,7 +1935,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -1946,7 +1946,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -1957,7 +1957,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1968,7 +1968,7 @@ async function deserializeAws_json1_1DeleteRuleGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1990,7 +1990,7 @@ export async function deserializeAws_json1_1DeleteWebACLCommand(
   const response: DeleteWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DeleteWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2001,7 +2001,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
 ): Promise<DeleteWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2017,7 +2017,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -2028,7 +2028,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2039,7 +2039,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2050,7 +2050,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -2061,7 +2061,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -2072,7 +2072,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -2083,7 +2083,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2094,7 +2094,7 @@ async function deserializeAws_json1_1DeleteWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2122,7 +2122,7 @@ export async function deserializeAws_json1_1DescribeManagedRuleGroupCommand(
   const response: DescribeManagedRuleGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DescribeManagedRuleGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2133,7 +2133,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
 ): Promise<DescribeManagedRuleGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2149,7 +2149,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2160,7 +2160,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidResourceException":
@@ -2171,7 +2171,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2182,7 +2182,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2193,7 +2193,7 @@ async function deserializeAws_json1_1DescribeManagedRuleGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2218,7 +2218,7 @@ export async function deserializeAws_json1_1DisassociateWebACLCommand(
   const response: DisassociateWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "DisassociateWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2229,7 +2229,7 @@ async function deserializeAws_json1_1DisassociateWebACLCommandError(
 ): Promise<DisassociateWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2245,7 +2245,7 @@ async function deserializeAws_json1_1DisassociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2256,7 +2256,7 @@ async function deserializeAws_json1_1DisassociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2267,7 +2267,7 @@ async function deserializeAws_json1_1DisassociateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2278,7 +2278,7 @@ async function deserializeAws_json1_1DisassociateWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2300,7 +2300,7 @@ export async function deserializeAws_json1_1GetIPSetCommand(
   const response: GetIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetIPSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2311,7 +2311,7 @@ async function deserializeAws_json1_1GetIPSetCommandError(
 ): Promise<GetIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2327,7 +2327,7 @@ async function deserializeAws_json1_1GetIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2338,7 +2338,7 @@ async function deserializeAws_json1_1GetIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2349,7 +2349,7 @@ async function deserializeAws_json1_1GetIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2360,7 +2360,7 @@ async function deserializeAws_json1_1GetIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2388,7 +2388,7 @@ export async function deserializeAws_json1_1GetLoggingConfigurationCommand(
   const response: GetLoggingConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLoggingConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2399,7 +2399,7 @@ async function deserializeAws_json1_1GetLoggingConfigurationCommandError(
 ): Promise<GetLoggingConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2415,7 +2415,7 @@ async function deserializeAws_json1_1GetLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2426,7 +2426,7 @@ async function deserializeAws_json1_1GetLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2437,7 +2437,7 @@ async function deserializeAws_json1_1GetLoggingConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2465,7 +2465,7 @@ export async function deserializeAws_json1_1GetRateBasedStatementManagedKeysComm
   const response: GetRateBasedStatementManagedKeysCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRateBasedStatementManagedKeysResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2476,7 +2476,7 @@ async function deserializeAws_json1_1GetRateBasedStatementManagedKeysCommandErro
 ): Promise<GetRateBasedStatementManagedKeysCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2492,7 +2492,7 @@ async function deserializeAws_json1_1GetRateBasedStatementManagedKeysCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2503,7 +2503,7 @@ async function deserializeAws_json1_1GetRateBasedStatementManagedKeysCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2514,7 +2514,7 @@ async function deserializeAws_json1_1GetRateBasedStatementManagedKeysCommandErro
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2525,7 +2525,7 @@ async function deserializeAws_json1_1GetRateBasedStatementManagedKeysCommandErro
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2550,7 +2550,7 @@ export async function deserializeAws_json1_1GetRegexPatternSetCommand(
   const response: GetRegexPatternSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRegexPatternSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2561,7 +2561,7 @@ async function deserializeAws_json1_1GetRegexPatternSetCommandError(
 ): Promise<GetRegexPatternSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2577,7 +2577,7 @@ async function deserializeAws_json1_1GetRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2588,7 +2588,7 @@ async function deserializeAws_json1_1GetRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2599,7 +2599,7 @@ async function deserializeAws_json1_1GetRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2610,7 +2610,7 @@ async function deserializeAws_json1_1GetRegexPatternSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2632,7 +2632,7 @@ export async function deserializeAws_json1_1GetRuleGroupCommand(
   const response: GetRuleGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetRuleGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2643,7 +2643,7 @@ async function deserializeAws_json1_1GetRuleGroupCommandError(
 ): Promise<GetRuleGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2659,7 +2659,7 @@ async function deserializeAws_json1_1GetRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2670,7 +2670,7 @@ async function deserializeAws_json1_1GetRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2681,7 +2681,7 @@ async function deserializeAws_json1_1GetRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2692,7 +2692,7 @@ async function deserializeAws_json1_1GetRuleGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2717,7 +2717,7 @@ export async function deserializeAws_json1_1GetSampledRequestsCommand(
   const response: GetSampledRequestsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetSampledRequestsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2728,7 +2728,7 @@ async function deserializeAws_json1_1GetSampledRequestsCommandError(
 ): Promise<GetSampledRequestsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2744,7 +2744,7 @@ async function deserializeAws_json1_1GetSampledRequestsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2755,7 +2755,7 @@ async function deserializeAws_json1_1GetSampledRequestsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2766,7 +2766,7 @@ async function deserializeAws_json1_1GetSampledRequestsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2777,7 +2777,7 @@ async function deserializeAws_json1_1GetSampledRequestsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2799,7 +2799,7 @@ export async function deserializeAws_json1_1GetWebACLCommand(
   const response: GetWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2810,7 +2810,7 @@ async function deserializeAws_json1_1GetWebACLCommandError(
 ): Promise<GetWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2826,7 +2826,7 @@ async function deserializeAws_json1_1GetWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2837,7 +2837,7 @@ async function deserializeAws_json1_1GetWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2848,7 +2848,7 @@ async function deserializeAws_json1_1GetWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2859,7 +2859,7 @@ async function deserializeAws_json1_1GetWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2884,7 +2884,7 @@ export async function deserializeAws_json1_1GetWebACLForResourceCommand(
   const response: GetWebACLForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetWebACLForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2895,7 +2895,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
 ): Promise<GetWebACLForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -2911,7 +2911,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -2922,7 +2922,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -2933,7 +2933,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -2944,7 +2944,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -2955,7 +2955,7 @@ async function deserializeAws_json1_1GetWebACLForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -2983,7 +2983,7 @@ export async function deserializeAws_json1_1ListAvailableManagedRuleGroupsComman
   const response: ListAvailableManagedRuleGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListAvailableManagedRuleGroupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -2994,7 +2994,7 @@ async function deserializeAws_json1_1ListAvailableManagedRuleGroupsCommandError(
 ): Promise<ListAvailableManagedRuleGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3010,7 +3010,7 @@ async function deserializeAws_json1_1ListAvailableManagedRuleGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3021,7 +3021,7 @@ async function deserializeAws_json1_1ListAvailableManagedRuleGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3032,7 +3032,7 @@ async function deserializeAws_json1_1ListAvailableManagedRuleGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3054,7 +3054,7 @@ export async function deserializeAws_json1_1ListIPSetsCommand(
   const response: ListIPSetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListIPSetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3065,7 +3065,7 @@ async function deserializeAws_json1_1ListIPSetsCommandError(
 ): Promise<ListIPSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3081,7 +3081,7 @@ async function deserializeAws_json1_1ListIPSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3092,7 +3092,7 @@ async function deserializeAws_json1_1ListIPSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3103,7 +3103,7 @@ async function deserializeAws_json1_1ListIPSetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3131,7 +3131,7 @@ export async function deserializeAws_json1_1ListLoggingConfigurationsCommand(
   const response: ListLoggingConfigurationsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListLoggingConfigurationsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3142,7 +3142,7 @@ async function deserializeAws_json1_1ListLoggingConfigurationsCommandError(
 ): Promise<ListLoggingConfigurationsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3158,7 +3158,7 @@ async function deserializeAws_json1_1ListLoggingConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3169,7 +3169,7 @@ async function deserializeAws_json1_1ListLoggingConfigurationsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3180,7 +3180,7 @@ async function deserializeAws_json1_1ListLoggingConfigurationsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3205,7 +3205,7 @@ export async function deserializeAws_json1_1ListRegexPatternSetsCommand(
   const response: ListRegexPatternSetsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListRegexPatternSetsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3216,7 +3216,7 @@ async function deserializeAws_json1_1ListRegexPatternSetsCommandError(
 ): Promise<ListRegexPatternSetsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3232,7 +3232,7 @@ async function deserializeAws_json1_1ListRegexPatternSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3243,7 +3243,7 @@ async function deserializeAws_json1_1ListRegexPatternSetsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3254,7 +3254,7 @@ async function deserializeAws_json1_1ListRegexPatternSetsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3282,7 +3282,7 @@ export async function deserializeAws_json1_1ListResourcesForWebACLCommand(
   const response: ListResourcesForWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListResourcesForWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3293,7 +3293,7 @@ async function deserializeAws_json1_1ListResourcesForWebACLCommandError(
 ): Promise<ListResourcesForWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3309,7 +3309,7 @@ async function deserializeAws_json1_1ListResourcesForWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3320,7 +3320,7 @@ async function deserializeAws_json1_1ListResourcesForWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -3331,7 +3331,7 @@ async function deserializeAws_json1_1ListResourcesForWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3342,7 +3342,7 @@ async function deserializeAws_json1_1ListResourcesForWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3364,7 +3364,7 @@ export async function deserializeAws_json1_1ListRuleGroupsCommand(
   const response: ListRuleGroupsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListRuleGroupsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3375,7 +3375,7 @@ async function deserializeAws_json1_1ListRuleGroupsCommandError(
 ): Promise<ListRuleGroupsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3391,7 +3391,7 @@ async function deserializeAws_json1_1ListRuleGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3402,7 +3402,7 @@ async function deserializeAws_json1_1ListRuleGroupsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3413,7 +3413,7 @@ async function deserializeAws_json1_1ListRuleGroupsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3438,7 +3438,7 @@ export async function deserializeAws_json1_1ListTagsForResourceCommand(
   const response: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3449,7 +3449,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3465,7 +3465,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3476,7 +3476,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -3487,7 +3487,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -3498,7 +3498,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -3509,7 +3509,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3520,7 +3520,7 @@ async function deserializeAws_json1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3542,7 +3542,7 @@ export async function deserializeAws_json1_1ListWebACLsCommand(
   const response: ListWebACLsCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListWebACLsResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3553,7 +3553,7 @@ async function deserializeAws_json1_1ListWebACLsCommandError(
 ): Promise<ListWebACLsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3569,7 +3569,7 @@ async function deserializeAws_json1_1ListWebACLsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3580,7 +3580,7 @@ async function deserializeAws_json1_1ListWebACLsCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3591,7 +3591,7 @@ async function deserializeAws_json1_1ListWebACLsCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3619,7 +3619,7 @@ export async function deserializeAws_json1_1PutLoggingConfigurationCommand(
   const response: PutLoggingConfigurationCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "PutLoggingConfigurationResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3630,7 +3630,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
 ): Promise<PutLoggingConfigurationCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3646,7 +3646,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3657,7 +3657,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -3668,7 +3668,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -3679,7 +3679,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFServiceLinkedRoleErrorException":
@@ -3690,7 +3690,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3701,7 +3701,7 @@ async function deserializeAws_json1_1PutLoggingConfigurationCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3723,7 +3723,7 @@ export async function deserializeAws_json1_1TagResourceCommand(
   const response: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "TagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3734,7 +3734,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3750,7 +3750,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3761,7 +3761,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -3772,7 +3772,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -3783,7 +3783,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -3794,7 +3794,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -3805,7 +3805,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3816,7 +3816,7 @@ async function deserializeAws_json1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3838,7 +3838,7 @@ export async function deserializeAws_json1_1UntagResourceCommand(
   const response: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UntagResourceResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3849,7 +3849,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3865,7 +3865,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3876,7 +3876,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -3887,7 +3887,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationException":
@@ -3898,7 +3898,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFTagOperationInternalErrorException":
@@ -3909,7 +3909,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -3920,7 +3920,7 @@ async function deserializeAws_json1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -3942,7 +3942,7 @@ export async function deserializeAws_json1_1UpdateIPSetCommand(
   const response: UpdateIPSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateIPSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -3953,7 +3953,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
 ): Promise<UpdateIPSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -3969,7 +3969,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -3980,7 +3980,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -3991,7 +3991,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -4002,7 +4002,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -4013,7 +4013,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -4024,7 +4024,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4035,7 +4035,7 @@ async function deserializeAws_json1_1UpdateIPSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4060,7 +4060,7 @@ export async function deserializeAws_json1_1UpdateRegexPatternSetCommand(
   const response: UpdateRegexPatternSetCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateRegexPatternSetResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4071,7 +4071,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
 ): Promise<UpdateRegexPatternSetCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4087,7 +4087,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -4098,7 +4098,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -4109,7 +4109,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -4120,7 +4120,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -4131,7 +4131,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -4142,7 +4142,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4153,7 +4153,7 @@ async function deserializeAws_json1_1UpdateRegexPatternSetCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4175,7 +4175,7 @@ export async function deserializeAws_json1_1UpdateRuleGroupCommand(
   const response: UpdateRuleGroupCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateRuleGroupResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4186,7 +4186,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
 ): Promise<UpdateRuleGroupCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4202,7 +4202,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -4213,7 +4213,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -4224,7 +4224,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -4235,7 +4235,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -4246,7 +4246,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -4257,7 +4257,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -4268,7 +4268,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4279,7 +4279,7 @@ async function deserializeAws_json1_1UpdateRuleGroupCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4301,7 +4301,7 @@ export async function deserializeAws_json1_1UpdateWebACLCommand(
   const response: UpdateWebACLCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "UpdateWebACLResponse",
-    ...contents
+    ...contents,
   };
   return Promise.resolve(response);
 }
@@ -4312,7 +4312,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
 ): Promise<UpdateWebACLCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -4328,7 +4328,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInternalErrorException":
@@ -4339,7 +4339,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidParameterException":
@@ -4350,7 +4350,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFInvalidResourceException":
@@ -4361,7 +4361,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFLimitsExceededException":
@@ -4372,7 +4372,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFNonexistentItemException":
@@ -4383,7 +4383,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFOptimisticLockException":
@@ -4394,7 +4394,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "WAFUnavailableEntityException":
@@ -4405,7 +4405,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -4416,7 +4416,7 @@ async function deserializeAws_json1_1UpdateWebACLCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -4438,7 +4438,7 @@ const deserializeAws_json1_1WAFAssociatedItemExceptionResponse = async (
     name: "WAFAssociatedItemException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4456,7 +4456,7 @@ const deserializeAws_json1_1WAFDuplicateItemExceptionResponse = async (
     name: "WAFDuplicateItemException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4474,7 +4474,7 @@ const deserializeAws_json1_1WAFInternalErrorExceptionResponse = async (
     name: "WAFInternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4492,7 +4492,7 @@ const deserializeAws_json1_1WAFInvalidParameterExceptionResponse = async (
     name: "WAFInvalidParameterException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4510,7 +4510,7 @@ const deserializeAws_json1_1WAFInvalidResourceExceptionResponse = async (
     name: "WAFInvalidResourceException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4528,7 +4528,7 @@ const deserializeAws_json1_1WAFLimitsExceededExceptionResponse = async (
     name: "WAFLimitsExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4546,7 +4546,7 @@ const deserializeAws_json1_1WAFNonexistentItemExceptionResponse = async (
     name: "WAFNonexistentItemException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4564,7 +4564,7 @@ const deserializeAws_json1_1WAFOptimisticLockExceptionResponse = async (
     name: "WAFOptimisticLockException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4582,7 +4582,7 @@ const deserializeAws_json1_1WAFServiceLinkedRoleErrorExceptionResponse = async (
     name: "WAFServiceLinkedRoleErrorException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4600,7 +4600,7 @@ const deserializeAws_json1_1WAFTagOperationExceptionResponse = async (
     name: "WAFTagOperationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4618,7 +4618,7 @@ const deserializeAws_json1_1WAFTagOperationInternalErrorExceptionResponse = asyn
     name: "WAFTagOperationInternalErrorException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -4636,7 +4636,7 @@ const deserializeAws_json1_1WAFUnavailableEntityExceptionResponse = async (
     name: "WAFUnavailableEntityException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    ...deserialized
+    ...deserialized,
   };
   return contents;
 };
@@ -6140,7 +6140,7 @@ const deserializeAws_json1_1AllQueryArguments = (
   context: __SerdeContext
 ): AllQueryArguments => {
   let contents: any = {
-    __type: "AllQueryArguments"
+    __type: "AllQueryArguments",
   };
   return contents;
 };
@@ -6150,7 +6150,7 @@ const deserializeAws_json1_1AllowAction = (
   context: __SerdeContext
 ): AllowAction => {
   let contents: any = {
-    __type: "AllowAction"
+    __type: "AllowAction",
   };
   return contents;
 };
@@ -6161,7 +6161,7 @@ const deserializeAws_json1_1AndStatement = (
 ): AndStatement => {
   let contents: any = {
     __type: "AndStatement",
-    Statements: undefined
+    Statements: undefined,
   };
   if (output.Statements !== undefined && output.Statements !== null) {
     contents.Statements = deserializeAws_json1_1Statements(
@@ -6177,7 +6177,7 @@ const deserializeAws_json1_1AssociateWebACLResponse = (
   context: __SerdeContext
 ): AssociateWebACLResponse => {
   let contents: any = {
-    __type: "AssociateWebACLResponse"
+    __type: "AssociateWebACLResponse",
   };
   return contents;
 };
@@ -6187,7 +6187,7 @@ const deserializeAws_json1_1BlockAction = (
   context: __SerdeContext
 ): BlockAction => {
   let contents: any = {
-    __type: "BlockAction"
+    __type: "BlockAction",
   };
   return contents;
 };
@@ -6197,7 +6197,7 @@ const deserializeAws_json1_1Body = (
   context: __SerdeContext
 ): Body => {
   let contents: any = {
-    __type: "Body"
+    __type: "Body",
   };
   return contents;
 };
@@ -6211,7 +6211,7 @@ const deserializeAws_json1_1ByteMatchStatement = (
     FieldToMatch: undefined,
     PositionalConstraint: undefined,
     SearchString: undefined,
-    TextTransformations: undefined
+    TextTransformations: undefined,
   };
   if (output.FieldToMatch !== undefined && output.FieldToMatch !== null) {
     contents.FieldToMatch = deserializeAws_json1_1FieldToMatch(
@@ -6246,7 +6246,7 @@ const deserializeAws_json1_1CheckCapacityResponse = (
 ): CheckCapacityResponse => {
   let contents: any = {
     __type: "CheckCapacityResponse",
-    Capacity: undefined
+    Capacity: undefined,
   };
   if (output.Capacity !== undefined && output.Capacity !== null) {
     contents.Capacity = output.Capacity;
@@ -6259,7 +6259,7 @@ const deserializeAws_json1_1CountAction = (
   context: __SerdeContext
 ): CountAction => {
   let contents: any = {
-    __type: "CountAction"
+    __type: "CountAction",
   };
   return contents;
 };
@@ -6277,7 +6277,7 @@ const deserializeAws_json1_1CreateIPSetResponse = (
 ): CreateIPSetResponse => {
   let contents: any = {
     __type: "CreateIPSetResponse",
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.Summary !== undefined && output.Summary !== null) {
     contents.Summary = deserializeAws_json1_1IPSetSummary(
@@ -6294,7 +6294,7 @@ const deserializeAws_json1_1CreateRegexPatternSetResponse = (
 ): CreateRegexPatternSetResponse => {
   let contents: any = {
     __type: "CreateRegexPatternSetResponse",
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.Summary !== undefined && output.Summary !== null) {
     contents.Summary = deserializeAws_json1_1RegexPatternSetSummary(
@@ -6311,7 +6311,7 @@ const deserializeAws_json1_1CreateRuleGroupResponse = (
 ): CreateRuleGroupResponse => {
   let contents: any = {
     __type: "CreateRuleGroupResponse",
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.Summary !== undefined && output.Summary !== null) {
     contents.Summary = deserializeAws_json1_1RuleGroupSummary(
@@ -6328,7 +6328,7 @@ const deserializeAws_json1_1CreateWebACLResponse = (
 ): CreateWebACLResponse => {
   let contents: any = {
     __type: "CreateWebACLResponse",
-    Summary: undefined
+    Summary: undefined,
   };
   if (output.Summary !== undefined && output.Summary !== null) {
     contents.Summary = deserializeAws_json1_1WebACLSummary(
@@ -6346,7 +6346,7 @@ const deserializeAws_json1_1DefaultAction = (
   let contents: any = {
     __type: "DefaultAction",
     Allow: undefined,
-    Block: undefined
+    Block: undefined,
   };
   if (output.Allow !== undefined && output.Allow !== null) {
     contents.Allow = deserializeAws_json1_1AllowAction(output.Allow, context);
@@ -6362,7 +6362,7 @@ const deserializeAws_json1_1DeleteIPSetResponse = (
   context: __SerdeContext
 ): DeleteIPSetResponse => {
   let contents: any = {
-    __type: "DeleteIPSetResponse"
+    __type: "DeleteIPSetResponse",
   };
   return contents;
 };
@@ -6372,7 +6372,7 @@ const deserializeAws_json1_1DeleteLoggingConfigurationResponse = (
   context: __SerdeContext
 ): DeleteLoggingConfigurationResponse => {
   let contents: any = {
-    __type: "DeleteLoggingConfigurationResponse"
+    __type: "DeleteLoggingConfigurationResponse",
   };
   return contents;
 };
@@ -6382,7 +6382,7 @@ const deserializeAws_json1_1DeleteRegexPatternSetResponse = (
   context: __SerdeContext
 ): DeleteRegexPatternSetResponse => {
   let contents: any = {
-    __type: "DeleteRegexPatternSetResponse"
+    __type: "DeleteRegexPatternSetResponse",
   };
   return contents;
 };
@@ -6392,7 +6392,7 @@ const deserializeAws_json1_1DeleteRuleGroupResponse = (
   context: __SerdeContext
 ): DeleteRuleGroupResponse => {
   let contents: any = {
-    __type: "DeleteRuleGroupResponse"
+    __type: "DeleteRuleGroupResponse",
   };
   return contents;
 };
@@ -6402,7 +6402,7 @@ const deserializeAws_json1_1DeleteWebACLResponse = (
   context: __SerdeContext
 ): DeleteWebACLResponse => {
   let contents: any = {
-    __type: "DeleteWebACLResponse"
+    __type: "DeleteWebACLResponse",
   };
   return contents;
 };
@@ -6414,7 +6414,7 @@ const deserializeAws_json1_1DescribeManagedRuleGroupResponse = (
   let contents: any = {
     __type: "DescribeManagedRuleGroupResponse",
     Capacity: undefined,
-    Rules: undefined
+    Rules: undefined,
   };
   if (output.Capacity !== undefined && output.Capacity !== null) {
     contents.Capacity = output.Capacity;
@@ -6430,7 +6430,7 @@ const deserializeAws_json1_1DisassociateWebACLResponse = (
   context: __SerdeContext
 ): DisassociateWebACLResponse => {
   let contents: any = {
-    __type: "DisassociateWebACLResponse"
+    __type: "DisassociateWebACLResponse",
   };
   return contents;
 };
@@ -6441,7 +6441,7 @@ const deserializeAws_json1_1ExcludedRule = (
 ): ExcludedRule => {
   let contents: any = {
     __type: "ExcludedRule",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -6470,7 +6470,7 @@ const deserializeAws_json1_1FieldToMatch = (
     QueryString: undefined,
     SingleHeader: undefined,
     SingleQueryArgument: undefined,
-    UriPath: undefined
+    UriPath: undefined,
   };
   if (
     output.AllQueryArguments !== undefined &&
@@ -6520,7 +6520,7 @@ const deserializeAws_json1_1GeoMatchStatement = (
 ): GeoMatchStatement => {
   let contents: any = {
     __type: "GeoMatchStatement",
-    CountryCodes: undefined
+    CountryCodes: undefined,
   };
   if (output.CountryCodes !== undefined && output.CountryCodes !== null) {
     contents.CountryCodes = deserializeAws_json1_1CountryCodes(
@@ -6538,7 +6538,7 @@ const deserializeAws_json1_1GetIPSetResponse = (
   let contents: any = {
     __type: "GetIPSetResponse",
     IPSet: undefined,
-    LockToken: undefined
+    LockToken: undefined,
   };
   if (output.IPSet !== undefined && output.IPSet !== null) {
     contents.IPSet = deserializeAws_json1_1IPSet(output.IPSet, context);
@@ -6555,7 +6555,7 @@ const deserializeAws_json1_1GetLoggingConfigurationResponse = (
 ): GetLoggingConfigurationResponse => {
   let contents: any = {
     __type: "GetLoggingConfigurationResponse",
-    LoggingConfiguration: undefined
+    LoggingConfiguration: undefined,
   };
   if (
     output.LoggingConfiguration !== undefined &&
@@ -6576,7 +6576,7 @@ const deserializeAws_json1_1GetRateBasedStatementManagedKeysResponse = (
   let contents: any = {
     __type: "GetRateBasedStatementManagedKeysResponse",
     ManagedKeysIPV4: undefined,
-    ManagedKeysIPV6: undefined
+    ManagedKeysIPV6: undefined,
   };
   if (output.ManagedKeysIPV4 !== undefined && output.ManagedKeysIPV4 !== null) {
     contents.ManagedKeysIPV4 = deserializeAws_json1_1RateBasedStatementManagedKeysIPSet(
@@ -6600,7 +6600,7 @@ const deserializeAws_json1_1GetRegexPatternSetResponse = (
   let contents: any = {
     __type: "GetRegexPatternSetResponse",
     LockToken: undefined,
-    RegexPatternSet: undefined
+    RegexPatternSet: undefined,
   };
   if (output.LockToken !== undefined && output.LockToken !== null) {
     contents.LockToken = output.LockToken;
@@ -6621,7 +6621,7 @@ const deserializeAws_json1_1GetRuleGroupResponse = (
   let contents: any = {
     __type: "GetRuleGroupResponse",
     LockToken: undefined,
-    RuleGroup: undefined
+    RuleGroup: undefined,
   };
   if (output.LockToken !== undefined && output.LockToken !== null) {
     contents.LockToken = output.LockToken;
@@ -6643,7 +6643,7 @@ const deserializeAws_json1_1GetSampledRequestsResponse = (
     __type: "GetSampledRequestsResponse",
     PopulationSize: undefined,
     SampledRequests: undefined,
-    TimeWindow: undefined
+    TimeWindow: undefined,
   };
   if (output.PopulationSize !== undefined && output.PopulationSize !== null) {
     contents.PopulationSize = output.PopulationSize;
@@ -6669,7 +6669,7 @@ const deserializeAws_json1_1GetWebACLForResourceResponse = (
 ): GetWebACLForResourceResponse => {
   let contents: any = {
     __type: "GetWebACLForResourceResponse",
-    WebACL: undefined
+    WebACL: undefined,
   };
   if (output.WebACL !== undefined && output.WebACL !== null) {
     contents.WebACL = deserializeAws_json1_1WebACL(output.WebACL, context);
@@ -6684,7 +6684,7 @@ const deserializeAws_json1_1GetWebACLResponse = (
   let contents: any = {
     __type: "GetWebACLResponse",
     LockToken: undefined,
-    WebACL: undefined
+    WebACL: undefined,
   };
   if (output.LockToken !== undefined && output.LockToken !== null) {
     contents.LockToken = output.LockToken;
@@ -6702,7 +6702,7 @@ const deserializeAws_json1_1HTTPHeader = (
   let contents: any = {
     __type: "HTTPHeader",
     Name: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -6733,7 +6733,7 @@ const deserializeAws_json1_1HTTPRequest = (
     HTTPVersion: undefined,
     Headers: undefined,
     Method: undefined,
-    URI: undefined
+    URI: undefined,
   };
   if (output.ClientIP !== undefined && output.ClientIP !== null) {
     contents.ClientIP = output.ClientIP;
@@ -6777,7 +6777,7 @@ const deserializeAws_json1_1IPSet = (
     Description: undefined,
     IPAddressVersion: undefined,
     Id: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -6812,7 +6812,7 @@ const deserializeAws_json1_1IPSetReferenceStatement = (
 ): IPSetReferenceStatement => {
   let contents: any = {
     __type: "IPSetReferenceStatement",
-    ARN: undefined
+    ARN: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -6839,7 +6839,7 @@ const deserializeAws_json1_1IPSetSummary = (
     Description: undefined,
     Id: undefined,
     LockToken: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -6866,7 +6866,7 @@ const deserializeAws_json1_1ListAvailableManagedRuleGroupsResponse = (
   let contents: any = {
     __type: "ListAvailableManagedRuleGroupsResponse",
     ManagedRuleGroups: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   if (
     output.ManagedRuleGroups !== undefined &&
@@ -6890,7 +6890,7 @@ const deserializeAws_json1_1ListIPSetsResponse = (
   let contents: any = {
     __type: "ListIPSetsResponse",
     IPSets: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   if (output.IPSets !== undefined && output.IPSets !== null) {
     contents.IPSets = deserializeAws_json1_1IPSetSummaries(
@@ -6911,7 +6911,7 @@ const deserializeAws_json1_1ListLoggingConfigurationsResponse = (
   let contents: any = {
     __type: "ListLoggingConfigurationsResponse",
     LoggingConfigurations: undefined,
-    NextMarker: undefined
+    NextMarker: undefined,
   };
   if (
     output.LoggingConfigurations !== undefined &&
@@ -6935,7 +6935,7 @@ const deserializeAws_json1_1ListRegexPatternSetsResponse = (
   let contents: any = {
     __type: "ListRegexPatternSetsResponse",
     NextMarker: undefined,
-    RegexPatternSets: undefined
+    RegexPatternSets: undefined,
   };
   if (output.NextMarker !== undefined && output.NextMarker !== null) {
     contents.NextMarker = output.NextMarker;
@@ -6958,7 +6958,7 @@ const deserializeAws_json1_1ListResourcesForWebACLResponse = (
 ): ListResourcesForWebACLResponse => {
   let contents: any = {
     __type: "ListResourcesForWebACLResponse",
-    ResourceArns: undefined
+    ResourceArns: undefined,
   };
   if (output.ResourceArns !== undefined && output.ResourceArns !== null) {
     contents.ResourceArns = deserializeAws_json1_1ResourceArns(
@@ -6976,7 +6976,7 @@ const deserializeAws_json1_1ListRuleGroupsResponse = (
   let contents: any = {
     __type: "ListRuleGroupsResponse",
     NextMarker: undefined,
-    RuleGroups: undefined
+    RuleGroups: undefined,
   };
   if (output.NextMarker !== undefined && output.NextMarker !== null) {
     contents.NextMarker = output.NextMarker;
@@ -6997,7 +6997,7 @@ const deserializeAws_json1_1ListTagsForResourceResponse = (
   let contents: any = {
     __type: "ListTagsForResourceResponse",
     NextMarker: undefined,
-    TagInfoForResource: undefined
+    TagInfoForResource: undefined,
   };
   if (output.NextMarker !== undefined && output.NextMarker !== null) {
     contents.NextMarker = output.NextMarker;
@@ -7021,7 +7021,7 @@ const deserializeAws_json1_1ListWebACLsResponse = (
   let contents: any = {
     __type: "ListWebACLsResponse",
     NextMarker: undefined,
-    WebACLs: undefined
+    WebACLs: undefined,
   };
   if (output.NextMarker !== undefined && output.NextMarker !== null) {
     contents.NextMarker = output.NextMarker;
@@ -7050,7 +7050,7 @@ const deserializeAws_json1_1LoggingConfiguration = (
     __type: "LoggingConfiguration",
     LogDestinationConfigs: undefined,
     RedactedFields: undefined,
-    ResourceArn: undefined
+    ResourceArn: undefined,
   };
   if (
     output.LogDestinationConfigs !== undefined &&
@@ -7090,7 +7090,7 @@ const deserializeAws_json1_1ManagedRuleGroupStatement = (
     __type: "ManagedRuleGroupStatement",
     ExcludedRules: undefined,
     Name: undefined,
-    VendorName: undefined
+    VendorName: undefined,
   };
   if (output.ExcludedRules !== undefined && output.ExcludedRules !== null) {
     contents.ExcludedRules = deserializeAws_json1_1ExcludedRules(
@@ -7124,7 +7124,7 @@ const deserializeAws_json1_1ManagedRuleGroupSummary = (
     __type: "ManagedRuleGroupSummary",
     Description: undefined,
     Name: undefined,
-    VendorName: undefined
+    VendorName: undefined,
   };
   if (output.Description !== undefined && output.Description !== null) {
     contents.Description = output.Description;
@@ -7143,7 +7143,7 @@ const deserializeAws_json1_1Method = (
   context: __SerdeContext
 ): Method => {
   let contents: any = {
-    __type: "Method"
+    __type: "Method",
   };
   return contents;
 };
@@ -7153,7 +7153,7 @@ const deserializeAws_json1_1NoneAction = (
   context: __SerdeContext
 ): NoneAction => {
   let contents: any = {
-    __type: "NoneAction"
+    __type: "NoneAction",
   };
   return contents;
 };
@@ -7164,7 +7164,7 @@ const deserializeAws_json1_1NotStatement = (
 ): NotStatement => {
   let contents: any = {
     __type: "NotStatement",
-    Statement: undefined
+    Statement: undefined,
   };
   if (output.Statement !== undefined && output.Statement !== null) {
     contents.Statement = deserializeAws_json1_1Statement(
@@ -7181,7 +7181,7 @@ const deserializeAws_json1_1OrStatement = (
 ): OrStatement => {
   let contents: any = {
     __type: "OrStatement",
-    Statements: undefined
+    Statements: undefined,
   };
   if (output.Statements !== undefined && output.Statements !== null) {
     contents.Statements = deserializeAws_json1_1Statements(
@@ -7199,7 +7199,7 @@ const deserializeAws_json1_1OverrideAction = (
   let contents: any = {
     __type: "OverrideAction",
     Count: undefined,
-    None: undefined
+    None: undefined,
   };
   if (output.Count !== undefined && output.Count !== null) {
     contents.Count = deserializeAws_json1_1CountAction(output.Count, context);
@@ -7216,7 +7216,7 @@ const deserializeAws_json1_1PutLoggingConfigurationResponse = (
 ): PutLoggingConfigurationResponse => {
   let contents: any = {
     __type: "PutLoggingConfigurationResponse",
-    LoggingConfiguration: undefined
+    LoggingConfiguration: undefined,
   };
   if (
     output.LoggingConfiguration !== undefined &&
@@ -7235,7 +7235,7 @@ const deserializeAws_json1_1QueryString = (
   context: __SerdeContext
 ): QueryString => {
   let contents: any = {
-    __type: "QueryString"
+    __type: "QueryString",
   };
   return contents;
 };
@@ -7248,7 +7248,7 @@ const deserializeAws_json1_1RateBasedStatement = (
     __type: "RateBasedStatement",
     AggregateKeyType: undefined,
     Limit: undefined,
-    ScopeDownStatement: undefined
+    ScopeDownStatement: undefined,
   };
   if (
     output.AggregateKeyType !== undefined &&
@@ -7278,7 +7278,7 @@ const deserializeAws_json1_1RateBasedStatementManagedKeysIPSet = (
   let contents: any = {
     __type: "RateBasedStatementManagedKeysIPSet",
     Addresses: undefined,
-    IPAddressVersion: undefined
+    IPAddressVersion: undefined,
   };
   if (output.Addresses !== undefined && output.Addresses !== null) {
     contents.Addresses = deserializeAws_json1_1IPAddresses(
@@ -7310,7 +7310,7 @@ const deserializeAws_json1_1Regex = (
 ): Regex => {
   let contents: any = {
     __type: "Regex",
-    RegexString: undefined
+    RegexString: undefined,
   };
   if (output.RegexString !== undefined && output.RegexString !== null) {
     contents.RegexString = output.RegexString;
@@ -7328,7 +7328,7 @@ const deserializeAws_json1_1RegexPatternSet = (
     Description: undefined,
     Id: undefined,
     Name: undefined,
-    RegularExpressionList: undefined
+    RegularExpressionList: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7362,7 +7362,7 @@ const deserializeAws_json1_1RegexPatternSetReferenceStatement = (
     __type: "RegexPatternSetReferenceStatement",
     ARN: undefined,
     FieldToMatch: undefined,
-    TextTransformations: undefined
+    TextTransformations: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7404,7 +7404,7 @@ const deserializeAws_json1_1RegexPatternSetSummary = (
     Description: undefined,
     Id: undefined,
     LockToken: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7451,7 +7451,7 @@ const deserializeAws_json1_1Rule = (
     OverrideAction: undefined,
     Priority: undefined,
     Statement: undefined,
-    VisibilityConfig: undefined
+    VisibilityConfig: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = deserializeAws_json1_1RuleAction(output.Action, context);
@@ -7494,7 +7494,7 @@ const deserializeAws_json1_1RuleAction = (
     __type: "RuleAction",
     Allow: undefined,
     Block: undefined,
-    Count: undefined
+    Count: undefined,
   };
   if (output.Allow !== undefined && output.Allow !== null) {
     contents.Allow = deserializeAws_json1_1AllowAction(output.Allow, context);
@@ -7520,7 +7520,7 @@ const deserializeAws_json1_1RuleGroup = (
     Id: undefined,
     Name: undefined,
     Rules: undefined,
-    VisibilityConfig: undefined
+    VisibilityConfig: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7559,7 +7559,7 @@ const deserializeAws_json1_1RuleGroupReferenceStatement = (
   let contents: any = {
     __type: "RuleGroupReferenceStatement",
     ARN: undefined,
-    ExcludedRules: undefined
+    ExcludedRules: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7592,7 +7592,7 @@ const deserializeAws_json1_1RuleGroupSummary = (
     Description: undefined,
     Id: undefined,
     LockToken: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -7628,7 +7628,7 @@ const deserializeAws_json1_1RuleSummary = (
   let contents: any = {
     __type: "RuleSummary",
     Action: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = deserializeAws_json1_1RuleAction(output.Action, context);
@@ -7658,7 +7658,7 @@ const deserializeAws_json1_1SampledHTTPRequest = (
     Request: undefined,
     RuleNameWithinRuleGroup: undefined,
     Timestamp: undefined,
-    Weight: undefined
+    Weight: undefined,
   };
   if (output.Action !== undefined && output.Action !== null) {
     contents.Action = output.Action;
@@ -7699,7 +7699,7 @@ const deserializeAws_json1_1SingleHeader = (
 ): SingleHeader => {
   let contents: any = {
     __type: "SingleHeader",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -7713,7 +7713,7 @@ const deserializeAws_json1_1SingleQueryArgument = (
 ): SingleQueryArgument => {
   let contents: any = {
     __type: "SingleQueryArgument",
-    Name: undefined
+    Name: undefined,
   };
   if (output.Name !== undefined && output.Name !== null) {
     contents.Name = output.Name;
@@ -7730,7 +7730,7 @@ const deserializeAws_json1_1SizeConstraintStatement = (
     ComparisonOperator: undefined,
     FieldToMatch: undefined,
     Size: undefined,
-    TextTransformations: undefined
+    TextTransformations: undefined,
   };
   if (
     output.ComparisonOperator !== undefined &&
@@ -7766,7 +7766,7 @@ const deserializeAws_json1_1SqliMatchStatement = (
   let contents: any = {
     __type: "SqliMatchStatement",
     FieldToMatch: undefined,
-    TextTransformations: undefined
+    TextTransformations: undefined,
   };
   if (output.FieldToMatch !== undefined && output.FieldToMatch !== null) {
     contents.FieldToMatch = deserializeAws_json1_1FieldToMatch(
@@ -7804,7 +7804,7 @@ const deserializeAws_json1_1Statement = (
     RuleGroupReferenceStatement: undefined,
     SizeConstraintStatement: undefined,
     SqliMatchStatement: undefined,
-    XssMatchStatement: undefined
+    XssMatchStatement: undefined,
   };
   if (output.AndStatement !== undefined && output.AndStatement !== null) {
     contents.AndStatement = deserializeAws_json1_1AndStatement(
@@ -7933,7 +7933,7 @@ const deserializeAws_json1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -7951,7 +7951,7 @@ const deserializeAws_json1_1TagInfoForResource = (
   let contents: any = {
     __type: "TagInfoForResource",
     ResourceARN: undefined,
-    TagList: undefined
+    TagList: undefined,
   };
   if (output.ResourceARN !== undefined && output.ResourceARN !== null) {
     contents.ResourceARN = output.ResourceARN;
@@ -7976,7 +7976,7 @@ const deserializeAws_json1_1TagResourceResponse = (
   context: __SerdeContext
 ): TagResourceResponse => {
   let contents: any = {
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   return contents;
 };
@@ -7988,7 +7988,7 @@ const deserializeAws_json1_1TextTransformation = (
   let contents: any = {
     __type: "TextTransformation",
     Priority: undefined,
-    Type: undefined
+    Type: undefined,
   };
   if (output.Priority !== undefined && output.Priority !== null) {
     contents.Priority = output.Priority;
@@ -8015,7 +8015,7 @@ const deserializeAws_json1_1TimeWindow = (
   let contents: any = {
     __type: "TimeWindow",
     EndTime: undefined,
-    StartTime: undefined
+    StartTime: undefined,
   };
   if (output.EndTime !== undefined && output.EndTime !== null) {
     contents.EndTime = new Date(Math.round(output.EndTime * 1000));
@@ -8031,7 +8031,7 @@ const deserializeAws_json1_1UntagResourceResponse = (
   context: __SerdeContext
 ): UntagResourceResponse => {
   let contents: any = {
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   return contents;
 };
@@ -8042,7 +8042,7 @@ const deserializeAws_json1_1UpdateIPSetResponse = (
 ): UpdateIPSetResponse => {
   let contents: any = {
     __type: "UpdateIPSetResponse",
-    NextLockToken: undefined
+    NextLockToken: undefined,
   };
   if (output.NextLockToken !== undefined && output.NextLockToken !== null) {
     contents.NextLockToken = output.NextLockToken;
@@ -8056,7 +8056,7 @@ const deserializeAws_json1_1UpdateRegexPatternSetResponse = (
 ): UpdateRegexPatternSetResponse => {
   let contents: any = {
     __type: "UpdateRegexPatternSetResponse",
-    NextLockToken: undefined
+    NextLockToken: undefined,
   };
   if (output.NextLockToken !== undefined && output.NextLockToken !== null) {
     contents.NextLockToken = output.NextLockToken;
@@ -8070,7 +8070,7 @@ const deserializeAws_json1_1UpdateRuleGroupResponse = (
 ): UpdateRuleGroupResponse => {
   let contents: any = {
     __type: "UpdateRuleGroupResponse",
-    NextLockToken: undefined
+    NextLockToken: undefined,
   };
   if (output.NextLockToken !== undefined && output.NextLockToken !== null) {
     contents.NextLockToken = output.NextLockToken;
@@ -8084,7 +8084,7 @@ const deserializeAws_json1_1UpdateWebACLResponse = (
 ): UpdateWebACLResponse => {
   let contents: any = {
     __type: "UpdateWebACLResponse",
-    NextLockToken: undefined
+    NextLockToken: undefined,
   };
   if (output.NextLockToken !== undefined && output.NextLockToken !== null) {
     contents.NextLockToken = output.NextLockToken;
@@ -8097,7 +8097,7 @@ const deserializeAws_json1_1UriPath = (
   context: __SerdeContext
 ): UriPath => {
   let contents: any = {
-    __type: "UriPath"
+    __type: "UriPath",
   };
   return contents;
 };
@@ -8110,7 +8110,7 @@ const deserializeAws_json1_1VisibilityConfig = (
     __type: "VisibilityConfig",
     CloudWatchMetricsEnabled: undefined,
     MetricName: undefined,
-    SampledRequestsEnabled: undefined
+    SampledRequestsEnabled: undefined,
   };
   if (
     output.CloudWatchMetricsEnabled !== undefined &&
@@ -8136,7 +8136,7 @@ const deserializeAws_json1_1WAFAssociatedItemException = (
 ): WAFAssociatedItemException => {
   let contents: any = {
     __type: "WAFAssociatedItemException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8150,7 +8150,7 @@ const deserializeAws_json1_1WAFDuplicateItemException = (
 ): WAFDuplicateItemException => {
   let contents: any = {
     __type: "WAFDuplicateItemException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8164,7 +8164,7 @@ const deserializeAws_json1_1WAFInternalErrorException = (
 ): WAFInternalErrorException => {
   let contents: any = {
     __type: "WAFInternalErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8181,7 +8181,7 @@ const deserializeAws_json1_1WAFInvalidParameterException = (
     Field: undefined,
     Parameter: undefined,
     Reason: undefined,
-    message: undefined
+    message: undefined,
   };
   if (output.Field !== undefined && output.Field !== null) {
     contents.Field = output.Field;
@@ -8204,7 +8204,7 @@ const deserializeAws_json1_1WAFInvalidResourceException = (
 ): WAFInvalidResourceException => {
   let contents: any = {
     __type: "WAFInvalidResourceException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8218,7 +8218,7 @@ const deserializeAws_json1_1WAFLimitsExceededException = (
 ): WAFLimitsExceededException => {
   let contents: any = {
     __type: "WAFLimitsExceededException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8232,7 +8232,7 @@ const deserializeAws_json1_1WAFNonexistentItemException = (
 ): WAFNonexistentItemException => {
   let contents: any = {
     __type: "WAFNonexistentItemException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8246,7 +8246,7 @@ const deserializeAws_json1_1WAFOptimisticLockException = (
 ): WAFOptimisticLockException => {
   let contents: any = {
     __type: "WAFOptimisticLockException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8260,7 +8260,7 @@ const deserializeAws_json1_1WAFServiceLinkedRoleErrorException = (
 ): WAFServiceLinkedRoleErrorException => {
   let contents: any = {
     __type: "WAFServiceLinkedRoleErrorException",
-    message: undefined
+    message: undefined,
   };
   if (output.message !== undefined && output.message !== null) {
     contents.message = output.message;
@@ -8274,7 +8274,7 @@ const deserializeAws_json1_1WAFTagOperationException = (
 ): WAFTagOperationException => {
   let contents: any = {
     __type: "WAFTagOperationException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8288,7 +8288,7 @@ const deserializeAws_json1_1WAFTagOperationInternalErrorException = (
 ): WAFTagOperationInternalErrorException => {
   let contents: any = {
     __type: "WAFTagOperationInternalErrorException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8302,7 +8302,7 @@ const deserializeAws_json1_1WAFUnavailableEntityException = (
 ): WAFUnavailableEntityException => {
   let contents: any = {
     __type: "WAFUnavailableEntityException",
-    Message: undefined
+    Message: undefined,
   };
   if (output.Message !== undefined && output.Message !== null) {
     contents.Message = output.Message;
@@ -8323,7 +8323,7 @@ const deserializeAws_json1_1WebACL = (
     Id: undefined,
     Name: undefined,
     Rules: undefined,
-    VisibilityConfig: undefined
+    VisibilityConfig: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -8380,7 +8380,7 @@ const deserializeAws_json1_1WebACLSummary = (
     Description: undefined,
     Id: undefined,
     LockToken: undefined,
-    Name: undefined
+    Name: undefined,
   };
   if (output.ARN !== undefined && output.ARN !== null) {
     contents.ARN = output.ARN;
@@ -8407,7 +8407,7 @@ const deserializeAws_json1_1XssMatchStatement = (
   let contents: any = {
     __type: "XssMatchStatement",
     FieldToMatch: undefined,
-    TextTransformations: undefined
+    TextTransformations: undefined,
   };
   if (output.FieldToMatch !== undefined && output.FieldToMatch !== null) {
     contents.FieldToMatch = deserializeAws_json1_1FieldToMatch(
@@ -8430,7 +8430,7 @@ const deserializeAws_json1_1XssMatchStatement = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -8451,7 +8451,7 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
@@ -8464,11 +8464,11 @@ const buildHttpRpcRequest = (
   body: any
 ): __HttpRequest => {
   const contents: any = {
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     path: path,
-    headers: headers
+    headers: headers,
+    ...context.endpoint,
   };
   if (resolvedHostname !== undefined) {
     contents.hostname = resolvedHostname;
@@ -8480,7 +8480,7 @@ const buildHttpRpcRequest = (
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }

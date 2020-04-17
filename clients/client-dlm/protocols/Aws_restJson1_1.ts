@@ -1,34 +1,34 @@
 import {
   CreateLifecyclePolicyCommandInput,
-  CreateLifecyclePolicyCommandOutput
+  CreateLifecyclePolicyCommandOutput,
 } from "../commands/CreateLifecyclePolicyCommand";
 import {
   DeleteLifecyclePolicyCommandInput,
-  DeleteLifecyclePolicyCommandOutput
+  DeleteLifecyclePolicyCommandOutput,
 } from "../commands/DeleteLifecyclePolicyCommand";
 import {
   GetLifecyclePoliciesCommandInput,
-  GetLifecyclePoliciesCommandOutput
+  GetLifecyclePoliciesCommandOutput,
 } from "../commands/GetLifecyclePoliciesCommand";
 import {
   GetLifecyclePolicyCommandInput,
-  GetLifecyclePolicyCommandOutput
+  GetLifecyclePolicyCommandOutput,
 } from "../commands/GetLifecyclePolicyCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   UpdateLifecyclePolicyCommandInput,
-  UpdateLifecyclePolicyCommandOutput
+  UpdateLifecyclePolicyCommandOutput,
 } from "../commands/UpdateLifecyclePolicyCommand";
 import {
   CreateRule,
@@ -46,21 +46,21 @@ import {
   RetainRule,
   Schedule,
   Tag,
-  _Parameters
+  _Parameters,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import {
   SmithyException as __SmithyException,
-  extendedEncodeURIComponent as __extendedEncodeURIComponent
+  extendedEncodeURIComponent as __extendedEncodeURIComponent,
 } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 
 export async function serializeAws_restJson1_1CreateLifecyclePolicyCommand(
@@ -92,12 +92,12 @@ export async function serializeAws_restJson1_1CreateLifecyclePolicyCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -122,12 +122,12 @@ export async function serializeAws_restJson1_1DeleteLifecyclePolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -140,29 +140,31 @@ export async function serializeAws_restJson1_1GetLifecyclePoliciesCommand(
   let resolvedPath = "/policies";
   const query: any = {};
   if (input.PolicyIds !== undefined) {
-    query["policyIds"] = (input.PolicyIds || []).map(_entry => _entry);
+    query["policyIds"] = (input.PolicyIds || []).map((_entry) => _entry);
   }
   if (input.ResourceTypes !== undefined) {
-    query["resourceTypes"] = (input.ResourceTypes || []).map(_entry => _entry);
+    query["resourceTypes"] = (input.ResourceTypes || []).map(
+      (_entry) => _entry
+    );
   }
   if (input.State !== undefined) {
     query["state"] = input.State;
   }
   if (input.TagsToAdd !== undefined) {
-    query["tagsToAdd"] = (input.TagsToAdd || []).map(_entry => _entry);
+    query["tagsToAdd"] = (input.TagsToAdd || []).map((_entry) => _entry);
   }
   if (input.TargetTags !== undefined) {
-    query["targetTags"] = (input.TargetTags || []).map(_entry => _entry);
+    query["targetTags"] = (input.TargetTags || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -187,12 +189,12 @@ export async function serializeAws_restJson1_1GetLifecyclePolicyCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -219,12 +221,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "GET",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -256,12 +258,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -288,17 +290,17 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   const query: any = {};
   if (input.TagKeys !== undefined) {
-    query["tagKeys"] = (input.TagKeys || []).map(_entry => _entry);
+    query["tagKeys"] = (input.TagKeys || []).map((_entry) => _entry);
   }
   let body: any;
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "DELETE",
     headers: headers,
     path: resolvedPath,
     query: query,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -340,12 +342,12 @@ export async function serializeAws_restJson1_1UpdateLifecyclePolicyCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "PATCH",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -362,7 +364,7 @@ export async function deserializeAws_restJson1_1CreateLifecyclePolicyCommand(
   const contents: CreateLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateLifecyclePolicyResponse",
-    PolicyId: undefined
+    PolicyId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.PolicyId !== undefined && data.PolicyId !== null) {
@@ -377,7 +379,7 @@ async function deserializeAws_restJson1_1CreateLifecyclePolicyCommandError(
 ): Promise<CreateLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -391,7 +393,7 @@ async function deserializeAws_restJson1_1CreateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -402,7 +404,7 @@ async function deserializeAws_restJson1_1CreateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -413,7 +415,7 @@ async function deserializeAws_restJson1_1CreateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -424,7 +426,7 @@ async function deserializeAws_restJson1_1CreateLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -445,7 +447,7 @@ export async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommand(
   }
   const contents: DeleteLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "DeleteLifecyclePolicyResponse"
+    __type: "DeleteLifecyclePolicyResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -457,7 +459,7 @@ async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommandError(
 ): Promise<DeleteLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -471,7 +473,7 @@ async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -482,7 +484,7 @@ async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -493,7 +495,7 @@ async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -504,7 +506,7 @@ async function deserializeAws_restJson1_1DeleteLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -526,7 +528,7 @@ export async function deserializeAws_restJson1_1GetLifecyclePoliciesCommand(
   const contents: GetLifecyclePoliciesCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLifecyclePoliciesResponse",
-    Policies: undefined
+    Policies: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Policies !== undefined && data.Policies !== null) {
@@ -544,7 +546,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
 ): Promise<GetLifecyclePoliciesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -558,7 +560,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -569,7 +571,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -580,7 +582,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -591,7 +593,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -602,7 +604,7 @@ async function deserializeAws_restJson1_1GetLifecyclePoliciesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -624,7 +626,7 @@ export async function deserializeAws_restJson1_1GetLifecyclePolicyCommand(
   const contents: GetLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "GetLifecyclePolicyResponse",
-    Policy: undefined
+    Policy: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Policy !== undefined && data.Policy !== null) {
@@ -642,7 +644,7 @@ async function deserializeAws_restJson1_1GetLifecyclePolicyCommandError(
 ): Promise<GetLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -656,7 +658,7 @@ async function deserializeAws_restJson1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -667,7 +669,7 @@ async function deserializeAws_restJson1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -678,7 +680,7 @@ async function deserializeAws_restJson1_1GetLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -689,7 +691,7 @@ async function deserializeAws_restJson1_1GetLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -711,7 +713,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    Tags: undefined
+    Tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.Tags !== undefined && data.Tags !== null) {
@@ -726,7 +728,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -740,7 +742,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -751,7 +753,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -762,7 +764,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -773,7 +775,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -791,7 +793,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
   }
   const contents: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -803,7 +805,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -817,7 +819,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -828,7 +830,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -839,7 +841,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -850,7 +852,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -868,7 +870,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
   }
   const contents: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -880,7 +882,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -894,7 +896,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -905,7 +907,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -916,7 +918,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -927,7 +929,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -948,7 +950,7 @@ export async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommand(
   }
   const contents: UpdateLifecyclePolicyCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UpdateLifecyclePolicyResponse"
+    __type: "UpdateLifecyclePolicyResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -960,7 +962,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
 ): Promise<UpdateLifecyclePolicyCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -974,7 +976,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "InvalidRequestException":
@@ -985,7 +987,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "LimitExceededException":
@@ -996,7 +998,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1007,7 +1009,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1018,7 +1020,7 @@ async function deserializeAws_restJson1_1UpdateLifecyclePolicyCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1036,7 +1038,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
-    Message: undefined
+    Message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Code !== undefined && data.Code !== null) {
@@ -1059,7 +1061,7 @@ const deserializeAws_restJson1_1InvalidRequestExceptionResponse = async (
     Code: undefined,
     Message: undefined,
     MutuallyExclusiveParameters: undefined,
-    RequiredParameters: undefined
+    RequiredParameters: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Code !== undefined && data.Code !== null) {
@@ -1099,7 +1101,7 @@ const deserializeAws_restJson1_1LimitExceededExceptionResponse = async (
     $metadata: deserializeMetadata(parsedOutput),
     Code: undefined,
     Message: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Code !== undefined && data.Code !== null) {
@@ -1125,7 +1127,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     Code: undefined,
     Message: undefined,
     ResourceIds: undefined,
-    ResourceType: undefined
+    ResourceType: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.Code !== undefined && data.Code !== null) {
@@ -1413,7 +1415,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -1478,7 +1480,7 @@ const deserializeAws_restJson1_1CreateRule = (
     __type: "CreateRule",
     Interval: undefined,
     IntervalUnit: undefined,
-    Times: undefined
+    Times: undefined,
   };
   if (output.Interval !== undefined && output.Interval !== null) {
     contents.Interval = output.Interval;
@@ -1499,7 +1501,7 @@ const deserializeAws_restJson1_1CrossRegionCopyRetainRule = (
   let contents: any = {
     __type: "CrossRegionCopyRetainRule",
     Interval: undefined,
-    IntervalUnit: undefined
+    IntervalUnit: undefined,
   };
   if (output.Interval !== undefined && output.Interval !== null) {
     contents.Interval = output.Interval;
@@ -1520,7 +1522,7 @@ const deserializeAws_restJson1_1CrossRegionCopyRule = (
     CopyTags: undefined,
     Encrypted: undefined,
     RetainRule: undefined,
-    TargetRegion: undefined
+    TargetRegion: undefined,
   };
   if (output.CmkArn !== undefined && output.CmkArn !== null) {
     contents.CmkArn = output.CmkArn;
@@ -1561,7 +1563,7 @@ const deserializeAws_restJson1_1FastRestoreRule = (
     AvailabilityZones: undefined,
     Count: undefined,
     Interval: undefined,
-    IntervalUnit: undefined
+    IntervalUnit: undefined,
   };
   if (
     output.AvailabilityZones !== undefined &&
@@ -1599,7 +1601,7 @@ const deserializeAws_restJson1_1LifecyclePolicy = (
     PolicyId: undefined,
     State: undefined,
     StatusMessage: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.DateCreated !== undefined && output.DateCreated !== null) {
     contents.DateCreated = new Date(output.DateCreated);
@@ -1649,7 +1651,7 @@ const deserializeAws_restJson1_1LifecyclePolicySummary = (
     Description: undefined,
     PolicyId: undefined,
     State: undefined,
-    Tags: undefined
+    Tags: undefined,
   };
   if (output.Description !== undefined && output.Description !== null) {
     contents.Description = output.Description;
@@ -1688,7 +1690,7 @@ const deserializeAws_restJson1_1_Parameters = (
 ): _Parameters => {
   let contents: any = {
     __type: "Parameters",
-    ExcludeBootVolume: undefined
+    ExcludeBootVolume: undefined,
   };
   if (
     output.ExcludeBootVolume !== undefined &&
@@ -1709,7 +1711,7 @@ const deserializeAws_restJson1_1PolicyDetails = (
     PolicyType: undefined,
     ResourceTypes: undefined,
     Schedules: undefined,
-    TargetTags: undefined
+    TargetTags: undefined,
   };
   if (output.Parameters !== undefined && output.Parameters !== null) {
     contents.Parameters = deserializeAws_restJson1_1_Parameters(
@@ -1763,7 +1765,7 @@ const deserializeAws_restJson1_1RetainRule = (
     __type: "RetainRule",
     Count: undefined,
     Interval: undefined,
-    IntervalUnit: undefined
+    IntervalUnit: undefined,
   };
   if (output.Count !== undefined && output.Count !== null) {
     contents.Count = output.Count;
@@ -1790,7 +1792,7 @@ const deserializeAws_restJson1_1Schedule = (
     Name: undefined,
     RetainRule: undefined,
     TagsToAdd: undefined,
-    VariableTags: undefined
+    VariableTags: undefined,
   };
   if (output.CopyTags !== undefined && output.CopyTags !== null) {
     contents.CopyTags = output.CopyTags;
@@ -1856,7 +1858,7 @@ const deserializeAws_restJson1_1Tag = (
   let contents: any = {
     __type: "Tag",
     Key: undefined,
-    Value: undefined
+    Value: undefined,
   };
   if (output.Key !== undefined && output.Key !== null) {
     contents.Key = output.Key;
@@ -1872,7 +1874,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -1915,7 +1917,7 @@ const deserializeAws_restJson1_1VariableTagsList = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1936,13 +1938,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1955,7 +1957,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;

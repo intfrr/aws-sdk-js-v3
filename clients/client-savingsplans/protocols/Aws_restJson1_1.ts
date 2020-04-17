@@ -1,34 +1,34 @@
 import {
   CreateSavingsPlanCommandInput,
-  CreateSavingsPlanCommandOutput
+  CreateSavingsPlanCommandOutput,
 } from "../commands/CreateSavingsPlanCommand";
 import {
   DescribeSavingsPlanRatesCommandInput,
-  DescribeSavingsPlanRatesCommandOutput
+  DescribeSavingsPlanRatesCommandOutput,
 } from "../commands/DescribeSavingsPlanRatesCommand";
 import {
   DescribeSavingsPlansCommandInput,
-  DescribeSavingsPlansCommandOutput
+  DescribeSavingsPlansCommandOutput,
 } from "../commands/DescribeSavingsPlansCommand";
 import {
   DescribeSavingsPlansOfferingRatesCommandInput,
-  DescribeSavingsPlansOfferingRatesCommandOutput
+  DescribeSavingsPlansOfferingRatesCommandOutput,
 } from "../commands/DescribeSavingsPlansOfferingRatesCommand";
 import {
   DescribeSavingsPlansOfferingsCommandInput,
-  DescribeSavingsPlansOfferingsCommandOutput
+  DescribeSavingsPlansOfferingsCommandOutput,
 } from "../commands/DescribeSavingsPlansOfferingsCommand";
 import {
   ListTagsForResourceCommandInput,
-  ListTagsForResourceCommandOutput
+  ListTagsForResourceCommandOutput,
 } from "../commands/ListTagsForResourceCommand";
 import {
   TagResourceCommandInput,
-  TagResourceCommandOutput
+  TagResourceCommandOutput,
 } from "../commands/TagResourceCommand";
 import {
   UntagResourceCommandInput,
-  UntagResourceCommandOutput
+  UntagResourceCommandOutput,
 } from "../commands/UntagResourceCommand";
 import {
   CurrencyCode,
@@ -52,18 +52,18 @@ import {
   SavingsPlanState,
   SavingsPlanType,
   ServiceQuotaExceededException,
-  ValidationException
+  ValidationException,
 } from "../models/index";
 import {
   HttpRequest as __HttpRequest,
-  HttpResponse as __HttpResponse
+  HttpResponse as __HttpResponse,
 } from "@aws-sdk/protocol-http";
 import { SmithyException as __SmithyException } from "@aws-sdk/smithy-client";
 import {
   Endpoint as __Endpoint,
   MetadataBearer as __MetadataBearer,
   ResponseMetadata as __ResponseMetadata,
-  SerdeContext as __SerdeContext
+  SerdeContext as __SerdeContext,
 } from "@aws-sdk/types";
 import { v4 as generateIdempotencyToken } from "uuid";
 
@@ -144,12 +144,12 @@ export async function serializeAws_restJson1_1DescribeSavingsPlansOfferingRatesC
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -241,12 +241,12 @@ export async function serializeAws_restJson1_1DescribeSavingsPlansOfferingsComma
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -279,12 +279,12 @@ export async function serializeAws_restJson1_1CreateSavingsPlanCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -314,12 +314,12 @@ export async function serializeAws_restJson1_1DescribeSavingsPlanRatesCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -364,12 +364,12 @@ export async function serializeAws_restJson1_1DescribeSavingsPlansCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -387,12 +387,12 @@ export async function serializeAws_restJson1_1ListTagsForResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -413,12 +413,12 @@ export async function serializeAws_restJson1_1TagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -442,12 +442,12 @@ export async function serializeAws_restJson1_1UntagResourceCommand(
   }
   body = JSON.stringify(bodyParams);
   return new __HttpRequest({
-    ...context.endpoint,
     protocol: "https",
     method: "POST",
     headers: headers,
     path: resolvedPath,
-    body: body
+    body: body,
+    ...context.endpoint,
   });
 }
 
@@ -465,7 +465,7 @@ export async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingRate
     $metadata: deserializeMetadata(output),
     __type: "DescribeSavingsPlansOfferingRatesResponse",
     nextToken: undefined,
-    searchResults: undefined
+    searchResults: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -486,7 +486,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingRatesComman
 ): Promise<DescribeSavingsPlansOfferingRatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -500,7 +500,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingRatesComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -511,7 +511,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingRatesComman
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -522,7 +522,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingRatesComman
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -545,7 +545,7 @@ export async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingsCom
     $metadata: deserializeMetadata(output),
     __type: "DescribeSavingsPlansOfferingsResponse",
     nextToken: undefined,
-    searchResults: undefined
+    searchResults: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -566,7 +566,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingsCommandErr
 ): Promise<DescribeSavingsPlansOfferingsCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -580,7 +580,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingsCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -591,7 +591,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingsCommandErr
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -602,7 +602,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansOfferingsCommandErr
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -624,7 +624,7 @@ export async function deserializeAws_restJson1_1CreateSavingsPlanCommand(
   const contents: CreateSavingsPlanCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "CreateSavingsPlanResponse",
-    savingsPlanId: undefined
+    savingsPlanId: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.savingsPlanId !== undefined && data.savingsPlanId !== null) {
@@ -639,7 +639,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
 ): Promise<CreateSavingsPlanCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -653,7 +653,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -664,7 +664,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -675,7 +675,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -686,7 +686,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -697,7 +697,7 @@ async function deserializeAws_restJson1_1CreateSavingsPlanCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -721,7 +721,7 @@ export async function deserializeAws_restJson1_1DescribeSavingsPlanRatesCommand(
     __type: "DescribeSavingsPlanRatesResponse",
     nextToken: undefined,
     savingsPlanId: undefined,
-    searchResults: undefined
+    searchResults: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -745,7 +745,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlanRatesCommandError(
 ): Promise<DescribeSavingsPlanRatesCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -759,7 +759,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlanRatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -770,7 +770,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlanRatesCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -781,7 +781,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlanRatesCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -804,7 +804,7 @@ export async function deserializeAws_restJson1_1DescribeSavingsPlansCommand(
     $metadata: deserializeMetadata(output),
     __type: "DescribeSavingsPlansResponse",
     nextToken: undefined,
-    savingsPlans: undefined
+    savingsPlans: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.nextToken !== undefined && data.nextToken !== null) {
@@ -825,7 +825,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansCommandError(
 ): Promise<DescribeSavingsPlansCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -839,7 +839,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -850,7 +850,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -861,7 +861,7 @@ async function deserializeAws_restJson1_1DescribeSavingsPlansCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -883,7 +883,7 @@ export async function deserializeAws_restJson1_1ListTagsForResourceCommand(
   const contents: ListTagsForResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
     __type: "ListTagsForResourceResponse",
-    tags: undefined
+    tags: undefined,
   };
   const data: any = await parseBody(output.body, context);
   if (data.tags !== undefined && data.tags !== null) {
@@ -898,7 +898,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
 ): Promise<ListTagsForResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -912,7 +912,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -923,7 +923,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -934,7 +934,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -945,7 +945,7 @@ async function deserializeAws_restJson1_1ListTagsForResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -963,7 +963,7 @@ export async function deserializeAws_restJson1_1TagResourceCommand(
   }
   const contents: TagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "TagResourceResponse"
+    __type: "TagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -975,7 +975,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
 ): Promise<TagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -989,7 +989,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1000,7 +1000,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ServiceQuotaExceededException":
@@ -1011,7 +1011,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1022,7 +1022,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1033,7 +1033,7 @@ async function deserializeAws_restJson1_1TagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1051,7 +1051,7 @@ export async function deserializeAws_restJson1_1UntagResourceCommand(
   }
   const contents: UntagResourceCommandOutput = {
     $metadata: deserializeMetadata(output),
-    __type: "UntagResourceResponse"
+    __type: "UntagResourceResponse",
   };
   await collectBody(output.body, context);
   return Promise.resolve(contents);
@@ -1063,7 +1063,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
 ): Promise<UntagResourceCommandOutput> {
   const parsedOutput: any = {
     ...output,
-    body: await parseBody(output.body, context)
+    body: await parseBody(output.body, context),
   };
   let response: __SmithyException & __MetadataBearer & { [key: string]: any };
   let errorCode: string = "UnknownError";
@@ -1077,7 +1077,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ResourceNotFoundException":
@@ -1088,7 +1088,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     case "ValidationException":
@@ -1099,7 +1099,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
           context
         )),
         name: errorCode,
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       };
       break;
     default:
@@ -1110,7 +1110,7 @@ async function deserializeAws_restJson1_1UntagResourceCommandError(
         name: `${errorCode}`,
         message: parsedBody.message || parsedBody.Message || errorCode,
         $fault: "client",
-        $metadata: deserializeMetadata(output)
+        $metadata: deserializeMetadata(output),
       } as any;
   }
   const message = response.message || response.Message || errorCode;
@@ -1127,7 +1127,7 @@ const deserializeAws_restJson1_1InternalServerExceptionResponse = async (
     name: "InternalServerException",
     $fault: "server",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1144,7 +1144,7 @@ const deserializeAws_restJson1_1ResourceNotFoundExceptionResponse = async (
     name: "ResourceNotFoundException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1161,7 +1161,7 @@ const deserializeAws_restJson1_1ServiceQuotaExceededExceptionResponse = async (
     name: "ServiceQuotaExceededException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1178,7 +1178,7 @@ const deserializeAws_restJson1_1ValidationExceptionResponse = async (
     name: "ValidationException",
     $fault: "client",
     $metadata: deserializeMetadata(parsedOutput),
-    message: undefined
+    message: undefined,
   };
   const data: any = parsedOutput.body;
   if (data.message !== undefined && data.message !== null) {
@@ -1522,7 +1522,7 @@ const serializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): any => {
   const mapParams: any = {};
-  Object.keys(input).forEach(key => {
+  Object.keys(input).forEach((key) => {
     mapParams[key] = input[key];
   });
   return mapParams;
@@ -1539,7 +1539,7 @@ const deserializeAws_restJson1_1ParentSavingsPlanOffering = (
     offeringId: undefined,
     paymentOption: undefined,
     planDescription: undefined,
-    planType: undefined
+    planType: undefined,
   };
   if (output.currency !== undefined && output.currency !== null) {
     contents.currency = output.currency;
@@ -1578,7 +1578,7 @@ const deserializeAws_restJson1_1SavingsPlanOffering = (
     productTypes: undefined,
     properties: undefined,
     serviceCode: undefined,
-    usageType: undefined
+    usageType: undefined,
   };
   if (output.currency !== undefined && output.currency !== null) {
     contents.currency = output.currency;
@@ -1629,7 +1629,7 @@ const deserializeAws_restJson1_1SavingsPlanOfferingProperty = (
   let contents: any = {
     __type: "SavingsPlanOfferingProperty",
     name: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -1662,7 +1662,7 @@ const deserializeAws_restJson1_1SavingsPlanOfferingRate = (
     savingsPlanOffering: undefined,
     serviceCode: undefined,
     unit: undefined,
-    usageType: undefined
+    usageType: undefined,
   };
   if (output.operation !== undefined && output.operation !== null) {
     contents.operation = output.operation;
@@ -1707,7 +1707,7 @@ const deserializeAws_restJson1_1SavingsPlanOfferingRateProperty = (
   let contents: any = {
     __type: "SavingsPlanOfferingRateProperty",
     name: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -1759,7 +1759,7 @@ const deserializeAws_restJson1_1SavingsPlanRateProperty = (
   let contents: any = {
     __type: "SavingsPlanRateProperty",
     name: undefined,
-    value: undefined
+    value: undefined,
   };
   if (output.name !== undefined && output.name !== null) {
     contents.name = output.name;
@@ -1802,7 +1802,7 @@ const deserializeAws_restJson1_1SavingsPlan = (
     state: undefined,
     tags: undefined,
     termDurationInSeconds: undefined,
-    upfrontPaymentAmount: undefined
+    upfrontPaymentAmount: undefined,
   };
   if (output.commitment !== undefined && output.commitment !== null) {
     contents.commitment = output.commitment;
@@ -1898,7 +1898,7 @@ const deserializeAws_restJson1_1SavingsPlanRate = (
     rate: undefined,
     serviceCode: undefined,
     unit: undefined,
-    usageType: undefined
+    usageType: undefined,
   };
   if (output.currency !== undefined && output.currency !== null) {
     contents.currency = output.currency;
@@ -1944,7 +1944,7 @@ const deserializeAws_restJson1_1TagMap = (
   context: __SerdeContext
 ): { [key: string]: string } => {
   const mapParams: any = {};
-  Object.keys(output).forEach(key => {
+  Object.keys(output).forEach((key) => {
     mapParams[key] = output[key];
   });
   return mapParams;
@@ -1953,7 +1953,7 @@ const deserializeAws_restJson1_1TagMap = (
 const deserializeMetadata = (output: __HttpResponse): __ResponseMetadata => ({
   httpStatusCode: output.statusCode,
   httpHeaders: output.headers,
-  requestId: output.headers["x-amzn-requestid"]
+  requestId: output.headers["x-amzn-requestid"],
 });
 
 // Collect low-level response body stream to Uint8Array.
@@ -1974,13 +1974,13 @@ const collectBodyString = (
   streamBody: any,
   context: __SerdeContext
 ): Promise<string> => {
-  return collectBody(streamBody, context).then(body =>
+  return collectBody(streamBody, context).then((body) =>
     context.utf8Encoder(body)
   );
 };
 
 const parseBody = (streamBody: any, context: __SerdeContext): any => {
-  return collectBodyString(streamBody, context).then(encoded => {
+  return collectBodyString(streamBody, context).then((encoded) => {
     if (encoded.length) {
       return JSON.parse(encoded);
     }
@@ -1993,7 +1993,7 @@ const parseBody = (streamBody: any, context: __SerdeContext): any => {
  */
 const loadRestJsonErrorCode = (output: __HttpResponse, data: any): string => {
   const findKey = (object: any, key: string) =>
-    Object.keys(object).find(k => k.toLowerCase() === key.toLowerCase());
+    Object.keys(object).find((k) => k.toLowerCase() === key.toLowerCase());
 
   const sanitizeErrorCode = (rawValue: string): string => {
     let cleanValue = rawValue;
